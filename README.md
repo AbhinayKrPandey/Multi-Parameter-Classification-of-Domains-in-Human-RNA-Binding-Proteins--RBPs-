@@ -4,9 +4,9 @@ This repository contains the scripts and analysis performed for the thesis, whic
 ## Core Objectives
 ### Data Curation: 
 To create a robust dataset of standard reported RNA-binding domains (RBDs) from a large dataset of structurally solved human RBPs.
-### Conservation Analysis: To quantify the degree of amino acid conservation within these domains and assess its relationship with various physicochemical parameters.
-### Domain Classification: To develop a multi-parameter classification system for domains based on their unique conservation patterns and correlations.
-### Functional Correlation: To correlate these classification patterns with the known catalytic activities of the domains, revealing how functional constraints influence evolutionary pressures.
+-- Conservation Analysis: To quantify the degree of amino acid conservation within these domains and assess its relationship with various physicochemical parameters.
+-- Domain Classification: To develop a multi-parameter classification system for domains based on their unique conservation patterns and correlations.
+-- Functional Correlation: To correlate these classification patterns with the known catalytic activities of the domains, revealing how functional constraints influence evolutionary pressures.
 ## Methodology
 The research followed a detailed and reproducible methodology, leveraging key bioinformatics tools and Python libraries:
 ### Datasets
