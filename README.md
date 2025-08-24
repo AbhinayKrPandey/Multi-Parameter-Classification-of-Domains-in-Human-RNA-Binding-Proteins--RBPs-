@@ -20,8 +20,8 @@ The research followed a detailed and reproducible methodology, leveraging key bi
 ### ClustalW2 (v. 2.1): A powerful tool for performing Multiple Sequence Alignments (MSA) of domain sequences.
 ### IUPred3: Employed for predicting intrinsically disordered regions by estimating residue-specific energy changes. This tool provided both long and short disorder scores.
 ### Key Analytical Steps
-Domain Identification: A custom Python script was used to identify and extract domain boundaries from UniProt XML files.
-Disorder Prediction: IUPred3 was run on all domains to characterize their structural properties and predict intrinsically disordered regions.
+- Domain Identification: A custom Python script was used to identify and extract domain boundaries from UniProt XML files.
+- Disorder Prediction: IUPred3 was run on all domains to characterize their structural properties and predict intrinsically disordered regions.
 ## Conservation Quantification:
 ### Shannon Entropy (Hi): Calculated for each aligned position to measure variability. A value of zero indicates perfect conservation.
 ### Amino Acid Conservation Factor: 
