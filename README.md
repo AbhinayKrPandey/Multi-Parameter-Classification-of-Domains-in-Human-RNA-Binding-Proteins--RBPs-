@@ -10,13 +10,13 @@ To create a robust dataset of standard reported RNA-binding domains (RBDs) from 
 ## Methodology
 The research followed a detailed and reproducible methodology, leveraging key bioinformatics tools and Python libraries:
 ### Datasets
-A curated dataset of 658 human RBPs with experimentally resolved structures, sourced from the UniProt Database and Protein Data Bank (PDB).
-Protein sequences and domain annotations were retrieved from UniProt in FASTA and XML formats.
+- A curated dataset of 658 human RBPs with experimentally resolved structures, sourced from the UniProt Database and Protein Data Bank (PDB).
+- Protein sequences and domain annotations were retrieved from UniProt in FASTA and XML formats.
 ### Tools and Software
-Python 3.8: Used as the primary programming language for all automation, data processing, and analysis.
-Pandas: Utilized for efficient data manipulation, filtering, and organization of tabular data.
-NumPy and SciPy: Enabled numerical computations and statistical analysis, including Pearson correlation analysis and linear regression.
-Matplotlib: Used for generating all visualizations, such as histograms and plots.
+- Python 3.8: Used as the primary programming language for all automation, data processing, and analysis.
+- Pandas: Utilized for efficient data manipulation, filtering, and organization of tabular data.
+- NumPy and SciPy: Enabled numerical computations and statistical analysis, including Pearson correlation analysis and linear regression.
+- Matplotlib: Used for generating all visualizations, such as histograms and plots.
 ### ClustalW2 (v. 2.1): A powerful tool for performing Multiple Sequence Alignments (MSA) of domain sequences.
 ### IUPred3: Employed for predicting intrinsically disordered regions by estimating residue-specific energy changes. This tool provided both long and short disorder scores.
 ### Key Analytical Steps
