@@ -1,0 +1,311 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9687	
+2	D	0.8972	
+3	L	0.8357	
+4	S	0.7789	
+5	E	0.7239	
+6	L	0.6690	
+7	E	0.6140	
+8	R	0.5597	
+9	D	0.5076	
+10	N	0.4594	
+11	T	0.4206	
+12	G	0.3916	
+13	R	0.3652	
+14	C	0.3449	
+15	R	0.3254	
+16	L	0.3106	
+17	S	0.2845	
+18	S	0.2559	
+19	P	0.2172	
+20	V	0.1827	
+21	P	0.1529	
+22	A	0.1261	
+23	V	0.1068	
+24	C	0.1065	
+25	R	0.1224	
+26	K	0.1482	
+27	E	0.1599	
+28	P	0.1542	domain RNase H type-2
+29	C	0.1497	domain RNase H type-2
+30	V	0.1431	domain RNase H type-2
+31	L	0.1384	domain RNase H type-2
+32	G	0.1295	domain RNase H type-2
+33	V	0.1235	domain RNase H type-2
+34	D	0.1225	domain RNase H type-2
+35	E	0.1142	domain RNase H type-2
+36	A	0.1079	domain RNase H type-2
+37	G	0.0963	domain RNase H type-2
+38	R	0.0824	domain RNase H type-2
+39	G	0.0676	domain RNase H type-2
+40	P	0.0517	domain RNase H type-2
+41	V	0.0347	domain RNase H type-2
+42	L	0.0278	domain RNase H type-2
+43	G	0.0298	domain RNase H type-2
+44	P	0.0352	domain RNase H type-2
+45	M	0.0342	domain RNase H type-2
+46	V	0.0307	domain RNase H type-2
+47	Y	0.0275	domain RNase H type-2
+48	A	0.0238	domain RNase H type-2
+49	I	0.0225	domain RNase H type-2
+50	C	0.0191	domain RNase H type-2
+51	Y	0.0162	domain RNase H type-2
+52	C	0.0137	domain RNase H type-2
+53	P	0.0107	domain RNase H type-2
+54	L	0.0130	domain RNase H type-2
+55	P	0.0118	domain RNase H type-2
+56	R	0.0157	domain RNase H type-2
+57	L	0.0160	domain RNase H type-2
+58	A	0.0217	domain RNase H type-2
+59	D	0.0321	domain RNase H type-2
+60	L	0.0408	domain RNase H type-2
+61	E	0.0521	domain RNase H type-2
+62	A	0.0743	domain RNase H type-2
+63	L	0.0970	domain RNase H type-2
+64	K	0.1192	domain RNase H type-2
+65	V	0.1414	domain RNase H type-2
+66	A	0.1540	domain RNase H type-2
+67	D	0.1614	domain RNase H type-2
+68	S	0.1589	domain RNase H type-2
+69	K	0.1442	domain RNase H type-2
+70	T	0.1342	domain RNase H type-2
+71	L	0.1367	domain RNase H type-2
+72	L	0.1473	domain RNase H type-2
+73	E	0.1666	domain RNase H type-2
+74	S	0.1912	domain RNase H type-2
+75	E	0.2066	domain RNase H type-2
+76	R	0.2189	domain RNase H type-2
+77	E	0.2259	domain RNase H type-2
+78	R	0.2203	domain RNase H type-2
+79	L	0.2037	domain RNase H type-2
+80	F	0.1839	domain RNase H type-2
+81	A	0.1555	domain RNase H type-2
+82	K	0.1283	domain RNase H type-2
+83	M	0.1099	domain RNase H type-2
+84	E	0.0950	domain RNase H type-2
+85	D	0.0904	domain RNase H type-2
+86	T	0.0838	domain RNase H type-2
+87	D	0.0694	domain RNase H type-2
+88	F	0.0632	domain RNase H type-2
+89	V	0.0637	domain RNase H type-2
+90	G	0.0641	domain RNase H type-2
+91	W	0.0733	domain RNase H type-2
+92	A	0.0775	domain RNase H type-2
+93	L	0.0808	domain RNase H type-2
+94	D	0.0747	domain RNase H type-2
+95	V	0.0682	domain RNase H type-2
+96	L	0.0611	domain RNase H type-2
+97	S	0.0534	domain RNase H type-2
+98	P	0.0508	domain RNase H type-2
+99	N	0.0476	domain RNase H type-2
+100	L	0.0468	domain RNase H type-2
+101	I	0.0514	domain RNase H type-2
+102	S	0.0610	domain RNase H type-2
+103	T	0.0735	domain RNase H type-2
+104	S	0.0774	domain RNase H type-2
+105	M	0.0763	domain RNase H type-2
+106	L	0.0798	domain RNase H type-2
+107	G	0.0922	domain RNase H type-2
+108	R	0.1069	domain RNase H type-2
+109	V	0.1192	domain RNase H type-2
+110	K	0.1256	domain RNase H type-2
+111	Y	0.1366	domain RNase H type-2
+112	N	0.1383	domain RNase H type-2
+113	L	0.1402	domain RNase H type-2
+114	N	0.1282	domain RNase H type-2
+115	S	0.1185	domain RNase H type-2
+116	L	0.1048	domain RNase H type-2
+117	S	0.0923	domain RNase H type-2
+118	H	0.0877	domain RNase H type-2
+119	D	0.0815	domain RNase H type-2
+120	T	0.0852	domain RNase H type-2
+121	A	0.1005	domain RNase H type-2
+122	T	0.1189	domain RNase H type-2
+123	G	0.1326	domain RNase H type-2
+124	L	0.1398	domain RNase H type-2
+125	I	0.1474	domain RNase H type-2
+126	Q	0.1480	domain RNase H type-2
+127	Y	0.1414	domain RNase H type-2
+128	A	0.1224	domain RNase H type-2
+129	L	0.1050	domain RNase H type-2
+130	D	0.0815	domain RNase H type-2
+131	Q	0.0710	domain RNase H type-2
+132	G	0.0569	domain RNase H type-2
+133	V	0.0621	domain RNase H type-2
+134	N	0.0692	domain RNase H type-2
+135	V	0.0978	domain RNase H type-2
+136	T	0.1335	domain RNase H type-2
+137	Q	0.1619	domain RNase H type-2
+138	V	0.1753	domain RNase H type-2
+139	F	0.1883	domain RNase H type-2
+140	V	0.2016	domain RNase H type-2
+141	D	0.2033	domain RNase H type-2
+142	T	0.1992	domain RNase H type-2
+143	V	0.1839	domain RNase H type-2
+144	G	0.1774	domain RNase H type-2
+145	M	0.1820	domain RNase H type-2
+146	P	0.1897	domain RNase H type-2
+147	E	0.2042	domain RNase H type-2
+148	T	0.2142	domain RNase H type-2
+149	Y	0.2292	domain RNase H type-2
+150	Q	0.2375	domain RNase H type-2
+151	A	0.2435	domain RNase H type-2
+152	R	0.2341	domain RNase H type-2
+153	L	0.2285	domain RNase H type-2
+154	Q	0.2201	domain RNase H type-2
+155	Q	0.2095	domain RNase H type-2
+156	S	0.1843	domain RNase H type-2
+157	F	0.1681	domain RNase H type-2
+158	P	0.1573	domain RNase H type-2
+159	G	0.1487	domain RNase H type-2
+160	I	0.1423	domain RNase H type-2
+161	E	0.1248	domain RNase H type-2
+162	V	0.1150	domain RNase H type-2
+163	T	0.1056	domain RNase H type-2
+164	V	0.0984	domain RNase H type-2
+165	K	0.0893	domain RNase H type-2
+166	A	0.0787	domain RNase H type-2
+167	K	0.0684	domain RNase H type-2
+168	A	0.0640	domain RNase H type-2
+169	D	0.0605	domain RNase H type-2
+170	A	0.0517	domain RNase H type-2
+171	L	0.0453	domain RNase H type-2
+172	Y	0.0462	domain RNase H type-2
+173	P	0.0489	domain RNase H type-2
+174	V	0.0475	domain RNase H type-2
+175	V	0.0479	domain RNase H type-2
+176	S	0.0495	domain RNase H type-2
+177	A	0.0562	domain RNase H type-2
+178	A	0.0604	domain RNase H type-2
+179	S	0.0637	domain RNase H type-2
+180	I	0.0659	domain RNase H type-2
+181	C	0.0679	domain RNase H type-2
+182	A	0.0741	domain RNase H type-2
+183	K	0.0739	domain RNase H type-2
+184	V	0.0758	domain RNase H type-2
+185	A	0.0762	domain RNase H type-2
+186	R	0.0815	domain RNase H type-2
+187	D	0.0814	domain RNase H type-2
+188	Q	0.0854	domain RNase H type-2
+189	A	0.0922	domain RNase H type-2
+190	V	0.1078	domain RNase H type-2
+191	K	0.1276	domain RNase H type-2
+192	K	0.1541	domain RNase H type-2
+193	W	0.1735	domain RNase H type-2
+194	Q	0.1872	domain RNase H type-2
+195	F	0.2011	domain RNase H type-2
+196	V	0.2035	domain RNase H type-2
+197	E	0.2071	domain RNase H type-2
+198	K	0.2057	domain RNase H type-2
+199	L	0.2040	domain RNase H type-2
+200	Q	0.2110	domain RNase H type-2
+201	D	0.2321	domain RNase H type-2
+202	L	0.2680	domain RNase H type-2
+203	D	0.3116	domain RNase H type-2
+204	T	0.3619	domain RNase H type-2
+205	D	0.3925	domain RNase H type-2
+206	Y	0.4194	domain RNase H type-2
+207	G	0.4346	domain RNase H type-2
+208	S	0.4364	domain RNase H type-2
+209	G	0.4214	domain RNase H type-2
+210	Y	0.4131	domain RNase H type-2
+211	P	0.3966	domain RNase H type-2
+212	N	0.3928	domain RNase H type-2
+213	D	0.3898	domain RNase H type-2
+214	P	0.3806	domain RNase H type-2
+215	K	0.3827	domain RNase H type-2
+216	T	0.3884	domain RNase H type-2
+217	K	0.3871	domain RNase H type-2
+218	A	0.3797	domain RNase H type-2
+219	W	0.3674	domain RNase H type-2
+220	L	0.3491	domain RNase H type-2
+221	K	0.3279	domain RNase H type-2
+222	E	0.3001	domain RNase H type-2
+223	H	0.2565	domain RNase H type-2
+224	V	0.2148	domain RNase H type-2
+225	E	0.1768	domain RNase H type-2
+226	P	0.1490	domain RNase H type-2
+227	V	0.1275	domain RNase H type-2
+228	F	0.1202	domain RNase H type-2
+229	G	0.1261	domain RNase H type-2
+230	F	0.1497	domain RNase H type-2
+231	P	0.1648	domain RNase H type-2
+232	Q	0.1758	domain RNase H type-2
+233	F	0.1710	domain RNase H type-2
+234	V	0.1655	domain RNase H type-2
+235	R	0.1659	domain RNase H type-2
+236	F	0.1738	domain RNase H type-2
+237	S	0.1771	domain RNase H type-2
+238	W	0.1832	domain RNase H type-2
+239	R	0.1880	domain RNase H type-2
+240	T	0.1970	domain RNase H type-2
+241	A	0.2028	domain RNase H type-2
+242	Q	0.2031	domain RNase H type-2
+243	T	0.2027	domain RNase H type-2
+244	I	0.2053	domain RNase H type-2
+245	L	0.2131	domain RNase H type-2
+246	E	0.2271	domain RNase H type-2
+247	K	0.2571	domain RNase H type-2
+248	E	0.2876	domain RNase H type-2
+249	A	0.3189	domain RNase H type-2
+250	E	0.3560	domain RNase H type-2
+251	D	0.3784	
+252	V	0.3874	
+253	I	0.3953	
+254	W	0.4092	
+255	E	0.4203	
+256	D	0.4231	
+257	S	0.4057	
+258	A	0.3840	
+259	S	0.3613	
+260	E	0.3394	
+261	N	0.3250	
+262	Q	0.3186	
+263	E	0.3211	
+264	G	0.3328	
+265	L	0.3551	
+266	R	0.3765	
+267	K	0.3995	
+268	I	0.4153	
+269	T	0.4254	
+270	S	0.4263	
+271	Y	0.4227	
+272	F	0.4228	
+273	L	0.4298	
+274	N	0.4299	
+275	E	0.4245	
+276	G	0.4114	
+277	S	0.3981	
+278	Q	0.3899	
+279	A	0.3885	
+280	R	0.3918	
+281	P	0.4053	
+282	R	0.4195	
+283	S	0.4299	
+284	S	0.4413	
+285	H	0.4527	
+286	R	0.4515	
+287	Y	0.4448	
+288	F	0.4414	
+289	L	0.4451	
+290	E	0.4553	
+291	R	0.4794	
+292	G	0.5097	
+293	L	0.5445	
+294	E	0.5825	
+295	S	0.6238	
+296	A	0.6697	
+297	T	0.7240	
+298	S	0.7930	
+299	L	0.8863	

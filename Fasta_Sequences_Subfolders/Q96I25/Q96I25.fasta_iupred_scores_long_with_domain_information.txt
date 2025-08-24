@@ -1,0 +1,413 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.3041	
+2	S	0.3579	
+3	L	0.3996	
+4	Y	0.4311	
+5	D	0.4540	
+6	D	0.4694	
+7	L	0.4785	
+8	G	0.4822	
+9	V	0.4816	
+10	E	0.4774	
+11	T	0.4670	
+12	S	0.4578	
+13	D	0.4470	
+14	S	0.4441	
+15	K	0.4477	
+16	T	0.4559	
+17	E	0.4622	
+18	G	0.4566	
+19	W	0.4587	
+20	S	0.4592	
+21	K	0.4579	
+22	N	0.4360	
+23	F	0.4163	
+24	K	0.3889	
+25	L	0.3602	
+26	L	0.3361	
+27	Q	0.3268	
+28	S	0.3234	
+29	Q	0.3215	
+30	L	0.3290	
+31	Q	0.3418	
+32	V	0.3755	
+33	K	0.4180	
+34	K	0.4713	
+35	A	0.5096	
+36	A	0.5350	
+37	L	0.5630	
+38	T	0.5819	
+39	Q	0.6016	
+40	A	0.6009	
+41	K	0.5902	
+42	S	0.5750	
+43	Q	0.5626	
+44	R	0.5478	
+45	T	0.5428	
+46	K	0.5458	
+47	Q	0.5451	
+48	S	0.5478	
+49	T	0.5426	
+50	V	0.5493	
+51	L	0.5671	
+52	A	0.5973	
+53	P	0.6116	
+54	V	0.6071	
+55	I	0.5906	
+56	D	0.5682	
+57	L	0.5583	
+58	K	0.5467	
+59	R	0.5507	
+60	G	0.5618	
+61	G	0.5867	
+62	S	0.6228	
+63	S	0.6676	
+64	D	0.7097	
+65	D	0.7510	
+66	R	0.7807	
+67	Q	0.7888	
+68	I	0.7824	
+69	V	0.7805	
+70	D	0.7882	
+71	T	0.7983	
+72	P	0.7929	
+73	P	0.7729	
+74	H	0.7531	
+75	V	0.7445	
+76	A	0.7483	
+77	A	0.7577	
+78	G	0.7554	
+79	L	0.7485	
+80	K	0.7304	
+81	D	0.7033	
+82	P	0.6666	
+83	V	0.6318	
+84	P	0.5890	
+85	S	0.5493	
+86	G	0.5155	
+87	F	0.5014	
+88	S	0.5068	
+89	A	0.5242	
+90	G	0.5382	
+91	E	0.5424	
+92	V	0.5311	
+93	L	0.5174	
+94	I	0.5185	
+95	P	0.5188	
+96	L	0.5186	
+97	A	0.5082	
+98	D	0.5017	
+99	E	0.4943	
+100	Y	0.4895	
+101	D	0.4920	
+102	P	0.4986	
+103	M	0.5073	
+104	F	0.5206	
+105	P	0.5471	
+106	N	0.5819	
+107	D	0.6168	
+108	Y	0.6499	
+109	E	0.6791	
+110	K	0.6976	
+111	V	0.7026	
+112	V	0.7041	
+113	K	0.7123	
+114	R	0.7198	
+115	Q	0.7136	
+116	R	0.7142	
+117	E	0.7112	
+118	E	0.7114	
+119	R	0.7213	
+120	Q	0.7414	
+121	R	0.7623	
+122	Q	0.7777	
+123	R	0.7976	
+124	E	0.8124	
+125	L	0.8174	
+126	E	0.8180	
+127	R	0.8207	
+128	Q	0.8149	
+129	K	0.8066	
+130	E	0.7970	
+131	I	0.8006	
+132	E	0.8079	
+133	E	0.8135	
+134	R	0.8111	
+135	E	0.7998	
+136	K	0.7872	
+137	R	0.7752	
+138	R	0.7678	
+139	K	0.7687	
+140	D	0.7738	
+141	R	0.7879	
+142	H	0.8026	
+143	E	0.8271	
+144	A	0.8546	
+145	S	0.8831	
+146	G	0.8959	
+147	F	0.9028	
+148	A	0.9004	
+149	R	0.8985	
+150	R	0.8928	
+151	P	0.8873	
+152	D	0.8793	
+153	P	0.8702	
+154	D	0.8640	
+155	S	0.8624	
+156	D	0.8655	
+157	E	0.8782	
+158	D	0.8957	
+159	E	0.9095	
+160	D	0.9097	
+161	Y	0.9043	
+162	E	0.8870	
+163	R	0.8719	
+164	E	0.8531	
+165	R	0.8316	
+166	R	0.8115	
+167	K	0.7993	
+168	R	0.7891	
+169	S	0.7791	
+170	M	0.7792	
+171	G	0.7768	
+172	G	0.7748	
+173	A	0.7628	
+174	A	0.7558	
+175	I	0.7508	
+176	A	0.7564	
+177	P	0.7662	
+178	P	0.7661	
+179	T	0.7540	
+180	S	0.7343	
+181	L	0.7257	
+182	V	0.7159	
+183	E	0.7124	
+184	K	0.7098	
+185	D	0.7034	
+186	K	0.6999	
+187	E	0.6975	
+188	L	0.7093	
+189	P	0.7246	
+190	R	0.7459	
+191	D	0.7606	
+192	F	0.7818	
+193	P	0.7941	
+194	Y	0.8093	
+195	E	0.8198	
+196	E	0.8323	
+197	D	0.8325	
+198	S	0.8273	
+199	R	0.8237	
+200	P	0.8201	
+201	R	0.8280	
+202	S	0.8372	
+203	Q	0.8463	
+204	S	0.8572	
+205	S	0.8629	
+206	K	0.8670	
+207	A	0.8690	
+208	A	0.8700	
+209	I	0.8718	
+210	P	0.8766	
+211	P	0.8802	
+212	P	0.8811	
+213	V	0.8797	
+214	Y	0.8924	
+215	E	0.9063	
+216	E	0.9182	
+217	Q	0.9189	
+218	D	0.9118	
+219	R	0.8989	
+220	P	0.8830	
+221	R	0.8730	
+222	S	0.8631	
+223	P	0.8537	
+224	T	0.8522	
+225	G	0.8556	
+226	P	0.8599	
+227	S	0.8582	
+228	N	0.8557	
+229	S	0.8415	
+230	F	0.8180	
+231	L	0.7859	
+232	A	0.7492	
+233	N	0.7067	
+234	M	0.6554	
+235	G	0.5941	domain G-patch
+236	G	0.5444	domain G-patch
+237	T	0.5030	domain G-patch
+238	V	0.4796	domain G-patch
+239	A	0.4738	domain G-patch
+240	H	0.4794	domain G-patch
+241	K	0.4885	domain G-patch
+242	I	0.4995	domain G-patch
+243	M	0.5202	domain G-patch
+244	Q	0.5445	domain G-patch
+245	K	0.5512	domain G-patch
+246	Y	0.5479	domain G-patch
+247	G	0.5440	domain G-patch
+248	F	0.5456	domain G-patch
+249	R	0.5510	domain G-patch
+250	E	0.5678	domain G-patch
+251	G	0.5772	domain G-patch
+252	Q	0.5759	domain G-patch
+253	G	0.5656	domain G-patch
+254	L	0.5616	domain G-patch
+255	G	0.5609	domain G-patch
+256	K	0.5709	domain G-patch
+257	H	0.5804	domain G-patch
+258	E	0.5927	domain G-patch
+259	Q	0.6038	domain G-patch
+260	G	0.6149	domain G-patch
+261	L	0.6386	domain G-patch
+262	S	0.6634	domain G-patch
+263	T	0.6696	domain G-patch
+264	A	0.6508	domain G-patch
+265	L	0.6230	domain G-patch
+266	S	0.5873	domain G-patch
+267	V	0.5523	domain G-patch
+268	E	0.5168	domain G-patch
+269	K	0.4843	domain G-patch
+270	T	0.4518	domain G-patch
+271	S	0.4315	domain G-patch
+272	K	0.4269	domain G-patch
+273	R	0.4432	domain G-patch
+274	G	0.4773	domain G-patch
+275	G	0.5093	domain G-patch
+276	K	0.5338	domain G-patch
+277	I	0.5422	domain G-patch
+278	I	0.5525	domain G-patch
+279	V	0.5679	domain G-patch
+280	G	0.5727	domain G-patch
+281	D	0.5725	domain G-patch
+282	A	0.5690	domain G-patch
+283	T	0.5628	domain G-patch
+284	E	0.5734	
+285	K	0.5889	
+286	D	0.5967	
+287	A	0.6051	
+288	S	0.6044	
+289	K	0.6043	
+290	K	0.5999	
+291	S	0.5969	
+292	D	0.5872	
+293	S	0.5645	
+294	N	0.5286	
+295	P	0.4830	
+296	L	0.4434	
+297	T	0.4116	
+298	E	0.3798	
+299	I	0.3392	
+300	L	0.3013	
+301	K	0.2675	
+302	C	0.2493	
+303	P	0.2243	
+304	T	0.2111	
+305	K	0.1910	
+306	V	0.1818	domain RRM
+307	V	0.1837	domain RRM
+308	L	0.1947	domain RRM
+309	L	0.2164	domain RRM
+310	R	0.2393	domain RRM
+311	N	0.2498	domain RRM
+312	M	0.2562	domain RRM
+313	V	0.2652	domain RRM
+314	G	0.2747	domain RRM
+315	A	0.2974	domain RRM
+316	G	0.3250	domain RRM
+317	E	0.3445	domain RRM
+318	V	0.3725	domain RRM
+319	D	0.4067	domain RRM
+320	E	0.4373	domain RRM
+321	D	0.4513	domain RRM
+322	L	0.4635	domain RRM
+323	E	0.4563	domain RRM
+324	V	0.4540	domain RRM
+325	E	0.4366	domain RRM
+326	T	0.4207	domain RRM
+327	K	0.3949	domain RRM
+328	E	0.3611	domain RRM
+329	E	0.3198	domain RRM
+330	C	0.2753	domain RRM
+331	E	0.2287	domain RRM
+332	K	0.1912	domain RRM
+333	Y	0.1623	domain RRM
+334	G	0.1400	domain RRM
+335	K	0.1371	domain RRM
+336	V	0.1418	domain RRM
+337	G	0.1547	domain RRM
+338	K	0.1761	domain RRM
+339	C	0.1940	domain RRM
+340	V	0.2002	domain RRM
+341	I	0.2047	domain RRM
+342	F	0.2083	domain RRM
+343	E	0.1938	domain RRM
+344	I	0.1835	domain RRM
+345	P	0.1548	domain RRM
+346	G	0.1261	domain RRM
+347	A	0.0977	domain RRM
+348	P	0.0862	domain RRM
+349	D	0.0937	domain RRM
+350	D	0.1165	domain RRM
+351	E	0.1430	domain RRM
+352	A	0.1768	domain RRM
+353	V	0.2121	domain RRM
+354	R	0.2298	domain RRM
+355	I	0.2325	domain RRM
+356	F	0.2203	domain RRM
+357	L	0.1934	domain RRM
+358	E	0.1543	domain RRM
+359	F	0.1202	domain RRM
+360	E	0.0868	domain RRM
+361	R	0.0647	domain RRM
+362	V	0.0520	domain RRM
+363	E	0.0455	domain RRM
+364	S	0.0555	domain RRM
+365	A	0.0604	domain RRM
+366	I	0.0745	domain RRM
+367	K	0.0909	domain RRM
+368	A	0.1018	domain RRM
+369	V	0.1097	domain RRM
+370	V	0.1124	domain RRM
+371	D	0.1080	domain RRM
+372	L	0.1005	domain RRM
+373	N	0.0867	domain RRM
+374	G	0.0708	domain RRM
+375	R	0.0535	domain RRM
+376	Y	0.0392	domain RRM
+377	F	0.0324	domain RRM
+378	G	0.0288	domain RRM
+379	G	0.0326	domain RRM
+380	R	0.0300	domain RRM
+381	V	0.0290	domain RRM
+382	V	0.0309	domain RRM
+383	K	0.0293	domain RRM
+384	A	0.0257	domain RRM
+385	C	0.0220	domain RRM
+386	F	0.0196	
+387	Y	0.0186	
+388	N	0.0183	
+389	L	0.0199	
+390	D	0.0193	
+391	K	0.0188	
+392	F	0.0186	
+393	R	0.0171	
+394	V	0.0174	
+395	L	0.0201	
+396	D	0.0256	
+397	L	0.0331	
+398	A	0.0411	
+399	E	0.0465	
+400	Q	0.0450	
+401	V	0.0301	

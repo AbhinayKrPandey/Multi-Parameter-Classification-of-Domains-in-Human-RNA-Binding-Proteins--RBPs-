@@ -1,0 +1,971 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.6405	
+2	A	0.6232	
+3	A	0.5564	
+4	S	0.4640	
+5	T	0.3641	
+6	G	0.2692	
+7	Y	0.1874	
+8	V	0.1229	
+9	R	0.0769	
+10	L	0.0478	
+11	W	0.0274	
+12	G	0.0189	
+13	A	0.0222	
+14	A	0.0300	
+15	R	0.0326	
+16	C	0.0329	
+17	W	0.0336	
+18	V	0.0375	
+19	L	0.0455	
+20	R	0.0553	
+21	R	0.0696	
+22	P	0.0835	
+23	M	0.0978	
+24	L	0.1116	
+25	A	0.1260	
+26	A	0.1417	
+27	A	0.1486	
+28	G	0.1548	
+29	G	0.1571	
+30	R	0.1607	
+31	V	0.1711	
+32	P	0.1829	
+33	T	0.1955	
+34	A	0.2072	
+35	A	0.2219	
+36	G	0.2473	
+37	A	0.2785	
+38	W	0.3039	
+39	L	0.3245	
+40	L	0.3364	
+41	R	0.3339	
+42	G	0.3205	
+43	Q	0.3061	
+44	R	0.2965	
+45	T	0.2869	
+46	C	0.2875	
+47	D	0.2979	
+48	A	0.3246	
+49	S	0.3549	
+50	P	0.3927	
+51	P	0.4294	
+52	W	0.4501	
+53	A	0.4594	
+54	L	0.4668	
+55	W	0.4661	
+56	G	0.4589	
+57	R	0.4484	
+58	G	0.4369	
+59	P	0.4248	
+60	A	0.4165	
+61	I	0.4171	
+62	G	0.4288	
+63	G	0.4468	
+64	Q	0.4613	
+65	W	0.4757	
+66	R	0.4904	
+67	G	0.5002	
+68	F	0.5107	
+69	W	0.5146	
+70	E	0.5127	
+71	A	0.5080	
+72	S	0.5094	
+73	S	0.5166	
+74	R	0.5318	
+75	G	0.5487	
+76	G	0.5671	
+77	G	0.5839	
+78	A	0.5967	
+79	F	0.6117	
+80	S	0.6318	
+81	G	0.6527	
+82	G	0.6633	
+83	E	0.6690	
+84	D	0.6665	
+85	A	0.6675	
+86	S	0.6701	
+87	E	0.6714	
+88	G	0.6744	
+89	G	0.6690	
+90	A	0.6662	
+91	E	0.6726	
+92	E	0.6773	
+93	G	0.6745	
+94	A	0.6738	
+95	G	0.6719	
+96	G	0.6600	
+97	A	0.6449	
+98	G	0.6231	
+99	G	0.6070	
+100	S	0.5825	
+101	A	0.5510	
+102	G	0.5183	
+103	A	0.4999	
+104	G	0.4874	
+105	E	0.4757	
+106	G	0.4690	
+107	P	0.4489	
+108	V	0.4329	
+109	I	0.4250	
+110	T	0.4157	
+111	A	0.3992	
+112	L	0.3755	
+113	T	0.3477	
+114	P	0.3117	
+115	M	0.2624	
+116	T	0.2100	
+117	I	0.1797	
+118	P	0.1537	
+119	D	0.1275	
+120	V	0.1080	
+121	F	0.1095	
+122	P	0.1165	
+123	H	0.1223	
+124	L	0.1278	domain Lon N-terminal
+125	P	0.1166	domain Lon N-terminal
+126	L	0.1010	domain Lon N-terminal
+127	I	0.0809	domain Lon N-terminal
+128	A	0.0616	domain Lon N-terminal
+129	I	0.0478	domain Lon N-terminal
+130	T	0.0326	domain Lon N-terminal
+131	R	0.0260	domain Lon N-terminal
+132	N	0.0255	domain Lon N-terminal
+133	P	0.0179	domain Lon N-terminal
+134	V	0.0142	domain Lon N-terminal
+135	F	0.0211	domain Lon N-terminal
+136	P	0.0295	domain Lon N-terminal
+137	R	0.0366	domain Lon N-terminal
+138	F	0.0373	domain Lon N-terminal
+139	I	0.0386	domain Lon N-terminal
+140	K	0.0381	domain Lon N-terminal
+141	I	0.0358	domain Lon N-terminal
+142	I	0.0307	domain Lon N-terminal
+143	E	0.0256	domain Lon N-terminal
+144	V	0.0201	domain Lon N-terminal
+145	K	0.0127	domain Lon N-terminal
+146	N	0.0136	domain Lon N-terminal
+147	K	0.0140	domain Lon N-terminal
+148	K	0.0160	domain Lon N-terminal
+149	L	0.0245	domain Lon N-terminal
+150	V	0.0359	domain Lon N-terminal
+151	E	0.0473	domain Lon N-terminal
+152	L	0.0569	domain Lon N-terminal
+153	L	0.0619	domain Lon N-terminal
+154	R	0.0654	domain Lon N-terminal
+155	R	0.0648	domain Lon N-terminal
+156	K	0.0536	domain Lon N-terminal
+157	V	0.0407	domain Lon N-terminal
+158	R	0.0311	domain Lon N-terminal
+159	L	0.0295	domain Lon N-terminal
+160	A	0.0342	domain Lon N-terminal
+161	Q	0.0588	domain Lon N-terminal
+162	P	0.0860	domain Lon N-terminal
+163	Y	0.1073	domain Lon N-terminal
+164	V	0.1393	domain Lon N-terminal
+165	G	0.1729	domain Lon N-terminal
+166	V	0.1965	domain Lon N-terminal
+167	F	0.2094	domain Lon N-terminal
+168	L	0.2256	domain Lon N-terminal
+169	K	0.2390	domain Lon N-terminal
+170	R	0.2437	domain Lon N-terminal
+171	D	0.2372	domain Lon N-terminal
+172	D	0.2285	domain Lon N-terminal
+173	S	0.2318	domain Lon N-terminal
+174	N	0.2440	domain Lon N-terminal
+175	E	0.2589	domain Lon N-terminal
+176	S	0.2821	domain Lon N-terminal
+177	D	0.3081	domain Lon N-terminal
+178	V	0.3278	domain Lon N-terminal
+179	V	0.3532	domain Lon N-terminal
+180	E	0.3672	domain Lon N-terminal
+181	S	0.3544	domain Lon N-terminal
+182	L	0.3347	domain Lon N-terminal
+183	D	0.3142	domain Lon N-terminal
+184	E	0.2862	domain Lon N-terminal
+185	I	0.2469	domain Lon N-terminal
+186	Y	0.2288	domain Lon N-terminal
+187	H	0.2340	domain Lon N-terminal
+188	T	0.2476	domain Lon N-terminal
+189	G	0.2574	domain Lon N-terminal
+190	T	0.2650	domain Lon N-terminal
+191	F	0.2782	domain Lon N-terminal
+192	A	0.2918	domain Lon N-terminal
+193	Q	0.2990	domain Lon N-terminal
+194	I	0.2974	domain Lon N-terminal
+195	H	0.2838	domain Lon N-terminal
+196	E	0.2744	domain Lon N-terminal
+197	M	0.2634	domain Lon N-terminal
+198	Q	0.2638	domain Lon N-terminal
+199	D	0.2678	domain Lon N-terminal
+200	L	0.2776	domain Lon N-terminal
+201	G	0.2898	domain Lon N-terminal
+202	D	0.3138	domain Lon N-terminal
+203	K	0.3218	domain Lon N-terminal
+204	L	0.3330	domain Lon N-terminal
+205	R	0.3515	domain Lon N-terminal
+206	M	0.3638	domain Lon N-terminal
+207	I	0.3604	domain Lon N-terminal
+208	V	0.3538	domain Lon N-terminal
+209	M	0.3452	domain Lon N-terminal
+210	G	0.3392	domain Lon N-terminal
+211	H	0.3408	domain Lon N-terminal
+212	R	0.3439	domain Lon N-terminal
+213	R	0.3507	domain Lon N-terminal
+214	V	0.3767	domain Lon N-terminal
+215	H	0.4009	domain Lon N-terminal
+216	I	0.4363	domain Lon N-terminal
+217	S	0.4706	domain Lon N-terminal
+218	R	0.5048	domain Lon N-terminal
+219	Q	0.5301	domain Lon N-terminal
+220	L	0.5574	domain Lon N-terminal
+221	E	0.5708	domain Lon N-terminal
+222	V	0.5847	domain Lon N-terminal
+223	E	0.5999	domain Lon N-terminal
+224	P	0.6152	domain Lon N-terminal
+225	E	0.6240	domain Lon N-terminal
+226	E	0.6348	domain Lon N-terminal
+227	P	0.6489	domain Lon N-terminal
+228	E	0.6633	domain Lon N-terminal
+229	A	0.6734	domain Lon N-terminal
+230	E	0.6822	domain Lon N-terminal
+231	N	0.6877	domain Lon N-terminal
+232	K	0.6969	domain Lon N-terminal
+233	H	0.7045	domain Lon N-terminal
+234	K	0.7154	domain Lon N-terminal
+235	P	0.7217	domain Lon N-terminal
+236	R	0.7299	domain Lon N-terminal
+237	R	0.7293	domain Lon N-terminal
+238	K	0.7284	domain Lon N-terminal
+239	S	0.7226	domain Lon N-terminal
+240	K	0.7216	domain Lon N-terminal
+241	R	0.7213	domain Lon N-terminal
+242	G	0.7228	domain Lon N-terminal
+243	K	0.7213	domain Lon N-terminal
+244	K	0.7127	domain Lon N-terminal
+245	E	0.7045	domain Lon N-terminal
+246	A	0.6945	domain Lon N-terminal
+247	E	0.6786	domain Lon N-terminal
+248	D	0.6711	domain Lon N-terminal
+249	E	0.6639	domain Lon N-terminal
+250	L	0.6636	domain Lon N-terminal
+251	S	0.6620	domain Lon N-terminal
+252	A	0.6652	domain Lon N-terminal
+253	R	0.6730	domain Lon N-terminal
+254	H	0.6818	domain Lon N-terminal
+255	P	0.6898	domain Lon N-terminal
+256	A	0.6881	domain Lon N-terminal
+257	E	0.6807	domain Lon N-terminal
+258	L	0.6676	domain Lon N-terminal
+259	A	0.6413	domain Lon N-terminal
+260	M	0.6141	domain Lon N-terminal
+261	E	0.5880	domain Lon N-terminal
+262	P	0.5591	domain Lon N-terminal
+263	T	0.5280	domain Lon N-terminal
+264	P	0.4887	domain Lon N-terminal
+265	E	0.4561	domain Lon N-terminal
+266	L	0.4328	domain Lon N-terminal
+267	P	0.4211	domain Lon N-terminal
+268	A	0.4198	domain Lon N-terminal
+269	E	0.4084	domain Lon N-terminal
+270	V	0.3899	domain Lon N-terminal
+271	L	0.3698	domain Lon N-terminal
+272	M	0.3508	domain Lon N-terminal
+273	V	0.3313	domain Lon N-terminal
+274	E	0.3056	domain Lon N-terminal
+275	V	0.2832	domain Lon N-terminal
+276	E	0.2579	domain Lon N-terminal
+277	N	0.2280	domain Lon N-terminal
+278	V	0.2054	domain Lon N-terminal
+279	V	0.1993	domain Lon N-terminal
+280	H	0.2062	domain Lon N-terminal
+281	E	0.2074	domain Lon N-terminal
+282	D	0.1981	domain Lon N-terminal
+283	F	0.1903	domain Lon N-terminal
+284	Q	0.1731	domain Lon N-terminal
+285	V	0.1669	domain Lon N-terminal
+286	T	0.1665	domain Lon N-terminal
+287	E	0.1593	domain Lon N-terminal
+288	E	0.1453	domain Lon N-terminal
+289	V	0.1301	domain Lon N-terminal
+290	K	0.1144	domain Lon N-terminal
+291	A	0.0988	domain Lon N-terminal
+292	L	0.0889	domain Lon N-terminal
+293	T	0.0812	domain Lon N-terminal
+294	A	0.0718	domain Lon N-terminal
+295	E	0.0561	domain Lon N-terminal
+296	I	0.0395	domain Lon N-terminal
+297	V	0.0321	domain Lon N-terminal
+298	K	0.0338	domain Lon N-terminal
+299	T	0.0344	domain Lon N-terminal
+300	I	0.0364	domain Lon N-terminal
+301	R	0.0370	domain Lon N-terminal
+302	D	0.0369	domain Lon N-terminal
+303	I	0.0377	domain Lon N-terminal
+304	I	0.0366	domain Lon N-terminal
+305	A	0.0375	domain Lon N-terminal
+306	L	0.0402	domain Lon N-terminal
+307	N	0.0446	domain Lon N-terminal
+308	P	0.0493	domain Lon N-terminal
+309	L	0.0517	domain Lon N-terminal
+310	Y	0.0485	domain Lon N-terminal
+311	R	0.0585	domain Lon N-terminal
+312	E	0.0768	domain Lon N-terminal
+313	S	0.0944	domain Lon N-terminal
+314	V	0.1128	domain Lon N-terminal
+315	L	0.1292	domain Lon N-terminal
+316	Q	0.1496	domain Lon N-terminal
+317	M	0.1649	domain Lon N-terminal
+318	M	0.1671	domain Lon N-terminal
+319	Q	0.1639	domain Lon N-terminal
+320	A	0.1668	domain Lon N-terminal
+321	G	0.1657	domain Lon N-terminal
+322	Q	0.1641	domain Lon N-terminal
+323	R	0.1657	domain Lon N-terminal
+324	V	0.1712	domain Lon N-terminal
+325	V	0.1839	domain Lon N-terminal
+326	D	0.2055	domain Lon N-terminal
+327	N	0.2153	domain Lon N-terminal
+328	P	0.2120	domain Lon N-terminal
+329	I	0.2150	domain Lon N-terminal
+330	Y	0.2148	domain Lon N-terminal
+331	L	0.2241	domain Lon N-terminal
+332	S	0.2411	domain Lon N-terminal
+333	D	0.2559	domain Lon N-terminal
+334	M	0.2676	domain Lon N-terminal
+335	G	0.2747	domain Lon N-terminal
+336	A	0.2724	domain Lon N-terminal
+337	A	0.2762	domain Lon N-terminal
+338	L	0.2854	domain Lon N-terminal
+339	T	0.2918	domain Lon N-terminal
+340	G	0.2973	domain Lon N-terminal
+341	A	0.3000	domain Lon N-terminal
+342	E	0.3096	domain Lon N-terminal
+343	S	0.3270	domain Lon N-terminal
+344	H	0.3459	domain Lon N-terminal
+345	E	0.3632	domain Lon N-terminal
+346	L	0.3715	domain Lon N-terminal
+347	Q	0.3716	domain Lon N-terminal
+348	D	0.3635	domain Lon N-terminal
+349	V	0.3520	domain Lon N-terminal
+350	L	0.3394	domain Lon N-terminal
+351	E	0.3209	domain Lon N-terminal
+352	E	0.2942	domain Lon N-terminal
+353	T	0.2539	domain Lon N-terminal
+354	N	0.2146	domain Lon N-terminal
+355	I	0.1881	domain Lon N-terminal
+356	P	0.1675	domain Lon N-terminal
+357	K	0.1609	domain Lon N-terminal
+358	R	0.1542	domain Lon N-terminal
+359	L	0.1475	domain Lon N-terminal
+360	Y	0.1446	domain Lon N-terminal
+361	K	0.1474	domain Lon N-terminal
+362	A	0.1431	domain Lon N-terminal
+363	L	0.1343	domain Lon N-terminal
+364	S	0.1156	domain Lon N-terminal
+365	L	0.1042	domain Lon N-terminal
+366	L	0.1001	domain Lon N-terminal
+367	K	0.0999	domain Lon N-terminal
+368	K	0.0990	domain Lon N-terminal
+369	E	0.1038	domain Lon N-terminal
+370	F	0.1167	domain Lon N-terminal
+371	E	0.1249	
+372	L	0.1424	
+373	S	0.1524	
+374	K	0.1610	
+375	L	0.1671	
+376	Q	0.1702	
+377	Q	0.1838	
+378	R	0.2004	
+379	L	0.2246	
+380	G	0.2496	
+381	R	0.2677	
+382	E	0.2772	
+383	V	0.2831	
+384	E	0.2839	
+385	E	0.2901	
+386	K	0.2820	
+387	I	0.2670	
+388	K	0.2447	
+389	Q	0.2320	
+390	T	0.2206	
+391	H	0.2095	
+392	R	0.2049	
+393	K	0.1907	
+394	Y	0.1774	
+395	L	0.1699	
+396	L	0.1664	
+397	Q	0.1624	
+398	E	0.1558	
+399	Q	0.1523	
+400	L	0.1495	
+401	K	0.1436	
+402	I	0.1443	
+403	I	0.1568	
+404	K	0.1745	
+405	K	0.1903	
+406	E	0.1933	
+407	L	0.2066	
+408	G	0.2130	
+409	L	0.2209	
+410	E	0.2253	
+411	K	0.2330	
+412	D	0.2434	
+413	D	0.2506	
+414	K	0.2603	
+415	D	0.2660	
+416	A	0.2688	
+417	I	0.2717	
+418	E	0.2700	
+419	E	0.2656	
+420	K	0.2568	
+421	F	0.2472	
+422	R	0.2440	
+423	E	0.2371	
+424	R	0.2214	
+425	L	0.2084	
+426	K	0.1955	
+427	E	0.1930	
+428	L	0.1840	
+429	V	0.1837	
+430	V	0.1964	
+431	P	0.2059	
+432	K	0.2091	
+433	H	0.1986	
+434	V	0.1886	
+435	M	0.1782	
+436	D	0.1652	
+437	V	0.1623	
+438	V	0.1601	
+439	D	0.1678	
+440	E	0.1788	
+441	E	0.1864	
+442	L	0.1892	
+443	S	0.1901	
+444	K	0.1965	
+445	L	0.2011	
+446	G	0.1941	
+447	L	0.1887	
+448	L	0.1856	
+449	D	0.1796	
+450	N	0.1743	
+451	H	0.1530	
+452	S	0.1368	
+453	S	0.1220	
+454	E	0.1052	
+455	F	0.0967	
+456	N	0.0908	
+457	V	0.0980	
+458	T	0.1032	
+459	R	0.1028	
+460	N	0.0956	
+461	Y	0.0862	
+462	L	0.0854	
+463	D	0.0799	
+464	W	0.0772	
+465	L	0.0779	
+466	T	0.0785	
+467	S	0.0790	
+468	I	0.0809	
+469	P	0.0791	
+470	W	0.0862	
+471	G	0.0877	
+472	K	0.0916	
+473	Y	0.0883	
+474	S	0.0931	
+475	N	0.1082	
+476	E	0.1209	
+477	N	0.1330	
+478	L	0.1418	
+479	D	0.1526	
+480	L	0.1707	
+481	A	0.1861	
+482	R	0.1996	
+483	A	0.2059	
+484	Q	0.2143	
+485	A	0.2121	
+486	V	0.2020	
+487	L	0.1994	
+488	E	0.2009	
+489	E	0.2000	
+490	D	0.1969	
+491	H	0.1766	
+492	Y	0.1636	
+493	G	0.1546	
+494	M	0.1467	
+495	E	0.1329	
+496	D	0.1154	
+497	V	0.1023	
+498	K	0.0984	
+499	K	0.0966	
+500	R	0.0988	
+501	I	0.1036	
+502	L	0.1149	
+503	E	0.1230	
+504	F	0.1294	
+505	I	0.1338	
+506	A	0.1373	
+507	V	0.1356	
+508	S	0.1159	
+509	Q	0.0944	
+510	L	0.0749	
+511	R	0.0628	
+512	G	0.0692	
+513	S	0.0762	
+514	T	0.0987	
+515	Q	0.1318	
+516	G	0.1698	
+517	K	0.2022	
+518	I	0.2282	
+519	L	0.2464	
+520	C	0.2536	
+521	F	0.2480	
+522	Y	0.2354	
+523	G	0.2175	
+524	P	0.1982	
+525	P	0.1654	
+526	G	0.1330	
+527	V	0.1283	
+528	G	0.1376	
+529	K	0.1669	
+530	T	0.1998	
+531	S	0.2232	
+532	I	0.2422	
+533	A	0.2520	
+534	R	0.2510	
+535	S	0.2306	
+536	I	0.1960	
+537	A	0.1605	
+538	R	0.1333	
+539	A	0.1096	
+540	L	0.1023	
+541	N	0.1124	
+542	R	0.1290	
+543	E	0.1283	
+544	Y	0.1203	
+545	F	0.1155	
+546	R	0.1129	
+547	F	0.1205	
+548	S	0.1235	
+549	V	0.1340	
+550	G	0.1419	
+551	G	0.1582	
+552	M	0.1739	
+553	T	0.1857	
+554	D	0.1898	
+555	V	0.1956	
+556	A	0.2125	
+557	E	0.2275	
+558	I	0.2411	
+559	K	0.2576	
+560	G	0.2775	
+561	H	0.2823	
+562	R	0.2780	
+563	R	0.2660	
+564	T	0.2519	
+565	Y	0.2383	
+566	V	0.2283	
+567	G	0.2237	
+568	A	0.2205	
+569	M	0.2294	
+570	P	0.2409	
+571	G	0.2594	
+572	K	0.2694	
+573	I	0.2697	
+574	I	0.2734	
+575	Q	0.2729	
+576	C	0.2591	
+577	L	0.2434	
+578	K	0.2337	
+579	K	0.2188	
+580	T	0.1963	
+581	K	0.1808	
+582	T	0.1739	
+583	E	0.1772	
+584	N	0.1933	
+585	P	0.2105	
+586	L	0.2272	
+587	I	0.2371	
+588	L	0.2533	
+589	I	0.2742	
+590	D	0.2925	
+591	E	0.2961	
+592	V	0.2937	
+593	D	0.2995	
+594	K	0.3062	
+595	I	0.3050	
+596	G	0.3039	
+597	R	0.3024	
+598	G	0.2836	
+599	Y	0.2727	
+600	Q	0.2635	
+601	G	0.2707	
+602	D	0.2919	
+603	P	0.3149	
+604	S	0.3329	
+605	S	0.3440	
+606	A	0.3620	
+607	L	0.3720	
+608	L	0.3790	
+609	E	0.3593	
+610	L	0.3196	
+611	L	0.2685	
+612	D	0.2288	
+613	P	0.1888	
+614	E	0.1475	
+615	Q	0.1215	
+616	N	0.1075	
+617	A	0.1127	
+618	N	0.1238	
+619	F	0.1458	
+620	L	0.1670	
+621	D	0.1787	
+622	H	0.1707	
+623	Y	0.1476	
+624	L	0.1206	
+625	D	0.0870	
+626	V	0.0570	
+627	P	0.0314	
+628	V	0.0183	
+629	D	0.0053	
+630	L	0.0126	
+631	S	0.0287	
+632	K	0.0406	
+633	V	0.0458	
+634	L	0.0487	
+635	F	0.0566	
+636	I	0.0633	
+637	C	0.0681	
+638	T	0.0763	
+639	A	0.0805	
+640	N	0.0862	
+641	V	0.0966	
+642	T	0.1063	
+643	D	0.1265	
+644	T	0.1493	
+645	I	0.1762	
+646	P	0.2049	
+647	E	0.2289	
+648	P	0.2324	
+649	L	0.2333	
+650	R	0.2338	
+651	D	0.2334	
+652	R	0.2276	
+653	M	0.2207	
+654	E	0.2079	
+655	M	0.1961	
+656	I	0.1900	
+657	N	0.1808	
+658	V	0.1722	
+659	S	0.1556	
+660	G	0.1319	
+661	Y	0.1078	
+662	V	0.0843	
+663	A	0.0723	
+664	Q	0.0732	
+665	E	0.0800	
+666	K	0.0772	
+667	L	0.0765	
+668	A	0.0745	
+669	I	0.0802	
+670	A	0.0814	
+671	E	0.0791	
+672	R	0.0668	
+673	Y	0.0559	
+674	L	0.0482	
+675	V	0.0506	
+676	P	0.0556	
+677	Q	0.0581	
+678	A	0.0654	
+679	R	0.0700	
+680	A	0.0782	
+681	L	0.0903	
+682	C	0.1051	
+683	G	0.1149	
+684	L	0.1179	
+685	D	0.1119	
+686	E	0.1070	
+687	S	0.0984	
+688	K	0.0870	
+689	A	0.0775	
+690	K	0.0642	
+691	L	0.0592	
+692	S	0.0605	
+693	S	0.0698	
+694	D	0.0786	
+695	V	0.0856	
+696	L	0.0890	
+697	T	0.0887	
+698	L	0.0892	
+699	L	0.0839	
+700	I	0.0805	
+701	K	0.0788	
+702	Q	0.0801	
+703	Y	0.0772	
+704	C	0.0827	
+705	R	0.0909	
+706	E	0.1004	
+707	S	0.1096	
+708	G	0.1178	
+709	V	0.1357	
+710	R	0.1610	
+711	N	0.1898	
+712	L	0.2083	
+713	Q	0.2160	
+714	K	0.2210	
+715	Q	0.2168	
+716	V	0.2057	
+717	E	0.1936	
+718	K	0.1831	
+719	V	0.1756	
+720	L	0.1773	
+721	R	0.1804	
+722	K	0.1871	
+723	S	0.1886	
+724	A	0.1941	
+725	Y	0.1990	
+726	K	0.1974	
+727	I	0.2040	
+728	V	0.2206	
+729	S	0.2466	
+730	G	0.2686	
+731	E	0.2782	
+732	A	0.2896	
+733	E	0.3025	
+734	S	0.3091	
+735	V	0.3180	
+736	E	0.3198	
+737	V	0.3187	
+738	T	0.3123	
+739	P	0.3187	
+740	E	0.3160	
+741	N	0.3035	
+742	L	0.2945	
+743	Q	0.2811	
+744	D	0.2621	
+745	F	0.2380	
+746	V	0.2205	
+747	G	0.2223	
+748	K	0.2308	
+749	P	0.2213	
+750	V	0.2103	
+751	F	0.2038	
+752	T	0.2054	
+753	V	0.2116	
+754	E	0.2102	
+755	R	0.2090	
+756	M	0.1947	
+757	Y	0.1877	
+758	D	0.1732	
+759	V	0.1623	domain Lon proteolytic
+760	T	0.1521	domain Lon proteolytic
+761	P	0.1565	domain Lon proteolytic
+762	P	0.1699	domain Lon proteolytic
+763	G	0.1759	domain Lon proteolytic
+764	V	0.1856	domain Lon proteolytic
+765	V	0.2037	domain Lon proteolytic
+766	M	0.2284	domain Lon proteolytic
+767	G	0.2394	domain Lon proteolytic
+768	L	0.2411	domain Lon proteolytic
+769	A	0.2263	domain Lon proteolytic
+770	W	0.2165	domain Lon proteolytic
+771	T	0.2037	domain Lon proteolytic
+772	A	0.1935	domain Lon proteolytic
+773	M	0.1878	domain Lon proteolytic
+774	G	0.1906	domain Lon proteolytic
+775	G	0.2105	domain Lon proteolytic
+776	S	0.2443	domain Lon proteolytic
+777	T	0.2855	domain Lon proteolytic
+778	L	0.3279	domain Lon proteolytic
+779	F	0.3782	domain Lon proteolytic
+780	V	0.4273	domain Lon proteolytic
+781	E	0.4620	domain Lon proteolytic
+782	T	0.4867	domain Lon proteolytic
+783	S	0.4922	domain Lon proteolytic
+784	L	0.5037	domain Lon proteolytic
+785	R	0.5151	domain Lon proteolytic
+786	R	0.5296	domain Lon proteolytic
+787	P	0.5309	domain Lon proteolytic
+788	Q	0.5397	domain Lon proteolytic
+789	D	0.5475	domain Lon proteolytic
+790	K	0.5577	domain Lon proteolytic
+791	D	0.5639	domain Lon proteolytic
+792	A	0.5740	domain Lon proteolytic
+793	K	0.5819	domain Lon proteolytic
+794	G	0.5816	domain Lon proteolytic
+795	D	0.5686	domain Lon proteolytic
+796	K	0.5519	domain Lon proteolytic
+797	D	0.5285	domain Lon proteolytic
+798	G	0.5128	domain Lon proteolytic
+799	S	0.4955	domain Lon proteolytic
+800	L	0.4876	domain Lon proteolytic
+801	E	0.4687	domain Lon proteolytic
+802	V	0.4622	domain Lon proteolytic
+803	T	0.4526	domain Lon proteolytic
+804	G	0.4438	domain Lon proteolytic
+805	Q	0.4136	domain Lon proteolytic
+806	L	0.3816	domain Lon proteolytic
+807	G	0.3453	domain Lon proteolytic
+808	E	0.3076	domain Lon proteolytic
+809	V	0.2678	domain Lon proteolytic
+810	M	0.2299	domain Lon proteolytic
+811	K	0.2021	domain Lon proteolytic
+812	E	0.1783	domain Lon proteolytic
+813	S	0.1567	domain Lon proteolytic
+814	A	0.1405	domain Lon proteolytic
+815	R	0.1212	domain Lon proteolytic
+816	I	0.1120	domain Lon proteolytic
+817	A	0.1045	domain Lon proteolytic
+818	Y	0.1073	domain Lon proteolytic
+819	T	0.1073	domain Lon proteolytic
+820	F	0.1169	domain Lon proteolytic
+821	A	0.1169	domain Lon proteolytic
+822	R	0.1207	domain Lon proteolytic
+823	A	0.1078	domain Lon proteolytic
+824	F	0.0943	domain Lon proteolytic
+825	L	0.0828	domain Lon proteolytic
+826	M	0.0842	domain Lon proteolytic
+827	Q	0.0852	domain Lon proteolytic
+828	H	0.0825	domain Lon proteolytic
+829	A	0.0823	domain Lon proteolytic
+830	P	0.0877	domain Lon proteolytic
+831	A	0.1044	domain Lon proteolytic
+832	N	0.1200	domain Lon proteolytic
+833	D	0.1376	domain Lon proteolytic
+834	Y	0.1562	domain Lon proteolytic
+835	L	0.1772	domain Lon proteolytic
+836	V	0.2068	domain Lon proteolytic
+837	T	0.2318	domain Lon proteolytic
+838	S	0.2559	domain Lon proteolytic
+839	H	0.2639	domain Lon proteolytic
+840	I	0.2813	domain Lon proteolytic
+841	H	0.2913	domain Lon proteolytic
+842	L	0.3128	domain Lon proteolytic
+843	H	0.3370	domain Lon proteolytic
+844	V	0.3729	domain Lon proteolytic
+845	P	0.4014	domain Lon proteolytic
+846	E	0.4244	domain Lon proteolytic
+847	G	0.4343	domain Lon proteolytic
+848	A	0.4362	domain Lon proteolytic
+849	T	0.4402	domain Lon proteolytic
+850	P	0.4371	domain Lon proteolytic
+851	K	0.4301	domain Lon proteolytic
+852	D	0.4129	domain Lon proteolytic
+853	G	0.3958	domain Lon proteolytic
+854	P	0.3777	domain Lon proteolytic
+855	S	0.3623	domain Lon proteolytic
+856	A	0.3455	domain Lon proteolytic
+857	G	0.3190	domain Lon proteolytic
+858	C	0.2925	domain Lon proteolytic
+859	T	0.2638	domain Lon proteolytic
+860	I	0.2498	domain Lon proteolytic
+861	V	0.2371	domain Lon proteolytic
+862	T	0.2316	domain Lon proteolytic
+863	A	0.2182	domain Lon proteolytic
+864	L	0.1987	domain Lon proteolytic
+865	L	0.1827	domain Lon proteolytic
+866	S	0.1634	domain Lon proteolytic
+867	L	0.1587	domain Lon proteolytic
+868	A	0.1581	domain Lon proteolytic
+869	M	0.1663	domain Lon proteolytic
+870	G	0.1717	domain Lon proteolytic
+871	R	0.1839	domain Lon proteolytic
+872	P	0.2007	domain Lon proteolytic
+873	V	0.2205	domain Lon proteolytic
+874	R	0.2414	domain Lon proteolytic
+875	Q	0.2638	domain Lon proteolytic
+876	N	0.2697	domain Lon proteolytic
+877	L	0.2719	domain Lon proteolytic
+878	A	0.2727	domain Lon proteolytic
+879	M	0.2679	domain Lon proteolytic
+880	T	0.2580	domain Lon proteolytic
+881	G	0.2343	domain Lon proteolytic
+882	E	0.2017	domain Lon proteolytic
+883	V	0.1784	domain Lon proteolytic
+884	S	0.1617	domain Lon proteolytic
+885	L	0.1628	domain Lon proteolytic
+886	T	0.1620	domain Lon proteolytic
+887	G	0.1726	domain Lon proteolytic
+888	K	0.1683	domain Lon proteolytic
+889	I	0.1664	domain Lon proteolytic
+890	L	0.1659	domain Lon proteolytic
+891	P	0.1611	domain Lon proteolytic
+892	V	0.1594	domain Lon proteolytic
+893	G	0.1566	domain Lon proteolytic
+894	G	0.1493	domain Lon proteolytic
+895	I	0.1421	domain Lon proteolytic
+896	K	0.1379	domain Lon proteolytic
+897	E	0.1390	domain Lon proteolytic
+898	K	0.1320	domain Lon proteolytic
+899	T	0.1150	domain Lon proteolytic
+900	I	0.0985	domain Lon proteolytic
+901	A	0.0811	domain Lon proteolytic
+902	A	0.0729	domain Lon proteolytic
+903	K	0.0760	domain Lon proteolytic
+904	R	0.0777	domain Lon proteolytic
+905	A	0.0871	domain Lon proteolytic
+906	G	0.0895	domain Lon proteolytic
+907	V	0.0924	domain Lon proteolytic
+908	T	0.0899	domain Lon proteolytic
+909	C	0.0877	domain Lon proteolytic
+910	I	0.0809	domain Lon proteolytic
+911	V	0.0684	domain Lon proteolytic
+912	L	0.0578	domain Lon proteolytic
+913	P	0.0454	domain Lon proteolytic
+914	A	0.0353	domain Lon proteolytic
+915	E	0.0295	domain Lon proteolytic
+916	N	0.0244	domain Lon proteolytic
+917	K	0.0235	domain Lon proteolytic
+918	K	0.0279	domain Lon proteolytic
+919	D	0.0316	domain Lon proteolytic
+920	F	0.0383	domain Lon proteolytic
+921	Y	0.0465	domain Lon proteolytic
+922	D	0.0520	domain Lon proteolytic
+923	L	0.0536	domain Lon proteolytic
+924	A	0.0500	domain Lon proteolytic
+925	A	0.0453	domain Lon proteolytic
+926	F	0.0370	domain Lon proteolytic
+927	I	0.0302	domain Lon proteolytic
+928	T	0.0243	domain Lon proteolytic
+929	E	0.0225	domain Lon proteolytic
+930	G	0.0209	domain Lon proteolytic
+931	L	0.0222	domain Lon proteolytic
+932	E	0.0235	domain Lon proteolytic
+933	V	0.0259	domain Lon proteolytic
+934	H	0.0261	domain Lon proteolytic
+935	F	0.0282	domain Lon proteolytic
+936	V	0.0284	domain Lon proteolytic
+937	E	0.0356	domain Lon proteolytic
+938	H	0.0426	domain Lon proteolytic
+939	Y	0.0524	domain Lon proteolytic
+940	R	0.0646	domain Lon proteolytic
+941	E	0.0814	domain Lon proteolytic
+942	I	0.0930	domain Lon proteolytic
+943	F	0.0987	domain Lon proteolytic
+944	D	0.1048	domain Lon proteolytic
+945	I	0.1092	domain Lon proteolytic
+946	A	0.1065	domain Lon proteolytic
+947	F	0.1152	domain Lon proteolytic
+948	P	0.1286	domain Lon proteolytic
+949	D	0.1569	domain Lon proteolytic
+950	E	0.1952	
+951	Q	0.2538	
+952	A	0.3273	
+953	E	0.4135	
+954	A	0.5089	
+955	L	0.6084	
+956	A	0.7058	
+957	V	0.7933	
+958	E	0.8614	
+959	R	0.8994	

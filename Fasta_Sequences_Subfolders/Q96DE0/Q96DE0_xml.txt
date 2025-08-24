@@ -1,0 +1,1622 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-07-05" modified="2024-10-02" version="174" xmlns="http://uniprot.org/uniprot">
+  <accession>Q96DE0</accession>
+  <accession>B4E3B4</accession>
+  <accession>E9PED4</accession>
+  <accession>F5GYJ1</accession>
+  <accession>Q96N82</accession>
+  <name>NUD16_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName>U8 snoRNA-decapping enzyme</fullName>
+      <ecNumber evidence="4 5 6 8 9">3.6.1.62</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName>IDP phosphatase</fullName>
+      <shortName>IDPase</shortName>
+      <ecNumber evidence="7 10">3.6.1.64</ecNumber>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Inosine diphosphate phosphatase</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Nucleoside diphosphate-linked moiety X motif 16</fullName>
+      <shortName>Nudix motif 16</shortName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Nudix hydrolase 16</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="14">U8 snoRNA-binding protein H29K</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>m7GpppN-mRNA hydrolase</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">NUDT16</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+      <title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+      <authorList>
+        <person name="Ota T."/>
+        <person name="Suzuki Y."/>
+        <person name="Nishikawa T."/>
+        <person name="Otsuki T."/>
+        <person name="Sugiyama T."/>
+        <person name="Irie R."/>
+        <person name="Wakamatsu A."/>
+        <person name="Hayashi K."/>
+        <person name="Sato H."/>
+        <person name="Nagai K."/>
+        <person name="Kimura K."/>
+        <person name="Makita H."/>
+        <person name="Sekine M."/>
+        <person name="Obayashi M."/>
+        <person name="Nishi T."/>
+        <person name="Shibahara T."/>
+        <person name="Tanaka T."/>
+        <person name="Ishii S."/>
+        <person name="Yamamoto J."/>
+        <person name="Saito K."/>
+        <person name="Kawai Y."/>
+        <person name="Isono Y."/>
+        <person name="Nakamura Y."/>
+        <person name="Nagahari K."/>
+        <person name="Murakami K."/>
+        <person name="Yasuda T."/>
+        <person name="Iwayanagi T."/>
+        <person name="Wagatsuma M."/>
+        <person name="Shiratori A."/>
+        <person name="Sudo H."/>
+        <person name="Hosoiri T."/>
+        <person name="Kaku Y."/>
+        <person name="Kodaira H."/>
+        <person name="Kondo H."/>
+        <person name="Sugawara M."/>
+        <person name="Takahashi M."/>
+        <person name="Kanda K."/>
+        <person name="Yokoi T."/>
+        <person name="Furuya T."/>
+        <person name="Kikkawa E."/>
+        <person name="Omura Y."/>
+        <person name="Abe K."/>
+        <person name="Kamihara K."/>
+        <person name="Katsuta N."/>
+        <person name="Sato K."/>
+        <person name="Tanikawa M."/>
+        <person name="Yamazaki M."/>
+        <person name="Ninomiya K."/>
+        <person name="Ishibashi T."/>
+        <person name="Yamashita H."/>
+        <person name="Murakawa K."/>
+        <person name="Fujimori K."/>
+        <person name="Tanai H."/>
+        <person name="Kimata M."/>
+        <person name="Watanabe M."/>
+        <person name="Hiraoka S."/>
+        <person name="Chiba Y."/>
+        <person name="Ishida S."/>
+        <person name="Ono Y."/>
+        <person name="Takiguchi S."/>
+        <person name="Watanabe S."/>
+        <person name="Yosida M."/>
+        <person name="Hotuta T."/>
+        <person name="Kusano J."/>
+        <person name="Kanehori K."/>
+        <person name="Takahashi-Fujii A."/>
+        <person name="Hara H."/>
+        <person name="Tanase T.-O."/>
+        <person name="Nomura Y."/>
+        <person name="Togiya S."/>
+        <person name="Komai F."/>
+        <person name="Hara R."/>
+        <person name="Takeuchi K."/>
+        <person name="Arita M."/>
+        <person name="Imose N."/>
+        <person name="Musashino K."/>
+        <person name="Yuuki H."/>
+        <person name="Oshima A."/>
+        <person name="Sasaki N."/>
+        <person name="Aotsuka S."/>
+        <person name="Yoshikawa Y."/>
+        <person name="Matsunawa H."/>
+        <person name="Ichihara T."/>
+        <person name="Shiohata N."/>
+        <person name="Sano S."/>
+        <person name="Moriya S."/>
+        <person name="Momiyama H."/>
+        <person name="Satoh N."/>
+        <person name="Takami S."/>
+        <person name="Terashima Y."/>
+        <person name="Suzuki O."/>
+        <person name="Nakagawa S."/>
+        <person name="Senoh A."/>
+        <person name="Mizoguchi H."/>
+        <person name="Goto Y."/>
+        <person name="Shimizu F."/>
+        <person name="Wakebe H."/>
+        <person name="Hishigaki H."/>
+        <person name="Watanabe T."/>
+        <person name="Sugiyama A."/>
+        <person name="Takemoto M."/>
+        <person name="Kawakami B."/>
+        <person name="Yamazaki M."/>
+        <person name="Watanabe K."/>
+        <person name="Kumagai A."/>
+        <person name="Itakura S."/>
+        <person name="Fukuzumi Y."/>
+        <person name="Fujimori Y."/>
+        <person name="Komiyama M."/>
+        <person name="Tashiro H."/>
+        <person name="Tanigami A."/>
+        <person name="Fujiwara T."/>
+        <person name="Ono T."/>
+        <person name="Yamada K."/>
+        <person name="Fujii Y."/>
+        <person name="Ozaki K."/>
+        <person name="Hirao M."/>
+        <person name="Ohmori Y."/>
+        <person name="Kawabata A."/>
+        <person name="Hikiji T."/>
+        <person name="Kobatake N."/>
+        <person name="Inagaki H."/>
+        <person name="Ikema Y."/>
+        <person name="Okamoto S."/>
+        <person name="Okitani R."/>
+        <person name="Kawakami T."/>
+        <person name="Noguchi S."/>
+        <person name="Itoh T."/>
+        <person name="Shigeta K."/>
+        <person name="Senba T."/>
+        <person name="Matsumura K."/>
+        <person name="Nakajima Y."/>
+        <person name="Mizuno T."/>
+        <person name="Morinaga M."/>
+        <person name="Sasaki M."/>
+        <person name="Togashi T."/>
+        <person name="Oyama M."/>
+        <person name="Hata H."/>
+        <person name="Watanabe M."/>
+        <person name="Komatsu T."/>
+        <person name="Mizushima-Sugano J."/>
+        <person name="Satoh T."/>
+        <person name="Shirai Y."/>
+        <person name="Takahashi Y."/>
+        <person name="Nakagawa K."/>
+        <person name="Okumura K."/>
+        <person name="Nagase T."/>
+        <person name="Nomura N."/>
+        <person name="Kikuchi H."/>
+        <person name="Masuho Y."/>
+        <person name="Yamashita R."/>
+        <person name="Nakai K."/>
+        <person name="Yada T."/>
+        <person name="Nakamura Y."/>
+        <person name="Ohara O."/>
+        <person name="Isogai T."/>
+        <person name="Sugano S."/>
+      </authorList>
+      <dbReference type="PubMed" id="14702039"/>
+      <dbReference type="DOI" id="10.1038/ng1285"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)</scope>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 21-195 (ISOFORM 1)</scope>
+    <source>
+      <tissue>Kidney</tissue>
+      <tissue>Uterus</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2006" name="Genome Res." volume="16" first="55" last="65">
+      <title>Diversification of transcriptional modulation: large-scale identification and characterization of putative alternative promoters of human genes.</title>
+      <authorList>
+        <person name="Kimura K."/>
+        <person name="Wakamatsu A."/>
+        <person name="Suzuki Y."/>
+        <person name="Ota T."/>
+        <person name="Nishikawa T."/>
+        <person name="Yamashita R."/>
+        <person name="Yamamoto J."/>
+        <person name="Sekine M."/>
+        <person name="Tsuritani K."/>
+        <person name="Wakaguri H."/>
+        <person name="Ishii S."/>
+        <person name="Sugiyama T."/>
+        <person name="Saito K."/>
+        <person name="Isono Y."/>
+        <person name="Irie R."/>
+        <person name="Kushida N."/>
+        <person name="Yoneyama T."/>
+        <person name="Otsuka R."/>
+        <person name="Kanda K."/>
+        <person name="Yokoi T."/>
+        <person name="Kondo H."/>
+        <person name="Wagatsuma M."/>
+        <person name="Murakawa K."/>
+        <person name="Ishida S."/>
+        <person name="Ishibashi T."/>
+        <person name="Takahashi-Fujii A."/>
+        <person name="Tanase T."/>
+        <person name="Nagai K."/>
+        <person name="Kikuchi H."/>
+        <person name="Nakai K."/>
+        <person name="Isogai T."/>
+        <person name="Sugano S."/>
+      </authorList>
+      <dbReference type="PubMed" id="16344560"/>
+      <dbReference type="DOI" id="10.1101/gr.4039406"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3)</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2006" name="Nature" volume="440" first="1194" last="1198">
+      <title>The DNA sequence, annotation and analysis of human chromosome 3.</title>
+      <authorList>
+        <person name="Muzny D.M."/>
+        <person name="Scherer S.E."/>
+        <person name="Kaul R."/>
+        <person name="Wang J."/>
+        <person name="Yu J."/>
+        <person name="Sudbrak R."/>
+        <person name="Buhay C.J."/>
+        <person name="Chen R."/>
+        <person name="Cree A."/>
+        <person name="Ding Y."/>
+        <person name="Dugan-Rocha S."/>
+        <person name="Gill R."/>
+        <person name="Gunaratne P."/>
+        <person name="Harris R.A."/>
+        <person name="Hawes A.C."/>
+        <person name="Hernandez J."/>
+        <person name="Hodgson A.V."/>
+        <person name="Hume J."/>
+        <person name="Jackson A."/>
+        <person name="Khan Z.M."/>
+        <person name="Kovar-Smith C."/>
+        <person name="Lewis L.R."/>
+        <person name="Lozado R.J."/>
+        <person name="Metzker M.L."/>
+        <person name="Milosavljevic A."/>
+        <person name="Miner G.R."/>
+        <person name="Morgan M.B."/>
+        <person name="Nazareth L.V."/>
+        <person name="Scott G."/>
+        <person name="Sodergren E."/>
+        <person name="Song X.-Z."/>
+        <person name="Steffen D."/>
+        <person name="Wei S."/>
+        <person name="Wheeler D.A."/>
+        <person name="Wright M.W."/>
+        <person name="Worley K.C."/>
+        <person name="Yuan Y."/>
+        <person name="Zhang Z."/>
+        <person name="Adams C.Q."/>
+        <person name="Ansari-Lari M.A."/>
+        <person name="Ayele M."/>
+        <person name="Brown M.J."/>
+        <person name="Chen G."/>
+        <person name="Chen Z."/>
+        <person name="Clendenning J."/>
+        <person name="Clerc-Blankenburg K.P."/>
+        <person name="Chen R."/>
+        <person name="Chen Z."/>
+        <person name="Davis C."/>
+        <person name="Delgado O."/>
+        <person name="Dinh H.H."/>
+        <person name="Dong W."/>
+        <person name="Draper H."/>
+        <person name="Ernst S."/>
+        <person name="Fu G."/>
+        <person name="Gonzalez-Garay M.L."/>
+        <person name="Garcia D.K."/>
+        <person name="Gillett W."/>
+        <person name="Gu J."/>
+        <person name="Hao B."/>
+        <person name="Haugen E."/>
+        <person name="Havlak P."/>
+        <person name="He X."/>
+        <person name="Hennig S."/>
+        <person name="Hu S."/>
+        <person name="Huang W."/>
+        <person name="Jackson L.R."/>
+        <person name="Jacob L.S."/>
+        <person name="Kelly S.H."/>
+        <person name="Kube M."/>
+        <person name="Levy R."/>
+        <person name="Li Z."/>
+        <person name="Liu B."/>
+        <person name="Liu J."/>
+        <person name="Liu W."/>
+        <person name="Lu J."/>
+        <person name="Maheshwari M."/>
+        <person name="Nguyen B.-V."/>
+        <person name="Okwuonu G.O."/>
+        <person name="Palmeiri A."/>
+        <person name="Pasternak S."/>
+        <person name="Perez L.M."/>
+        <person name="Phelps K.A."/>
+        <person name="Plopper F.J."/>
+        <person name="Qiang B."/>
+        <person name="Raymond C."/>
+        <person name="Rodriguez R."/>
+        <person name="Saenphimmachak C."/>
+        <person name="Santibanez J."/>
+        <person name="Shen H."/>
+        <person name="Shen Y."/>
+        <person name="Subramanian S."/>
+        <person name="Tabor P.E."/>
+        <person name="Verduzco D."/>
+        <person name="Waldron L."/>
+        <person name="Wang J."/>
+        <person name="Wang J."/>
+        <person name="Wang Q."/>
+        <person name="Williams G.A."/>
+        <person name="Wong G.K.-S."/>
+        <person name="Yao Z."/>
+        <person name="Zhang J."/>
+        <person name="Zhang X."/>
+        <person name="Zhao G."/>
+        <person name="Zhou J."/>
+        <person name="Zhou Y."/>
+        <person name="Nelson D."/>
+        <person name="Lehrach H."/>
+        <person name="Reinhardt R."/>
+        <person name="Naylor S.L."/>
+        <person name="Yang H."/>
+        <person name="Olson M."/>
+        <person name="Weinstock G."/>
+        <person name="Gibbs R.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="16641997"/>
+      <dbReference type="DOI" id="10.1038/nature04728"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope>
+    <source>
+      <tissue>Brain</tissue>
+      <tissue>Pancreas</tissue>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2004" name="Mol. Cell" volume="13" first="817" last="828">
+      <title>Xenopus U8 snoRNA binding protein is a conserved nuclear decapping enzyme.</title>
+      <authorList>
+        <person name="Ghosh T."/>
+        <person name="Peterson B."/>
+        <person name="Tomasevic N."/>
+        <person name="Peculis B.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="15053875"/>
+      <dbReference type="DOI" id="10.1016/s1097-2765(04)00127-3"/>
+    </citation>
+    <scope>FUNCTION AS A DECAPPING ENZYME</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2007" name="J. Biol. Chem." volume="282" first="24792" last="24805">
+      <title>Metal determines efficiency and substrate specificity of the nuclear NUDIX decapping proteins X29 and H29K (Nudt16).</title>
+      <authorList>
+        <person name="Peculis B.A."/>
+        <person name="Reynolds K."/>
+        <person name="Cleland M."/>
+      </authorList>
+      <dbReference type="PubMed" id="17567574"/>
+      <dbReference type="DOI" id="10.1074/jbc.m704179200"/>
+    </citation>
+    <scope>FUNCTION AS A DECAPPING ENZYME</scope>
+    <scope>SUBUNIT</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>COFACTOR</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2008" name="Nucleic Acids Res." volume="36" first="6021" last="6034">
+      <title>Evolutionary conservation supports ancient origin for Nudt16, a nuclear-localized, RNA-binding, RNA-decapping enzyme.</title>
+      <authorList>
+        <person name="Taylor M.J."/>
+        <person name="Peculis B.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="18820299"/>
+      <dbReference type="DOI" id="10.1093/nar/gkn605"/>
+    </citation>
+    <scope>FUNCTION AS A DECAPPING ENZYME</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>SUBUNIT</scope>
+    <scope>RNA-BINDING</scope>
+    <scope>GENE EVOLUTION</scope>
+    <scope>GENE FAMILY ORGANIZATION</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2010" name="Mol. Cell" volume="40" first="423" last="432">
+      <title>Multiple mRNA decapping enzymes in mammalian cells.</title>
+      <authorList>
+        <person name="Song M.G."/>
+        <person name="Li Y."/>
+        <person name="Kiledjian M."/>
+      </authorList>
+      <dbReference type="PubMed" id="21070968"/>
+      <dbReference type="DOI" id="10.1016/j.molcel.2010.10.010"/>
+    </citation>
+    <scope>FUNCTION AS A DECAPPING ENZYME</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2010" name="Nucleic Acids Res." volume="38" first="4834" last="4843">
+      <title>NUDT16 is a (deoxy)inosine diphosphatase, and its deficiency induces accumulation of single-strand breaks in nuclear DNA and growth arrest.</title>
+      <authorList>
+        <person name="Iyama T."/>
+        <person name="Abolhassani N."/>
+        <person name="Tsuchimoto D."/>
+        <person name="Nonaka M."/>
+        <person name="Nakabeppu Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="20385596"/>
+      <dbReference type="DOI" id="10.1093/nar/gkq249"/>
+    </citation>
+    <scope>FUNCTION AS AN IDP PHOSPHATASE</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2011" name="Protein Cell" volume="2" first="64" last="73">
+      <title>hNUDT16: a universal decapping enzyme for small nucleolar RNA and cytoplasmic mRNA.</title>
+      <authorList>
+        <person name="Lu G."/>
+        <person name="Zhang J."/>
+        <person name="Li Y."/>
+        <person name="Li Z."/>
+        <person name="Zhang N."/>
+        <person name="Xu X."/>
+        <person name="Wang T."/>
+        <person name="Guan Z."/>
+        <person name="Gao G.F."/>
+        <person name="Yan J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21337011"/>
+      <dbReference type="DOI" id="10.1007/s13238-011-1009-2"/>
+    </citation>
+    <scope>FUNCTION AS A DECAPPING ENZYME</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>COFACTOR</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+      <title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+      <authorList>
+        <person name="Bian Y."/>
+        <person name="Song C."/>
+        <person name="Cheng K."/>
+        <person name="Dong M."/>
+        <person name="Wang F."/>
+        <person name="Huang J."/>
+        <person name="Sun D."/>
+        <person name="Wang L."/>
+        <person name="Ye M."/>
+        <person name="Zou H."/>
+      </authorList>
+      <dbReference type="PubMed" id="24275569"/>
+      <dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Liver</tissue>
+    </source>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2008" name="Acta Crystallogr. F" volume="64" first="639" last="640">
+      <title>Crystallization and crystallographic analysis of human NUDT16.</title>
+      <authorList>
+        <person name="Zhang J."/>
+        <person name="Gao F."/>
+        <person name="Zhang Q."/>
+        <person name="Chen Q."/>
+        <person name="Qi J."/>
+        <person name="Yan J."/>
+      </authorList>
+      <dbReference type="PubMed" id="18607096"/>
+      <dbReference type="DOI" id="10.1107/s1744309108016928"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.1 ANGSTROMS)</scope>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2015" name="PLoS ONE" volume="10" first="E0131507" last="E0131507">
+      <title>Structural basis for the specificity of human NUDT16 and its regulation by inosine monophosphate.</title>
+      <authorList>
+        <person name="Tresaugues L."/>
+        <person name="Lundbaeck T."/>
+        <person name="Welin M."/>
+        <person name="Flodin S."/>
+        <person name="Nyman T."/>
+        <person name="Silvander C."/>
+        <person name="Graeslund S."/>
+        <person name="Nordlund P."/>
+      </authorList>
+      <dbReference type="PubMed" id="26121039"/>
+      <dbReference type="DOI" id="10.1371/journal.pone.0131507"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.72 ANGSTROMS) IN COMPLEX WITH IMP AND MAGNESIUM IONS</scope>
+    <scope>SUBUNIT</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>ACTIVITY REGULATION</scope>
+    <scope>FUNCTION</scope>
+    <scope>COFACTOR</scope>
+  </reference>
+  <reference evidence="18 19" key="15">
+    <citation type="journal article" date="2020" name="Nucleic Acids Res." volume="48" first="6788" last="6798">
+      <title>Mammalian Nudix proteins cleave nucleotide metabolite caps on RNAs.</title>
+      <authorList>
+        <person name="Sharma S."/>
+        <person name="Grudzien-Nogalska E."/>
+        <person name="Hamilton K."/>
+        <person name="Jiao X."/>
+        <person name="Yang J."/>
+        <person name="Tong L."/>
+        <person name="Kiledjian M."/>
+      </authorList>
+      <dbReference type="PubMed" id="32432673"/>
+      <dbReference type="DOI" id="10.1093/nar/gkaa402"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.3 ANGSTROMS) IN COMPLEX WITH MANGANESE IONS</scope>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>SUBUNIT</scope>
+    <scope>COFACTOR</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1 4 5 6 7 8 9 10 11">RNA-binding and decapping enzyme that catalyzes the cleavage of the cap structure of snoRNAs and mRNAs in a metal-dependent manner. Part of the U8 snoRNP complex that is required for the accumulation of mature 5.8S and 28S rRNA. Has diphosphatase activity and removes m7G and/or m227G caps from U8 snoRNA and leaves a 5'monophosphate on the RNA. Catalyzes also the cleavage of the cap structure on mRNAs. Does not hydrolyze cap analog structures like 7-methylguanosine nucleoside triphosphate (m7GpppG). Also hydrolysis m7G- and m227G U3-capped RNAs but with less efficiencies. Has broad substrate specificity with manganese or cobalt as cofactor and can act on various RNA species. Binds to the U8 snoRNA; metal is not required for RNA-binding. May play a role in the regulation of snoRNAs and mRNAs degradation. Acts also as a phosphatase; hydrolyzes the non-canonical purine nucleotides inosine diphosphate (IDP) and deoxyinosine diphosphate (dITP) as well as guanosine diphosphate (GDP), deoxyguanosine diphosphate (dGDP), xanthine diphosphate (XDP), inosine triphosphate (ITP) and deoxyinosine triphosphate (ITP) to their respective monophosphate derivatives and does not distinguish between the deoxy- and ribose forms (PubMed:20385596, PubMed:26121039). The order of activity with different substrates is IDP &gt; dIDP &gt;&gt; GDP = dGDP &gt; XDP = ITP = dITP (PubMed:20385596). Binds strongly to GTP, ITP and XTP. Participates in the hydrolysis of dIDP/IDP and probably excludes non-canonical purines from RNA and DNA precursor pools, thus preventing their incorporation into RNA and DNA and avoiding chromosomal lesions (PubMed:20385596). Exhibits decapping activity towards NAD-capped RNAs and FAD-capped RNAs (PubMed:32432673). Exhibits decapping activity towards dpCoA-capped RNAs in vitro (By similarity).</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="4 5 6 8 9">
+      <text>a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-ribonucleoside in mRNA + H2O = a 5'-end phospho-ribonucleoside in mRNA + 2 H(+) + N(7)-methyl-GDP</text>
+      <dbReference type="Rhea" id="RHEA:67484"/>
+      <dbReference type="Rhea" id="RHEA-COMP:15692"/>
+      <dbReference type="Rhea" id="RHEA-COMP:17167"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:63714"/>
+      <dbReference type="ChEBI" id="CHEBI:138282"/>
+      <dbReference type="ChEBI" id="CHEBI:156461"/>
+      <dbReference type="EC" id="3.6.1.62"/>
+    </reaction>
+    <physiologicalReaction direction="left-to-right" evidence="4 5 6 8 9">
+      <dbReference type="Rhea" id="RHEA:67485"/>
+    </physiologicalReaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="7 10">
+      <text>H2O + IDP = H(+) + IMP + phosphate</text>
+      <dbReference type="Rhea" id="RHEA:35207"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:43474"/>
+      <dbReference type="ChEBI" id="CHEBI:58053"/>
+      <dbReference type="ChEBI" id="CHEBI:58280"/>
+      <dbReference type="EC" id="3.6.1.64"/>
+    </reaction>
+    <physiologicalReaction direction="left-to-right" evidence="7 10">
+      <dbReference type="Rhea" id="RHEA:35208"/>
+    </physiologicalReaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="7 10">
+      <text>dIDP + H2O = dIMP + H(+) + phosphate</text>
+      <dbReference type="Rhea" id="RHEA:35211"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:43474"/>
+      <dbReference type="ChEBI" id="CHEBI:61194"/>
+      <dbReference type="ChEBI" id="CHEBI:62286"/>
+      <dbReference type="EC" id="3.6.1.64"/>
+    </reaction>
+    <physiologicalReaction direction="left-to-right" evidence="7 10">
+      <dbReference type="Rhea" id="RHEA:35212"/>
+    </physiologicalReaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="11">
+      <text>a 5'-end NAD(+)-phospho-ribonucleoside in mRNA + H2O = a 5'-end phospho-adenosine-phospho-ribonucleoside in mRNA + beta-nicotinamide D-ribonucleotide + 2 H(+)</text>
+      <dbReference type="Rhea" id="RHEA:60876"/>
+      <dbReference type="Rhea" id="RHEA-COMP:15698"/>
+      <dbReference type="Rhea" id="RHEA-COMP:15719"/>
+      <dbReference type="ChEBI" id="CHEBI:14649"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:144029"/>
+      <dbReference type="ChEBI" id="CHEBI:144051"/>
+    </reaction>
+    <physiologicalReaction direction="left-to-right" evidence="11">
+      <dbReference type="Rhea" id="RHEA:60877"/>
+    </physiologicalReaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="11">
+      <text>a 5'-end FAD-phospho-ribonucleoside in mRNA + H2O = a 5'-end phospho-adenosine-phospho-ribonucleoside in mRNA + FMN + 2 H(+)</text>
+      <dbReference type="Rhea" id="RHEA:67588"/>
+      <dbReference type="Rhea" id="RHEA-COMP:15719"/>
+      <dbReference type="Rhea" id="RHEA-COMP:17275"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:58210"/>
+      <dbReference type="ChEBI" id="CHEBI:144051"/>
+      <dbReference type="ChEBI" id="CHEBI:172372"/>
+    </reaction>
+    <physiologicalReaction direction="left-to-right" evidence="17">
+      <dbReference type="Rhea" id="RHEA:67589"/>
+    </physiologicalReaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="1">
+      <text>a 5'-end CoA-ribonucleoside in mRNA + H2O = (R)-4'-phosphopantetheine + a 5'-end phospho-adenosine-phospho-ribonucleoside in mRNA + 2 H(+)</text>
+      <dbReference type="Rhea" id="RHEA:67592"/>
+      <dbReference type="Rhea" id="RHEA-COMP:15719"/>
+      <dbReference type="Rhea" id="RHEA-COMP:17276"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:61723"/>
+      <dbReference type="ChEBI" id="CHEBI:144051"/>
+      <dbReference type="ChEBI" id="CHEBI:172371"/>
+    </reaction>
+    <physiologicalReaction direction="left-to-right" evidence="1">
+      <dbReference type="Rhea" id="RHEA:67593"/>
+    </physiologicalReaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="5 9 10">
+      <name>Mg(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:18420"/>
+    </cofactor>
+    <cofactor evidence="5 9 11">
+      <name>Mn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29035"/>
+    </cofactor>
+    <cofactor evidence="5 9">
+      <name>Co(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:48828"/>
+    </cofactor>
+    <text evidence="5 9">Binds 3 or 4 divalent metal cations. Acts specifically on U8 snoRNA with magnesium as cofactor. Has broad substrate specificity with bound manganese or cobalt (in vitro).</text>
+  </comment>
+  <comment type="activity regulation">
+    <text evidence="10">The phosphatase activity is inhibited by the product IMP.</text>
+  </comment>
+  <comment type="biophysicochemical properties">
+    <kinetics>
+      <KM evidence="7">0.062 uM for IDP (at 37 degrees Celsius)</KM>
+      <KM evidence="7">0.088 uM for dIDP (at 37 degrees Celsius)</KM>
+      <KM evidence="7">0.33 uM for GDP (at 37 degrees Celsius)</KM>
+      <KM evidence="7">0.319 mM for dGDP (at 37 degrees Celsius)</KM>
+      <KM evidence="7">15.7 mM for XDP (at 37 degrees Celsius)</KM>
+      <KM evidence="7">22.1 mM for ITP (at 37 degrees Celsius)</KM>
+      <KM evidence="7">24.1 mM for dITP (at 37 degrees Celsius)</KM>
+      <text evidence="7">kcat is 0.931 sec(-1) with IDP. kcat is 0.966 sec(-1) with dIDP. kcat is 0.518 sec(-1) with GDP. kcat is 0.492 sec(-1) with dGDP. kcat is 2.6 sec(-1) with XDP. kcat is 3.06 sec(-1) with ITP. kcat is 3.2 sec(-1) with dITP. The catalytic efficiency for IDP is at least 1.3-fold higher than for dIDP, 9.6-fold higher than for GDP and dGDP, 100-fold higher than for XDP, ITP and dITP.</text>
+    </kinetics>
+    <phDependence>
+      <text evidence="7">Gradually increased from pH 6.5 to 8.5 in its IDP hydrolyzing activity.</text>
+    </phDependence>
+    <temperatureDependence>
+      <text evidence="7">Exhibited a temperature-dependent increase in its IDP hydrolyzing activity up to 60 degrees Celsius.</text>
+    </temperatureDependence>
+  </comment>
+  <comment type="subunit">
+    <text evidence="5 6 10 11">Homodimer.</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-5464685">
+      <id>Q96DE0</id>
+    </interactant>
+    <interactant intactId="EBI-5464685">
+      <id>Q96DE0</id>
+      <label>NUDT16</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="7 9">Nucleus</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="2">Nucleus</location>
+      <location evidence="2">Nucleoplasm</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="2">Nucleus</location>
+      <location evidence="2">Nucleolus</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="8 9">Cytoplasm</location>
+    </subcellularLocation>
+    <text evidence="2 8">Localized predominantly in the cytoplasm (PubMed:21070968). Localized in nucleolus, and in a minor proportion in distinct foci in the nucleoplasm (By similarity).</text>
+  </comment>
+  <comment type="alternative products">
+    <event type="alternative splicing"/>
+    <isoform>
+      <id>Q96DE0-1</id>
+      <name>1</name>
+      <sequence type="displayed"/>
+    </isoform>
+    <isoform>
+      <id>Q96DE0-2</id>
+      <name>2</name>
+      <sequence type="described" ref="VSP_045450 VSP_045451"/>
+    </isoform>
+    <isoform>
+      <id>Q96DE0-3</id>
+      <name>3</name>
+      <sequence type="described" ref="VSP_045449 VSP_045452"/>
+    </isoform>
+    <isoform>
+      <id>Q96DE0-4</id>
+      <name>4</name>
+      <sequence type="described" ref="VSP_045451"/>
+    </isoform>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="7">Expressed strongly in lung, kidney, adrenal gland, testis, heart and brain.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="15">Belongs to the Nudix hydrolase family. NUDT16 subfamily.</text>
+  </comment>
+  <comment type="sequence caution" evidence="15">
+    <conflict type="erroneous initiation">
+      <sequence resource="EMBL-CDS" id="BAB71024" version="1"/>
+    </conflict>
+    <text>Truncated N-terminus.</text>
+  </comment>
+  <dbReference type="EC" id="3.6.1.62" evidence="4 5 6 8 9"/>
+  <dbReference type="EC" id="3.6.1.64" evidence="7 10"/>
+  <dbReference type="EMBL" id="AK055827">
+    <property type="protein sequence ID" value="BAB71024.1"/>
+    <property type="status" value="ALT_INIT"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AK304650">
+    <property type="protein sequence ID" value="BAG65426.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BP199028">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AC010210">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC009546">
+    <property type="protein sequence ID" value="AAH09546.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC031215">
+    <property type="protein sequence ID" value="AAH31215.2"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS3070.2">
+    <molecule id="Q96DE0-1"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS54640.1">
+    <molecule id="Q96DE0-4"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS54641.1">
+    <molecule id="Q96DE0-3"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001165376.1">
+    <molecule id="Q96DE0-3"/>
+    <property type="nucleotide sequence ID" value="NM_001171905.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001165377.1">
+    <molecule id="Q96DE0-4"/>
+    <property type="nucleotide sequence ID" value="NM_001171906.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_689608.2">
+    <molecule id="Q96DE0-1"/>
+    <property type="nucleotide sequence ID" value="NM_152395.2"/>
+  </dbReference>
+  <dbReference type="PDB" id="2XSQ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.72 A"/>
+    <property type="chains" value="A=1-195"/>
+  </dbReference>
+  <dbReference type="PDB" id="3COU">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.80 A"/>
+    <property type="chains" value="A=1-195"/>
+  </dbReference>
+  <dbReference type="PDB" id="3MGM">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.80 A"/>
+    <property type="chains" value="A/B=1-195"/>
+  </dbReference>
+  <dbReference type="PDB" id="5VY2">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.30 A"/>
+    <property type="chains" value="A/B=1-195"/>
+  </dbReference>
+  <dbReference type="PDB" id="5W6X">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.10 A"/>
+    <property type="chains" value="A/B=1-195"/>
+  </dbReference>
+  <dbReference type="PDB" id="5W6Z">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.61 A"/>
+    <property type="chains" value="A/B/D/E=1-195"/>
+  </dbReference>
+  <dbReference type="PDB" id="5WJI">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.30 A"/>
+    <property type="chains" value="A/B=1-195"/>
+  </dbReference>
+  <dbReference type="PDB" id="6B09">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.20 A"/>
+    <property type="chains" value="A/B=1-195"/>
+  </dbReference>
+  <dbReference type="PDB" id="6CO2">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.49 A"/>
+    <property type="chains" value="A/B=1-195"/>
+  </dbReference>
+  <dbReference type="PDB" id="6X7U">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.70 A"/>
+    <property type="chains" value="A/C=1-184"/>
+  </dbReference>
+  <dbReference type="PDB" id="6X7V">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.30 A"/>
+    <property type="chains" value="A/B/C/D=1-195"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2XSQ"/>
+  <dbReference type="PDBsum" id="3COU"/>
+  <dbReference type="PDBsum" id="3MGM"/>
+  <dbReference type="PDBsum" id="5VY2"/>
+  <dbReference type="PDBsum" id="5W6X"/>
+  <dbReference type="PDBsum" id="5W6Z"/>
+  <dbReference type="PDBsum" id="5WJI"/>
+  <dbReference type="PDBsum" id="6B09"/>
+  <dbReference type="PDBsum" id="6CO2"/>
+  <dbReference type="PDBsum" id="6X7U"/>
+  <dbReference type="PDBsum" id="6X7V"/>
+  <dbReference type="AlphaFoldDB" id="Q96DE0"/>
+  <dbReference type="SMR" id="Q96DE0"/>
+  <dbReference type="BioGRID" id="126295">
+    <property type="interactions" value="26"/>
+  </dbReference>
+  <dbReference type="IntAct" id="Q96DE0">
+    <property type="interactions" value="12"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q96DE0"/>
+  <dbReference type="STRING" id="9606.ENSP00000422375"/>
+  <dbReference type="iPTMnet" id="Q96DE0"/>
+  <dbReference type="PhosphoSitePlus" id="Q96DE0"/>
+  <dbReference type="BioMuta" id="NUDT16"/>
+  <dbReference type="DMDM" id="68565926"/>
+  <dbReference type="jPOST" id="Q96DE0"/>
+  <dbReference type="MassIVE" id="Q96DE0"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000422375"/>
+  <dbReference type="PeptideAtlas" id="Q96DE0"/>
+  <dbReference type="ProteomicsDB" id="19864"/>
+  <dbReference type="ProteomicsDB" id="24755"/>
+  <dbReference type="ProteomicsDB" id="76283">
+    <molecule id="Q96DE0-1"/>
+  </dbReference>
+  <dbReference type="Pumba" id="Q96DE0"/>
+  <dbReference type="TopDownProteomics" id="Q96DE0-1">
+    <molecule id="Q96DE0-1"/>
+  </dbReference>
+  <dbReference type="Antibodypedia" id="46680">
+    <property type="antibodies" value="50 antibodies from 18 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="131870"/>
+  <dbReference type="Ensembl" id="ENST00000502852.1">
+    <molecule id="Q96DE0-4"/>
+    <property type="protein sequence ID" value="ENSP00000422375.1"/>
+    <property type="gene ID" value="ENSG00000198585.12"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000521288.2">
+    <molecule id="Q96DE0-1"/>
+    <property type="protein sequence ID" value="ENSP00000429274.2"/>
+    <property type="gene ID" value="ENSG00000198585.12"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000537561.5">
+    <molecule id="Q96DE0-3"/>
+    <property type="protein sequence ID" value="ENSP00000440230.1"/>
+    <property type="gene ID" value="ENSG00000198585.12"/>
+  </dbReference>
+  <dbReference type="GeneID" id="131870"/>
+  <dbReference type="KEGG" id="hsa:131870"/>
+  <dbReference type="MANE-Select" id="ENST00000521288.2">
+    <property type="protein sequence ID" value="ENSP00000429274.2"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_152395.3"/>
+    <property type="RefSeq protein sequence ID" value="NP_689608.2"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc003eog.3">
+    <molecule id="Q96DE0-1"/>
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:26442"/>
+  <dbReference type="CTD" id="131870"/>
+  <dbReference type="DisGeNET" id="131870"/>
+  <dbReference type="GeneCards" id="NUDT16"/>
+  <dbReference type="HGNC" id="HGNC:26442">
+    <property type="gene designation" value="NUDT16"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000198585">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MIM" id="617381">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q96DE0"/>
+  <dbReference type="OpenTargets" id="ENSG00000198585"/>
+  <dbReference type="PharmGKB" id="PA134955224"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000198585"/>
+  <dbReference type="eggNOG" id="ENOG502S20E">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00390000016224"/>
+  <dbReference type="HOGENOM" id="CLU_110418_1_0_1"/>
+  <dbReference type="InParanoid" id="Q96DE0"/>
+  <dbReference type="OMA" id="VVLMQMR"/>
+  <dbReference type="OrthoDB" id="4562896at2759"/>
+  <dbReference type="PhylomeDB" id="Q96DE0"/>
+  <dbReference type="BioCyc" id="MetaCyc:MONOMER-17869"/>
+  <dbReference type="BRENDA" id="3.6.1.62">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="BRENDA" id="3.6.1.64">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="Q96DE0"/>
+  <dbReference type="Reactome" id="R-HSA-2393930">
+    <property type="pathway name" value="Phosphate bond hydrolysis by NUDT proteins"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="Q96DE0"/>
+  <dbReference type="BioGRID-ORCS" id="131870">
+    <property type="hits" value="8 hits in 1161 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="NUDT16">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q96DE0"/>
+  <dbReference type="GenomeRNAi" id="131870"/>
+  <dbReference type="Pharos" id="Q96DE0">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q96DE0"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 3"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q96DE0">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000198585">
+    <property type="expression patterns" value="Expressed in tendon of biceps brachii and 181 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005730">
+    <property type="term" value="C:nucleolus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140933">
+    <property type="term" value="F:5'-(N(7)-methylguanosine 5'-triphospho)-[mRNA] hydrolase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031404">
+    <property type="term" value="F:chloride ion binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050897">
+    <property type="term" value="F:cobalt ion binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0097383">
+    <property type="term" value="F:dIDP phosphatase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="RHEA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0035870">
+    <property type="term" value="F:dITP diphosphatase activity"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042802">
+    <property type="term" value="F:identical protein binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="IntAct"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1990003">
+    <property type="term" value="F:IDP phosphatase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000287">
+    <property type="term" value="F:magnesium ion binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030145">
+    <property type="term" value="F:manganese ion binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008235">
+    <property type="term" value="F:metalloexopeptidase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003729">
+    <property type="term" value="F:mRNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000166">
+    <property type="term" value="F:nucleotide binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1990174">
+    <property type="term" value="F:phosphodiesterase decapping endonuclease activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042803">
+    <property type="term" value="F:protein homodimerization activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0110153">
+    <property type="term" value="F:RNA NAD-cap (NMN-forming) hydrolase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="RHEA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030515">
+    <property type="term" value="F:snoRNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0035863">
+    <property type="term" value="P:dITP catabolic process"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006402">
+    <property type="term" value="P:mRNA catabolic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0110155">
+    <property type="term" value="P:NAD-cap decapping"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:2000233">
+    <property type="term" value="P:negative regulation of rRNA processing"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0090068">
+    <property type="term" value="P:positive regulation of cell cycle process"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016077">
+    <property type="term" value="P:sno(s)RNA catabolic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.90.79.10">
+    <property type="entry name" value="Nucleoside Triphosphate Pyrophosphohydrolase"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR015797">
+    <property type="entry name" value="NUDIX_hydrolase-like_dom_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000086">
+    <property type="entry name" value="NUDIX_hydrolase_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR051894">
+    <property type="entry name" value="Nudix_hydrolase_NUDT16_sf"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR31699">
+    <property type="entry name" value="NUDIX T16 FAMILY MEMBER"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR31699:SF5">
+    <property type="entry name" value="U8 SNORNA-DECAPPING ENZYME"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF22327">
+    <property type="entry name" value="Nudt16-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF55811">
+    <property type="entry name" value="Nudix"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51462">
+    <property type="entry name" value="NUDIX"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0025">Alternative splicing</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0378">Hydrolase</keyword>
+  <keyword id="KW-0460">Magnesium</keyword>
+  <keyword id="KW-0464">Manganese</keyword>
+  <keyword id="KW-0479">Metal-binding</keyword>
+  <keyword id="KW-0546">Nucleotide metabolism</keyword>
+  <keyword id="KW-0547">Nucleotide-binding</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0694">RNA-binding</keyword>
+  <feature type="chain" id="PRO_0000057117" description="U8 snoRNA-decapping enzyme">
+    <location>
+      <begin position="1"/>
+      <end position="195"/>
+    </location>
+  </feature>
+  <feature type="domain" description="Nudix hydrolase" evidence="3">
+    <location>
+      <begin position="18"/>
+      <end position="173"/>
+    </location>
+  </feature>
+  <feature type="short sequence motif" description="Nudix box">
+    <location>
+      <begin position="61"/>
+      <end position="82"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="16">
+    <location>
+      <position position="24"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="16">
+    <location>
+      <position position="50"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="16">
+    <location>
+      <position position="57"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="11 16 18">
+    <location>
+      <position position="59"/>
+    </location>
+    <ligand>
+      <name>Mn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29035"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="16">
+    <location>
+      <position position="76"/>
+    </location>
+    <ligand>
+      <name>Mn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29035"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="2">
+    <location>
+      <position position="76"/>
+    </location>
+    <ligand>
+      <name>Mn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29035"/>
+      <label>3</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="11 16 18">
+    <location>
+      <position position="80"/>
+    </location>
+    <ligand>
+      <name>Mn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29035"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="2">
+    <location>
+      <position position="80"/>
+    </location>
+    <ligand>
+      <name>Mn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29035"/>
+      <label>3</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="11 18 19">
+    <location>
+      <position position="99"/>
+    </location>
+    <ligand>
+      <name>Mn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29035"/>
+      <label>4</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="16">
+    <location>
+      <position position="170"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="11 18 19">
+    <location>
+      <position position="173"/>
+    </location>
+    <ligand>
+      <name>Mn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29035"/>
+      <label>4</label>
+    </ligand>
+  </feature>
+  <feature type="splice variant" id="VSP_045449" description="In isoform 3." evidence="13">
+    <location>
+      <begin position="1"/>
+      <end position="46"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_045450" description="In isoform 2." evidence="12">
+    <location>
+      <begin position="1"/>
+      <end position="33"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_045451" description="In isoform 2 and isoform 4." evidence="12">
+    <original>LGLVRVPLYTLRDGVGGLPTFLENSFIGSAREQLLEALQDLGLLQSGSISGLKIPAHH</original>
+    <variation>GPAWDSVPFPISSSPKAFSPPRKHPWRKVFAPLTLPSPQLSWWSWDRDHLYSELVLPTWAFCKGLSHPLPGEILSRTHSSMSLCCSLLTV</variation>
+    <location>
+      <begin position="138"/>
+      <end position="195"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_045452" description="In isoform 3." evidence="13">
+    <original>ALQDLGLLQSGSISGLKIPAHH</original>
+    <variation>AALHGPMKTEMRTLVLGREGRTWECFLIGSER</variation>
+    <location>
+      <begin position="174"/>
+      <end position="195"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 4; AAH31215." evidence="15" ref="4">
+    <original>A</original>
+    <variation>V</variation>
+    <location>
+      <position position="22"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="5"/>
+      <end position="7"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="9"/>
+      <end position="13"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="20"/>
+      <end position="35"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="20">
+    <location>
+      <begin position="36"/>
+      <end position="38"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="39"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="58"/>
+      <end position="61"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="21">
+    <location>
+      <begin position="64"/>
+      <end position="66"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="69"/>
+      <end position="81"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="83"/>
+      <end position="87"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="92"/>
+      <end position="94"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="95"/>
+      <end position="100"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="102"/>
+      <end position="114"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="117"/>
+      <end position="126"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="127"/>
+      <end position="129"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="20">
+    <location>
+      <begin position="134"/>
+      <end position="136"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="137"/>
+      <end position="142"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="149"/>
+      <end position="152"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="155"/>
+      <end position="158"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="167"/>
+      <end position="177"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="20">
+    <location>
+      <begin position="178"/>
+      <end position="181"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 2; BP199028." evidence="15" ref="2">
+    <location sequence="Q96DE0-3">
+      <position position="128"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q6P3D0"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000250" key="2">
+    <source>
+      <dbReference type="UniProtKB" id="Q6TEC1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="3">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00794"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="15053875"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="17567574"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="18820299"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="20385596"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="21070968"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="21337011"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="26121039"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="32432673"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="12">
+    <source>
+      <dbReference type="PubMed" id="14702039"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="13">
+    <source>
+      <dbReference type="PubMed" id="16344560"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="14">
+    <source>
+      <dbReference type="PubMed" id="17567574"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="15"/>
+  <evidence type="ECO:0000305" key="16">
+    <source>
+      <dbReference type="PubMed" id="26121039"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="17">
+    <source>
+      <dbReference type="PubMed" id="32432673"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="18">
+    <source>
+      <dbReference type="PDB" id="6X7U"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="19">
+    <source>
+      <dbReference type="PDB" id="6X7V"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="20">
+    <source>
+      <dbReference type="PDB" id="2XSQ"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="21">
+    <source>
+      <dbReference type="PDB" id="3MGM"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="22">
+    <source>
+      <dbReference type="PDB" id="6B09"/>
+    </source>
+  </evidence>
+  <sequence length="195" mass="21273" checksum="4AC7EA679D1D7468" modified="2005-07-05" version="2">MAGARRLELGEALALGSGWRHACHALLYAPDPGMLFGRIPLRYAILMQMRFDGRLGFPGGFVDTQDRSLEDGLNRELREELGEAAAAFRVERTDYRSSHVGSGPRVVAHFYAKRLTLEELLAVEAGATRAKDHGLEVLGLVRVPLYTLRDGVGGLPTFLENSFIGSAREQLLEALQDLGLLQSGSISGLKIPAHH</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

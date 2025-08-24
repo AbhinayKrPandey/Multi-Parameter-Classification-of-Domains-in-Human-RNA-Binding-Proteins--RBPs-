@@ -1,0 +1,969 @@
+import os
+ft Windows [Version 10.0.22631.4317]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\91630>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 922F-B4FA
+
+ Directory of C:\Users\91630
+
+07-11-2024  12:25    <DIR>          .
+11-07-2024  11:28    <DIR>          ..
+21-12-2021  21:48    <DIR>          .android
+27-06-2024  18:06             1,537 .bash_history
+29-06-2024  10:23    <DIR>          .conda
+27-02-2023  20:10                25 .condarc
+27-02-2023  20:10    <DIR>          .continuum
+27-06-2024  00:09               217 .gitconfig
+20-12-2021  19:54    <DIR>          .Icecream PDF Converter
+22-08-2024  09:50    <DIR>          .idlerc
+29-06-2024  10:30    <DIR>          .ipynb_checkpoints
+27-02-2023  20:16    <DIR>          .ipython
+27-07-2024  13:03    <DIR>          .jupyter
+29-06-2024  10:54    <DIR>          .keras
+29-08-2024  12:50    <DIR>          .matplotlib
+01-07-2022  18:45    <DIR>          .ms-ad
+17-07-2022  09:18    <DIR>          .openshot_qt
+17-09-2023  00:15    <DIR>          .vscode
+03-05-2024  21:46    <DIR>          .vscode-R
+18-03-2024  10:56           676,992 1ASY_AB.pdb
+22-10-2024  14:08    <DIR>          3D Objects
+08-08-2024  12:22    <DIR>          anaconda3
+04-08-2024  14:01           200,236 battery-report.html
+09-10-2022  11:37    <DIR>          Contacts
+04-05-2024  19:57            23,322 datanalaysistutorials.ipynb
+08-11-2024  18:21    <DIR>          Desktop
+06-05-2022  10:59       199,141,126 DIY ASSIGNMENT 02.mp4
+06-05-2022  00:27        76,735,637 DIY ASSIGNMENT.mp4
+21-10-2024  00:17    <DIR>          Documents
+07-11-2024  21:14    <DIR>          Downloads
+08-05-2024  18:23               589 exploratorydataanalysistutorial.ipynb
+09-10-2022  11:37    <DIR>          Favorites
+05-05-2024  19:50             2,350 flights.csv
+06-05-2024  17:52             3,975 iris.csv
+09-10-2022  11:37    <DIR>          Links
+05-05-2024  19:20           298,791 Matplotlibdataanalysistutorial.ipynb
+12-01-2024  20:37    <DIR>          Microsoft
+09-10-2022  11:37    <DIR>          Music
+15-10-2022  18:02    <DIR>          OneDrive
+18-03-2024  10:56               179 output_info.txt
+05-05-2024  17:53           195,853 PandasDataanalysistutorial.ipynb
+22-10-2024  14:07    <DIR>          Pictures
+06-05-2024  19:24             1,864 probabilitydataanalysistutorial.ipynb
+04-05-2024  11:44    <DIR>          PycharmProjects
+24-03-2024  19:05            29,347 python code.ipynb
+06-05-2024  18:58           430,823 pythonseaborntutorial.ipynb
+09-10-2022  11:37    <DIR>          Saved Games
+13-04-2024  21:45            27,134 Schools Informations.xlsx
+24-03-2024  16:40        10,602,432 scikit_learn-1.4.1.post1-cp312-cp312-win_amd64.whl
+04-12-2021  22:12    <DIR>          Screenshots
+06-05-2024  17:52    <DIR>          seaborn-data
+09-10-2022  11:37    <DIR>          Searches
+12-07-2024  08:39    <DIR>          temp
+29-06-2024  12:05           172,241 Tensorflow.ipynb
+06-05-2024  09:33             9,729 tips.csv
+14-04-2024  20:43           703,966 triples .ipynb
+05-05-2024  17:51            15,222 ts.csv
+21-04-2022  18:35           492,662 UMS5_mobile stand-BodyPocket002.ufp
+06-05-2022  10:54        35,965,583 Untitled Project.mp4
+12-05-2022  22:48           450,540 Untitled Project.osp
+12-05-2022  22:06    <DIR>          Untitled Project_assets
+27-02-2023  20:20             1,035 Untitled.ipynb
+27-02-2023  21:56             3,749 Untitled1.ipynb
+05-05-2024  17:52           195,853 Untitled10.ipynb
+05-05-2024  19:20           298,791 Untitled11.ipynb
+05-05-2024  19:22             2,936 Untitled12.ipynb
+06-05-2024  19:24             1,864 Untitled13.ipynb
+08-05-2024  18:17             1,089 Untitled14.ipynb
+09-05-2024  09:45               623 Untitled15.ipynb
+27-06-2024  00:02               612 Untitled16.ipynb
+27-02-2023  21:58                72 Untitled2.ipynb
+26-04-2023  22:15               831 Untitled3.ipynb
+24-03-2024  16:27             2,348 Untitled4.ipynb
+24-03-2024  22:15             9,535 Untitled5.ipynb
+28-03-2024  10:13            44,714 Untitled6.ipynb
+13-04-2024  21:46           453,070 Untitled7.ipynb
+13-04-2024  21:52            98,042 Untitled8.ipynb
+04-05-2024  19:35           109,580 Untitled9.ipynb
+09-10-2022  11:37    <DIR>          Videos
+              43 File(s)    327,407,116 bytes
+              36 Dir(s)  36,673,249,280 bytes free
+
+C:\Users\91630>Desktop
+'Desktop' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\91630>cd Desktop
+
+C:\Users\91630\Desktop>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 922F-B4FA
+
+ Directory of C:\Users\91630\Desktop
+
+08-11-2024  18:21    <DIR>          .
+07-11-2024  12:25    <DIR>          ..
+01-10-2024  13:49    <DIR>          .ipynb_checkpoints
+03-05-2024  22:29    <DIR>          21BT3EP11_Bioinformatics_Mini_Project
+06-11-2024  23:14    <DIR>          BTP
+07-10-2024  10:08    <DIR>          BTP-1
+25-09-2024  21:23    <DIR>          csb
+28-07-2024  12:07    <DIR>          CV projects
+06-09-2024  00:45    <DIR>          Deep Learning tutorial
+24-08-2024  18:32    <DIR>          dsa with c++
+22-08-2024  22:24    <DIR>          dsa with python
+15-08-2024  18:45    <DIR>          FIGMA
+26-09-2024  18:28    <DIR>          Gate 2025
+08-09-2024  15:28            16,902 getPDFPerformanceCard.pdf
+27-06-2024  00:08             2,378 GitHub Desktop.lnk
+28-08-2024  00:01             2,417 Microsoft Teams classic (work or school).lnk
+17-07-2024  10:41    <DIR>          ML Resources
+31-08-2024  22:03    <DIR>          ML tutorial
+17-07-2022  09:25         8,425,096 OfficeSetup.exe
+22-10-2024  14:10    <DIR>          personal files
+22-10-2024  14:10    <DIR>          PM
+30-04-2024  23:12    <DIR>          Power Bi
+30-04-2024  18:51    <DIR>          Power BI PL 300
+07-08-2024  22:51    <DIR>          Power BI Project
+07-08-2024  08:38    <DIR>          Python
+30-04-2024  23:12    <DIR>          Sem 6
+19-09-2024  19:13    <DIR>          sem 7
+17-01-2023  20:32             1,411 Visual Studio Code.lnk
+08-11-2024  18:15       901,654,342 [TIF]_S01_E01_Citadel_Honey_Bunny_1080p_MultiAud.mkv
+08-11-2024  18:15       821,567,812 [TIF]_S01_E02_Citadel_Honey_Bunny_1080p_MultiAud.mkv
+08-11-2024  18:15       835,078,247 [TIF]_S01_E03_Citadel_Honey_Bunny_1080p_MultiAud.mkv
+08-11-2024  18:15       810,672,733 [TIF]_S01_E04_Citadel_Honey_Bunny_1080p_MultiAud.mkv
+08-11-2024  18:16       697,777,430 [TIF]_S01_E05_Citadel_Honey_Bunny_1080p_MultiAud.mkv
+08-11-2024  18:16       844,290,805 [TIF]_S01_E06_Citadel_Honey_Bunny_1080p_MultiAud.mkv
+              11 File(s)  4,919,489,573 bytes
+              23 Dir(s)  36,673,204,224 bytes free
+
+C:\Users\91630\Desktop>cd BTP
+
+C:\Users\91630\Desktop\BTP>dir
+ Volume in drive C is Windows-SSD
+ Volume Serial Number is 922F-B4FA
+
+ Directory of C:\Users\91630\Desktop\BTP
+
+06-11-2024  23:14    <DIR>          .
+08-11-2024  18:21    <DIR>          ..
+01-10-2024  13:54    <DIR>          .ipynb_checkpoints
+23-10-2024  20:22               213 .wget-hsts
+05-10-2024  21:43             7,692 Calculating number of unique pdb_ids and unique uniprot_ids.ipynb
+05-10-2024  22:21            12,482 check.py
+09-11-2024  10:36             4,123 creating_domain_files.py
+29-10-2024  19:03             3,576 creation_of_iupred_score_files_with_domain_information.py
+05-10-2024  21:47               857 deletion_of_fasta_files_which_are_not_in_unique_uniprot_ids.py
+09-11-2024  10:26    <DIR>          domains
+23-10-2024  23:50             1,102 download_uniprot_xml_files.py
+01-10-2024  13:59             2,761 extracting_fasta_and_storing_in_sub_folders.py
+01-10-2024  15:25    <DIR>          fasta
+01-10-2024  00:29    <DIR>          fasta_sequences_pdb_ids
+07-10-2024  10:20    <DIR>          Fasta_Sequences_Subfolders
+27-10-2024  12:35             7,776 Intrinsically Disordered Regions (I.txt
+01-10-2024  13:37    <DIR>          iupred3
+07-10-2024  11:24             3,003 iupred3_scores_download_long.py
+19-10-2024  14:11             2,784 iupred3_scores_download_short.py
+07-10-2024  12:03             1,909 moving_fasta_sequences_in_its_subfolders.py
+05-10-2024  13:00            15,232 pdb_ids.txt
+19-10-2024  19:18             1,447 renaming_iupred_score_files_long.py
+30-09-2024  22:20           125,157 RPC_complete.xlsx
+05-10-2024  21:48    <DIR>          uniprot_fasta_sequences
+24-10-2024  11:11             3,303 uniprot_ids_domain_information.py
+05-10-2024  13:03             9,396 unique_ids_pdb.txt
+01-10-2024  13:48             7,829 unique_pdb_ids.txt
+05-10-2024  21:42             5,268 unique_uniprot_ids.txt
+30-09-2024  23:11         7,046,072 wget.exe
+19-10-2024  13:44               293 what is long or short used.txt
+              21 File(s)      7,262,275 bytes
+               9 Dir(s)  36,673,269,760 bytes free
+
+C:\Users\91630\Desktop\BTP>py creating_domain_files.py
+Traceback (most recent call last):
+  File "C:\Users\91630\Desktop\BTP\creating_domain_files.py", line 46, in <module>
+    long_scores = [line.strip().split()[1] for line in long_file.readlines()[begin-1:end]]
+                   ~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+
+C:\Users\91630\Desktop\BTP>py creating_domain_files.py
+Unique domains have been saved in unique_domains.txt
+Created sheet for domain: RRM 1
+Created sheet for domain: RRM 2
+Created sheet for domain: G-patch
+Created sheet for domain: JmjC
+Created sheet for domain: KOW 1
+Created sheet for domain: KOW 2
+Created sheet for domain: KOW 3
+Created sheet for domain: KOW 4
+Created sheet for domain: KOW 5
+Created sheet for domain: Alpha-type protein kinase
+Created sheet for domain: KH 1
+Created sheet for domain: KH 2
+Created sheet for domain: KH 3
+Created sheet for domain: KH 4
+Created sheet for domain: Helicase ATP-binding
+Created sheet for domain: Helicase C-terminal
+Created sheet for domain: SAM-dependent MTase C5-type
+Created sheet for domain: Reverse transcriptase
+Created sheet for domain: WW 1
+Created sheet for domain: WW 2
+Created sheet for domain: WW 3
+Created sheet for domain: FF 1
+Created sheet for domain: FF 2
+Created sheet for domain: FF 3
+Created sheet for domain: FF 4
+Created sheet for domain: FF 5
+Created sheet for domain: FF 6
+Created sheet for domain: Importin N-terminal
+Created sheet for domain: RNase NYN
+Created sheet for domain: RRM
+Created sheet for domain: SET
+Created sheet for domain: Post-SET
+Created sheet for domain: MH1
+Created sheet for domain: MH2
+Created sheet for domain: MPN
+Created sheet for domain: LRRNT
+Created sheet for domain: LRRCT
+Created sheet for domain: TIR
+Created sheet for domain: mRNA cap 0 methyltransferase
+Created sheet for domain: GST C-terminal
+Created sheet for domain: RRM 3
+Created sheet for domain: MIF4G
+Created sheet for domain: MI
+Created sheet for domain: W2
+Created sheet for domain: PPIase cyclophilin-type
+Created sheet for domain: Nudix hydrolase
+Created sheet for domain: Cyclin N-terminal
+Created sheet for domain: WW
+Created sheet for domain: RNase H type-1
+Created sheet for domain: Tyrosine-protein phosphatase
+Created sheet for domain: Protein kinase
+Created sheet for domain: KEN
+Created sheet for domain: PWWP
+Created sheet for domain: CSD 1
+Created sheet for domain: CSD 2; truncated
+Created sheet for domain: CSD 3
+Created sheet for domain: CSD 4; truncated
+Created sheet for domain: CSD 5
+Created sheet for domain: CSD 6
+Created sheet for domain: CSD 7
+Created sheet for domain: CSD 8
+Created sheet for domain: CSD 9
+Created sheet for domain: SUZ-C
+Created sheet for domain: DRBM 1
+Created sheet for domain: DRBM 2
+Created sheet for domain: DRBM 3
+Created sheet for domain: Helicase ATP-binding 1
+Created sheet for domain: Helicase C-terminal 1
+Created sheet for domain: SEC63 1
+Created sheet for domain: Helicase ATP-binding 2
+Created sheet for domain: Helicase C-terminal 2
+Created sheet for domain: SEC63 2
+Created sheet for domain: RNase H type-2
+Created sheet for domain: Tudor
+Created sheet for domain: IBB
+Created sheet for domain: FDX-ACB
+Created sheet for domain: GYF
+Created sheet for domain: R3H
+Created sheet for domain: CARD 1
+Created sheet for domain: CARD 2
+Created sheet for domain: RLR CTR
+Created sheet for domain: Toprim
+Created sheet for domain: Topo IA-type catalytic
+Created sheet for domain: S1 motif
+Created sheet for domain: HTH La-type RNA-binding
+Created sheet for domain: xRRM
+Created sheet for domain: WHEP-TRS 1
+Created sheet for domain: WHEP-TRS 2
+Created sheet for domain: WHEP-TRS 3
+Created sheet for domain: PADR1 zinc-binding
+Created sheet for domain: BRCT
+Created sheet for domain: WGR
+Created sheet for domain: PARP alpha-helical
+Created sheet for domain: PARP catalytic
+Created sheet for domain: Topo IB-type catalytic
+Created sheet for domain: tr-type G
+Created sheet for domain: Sm
+Created sheet for domain: RRM 4
+Traceback (most recent call last):
+  File "C:\Users\91630\Desktop\BTP\creating_domain_files.py", line 83, in <module>
+    ws = wb.create_sheet(title=domain)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91630\AppData\Roaming\Python\Python312\site-packages\openpyxl\workbook\workbook.py", line 199, in create_sheet
+    new_ws = Worksheet(parent=self, title=title)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91630\AppData\Roaming\Python\Python312\site-packages\openpyxl\worksheet\worksheet.py", line 106, in __init__
+    _WorkbookChild.__init__(self, parent, title)
+  File "C:\Users\91630\AppData\Roaming\Python\Python312\site-packages\openpyxl\workbook\child.py", line 47, in __init__
+    self.title = title or self._default_title
+    ^^^^^^^^^^
+  File "C:\Users\91630\AppData\Roaming\Python\Python312\site-packages\openpyxl\workbook\child.py", line 93, in title
+    raise ValueError(msg)
+ValueError: Invalid character / found in sheet title
+
+C:\Users\91630\Desktop\BTP>py creating_domain_files.py
+Unique domains have been saved in unique_domains.txt
+Created sheet for domain: RRM 1
+Created sheet for domain: RRM 2
+Created sheet for domain: G-patch
+Created sheet for domain: JmjC
+Created sheet for domain: KOW 1
+Created sheet for domain: KOW 2
+Created sheet for domain: KOW 3
+Created sheet for domain: KOW 4
+Created sheet for domain: KOW 5
+Created sheet for domain: Alpha-type protein kinase
+Created sheet for domain: KH 1
+Created sheet for domain: KH 2
+Created sheet for domain: KH 3
+Created sheet for domain: KH 4
+Created sheet for domain: Helicase ATP-binding
+Created sheet for domain: Helicase C-terminal
+Created sheet for domain: SAM-dependent MTase C5-type
+Created sheet for domain: Reverse transcriptase
+Created sheet for domain: WW 1
+Created sheet for domain: WW 2
+Created sheet for domain: WW 3
+Created sheet for domain: FF 1
+Created sheet for domain: FF 2
+Created sheet for domain: FF 3
+Created sheet for domain: FF 4
+Created sheet for domain: FF 5
+Created sheet for domain: FF 6
+Created sheet for domain: Importin N-terminal
+Created sheet for domain: RNase NYN
+Created sheet for domain: RRM
+Created sheet for domain: SET
+Created sheet for domain: Post-SET
+Created sheet for domain: MH1
+Created sheet for domain: MH2
+Created sheet for domain: MPN
+Created sheet for domain: LRRNT
+Created sheet for domain: LRRCT
+Created sheet for domain: TIR
+Created sheet for domain: mRNA cap 0 methyltransferase
+Created sheet for domain: GST C-terminal
+Created sheet for domain: RRM 3
+Created sheet for domain: MIF4G
+Created sheet for domain: MI
+Created sheet for domain: W2
+Created sheet for domain: PPIase cyclophilin-type
+Created sheet for domain: Nudix hydrolase
+Created sheet for domain: Cyclin N-terminal
+Created sheet for domain: WW
+Created sheet for domain: RNase H type-1
+Created sheet for domain: Tyrosine-protein phosphatase
+Created sheet for domain: Protein kinase
+Created sheet for domain: KEN
+Created sheet for domain: PWWP
+Created sheet for domain: CSD 1
+Created sheet for domain: CSD 2; truncated
+Created sheet for domain: CSD 3
+Created sheet for domain: CSD 4; truncated
+Created sheet for domain: CSD 5
+Created sheet for domain: CSD 6
+Created sheet for domain: CSD 7
+Created sheet for domain: CSD 8
+Created sheet for domain: CSD 9
+Created sheet for domain: SUZ-C
+Created sheet for domain: DRBM 1
+Created sheet for domain: DRBM 2
+Created sheet for domain: DRBM 3
+Created sheet for domain: Helicase ATP-binding 1
+Created sheet for domain: Helicase C-terminal 1
+Created sheet for domain: SEC63 1
+Created sheet for domain: Helicase ATP-binding 2
+Created sheet for domain: Helicase C-terminal 2
+Created sheet for domain: SEC63 2
+Created sheet for domain: RNase H type-2
+Created sheet for domain: Tudor
+Created sheet for domain: IBB
+Created sheet for domain: FDX-ACB
+Created sheet for domain: GYF
+Created sheet for domain: R3H
+Created sheet for domain: CARD 1
+Created sheet for domain: CARD 2
+Created sheet for domain: RLR CTR
+Created sheet for domain: Toprim
+Created sheet for domain: Topo IA-type catalytic
+Created sheet for domain: S1 motif
+Created sheet for domain: HTH La-type RNA-binding
+Created sheet for domain: xRRM
+Created sheet for domain: WHEP-TRS 1
+Created sheet for domain: WHEP-TRS 2
+Created sheet for domain: WHEP-TRS 3
+Created sheet for domain: PADR1 zinc-binding
+Created sheet for domain: BRCT
+Created sheet for domain: WGR
+Created sheet for domain: PARP alpha-helical
+Created sheet for domain: PARP catalytic
+Created sheet for domain: Topo IB-type catalytic
+Created sheet for domain: tr-type G
+Created sheet for domain: Sm
+Created sheet for domain: RRM 4
+Created sheet for domain: B30.2-SPRY
+Created sheet for domain: S4 RNA-binding
+Created sheet for domain: Ig-like C1-type
+Created sheet for domain: DMAP1-binding
+Created sheet for domain: BAH 1
+Created sheet for domain: BAH 2
+Created sheet for domain: TGS
+Created sheet for domain: GST N-terminal
+Created sheet for domain: EF-1-gamma C-terminal
+Created sheet for domain: Ubiquitin-like
+Created sheet for domain: SAP
+Created sheet for domain: DEK-C
+Created sheet for domain: Lon N-terminal
+Created sheet for domain: Lon proteolytic
+Created sheet for domain: BRCT 1
+Created sheet for domain: BRCT 2
+Created sheet for domain: PUA
+Created sheet for domain: SWIB-MDM2
+Created sheet for domain: SUI1
+Created sheet for domain: WHEP-TRS
+Created sheet for domain: S1-like
+Created sheet for domain: PWI
+Created sheet for domain: RanBD1 1
+Created sheet for domain: RanBD1 2
+Created sheet for domain: RanBD1 3
+Created sheet for domain: RanBD1 4
+Created sheet for domain: Agenet-like 1
+Created sheet for domain: Agenet-like 2
+Created sheet for domain: MBD
+Created sheet for domain: NR LBD
+Created sheet for domain: Arf-GAP
+Created sheet for domain: AXH
+Created sheet for domain: tRNA-binding
+Created sheet for domain: Z-binding 1
+Created sheet for domain: Z-binding 2
+Created sheet for domain: A to I editase
+Created sheet for domain: PCI
+Created sheet for domain: KOW
+Created sheet for domain: NTF2
+Created sheet for domain: CSD
+Created sheet for domain: S5 DRBM
+Created sheet for domain: 3'-5' exonuclease
+Created sheet for domain: HRDC
+Created sheet for domain: Thioredoxin
+Created sheet for domain: KH
+Created sheet for domain: DZF
+Created sheet for domain: FHA
+Created sheet for domain: S1 motif 1
+Created sheet for domain: S1 motif 2
+Created sheet for domain: S1 motif 3
+Created sheet for domain: S1 motif 4
+Created sheet for domain: S1 motif 5
+Created sheet for domain: S1 motif 6
+Created sheet for domain: S1 motif 7
+Created sheet for domain: S1 motif 8
+Created sheet for domain: S1 motif 9
+Created sheet for domain: S1 motif 10
+Created sheet for domain: S1 motif 11
+Created sheet for domain: S1 motif 12
+Created sheet for domain: CS
+Created sheet for domain: PUM-HD
+Created sheet for domain: Ubiquitin-like 1
+Created sheet for domain: Ubiquitin-like 2
+Created sheet for domain: CXC
+Created sheet for domain: Bms1-type G
+Created sheet for domain: MI 1
+Created sheet for domain: MI 2
+Created sheet for domain: USP
+Created sheet for domain: PAP-associated 1
+Created sheet for domain: PAP-associated 2
+Created sheet for domain: CMP-dCMP-type deaminase
+Created sheet for domain: SH2
+Created sheet for domain: TNase-like 1
+Created sheet for domain: TNase-like 2
+Created sheet for domain: TNase-like 3
+Created sheet for domain: TNase-like 4
+Created sheet for domain: SAM-dependent MTase TRM10-type
+Created sheet for domain: Bin3-type SAM
+Created sheet for domain: DWNN
+Created sheet for domain: PINc
+Created sheet for domain: CMP-dCMP-type deaminase 1
+Created sheet for domain: CMP-dCMP-type deaminase 2
+Created sheet for domain: Exonuclease
+Created sheet for domain: DH
+Created sheet for domain: PH
+Created sheet for domain: Tudor-knot
+Created sheet for domain: MRG
+Created sheet for domain: HTH OST-type 1
+Created sheet for domain: HTH OST-type 2
+Created sheet for domain: HTH OST-type 3
+Created sheet for domain: ABC transporter 1
+Created sheet for domain: ABC transporter 2
+Created sheet for domain: Tudor 1
+Created sheet for domain: Tudor 2
+Created sheet for domain: PAZ
+Created sheet for domain: Piwi
+Created sheet for domain: KRAB
+Created sheet for domain: Nop
+Created sheet for domain: Upf1 CH-rich
+Created sheet for domain: Fe2OG dioxygenase
+Created sheet for domain: DFDF
+Created sheet for domain: YjeF N-terminal
+Created sheet for domain: Death
+Created sheet for domain: RID
+Created sheet for domain: SPOC
+Created sheet for domain: HTH myb-type 1
+Created sheet for domain: HTH myb-type 2
+Created sheet for domain: Tudor 3
+Created sheet for domain: Tudor 4
+Created sheet for domain: WWE 1
+Created sheet for domain: WWE 2
+Created sheet for domain: PABC
+Created sheet for domain: SAM
+Created sheet for domain: YTH
+Created sheet for domain: UBA
+Created sheet for domain: MYST-type HAT
+Created sheet for domain: RNase III
+Created sheet for domain: DRBM
+Created sheet for domain: MIF4G 1
+Created sheet for domain: MIF4G 2
+Created sheet for domain: MIF4G 3
+Created sheet for domain: AWS
+Created sheet for domain: Bromo
+Created sheet for domain: BAH
+Created sheet for domain: RNase III 1
+Created sheet for domain: RNase III 2
+Created sheet for domain: B5
+Created sheet for domain: J
+Created sheet for domain: ADD
+Created sheet for domain: TAP-C
+Created sheet for domain: RRM 3; atypical
+Created sheet for domain: TRM112
+Created sheet for domain: DDT
+Created sheet for domain: U-box
+Created sheet for domain: CID
+Created sheet for domain: Dicer dsRNA-binding fold
+Created sheet for domain: PpiC
+Created sheet for domain: OBG-type G
+Created sheet for domain: HD
+Created sheet for domain: RRM 5
+Created sheet for domain: RRM 6
+Created sheet for domain: NYN
+Created sheet for domain: HTH OST-type 4
+Created sheet for domain: HTH OST-type 5
+Created sheet for domain: HTH OST-type 6
+Created sheet for domain: HTH OST-type 7
+Created sheet for domain: HTH OST-type 8
+Traceback (most recent call last):
+  File "C:\Users\91630\Desktop\BTP\creating_domain_files.py", line 105, in <module>
+    if "Sheet" in wb.sheetnames and len(wb["Sheet"].rows) == 0:
+                                    ^^^^^^^^^^^^^^^^^^^^^
+TypeError: object of type 'tuple_iterator' has no len()
+
+C:\Users\91630\Desktop\BTP>py creating_domain_files.py
+Unique domains have been saved in domains\unique_domains.txt
+Traceback (most recent call last):
+  File "C:\Users\91630\Desktop\BTP\creating_domain_files.py", line 67, in <module>
+    long_scores = [float(line.strip().split()[1]) for line in long_file.readlines()]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'IUPred3'
+
+C:\Users\91630\Desktop\BTP>py creating_domain_files.py
+Unique domains have been saved in domains\unique_domains.txt
+Topo IA-type catalytic file created at domains\Topo IA-type catalytic.xlsx
+DDT file created at domains\DDT.xlsx
+CSD 3 file created at domains\CSD 3.xlsx
+CSD 5 file created at domains\CSD 5.xlsx
+HTH OST-type 3 file created at domains\HTH OST-type 3.xlsx
+BRCT file created at domains\BRCT.xlsx
+GST C-terminal file created at domains\GST C-terminal.xlsx
+Z-binding 1 file created at domains\Z-binding 1.xlsx
+WWE 1 file created at domains\WWE 1.xlsx
+DZF file created at domains\DZF.xlsx
+G-patch file created at domains\G-patch.xlsx
+Importin N-terminal file created at domains\Importin N-terminal.xlsx
+Helicase ATP-binding file created at domains\Helicase ATP-binding.xlsx
+Ig-like C1-type file created at domains\Ig-like C1-type.xlsx
+SEC63 1 file created at domains\SEC63 1.xlsx
+DMAP1-binding file created at domains\DMAP1-binding.xlsx
+RNase III file created at domains\RNase III.xlsx
+CS file created at domains\CS.xlsx
+S1 motif 4 file created at domains\S1 motif 4.xlsx
+NTF2 file created at domains\NTF2.xlsx
+KEN file created at domains\KEN.xlsx
+CXC file created at domains\CXC.xlsx
+SUZ-C file created at domains\SUZ-C.xlsx
+CSD file created at domains\CSD.xlsx
+Traceback (most recent call last):
+  File "C:\Users\91630\Desktop\BTP\creating_domain_files.py", line 52, in <module>
+    df = pd.read_excel(domain_info_file)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91630\AppData\Roaming\Python\Python312\site-packages\pandas\io\excel\_base.py", line 495, in read_excel
+    io = ExcelFile(
+         ^^^^^^^^^^
+  File "C:\Users\91630\AppData\Roaming\Python\Python312\site-packages\pandas\io\excel\_base.py", line 1537, in __init__
+    if import_optional_dependency("xlrd", errors="ignore") is None:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91630\AppData\Roaming\Python\Python312\site-packages\pandas\compat\_optional.py", line 135, in import_optional_dependency
+    module = importlib.import_module(name)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\importlib\__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1322, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 1262, in _find_spec
+  File "<frozen importlib._bootstrap_external>", line 1528, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 1502, in _get_spec
+  File "<frozen importlib._bootstrap_external>", line 1629, in find_spec
+  File "<frozen importlib._bootstrap_external>", line 118, in _path_join
+KeyboardInterrupt
+^C
+C:\Users\91630\Desktop\BTP>py creating_domain_files.py
+Unique domains have been saved in domains\unique_domains.txt
+HTH OST-type 6 file created at domains\HTH OST-type 6.xlsx
+Warning: Mismatch in long and short scores for Q15910
+CXC file created at domains\CXC.xlsx
+NTF2 file created at domains\NTF2.xlsx
+RLR CTR file created at domains\RLR CTR.xlsx
+Warning: Mismatch in long and short scores for P62979
+Ubiquitin-like file created at domains\Ubiquitin-like.xlsx
+RID file created at domains\RID.xlsx
+Warning: Mismatch in long and short scores for P26358
+BAH 2 file created at domains\BAH 2.xlsx
+Warning: Mismatch in long and short scores for P49792
+RanBD1 2 file created at domains\RanBD1 2.xlsx
+Warning: Mismatch in long and short scores for Q15910
+Warning: Mismatch in long and short scores for Q9NR48
+SET file created at domains\SET.xlsx
+KOW 5 file created at domains\KOW 5.xlsx
+Helicase C-terminal 1 file created at domains\Helicase C-terminal 1.xlsx
+PABC file created at domains\PABC.xlsx
+MIF4G 3 file created at domains\MIF4G 3.xlsx
+Warning: Mismatch in long and short scores for Q8TCS8
+KH file created at domains\KH.xlsx
+HTH OST-type 5 file created at domains\HTH OST-type 5.xlsx
+Warning: Mismatch in long and short scores for Q9NR48
+AWS file created at domains\AWS.xlsx
+Topo IB-type catalytic file created at domains\Topo IB-type catalytic.xlsx
+Warning: Mismatch in long and short scores for Q9NRR4
+RNase III 2 file created at domains\RNase III 2.xlsx
+NYN file created at domains\NYN.xlsx
+S1 motif 8 file created at domains\S1 motif 8.xlsx
+Helicase C-terminal 2 file created at domains\Helicase C-terminal 2.xlsx
+CARD 2 file created at domains\CARD 2.xlsx
+Nop file created at domains\Nop.xlsx
+S1-like file created at domains\S1-like.xlsx
+KH 4 file created at domains\KH 4.xlsx
+Exonuclease file created at domains\Exonuclease.xlsx
+HTH OST-type 8 file created at domains\HTH OST-type 8.xlsx
+MI file created at domains\MI.xlsx
+tr-type G file created at domains\tr-type G.xlsx
+TNase-like 3 file created at domains\TNase-like 3.xlsx
+Warning: Mismatch in long and short scores for P52756
+Warning: Mismatch in long and short scores for Q12849
+Warning: Mismatch in long and short scores for Q8NE35
+RRM 1 file created at domains\RRM 1.xlsx
+WHEP-TRS 2 file created at domains\WHEP-TRS 2.xlsx
+WHEP-TRS 3 file created at domains\WHEP-TRS 3.xlsx
+Warning: Mismatch in long and short scores for Q9H7Z6
+Tudor-knot file created at domains\Tudor-knot.xlsx
+Warning: Mismatch in long and short scores for Q9Y295
+OBG-type G file created at domains\OBG-type G.xlsx
+TNase-like 2 file created at domains\TNase-like 2.xlsx
+CSD 6 file created at domains\CSD 6.xlsx
+HTH OST-type 2 file created at domains\HTH OST-type 2.xlsx
+FF 1 file created at domains\FF 1.xlsx
+MPN file created at domains\MPN.xlsx
+3'-5' exonuclease file created at domains\3'-5' exonuclease.xlsx
+CSD 3 file created at domains\CSD 3.xlsx
+S1 motif 9 file created at domains\S1 motif 9.xlsx
+Fe2OG dioxygenase file created at domains\Fe2OG dioxygenase.xlsx
+FDX-ACB file created at domains\FDX-ACB.xlsx
+Warning: Mismatch in long and short scores for Q8TC59
+PAZ file created at domains\PAZ.xlsx
+Warning: Mismatch in long and short scores for Q9NR48
+BAH file created at domains\BAH.xlsx
+Warning: Mismatch in long and short scores for Q9NR48
+Warning: Mismatch in long and short scores for Q9UIF8
+Warning: Mismatch in long and short scores for Q9UIF9
+Bromo file created at domains\Bromo.xlsx
+xRRM file created at domains\xRRM.xlsx
+DH file created at domains\DH.xlsx
+Warning: Mismatch in long and short scores for P26358
+BAH 1 file created at domains\BAH 1.xlsx
+B5 file created at domains\B5.xlsx
+Warning: Mismatch in long and short scores for O15455
+Warning: Mismatch in long and short scores for Q9NR97
+TIR file created at domains\TIR.xlsx
+PAP-associated 2 file created at domains\PAP-associated 2.xlsx
+PH file created at domains\PH.xlsx
+J file created at domains\J.xlsx
+S1 motif 7 file created at domains\S1 motif 7.xlsx
+MRG file created at domains\MRG.xlsx
+SPOC file created at domains\SPOC.xlsx
+Warning: Mismatch in long and short scores for O15455
+Warning: Mismatch in long and short scores for Q9NR97
+LRRCT file created at domains\LRRCT.xlsx
+Warning: Mismatch in long and short scores for P52756
+Warning: Mismatch in long and short scores for Q12849
+Warning: Mismatch in long and short scores for Q8NE35
+RRM 2 file created at domains\RRM 2.xlsx
+RRM 4 file created at domains\RRM 4.xlsx
+Warning: Mismatch in long and short scores for Q9NRR4
+RNase III 1 file created at domains\RNase III 1.xlsx
+Warning: Mismatch in long and short scores for O15105
+MH2 file created at domains\MH2.xlsx
+Warning: Mismatch in long and short scores for O15105
+MH1 file created at domains\MH1.xlsx
+Warning: Mismatch in long and short scores for O60583
+Cyclin N-terminal file created at domains\Cyclin N-terminal.xlsx
+Lon N-terminal file created at domains\Lon N-terminal.xlsx
+Tyrosine-protein phosphatase file created at domains\Tyrosine-protein phosphatase.xlsx
+SEC63 2 file created at domains\SEC63 2.xlsx
+Warning: Mismatch in long and short scores for P26358
+DMAP1-binding file created at domains\DMAP1-binding.xlsx
+WW file created at domains\WW.xlsx
+Warning: Mismatch in long and short scores for Q9H0J9
+WWE 2 file created at domains\WWE 2.xlsx
+RRM 5 file created at domains\RRM 5.xlsx
+Warning: Mismatch in long and short scores for P49792
+RanBD1 1 file created at domains\RanBD1 1.xlsx
+Warning: Mismatch in long and short scores for P38935
+Warning: Mismatch in long and short scores for Q9H6S0
+R3H file created at domains\R3H.xlsx
+UBA file created at domains\UBA.xlsx
+Warning: Mismatch in long and short scores for Q8IUX4
+CMP-dCMP-type deaminase 2 file created at domains\CMP-dCMP-type deaminase 2.xlsx
+CSD 5 file created at domains\CSD 5.xlsx
+Warning: Mismatch in long and short scores for Q92900
+Upf1 CH-rich file created at domains\Upf1 CH-rich.xlsx
+Warning: Mismatch in long and short scores for O43148
+mRNA cap 0 methyltransferase file created at domains\mRNA cap 0 methyltransferase.xlsx
+Agenet-like 2 file created at domains\Agenet-like 2.xlsx
+Warning: Mismatch in long and short scores for Q8IYB8
+Warning: Mismatch in long and short scores for Q9H0S4
+Warning: Mismatch in long and short scores for Q9H2U1
+Warning: Mismatch in long and short scores for Q9H6S0
+Warning: Mismatch in long and short scores for Q9NVP1
+Helicase ATP-binding file created at domains\Helicase ATP-binding.xlsx
+Warning: Mismatch in long and short scores for Q09161
+MIF4G file created at domains\MIF4G.xlsx
+S4 RNA-binding file created at domains\S4 RNA-binding.xlsx
+Ig-like C1-type file created at domains\Ig-like C1-type.xlsx
+Importin N-terminal file created at domains\Importin N-terminal.xlsx
+CSD file created at domains\CSD.xlsx
+Ubiquitin-like 2 file created at domains\Ubiquitin-like 2.xlsx
+KOW 3 file created at domains\KOW 3.xlsx
+HTH OST-type 1 file created at domains\HTH OST-type 1.xlsx
+Z-binding 1 file created at domains\Z-binding 1.xlsx
+Warning: Mismatch in long and short scores for Q9UIF8
+Warning: Mismatch in long and short scores for Q9UIF9
+MBD file created at domains\MBD.xlsx
+TNase-like 1 file created at domains\TNase-like 1.xlsx
+S1 motif 12 file created at domains\S1 motif 12.xlsx
+BRCT file created at domains\BRCT.xlsx
+KOW 1 file created at domains\KOW 1.xlsx
+SAP file created at domains\SAP.xlsx
+Warning: Mismatch in long and short scores for Q8IU60
+Nudix hydrolase file created at domains\Nudix hydrolase.xlsx
+Alpha-type protein kinase file created at domains\Alpha-type protein kinase.xlsx
+Warning: Mismatch in long and short scores for Q9NR48
+Post-SET file created at domains\Post-SET.xlsx
+WW 2 file created at domains\WW 2.xlsx
+TAP-C file created at domains\TAP-C.xlsx
+DZF file created at domains\DZF.xlsx
+Ubiquitin-like 1 file created at domains\Ubiquitin-like 1.xlsx
+KRAB file created at domains\KRAB.xlsx
+S1 motif 1 file created at domains\S1 motif 1.xlsx
+WW 3 file created at domains\WW 3.xlsx
+GST N-terminal file created at domains\GST N-terminal.xlsx
+Dicer dsRNA-binding fold file created at domains\Dicer dsRNA-binding fold.xlsx
+Warning: Mismatch in long and short scores for Q9BXT8
+Tudor 3 file created at domains\Tudor 3.xlsx
+RRM 3; atypical file created at domains\RRM 3; atypical.xlsx
+Warning: Mismatch in long and short scores for Q9BXT8
+Tudor 4 file created at domains\Tudor 4.xlsx
+W2 file created at domains\W2.xlsx
+S1 motif 3 file created at domains\S1 motif 3.xlsx
+CARD 1 file created at domains\CARD 1.xlsx
+Topo IA-type catalytic file created at domains\Topo IA-type catalytic.xlsx
+YjeF N-terminal file created at domains\YjeF N-terminal.xlsx
+CID file created at domains\CID.xlsx
+Warning: Mismatch in long and short scores for O75460
+KEN file created at domains\KEN.xlsx
+FF 5 file created at domains\FF 5.xlsx
+Thioredoxin file created at domains\Thioredoxin.xlsx
+Warning: Mismatch in long and short scores for O14746
+Reverse transcriptase file created at domains\Reverse transcriptase.xlsx
+CSD 8 file created at domains\CSD 8.xlsx
+Warning: Mismatch in long and short scores for Q9UIF8
+Warning: Mismatch in long and short scores for Q9UIF9
+DDT file created at domains\DDT.xlsx
+HTH myb-type 2 file created at domains\HTH myb-type 2.xlsx
+S1 motif 5 file created at domains\S1 motif 5.xlsx
+DEK-C file created at domains\DEK-C.xlsx
+Warning: Mismatch in long and short scores for O15455
+LRRNT file created at domains\LRRNT.xlsx
+Warning: Mismatch in long and short scores for Q99728
+BRCT 2 file created at domains\BRCT 2.xlsx
+S1 motif 10 file created at domains\S1 motif 10.xlsx
+Warning: Mismatch in long and short scores for Q9H7Z6
+MYST-type HAT file created at domains\MYST-type HAT.xlsx
+PARP alpha-helical file created at domains\PARP alpha-helical.xlsx
+ABC transporter 2 file created at domains\ABC transporter 2.xlsx
+Warning: Mismatch in long and short scores for P56192
+WHEP-TRS file created at domains\WHEP-TRS.xlsx
+CS file created at domains\CS.xlsx
+SUZ-C file created at domains\SUZ-C.xlsx
+RRM 6 file created at domains\RRM 6.xlsx
+SEC63 1 file created at domains\SEC63 1.xlsx
+DWNN file created at domains\DWNN.xlsx
+CSD 1 file created at domains\CSD 1.xlsx
+Warning: Mismatch in long and short scores for P51843
+NR LBD file created at domains\NR LBD.xlsx
+MI 1 file created at domains\MI 1.xlsx
+FF 3 file created at domains\FF 3.xlsx
+ABC transporter 1 file created at domains\ABC transporter 1.xlsx
+AXH file created at domains\AXH.xlsx
+Warning: Mismatch in long and short scores for P52756
+Warning: Mismatch in long and short scores for Q96I25
+G-patch file created at domains\G-patch.xlsx
+Agenet-like 1 file created at domains\Agenet-like 1.xlsx
+KOW 2 file created at domains\KOW 2.xlsx
+S5 DRBM file created at domains\S5 DRBM.xlsx
+Warning: Mismatch in long and short scores for Q9NRR4
+DRBM file created at domains\DRBM.xlsx
+Warning: Mismatch in long and short scores for Q86XN8
+KH 2 file created at domains\KH 2.xlsx
+WHEP-TRS 1 file created at domains\WHEP-TRS 1.xlsx
+SWIB-MDM2 file created at domains\SWIB-MDM2.xlsx
+FHA file created at domains\FHA.xlsx
+MI 2 file created at domains\MI 2.xlsx
+Toprim file created at domains\Toprim.xlsx
+HD file created at domains\HD.xlsx
+RNase NYN file created at domains\RNase NYN.xlsx
+RNase H type-2 file created at domains\RNase H type-2.xlsx
+Warning: Mismatch in long and short scores for P26358
+Warning: Mismatch in long and short scores for Q9UBC3
+SAM-dependent MTase C5-type file created at domains\SAM-dependent MTase C5-type.xlsx
+CSD 4; truncated file created at domains\CSD 4; truncated.xlsx
+FF 4 file created at domains\FF 4.xlsx
+Helicase ATP-binding 2 file created at domains\Helicase ATP-binding 2.xlsx
+CSD 2; truncated file created at domains\CSD 2; truncated.xlsx
+KH 3 file created at domains\KH 3.xlsx
+GYF file created at domains\GYF.xlsx
+S1 motif 11 file created at domains\S1 motif 11.xlsx
+PpiC file created at domains\PpiC.xlsx
+DRBM 1 file created at domains\DRBM 1.xlsx
+USP file created at domains\USP.xlsx
+HTH myb-type 1 file created at domains\HTH myb-type 1.xlsx
+CSD 9 file created at domains\CSD 9.xlsx
+SH2 file created at domains\SH2.xlsx
+Warning: Mismatch in long and short scores for Q9BXT8
+Tudor 1 file created at domains\Tudor 1.xlsx
+SAM file created at domains\SAM.xlsx
+Warning: Mismatch in long and short scores for Q9H0J9
+PARP catalytic file created at domains\PARP catalytic.xlsx
+PUM-HD file created at domains\PUM-HD.xlsx
+IBB file created at domains\IBB.xlsx
+Arf-GAP file created at domains\Arf-GAP.xlsx
+Bin3-type SAM file created at domains\Bin3-type SAM.xlsx
+TNase-like 4 file created at domains\TNase-like 4.xlsx
+Warning: Mismatch in long and short scores for Q8IUX4
+CMP-dCMP-type deaminase 1 file created at domains\CMP-dCMP-type deaminase 1.xlsx
+HTH OST-type 3 file created at domains\HTH OST-type 3.xlsx
+Warning: Mismatch in long and short scores for Q14258
+B30.2-SPRY file created at domains\B30.2-SPRY.xlsx
+Warning: Mismatch in long and short scores for Q8TC59
+Piwi file created at domains\Piwi.xlsx
+Warning: Mismatch in long and short scores for Q9H6S0
+YTH file created at domains\YTH.xlsx
+MIF4G 2 file created at domains\MIF4G 2.xlsx
+EF-1-gamma C-terminal file created at domains\EF-1-gamma C-terminal.xlsx
+PADR1 zinc-binding file created at domains\PADR1 zinc-binding.xlsx
+Warning: Mismatch in long and short scores for Q86XN8
+KH 1 file created at domains\KH 1.xlsx
+Warning: Mismatch in long and short scores for Q9UBC3
+PWWP file created at domains\PWWP.xlsx
+Warning: Mismatch in long and short scores for P56192
+GST C-terminal file created at domains\GST C-terminal.xlsx
+CSD 7 file created at domains\CSD 7.xlsx
+Lon proteolytic file created at domains\Lon proteolytic.xlsx
+PUA file created at domains\PUA.xlsx
+Warning: Mismatch in long and short scores for Q9UPR3
+PINc file created at domains\PINc.xlsx
+Warning: Mismatch in long and short scores for Q9BXT8
+Tudor 2 file created at domains\Tudor 2.xlsx
+PAP-associated 1 file created at domains\PAP-associated 1.xlsx
+S1 motif 6 file created at domains\S1 motif 6.xlsx
+Warning: Mismatch in long and short scores for Q2NL82
+Bms1-type G file created at domains\Bms1-type G.xlsx
+KOW 4 file created at domains\KOW 4.xlsx
+WW 1 file created at domains\WW 1.xlsx
+DFDF file created at domains\DFDF.xlsx
+RNase III file created at domains\RNase III.xlsx
+MIF4G 1 file created at domains\MIF4G 1.xlsx
+Warning: Mismatch in long and short scores for Q9Y333
+Sm file created at domains\Sm.xlsx
+WGR file created at domains\WGR.xlsx
+TRM112 file created at domains\TRM112.xlsx
+Warning: Mismatch in long and short scores for Q8IYB8
+Warning: Mismatch in long and short scores for Q9H0S4
+Warning: Mismatch in long and short scores for Q9H2U1
+Warning: Mismatch in long and short scores for Q9H6S0
+Warning: Mismatch in long and short scores for Q9NVP1
+Helicase C-terminal file created at domains\Helicase C-terminal.xlsx
+DRBM 3 file created at domains\DRBM 3.xlsx
+U-box file created at domains\U-box.xlsx
+FF 6 file created at domains\FF 6.xlsx
+tRNA-binding file created at domains\tRNA-binding.xlsx
+S1 motif 2 file created at domains\S1 motif 2.xlsx
+JmjC file created at domains\JmjC.xlsx
+S1 motif 4 file created at domains\S1 motif 4.xlsx
+Warning: Mismatch in long and short scores for Q9Y295
+TGS file created at domains\TGS.xlsx
+Warning: Mismatch in long and short scores for Q7Z6V5
+CMP-dCMP-type deaminase file created at domains\CMP-dCMP-type deaminase.xlsx
+Warning: Mismatch in long and short scores for Q8TCS8
+S1 motif file created at domains\S1 motif.xlsx
+SAM-dependent MTase TRM10-type file created at domains\SAM-dependent MTase TRM10-type.xlsx
+Helicase ATP-binding 1 file created at domains\Helicase ATP-binding 1.xlsx
+Tudor file created at domains\Tudor.xlsx
+DRBM 2 file created at domains\DRBM 2.xlsx
+Warning: Mismatch in long and short scores for Q9H0J9
+WWE 1 file created at domains\WWE 1.xlsx
+Warning: Mismatch in long and short scores for Q96FV9
+Death file created at domains\Death.xlsx
+Warning: Mismatch in long and short scores for O75460
+Warning: Mismatch in long and short scores for P49759
+Warning: Mismatch in long and short scores for Q13523
+Warning: Mismatch in long and short scores for Q9HAZ1
+Warning: Mismatch in long and short scores for Q9NZJ5
+Protein kinase file created at domains\Protein kinase.xlsx
+SUI1 file created at domains\SUI1.xlsx
+HTH La-type RNA-binding file created at domains\HTH La-type RNA-binding.xlsx
+A to I editase file created at domains\A to I editase.xlsx
+Warning: Mismatch in long and short scores for Q99728
+BRCT 1 file created at domains\BRCT 1.xlsx
+Warning: Mismatch in long and short scores for P60228
+PCI file created at domains\PCI.xlsx
+Warning: Mismatch in long and short scores for Q9UBC3
+ADD file created at domains\ADD.xlsx
+HTH OST-type 4 file created at domains\HTH OST-type 4.xlsx
+Warning: Mismatch in long and short scores for P49792
+RanBD1 4 file created at domains\RanBD1 4.xlsx
+HTH OST-type 7 file created at domains\HTH OST-type 7.xlsx
+Warning: Mismatch in long and short scores for P49792
+PPIase cyclophilin-type file created at domains\PPIase cyclophilin-type.xlsx
+Warning: Mismatch in long and short scores for O95628
+Warning: Mismatch in long and short scores for Q96I25
+RRM file created at domains\RRM.xlsx
+PWI file created at domains\PWI.xlsx
+RNase H type-1 file created at domains\RNase H type-1.xlsx
+Warning: Mismatch in long and short scores for Q12849
+RRM 3 file created at domains\RRM 3.xlsx
+KOW file created at domains\KOW.xlsx
+Z-binding 2 file created at domains\Z-binding 2.xlsx
+HRDC file created at domains\HRDC.xlsx
+Warning: Mismatch in long and short scores for P49792
+RanBD1 3 file created at domains\RanBD1 3.xlsx
+FF 2 file created at domains\FF 2.xlsx
+All domain files have been created successfully!

@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-11-13" modified="2024-10-02" version="167" xmlns="http://uniprot.org/uniprot">
+  <accession>Q7L0Y3</accession>
+  <accession>Q9NRG5</accession>
+  <accession>Q9NX54</accession>
+  <accession>Q9Y596</accession>
+  <name>TM10C_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="18">tRNA methyltransferase 10 homolog C</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="15">HBV pre-S2 trans-regulated protein 2</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="16">Mitochondrial ribonuclease P protein 1</fullName>
+      <shortName evidence="16">Mitochondrial RNase P protein 1</shortName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>RNA (guanine-9-)-methyltransferase domain-containing protein 1</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="14">Renal carcinoma antigen NY-REN-49</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="17">mRNA methyladenosine-N(1)-methyltransferase</fullName>
+      <ecNumber evidence="12">2.1.1.-</ecNumber>
+    </alternativeName>
+    <alternativeName>
+      <fullName>tRNA (adenine(9)-N(1))-methyltransferase</fullName>
+      <ecNumber evidence="7">2.1.1.218</ecNumber>
+    </alternativeName>
+    <alternativeName>
+      <fullName>tRNA (guanine(9)-N(1))-methyltransferase</fullName>
+      <ecNumber evidence="7">2.1.1.221</ecNumber>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="19" type="primary">TRMT10C</name>
+    <name evidence="16" type="synonym">MRPP1</name>
+    <name type="synonym">RG9MTD1</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="submission" date="2000-01" db="EMBL/GenBank/DDBJ databases">
+      <title>A novel gene expressed in human liver cancer tissue.</title>
+      <authorList>
+        <person name="Li Y."/>
+        <person name="Wu T."/>
+        <person name="Xu S."/>
+        <person name="Ren S."/>
+        <person name="Chen Z."/>
+        <person name="Han Z."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Liver</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+      <title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+      <authorList>
+        <person name="Ota T."/>
+        <person name="Suzuki Y."/>
+        <person name="Nishikawa T."/>
+        <person name="Otsuki T."/>
+        <person name="Sugiyama T."/>
+        <person name="Irie R."/>
+        <person name="Wakamatsu A."/>
+        <person name="Hayashi K."/>
+        <person name="Sato H."/>
+        <person name="Nagai K."/>
+        <person name="Kimura K."/>
+        <person name="Makita H."/>
+        <person name="Sekine M."/>
+        <person name="Obayashi M."/>
+        <person name="Nishi T."/>
+        <person name="Shibahara T."/>
+        <person name="Tanaka T."/>
+        <person name="Ishii S."/>
+        <person name="Yamamoto J."/>
+        <person name="Saito K."/>
+        <person name="Kawai Y."/>
+        <person name="Isono Y."/>
+        <person name="Nakamura Y."/>
+        <person name="Nagahari K."/>
+        <person name="Murakami K."/>
+        <person name="Yasuda T."/>
+        <person name="Iwayanagi T."/>
+        <person name="Wagatsuma M."/>
+        <person name="Shiratori A."/>
+        <person name="Sudo H."/>
+        <person name="Hosoiri T."/>
+        <person name="Kaku Y."/>
+        <person name="Kodaira H."/>
+        <person name="Kondo H."/>
+        <person name="Sugawara M."/>
+        <person name="Takahashi M."/>
+        <person name="Kanda K."/>
+        <person name="Yokoi T."/>
+        <person name="Furuya T."/>
+        <person name="Kikkawa E."/>
+        <person name="Omura Y."/>
+        <person name="Abe K."/>
+        <person name="Kamihara K."/>
+        <person name="Katsuta N."/>
+        <person name="Sato K."/>
+        <person name="Tanikawa M."/>
+        <person name="Yamazaki M."/>
+        <person name="Ninomiya K."/>
+        <person name="Ishibashi T."/>
+        <person name="Yamashita H."/>
+        <person name="Murakawa K."/>
+        <person name="Fujimori K."/>
+        <person name="Tanai H."/>
+        <person name="Kimata M."/>
+        <person name="Watanabe M."/>
+        <person name="Hiraoka S."/>
+        <person name="Chiba Y."/>
+        <person name="Ishida S."/>
+        <person name="Ono Y."/>
+        <person name="Takiguchi S."/>
+        <person name="Watanabe S."/>
+        <person name="Yosida M."/>
+        <person name="Hotuta T."/>
+        <person name="Kusano J."/>
+        <person name="Kanehori K."/>
+        <person name="Takahashi-Fujii A."/>
+        <person name="Hara H."/>
+        <person name="Tanase T.-O."/>
+        <person name="Nomura Y."/>
+        <person name="Togiya S."/>
+        <person name="Komai F."/>
+        <person name="Hara R."/>
+        <person name="Takeuchi K."/>
+        <person name="Arita M."/>
+        <person name="Imose N."/>
+        <person name="Musashino K."/>
+        <person name="Yuuki H."/>
+        <person name="Oshima A."/>
+        <person name="Sasaki N."/>
+        <person name="Aotsuka S."/>
+        <person name="Yoshikawa Y."/>
+        <person name="Matsunawa H."/>
+        <person name="Ichihara T."/>
+        <person name="Shiohata N."/>
+        <person name="Sano S."/>
+        <person name="Moriya S."/>
+        <person name="Momiyama H."/>
+        <person name="Satoh N."/>
+        <person name="Takami S."/>
+        <person name="Terashima Y."/>
+        <person name="Suzuki O."/>
+        <person name="Nakagawa S."/>
+        <person name="Senoh A."/>
+        <person name="Mizoguchi H."/>
+        <person name="Goto Y."/>
+        <person name="Shimizu F."/>
+        <person name="Wakebe H."/>
+        <person name="Hishigaki H."/>
+        <person name="Watanabe T."/>
+        <person name="Sugiyama A."/>
+        <person name="Takemoto M."/>
+        <person name="Kawakami B."/>
+        <person name="Yamazaki M."/>
+        <person name="Watanabe K."/>
+        <person name="Kumagai A."/>
+        <person name="Itakura S."/>
+        <person name="Fukuzumi Y."/>
+        <person name="Fujimori Y."/>
+        <person name="Komiyama M."/>
+        <person name="Tashiro H."/>
+        <person name="Tanigami A."/>
+        <person name="Fujiwara T."/>
+        <person name="Ono T."/>
+        <person name="Yamada K."/>
+        <person name="Fujii Y."/>
+        <person name="Ozaki K."/>
+        <person name="Hirao M."/>
+        <person name="Ohmori Y."/>
+        <person name="Kawabata A."/>
+        <person name="Hikiji T."/>
+        <person name="Kobatake N."/>
+        <person name="Inagaki H."/>
+        <person name="Ikema Y."/>
+        <person name="Okamoto S."/>
+        <person name="Okitani R."/>
+        <person name="Kawakami T."/>
+        <person name="Noguchi S."/>
+        <person name="Itoh T."/>
+        <person name="Shigeta K."/>
+        <person name="Senba T."/>
+        <person name="Matsumura K."/>
+        <person name="Nakajima Y."/>
+        <person name="Mizuno T."/>
+        <person name="Morinaga M."/>
+        <person name="Sasaki M."/>
+        <person name="Togashi T."/>
+        <person name="Oyama M."/>
+        <person name="Hata H."/>
+        <person name="Watanabe M."/>
+        <person name="Komatsu T."/>
+        <person name="Mizushima-Sugano J."/>
+        <person name="Satoh T."/>
+        <person name="Shirai Y."/>
+        <person name="Takahashi Y."/>
+        <person name="Nakagawa K."/>
+        <person name="Okumura K."/>
+        <person name="Nagase T."/>
+        <person name="Nomura N."/>
+        <person name="Kikuchi H."/>
+        <person name="Masuho Y."/>
+        <person name="Yamashita R."/>
+        <person name="Nakai K."/>
+        <person name="Yada T."/>
+        <person name="Nakamura Y."/>
+        <person name="Ohara O."/>
+        <person name="Isogai T."/>
+        <person name="Sugano S."/>
+      </authorList>
+      <dbReference type="PubMed" id="14702039"/>
+      <dbReference type="DOI" id="10.1038/ng1285"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Signet-ring cell carcinoma</tissue>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="submission" date="2005-09" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Mural R.J."/>
+        <person name="Istrail S."/>
+        <person name="Sutton G.G."/>
+        <person name="Florea L."/>
+        <person name="Halpern A.L."/>
+        <person name="Mobarry C.M."/>
+        <person name="Lippert R."/>
+        <person name="Walenz B."/>
+        <person name="Shatkay H."/>
+        <person name="Dew I."/>
+        <person name="Miller J.R."/>
+        <person name="Flanigan M.J."/>
+        <person name="Edwards N.J."/>
+        <person name="Bolanos R."/>
+        <person name="Fasulo D."/>
+        <person name="Halldorsson B.V."/>
+        <person name="Hannenhalli S."/>
+        <person name="Turner R."/>
+        <person name="Yooseph S."/>
+        <person name="Lu F."/>
+        <person name="Nusskern D.R."/>
+        <person name="Shue B.C."/>
+        <person name="Zheng X.H."/>
+        <person name="Zhong F."/>
+        <person name="Delcher A.L."/>
+        <person name="Huson D.H."/>
+        <person name="Kravitz S.A."/>
+        <person name="Mouchard L."/>
+        <person name="Reinert K."/>
+        <person name="Remington K.A."/>
+        <person name="Clark A.G."/>
+        <person name="Waterman M.S."/>
+        <person name="Eichler E.E."/>
+        <person name="Adams M.D."/>
+        <person name="Hunkapiller M.W."/>
+        <person name="Myers E.W."/>
+        <person name="Venter J.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Prostate</tissue>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="1999" name="Int. J. Cancer" volume="83" first="456" last="464">
+      <title>Antigens recognized by autologous antibody in patients with renal-cell carcinoma.</title>
+      <authorList>
+        <person name="Scanlan M.J."/>
+        <person name="Gordan J.D."/>
+        <person name="Williamson B."/>
+        <person name="Stockert E."/>
+        <person name="Bander N.H."/>
+        <person name="Jongeneel C.V."/>
+        <person name="Gure A.O."/>
+        <person name="Jaeger D."/>
+        <person name="Jaeger E."/>
+        <person name="Knuth A."/>
+        <person name="Chen Y.-T."/>
+        <person name="Old L.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="10508479"/>
+      <dbReference type="DOI" id="10.1002/(sici)1097-0215(19991112)83:4&lt;456::aid-ijc4&gt;3.0.co;2-5"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 1-129</scope>
+    <scope>IDENTIFICATION AS A RENAL CANCER ANTIGEN</scope>
+    <scope>VARIANT ARG-56</scope>
+    <source>
+      <tissue>Renal cell carcinoma</tissue>
+    </source>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2003" name="Zhonghua Gan Zang Bing Za Zhi" volume="11" first="8" last="10">
+      <title>Screening of the genes of hepatitis B virus preS2 interacting proteins.</title>
+      <authorList>
+        <person name="Lu Y.Y."/>
+        <person name="Li K."/>
+        <person name="Wang L."/>
+        <person name="Liu Y."/>
+        <person name="Wang Y.D."/>
+        <person name="Cheng J."/>
+        <person name="Zhang L.X."/>
+      </authorList>
+      <dbReference type="PubMed" id="12546731"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 6-403</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2008" name="Cell" volume="135" first="462" last="474">
+      <title>RNase P without RNA: identification and functional reconstitution of the human mitochondrial tRNA processing enzyme.</title>
+      <authorList>
+        <person name="Holzmann J."/>
+        <person name="Frank P."/>
+        <person name="Loeffler E."/>
+        <person name="Bennett K.L."/>
+        <person name="Gerner C."/>
+        <person name="Rossmanith W."/>
+      </authorList>
+      <dbReference type="PubMed" id="18984158"/>
+      <dbReference type="DOI" id="10.1016/j.cell.2008.09.013"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH HSD17B10 AND KIAA0391</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2011" name="RNA Biol." volume="8" first="616" last="626">
+      <title>Involvement of human ELAC2 gene product in 3' end processing of mitochondrial tRNAs.</title>
+      <authorList>
+        <person name="Brzezniak L.K."/>
+        <person name="Bijata M."/>
+        <person name="Szczesny R.J."/>
+        <person name="Stepien P.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="21593607"/>
+      <dbReference type="DOI" id="10.4161/rna.8.4.15393"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2012" name="Nucleic Acids Res." volume="40" first="11583" last="11593">
+      <title>A subcomplex of human mitochondrial RNase P is a bifunctional methyltransferase--extensive moonlighting in mitochondrial tRNA biogenesis.</title>
+      <authorList>
+        <person name="Vilardo E."/>
+        <person name="Nachbagauer C."/>
+        <person name="Buzet A."/>
+        <person name="Taschner A."/>
+        <person name="Holzmann J."/>
+        <person name="Rossmanith W."/>
+      </authorList>
+      <dbReference type="PubMed" id="23042678"/>
+      <dbReference type="DOI" id="10.1093/nar/gks910"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>INTERACTION WITH HSD17B10</scope>
+    <scope>MUTAGENESIS OF ASP-314</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2013" name="Cell Metab." volume="17" first="399" last="410">
+      <title>GRSF1 regulates RNA processing in mitochondrial RNA granules.</title>
+      <authorList>
+        <person name="Jourdain A.A."/>
+        <person name="Koppen M."/>
+        <person name="Wydro M."/>
+        <person name="Rodley C.D."/>
+        <person name="Lightowlers R.N."/>
+        <person name="Chrzanowska-Lightowlers Z.M."/>
+        <person name="Martinou J.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="23473034"/>
+      <dbReference type="DOI" id="10.1016/j.cmet.2013.02.005"/>
+    </citation>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>INTERACTION WITH GRSF1</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2013" name="J. Proteome Res." volume="12" first="260" last="271">
+      <title>Toward a comprehensive characterization of a human cancer cell phosphoproteome.</title>
+      <authorList>
+        <person name="Zhou H."/>
+        <person name="Di Palma S."/>
+        <person name="Preisinger C."/>
+        <person name="Peng M."/>
+        <person name="Polat A.N."/>
+        <person name="Heck A.J."/>
+        <person name="Mohammed S."/>
+      </authorList>
+      <dbReference type="PubMed" id="23186163"/>
+      <dbReference type="DOI" id="10.1021/pr300630k"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Erythroleukemia</tissue>
+    </source>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2014" name="Cell Metab." volume="19" first="618" last="629">
+      <title>Initial steps in RNA processing and ribosome assembly occur at mitochondrial DNA nucleoids.</title>
+      <authorList>
+        <person name="Bogenhagen D.F."/>
+        <person name="Martin D.W."/>
+        <person name="Koller A."/>
+      </authorList>
+      <dbReference type="PubMed" id="24703694"/>
+      <dbReference type="DOI" id="10.1016/j.cmet.2014.03.013"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2015" name="Proteomics" volume="15" first="2519" last="2524">
+      <title>N-terminome analysis of the human mitochondrial proteome.</title>
+      <authorList>
+        <person name="Vaca Jacome A.S."/>
+        <person name="Rabilloud T."/>
+        <person name="Schaeffer-Reiss C."/>
+        <person name="Rompais M."/>
+        <person name="Ayoub D."/>
+        <person name="Lane L."/>
+        <person name="Bairoch A."/>
+        <person name="Van Dorsselaer A."/>
+        <person name="Carapito C."/>
+      </authorList>
+      <dbReference type="PubMed" id="25944712"/>
+      <dbReference type="DOI" id="10.1002/pmic.201400617"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2016" name="Am. J. Hum. Genet." volume="98" first="993" last="1000">
+      <title>Recessive mutations in TRMT10C cause defects in mitochondrial RNA processing and multiple respiratory chain deficiencies.</title>
+      <authorList>
+        <person name="Metodiev M.D."/>
+        <person name="Thompson K."/>
+        <person name="Alston C.L."/>
+        <person name="Morris A.A."/>
+        <person name="He L."/>
+        <person name="Assouline Z."/>
+        <person name="Rio M."/>
+        <person name="Bahi-Buisson N."/>
+        <person name="Pyle A."/>
+        <person name="Griffin H."/>
+        <person name="Siira S."/>
+        <person name="Filipovska A."/>
+        <person name="Munnich A."/>
+        <person name="Chinnery P.F."/>
+        <person name="McFarland R."/>
+        <person name="Roetig A."/>
+        <person name="Taylor R.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="27132592"/>
+      <dbReference type="DOI" id="10.1016/j.ajhg.2016.03.010"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INVOLVEMENT IN COXPD30</scope>
+    <scope>VARIANTS COXPD30 LEU-181 AND ALA-272</scope>
+    <scope>CHARACTERIZATION OF VARIANTS COXPD30 LEU-181 AND ALA-272</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="2017" name="Mol. Cell">
+      <title>Base-resolution mapping reveals distinct m1A methylome in nuclear- and mitochondrial-encoded transcripts.</title>
+      <authorList>
+        <person name="Li X."/>
+        <person name="Xiong X."/>
+        <person name="Zhang M."/>
+        <person name="Wang K."/>
+        <person name="Chen Y."/>
+        <person name="Zhou J."/>
+        <person name="Mao Y."/>
+        <person name="Lv J."/>
+        <person name="Yi D."/>
+        <person name="Chen X.W."/>
+        <person name="Wang C."/>
+        <person name="Qian S.B."/>
+        <person name="Yi C."/>
+      </authorList>
+      <dbReference type="PubMed" id="29107537"/>
+      <dbReference type="DOI" id="10.1016/j.molcel.2017.10.019"/>
+    </citation>
+    <scope>CAUTION</scope>
+  </reference>
+  <reference key="17">
+    <citation type="journal article" date="2017" name="Nature" volume="551" first="251" last="255">
+      <title>The m(1)A landscape on cytosolic and mitochondrial mRNA at single-base resolution.</title>
+      <authorList>
+        <person name="Safra M."/>
+        <person name="Sas-Chen A."/>
+        <person name="Nir R."/>
+        <person name="Winkler R."/>
+        <person name="Nachshon A."/>
+        <person name="Bar-Yaacov D."/>
+        <person name="Erlacher M."/>
+        <person name="Rossmanith W."/>
+        <person name="Stern-Ginossar N."/>
+        <person name="Schwartz S."/>
+      </authorList>
+      <dbReference type="PubMed" id="29072297"/>
+      <dbReference type="DOI" id="10.1038/nature24456"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="2017" name="Nucleic Acids Res." volume="45" first="12469" last="12480">
+      <title>The MRPP1/MRPP2 complex is a tRNA-maturation platform in human mitochondria.</title>
+      <authorList>
+        <person name="Reinhard L."/>
+        <person name="Sridhara S."/>
+        <person name="Haellberg B.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="29040705"/>
+      <dbReference type="DOI" id="10.1093/nar/gkx902"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH HSD17B10</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="5 6 7 9 10 11 12">Mitochondrial tRNA N(1)-methyltransferase involved in mitochondrial tRNA maturation (PubMed:18984158, PubMed:21593607, PubMed:23042678, PubMed:27132592). Component of mitochondrial ribonuclease P, a complex composed of TRMT10C/MRPP1, HSD17B10/MRPP2 and PRORP/MRPP3, which cleaves tRNA molecules in their 5'-ends (PubMed:18984158). Together with HSD17B10/MRPP2, forms a subcomplex of the mitochondrial ribonuclease P, named MRPP1-MRPP2 subcomplex, which displays functions that are independent of the ribonuclease P activity (PubMed:23042678, PubMed:29040705). The MRPP1-MRPP2 subcomplex catalyzes the formation of N(1)-methylguanine and N(1)-methyladenine at position 9 (m1G9 and m1A9, respectively) in tRNAs; TRMT10C/MRPP1 acting as the catalytic N(1)-methyltransferase subunit (PubMed:23042678). The MRPP1-MRPP2 subcomplex also acts as a tRNA maturation platform: following 5'-end cleavage by the mitochondrial ribonuclease P complex, the MRPP1-MRPP2 subcomplex enhances the efficiency of 3'-processing catalyzed by ELAC2, retains the tRNA product after ELAC2 processing and presents the nascent tRNA to the mitochondrial CCA tRNA nucleotidyltransferase TRNT1 enzyme (PubMed:29040705). In addition to tRNA N(1)-methyltransferase activity, TRMT10C/MRPP1 also acts as a mRNA N(1)-methyltransferase by mediating methylation of adenosine residues at the N(1) position of MT-ND5 mRNA (PubMed:29072297). Associates with mitochondrial DNA complexes at the nucleoids to initiate RNA processing and ribosome assembly.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="7">
+      <text>adenosine(9) in tRNA + S-adenosyl-L-methionine = H(+) + N(1)-methyladenosine(9) in tRNA + S-adenosyl-L-homocysteine</text>
+      <dbReference type="Rhea" id="RHEA:43148"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10363"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10364"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:57856"/>
+      <dbReference type="ChEBI" id="CHEBI:59789"/>
+      <dbReference type="ChEBI" id="CHEBI:74411"/>
+      <dbReference type="ChEBI" id="CHEBI:74491"/>
+      <dbReference type="EC" id="2.1.1.218"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="7">
+      <text>guanosine(9) in tRNA + S-adenosyl-L-methionine = H(+) + N(1)-methylguanosine(9) in tRNA + S-adenosyl-L-homocysteine</text>
+      <dbReference type="Rhea" id="RHEA:43156"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10367"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10368"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:57856"/>
+      <dbReference type="ChEBI" id="CHEBI:59789"/>
+      <dbReference type="ChEBI" id="CHEBI:73542"/>
+      <dbReference type="ChEBI" id="CHEBI:74269"/>
+      <dbReference type="EC" id="2.1.1.221"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="12">
+      <text>an adenosine in mRNA + S-adenosyl-L-methionine = an N(1)-methyladenosine in mRNA + H(+) + S-adenosyl-L-homocysteine</text>
+      <dbReference type="Rhea" id="RHEA:55392"/>
+      <dbReference type="Rhea" id="RHEA-COMP:12414"/>
+      <dbReference type="Rhea" id="RHEA-COMP:12415"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:57856"/>
+      <dbReference type="ChEBI" id="CHEBI:59789"/>
+      <dbReference type="ChEBI" id="CHEBI:74411"/>
+      <dbReference type="ChEBI" id="CHEBI:74491"/>
+    </reaction>
+  </comment>
+  <comment type="subunit">
+    <text evidence="5 7 8 11">Component of mitochondrial ribonuclease P, a complex composed of TRMT10C/MRPP1, HSD17B10/MRPP2 and PRORP/MRPP3 (PubMed:18984158). Interacts with HSD17B10/MRPP2; forming the MRPP1-MRPP2 subcomplex of the mitochondrial ribonuclease P complex (PubMed:23042678, PubMed:29040705). Interacts with GRSF1 (PubMed:23473034).</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2107046">
+      <id>Q7L0Y3</id>
+    </interactant>
+    <interactant intactId="EBI-79964">
+      <id>Q99714</id>
+      <label>HSD17B10</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>24</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2107046">
+      <id>Q7L0Y3</id>
+    </interactant>
+    <interactant intactId="EBI-2107046">
+      <id>Q7L0Y3</id>
+      <label>TRMT10C</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="5 8 9">Mitochondrion matrix</location>
+      <location evidence="5 8 9">Mitochondrion nucleoid</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="disease" evidence="10">
+    <disease id="DI-04745">
+      <name>Combined oxidative phosphorylation deficiency 30</name>
+      <acronym>COXPD30</acronym>
+      <description>An autosomal recessive, severe mitochondrial disease characterized by lactic acidosis, hypotonia, feeding difficulties, deafness, and respiratory failure with fatal issue. Patient skeletal muscle cells show decreased activities of mitochondrial complexes I, III and IV.</description>
+      <dbReference type="MIM" id="616974"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="3">Belongs to the class IV-like SAM-binding methyltransferase superfamily. TRM10 family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="18">It is uncertain whether Met-1 or Met-7 is the initiator.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="12 13">The identity of the enzyme catalyzing mitochondrial mRNA N(1)-methyltransferase is unclear. According to a report, mitochondrial mRNA N(1)-methyltransferase activity is catalyzed by TRMT61B (AC Q9BVS5) (PubMed:29107537). According to a second report, it is mediated by TRMT10C (PubMed:29072297). As both reports only tested one protein (either TRMT61B or TRMT10C), it is possible that both proteins have this activity.</text>
+  </comment>
+  <comment type="sequence caution" evidence="18">
+    <conflict type="erroneous initiation">
+      <sequence resource="EMBL-CDS" id="AAD42877" version="1"/>
+    </conflict>
+    <text>Extended N-terminus.</text>
+  </comment>
+  <comment type="sequence caution" evidence="18">
+    <conflict type="erroneous initiation">
+      <sequence resource="EMBL-CDS" id="AAH35967" version="2"/>
+    </conflict>
+    <text>Truncated N-terminus.</text>
+  </comment>
+  <comment type="sequence caution" evidence="18">
+    <conflict type="frameshift">
+      <sequence resource="EMBL-CDS" id="BAA91166" version="1"/>
+    </conflict>
+  </comment>
+  <dbReference type="EC" id="2.1.1.-" evidence="12"/>
+  <dbReference type="EC" id="2.1.1.218" evidence="7"/>
+  <dbReference type="EC" id="2.1.1.221" evidence="7"/>
+  <dbReference type="EMBL" id="AF226052">
+    <property type="protein sequence ID" value="AAF86952.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AK000439">
+    <property type="protein sequence ID" value="BAA91166.1"/>
+    <property type="status" value="ALT_FRAME"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CH471052">
+    <property type="protein sequence ID" value="EAW79795.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC035967">
+    <property type="protein sequence ID" value="AAH35967.2"/>
+    <property type="status" value="ALT_INIT"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF155111">
+    <property type="protein sequence ID" value="AAD42877.1"/>
+    <property type="status" value="ALT_INIT"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AY561707">
+    <property type="protein sequence ID" value="AAS66980.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS43122.1"/>
+  <dbReference type="RefSeq" id="NP_060289.2">
+    <property type="nucleotide sequence ID" value="NM_017819.3"/>
+  </dbReference>
+  <dbReference type="PDB" id="5NFJ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.96 A"/>
+    <property type="chains" value="A/B/C=203-403"/>
+  </dbReference>
+  <dbReference type="PDB" id="7ONU">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.00 A"/>
+    <property type="chains" value="F=40-403"/>
+  </dbReference>
+  <dbReference type="PDB" id="8CBK">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.76 A"/>
+    <property type="chains" value="F=40-403"/>
+  </dbReference>
+  <dbReference type="PDB" id="8CBL">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.79 A"/>
+    <property type="chains" value="F=40-403"/>
+  </dbReference>
+  <dbReference type="PDB" id="8CBM">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.14 A"/>
+    <property type="chains" value="F=40-403"/>
+  </dbReference>
+  <dbReference type="PDB" id="8CBO">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.20 A"/>
+    <property type="chains" value="E=175-385"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5NFJ"/>
+  <dbReference type="PDBsum" id="7ONU"/>
+  <dbReference type="PDBsum" id="8CBK"/>
+  <dbReference type="PDBsum" id="8CBL"/>
+  <dbReference type="PDBsum" id="8CBM"/>
+  <dbReference type="PDBsum" id="8CBO"/>
+  <dbReference type="AlphaFoldDB" id="Q7L0Y3"/>
+  <dbReference type="EMDB" id="EMD-13002"/>
+  <dbReference type="EMDB" id="EMD-16543"/>
+  <dbReference type="EMDB" id="EMD-16544"/>
+  <dbReference type="EMDB" id="EMD-16545"/>
+  <dbReference type="EMDB" id="EMD-16547"/>
+  <dbReference type="SMR" id="Q7L0Y3"/>
+  <dbReference type="BioGRID" id="120271">
+    <property type="interactions" value="225"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-6155">
+    <property type="entry name" value="Mitochondrial ribonuclease P complex"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-6161">
+    <property type="entry name" value="Mitochondrial tRNA:m(1)R9 methyltransferase complex"/>
+  </dbReference>
+  <dbReference type="CORUM" id="Q7L0Y3"/>
+  <dbReference type="IntAct" id="Q7L0Y3">
+    <property type="interactions" value="66"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q7L0Y3"/>
+  <dbReference type="STRING" id="9606.ENSP00000312356"/>
+  <dbReference type="MoonProt" id="Q7L0Y3"/>
+  <dbReference type="GlyGen" id="Q7L0Y3">
+    <property type="glycosylation" value="2 sites, 1 O-linked glycan (2 sites)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="Q7L0Y3"/>
+  <dbReference type="MetOSite" id="Q7L0Y3"/>
+  <dbReference type="PhosphoSitePlus" id="Q7L0Y3"/>
+  <dbReference type="SwissPalm" id="Q7L0Y3"/>
+  <dbReference type="BioMuta" id="TRMT10C"/>
+  <dbReference type="DMDM" id="221222465"/>
+  <dbReference type="jPOST" id="Q7L0Y3"/>
+  <dbReference type="MassIVE" id="Q7L0Y3"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000312356"/>
+  <dbReference type="PeptideAtlas" id="Q7L0Y3"/>
+  <dbReference type="ProteomicsDB" id="68741"/>
+  <dbReference type="Pumba" id="Q7L0Y3"/>
+  <dbReference type="TopDownProteomics" id="Q7L0Y3"/>
+  <dbReference type="Antibodypedia" id="32284">
+    <property type="antibodies" value="100 antibodies from 20 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="54931"/>
+  <dbReference type="Ensembl" id="ENST00000309922.7">
+    <property type="protein sequence ID" value="ENSP00000312356.6"/>
+    <property type="gene ID" value="ENSG00000174173.7"/>
+  </dbReference>
+  <dbReference type="GeneID" id="54931"/>
+  <dbReference type="KEGG" id="hsa:54931"/>
+  <dbReference type="MANE-Select" id="ENST00000309922.7">
+    <property type="protein sequence ID" value="ENSP00000312356.6"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_017819.4"/>
+    <property type="RefSeq protein sequence ID" value="NP_060289.2"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc003duz.5">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:26022"/>
+  <dbReference type="CTD" id="54931"/>
+  <dbReference type="DisGeNET" id="54931"/>
+  <dbReference type="GeneCards" id="TRMT10C"/>
+  <dbReference type="HGNC" id="HGNC:26022">
+    <property type="gene designation" value="TRMT10C"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000174173">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MalaCards" id="TRMT10C"/>
+  <dbReference type="MIM" id="615423">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="MIM" id="616974">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q7L0Y3"/>
+  <dbReference type="OpenTargets" id="ENSG00000174173"/>
+  <dbReference type="Orphanet" id="478042">
+    <property type="disease" value="Combined oxidative phosphorylation defect type 30"/>
+  </dbReference>
+  <dbReference type="PharmGKB" id="PA134988378"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000174173"/>
+  <dbReference type="eggNOG" id="KOG2967">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00530000063169"/>
+  <dbReference type="HOGENOM" id="CLU_034384_3_1_1"/>
+  <dbReference type="InParanoid" id="Q7L0Y3"/>
+  <dbReference type="OMA" id="IDPFHIY"/>
+  <dbReference type="OrthoDB" id="2998902at2759"/>
+  <dbReference type="PhylomeDB" id="Q7L0Y3"/>
+  <dbReference type="TreeFam" id="TF319795"/>
+  <dbReference type="BRENDA" id="2.1.1.218">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="BRENDA" id="2.1.1.221">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="Q7L0Y3"/>
+  <dbReference type="Reactome" id="R-HSA-6785470">
+    <property type="pathway name" value="tRNA processing in the mitochondrion"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-6787450">
+    <property type="pathway name" value="tRNA modification in the mitochondrion"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-8868766">
+    <property type="pathway name" value="rRNA processing in the mitochondrion"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="Q7L0Y3"/>
+  <dbReference type="BioGRID-ORCS" id="54931">
+    <property type="hits" value="263 hits in 1167 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="TRMT10C">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="GenomeRNAi" id="54931"/>
+  <dbReference type="Pharos" id="Q7L0Y3">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q7L0Y3"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 3"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q7L0Y3">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000174173">
+    <property type="expression patterns" value="Expressed in left ventricle myocardium and 191 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q7L0Y3">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005759">
+    <property type="term" value="C:mitochondrial matrix"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042645">
+    <property type="term" value="C:mitochondrial nucleoid"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030678">
+    <property type="term" value="C:mitochondrial ribonuclease P complex"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ComplexPortal"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005739">
+    <property type="term" value="C:mitochondrion"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="CAFA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043527">
+    <property type="term" value="C:tRNA methyltransferase complex"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ComplexPortal"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042802">
+    <property type="term" value="F:identical protein binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="IntAct"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003723">
+    <property type="term" value="F:RNA binding"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0160106">
+    <property type="term" value="F:tRNA (adenine(9)-N1)-methyltransferase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0052905">
+    <property type="term" value="F:tRNA (guanosine(9)-N1)-methyltransferase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000049">
+    <property type="term" value="F:tRNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000964">
+    <property type="term" value="P:mitochondrial RNA 5'-end processing"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1990180">
+    <property type="term" value="P:mitochondrial tRNA 3'-end processing"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0097745">
+    <property type="term" value="P:mitochondrial tRNA 5'-end processing"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070901">
+    <property type="term" value="P:mitochondrial tRNA methylation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ComplexPortal"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0090646">
+    <property type="term" value="P:mitochondrial tRNA processing"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006397">
+    <property type="term" value="P:mRNA processing"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070131">
+    <property type="term" value="P:positive regulation of mitochondrial translation"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd18102">
+    <property type="entry name" value="Trm10_MRRP1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.40.1280.30">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR028564">
+    <property type="entry name" value="MT_TRM10-typ"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR038459">
+    <property type="entry name" value="MT_TRM10-typ_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR025812">
+    <property type="entry name" value="Trm10_C_MTase_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007356">
+    <property type="entry name" value="tRNA_m1G_MeTrfase_euk"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR016009">
+    <property type="entry name" value="tRNA_MeTrfase_TRMD/TRM10"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR13563">
+    <property type="entry name" value="TRNA (GUANINE-9-) METHYLTRANSFERASE"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR13563:SF5">
+    <property type="entry name" value="TRNA METHYLTRANSFERASE 10 HOMOLOG C"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01746">
+    <property type="entry name" value="tRNA_m1G_MT"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51675">
+    <property type="entry name" value="SAM_MT_TRM10"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0175">Coiled coil</keyword>
+  <keyword id="KW-0225">Disease variant</keyword>
+  <keyword id="KW-0489">Methyltransferase</keyword>
+  <keyword id="KW-0496">Mitochondrion</keyword>
+  <keyword id="KW-1135">Mitochondrion nucleoid</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1274">Primary mitochondrial disease</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0949">S-adenosyl-L-methionine</keyword>
+  <keyword id="KW-0808">Transferase</keyword>
+  <keyword id="KW-0809">Transit peptide</keyword>
+  <keyword id="KW-0819">tRNA processing</keyword>
+  <feature type="transit peptide" description="Mitochondrion" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="39"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000311309" description="tRNA methyltransferase 10 homolog C">
+    <location>
+      <begin position="40"/>
+      <end position="403"/>
+    </location>
+  </feature>
+  <feature type="domain" description="SAM-dependent MTase TRM10-type" evidence="3">
+    <location>
+      <begin position="191"/>
+      <end position="383"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="2">
+    <location>
+      <begin position="138"/>
+      <end position="169"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="1">
+    <location>
+      <position position="84"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_057355" description="In dbSNP:rs3762735." evidence="4">
+    <original>P</original>
+    <variation>R</variation>
+    <location>
+      <position position="56"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_057356" description="In dbSNP:rs16844031.">
+    <original>K</original>
+    <variation>N</variation>
+    <location>
+      <position position="164"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_076993" description="In COXPD30; decreased protein abundance; impaired mitochondrial tRNA processing; has no effect on steady-state mitochondrial-mRNA and mitochondrial-tRNA levels but indirectly impairs mitochondrial translation; dbSNP:rs199730889." evidence="10">
+    <original>R</original>
+    <variation>L</variation>
+    <location>
+      <position position="181"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_076994" description="In COXPD30; decreased protein abundance; impaired mitochondrial tRNA processing; has no effect on steady-state mitochondrial-mRNA and mitochondrial-tRNA levels but indirectly impairs mitochondrial translation; dbSNP:rs875989831." evidence="10">
+    <original>T</original>
+    <variation>A</variation>
+    <location>
+      <position position="272"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished mitochondrial tRNA methylation. Does not affect mitochondrial tRNA 5'-end processing." evidence="7">
+    <original>D</original>
+    <variation>N</variation>
+    <location>
+      <position position="314"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="93"/>
+      <end position="103"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="114"/>
+      <end position="121"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="126"/>
+      <end position="155"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="183"/>
+      <end position="201"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="204"/>
+      <end position="208"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="212"/>
+      <end position="214"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="217"/>
+      <end position="236"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="237"/>
+      <end position="239"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="242"/>
+      <end position="247"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="253"/>
+      <end position="261"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="263"/>
+      <end position="268"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="271"/>
+      <end position="273"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="278"/>
+      <end position="281"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="284"/>
+      <end position="286"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="287"/>
+      <end position="290"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="295"/>
+      <end position="297"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="306"/>
+      <end position="310"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="316"/>
+      <end position="318"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="321"/>
+      <end position="327"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="20">
+    <location>
+      <begin position="328"/>
+      <end position="330"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="333"/>
+      <end position="335"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="338"/>
+      <end position="341"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="20">
+    <location>
+      <begin position="342"/>
+      <end position="344"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="353"/>
+      <end position="364"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="369"/>
+      <end position="372"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="20">
+    <location>
+      <begin position="373"/>
+      <end position="375"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="21">
+    <location>
+      <begin position="378"/>
+      <end position="380"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="381"/>
+      <end position="384"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q3UFY8"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="2"/>
+  <evidence type="ECO:0000255" key="3">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU01012"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="10508479"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="18984158"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="21593607"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="23042678"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="23473034"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="24703694"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="27132592"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="29040705"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="29072297"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="29107537"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="14">
+    <source>
+      <dbReference type="PubMed" id="10508479"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="15">
+    <source>
+      <dbReference type="PubMed" id="12546731"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="16">
+    <source>
+      <dbReference type="PubMed" id="18984158"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="17">
+    <source>
+      <dbReference type="PubMed" id="29072297"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="18"/>
+  <evidence type="ECO:0000312" key="19">
+    <source>
+      <dbReference type="HGNC" id="HGNC:26022"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="20">
+    <source>
+      <dbReference type="PDB" id="5NFJ"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="21">
+    <source>
+      <dbReference type="PDB" id="7ONU"/>
+    </source>
+  </evidence>
+  <sequence length="403" mass="47347" checksum="28CBD97B4114819F" modified="2009-01-20" version="2" precursor="true">MAAFLKMSVSVNFFRPFTRFLVPFTLHRKRNNLTILQRYMSSKIPAVTYPKNESTPPSEELELDKWKTTMKSSVQEECVSTISSSKDEDPLAATREFIEMWRLLGREVPEHITEEELKTLMECVSNTAKKKYLKYLYTKEKVKKARQIKKEMKAAAREEAKNIKLLETTEEDKQKNFLFLRLWDRNMDIAMGWKGAQAMQFGQPLVFDMAYENYMKRKELQNTVSQLLESEGWNRRNVDPFHIYFCNLKIDGALHRELVKRYQEKWDKLLLTSTEKSHVDLFPKDSIIYLTADSPNVMTTFRHDKVYVIGSFVDKSMQPGTSLAKAKRLNLATECLPLDKYLQWEIGNKNLTLDQMIRILLCLKNNGNWQEALQFVPKRKHTGFLEISQHSQEFINRLKKAKT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,1754 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.5745	
+2	M	0.6549	
+3	E	0.6785	
+4	G	0.6680	
+5	N	0.6412	
+6	G	0.6111	
+7	T	0.5863	
+8	E	0.5721	
+9	N	0.5704	
+10	S	0.5803	
+11	C	0.5996	
+12	S	0.6212	
+13	R	0.6504	
+14	T	0.6607	
+15	R	0.6411	
+16	G	0.5947	
+17	W	0.5487	
+18	L	0.5053	
+19	Q	0.4668	
+20	Q	0.4258	
+21	D	0.3818	
+22	N	0.3439	
+23	D	0.3111	
+24	A	0.3006	
+25	K	0.3036	
+26	P	0.3069	
+27	W	0.3162	
+28	L	0.3230	
+29	W	0.3397	
+30	K	0.3521	
+31	F	0.3755	
+32	S	0.3728	
+33	N	0.3658	
+34	C	0.3562	
+35	F	0.3550	
+36	S	0.3735	
+37	R	0.4072	
+38	P	0.4377	
+39	E	0.4713	
+40	Q	0.5072	
+41	T	0.5522	
+42	L	0.6001	
+43	P	0.6507	
+44	H	0.7010	
+45	S	0.7252	
+46	P	0.7391	
+47	Q	0.7441	
+48	T	0.7345	
+49	K	0.7100	
+50	E	0.6702	
+51	Y	0.6386	
+52	M	0.6070	
+53	E	0.5882	
+54	N	0.5818	
+55	K	0.5705	
+56	K	0.5552	
+57	V	0.5519	
+58	A	0.5435	
+59	V	0.5383	
+60	E	0.5266	
+61	L	0.5161	
+62	K	0.5103	
+63	D	0.4949	
+64	V	0.4773	
+65	P	0.4624	
+66	S	0.4531	
+67	P	0.4344	
+68	L	0.4325	
+69	H	0.4367	
+70	A	0.4550	
+71	G	0.4755	
+72	S	0.4837	
+73	K	0.4814	
+74	L	0.4707	
+75	F	0.4687	
+76	P	0.4668	
+77	A	0.4637	
+78	V	0.4583	
+79	P	0.4507	
+80	L	0.4465	
+81	P	0.4465	
+82	D	0.4397	
+83	I	0.4385	
+84	R	0.4535	
+85	S	0.4693	
+86	L	0.4767	
+87	Q	0.4852	
+88	Q	0.4925	
+89	P	0.4732	
+90	K	0.4337	
+91	I	0.3808	
+92	Q	0.3207	
+93	L	0.2712	
+94	S	0.2325	
+95	S	0.2072	
+96	V	0.1934	
+97	P	0.1915	
+98	K	0.2108	
+99	V	0.2321	
+100	S	0.2524	
+101	C	0.2669	
+102	C	0.2819	
+103	A	0.3010	
+104	H	0.3006	
+105	C	0.2953	
+106	P	0.2882	
+107	N	0.2921	
+108	E	0.2930	
+109	P	0.3046	
+110	S	0.3358	
+111	T	0.3936	
+112	S	0.4774	
+113	P	0.5713	
+114	M	0.6508	
+115	R	0.6987	
+116	F	0.7305	
+117	G	0.7320	
+118	G	0.7225	
+119	G	0.6878	
+120	G	0.6377	
+121	G	0.5913	
+122	G	0.5521	
+123	S	0.5174	
+124	G	0.4959	
+125	G	0.4954	
+126	T	0.4985	
+127	S	0.4999	
+128	S	0.5071	
+129	L	0.5118	
+130	I	0.5256	
+131	H	0.5363	
+132	P	0.5303	
+133	G	0.4926	
+134	A	0.4479	
+135	L	0.4024	
+136	L	0.3822	
+137	D	0.3630	
+138	S	0.3453	
+139	Q	0.3244	
+140	S	0.3092	
+141	T	0.2965	
+142	R	0.2930	
+143	T	0.2873	
+144	I	0.2799	
+145	T	0.2626	
+146	C	0.2559	
+147	Q	0.2456	
+148	V	0.2477	
+149	G	0.2441	
+150	S	0.2361	
+151	G	0.2170	
+152	F	0.2054	
+153	A	0.1962	
+154	F	0.2148	
+155	Q	0.2433	
+156	S	0.2779	
+157	A	0.2940	
+158	S	0.3135	
+159	S	0.3251	
+160	L	0.3350	
+161	Q	0.3322	
+162	N	0.3367	
+163	A	0.3452	
+164	S	0.3554	
+165	A	0.3660	
+166	R	0.3755	
+167	N	0.3714	
+168	N	0.3544	
+169	L	0.3223	
+170	A	0.2936	
+171	G	0.2634	
+172	I	0.2400	
+173	A	0.2197	
+174	S	0.2031	
+175	D	0.1771	
+176	F	0.1649	
+177	P	0.1534	
+178	S	0.1355	
+179	M	0.1051	
+180	C	0.0842	
+181	L	0.0675	
+182	E	0.0558	
+183	S	0.0471	
+184	N	0.0377	
+185	L	0.0348	
+186	S	0.0293	
+187	S	0.0183	
+188	C	0.0164	
+189	K	0.0196	
+190	H	0.0228	
+191	L	0.0258	
+192	P	0.0242	
+193	C	0.0216	
+194	C	0.0221	
+195	G	0.0272	
+196	K	0.0313	
+197	L	0.0287	
+198	H	0.0249	
+199	F	0.0231	
+200	Q	0.0353	
+201	S	0.0563	
+202	C	0.0757	
+203	H	0.0977	
+204	G	0.1223	
+205	N	0.1355	
+206	V	0.1510	
+207	H	0.1590	
+208	K	0.1730	
+209	L	0.1811	
+210	H	0.1797	
+211	Q	0.1749	
+212	F	0.1665	
+213	P	0.1610	
+214	S	0.1559	
+215	L	0.1410	
+216	Q	0.1196	
+217	G	0.0948	
+218	C	0.0729	
+219	T	0.0654	
+220	S	0.0680	
+221	A	0.0698	
+222	G	0.0736	
+223	Y	0.0790	
+224	F	0.0948	
+225	P	0.1106	
+226	C	0.1350	
+227	S	0.1441	
+228	D	0.1639	
+229	F	0.1814	
+230	T	0.1936	
+231	S	0.2131	
+232	G	0.2317	
+233	A	0.2687	
+234	P	0.3157	
+235	G	0.3657	
+236	H	0.3994	
+237	L	0.4389	
+238	E	0.4750	
+239	E	0.4937	
+240	H	0.4812	
+241	I	0.4570	
+242	S	0.4306	
+243	Q	0.4081	
+244	S	0.3735	
+245	E	0.3244	
+246	L	0.3078	
+247	T	0.2982	
+248	P	0.2928	
+249	H	0.2829	
+250	L	0.2533	
+251	C	0.2332	
+252	T	0.2151	
+253	N	0.1977	
+254	S	0.1682	
+255	L	0.1383	
+256	H	0.1086	
+257	L	0.0905	
+258	N	0.0666	
+259	V	0.0495	
+260	V	0.0453	
+261	P	0.0509	
+262	P	0.0466	
+263	V	0.0315	
+264	C	0.0226	
+265	L	0.0220	
+266	K	0.0317	
+267	G	0.0369	
+268	S	0.0349	
+269	L	0.0341	
+270	Y	0.0359	
+271	C	0.0447	
+272	E	0.0560	
+273	D	0.0658	
+274	C	0.0595	
+275	L	0.0580	
+276	N	0.0694	
+277	K	0.0774	
+278	P	0.0780	
+279	A	0.0854	
+280	R	0.1023	
+281	N	0.1325	
+282	S	0.1684	
+283	I	0.2190	
+284	I	0.2764	
+285	D	0.3401	
+286	A	0.3939	
+287	A	0.4340	
+288	K	0.4549	
+289	V	0.4637	
+290	W	0.4785	
+291	P	0.4922	
+292	N	0.4757	
+293	I	0.4630	
+294	P	0.4638	
+295	P	0.4625	
+296	P	0.4451	
+297	N	0.4230	
+298	T	0.3997	
+299	Q	0.3836	
+300	P	0.3669	
+301	A	0.3547	
+302	P	0.3419	
+303	L	0.3409	
+304	A	0.3425	
+305	V	0.3511	
+306	P	0.3528	
+307	L	0.3471	
+308	C	0.3361	
+309	N	0.3209	
+310	G	0.2993	
+311	C	0.2660	
+312	G	0.2343	
+313	T	0.2202	
+314	K	0.2012	
+315	G	0.1899	
+316	T	0.1878	
+317	G	0.2089	
+318	K	0.2460	
+319	E	0.2902	
+320	T	0.3292	
+321	T	0.3506	
+322	L	0.3615	
+323	L	0.3680	
+324	L	0.3731	
+325	A	0.3721	
+326	T	0.3544	
+327	S	0.3245	
+328	L	0.2983	
+329	G	0.2753	
+330	K	0.2663	
+331	A	0.2655	
+332	A	0.2697	
+333	S	0.2781	
+334	K	0.2772	
+335	F	0.2875	
+336	G	0.3001	
+337	S	0.3202	
+338	P	0.3334	
+339	E	0.3391	
+340	V	0.3339	
+341	A	0.3275	
+342	V	0.3279	
+343	A	0.3192	
+344	G	0.3094	
+345	Q	0.2813	
+346	V	0.2467	
+347	L	0.2152	
+348	E	0.1909	
+349	N	0.1627	
+350	L	0.1408	
+351	P	0.1271	
+352	P	0.1227	
+353	I	0.1223	domain NYN
+354	G	0.1257	domain NYN
+355	V	0.1450	domain NYN
+356	F	0.1652	domain NYN
+357	W	0.1901	domain NYN
+358	D	0.2004	domain NYN
+359	I	0.2121	domain NYN
+360	E	0.2141	domain NYN
+361	N	0.2071	domain NYN
+362	C	0.1925	domain NYN
+363	S	0.1794	domain NYN
+364	V	0.1919	domain NYN
+365	P	0.2061	domain NYN
+366	S	0.2312	domain NYN
+367	G	0.2534	domain NYN
+368	R	0.2712	domain NYN
+369	S	0.2855	domain NYN
+370	A	0.3043	domain NYN
+371	T	0.3042	domain NYN
+372	A	0.3022	domain NYN
+373	V	0.3055	domain NYN
+374	V	0.3157	domain NYN
+375	Q	0.3299	domain NYN
+376	R	0.3413	domain NYN
+377	I	0.3427	domain NYN
+378	R	0.3307	domain NYN
+379	E	0.3096	domain NYN
+380	K	0.2586	domain NYN
+381	F	0.1993	domain NYN
+382	F	0.1544	domain NYN
+383	K	0.1163	domain NYN
+384	G	0.0886	domain NYN
+385	H	0.0620	domain NYN
+386	R	0.0573	domain NYN
+387	E	0.0660	domain NYN
+388	A	0.0831	domain NYN
+389	E	0.1014	domain NYN
+390	F	0.1230	domain NYN
+391	I	0.1345	domain NYN
+392	C	0.1505	domain NYN
+393	V	0.1581	domain NYN
+394	C	0.1627	domain NYN
+395	D	0.1473	domain NYN
+396	I	0.1319	domain NYN
+397	S	0.1131	domain NYN
+398	K	0.0956	domain NYN
+399	E	0.0882	domain NYN
+400	N	0.0932	domain NYN
+401	K	0.1188	domain NYN
+402	E	0.1500	domain NYN
+403	V	0.1839	domain NYN
+404	I	0.2231	domain NYN
+405	Q	0.2576	domain NYN
+406	E	0.2783	domain NYN
+407	L	0.2849	domain NYN
+408	N	0.2793	domain NYN
+409	N	0.2660	domain NYN
+410	C	0.2472	domain NYN
+411	Q	0.2357	domain NYN
+412	V	0.2441	domain NYN
+413	T	0.2478	domain NYN
+414	V	0.2604	domain NYN
+415	A	0.2750	domain NYN
+416	H	0.2972	domain NYN
+417	I	0.3127	domain NYN
+418	N	0.3268	domain NYN
+419	A	0.3473	domain NYN
+420	T	0.3541	domain NYN
+421	A	0.3585	domain NYN
+422	K	0.3578	domain NYN
+423	N	0.3595	domain NYN
+424	A	0.3659	domain NYN
+425	A	0.3672	domain NYN
+426	D	0.3761	domain NYN
+427	D	0.3871	domain NYN
+428	K	0.3880	domain NYN
+429	L	0.4001	domain NYN
+430	R	0.4267	domain NYN
+431	Q	0.4542	domain NYN
+432	S	0.4684	domain NYN
+433	L	0.4686	domain NYN
+434	R	0.4541	domain NYN
+435	R	0.4262	domain NYN
+436	F	0.3832	domain NYN
+437	A	0.3515	domain NYN
+438	N	0.3219	domain NYN
+439	T	0.2997	domain NYN
+440	H	0.2732	domain NYN
+441	T	0.2585	domain NYN
+442	A	0.2537	domain NYN
+443	P	0.2478	domain NYN
+444	A	0.2517	domain NYN
+445	T	0.2458	domain NYN
+446	V	0.2302	domain NYN
+447	V	0.2050	domain NYN
+448	L	0.1804	domain NYN
+449	V	0.1608	domain NYN
+450	S	0.1441	domain NYN
+451	T	0.1245	domain NYN
+452	D	0.1056	domain NYN
+453	V	0.1034	domain NYN
+454	N	0.0996	domain NYN
+455	F	0.1114	domain NYN
+456	A	0.1290	domain NYN
+457	L	0.1477	domain NYN
+458	E	0.1490	domain NYN
+459	L	0.1457	domain NYN
+460	S	0.1307	domain NYN
+461	D	0.1141	domain NYN
+462	L	0.0960	domain NYN
+463	R	0.0794	domain NYN
+464	H	0.0824	domain NYN
+465	R	0.1005	domain NYN
+466	H	0.1318	domain NYN
+467	G	0.1648	domain NYN
+468	F	0.2059	domain NYN
+469	H	0.2353	domain NYN
+470	I	0.2497	domain NYN
+471	I	0.2448	domain NYN
+472	L	0.2387	domain NYN
+473	V	0.2236	domain NYN
+474	H	0.2083	domain NYN
+475	K	0.1954	domain NYN
+476	N	0.1721	domain NYN
+477	Q	0.1606	domain NYN
+478	A	0.1647	domain NYN
+479	S	0.1862	domain NYN
+480	E	0.2021	domain NYN
+481	A	0.2159	domain NYN
+482	L	0.2292	domain NYN
+483	L	0.2352	domain NYN
+484	H	0.2298	domain NYN
+485	H	0.2189	domain NYN
+486	A	0.1920	domain NYN
+487	N	0.1677	domain NYN
+488	E	0.1478	domain NYN
+489	L	0.1304	domain NYN
+490	I	0.1303	domain NYN
+491	R	0.1370	
+492	F	0.1656	
+493	E	0.1886	
+494	E	0.1957	
+495	F	0.1941	
+496	I	0.1963	
+497	S	0.2092	
+498	D	0.2198	
+499	L	0.2324	
+500	P	0.2384	
+501	P	0.2512	
+502	R	0.2523	
+503	L	0.2541	
+504	P	0.2401	
+505	L	0.2295	
+506	K	0.2091	
+507	M	0.1932	
+508	P	0.1741	
+509	Q	0.1605	
+510	C	0.1650	
+511	H	0.1778	
+512	T	0.2006	
+513	L	0.2044	
+514	L	0.2117	
+515	Y	0.2313	
+516	V	0.2423	
+517	Y	0.2516	
+518	N	0.2517	
+519	L	0.2568	
+520	P	0.2380	
+521	A	0.2376	
+522	N	0.2452	
+523	K	0.2733	
+524	D	0.3030	
+525	G	0.3490	
+526	K	0.3990	
+527	S	0.4417	
+528	V	0.4808	
+529	S	0.5109	
+530	N	0.5243	
+531	R	0.5082	
+532	L	0.4789	
+533	R	0.4413	
+534	R	0.4005	
+535	L	0.3660	
+536	S	0.3315	
+537	D	0.3057	
+538	N	0.2721	
+539	C	0.2532	
+540	G	0.2300	
+541	G	0.2133	
+542	K	0.1834	
+543	V	0.1533	
+544	L	0.1288	
+545	S	0.1077	
+546	I	0.1005	
+547	T	0.0955	
+548	G	0.0981	
+549	C	0.1025	
+550	S	0.1109	
+551	A	0.1295	
+552	I	0.1512	
+553	L	0.1752	
+554	R	0.1982	
+555	F	0.2263	
+556	I	0.2609	
+557	N	0.3064	
+558	Q	0.3491	
+559	D	0.3768	
+560	S	0.3989	
+561	A	0.4290	
+562	E	0.4679	
+563	R	0.5058	
+564	A	0.5461	
+565	Q	0.5752	
+566	K	0.5933	
+567	R	0.5863	
+568	M	0.5669	
+569	E	0.5424	
+570	N	0.5037	
+571	E	0.4628	
+572	D	0.4337	
+573	V	0.4121	
+574	F	0.4045	
+575	G	0.4183	
+576	N	0.4315	
+577	R	0.4166	
+578	I	0.3885	
+579	I	0.3571	
+580	V	0.3386	
+581	S	0.3221	
+582	F	0.3131	
+583	T	0.3069	
+584	P	0.3185	
+585	K	0.3320	
+586	N	0.3525	
+587	R	0.3764	
+588	E	0.3967	
+589	L	0.4098	
+590	C	0.4342	
+591	E	0.4647	
+592	T	0.4970	
+593	K	0.5143	
+594	S	0.5211	
+595	S	0.5189	
+596	N	0.5199	
+597	A	0.5249	
+598	I	0.5467	
+599	A	0.5733	
+600	D	0.5931	
+601	K	0.5945	
+602	V	0.5906	
+603	K	0.5691	
+604	S	0.5407	
+605	P	0.5021	
+606	K	0.4599	
+607	K	0.4180	
+608	L	0.4011	
+609	K	0.4130	
+610	N	0.4532	
+611	P	0.4859	
+612	K	0.5031	
+613	L	0.5060	
+614	C	0.5068	
+615	L	0.5056	
+616	I	0.5075	
+617	K	0.5010	
+618	D	0.4951	
+619	A	0.4858	
+620	S	0.4842	
+621	E	0.4997	
+622	Q	0.5319	
+623	S	0.5746	
+624	S	0.6242	
+625	S	0.6746	
+626	A	0.7249	
+627	K	0.7693	
+628	A	0.8071	
+629	T	0.8327	
+630	P	0.8411	
+631	G	0.8304	
+632	K	0.8179	
+633	G	0.8136	
+634	S	0.8139	
+635	Q	0.8105	
+636	A	0.8191	
+637	N	0.8187	
+638	S	0.8130	
+639	G	0.7949	
+640	S	0.7654	
+641	A	0.7291	
+642	T	0.6885	
+643	K	0.6520	
+644	N	0.6152	
+645	T	0.5847	
+646	N	0.5590	
+647	V	0.5494	
+648	K	0.5534	
+649	S	0.5659	
+650	L	0.5827	
+651	Q	0.6012	
+652	E	0.6166	
+653	L	0.6191	
+654	C	0.6344	
+655	R	0.6518	
+656	M	0.6768	
+657	E	0.6932	
+658	S	0.7155	
+659	K	0.7343	
+660	T	0.7525	
+661	G	0.7690	
+662	H	0.7789	
+663	R	0.7823	
+664	N	0.7783	
+665	S	0.7750	
+666	E	0.7757	
+667	H	0.7839	
+668	Q	0.7942	
+669	Q	0.8050	
+670	G	0.8179	
+671	H	0.8114	
+672	L	0.8005	
+673	R	0.7788	
+674	L	0.7589	
+675	V	0.7214	
+676	V	0.6968	
+677	P	0.6751	
+678	T	0.6601	
+679	H	0.6405	
+680	G	0.6323	
+681	N	0.6415	
+682	S	0.6624	
+683	S	0.6863	
+684	A	0.7105	
+685	A	0.7259	
+686	V	0.7344	
+687	S	0.7321	
+688	T	0.7238	
+689	P	0.6980	
+690	K	0.6733	
+691	N	0.6483	
+692	S	0.6418	
+693	G	0.6362	
+694	V	0.6486	
+695	A	0.6755	
+696	E	0.7062	
+697	P	0.7144	
+698	V	0.7077	
+699	Y	0.6853	
+700	K	0.6673	
+701	T	0.6469	
+702	S	0.6216	
+703	Q	0.5991	
+704	K	0.5881	
+705	K	0.5907	
+706	E	0.6071	
+707	N	0.6243	
+708	L	0.6461	
+709	S	0.6662	
+710	A	0.7069	
+711	R	0.7334	
+712	S	0.7521	
+713	V	0.7578	
+714	T	0.7636	
+715	S	0.7563	
+716	S	0.7279	
+717	P	0.6781	
+718	V	0.6470	
+719	E	0.6217	
+720	K	0.5978	
+721	K	0.5780	
+722	D	0.5664	
+723	K	0.5601	
+724	E	0.5540	
+725	E	0.5416	
+726	T	0.5124	
+727	V	0.4774	
+728	F	0.4560	
+729	Q	0.4224	
+730	V	0.3935	
+731	S	0.3576	
+732	Y	0.3405	
+733	P	0.3290	
+734	S	0.3171	
+735	A	0.2929	
+736	F	0.2884	
+737	S	0.2916	
+738	K	0.3032	
+739	L	0.3050	
+740	V	0.3060	
+741	A	0.3135	
+742	S	0.3222	
+743	R	0.3252	
+744	Q	0.3164	
+745	V	0.3159	
+746	S	0.3334	
+747	P	0.3610	
+748	L	0.3886	
+749	L	0.4129	
+750	A	0.4478	
+751	S	0.4696	
+752	Q	0.4817	
+753	S	0.4675	
+754	W	0.4640	
+755	S	0.4601	
+756	S	0.4704	
+757	R	0.4700	
+758	S	0.4637	
+759	M	0.4621	
+760	S	0.4631	
+761	P	0.4590	
+762	N	0.4380	
+763	L	0.4146	
+764	L	0.3962	
+765	N	0.3978	
+766	R	0.3971	
+767	A	0.3935	
+768	S	0.3931	
+769	P	0.3973	
+770	L	0.4050	
+771	A	0.4026	
+772	F	0.4079	
+773	N	0.4075	
+774	I	0.4137	
+775	A	0.4119	
+776	N	0.4095	
+777	S	0.4076	
+778	S	0.4077	
+779	S	0.4083	
+780	E	0.4164	
+781	A	0.4244	
+782	D	0.4394	
+783	C	0.4702	
+784	P	0.5020	
+785	D	0.5242	
+786	P	0.5157	
+787	F	0.4988	
+788	A	0.4667	
+789	N	0.4389	
+790	G	0.4103	
+791	A	0.3750	domain RRM
+792	D	0.3474	domain RRM
+793	V	0.3355	domain RRM
+794	Q	0.3342	domain RRM
+795	V	0.3389	domain RRM
+796	S	0.3341	domain RRM
+797	N	0.3314	domain RRM
+798	I	0.3311	domain RRM
+799	D	0.3184	domain RRM
+800	Y	0.3075	domain RRM
+801	R	0.2829	domain RRM
+802	L	0.2601	domain RRM
+803	S	0.2440	domain RRM
+804	R	0.2292	domain RRM
+805	K	0.2133	domain RRM
+806	E	0.2052	domain RRM
+807	L	0.2177	domain RRM
+808	Q	0.2379	domain RRM
+809	Q	0.2601	domain RRM
+810	L	0.2745	domain RRM
+811	L	0.2896	domain RRM
+812	Q	0.3021	domain RRM
+813	E	0.3007	domain RRM
+814	A	0.2838	domain RRM
+815	F	0.2696	domain RRM
+816	A	0.2670	domain RRM
+817	R	0.2751	domain RRM
+818	H	0.2863	domain RRM
+819	G	0.2936	domain RRM
+820	K	0.3116	domain RRM
+821	V	0.3312	domain RRM
+822	K	0.3553	domain RRM
+823	S	0.3674	domain RRM
+824	V	0.3613	domain RRM
+825	E	0.3445	domain RRM
+826	L	0.3323	domain RRM
+827	S	0.3189	domain RRM
+828	P	0.3025	domain RRM
+829	H	0.2927	domain RRM
+830	T	0.2916	domain RRM
+831	D	0.2902	domain RRM
+832	Y	0.2973	domain RRM
+833	Q	0.3010	domain RRM
+834	L	0.3139	domain RRM
+835	K	0.3251	domain RRM
+836	A	0.3241	domain RRM
+837	V	0.3001	domain RRM
+838	V	0.2780	domain RRM
+839	Q	0.2503	domain RRM
+840	M	0.2321	domain RRM
+841	E	0.2153	domain RRM
+842	N	0.1961	domain RRM
+843	L	0.1885	domain RRM
+844	Q	0.1900	domain RRM
+845	D	0.1998	domain RRM
+846	A	0.2163	domain RRM
+847	I	0.2366	domain RRM
+848	G	0.2481	domain RRM
+849	A	0.2547	domain RRM
+850	V	0.2542	domain RRM
+851	N	0.2431	domain RRM
+852	S	0.2254	domain RRM
+853	L	0.1988	domain RRM
+854	H	0.1765	domain RRM
+855	R	0.1488	domain RRM
+856	Y	0.1269	domain RRM
+857	K	0.1075	domain RRM
+858	I	0.1119	domain RRM
+859	G	0.1166	domain RRM
+860	S	0.1342	domain RRM
+861	K	0.1504	domain RRM
+862	K	0.1592	domain RRM
+863	I	0.1699	domain RRM
+864	L	0.1712	domain RRM
+865	V	0.1706	domain RRM
+866	S	0.1645	domain RRM
+867	L	0.1536	domain RRM
+868	A	0.1370	domain RRM
+869	T	0.1337	domain RRM
+870	G	0.1333	domain RRM
+871	A	0.1288	
+872	A	0.1374	
+873	S	0.1548	
+874	K	0.1686	
+875	S	0.1845	domain HTH OST-type 1
+876	L	0.2146	domain HTH OST-type 1
+877	S	0.2424	domain HTH OST-type 1
+878	L	0.2666	domain HTH OST-type 1
+879	L	0.2753	domain HTH OST-type 1
+880	S	0.2753	domain HTH OST-type 1
+881	A	0.2619	domain HTH OST-type 1
+882	E	0.2397	domain HTH OST-type 1
+883	T	0.2151	domain HTH OST-type 1
+884	M	0.1830	domain HTH OST-type 1
+885	S	0.1463	domain HTH OST-type 1
+886	V	0.1135	domain HTH OST-type 1
+887	L	0.0969	domain HTH OST-type 1
+888	Q	0.0872	domain HTH OST-type 1
+889	D	0.0783	domain HTH OST-type 1
+890	A	0.0791	domain HTH OST-type 1
+891	P	0.0796	domain HTH OST-type 1
+892	A	0.0739	domain HTH OST-type 1
+893	C	0.0630	domain HTH OST-type 1
+894	C	0.0562	domain HTH OST-type 1
+895	L	0.0548	domain HTH OST-type 1
+896	P	0.0531	domain HTH OST-type 1
+897	L	0.0485	domain HTH OST-type 1
+898	F	0.0424	domain HTH OST-type 1
+899	K	0.0387	domain HTH OST-type 1
+900	F	0.0439	domain HTH OST-type 1
+901	T	0.0459	domain HTH OST-type 1
+902	D	0.0497	domain HTH OST-type 1
+903	I	0.0518	domain HTH OST-type 1
+904	Y	0.0554	domain HTH OST-type 1
+905	E	0.0623	domain HTH OST-type 1
+906	K	0.0741	domain HTH OST-type 1
+907	K	0.0782	domain HTH OST-type 1
+908	F	0.0898	domain HTH OST-type 1
+909	G	0.1051	domain HTH OST-type 1
+910	H	0.1243	domain HTH OST-type 1
+911	K	0.1306	domain HTH OST-type 1
+912	L	0.1350	domain HTH OST-type 1
+913	N	0.1396	domain HTH OST-type 1
+914	V	0.1522	domain HTH OST-type 1
+915	S	0.1563	domain HTH OST-type 1
+916	D	0.1609	domain HTH OST-type 1
+917	L	0.1706	domain HTH OST-type 1
+918	Y	0.1925	domain HTH OST-type 1
+919	K	0.2191	domain HTH OST-type 1
+920	L	0.2562	domain HTH OST-type 1
+921	T	0.2761	domain HTH OST-type 1
+922	D	0.2839	domain HTH OST-type 1
+923	T	0.2755	domain HTH OST-type 1
+924	V	0.2516	domain HTH OST-type 1
+925	A	0.2153	domain HTH OST-type 1
+926	I	0.1885	domain HTH OST-type 1
+927	R	0.1661	domain HTH OST-type 1
+928	E	0.1616	domain HTH OST-type 1
+929	Q	0.1490	domain HTH OST-type 1
+930	G	0.1529	domain HTH OST-type 1
+931	N	0.1743	domain HTH OST-type 1
+932	G	0.2117	domain HTH OST-type 1
+933	R	0.2427	domain HTH OST-type 1
+934	L	0.2738	domain HTH OST-type 1
+935	V	0.2908	domain HTH OST-type 1
+936	C	0.3057	domain HTH OST-type 1
+937	L	0.3145	domain HTH OST-type 1
+938	L	0.3212	domain HTH OST-type 1
+939	P	0.3148	domain HTH OST-type 1
+940	S	0.3056	domain HTH OST-type 1
+941	S	0.2843	domain HTH OST-type 1
+942	Q	0.2633	domain HTH OST-type 1
+943	A	0.2783	domain HTH OST-type 1
+944	R	0.3280	domain HTH OST-type 1
+945	Q	0.3917	domain HTH OST-type 1
+946	S	0.4693	domain HTH OST-type 1
+947	P	0.5365	domain HTH OST-type 1
+948	L	0.6078	domain HTH OST-type 1
+949	G	0.6589	domain HTH OST-type 1
+950	S	0.6814	
+951	S	0.6714	
+952	Q	0.6260	
+953	S	0.5662	
+954	H	0.5055	
+955	D	0.4469	
+956	G	0.3962	
+957	S	0.3587	
+958	S	0.3452	
+959	T	0.3347	
+960	N	0.3207	
+961	C	0.3135	
+962	S	0.3114	
+963	P	0.3022	
+964	I	0.2745	
+965	I	0.2356	
+966	F	0.2030	
+967	E	0.1762	
+968	E	0.1563	
+969	L	0.1309	
+970	E	0.1073	
+971	Y	0.1014	
+972	H	0.1140	
+973	E	0.1456	
+974	P	0.1684	
+975	V	0.1854	
+976	C	0.2075	
+977	R	0.2440	
+978	Q	0.2767	
+979	H	0.2963	
+980	C	0.3062	
+981	S	0.3205	
+982	N	0.3326	
+983	K	0.3332	
+984	D	0.3327	
+985	F	0.3344	
+986	S	0.3380	
+987	E	0.3308	
+988	H	0.3042	
+989	E	0.2717	
+990	F	0.2443	
+991	D	0.2244	
+992	P	0.2007	
+993	D	0.1708	
+994	S	0.1389	
+995	Y	0.1250	
+996	K	0.1216	
+997	I	0.1258	
+998	P	0.1207	
+999	F	0.1190	
+1000	V	0.1166	
+1001	I	0.1091	
+1002	L	0.0989	
+1003	S	0.0816	domain HTH OST-type 2
+1004	L	0.0746	domain HTH OST-type 2
+1005	K	0.0693	domain HTH OST-type 2
+1006	T	0.0674	domain HTH OST-type 2
+1007	F	0.0825	domain HTH OST-type 2
+1008	A	0.1089	domain HTH OST-type 2
+1009	P	0.1585	domain HTH OST-type 2
+1010	Q	0.2092	domain HTH OST-type 2
+1011	V	0.2417	domain HTH OST-type 2
+1012	H	0.2695	domain HTH OST-type 2
+1013	S	0.2940	domain HTH OST-type 2
+1014	L	0.3110	domain HTH OST-type 2
+1015	L	0.3204	domain HTH OST-type 2
+1016	Q	0.3127	domain HTH OST-type 2
+1017	T	0.2983	domain HTH OST-type 2
+1018	H	0.2691	domain HTH OST-type 2
+1019	E	0.2368	domain HTH OST-type 2
+1020	G	0.2090	domain HTH OST-type 2
+1021	T	0.1820	domain HTH OST-type 2
+1022	V	0.1653	domain HTH OST-type 2
+1023	P	0.1457	domain HTH OST-type 2
+1024	L	0.1352	domain HTH OST-type 2
+1025	L	0.1245	domain HTH OST-type 2
+1026	S	0.1161	domain HTH OST-type 2
+1027	F	0.1246	domain HTH OST-type 2
+1028	P	0.1209	domain HTH OST-type 2
+1029	D	0.1020	domain HTH OST-type 2
+1030	C	0.0824	domain HTH OST-type 2
+1031	Y	0.0667	domain HTH OST-type 2
+1032	I	0.0723	domain HTH OST-type 2
+1033	A	0.0875	domain HTH OST-type 2
+1034	E	0.1007	domain HTH OST-type 2
+1035	F	0.1239	domain HTH OST-type 2
+1036	G	0.1532	domain HTH OST-type 2
+1037	D	0.1831	domain HTH OST-type 2
+1038	L	0.2123	domain HTH OST-type 2
+1039	E	0.2379	domain HTH OST-type 2
+1040	V	0.2615	domain HTH OST-type 2
+1041	V	0.2680	domain HTH OST-type 2
+1042	Q	0.2744	domain HTH OST-type 2
+1043	E	0.2673	domain HTH OST-type 2
+1044	N	0.2590	domain HTH OST-type 2
+1045	Q	0.2514	domain HTH OST-type 2
+1046	G	0.2391	domain HTH OST-type 2
+1047	G	0.2295	domain HTH OST-type 2
+1048	V	0.2169	domain HTH OST-type 2
+1049	P	0.2017	domain HTH OST-type 2
+1050	L	0.2025	domain HTH OST-type 2
+1051	E	0.2045	domain HTH OST-type 2
+1052	H	0.1998	domain HTH OST-type 2
+1053	F	0.1876	domain HTH OST-type 2
+1054	I	0.1782	domain HTH OST-type 2
+1055	T	0.1672	domain HTH OST-type 2
+1056	C	0.1503	domain HTH OST-type 2
+1057	V	0.1387	domain HTH OST-type 2
+1058	P	0.1354	domain HTH OST-type 2
+1059	G	0.1217	domain HTH OST-type 2
+1060	V	0.1113	domain HTH OST-type 2
+1061	N	0.0959	domain HTH OST-type 2
+1062	I	0.0863	domain HTH OST-type 2
+1063	A	0.0768	domain HTH OST-type 2
+1064	T	0.0761	domain HTH OST-type 2
+1065	A	0.0816	domain HTH OST-type 2
+1066	Q	0.0956	domain HTH OST-type 2
+1067	N	0.1238	domain HTH OST-type 2
+1068	G	0.1526	domain HTH OST-type 2
+1069	I	0.1960	domain HTH OST-type 2
+1070	K	0.2540	domain HTH OST-type 2
+1071	V	0.3233	domain HTH OST-type 2
+1072	V	0.3825	domain HTH OST-type 2
+1073	K	0.4265	domain HTH OST-type 2
+1074	W	0.4469	domain HTH OST-type 2
+1075	I	0.4425	domain HTH OST-type 2
+1076	H	0.4250	domain HTH OST-type 2
+1077	N	0.3989	domain HTH OST-type 2
+1078	K	0.3592	domain HTH OST-type 2
+1079	P	0.3248	domain HTH OST-type 2
+1080	P	0.3106	
+1081	P	0.3091	
+1082	P	0.3451	
+1083	N	0.4114	
+1084	T	0.4858	
+1085	D	0.5658	
+1086	P	0.6154	
+1087	W	0.6332	
+1088	L	0.6143	
+1089	L	0.5827	
+1090	R	0.5274	
+1091	S	0.4535	
+1092	K	0.3667	
+1093	S	0.2882	
+1094	P	0.2283	
+1095	V	0.1960	
+1096	G	0.1796	
+1097	N	0.1820	
+1098	P	0.1828	
+1099	Q	0.1779	domain HTH OST-type 3
+1100	L	0.1781	domain HTH OST-type 3
+1101	I	0.1865	domain HTH OST-type 3
+1102	Q	0.1845	domain HTH OST-type 3
+1103	F	0.1853	domain HTH OST-type 3
+1104	S	0.1778	domain HTH OST-type 3
+1105	R	0.1620	domain HTH OST-type 3
+1106	E	0.1354	domain HTH OST-type 3
+1107	V	0.1183	domain HTH OST-type 3
+1108	I	0.1077	domain HTH OST-type 3
+1109	D	0.0921	domain HTH OST-type 3
+1110	L	0.0740	domain HTH OST-type 3
+1111	L	0.0607	domain HTH OST-type 3
+1112	K	0.0535	domain HTH OST-type 3
+1113	S	0.0491	domain HTH OST-type 3
+1114	Q	0.0500	domain HTH OST-type 3
+1115	P	0.0581	domain HTH OST-type 3
+1116	S	0.0575	domain HTH OST-type 3
+1117	C	0.0546	domain HTH OST-type 3
+1118	V	0.0555	domain HTH OST-type 3
+1119	I	0.0617	domain HTH OST-type 3
+1120	P	0.0696	domain HTH OST-type 3
+1121	I	0.0797	domain HTH OST-type 3
+1122	S	0.0773	domain HTH OST-type 3
+1123	H	0.0764	domain HTH OST-type 3
+1124	F	0.0671	domain HTH OST-type 3
+1125	I	0.0615	domain HTH OST-type 3
+1126	P	0.0600	domain HTH OST-type 3
+1127	S	0.0563	domain HTH OST-type 3
+1128	Y	0.0531	domain HTH OST-type 3
+1129	H	0.0567	domain HTH OST-type 3
+1130	H	0.0676	domain HTH OST-type 3
+1131	H	0.0751	domain HTH OST-type 3
+1132	F	0.0843	domain HTH OST-type 3
+1133	A	0.0918	domain HTH OST-type 3
+1134	K	0.0957	domain HTH OST-type 3
+1135	Q	0.0922	domain HTH OST-type 3
+1136	C	0.0855	domain HTH OST-type 3
+1137	R	0.0757	domain HTH OST-type 3
+1138	V	0.0695	domain HTH OST-type 3
+1139	S	0.0655	domain HTH OST-type 3
+1140	D	0.0558	domain HTH OST-type 3
+1141	Y	0.0516	domain HTH OST-type 3
+1142	G	0.0457	domain HTH OST-type 3
+1143	Y	0.0468	domain HTH OST-type 3
+1144	S	0.0531	domain HTH OST-type 3
+1145	K	0.0559	domain HTH OST-type 3
+1146	L	0.0510	domain HTH OST-type 3
+1147	I	0.0478	domain HTH OST-type 3
+1148	E	0.0432	domain HTH OST-type 3
+1149	L	0.0369	domain HTH OST-type 3
+1150	L	0.0335	domain HTH OST-type 3
+1151	E	0.0330	domain HTH OST-type 3
+1152	A	0.0393	domain HTH OST-type 3
+1153	V	0.0444	domain HTH OST-type 3
+1154	P	0.0497	domain HTH OST-type 3
+1155	H	0.0543	domain HTH OST-type 3
+1156	V	0.0581	domain HTH OST-type 3
+1157	L	0.0611	domain HTH OST-type 3
+1158	Q	0.0707	domain HTH OST-type 3
+1159	I	0.0817	domain HTH OST-type 3
+1160	L	0.0835	domain HTH OST-type 3
+1161	G	0.0958	domain HTH OST-type 3
+1162	M	0.1104	domain HTH OST-type 3
+1163	G	0.1194	domain HTH OST-type 3
+1164	S	0.1214	domain HTH OST-type 3
+1165	K	0.1254	domain HTH OST-type 3
+1166	R	0.1400	domain HTH OST-type 3
+1167	L	0.1561	domain HTH OST-type 3
+1168	L	0.1749	domain HTH OST-type 3
+1169	T	0.1984	domain HTH OST-type 3
+1170	L	0.2197	domain HTH OST-type 3
+1171	T	0.2240	domain HTH OST-type 3
+1172	H	0.2202	domain HTH OST-type 3
+1173	R	0.2028	domain HTH OST-type 3
+1174	A	0.1742	
+1175	Q	0.1431	domain HTH OST-type 4
+1176	V	0.1198	domain HTH OST-type 4
+1177	K	0.1053	domain HTH OST-type 4
+1178	R	0.0984	domain HTH OST-type 4
+1179	F	0.1164	domain HTH OST-type 4
+1180	T	0.1451	domain HTH OST-type 4
+1181	Q	0.1676	domain HTH OST-type 4
+1182	D	0.1784	domain HTH OST-type 4
+1183	L	0.1784	domain HTH OST-type 4
+1184	L	0.1710	domain HTH OST-type 4
+1185	K	0.1523	domain HTH OST-type 4
+1186	L	0.1328	domain HTH OST-type 4
+1187	L	0.1116	domain HTH OST-type 4
+1188	K	0.0974	domain HTH OST-type 4
+1189	S	0.0873	domain HTH OST-type 4
+1190	Q	0.0861	domain HTH OST-type 4
+1191	A	0.0860	domain HTH OST-type 4
+1192	S	0.0878	domain HTH OST-type 4
+1193	K	0.0877	domain HTH OST-type 4
+1194	Q	0.0825	domain HTH OST-type 4
+1195	V	0.0730	domain HTH OST-type 4
+1196	I	0.0662	domain HTH OST-type 4
+1197	V	0.0600	domain HTH OST-type 4
+1198	R	0.0530	domain HTH OST-type 4
+1199	E	0.0459	domain HTH OST-type 4
+1200	F	0.0375	domain HTH OST-type 4
+1201	S	0.0305	domain HTH OST-type 4
+1202	Q	0.0262	domain HTH OST-type 4
+1203	A	0.0248	domain HTH OST-type 4
+1204	Y	0.0274	domain HTH OST-type 4
+1205	H	0.0248	domain HTH OST-type 4
+1206	W	0.0249	domain HTH OST-type 4
+1207	C	0.0248	domain HTH OST-type 4
+1208	F	0.0257	domain HTH OST-type 4
+1209	S	0.0266	domain HTH OST-type 4
+1210	K	0.0253	domain HTH OST-type 4
+1211	D	0.0212	domain HTH OST-type 4
+1212	W	0.0171	domain HTH OST-type 4
+1213	D	0.0129	domain HTH OST-type 4
+1214	V	0.0139	domain HTH OST-type 4
+1215	T	0.0117	domain HTH OST-type 4
+1216	E	0.0139	domain HTH OST-type 4
+1217	Y	0.0205	domain HTH OST-type 4
+1218	G	0.0295	domain HTH OST-type 4
+1219	V	0.0415	domain HTH OST-type 4
+1220	C	0.0523	domain HTH OST-type 4
+1221	E	0.0597	domain HTH OST-type 4
+1222	L	0.0644	domain HTH OST-type 4
+1223	I	0.0601	domain HTH OST-type 4
+1224	D	0.0539	domain HTH OST-type 4
+1225	I	0.0450	domain HTH OST-type 4
+1226	V	0.0350	domain HTH OST-type 4
+1227	S	0.0377	domain HTH OST-type 4
+1228	E	0.0500	domain HTH OST-type 4
+1229	I	0.0720	domain HTH OST-type 4
+1230	P	0.0960	domain HTH OST-type 4
+1231	D	0.1242	domain HTH OST-type 4
+1232	T	0.1459	domain HTH OST-type 4
+1233	T	0.1537	domain HTH OST-type 4
+1234	I	0.1562	domain HTH OST-type 4
+1235	C	0.1521	domain HTH OST-type 4
+1236	L	0.1496	domain HTH OST-type 4
+1237	S	0.1452	domain HTH OST-type 4
+1238	Q	0.1311	domain HTH OST-type 4
+1239	Q	0.1238	domain HTH OST-type 4
+1240	D	0.1273	domain HTH OST-type 4
+1241	N	0.1404	domain HTH OST-type 4
+1242	E	0.1674	domain HTH OST-type 4
+1243	M	0.1995	domain HTH OST-type 4
+1244	V	0.2245	domain HTH OST-type 4
+1245	I	0.2657	domain HTH OST-type 4
+1246	C	0.3083	domain HTH OST-type 4
+1247	I	0.3450	domain HTH OST-type 4
+1248	P	0.3613	domain HTH OST-type 4
+1249	K	0.3658	domain HTH OST-type 4
+1250	R	0.3502	domain HTH OST-type 4
+1251	E	0.3269	
+1252	R	0.3081	
+1253	T	0.3065	
+1254	Q	0.3249	
+1255	D	0.3521	
+1256	E	0.3747	
+1257	I	0.3898	
+1258	E	0.3888	
+1259	R	0.3896	domain HTH OST-type 5
+1260	T	0.3722	domain HTH OST-type 5
+1261	K	0.3433	domain HTH OST-type 5
+1262	Q	0.2935	domain HTH OST-type 5
+1263	F	0.2611	domain HTH OST-type 5
+1264	S	0.2405	domain HTH OST-type 5
+1265	K	0.2313	domain HTH OST-type 5
+1266	D	0.2225	domain HTH OST-type 5
+1267	V	0.2192	domain HTH OST-type 5
+1268	V	0.2088	domain HTH OST-type 5
+1269	D	0.1886	domain HTH OST-type 5
+1270	L	0.1659	domain HTH OST-type 5
+1271	L	0.1439	domain HTH OST-type 5
+1272	R	0.1267	domain HTH OST-type 5
+1273	H	0.1086	domain HTH OST-type 5
+1274	Q	0.0971	domain HTH OST-type 5
+1275	P	0.0866	domain HTH OST-type 5
+1276	H	0.0762	domain HTH OST-type 5
+1277	F	0.0798	domain HTH OST-type 5
+1278	R	0.0882	domain HTH OST-type 5
+1279	M	0.1041	domain HTH OST-type 5
+1280	P	0.1111	domain HTH OST-type 5
+1281	F	0.1210	domain HTH OST-type 5
+1282	N	0.1259	domain HTH OST-type 5
+1283	K	0.1272	domain HTH OST-type 5
+1284	F	0.1175	domain HTH OST-type 5
+1285	I	0.1067	domain HTH OST-type 5
+1286	P	0.0917	domain HTH OST-type 5
+1287	S	0.0736	domain HTH OST-type 5
+1288	Y	0.0573	domain HTH OST-type 5
+1289	H	0.0439	domain HTH OST-type 5
+1290	H	0.0380	domain HTH OST-type 5
+1291	H	0.0310	domain HTH OST-type 5
+1292	F	0.0294	domain HTH OST-type 5
+1293	G	0.0297	domain HTH OST-type 5
+1294	R	0.0297	domain HTH OST-type 5
+1295	Q	0.0251	domain HTH OST-type 5
+1296	C	0.0246	domain HTH OST-type 5
+1297	K	0.0246	domain HTH OST-type 5
+1298	L	0.0228	domain HTH OST-type 5
+1299	A	0.0196	domain HTH OST-type 5
+1300	Y	0.0163	domain HTH OST-type 5
+1301	Y	0.0150	domain HTH OST-type 5
+1302	G	0.0131	domain HTH OST-type 5
+1303	F	0.0131	domain HTH OST-type 5
+1304	T	0.0150	domain HTH OST-type 5
+1305	K	0.0181	domain HTH OST-type 5
+1306	L	0.0175	domain HTH OST-type 5
+1307	L	0.0173	domain HTH OST-type 5
+1308	E	0.0173	domain HTH OST-type 5
+1309	L	0.0184	domain HTH OST-type 5
+1310	F	0.0218	domain HTH OST-type 5
+1311	E	0.0278	domain HTH OST-type 5
+1312	A	0.0389	domain HTH OST-type 5
+1313	I	0.0459	domain HTH OST-type 5
+1314	P	0.0502	domain HTH OST-type 5
+1315	D	0.0600	domain HTH OST-type 5
+1316	T	0.0642	domain HTH OST-type 5
+1317	L	0.0658	domain HTH OST-type 5
+1318	Q	0.0753	domain HTH OST-type 5
+1319	V	0.0896	domain HTH OST-type 5
+1320	L	0.1008	domain HTH OST-type 5
+1321	E	0.1129	domain HTH OST-type 5
+1322	C	0.1238	domain HTH OST-type 5
+1323	G	0.1301	domain HTH OST-type 5
+1324	E	0.1287	domain HTH OST-type 5
+1325	E	0.1217	domain HTH OST-type 5
+1326	K	0.1136	domain HTH OST-type 5
+1327	I	0.1031	domain HTH OST-type 5
+1328	L	0.0934	domain HTH OST-type 5
+1329	T	0.0881	domain HTH OST-type 5
+1330	L	0.0884	domain HTH OST-type 5
+1331	T	0.0836	domain HTH OST-type 5
+1332	E	0.0794	domain HTH OST-type 5
+1333	V	0.0774	domain HTH OST-type 5
+1334	E	0.0658	domain HTH OST-type 5
+1335	R	0.0492	domain HTH OST-type 6
+1336	F	0.0387	domain HTH OST-type 6
+1337	K	0.0370	domain HTH OST-type 6
+1338	A	0.0389	domain HTH OST-type 6
+1339	L	0.0480	domain HTH OST-type 6
+1340	A	0.0605	domain HTH OST-type 6
+1341	A	0.0691	domain HTH OST-type 6
+1342	Q	0.0729	domain HTH OST-type 6
+1343	F	0.0744	domain HTH OST-type 6
+1344	V	0.0735	domain HTH OST-type 6
+1345	K	0.0684	domain HTH OST-type 6
+1346	L	0.0627	domain HTH OST-type 6
+1347	L	0.0572	domain HTH OST-type 6
+1348	R	0.0570	domain HTH OST-type 6
+1349	S	0.0533	domain HTH OST-type 6
+1350	Q	0.0569	domain HTH OST-type 6
+1351	K	0.0609	domain HTH OST-type 6
+1352	D	0.0722	domain HTH OST-type 6
+1353	N	0.0833	domain HTH OST-type 6
+1354	C	0.0957	domain HTH OST-type 6
+1355	L	0.1084	domain HTH OST-type 6
+1356	M	0.1216	domain HTH OST-type 6
+1357	M	0.1284	domain HTH OST-type 6
+1358	T	0.1252	domain HTH OST-type 6
+1359	D	0.1145	domain HTH OST-type 6
+1360	L	0.0950	domain HTH OST-type 6
+1361	L	0.0760	domain HTH OST-type 6
+1362	T	0.0585	domain HTH OST-type 6
+1363	E	0.0433	domain HTH OST-type 6
+1364	Y	0.0334	domain HTH OST-type 6
+1365	A	0.0290	domain HTH OST-type 6
+1366	K	0.0349	domain HTH OST-type 6
+1367	T	0.0393	domain HTH OST-type 6
+1368	F	0.0448	domain HTH OST-type 6
+1369	G	0.0455	domain HTH OST-type 6
+1370	Y	0.0474	domain HTH OST-type 6
+1371	T	0.0432	domain HTH OST-type 6
+1372	F	0.0429	domain HTH OST-type 6
+1373	R	0.0399	domain HTH OST-type 6
+1374	L	0.0415	domain HTH OST-type 6
+1375	Q	0.0435	domain HTH OST-type 6
+1376	D	0.0431	domain HTH OST-type 6
+1377	Y	0.0430	domain HTH OST-type 6
+1378	D	0.0414	domain HTH OST-type 6
+1379	V	0.0417	domain HTH OST-type 6
+1380	S	0.0439	domain HTH OST-type 6
+1381	S	0.0453	domain HTH OST-type 6
+1382	I	0.0441	domain HTH OST-type 6
+1383	S	0.0413	domain HTH OST-type 6
+1384	A	0.0415	domain HTH OST-type 6
+1385	L	0.0374	domain HTH OST-type 6
+1386	T	0.0374	domain HTH OST-type 6
+1387	Q	0.0390	domain HTH OST-type 6
+1388	K	0.0415	domain HTH OST-type 6
+1389	L	0.0466	domain HTH OST-type 6
+1390	C	0.0559	domain HTH OST-type 6
+1391	H	0.0642	domain HTH OST-type 6
+1392	V	0.0727	domain HTH OST-type 6
+1393	V	0.0707	domain HTH OST-type 6
+1394	K	0.0709	domain HTH OST-type 6
+1395	V	0.0686	domain HTH OST-type 6
+1396	A	0.0598	domain HTH OST-type 6
+1397	D	0.0584	domain HTH OST-type 6
+1398	I	0.0585	domain HTH OST-type 6
+1399	E	0.0632	domain HTH OST-type 6
+1400	S	0.0725	domain HTH OST-type 6
+1401	G	0.0828	domain HTH OST-type 6
+1402	R	0.1023	domain HTH OST-type 6
+1403	Q	0.1202	domain HTH OST-type 6
+1404	I	0.1410	domain HTH OST-type 6
+1405	Q	0.1557	domain HTH OST-type 6
+1406	L	0.1606	domain HTH OST-type 6
+1407	I	0.1561	domain HTH OST-type 6
+1408	N	0.1447	domain HTH OST-type 6
+1409	R	0.1293	domain HTH OST-type 6
+1410	K	0.1076	domain HTH OST-type 6
+1411	S	0.0779	domain HTH OST-type 7
+1412	L	0.0555	domain HTH OST-type 7
+1413	R	0.0365	domain HTH OST-type 7
+1414	S	0.0211	domain HTH OST-type 7
+1415	L	0.0183	domain HTH OST-type 7
+1416	T	0.0214	domain HTH OST-type 7
+1417	A	0.0312	domain HTH OST-type 7
+1418	Q	0.0384	domain HTH OST-type 7
+1419	L	0.0409	domain HTH OST-type 7
+1420	L	0.0434	domain HTH OST-type 7
+1421	V	0.0458	domain HTH OST-type 7
+1422	L	0.0445	domain HTH OST-type 7
+1423	L	0.0448	domain HTH OST-type 7
+1424	M	0.0454	domain HTH OST-type 7
+1425	S	0.0432	domain HTH OST-type 7
+1426	W	0.0397	domain HTH OST-type 7
+1427	E	0.0386	domain HTH OST-type 7
+1428	G	0.0481	domain HTH OST-type 7
+1429	T	0.0581	domain HTH OST-type 7
+1430	T	0.0719	domain HTH OST-type 7
+1431	H	0.1049	domain HTH OST-type 7
+1432	L	0.1553	domain HTH OST-type 7
+1433	S	0.2067	domain HTH OST-type 7
+1434	V	0.2740	domain HTH OST-type 7
+1435	E	0.3299	domain HTH OST-type 7
+1436	E	0.3801	domain HTH OST-type 7
+1437	L	0.4094	domain HTH OST-type 7
+1438	K	0.4302	domain HTH OST-type 7
+1439	R	0.4503	domain HTH OST-type 7
+1440	H	0.4457	domain HTH OST-type 7
+1441	Y	0.4367	domain HTH OST-type 7
+1442	E	0.4229	domain HTH OST-type 7
+1443	S	0.4033	domain HTH OST-type 7
+1444	T	0.3721	domain HTH OST-type 7
+1445	H	0.3492	domain HTH OST-type 7
+1446	N	0.3364	domain HTH OST-type 7
+1447	T	0.3132	domain HTH OST-type 7
+1448	P	0.2883	domain HTH OST-type 7
+1449	L	0.2678	domain HTH OST-type 7
+1450	N	0.2505	domain HTH OST-type 7
+1451	P	0.2324	domain HTH OST-type 7
+1452	C	0.2250	domain HTH OST-type 7
+1453	E	0.2043	domain HTH OST-type 7
+1454	Y	0.1864	domain HTH OST-type 7
+1455	G	0.1514	domain HTH OST-type 7
+1456	F	0.1204	domain HTH OST-type 7
+1457	M	0.0980	domain HTH OST-type 7
+1458	T	0.0703	domain HTH OST-type 7
+1459	L	0.0496	domain HTH OST-type 7
+1460	T	0.0357	domain HTH OST-type 7
+1461	E	0.0286	domain HTH OST-type 7
+1462	L	0.0138	domain HTH OST-type 7
+1463	L	0.0129	domain HTH OST-type 7
+1464	K	0.0232	domain HTH OST-type 7
+1465	S	0.0341	domain HTH OST-type 7
+1466	L	0.0496	domain HTH OST-type 7
+1467	P	0.0605	domain HTH OST-type 7
+1468	Y	0.0708	domain HTH OST-type 7
+1469	L	0.0788	domain HTH OST-type 7
+1470	V	0.0878	domain HTH OST-type 7
+1471	E	0.0929	domain HTH OST-type 7
+1472	V	0.0961	domain HTH OST-type 7
+1473	F	0.0945	domain HTH OST-type 7
+1474	T	0.0922	domain HTH OST-type 7
+1475	N	0.0866	domain HTH OST-type 7
+1476	D	0.0786	domain HTH OST-type 7
+1477	K	0.0683	domain HTH OST-type 7
+1478	M	0.0604	domain HTH OST-type 7
+1479	E	0.0610	domain HTH OST-type 7
+1480	E	0.0609	domain HTH OST-type 7
+1481	C	0.0644	domain HTH OST-type 7
+1482	V	0.0730	domain HTH OST-type 7
+1483	K	0.0832	domain HTH OST-type 7
+1484	L	0.0905	domain HTH OST-type 7
+1485	T	0.0938	domain HTH OST-type 7
+1486	S	0.0927	domain HTH OST-type 8
+1487	L	0.0789	domain HTH OST-type 8
+1488	Y	0.0654	domain HTH OST-type 8
+1489	L	0.0529	domain HTH OST-type 8
+1490	F	0.0446	domain HTH OST-type 8
+1491	A	0.0394	domain HTH OST-type 8
+1492	K	0.0381	domain HTH OST-type 8
+1493	N	0.0400	domain HTH OST-type 8
+1494	V	0.0398	domain HTH OST-type 8
+1495	R	0.0392	domain HTH OST-type 8
+1496	S	0.0384	domain HTH OST-type 8
+1497	L	0.0407	domain HTH OST-type 8
+1498	L	0.0464	domain HTH OST-type 8
+1499	H	0.0508	domain HTH OST-type 8
+1500	T	0.0542	domain HTH OST-type 8
+1501	Y	0.0589	domain HTH OST-type 8
+1502	H	0.0615	domain HTH OST-type 8
+1503	Y	0.0649	domain HTH OST-type 8
+1504	Q	0.0625	domain HTH OST-type 8
+1505	Q	0.0575	domain HTH OST-type 8
+1506	I	0.0501	domain HTH OST-type 8
+1507	F	0.0433	domain HTH OST-type 8
+1508	L	0.0450	domain HTH OST-type 8
+1509	H	0.0484	domain HTH OST-type 8
+1510	E	0.0544	domain HTH OST-type 8
+1511	F	0.0587	domain HTH OST-type 8
+1512	S	0.0636	domain HTH OST-type 8
+1513	M	0.0810	domain HTH OST-type 8
+1514	A	0.0954	domain HTH OST-type 8
+1515	Y	0.1209	domain HTH OST-type 8
+1516	T	0.1509	domain HTH OST-type 8
+1517	K	0.1814	domain HTH OST-type 8
+1518	Y	0.2086	domain HTH OST-type 8
+1519	V	0.2426	domain HTH OST-type 8
+1520	G	0.2817	domain HTH OST-type 8
+1521	E	0.3140	domain HTH OST-type 8
+1522	T	0.3382	domain HTH OST-type 8
+1523	L	0.3582	domain HTH OST-type 8
+1524	Q	0.3673	domain HTH OST-type 8
+1525	P	0.3768	domain HTH OST-type 8
+1526	K	0.3831	domain HTH OST-type 8
+1527	T	0.3902	domain HTH OST-type 8
+1528	Y	0.4063	domain HTH OST-type 8
+1529	G	0.4132	domain HTH OST-type 8
+1530	H	0.4132	domain HTH OST-type 8
+1531	S	0.4025	domain HTH OST-type 8
+1532	S	0.3690	domain HTH OST-type 8
+1533	V	0.3336	domain HTH OST-type 8
+1534	E	0.2941	domain HTH OST-type 8
+1535	E	0.2498	domain HTH OST-type 8
+1536	L	0.2026	domain HTH OST-type 8
+1537	L	0.1736	domain HTH OST-type 8
+1538	G	0.1652	domain HTH OST-type 8
+1539	A	0.1668	domain HTH OST-type 8
+1540	I	0.1763	domain HTH OST-type 8
+1541	P	0.1843	domain HTH OST-type 8
+1542	Q	0.1853	domain HTH OST-type 8
+1543	V	0.1765	domain HTH OST-type 8
+1544	V	0.1508	domain HTH OST-type 8
+1545	W	0.1265	domain HTH OST-type 8
+1546	I	0.1070	domain HTH OST-type 8
+1547	K	0.1009	domain HTH OST-type 8
+1548	G	0.1041	domain HTH OST-type 8
+1549	H	0.1003	domain HTH OST-type 8
+1550	G	0.1089	domain HTH OST-type 8
+1551	H	0.1264	domain HTH OST-type 8
+1552	K	0.1580	domain HTH OST-type 8
+1553	R	0.1940	domain HTH OST-type 8
+1554	I	0.2218	domain HTH OST-type 8
+1555	V	0.2464	domain HTH OST-type 8
+1556	V	0.2709	domain HTH OST-type 8
+1557	L	0.2870	domain HTH OST-type 8
+1558	K	0.2899	domain HTH OST-type 8
+1559	N	0.2852	domain HTH OST-type 8
+1560	D	0.2712	domain HTH OST-type 8
+1561	M	0.2499	
+1562	K	0.2426	
+1563	S	0.2607	
+1564	R	0.2977	
+1565	L	0.3609	
+1566	S	0.4293	
+1567	S	0.5007	
+1568	L	0.5736	
+1569	S	0.6242	
+1570	L	0.6738	
+1571	S	0.6969	
+1572	P	0.6963	
+1573	A	0.6772	
+1574	N	0.6555	
+1575	H	0.6401	
+1576	E	0.6361	
+1577	N	0.6480	
+1578	Q	0.6612	
+1579	P	0.6859	
+1580	S	0.7179	
+1581	E	0.7624	
+1582	G	0.8015	
+1583	E	0.8241	
+1584	R	0.8177	
+1585	I	0.7942	
+1586	L	0.7542	
+1587	E	0.7044	
+1588	V	0.6576	
+1589	P	0.5973	
+1590	E	0.5534	
+1591	S	0.5153	
+1592	H	0.4960	
+1593	T	0.5044	
+1594	A	0.5303	
+1595	S	0.5751	
+1596	E	0.6319	
+1597	L	0.6885	
+1598	K	0.7362	
+1599	L	0.7812	
+1600	G	0.7981	
+1601	A	0.7916	
+1602	D	0.7586	
+1603	G	0.7084	
+1604	S	0.6655	
+1605	G	0.6425	
+1606	P	0.6368	
+1607	S	0.6455	
+1608	H	0.6832	
+1609	T	0.7308	
+1610	E	0.7702	
+1611	Q	0.7996	
+1612	E	0.7972	
+1613	L	0.7645	
+1614	L	0.7190	
+1615	R	0.6637	
+1616	L	0.6046	
+1617	T	0.5493	
+1618	D	0.4965	
+1619	D	0.4474	
+1620	S	0.4133	
+1621	P	0.3965	
+1622	V	0.3977	
+1623	D	0.4027	
+1624	L	0.4115	
+1625	L	0.4163	
+1626	C	0.4367	
+1627	A	0.4685	
+1628	P	0.4901	
+1629	V	0.4979	
+1630	P	0.4877	
+1631	S	0.4630	
+1632	C	0.4359	
+1633	L	0.4360	
+1634	P	0.4465	
+1635	S	0.4673	
+1636	P	0.4852	
+1637	Q	0.4893	
+1638	L	0.4931	
+1639	R	0.4964	
+1640	P	0.5030	
+1641	D	0.4988	
+1642	P	0.4823	
+1643	V	0.4625	
+1644	I	0.4531	
+1645	L	0.4749	
+1646	Q	0.5078	
+1647	S	0.5382	
+1648	A	0.5636	
+1649	D	0.5799	
+1650	L	0.5818	
+1651	I	0.5787	
+1652	Q	0.5726	
+1653	F	0.5675	
+1654	E	0.5493	
+1655	E	0.5337	
+1656	R	0.5265	
+1657	P	0.5289	
+1658	Q	0.5635	
+1659	E	0.6052	
+1660	P	0.6464	
+1661	S	0.6872	
+1662	E	0.7144	
+1663	I	0.7473	
+1664	M	0.7602	
+1665	I	0.7696	
+1666	L	0.7577	
+1667	N	0.7366	
+1668	Q	0.7011	
+1669	E	0.6532	
+1670	E	0.6152	
+1671	K	0.5929	
+1672	M	0.5809	
+1673	E	0.5955	
+1674	I	0.6321	
+1675	P	0.6678	
+1676	I	0.7145	
+1677	P	0.7379	
+1678	G	0.7527	
+1679	K	0.7351	
+1680	S	0.7008	
+1681	K	0.6556	
+1682	T	0.5894	
+1683	L	0.5452	
+1684	T	0.5077	
+1685	S	0.4963	
+1686	D	0.4916	
+1687	S	0.4900	
+1688	S	0.4908	
+1689	S	0.4938	
+1690	S	0.4877	
+1691	C	0.4821	
+1692	I	0.4861	
+1693	S	0.5019	
+1694	A	0.5214	
+1695	A	0.5242	
+1696	V	0.5313	
+1697	P	0.5156	
+1698	V	0.5140	
+1699	P	0.5072	
+1700	P	0.5030	
+1701	C	0.5058	
+1702	P	0.5185	
+1703	S	0.5578	
+1704	S	0.5947	
+1705	E	0.6343	
+1706	T	0.6682	
+1707	S	0.6987	
+1708	E	0.7194	
+1709	S	0.7240	
+1710	L	0.7278	
+1711	L	0.7408	
+1712	S	0.7619	
+1713	K	0.7763	
+1714	D	0.7787	
+1715	P	0.7590	
+1716	V	0.7482	
+1717	E	0.7276	
+1718	S	0.7223	
+1719	P	0.7040	
+1720	A	0.6797	
+1721	K	0.6681	
+1722	K	0.6527	
+1723	Q	0.6356	
+1724	P	0.6175	
+1725	K	0.5954	
+1726	N	0.5687	
+1727	R	0.5368	
+1728	V	0.5031	
+1729	K	0.4705	
+1730	L	0.4554	
+1731	A	0.4392	
+1732	A	0.4207	
+1733	N	0.3850	
+1734	F	0.3486	
+1735	S	0.3124	
+1736	L	0.2795	
+1737	A	0.2529	
+1738	P	0.2352	
+1739	I	0.2282	
+1740	T	0.2326	
+1741	K	0.2477	
+1742	L	0.2709	

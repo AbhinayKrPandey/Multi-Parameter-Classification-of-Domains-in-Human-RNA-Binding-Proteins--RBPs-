@@ -1,0 +1,306 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.6931	
+2	A	0.6776	
+3	M	0.7035	
+4	S	0.7428	
+5	S	0.7770	
+6	G	0.7952	
+7	G	0.7932	
+8	S	0.7720	
+9	G	0.7364	
+10	G	0.6935	
+11	G	0.6552	
+12	V	0.6333	
+13	P	0.6205	
+14	E	0.6189	
+15	Q	0.6237	
+16	E	0.6457	
+17	D	0.6708	
+18	S	0.6855	
+19	V	0.6849	
+20	L	0.6711	
+21	F	0.6594	
+22	R	0.6444	
+23	R	0.6210	
+24	G	0.5789	
+25	T	0.5396	
+26	G	0.5043	
+27	Q	0.4740	
+28	S	0.4527	
+29	D	0.4423	
+30	D	0.4424	
+31	S	0.4426	
+32	D	0.4442	
+33	I	0.4381	
+34	W	0.4316	
+35	D	0.4187	
+36	D	0.3993	
+37	T	0.3654	
+38	A	0.3231	
+39	L	0.2864	
+40	I	0.2581	
+41	K	0.2390	
+42	A	0.2261	
+43	Y	0.2225	
+44	D	0.2233	
+45	K	0.2290	
+46	A	0.2277	
+47	V	0.2298	
+48	A	0.2319	
+49	S	0.2309	
+50	F	0.2349	
+51	K	0.2442	
+52	H	0.2590	
+53	A	0.2762	
+54	L	0.3015	
+55	K	0.3351	
+56	N	0.3704	
+57	G	0.4022	
+58	D	0.4283	
+59	I	0.4597	
+60	C	0.4983	
+61	E	0.5411	
+62	T	0.5848	
+63	S	0.6161	
+64	G	0.6353	
+65	K	0.6553	
+66	P	0.6729	
+67	K	0.6926	
+68	T	0.7111	
+69	T	0.7380	
+70	P	0.7661	
+71	K	0.7929	
+72	R	0.8134	
+73	K	0.8326	
+74	P	0.8467	
+75	A	0.8444	
+76	K	0.8293	
+77	K	0.8099	
+78	N	0.7788	
+79	K	0.7461	
+80	S	0.7215	
+81	Q	0.6914	
+82	K	0.6610	
+83	K	0.6336	
+84	N	0.6141	
+85	T	0.5958	
+86	A	0.5716	
+87	A	0.5462	
+88	S	0.5104	
+89	L	0.4825	
+90	Q	0.4538	
+91	Q	0.4330	domain Tudor
+92	W	0.4095	domain Tudor
+93	K	0.3839	domain Tudor
+94	V	0.3634	domain Tudor
+95	G	0.3497	domain Tudor
+96	D	0.3363	domain Tudor
+97	K	0.3120	domain Tudor
+98	C	0.2979	domain Tudor
+99	S	0.2831	domain Tudor
+100	A	0.2752	domain Tudor
+101	I	0.2639	domain Tudor
+102	W	0.2599	domain Tudor
+103	S	0.2604	domain Tudor
+104	E	0.2565	domain Tudor
+105	D	0.2517	domain Tudor
+106	G	0.2431	domain Tudor
+107	C	0.2408	domain Tudor
+108	I	0.2440	domain Tudor
+109	Y	0.2681	domain Tudor
+110	P	0.2835	domain Tudor
+111	A	0.2878	domain Tudor
+112	T	0.2848	domain Tudor
+113	I	0.2783	domain Tudor
+114	A	0.2677	domain Tudor
+115	S	0.2496	domain Tudor
+116	I	0.2292	domain Tudor
+117	D	0.2067	domain Tudor
+118	F	0.2029	domain Tudor
+119	K	0.1994	domain Tudor
+120	R	0.2182	domain Tudor
+121	E	0.2469	domain Tudor
+122	T	0.2713	domain Tudor
+123	C	0.2972	domain Tudor
+124	V	0.3265	domain Tudor
+125	V	0.3600	domain Tudor
+126	V	0.3808	domain Tudor
+127	Y	0.4018	domain Tudor
+128	T	0.4241	domain Tudor
+129	G	0.4342	domain Tudor
+130	Y	0.4321	domain Tudor
+131	G	0.4281	domain Tudor
+132	N	0.4267	domain Tudor
+133	R	0.4203	domain Tudor
+134	E	0.4192	domain Tudor
+135	E	0.4260	domain Tudor
+136	Q	0.4388	domain Tudor
+137	N	0.4480	domain Tudor
+138	L	0.4705	domain Tudor
+139	S	0.4898	domain Tudor
+140	D	0.5021	domain Tudor
+141	L	0.5046	domain Tudor
+142	L	0.5053	domain Tudor
+143	S	0.5154	domain Tudor
+144	P	0.5122	domain Tudor
+145	I	0.5022	domain Tudor
+146	C	0.4967	domain Tudor
+147	E	0.5073	domain Tudor
+148	V	0.5278	domain Tudor
+149	A	0.5501	domain Tudor
+150	N	0.5826	domain Tudor
+151	N	0.6084	domain Tudor
+152	I	0.6426	
+153	E	0.6816	
+154	Q	0.7219	
+155	N	0.7576	
+156	A	0.7924	
+157	Q	0.8268	
+158	E	0.8622	
+159	N	0.8888	
+160	E	0.9087	
+161	N	0.9299	
+162	E	0.9440	
+163	S	0.9469	
+164	Q	0.9355	
+165	V	0.9366	
+166	S	0.9428	
+167	T	0.9439	
+168	D	0.9420	
+169	E	0.9340	
+170	S	0.9246	
+171	E	0.9108	
+172	N	0.9074	
+173	S	0.9028	
+174	R	0.8933	
+175	S	0.8888	
+176	P	0.8913	
+177	G	0.8882	
+178	N	0.8727	
+179	K	0.8470	
+180	S	0.8110	
+181	D	0.7643	
+182	N	0.7162	
+183	I	0.6725	
+184	K	0.6409	
+185	P	0.6266	
+186	K	0.6129	
+187	S	0.6112	
+188	A	0.6218	
+189	P	0.6324	
+190	W	0.6509	
+191	N	0.6623	
+192	S	0.6670	
+193	F	0.6599	
+194	L	0.6621	
+195	P	0.6701	
+196	P	0.6847	
+197	P	0.6972	
+198	P	0.7091	
+199	P	0.7192	
+200	M	0.7340	
+201	P	0.7476	
+202	G	0.7674	
+203	P	0.7859	
+204	R	0.7913	
+205	L	0.7960	
+206	G	0.8033	
+207	P	0.8116	
+208	G	0.8179	
+209	K	0.8241	
+210	P	0.8391	
+211	G	0.8494	
+212	L	0.8582	
+213	K	0.8720	
+214	F	0.9015	
+215	N	0.9224	
+216	G	0.9327	
+217	P	0.9082	
+218	P	0.8734	
+219	P	0.8288	
+220	P	0.7835	
+221	P	0.7377	
+222	P	0.6972	
+223	P	0.6609	
+224	P	0.6418	
+225	P	0.6449	
+226	P	0.6540	
+227	H	0.6600	
+228	L	0.6588	
+229	L	0.6470	
+230	S	0.6089	
+231	C	0.5588	
+232	W	0.5215	
+233	L	0.4995	
+234	P	0.4832	
+235	P	0.4454	
+236	F	0.4204	
+237	P	0.4080	
+238	S	0.4176	
+239	G	0.4400	
+240	P	0.4716	
+241	P	0.5035	
+242	I	0.5492	
+243	I	0.6058	
+244	P	0.6662	
+245	P	0.7176	
+246	P	0.7493	
+247	P	0.7710	
+248	P	0.7703	
+249	I	0.7598	
+250	C	0.7549	
+251	P	0.7601	
+252	D	0.7554	
+253	S	0.7129	
+254	L	0.6619	
+255	D	0.6118	
+256	D	0.5679	
+257	A	0.5099	
+258	D	0.4552	
+259	A	0.4158	
+260	L	0.3940	
+261	G	0.3805	
+262	S	0.3818	
+263	M	0.3785	
+264	L	0.3577	
+265	I	0.3277	
+266	S	0.2759	
+267	W	0.2190	
+268	Y	0.1656	
+269	M	0.1363	
+270	S	0.1180	
+271	G	0.1057	
+272	Y	0.1177	
+273	H	0.1549	
+274	T	0.2118	
+275	G	0.2596	
+276	Y	0.3036	
+277	Y	0.3495	
+278	M	0.3964	
+279	G	0.4315	
+280	F	0.4489	
+281	R	0.4478	
+282	Q	0.4513	
+283	N	0.4504	
+284	Q	0.4540	
+285	K	0.4771	
+286	E	0.5100	
+287	G	0.5560	
+288	R	0.6129	
+289	C	0.6761	
+290	S	0.7375	
+291	H	0.7858	
+292	S	0.8056	
+293	L	0.7775	
+294	N	0.6770	

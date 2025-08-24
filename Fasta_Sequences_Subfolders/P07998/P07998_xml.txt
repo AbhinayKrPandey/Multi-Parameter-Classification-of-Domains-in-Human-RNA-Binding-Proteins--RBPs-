@@ -1,0 +1,1425 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1988-08-01" modified="2024-10-02" version="222" xmlns="http://uniprot.org/uniprot">
+  <accession>P07998</accession>
+  <accession>B2R589</accession>
+  <accession>D3DS06</accession>
+  <accession>Q16830</accession>
+  <accession>Q16869</accession>
+  <accession>Q1KHR2</accession>
+  <accession>Q6ICS5</accession>
+  <accession>Q9UCB4</accession>
+  <accession>Q9UCB5</accession>
+  <name>RNAS1_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName>Ribonuclease pancreatic</fullName>
+      <ecNumber>4.6.1.18</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName>HP-RNase</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>RIB-1</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>RNase UpI-1</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Ribonuclease 1</fullName>
+      <shortName>RNase 1</shortName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Ribonuclease A</fullName>
+      <shortName>RNase A</shortName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">RNASE1</name>
+    <name type="synonym">RIB1</name>
+    <name type="synonym">RNS1</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1994" name="Biochim. Biophys. Acta" volume="1218" first="466" last="468">
+      <title>Nucleotide sequence encoding human pancreatic ribonuclease.</title>
+      <authorList>
+        <person name="Seno M."/>
+        <person name="Fatami J.I."/>
+        <person name="Kosaka M."/>
+        <person name="Seno S."/>
+        <person name="Yamada H."/>
+      </authorList>
+      <dbReference type="PubMed" id="8049276"/>
+      <dbReference type="DOI" id="10.1016/0167-4781(94)90208-9"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <source>
+      <tissue>Pancreas</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2006" name="Mol. Biol. Evol." volume="23" first="1465" last="1479">
+      <title>Duplication and divergence of two distinct pancreatic ribonuclease genes in leaf-eating African and Asian colobine monkeys.</title>
+      <authorList>
+        <person name="Schienman J.E."/>
+        <person name="Holt R.A."/>
+        <person name="Auerbach M.R."/>
+        <person name="Stewart C.B."/>
+      </authorList>
+      <dbReference type="PubMed" id="16751256"/>
+      <dbReference type="DOI" id="10.1093/molbev/msl025"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+      <title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+      <authorList>
+        <person name="Ota T."/>
+        <person name="Suzuki Y."/>
+        <person name="Nishikawa T."/>
+        <person name="Otsuki T."/>
+        <person name="Sugiyama T."/>
+        <person name="Irie R."/>
+        <person name="Wakamatsu A."/>
+        <person name="Hayashi K."/>
+        <person name="Sato H."/>
+        <person name="Nagai K."/>
+        <person name="Kimura K."/>
+        <person name="Makita H."/>
+        <person name="Sekine M."/>
+        <person name="Obayashi M."/>
+        <person name="Nishi T."/>
+        <person name="Shibahara T."/>
+        <person name="Tanaka T."/>
+        <person name="Ishii S."/>
+        <person name="Yamamoto J."/>
+        <person name="Saito K."/>
+        <person name="Kawai Y."/>
+        <person name="Isono Y."/>
+        <person name="Nakamura Y."/>
+        <person name="Nagahari K."/>
+        <person name="Murakami K."/>
+        <person name="Yasuda T."/>
+        <person name="Iwayanagi T."/>
+        <person name="Wagatsuma M."/>
+        <person name="Shiratori A."/>
+        <person name="Sudo H."/>
+        <person name="Hosoiri T."/>
+        <person name="Kaku Y."/>
+        <person name="Kodaira H."/>
+        <person name="Kondo H."/>
+        <person name="Sugawara M."/>
+        <person name="Takahashi M."/>
+        <person name="Kanda K."/>
+        <person name="Yokoi T."/>
+        <person name="Furuya T."/>
+        <person name="Kikkawa E."/>
+        <person name="Omura Y."/>
+        <person name="Abe K."/>
+        <person name="Kamihara K."/>
+        <person name="Katsuta N."/>
+        <person name="Sato K."/>
+        <person name="Tanikawa M."/>
+        <person name="Yamazaki M."/>
+        <person name="Ninomiya K."/>
+        <person name="Ishibashi T."/>
+        <person name="Yamashita H."/>
+        <person name="Murakawa K."/>
+        <person name="Fujimori K."/>
+        <person name="Tanai H."/>
+        <person name="Kimata M."/>
+        <person name="Watanabe M."/>
+        <person name="Hiraoka S."/>
+        <person name="Chiba Y."/>
+        <person name="Ishida S."/>
+        <person name="Ono Y."/>
+        <person name="Takiguchi S."/>
+        <person name="Watanabe S."/>
+        <person name="Yosida M."/>
+        <person name="Hotuta T."/>
+        <person name="Kusano J."/>
+        <person name="Kanehori K."/>
+        <person name="Takahashi-Fujii A."/>
+        <person name="Hara H."/>
+        <person name="Tanase T.-O."/>
+        <person name="Nomura Y."/>
+        <person name="Togiya S."/>
+        <person name="Komai F."/>
+        <person name="Hara R."/>
+        <person name="Takeuchi K."/>
+        <person name="Arita M."/>
+        <person name="Imose N."/>
+        <person name="Musashino K."/>
+        <person name="Yuuki H."/>
+        <person name="Oshima A."/>
+        <person name="Sasaki N."/>
+        <person name="Aotsuka S."/>
+        <person name="Yoshikawa Y."/>
+        <person name="Matsunawa H."/>
+        <person name="Ichihara T."/>
+        <person name="Shiohata N."/>
+        <person name="Sano S."/>
+        <person name="Moriya S."/>
+        <person name="Momiyama H."/>
+        <person name="Satoh N."/>
+        <person name="Takami S."/>
+        <person name="Terashima Y."/>
+        <person name="Suzuki O."/>
+        <person name="Nakagawa S."/>
+        <person name="Senoh A."/>
+        <person name="Mizoguchi H."/>
+        <person name="Goto Y."/>
+        <person name="Shimizu F."/>
+        <person name="Wakebe H."/>
+        <person name="Hishigaki H."/>
+        <person name="Watanabe T."/>
+        <person name="Sugiyama A."/>
+        <person name="Takemoto M."/>
+        <person name="Kawakami B."/>
+        <person name="Yamazaki M."/>
+        <person name="Watanabe K."/>
+        <person name="Kumagai A."/>
+        <person name="Itakura S."/>
+        <person name="Fukuzumi Y."/>
+        <person name="Fujimori Y."/>
+        <person name="Komiyama M."/>
+        <person name="Tashiro H."/>
+        <person name="Tanigami A."/>
+        <person name="Fujiwara T."/>
+        <person name="Ono T."/>
+        <person name="Yamada K."/>
+        <person name="Fujii Y."/>
+        <person name="Ozaki K."/>
+        <person name="Hirao M."/>
+        <person name="Ohmori Y."/>
+        <person name="Kawabata A."/>
+        <person name="Hikiji T."/>
+        <person name="Kobatake N."/>
+        <person name="Inagaki H."/>
+        <person name="Ikema Y."/>
+        <person name="Okamoto S."/>
+        <person name="Okitani R."/>
+        <person name="Kawakami T."/>
+        <person name="Noguchi S."/>
+        <person name="Itoh T."/>
+        <person name="Shigeta K."/>
+        <person name="Senba T."/>
+        <person name="Matsumura K."/>
+        <person name="Nakajima Y."/>
+        <person name="Mizuno T."/>
+        <person name="Morinaga M."/>
+        <person name="Sasaki M."/>
+        <person name="Togashi T."/>
+        <person name="Oyama M."/>
+        <person name="Hata H."/>
+        <person name="Watanabe M."/>
+        <person name="Komatsu T."/>
+        <person name="Mizushima-Sugano J."/>
+        <person name="Satoh T."/>
+        <person name="Shirai Y."/>
+        <person name="Takahashi Y."/>
+        <person name="Nakagawa K."/>
+        <person name="Okumura K."/>
+        <person name="Nagase T."/>
+        <person name="Nomura N."/>
+        <person name="Kikuchi H."/>
+        <person name="Masuho Y."/>
+        <person name="Yamashita R."/>
+        <person name="Nakai K."/>
+        <person name="Yada T."/>
+        <person name="Nakamura Y."/>
+        <person name="Ohara O."/>
+        <person name="Isogai T."/>
+        <person name="Sugano S."/>
+      </authorList>
+      <dbReference type="PubMed" id="14702039"/>
+      <dbReference type="DOI" id="10.1038/ng1285"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Testis</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="submission" date="2004-05" db="EMBL/GenBank/DDBJ databases">
+      <title>Cloning of human full open reading frames in Gateway(TM) system entry vector (pDONR201).</title>
+      <authorList>
+        <person name="Ebert L."/>
+        <person name="Schick M."/>
+        <person name="Neubert P."/>
+        <person name="Schatten R."/>
+        <person name="Henze S."/>
+        <person name="Korn B."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+  </reference>
+  <reference key="5">
+    <citation type="submission" date="2005-09" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Mural R.J."/>
+        <person name="Istrail S."/>
+        <person name="Sutton G.G."/>
+        <person name="Florea L."/>
+        <person name="Halpern A.L."/>
+        <person name="Mobarry C.M."/>
+        <person name="Lippert R."/>
+        <person name="Walenz B."/>
+        <person name="Shatkay H."/>
+        <person name="Dew I."/>
+        <person name="Miller J.R."/>
+        <person name="Flanigan M.J."/>
+        <person name="Edwards N.J."/>
+        <person name="Bolanos R."/>
+        <person name="Fasulo D."/>
+        <person name="Halldorsson B.V."/>
+        <person name="Hannenhalli S."/>
+        <person name="Turner R."/>
+        <person name="Yooseph S."/>
+        <person name="Lu F."/>
+        <person name="Nusskern D.R."/>
+        <person name="Shue B.C."/>
+        <person name="Zheng X.H."/>
+        <person name="Zhong F."/>
+        <person name="Delcher A.L."/>
+        <person name="Huson D.H."/>
+        <person name="Kravitz S.A."/>
+        <person name="Mouchard L."/>
+        <person name="Reinert K."/>
+        <person name="Remington K.A."/>
+        <person name="Clark A.G."/>
+        <person name="Waterman M.S."/>
+        <person name="Eichler E.E."/>
+        <person name="Adams M.D."/>
+        <person name="Hunkapiller M.W."/>
+        <person name="Myers E.W."/>
+        <person name="Venter J.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Pancreas</tissue>
+      <tissue>Prostate</tissue>
+    </source>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="1995" name="Bioorg. Khim." volume="21" first="691" last="694">
+      <title>Primary structure of the coding part of the gene for human pancreatic ribonuclease and its chromosomal location.</title>
+      <authorList>
+        <person name="Kochetov A.V."/>
+        <person name="Lukasheva V.V."/>
+        <person name="Filipenko M.L."/>
+        <person name="Mertvetsov N.P."/>
+        <person name="Rivkin M.I."/>
+      </authorList>
+      <dbReference type="PubMed" id="8588814"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-152</scope>
+    <source>
+      <tissue>Placenta</tissue>
+    </source>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="1995" name="FEBS Lett." volume="369" first="352" last="352">
+      <title>Expression in mammalian cells, purification and characterization of recombinant human pancreatic ribonuclease.</title>
+      <authorList>
+        <person name="Russo N."/>
+        <person name="de Nigris M."/>
+        <person name="Ciardiello A."/>
+        <person name="Di Donato A."/>
+        <person name="D'Alessio G."/>
+      </authorList>
+      <dbReference type="PubMed" id="7649283"/>
+      <dbReference type="DOI" id="10.1016/0014-5793(95)96890-g"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 1-155</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="1992" name="Nucleic Acids Res." volume="20" first="612" last="612">
+      <title>The DNA sequences of the human and hamster secretory ribonucleases determined with the polymerase chain reaction (PCR).</title>
+      <authorList>
+        <person name="Haugg M."/>
+        <person name="Schein C.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="1741299"/>
+      <dbReference type="DOI" id="10.1093/nar/20.3.612"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 23-149</scope>
+    <source>
+      <tissue>Placenta</tissue>
+    </source>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="1984" name="Anal. Biochem." volume="136" first="48" last="64">
+      <title>The amino acid sequence of human pancreatic ribonuclease.</title>
+      <authorList>
+        <person name="Beintema J.J."/>
+        <person name="Wietzes P."/>
+        <person name="Weickmann J.L."/>
+        <person name="Glitz D.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="6201087"/>
+      <dbReference type="DOI" id="10.1016/0003-2697(84)90306-3"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 29-156</scope>
+    <source>
+      <tissue>Pancreas</tissue>
+    </source>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="1988" name="Biochem. J." volume="255" first="501" last="505">
+      <title>Differences in glycosylation pattern of human secretory ribonucleases.</title>
+      <authorList>
+        <person name="Beintema J.J."/>
+        <person name="Blank A."/>
+        <person name="Schieven G.L."/>
+        <person name="Dekker C.A."/>
+        <person name="Sorrentino S."/>
+        <person name="Libonati M."/>
+      </authorList>
+      <dbReference type="PubMed" id="3202829"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 29-156</scope>
+    <scope>GLYCOSYLATION AT ASN-62; ASN-104 AND ASN-116</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="1990" name="Arch. Biochem. Biophys." volume="281" first="144" last="151">
+      <title>Purification and characterization of three ribonucleases from human kidney: comparison with urine ribonucleases.</title>
+      <authorList>
+        <person name="Mizuta K."/>
+        <person name="Awazu S."/>
+        <person name="Yasuda T."/>
+        <person name="Kishi K."/>
+      </authorList>
+      <dbReference type="PubMed" id="2383019"/>
+      <dbReference type="DOI" id="10.1016/0003-9861(90)90424-w"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 29-47</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="1991" name="Chem. Pharm. Bull." volume="39" first="146" last="149">
+      <title>A putative mouse oocyte maturation inhibitory protein from urine of pregnant women: N-terminal sequence homology with human nonsecretory ribonuclease.</title>
+      <authorList>
+        <person name="Sakakibara R."/>
+        <person name="Hashida K."/>
+        <person name="Tominaga N."/>
+        <person name="Sakai K."/>
+        <person name="Ishiguro M."/>
+        <person name="Imamura S."/>
+        <person name="Ohmatsu F."/>
+        <person name="Sato E."/>
+      </authorList>
+      <dbReference type="PubMed" id="2049798"/>
+      <dbReference type="DOI" id="10.1248/cpb.39.146"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 29-43</scope>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="1992" name="J. Biochem." volume="111" first="325" last="330">
+      <title>Characterization of a unique nonsecretory ribonuclease from urine of pregnant women.</title>
+      <authorList>
+        <person name="Sakakibara R."/>
+        <person name="Hashida K."/>
+        <person name="Kitahara T."/>
+        <person name="Ishiguro M."/>
+      </authorList>
+      <dbReference type="PubMed" id="1587793"/>
+      <dbReference type="DOI" id="10.1093/oxfordjournals.jbchem.a123757"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 29-48</scope>
+    <source>
+      <tissue>Urine</tissue>
+    </source>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="1993" name="Biochem. J." volume="296" first="617" last="625">
+      <title>Two distinct secretory ribonucleases from human cerebrum: purification, characterization and relationships to other ribonucleases.</title>
+      <authorList>
+        <person name="Yasuda T."/>
+        <person name="Nadano D."/>
+        <person name="Takeshita H."/>
+        <person name="Kishi K."/>
+      </authorList>
+      <dbReference type="PubMed" id="8280059"/>
+      <dbReference type="DOI" id="10.1042/bj2960617"/>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 29-49</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="2000" name="J. Mol. Biol." volume="303" first="49" last="60">
+      <title>Three-dimensional structure of a human pancreatic ribonuclease variant, a step forward in the design of cytotoxic ribonucleases.</title>
+      <authorList>
+        <person name="Pous J."/>
+        <person name="Canals A."/>
+        <person name="Terzyan S.S."/>
+        <person name="Guasch A."/>
+        <person name="Benito A."/>
+        <person name="Ribo M."/>
+        <person name="Vilanova M."/>
+        <person name="Coll M."/>
+      </authorList>
+      <dbReference type="PubMed" id="11021969"/>
+      <dbReference type="DOI" id="10.1006/jmbi.2000.4506"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.65 ANGSTROMS) OF 29-156</scope>
+    <scope>MUTAGENESIS OF 116-ASN-GLY-117</scope>
+  </reference>
+  <reference key="17">
+    <citation type="journal article" date="2001" name="Acta Crystallogr. D" volume="57" first="498" last="505">
+      <title>Three-dimensional structure of human RNase 1 delta N7 at 1.9 A resolution.</title>
+      <authorList>
+        <person name="Pous J."/>
+        <person name="Mallorqui-Fernandez G."/>
+        <person name="Peracaula R."/>
+        <person name="Terzyan S.S."/>
+        <person name="Futami J."/>
+        <person name="Tada H."/>
+        <person name="Yamada H."/>
+        <person name="Seno M."/>
+        <person name="de Llorens R."/>
+        <person name="Gomis-Rueth F.-X."/>
+        <person name="Coll M."/>
+      </authorList>
+      <dbReference type="PubMed" id="11264578"/>
+      <dbReference type="DOI" id="10.1107/s0907444901001147"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF 29-156</scope>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="2001" name="Structure" volume="9" first="967" last="976">
+      <title>The structure of an engineered domain-swapped ribonuclease dimer and its implications for the evolution of proteins toward oligomerization.</title>
+      <authorList>
+        <person name="Canals A."/>
+        <person name="Pous J."/>
+        <person name="Guasch A."/>
+        <person name="Benito A."/>
+        <person name="Ribo M."/>
+        <person name="Vilanova M."/>
+        <person name="Coll M."/>
+      </authorList>
+      <dbReference type="PubMed" id="11591351"/>
+      <dbReference type="DOI" id="10.1016/s0969-2126(01)00659-1"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 29-156</scope>
+    <scope>DISULFIDE BONDS</scope>
+  </reference>
+  <reference key="19">
+    <citation type="journal article" date="2007" name="J. Mol. Biol." volume="368" first="434" last="449">
+      <title>Inhibition of human pancreatic ribonuclease by the human ribonuclease inhibitor protein.</title>
+      <authorList>
+        <person name="Johnson R.J."/>
+        <person name="McCoy J.G."/>
+        <person name="Bingman C.A."/>
+        <person name="Phillips G.N. Jr."/>
+        <person name="Raines R.T."/>
+      </authorList>
+      <dbReference type="PubMed" id="17350650"/>
+      <dbReference type="DOI" id="10.1016/j.jmb.2007.02.005"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) OF 29-156 IN COMPLEX WITH RNH1</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>INTERACTION WITH RNH1</scope>
+    <scope>DISULFIDE BONDS</scope>
+    <scope>MUTAGENESIS OF ARG-67; ASN-95; ASN-116; GLY-117 AND ARG-119</scope>
+  </reference>
+  <reference key="20">
+    <citation type="journal article" date="2007" name="Protein Sci." volume="16" first="1389" last="1397">
+      <title>'Crystal lattice engineering,' an approach to engineer protein crystal contacts by creating intermolecular symmetry: crystallization and structure determination of a mutant human RNase 1 with a hydrophobic interface of leucines.</title>
+      <authorList>
+        <person name="Yamada H."/>
+        <person name="Tamada T."/>
+        <person name="Kosaka M."/>
+        <person name="Miyata K."/>
+        <person name="Fujiki S."/>
+        <person name="Tano M."/>
+        <person name="Moriya M."/>
+        <person name="Yamanishi M."/>
+        <person name="Honjo E."/>
+        <person name="Tada H."/>
+        <person name="Ino T."/>
+        <person name="Yamaguchi H."/>
+        <person name="Futami J."/>
+        <person name="Seno M."/>
+        <person name="Nomoto T."/>
+        <person name="Hirata T."/>
+        <person name="Yoshimura M."/>
+        <person name="Kuroki R."/>
+      </authorList>
+      <dbReference type="PubMed" id="17586772"/>
+      <dbReference type="DOI" id="10.1110/ps.072851407"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS) OF 29-156</scope>
+    <scope>DISULFIDE BONDS</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="5">Endonuclease that catalyzes the cleavage of RNA on the 3' side of pyrimidine nucleotides. Acts on single-stranded and double-stranded RNA.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction>
+      <text>an [RNA] containing cytidine + H2O = an [RNA]-3'-cytidine-3'-phosphate + a 5'-hydroxy-ribonucleotide-3'-[RNA].</text>
+      <dbReference type="EC" id="4.6.1.18"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction>
+      <text>an [RNA] containing uridine + H2O = an [RNA]-3'-uridine-3'-phosphate + a 5'-hydroxy-ribonucleotide-3'-[RNA].</text>
+      <dbReference type="EC" id="4.6.1.18"/>
+    </reaction>
+  </comment>
+  <comment type="subunit">
+    <text evidence="5">Monomer. Interacts with and forms tight 1:1 complexes with RNH1. Dimerization of two such complexes may occur. Interaction with RNH1 inhibits this protein.</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2823523">
+      <id>P07998</id>
+    </interactant>
+    <interactant intactId="EBI-1237106">
+      <id>P13489</id>
+      <label>RNH1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>10</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2823523">
+      <id>P07998</id>
+    </interactant>
+    <interactant intactId="EBI-2813981">
+      <id>Q9C029</id>
+      <label>TRIM7</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Secreted</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="tissue specificity">
+    <text>Pancreas and other tissues and body fluids (indicating it may have other physiological functions besides its role in digestion).</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="8">N-linked glycans are of complex type.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="11">Belongs to the pancreatic ribonuclease family.</text>
+  </comment>
+  <dbReference type="EC" id="4.6.1.18"/>
+  <dbReference type="EMBL" id="D26129">
+    <property type="protein sequence ID" value="BAA05124.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="DQ494867">
+    <property type="protein sequence ID" value="ABF00144.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AK312100">
+    <property type="protein sequence ID" value="BAG35036.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CR450318">
+    <property type="protein sequence ID" value="CAG29314.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CH471078">
+    <property type="protein sequence ID" value="EAW66437.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CH471078">
+    <property type="protein sequence ID" value="EAW66438.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC005324">
+    <property type="protein sequence ID" value="AAH05324.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC022882">
+    <property type="protein sequence ID" value="AAH22882.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="X79235">
+    <property type="protein sequence ID" value="CAA55817.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="S79281">
+    <property type="protein sequence ID" value="AAB35096.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="X62946">
+    <property type="protein sequence ID" value="CAA44718.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS9559.1"/>
+  <dbReference type="PIR" id="I53530">
+    <property type="entry name" value="I53530"/>
+  </dbReference>
+  <dbReference type="PIR" id="S45003">
+    <property type="entry name" value="NRHU1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_002924.1">
+    <property type="nucleotide sequence ID" value="NM_002933.4"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_937875.1">
+    <property type="nucleotide sequence ID" value="NM_198232.2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_937877.1">
+    <property type="nucleotide sequence ID" value="NM_198234.2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_937878.1">
+    <property type="nucleotide sequence ID" value="NM_198235.2"/>
+  </dbReference>
+  <dbReference type="PDB" id="1DZA">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.65 A"/>
+    <property type="chains" value="A/B=28-156"/>
+  </dbReference>
+  <dbReference type="PDB" id="1E21">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.90 A"/>
+    <property type="chains" value="A=29-156"/>
+  </dbReference>
+  <dbReference type="PDB" id="1H8X">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="A/B=29-156"/>
+  </dbReference>
+  <dbReference type="PDB" id="1Z7X">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.95 A"/>
+    <property type="chains" value="X/Z=29-156"/>
+  </dbReference>
+  <dbReference type="PDB" id="2E0J">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.60 A"/>
+    <property type="chains" value="A/B=29-156"/>
+  </dbReference>
+  <dbReference type="PDB" id="2E0L">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.60 A"/>
+    <property type="chains" value="A/B=29-156"/>
+  </dbReference>
+  <dbReference type="PDB" id="2E0M">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.70 A"/>
+    <property type="chains" value="A/B=29-156"/>
+  </dbReference>
+  <dbReference type="PDB" id="2E0O">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="A/B=29-156"/>
+  </dbReference>
+  <dbReference type="PDB" id="2K11">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=29-155"/>
+  </dbReference>
+  <dbReference type="PDB" id="2Q4G">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.95 A"/>
+    <property type="chains" value="X/Z=29-156"/>
+  </dbReference>
+  <dbReference type="PDB" id="3F8G">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.60 A"/>
+    <property type="chains" value="A/B=29-153"/>
+  </dbReference>
+  <dbReference type="PDB" id="4KXH">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.70 A"/>
+    <property type="chains" value="A/B/C/D=29-156"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1DZA"/>
+  <dbReference type="PDBsum" id="1E21"/>
+  <dbReference type="PDBsum" id="1H8X"/>
+  <dbReference type="PDBsum" id="1Z7X"/>
+  <dbReference type="PDBsum" id="2E0J"/>
+  <dbReference type="PDBsum" id="2E0L"/>
+  <dbReference type="PDBsum" id="2E0M"/>
+  <dbReference type="PDBsum" id="2E0O"/>
+  <dbReference type="PDBsum" id="2K11"/>
+  <dbReference type="PDBsum" id="2Q4G"/>
+  <dbReference type="PDBsum" id="3F8G"/>
+  <dbReference type="PDBsum" id="4KXH"/>
+  <dbReference type="AlphaFoldDB" id="P07998"/>
+  <dbReference type="BMRB" id="P07998"/>
+  <dbReference type="SMR" id="P07998"/>
+  <dbReference type="BioGRID" id="111964">
+    <property type="interactions" value="12"/>
+  </dbReference>
+  <dbReference type="IntAct" id="P07998">
+    <property type="interactions" value="13"/>
+  </dbReference>
+  <dbReference type="MINT" id="P07998"/>
+  <dbReference type="STRING" id="9606.ENSP00000381057"/>
+  <dbReference type="BindingDB" id="P07998"/>
+  <dbReference type="ChEMBL" id="CHEMBL5425"/>
+  <dbReference type="DrugBank" id="DB08661">
+    <property type="generic name" value="1-(2,5-dideoxy-5-pyrrolidin-1-yl-beta-L-erythro-pentofuranosyl)-5-methylpyrimidine-2,4(1H,3H)-dione"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03765">
+    <property type="generic name" value="2'-cytidylic acid"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB02573">
+    <property type="generic name" value="2'-deoxycytidine-2'-deoxyadenosine-3',5'-monophosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03448">
+    <property type="generic name" value="2'-Deoxyuridine 3'-Monophosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03155">
+    <property type="generic name" value="2'-fluoro-2'-deoxyuridine 3'-monophosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB02363">
+    <property type="generic name" value="2'-Monophosphoadenosine-5'-Diphosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB01842">
+    <property type="generic name" value="3'-Phosphate-Adenosine-5'-Diphosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB02714">
+    <property type="generic name" value="3'-Uridinemonophosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB08596">
+    <property type="generic name" value="5'-deoxy-5'-piperidin-1-ylthymidine"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03792">
+    <property type="generic name" value="5-Aminouracil"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB01812">
+    <property type="generic name" value="Adenosine 3',5'-diphosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB02098">
+    <property type="generic name" value="Adenosine-2'-5'-Diphosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03186">
+    <property type="generic name" value="Adenylate-3'-phosphate-[[2'-deoxy-uridine-5'-phosphate]-3'-phosphate]"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB02805">
+    <property type="generic name" value="Arabinouridine 3'-phosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB00128">
+    <property type="generic name" value="Aspartic acid"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB04272">
+    <property type="generic name" value="Citric acid"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB02987">
+    <property type="generic name" value="Cysteine-S-acetamide"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB01961">
+    <property type="generic name" value="Cytidine 3'-monophosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03326">
+    <property type="generic name" value="Deoxycytidylyl-3',5'-guanosine"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB01942">
+    <property type="generic name" value="Formic acid"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB00536">
+    <property type="generic name" value="Guanidine"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB04464">
+    <property type="generic name" value="N-Formylmethionine"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03726">
+    <property type="generic name" value="Purine Riboside-5'-Monophosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03900">
+    <property type="generic name" value="tert-butanol"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03512">
+    <property type="generic name" value="Uridine-2',3'-vanadate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03447">
+    <property type="generic name" value="Uridylyl-2'-5'-phospho-adenosine"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB04514">
+    <property type="generic name" value="Uridylyl-2'-5'-phospho-guanosine"/>
+  </dbReference>
+  <dbReference type="GlyConnect" id="1973">
+    <property type="glycosylation" value="3 N-Linked glycans (2 sites)"/>
+  </dbReference>
+  <dbReference type="GlyCosmos" id="P07998">
+    <property type="glycosylation" value="3 sites, 3 glycans"/>
+  </dbReference>
+  <dbReference type="GlyGen" id="P07998">
+    <property type="glycosylation" value="3 sites, 3 N-linked glycans (2 sites)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="P07998"/>
+  <dbReference type="PhosphoSitePlus" id="P07998"/>
+  <dbReference type="BioMuta" id="RNASE1"/>
+  <dbReference type="DMDM" id="1350818"/>
+  <dbReference type="jPOST" id="P07998"/>
+  <dbReference type="MassIVE" id="P07998"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000381057"/>
+  <dbReference type="PeptideAtlas" id="P07998"/>
+  <dbReference type="PRIDE" id="P07998"/>
+  <dbReference type="ProteomicsDB" id="52059"/>
+  <dbReference type="Antibodypedia" id="18">
+    <property type="antibodies" value="309 antibodies from 25 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="6035"/>
+  <dbReference type="Ensembl" id="ENST00000340900.3">
+    <property type="protein sequence ID" value="ENSP00000344193.3"/>
+    <property type="gene ID" value="ENSG00000129538.14"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000397967.5">
+    <property type="protein sequence ID" value="ENSP00000381057.4"/>
+    <property type="gene ID" value="ENSG00000129538.14"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000397970.4">
+    <property type="protein sequence ID" value="ENSP00000381060.4"/>
+    <property type="gene ID" value="ENSG00000129538.14"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000412779.2">
+    <property type="protein sequence ID" value="ENSP00000399493.2"/>
+    <property type="gene ID" value="ENSG00000129538.14"/>
+  </dbReference>
+  <dbReference type="GeneID" id="6035"/>
+  <dbReference type="KEGG" id="hsa:6035"/>
+  <dbReference type="MANE-Select" id="ENST00000397967.5">
+    <property type="protein sequence ID" value="ENSP00000381057.4"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_002933.5"/>
+    <property type="RefSeq protein sequence ID" value="NP_002924.1"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:10044"/>
+  <dbReference type="CTD" id="6035"/>
+  <dbReference type="DisGeNET" id="6035"/>
+  <dbReference type="GeneCards" id="RNASE1"/>
+  <dbReference type="HGNC" id="HGNC:10044">
+    <property type="gene designation" value="RNASE1"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000129538">
+    <property type="expression patterns" value="Tissue enriched (pancreas)"/>
+  </dbReference>
+  <dbReference type="MIM" id="180440">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_P07998"/>
+  <dbReference type="OpenTargets" id="ENSG00000129538"/>
+  <dbReference type="PharmGKB" id="PA34412"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000129538"/>
+  <dbReference type="eggNOG" id="ENOG502SQ4K">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00940000160869"/>
+  <dbReference type="HOGENOM" id="CLU_117006_0_0_1"/>
+  <dbReference type="InParanoid" id="P07998"/>
+  <dbReference type="OMA" id="CEGDPYV"/>
+  <dbReference type="OrthoDB" id="4596772at2759"/>
+  <dbReference type="PhylomeDB" id="P07998"/>
+  <dbReference type="TreeFam" id="TF333393"/>
+  <dbReference type="BRENDA" id="4.6.1.18">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="P07998"/>
+  <dbReference type="Reactome" id="R-HSA-9613829">
+    <property type="pathway name" value="Chaperone Mediated Autophagy"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9615710">
+    <property type="pathway name" value="Late endosomal microautophagy"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="P07998"/>
+  <dbReference type="BioGRID-ORCS" id="6035">
+    <property type="hits" value="17 hits in 1151 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="RNASE1">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="P07998"/>
+  <dbReference type="GeneWiki" id="RNASE1"/>
+  <dbReference type="GenomeRNAi" id="6035"/>
+  <dbReference type="Pharos" id="P07998">
+    <property type="development level" value="Tchem"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:P07998"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 14"/>
+  </dbReference>
+  <dbReference type="RNAct" id="P07998">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000129538">
+    <property type="expression patterns" value="Expressed in right testis and 203 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="P07998">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070062">
+    <property type="term" value="C:extracellular exosome"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016829">
+    <property type="term" value="F:lyase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003676">
+    <property type="term" value="F:nucleic acid binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004522">
+    <property type="term" value="F:ribonuclease A activity"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="ProtInc"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004540">
+    <property type="term" value="F:RNA nuclease activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050830">
+    <property type="term" value="P:defense response to Gram-positive bacterium"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd06265">
+    <property type="entry name" value="RNase_A_canonical"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.10.130.10">
+    <property type="entry name" value="Ribonuclease A-like domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001427">
+    <property type="entry name" value="RNaseA"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036816">
+    <property type="entry name" value="RNaseA-like_dom_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023411">
+    <property type="entry name" value="RNaseA_AS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR023412">
+    <property type="entry name" value="RNaseA_domain"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR11437">
+    <property type="entry name" value="RIBONUCLEASE"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR11437:SF24">
+    <property type="entry name" value="RIBONUCLEASE PANCREATIC"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00074">
+    <property type="entry name" value="RnaseA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR00794">
+    <property type="entry name" value="RIBONUCLEASE"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00092">
+    <property type="entry name" value="RNAse_Pc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF54076">
+    <property type="entry name" value="RNase A-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00127">
+    <property type="entry name" value="RNASE_PANCREATIC"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-1015">Disulfide bond</keyword>
+  <keyword id="KW-0255">Endonuclease</keyword>
+  <keyword id="KW-0325">Glycoprotein</keyword>
+  <keyword id="KW-0378">Hydrolase</keyword>
+  <keyword id="KW-0456">Lyase</keyword>
+  <keyword id="KW-0540">Nuclease</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0964">Secreted</keyword>
+  <keyword id="KW-0732">Signal</keyword>
+  <feature type="signal peptide" evidence="4 6 7 8 9 10">
+    <location>
+      <begin position="1"/>
+      <end position="28"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000030921" description="Ribonuclease pancreatic">
+    <location>
+      <begin position="29"/>
+      <end position="156"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="2">
+    <location>
+      <begin position="33"/>
+      <end position="53"/>
+    </location>
+  </feature>
+  <feature type="active site" description="Proton acceptor">
+    <location>
+      <position position="40"/>
+    </location>
+  </feature>
+  <feature type="active site" description="Proton donor">
+    <location>
+      <position position="147"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="1">
+    <location>
+      <position position="35"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="1">
+    <location>
+      <position position="38"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="1">
+    <location>
+      <begin position="69"/>
+      <end position="73"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="1">
+    <location>
+      <position position="94"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="1">
+    <location>
+      <position position="113"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine; partial" evidence="8">
+    <location>
+      <position position="62"/>
+    </location>
+  </feature>
+  <feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="8">
+    <location>
+      <position position="104"/>
+    </location>
+  </feature>
+  <feature type="glycosylation site" description="N-linked (GlcNAc...) asparagine" evidence="8">
+    <location>
+      <position position="116"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="54"/>
+      <end position="112"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="68"/>
+      <end position="123"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="86"/>
+      <end position="138"/>
+    </location>
+  </feature>
+  <feature type="disulfide bond">
+    <location>
+      <begin position="93"/>
+      <end position="100"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Substantially decreases binding affinity for RNH1 but maintains high conformational stability; when associated with D-95, A-116, D-117 and D-119." evidence="5">
+    <original>R</original>
+    <variation>D</variation>
+    <location>
+      <position position="67"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Substantially decreases binding affinity for RNH1 but maintains high conformational stability; when associated with D-67, A-116, D-117 and D-119." evidence="5">
+    <original>N</original>
+    <variation>D</variation>
+    <location>
+      <position position="95"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on inhibition by RNH1." evidence="3">
+    <original>NG</original>
+    <variation>RS</variation>
+    <location>
+      <begin position="116"/>
+      <end position="117"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Substantially decreases binding affinity for RNH1 but maintains high conformational stability; when associated with D-67, D-95, D-117 and D-119." evidence="5">
+    <original>N</original>
+    <variation>A</variation>
+    <location>
+      <position position="116"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Substantially decreases binding affinity for RNH1 but maintains high conformational stability; when associated with D-67, D-95, A-116 and D-119." evidence="5">
+    <original>G</original>
+    <variation>D</variation>
+    <location>
+      <position position="117"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Substantially decreases binding affinity for RNH1 but maintains high conformational stability; when associated with D-67, D-95, A-116 and D-117." evidence="5">
+    <original>R</original>
+    <variation>D</variation>
+    <location>
+      <position position="119"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 7; CAA55817." evidence="11" ref="7">
+    <original>A</original>
+    <variation>G</variation>
+    <location>
+      <position position="2"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 8; AAB35096." evidence="11" ref="8">
+    <location>
+      <position position="4"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 8; AAB35096." evidence="11" ref="8">
+    <original>RLL</original>
+    <variation>VLP</variation>
+    <location>
+      <begin position="9"/>
+      <end position="11"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 8; AAB35096." evidence="11" ref="8">
+    <original>ILLVLGW</original>
+    <variation>VLLLVR</variation>
+    <location>
+      <begin position="16"/>
+      <end position="22"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 4; CAG29314." evidence="11" ref="4">
+    <original>R</original>
+    <variation>L</variation>
+    <location>
+      <position position="67"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 7; CAA55817." evidence="11" ref="7">
+    <original>S</original>
+    <variation>T</variation>
+    <location>
+      <position position="151"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="13">
+    <location>
+      <begin position="32"/>
+      <end position="40"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="12">
+    <location>
+      <begin position="47"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="13">
+    <location>
+      <begin position="53"/>
+      <end position="60"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="14">
+    <location>
+      <begin position="61"/>
+      <end position="64"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="13">
+    <location>
+      <begin position="65"/>
+      <end position="67"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="13">
+    <location>
+      <begin position="70"/>
+      <end position="75"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="13">
+    <location>
+      <begin position="79"/>
+      <end position="83"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="13">
+    <location>
+      <begin position="84"/>
+      <end position="87"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="13">
+    <location>
+      <begin position="88"/>
+      <end position="92"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="13">
+    <location>
+      <begin position="96"/>
+      <end position="102"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="13">
+    <location>
+      <begin position="107"/>
+      <end position="114"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="15">
+    <location>
+      <begin position="120"/>
+      <end position="122"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="13">
+    <location>
+      <begin position="125"/>
+      <end position="139"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="13">
+    <location>
+      <begin position="140"/>
+      <end position="143"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="13">
+    <location>
+      <begin position="144"/>
+      <end position="152"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1"/>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="11021969"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="1587793"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="17350650"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="2049798"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="2383019"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="3202829"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="6201087"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="8280059"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="11"/>
+  <evidence type="ECO:0007829" key="12">
+    <source>
+      <dbReference type="PDB" id="1H8X"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="13">
+    <source>
+      <dbReference type="PDB" id="2E0J"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="14">
+    <source>
+      <dbReference type="PDB" id="2E0L"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="15">
+    <source>
+      <dbReference type="PDB" id="3F8G"/>
+    </source>
+  </evidence>
+  <sequence length="156" mass="17644" checksum="F63B17B8B55115F9" modified="1996-02-01" version="4" precursor="true">MALEKSLVRLLLLVLILLVLGWVQPSLGKESRAKKFQRQHMDSDSSPSSSSTYCNQMMRRRNMTQGRCKPVNTFVHEPLVDVQNVCFQEKVTCKNGQGNCYKSNSSMHITDCRLTNGSRYPNCAYRTSPKERHIIVACEGSPYVPVHFDASVEDST</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

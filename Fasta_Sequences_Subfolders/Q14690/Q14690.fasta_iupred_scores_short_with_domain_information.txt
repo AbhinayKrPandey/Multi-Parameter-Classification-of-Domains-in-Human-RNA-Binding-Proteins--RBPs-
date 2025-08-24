@@ -1,0 +1,1883 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9467	
+2	A	0.9427	
+3	N	0.9140	
+4	L	0.8707	
+5	E	0.8210	
+6	E	0.7707	
+7	S	0.7239	
+8	F	0.6834	
+9	P	0.6504	
+10	R	0.6255	
+11	G	0.6057	
+12	G	0.5951	
+13	T	0.5888	
+14	R	0.5877	
+15	K	0.5932	
+16	I	0.6034	
+17	H	0.6153	
+18	K	0.6268	
+19	P	0.6262	
+20	E	0.6166	
+21	K	0.6016	
+22	A	0.5840	
+23	F	0.5710	
+24	Q	0.5632	
+25	Q	0.5545	
+26	S	0.5391	
+27	V	0.5309	
+28	E	0.5340	
+29	Q	0.5390	
+30	D	0.5427	
+31	N	0.5408	
+32	L	0.5393	
+33	F	0.5371	
+34	D	0.5380	
+35	I	0.5450	
+36	S	0.5531	
+37	T	0.5605	
+38	E	0.5646	
+39	E	0.5705	
+40	G	0.5786	
+41	S	0.5918	
+42	T	0.6065	
+43	K	0.6237	
+44	R	0.6316	
+45	K	0.6344	
+46	K	0.6334	
+47	S	0.6323	
+48	Q	0.6238	
+49	K	0.6112	
+50	G	0.6017	
+51	P	0.5916	
+52	A	0.5882	
+53	K	0.5846	
+54	T	0.5903	
+55	K	0.5966	
+56	K	0.5969	
+57	L	0.5996	
+58	K	0.5911	
+59	I	0.5813	
+60	E	0.5592	
+61	K	0.5261	
+62	R	0.4856	
+63	E	0.4484	
+64	S	0.4130	
+65	S	0.3815	
+66	K	0.3541	
+67	S	0.3288	
+68	A	0.3134	
+69	R	0.3088	
+70	E	0.3028	
+71	K	0.2889	
+72	F	0.2776	
+73	E	0.2554	
+74	I	0.2256	
+75	L	0.1940	
+76	S	0.1596	
+77	V	0.1295	
+78	E	0.1013	
+79	S	0.0741	
+80	L	0.0520	
+81	C	0.0432	
+82	E	0.0449	
+83	G	0.0507	domain S1 motif 1
+84	M	0.0573	domain S1 motif 1
+85	R	0.0582	domain S1 motif 1
+86	I	0.0577	domain S1 motif 1
+87	L	0.0568	domain S1 motif 1
+88	G	0.0527	domain S1 motif 1
+89	C	0.0468	domain S1 motif 1
+90	V	0.0384	domain S1 motif 1
+91	K	0.0326	domain S1 motif 1
+92	E	0.0302	domain S1 motif 1
+93	V	0.0285	domain S1 motif 1
+94	N	0.0321	domain S1 motif 1
+95	E	0.0371	domain S1 motif 1
+96	L	0.0403	domain S1 motif 1
+97	E	0.0429	domain S1 motif 1
+98	L	0.0469	domain S1 motif 1
+99	V	0.0482	domain S1 motif 1
+100	I	0.0508	domain S1 motif 1
+101	S	0.0519	domain S1 motif 1
+102	L	0.0525	domain S1 motif 1
+103	P	0.0474	domain S1 motif 1
+104	N	0.0418	domain S1 motif 1
+105	G	0.0366	domain S1 motif 1
+106	L	0.0381	domain S1 motif 1
+107	Q	0.0430	domain S1 motif 1
+108	G	0.0477	domain S1 motif 1
+109	F	0.0561	domain S1 motif 1
+110	V	0.0670	domain S1 motif 1
+111	Q	0.0788	domain S1 motif 1
+112	V	0.0883	domain S1 motif 1
+113	T	0.0937	domain S1 motif 1
+114	E	0.0893	domain S1 motif 1
+115	I	0.0871	domain S1 motif 1
+116	C	0.0924	domain S1 motif 1
+117	D	0.1025	domain S1 motif 1
+118	A	0.1181	domain S1 motif 1
+119	Y	0.1398	domain S1 motif 1
+120	T	0.1665	domain S1 motif 1
+121	K	0.1993	domain S1 motif 1
+122	K	0.2227	domain S1 motif 1
+123	L	0.2342	domain S1 motif 1
+124	N	0.2417	domain S1 motif 1
+125	E	0.2539	domain S1 motif 1
+126	Q	0.2572	domain S1 motif 1
+127	V	0.2507	domain S1 motif 1
+128	T	0.2418	domain S1 motif 1
+129	Q	0.2412	domain S1 motif 1
+130	E	0.2411	domain S1 motif 1
+131	Q	0.2463	domain S1 motif 1
+132	P	0.2462	domain S1 motif 1
+133	L	0.2496	domain S1 motif 1
+134	K	0.2542	domain S1 motif 1
+135	D	0.2626	domain S1 motif 1
+136	L	0.2599	domain S1 motif 1
+137	L	0.2432	domain S1 motif 1
+138	H	0.2258	domain S1 motif 1
+139	L	0.2096	domain S1 motif 1
+140	P	0.1831	domain S1 motif 1
+141	E	0.1510	domain S1 motif 1
+142	L	0.1165	domain S1 motif 1
+143	F	0.0982	domain S1 motif 1
+144	S	0.0889	domain S1 motif 1
+145	P	0.0857	domain S1 motif 1
+146	G	0.0813	domain S1 motif 1
+147	M	0.0780	domain S1 motif 1
+148	L	0.0867	domain S1 motif 1
+149	V	0.1047	domain S1 motif 1
+150	R	0.1278	domain S1 motif 1
+151	C	0.1482	domain S1 motif 1
+152	V	0.1664	domain S1 motif 1
+153	V	0.1903	domain S1 motif 1
+154	S	0.2022	domain S1 motif 1
+155	S	0.2003	domain S1 motif 1
+156	L	0.1891	domain S1 motif 1
+157	G	0.1778	domain S1 motif 1
+158	I	0.1781	domain S1 motif 1
+159	T	0.1789	domain S1 motif 1
+160	D	0.1881	domain S1 motif 1
+161	R	0.2082	domain S1 motif 1
+162	G	0.2414	domain S1 motif 1
+163	K	0.2855	domain S1 motif 1
+164	K	0.3211	domain S1 motif 1
+165	S	0.3423	domain S1 motif 1
+166	V	0.3650	domain S1 motif 1
+167	K	0.3779	domain S1 motif 1
+168	L	0.3858	domain S1 motif 1
+169	S	0.3705	domain S1 motif 1
+170	L	0.3488	domain S1 motif 1
+171	N	0.3268	domain S1 motif 1
+172	P	0.3150	
+173	K	0.2998	
+174	N	0.2765	
+175	V	0.2605	
+176	N	0.2612	
+177	R	0.2633	
+178	V	0.2654	
+179	L	0.2698	
+180	S	0.2730	
+181	A	0.2720	
+182	E	0.2548	
+183	A	0.2268	
+184	L	0.2054	
+185	K	0.2004	
+186	P	0.2127	
+187	G	0.2164	domain S1 motif 2
+188	M	0.2240	domain S1 motif 2
+189	L	0.2284	domain S1 motif 2
+190	L	0.2439	domain S1 motif 2
+191	T	0.2502	domain S1 motif 2
+192	G	0.2435	domain S1 motif 2
+193	T	0.2184	domain S1 motif 2
+194	V	0.1879	domain S1 motif 2
+195	S	0.1573	domain S1 motif 2
+196	S	0.1286	domain S1 motif 2
+197	L	0.1175	domain S1 motif 2
+198	E	0.1187	domain S1 motif 2
+199	D	0.1323	domain S1 motif 2
+200	H	0.1446	domain S1 motif 2
+201	G	0.1502	domain S1 motif 2
+202	Y	0.1498	domain S1 motif 2
+203	L	0.1480	domain S1 motif 2
+204	V	0.1446	domain S1 motif 2
+205	D	0.1254	domain S1 motif 2
+206	I	0.1038	domain S1 motif 2
+207	G	0.0776	domain S1 motif 2
+208	V	0.0604	domain S1 motif 2
+209	D	0.0489	domain S1 motif 2
+210	G	0.0475	domain S1 motif 2
+211	T	0.0438	domain S1 motif 2
+212	R	0.0399	domain S1 motif 2
+213	A	0.0417	domain S1 motif 2
+214	F	0.0513	domain S1 motif 2
+215	L	0.0720	domain S1 motif 2
+216	P	0.0911	domain S1 motif 2
+217	L	0.1123	domain S1 motif 2
+218	L	0.1236	domain S1 motif 2
+219	K	0.1302	domain S1 motif 2
+220	A	0.1336	domain S1 motif 2
+221	Q	0.1334	domain S1 motif 2
+222	E	0.1289	domain S1 motif 2
+223	Y	0.1229	domain S1 motif 2
+224	I	0.1238	domain S1 motif 2
+225	R	0.1314	domain S1 motif 2
+226	Q	0.1444	domain S1 motif 2
+227	K	0.1472	domain S1 motif 2
+228	N	0.1520	domain S1 motif 2
+229	K	0.1506	domain S1 motif 2
+230	G	0.1438	domain S1 motif 2
+231	A	0.1343	domain S1 motif 2
+232	K	0.1198	domain S1 motif 2
+233	L	0.1105	domain S1 motif 2
+234	K	0.1039	domain S1 motif 2
+235	V	0.1075	domain S1 motif 2
+236	G	0.1045	domain S1 motif 2
+237	Q	0.1093	domain S1 motif 2
+238	Y	0.1116	domain S1 motif 2
+239	L	0.1142	domain S1 motif 2
+240	N	0.1140	domain S1 motif 2
+241	C	0.1075	domain S1 motif 2
+242	I	0.0968	domain S1 motif 2
+243	V	0.0914	domain S1 motif 2
+244	E	0.0937	domain S1 motif 2
+245	K	0.0902	domain S1 motif 2
+246	V	0.0859	domain S1 motif 2
+247	K	0.0868	domain S1 motif 2
+248	G	0.1056	domain S1 motif 2
+249	N	0.1330	domain S1 motif 2
+250	G	0.1659	domain S1 motif 2
+251	G	0.1968	domain S1 motif 2
+252	V	0.2239	domain S1 motif 2
+253	V	0.2487	domain S1 motif 2
+254	S	0.2589	domain S1 motif 2
+255	L	0.2685	domain S1 motif 2
+256	S	0.2575	domain S1 motif 2
+257	V	0.2527	domain S1 motif 2
+258	G	0.2459	domain S1 motif 2
+259	H	0.2371	
+260	S	0.2253	
+261	E	0.2290	
+262	V	0.2448	
+263	S	0.2563	
+264	T	0.2641	
+265	A	0.2639	
+266	I	0.2679	
+267	A	0.2651	
+268	T	0.2581	
+269	E	0.2368	
+270	Q	0.2105	
+271	Q	0.1807	
+272	S	0.1490	
+273	W	0.1279	
+274	N	0.1073	
+275	L	0.1021	
+276	N	0.0981	
+277	N	0.0939	
+278	L	0.0879	
+279	L	0.0881	
+280	P	0.0875	
+281	G	0.0780	domain S1 motif 3
+282	L	0.0685	domain S1 motif 3
+283	V	0.0569	domain S1 motif 3
+284	V	0.0488	domain S1 motif 3
+285	K	0.0435	domain S1 motif 3
+286	A	0.0435	domain S1 motif 3
+287	Q	0.0393	domain S1 motif 3
+288	V	0.0361	domain S1 motif 3
+289	Q	0.0313	domain S1 motif 3
+290	K	0.0245	domain S1 motif 3
+291	V	0.0201	domain S1 motif 3
+292	T	0.0173	domain S1 motif 3
+293	P	0.0146	domain S1 motif 3
+294	F	0.0129	domain S1 motif 3
+295	G	0.0118	domain S1 motif 3
+296	L	0.0110	domain S1 motif 3
+297	T	0.0094	domain S1 motif 3
+298	L	0.0105	domain S1 motif 3
+299	N	0.0093	domain S1 motif 3
+300	F	0.0072	domain S1 motif 3
+301	L	0.0054	domain S1 motif 3
+302	T	0.0041	domain S1 motif 3
+303	F	0.0034	domain S1 motif 3
+304	F	0.0047	domain S1 motif 3
+305	T	0.0075	domain S1 motif 3
+306	G	0.0107	domain S1 motif 3
+307	V	0.0100	domain S1 motif 3
+308	V	0.0093	domain S1 motif 3
+309	D	0.0128	domain S1 motif 3
+310	F	0.0179	domain S1 motif 3
+311	M	0.0198	domain S1 motif 3
+312	H	0.0259	domain S1 motif 3
+313	L	0.0333	domain S1 motif 3
+314	D	0.0417	domain S1 motif 3
+315	P	0.0517	domain S1 motif 3
+316	K	0.0609	domain S1 motif 3
+317	K	0.0670	domain S1 motif 3
+318	A	0.0703	domain S1 motif 3
+319	G	0.0685	domain S1 motif 3
+320	T	0.0637	domain S1 motif 3
+321	Y	0.0541	domain S1 motif 3
+322	F	0.0449	domain S1 motif 3
+323	S	0.0404	domain S1 motif 3
+324	N	0.0376	domain S1 motif 3
+325	Q	0.0318	domain S1 motif 3
+326	A	0.0265	domain S1 motif 3
+327	V	0.0284	domain S1 motif 3
+328	R	0.0324	domain S1 motif 3
+329	A	0.0317	domain S1 motif 3
+330	C	0.0326	domain S1 motif 3
+331	I	0.0323	domain S1 motif 3
+332	L	0.0318	domain S1 motif 3
+333	C	0.0323	domain S1 motif 3
+334	V	0.0313	domain S1 motif 3
+335	H	0.0297	domain S1 motif 3
+336	P	0.0270	domain S1 motif 3
+337	R	0.0148	domain S1 motif 3
+338	T	0.0098	domain S1 motif 3
+339	R	0.0121	domain S1 motif 3
+340	V	0.0212	domain S1 motif 3
+341	V	0.0423	domain S1 motif 3
+342	H	0.0679	domain S1 motif 3
+343	L	0.0953	domain S1 motif 3
+344	S	0.1143	domain S1 motif 3
+345	L	0.1265	domain S1 motif 3
+346	R	0.1313	domain S1 motif 3
+347	P	0.1296	
+348	I	0.1149	
+349	F	0.0987	
+350	L	0.0929	
+351	Q	0.0937	
+352	P	0.0948	
+353	G	0.1026	
+354	R	0.1073	
+355	P	0.1100	
+356	L	0.1175	
+357	T	0.1219	
+358	R	0.1275	
+359	L	0.1354	
+360	S	0.1422	
+361	C	0.1498	
+362	Q	0.1487	
+363	N	0.1427	
+364	L	0.1301	
+365	G	0.1133	domain S1 motif 4
+366	A	0.0932	domain S1 motif 4
+367	V	0.0720	domain S1 motif 4
+368	L	0.0665	domain S1 motif 4
+369	D	0.0716	domain S1 motif 4
+370	D	0.0774	domain S1 motif 4
+371	V	0.0769	domain S1 motif 4
+372	P	0.0706	domain S1 motif 4
+373	V	0.0763	domain S1 motif 4
+374	Q	0.0783	domain S1 motif 4
+375	G	0.0801	domain S1 motif 4
+376	F	0.0851	domain S1 motif 4
+377	F	0.0883	domain S1 motif 4
+378	K	0.0942	domain S1 motif 4
+379	K	0.1008	domain S1 motif 4
+380	A	0.0966	domain S1 motif 4
+381	G	0.0928	domain S1 motif 4
+382	A	0.0862	domain S1 motif 4
+383	T	0.0754	domain S1 motif 4
+384	F	0.0706	domain S1 motif 4
+385	R	0.0623	domain S1 motif 4
+386	L	0.0627	domain S1 motif 4
+387	K	0.0661	domain S1 motif 4
+388	D	0.0809	domain S1 motif 4
+389	G	0.0879	domain S1 motif 4
+390	V	0.0925	domain S1 motif 4
+391	L	0.0987	domain S1 motif 4
+392	A	0.1020	domain S1 motif 4
+393	Y	0.1149	domain S1 motif 4
+394	A	0.1261	domain S1 motif 4
+395	R	0.1342	domain S1 motif 4
+396	L	0.1406	domain S1 motif 4
+397	S	0.1444	domain S1 motif 4
+398	H	0.1476	domain S1 motif 4
+399	L	0.1528	domain S1 motif 4
+400	S	0.1614	domain S1 motif 4
+401	D	0.1859	domain S1 motif 4
+402	S	0.2121	domain S1 motif 4
+403	K	0.2432	domain S1 motif 4
+404	N	0.2847	domain S1 motif 4
+405	V	0.3181	domain S1 motif 4
+406	F	0.3584	domain S1 motif 4
+407	N	0.3893	domain S1 motif 4
+408	P	0.3983	domain S1 motif 4
+409	E	0.3814	domain S1 motif 4
+410	A	0.3480	domain S1 motif 4
+411	F	0.3117	domain S1 motif 4
+412	K	0.2857	domain S1 motif 4
+413	P	0.2700	domain S1 motif 4
+414	G	0.2541	domain S1 motif 4
+415	N	0.2473	domain S1 motif 4
+416	T	0.2522	domain S1 motif 4
+417	H	0.2598	domain S1 motif 4
+418	K	0.2641	domain S1 motif 4
+419	C	0.2703	domain S1 motif 4
+420	R	0.2542	domain S1 motif 4
+421	I	0.2285	domain S1 motif 4
+422	I	0.1990	domain S1 motif 4
+423	D	0.1609	domain S1 motif 4
+424	Y	0.1300	domain S1 motif 4
+425	S	0.1044	domain S1 motif 4
+426	Q	0.0872	domain S1 motif 4
+427	M	0.0748	domain S1 motif 4
+428	D	0.0638	domain S1 motif 4
+429	E	0.0556	domain S1 motif 4
+430	L	0.0569	domain S1 motif 4
+431	A	0.0601	domain S1 motif 4
+432	L	0.0594	domain S1 motif 4
+433	L	0.0582	domain S1 motif 4
+434	S	0.0533	domain S1 motif 4
+435	L	0.0489	domain S1 motif 4
+436	R	0.0404	domain S1 motif 4
+437	T	0.0343	
+438	S	0.0280	
+439	I	0.0263	
+440	I	0.0292	
+441	E	0.0368	
+442	A	0.0469	
+443	Q	0.0514	
+444	Y	0.0561	
+445	L	0.0606	
+446	R	0.0638	
+447	Y	0.0640	
+448	H	0.0602	
+449	D	0.0558	
+450	I	0.0505	
+451	E	0.0498	
+452	P	0.0578	
+453	G	0.0631	domain S1 motif 5
+454	A	0.0663	domain S1 motif 5
+455	V	0.0721	domain S1 motif 5
+456	V	0.0774	domain S1 motif 5
+457	K	0.0805	domain S1 motif 5
+458	G	0.0813	domain S1 motif 5
+459	T	0.0759	domain S1 motif 5
+460	V	0.0651	domain S1 motif 5
+461	L	0.0562	domain S1 motif 5
+462	T	0.0546	domain S1 motif 5
+463	I	0.0590	domain S1 motif 5
+464	K	0.0611	domain S1 motif 5
+465	S	0.0686	domain S1 motif 5
+466	Y	0.0697	domain S1 motif 5
+467	G	0.0769	domain S1 motif 5
+468	M	0.0899	domain S1 motif 5
+469	L	0.0991	domain S1 motif 5
+470	V	0.1144	domain S1 motif 5
+471	K	0.1288	domain S1 motif 5
+472	V	0.1433	domain S1 motif 5
+473	G	0.1510	domain S1 motif 5
+474	E	0.1604	domain S1 motif 5
+475	Q	0.1626	domain S1 motif 5
+476	M	0.1627	domain S1 motif 5
+477	R	0.1588	domain S1 motif 5
+478	G	0.1522	domain S1 motif 5
+479	L	0.1571	domain S1 motif 5
+480	V	0.1744	domain S1 motif 5
+481	P	0.2083	domain S1 motif 5
+482	P	0.2384	domain S1 motif 5
+483	M	0.2629	domain S1 motif 5
+484	H	0.2661	domain S1 motif 5
+485	L	0.2735	domain S1 motif 5
+486	A	0.2756	domain S1 motif 5
+487	D	0.2711	domain S1 motif 5
+488	I	0.2577	domain S1 motif 5
+489	L	0.2424	domain S1 motif 5
+490	M	0.2348	domain S1 motif 5
+491	K	0.2281	domain S1 motif 5
+492	N	0.2323	domain S1 motif 5
+493	P	0.2310	domain S1 motif 5
+494	E	0.2238	domain S1 motif 5
+495	K	0.2086	domain S1 motif 5
+496	K	0.1903	domain S1 motif 5
+497	Y	0.1735	domain S1 motif 5
+498	H	0.1550	domain S1 motif 5
+499	I	0.1534	domain S1 motif 5
+500	G	0.1519	domain S1 motif 5
+501	D	0.1462	domain S1 motif 5
+502	E	0.1308	domain S1 motif 5
+503	V	0.1242	domain S1 motif 5
+504	K	0.1146	domain S1 motif 5
+505	C	0.1166	domain S1 motif 5
+506	R	0.1067	domain S1 motif 5
+507	V	0.0956	domain S1 motif 5
+508	L	0.0892	domain S1 motif 5
+509	L	0.0856	domain S1 motif 5
+510	C	0.0868	domain S1 motif 5
+511	D	0.0847	domain S1 motif 5
+512	P	0.0855	domain S1 motif 5
+513	E	0.0731	domain S1 motif 5
+514	A	0.0640	domain S1 motif 5
+515	K	0.0661	domain S1 motif 5
+516	K	0.0733	domain S1 motif 5
+517	L	0.0916	domain S1 motif 5
+518	M	0.1118	domain S1 motif 5
+519	M	0.1341	domain S1 motif 5
+520	T	0.1442	domain S1 motif 5
+521	L	0.1485	domain S1 motif 5
+522	K	0.1439	domain S1 motif 5
+523	K	0.1320	
+524	T	0.1036	
+525	L	0.0765	
+526	I	0.0524	
+527	E	0.0394	
+528	S	0.0355	
+529	K	0.0321	
+530	L	0.0434	
+531	P	0.0502	
+532	V	0.0593	
+533	I	0.0687	
+534	T	0.0741	
+535	C	0.0765	
+536	Y	0.0726	
+537	A	0.0694	
+538	D	0.0608	
+539	A	0.0517	
+540	K	0.0447	
+541	P	0.0421	
+542	G	0.0361	domain S1 motif 6
+543	L	0.0357	domain S1 motif 6
+544	Q	0.0408	domain S1 motif 6
+545	T	0.0517	domain S1 motif 6
+546	H	0.0601	domain S1 motif 6
+547	G	0.0589	domain S1 motif 6
+548	F	0.0545	domain S1 motif 6
+549	I	0.0471	domain S1 motif 6
+550	I	0.0405	domain S1 motif 6
+551	R	0.0320	domain S1 motif 6
+552	V	0.0259	domain S1 motif 6
+553	K	0.0201	domain S1 motif 6
+554	D	0.0151	domain S1 motif 6
+555	Y	0.0128	domain S1 motif 6
+556	G	0.0129	domain S1 motif 6
+557	C	0.0170	domain S1 motif 6
+558	I	0.0216	domain S1 motif 6
+559	V	0.0283	domain S1 motif 6
+560	K	0.0322	domain S1 motif 6
+561	F	0.0382	domain S1 motif 6
+562	Y	0.0429	domain S1 motif 6
+563	N	0.0507	domain S1 motif 6
+564	N	0.0543	domain S1 motif 6
+565	V	0.0512	domain S1 motif 6
+566	Q	0.0466	domain S1 motif 6
+567	G	0.0525	domain S1 motif 6
+568	L	0.0697	domain S1 motif 6
+569	V	0.1029	domain S1 motif 6
+570	P	0.1464	domain S1 motif 6
+571	K	0.1856	domain S1 motif 6
+572	H	0.2073	domain S1 motif 6
+573	E	0.2193	domain S1 motif 6
+574	L	0.2301	domain S1 motif 6
+575	S	0.2344	domain S1 motif 6
+576	T	0.2348	domain S1 motif 6
+577	E	0.2254	domain S1 motif 6
+578	Y	0.2113	domain S1 motif 6
+579	I	0.2012	domain S1 motif 6
+580	P	0.1926	domain S1 motif 6
+581	D	0.1932	domain S1 motif 6
+582	P	0.1889	domain S1 motif 6
+583	E	0.1728	domain S1 motif 6
+584	R	0.1481	domain S1 motif 6
+585	V	0.1253	domain S1 motif 6
+586	F	0.1052	domain S1 motif 6
+587	Y	0.0997	domain S1 motif 6
+588	T	0.1082	domain S1 motif 6
+589	G	0.1186	domain S1 motif 6
+590	Q	0.1191	domain S1 motif 6
+591	V	0.1203	domain S1 motif 6
+592	V	0.1319	domain S1 motif 6
+593	K	0.1464	domain S1 motif 6
+594	V	0.1674	domain S1 motif 6
+595	V	0.1769	domain S1 motif 6
+596	V	0.1838	domain S1 motif 6
+597	L	0.1880	domain S1 motif 6
+598	N	0.1880	domain S1 motif 6
+599	C	0.1899	domain S1 motif 6
+600	E	0.1838	domain S1 motif 6
+601	P	0.1839	domain S1 motif 6
+602	S	0.1893	domain S1 motif 6
+603	K	0.2091	domain S1 motif 6
+604	E	0.2434	domain S1 motif 6
+605	R	0.2956	domain S1 motif 6
+606	M	0.3574	domain S1 motif 6
+607	L	0.4172	domain S1 motif 6
+608	L	0.4694	domain S1 motif 6
+609	S	0.5039	domain S1 motif 6
+610	F	0.5268	domain S1 motif 6
+611	K	0.5347	domain S1 motif 6
+612	L	0.5392	
+613	S	0.5318	
+614	S	0.5307	
+615	D	0.5393	
+616	P	0.5537	
+617	E	0.5826	
+618	P	0.6133	
+619	K	0.6463	
+620	K	0.6723	
+621	E	0.6978	
+622	P	0.7085	
+623	A	0.7107	
+624	G	0.6956	
+625	H	0.6710	
+626	S	0.6450	
+627	Q	0.6130	
+628	K	0.5768	
+629	K	0.5362	
+630	G	0.4991	
+631	K	0.4574	
+632	A	0.4139	
+633	I	0.3815	
+634	N	0.3509	
+635	I	0.3347	
+636	G	0.3177	domain S1 motif 7
+637	Q	0.3032	domain S1 motif 7
+638	L	0.2922	domain S1 motif 7
+639	V	0.2847	domain S1 motif 7
+640	D	0.2747	domain S1 motif 7
+641	V	0.2579	domain S1 motif 7
+642	K	0.2332	domain S1 motif 7
+643	V	0.2126	domain S1 motif 7
+644	L	0.1919	domain S1 motif 7
+645	E	0.1787	domain S1 motif 7
+646	K	0.1780	domain S1 motif 7
+647	T	0.1767	domain S1 motif 7
+648	K	0.1765	domain S1 motif 7
+649	D	0.1754	domain S1 motif 7
+650	G	0.1646	domain S1 motif 7
+651	L	0.1634	domain S1 motif 7
+652	E	0.1615	domain S1 motif 7
+653	V	0.1637	domain S1 motif 7
+654	A	0.1519	domain S1 motif 7
+655	V	0.1444	domain S1 motif 7
+656	L	0.1391	domain S1 motif 7
+657	P	0.1344	domain S1 motif 7
+658	H	0.1347	domain S1 motif 7
+659	N	0.1151	domain S1 motif 7
+660	I	0.1031	domain S1 motif 7
+661	R	0.1048	domain S1 motif 7
+662	A	0.1118	domain S1 motif 7
+663	F	0.1208	domain S1 motif 7
+664	L	0.1409	domain S1 motif 7
+665	P	0.1632	domain S1 motif 7
+666	T	0.1789	domain S1 motif 7
+667	S	0.1798	domain S1 motif 7
+668	H	0.1678	domain S1 motif 7
+669	L	0.1514	domain S1 motif 7
+670	S	0.1357	domain S1 motif 7
+671	D	0.1276	domain S1 motif 7
+672	H	0.1140	domain S1 motif 7
+673	V	0.1058	domain S1 motif 7
+674	A	0.1044	domain S1 motif 7
+675	N	0.1127	domain S1 motif 7
+676	G	0.1236	domain S1 motif 7
+677	P	0.1157	domain S1 motif 7
+678	L	0.1042	domain S1 motif 7
+679	L	0.0924	domain S1 motif 7
+680	H	0.0817	domain S1 motif 7
+681	H	0.0610	domain S1 motif 7
+682	W	0.0420	domain S1 motif 7
+683	L	0.0316	domain S1 motif 7
+684	Q	0.0273	domain S1 motif 7
+685	A	0.0237	domain S1 motif 7
+686	G	0.0219	domain S1 motif 7
+687	D	0.0215	domain S1 motif 7
+688	I	0.0258	domain S1 motif 7
+689	L	0.0372	domain S1 motif 7
+690	H	0.0464	domain S1 motif 7
+691	R	0.0507	domain S1 motif 7
+692	V	0.0508	domain S1 motif 7
+693	L	0.0507	domain S1 motif 7
+694	C	0.0498	domain S1 motif 7
+695	L	0.0472	domain S1 motif 7
+696	S	0.0459	domain S1 motif 7
+697	Q	0.0437	domain S1 motif 7
+698	S	0.0386	domain S1 motif 7
+699	E	0.0370	domain S1 motif 7
+700	G	0.0392	domain S1 motif 7
+701	R	0.0470	domain S1 motif 7
+702	V	0.0604	domain S1 motif 7
+703	L	0.0785	domain S1 motif 7
+704	L	0.0966	domain S1 motif 7
+705	C	0.1246	domain S1 motif 7
+706	R	0.1506	domain S1 motif 7
+707	K	0.1677	domain S1 motif 7
+708	P	0.1789	
+709	A	0.1875	
+710	L	0.1895	
+711	V	0.1965	
+712	S	0.2103	
+713	T	0.2295	
+714	V	0.2543	
+715	E	0.2878	
+716	G	0.3159	
+717	G	0.3361	
+718	Q	0.3526	
+719	D	0.3597	
+720	P	0.3486	
+721	K	0.3295	
+722	N	0.3022	
+723	F	0.2769	
+724	S	0.2531	
+725	E	0.2252	
+726	I	0.1948	
+727	H	0.1680	
+728	P	0.1420	
+729	G	0.1190	domain S1 motif 8
+730	M	0.1011	domain S1 motif 8
+731	L	0.0849	domain S1 motif 8
+732	L	0.0675	domain S1 motif 8
+733	I	0.0567	domain S1 motif 8
+734	G	0.0471	domain S1 motif 8
+735	F	0.0365	domain S1 motif 8
+736	V	0.0292	domain S1 motif 8
+737	K	0.0260	domain S1 motif 8
+738	S	0.0231	domain S1 motif 8
+739	I	0.0220	domain S1 motif 8
+740	K	0.0207	domain S1 motif 8
+741	D	0.0214	domain S1 motif 8
+742	Y	0.0273	domain S1 motif 8
+743	G	0.0362	domain S1 motif 8
+744	V	0.0464	domain S1 motif 8
+745	F	0.0531	domain S1 motif 8
+746	I	0.0596	domain S1 motif 8
+747	Q	0.0633	domain S1 motif 8
+748	F	0.0676	domain S1 motif 8
+749	P	0.0657	domain S1 motif 8
+750	S	0.0682	domain S1 motif 8
+751	G	0.0641	domain S1 motif 8
+752	L	0.0652	domain S1 motif 8
+753	S	0.0703	domain S1 motif 8
+754	G	0.0777	domain S1 motif 8
+755	L	0.0911	domain S1 motif 8
+756	A	0.1154	domain S1 motif 8
+757	P	0.1435	domain S1 motif 8
+758	K	0.1644	domain S1 motif 8
+759	A	0.1747	domain S1 motif 8
+760	I	0.1802	domain S1 motif 8
+761	M	0.1909	domain S1 motif 8
+762	S	0.2070	domain S1 motif 8
+763	D	0.2168	domain S1 motif 8
+764	K	0.2189	domain S1 motif 8
+765	F	0.2256	domain S1 motif 8
+766	V	0.2388	domain S1 motif 8
+767	T	0.2505	domain S1 motif 8
+768	S	0.2682	domain S1 motif 8
+769	T	0.2721	domain S1 motif 8
+770	S	0.2727	domain S1 motif 8
+771	D	0.2681	domain S1 motif 8
+772	H	0.2619	domain S1 motif 8
+773	F	0.2548	domain S1 motif 8
+774	V	0.2588	domain S1 motif 8
+775	E	0.2792	domain S1 motif 8
+776	G	0.3006	domain S1 motif 8
+777	Q	0.3175	domain S1 motif 8
+778	T	0.3280	domain S1 motif 8
+779	V	0.3457	domain S1 motif 8
+780	A	0.3607	domain S1 motif 8
+781	A	0.3712	domain S1 motif 8
+782	K	0.3614	domain S1 motif 8
+783	V	0.3346	domain S1 motif 8
+784	T	0.3038	domain S1 motif 8
+785	N	0.2694	domain S1 motif 8
+786	V	0.2401	domain S1 motif 8
+787	D	0.2120	domain S1 motif 8
+788	E	0.1872	domain S1 motif 8
+789	E	0.1670	domain S1 motif 8
+790	K	0.1526	domain S1 motif 8
+791	Q	0.1460	domain S1 motif 8
+792	R	0.1441	domain S1 motif 8
+793	M	0.1445	domain S1 motif 8
+794	L	0.1425	domain S1 motif 8
+795	L	0.1372	domain S1 motif 8
+796	S	0.1215	domain S1 motif 8
+797	L	0.1051	domain S1 motif 8
+798	R	0.0842	domain S1 motif 8
+799	L	0.0700	
+800	S	0.0552	
+801	D	0.0380	
+802	C	0.0261	
+803	G	0.0156	
+804	L	0.0121	
+805	G	0.0116	
+806	D	0.0120	
+807	L	0.0121	
+808	A	0.0110	
+809	I	0.0129	
+810	T	0.0153	
+811	S	0.0163	
+812	L	0.0158	
+813	L	0.0150	
+814	L	0.0161	
+815	L	0.0184	
+816	N	0.0168	
+817	Q	0.0149	
+818	C	0.0115	
+819	L	0.0169	
+820	E	0.0294	
+821	E	0.0413	
+822	L	0.0525	
+823	Q	0.0652	
+824	G	0.0798	
+825	V	0.0891	
+826	R	0.0953	
+827	S	0.0995	
+828	L	0.0950	
+829	M	0.0879	
+830	S	0.0888	
+831	N	0.0975	
+832	R	0.1072	
+833	D	0.1231	
+834	S	0.1400	
+835	V	0.1552	
+836	L	0.1613	
+837	I	0.1636	
+838	Q	0.1605	
+839	T	0.1489	
+840	L	0.1246	
+841	A	0.0974	
+842	E	0.0770	
+843	M	0.0544	
+844	T	0.0415	
+845	P	0.0451	
+846	G	0.0555	
+847	M	0.0701	
+848	F	0.0949	
+849	L	0.1212	
+850	D	0.1331	
+851	L	0.1386	
+852	V	0.1291	
+853	V	0.1135	
+854	Q	0.0969	
+855	E	0.0830	
+856	V	0.0777	
+857	L	0.0856	
+858	E	0.1074	
+859	D	0.1369	
+860	G	0.1604	
+861	S	0.1788	
+862	V	0.1913	
+863	V	0.1989	
+864	F	0.2067	
+865	S	0.2073	
+866	G	0.2021	
+867	G	0.1855	
+868	P	0.1767	
+869	V	0.1805	
+870	P	0.1867	
+871	D	0.2043	
+872	L	0.2196	
+873	V	0.2347	
+874	L	0.2550	
+875	K	0.2684	
+876	A	0.2874	
+877	S	0.2986	
+878	R	0.2997	
+879	Y	0.3085	
+880	H	0.3126	
+881	R	0.3232	
+882	A	0.3322	
+883	G	0.3439	
+884	Q	0.3584	
+885	E	0.3496	
+886	V	0.3378	
+887	E	0.3165	
+888	S	0.2939	
+889	G	0.2655	
+890	Q	0.2312	
+891	K	0.1990	
+892	K	0.1816	
+893	K	0.1645	
+894	V	0.1497	
+895	V	0.1279	
+896	I	0.1114	
+897	L	0.1020	
+898	N	0.0924	
+899	V	0.0900	
+900	D	0.0712	
+901	L	0.0591	
+902	L	0.0528	
+903	K	0.0434	
+904	L	0.0467	
+905	E	0.0527	
+906	V	0.0735	
+907	H	0.0877	
+908	V	0.1073	
+909	S	0.1209	
+910	L	0.1423	
+911	H	0.1593	
+912	Q	0.1794	
+913	D	0.1979	
+914	L	0.2289	
+915	V	0.2667	
+916	N	0.3046	
+917	R	0.3413	
+918	K	0.3574	
+919	A	0.3661	
+920	R	0.3585	
+921	K	0.3526	
+922	L	0.3470	
+923	R	0.3437	
+924	K	0.3534	
+925	G	0.3499	
+926	S	0.3485	
+927	E	0.3469	
+928	H	0.3456	
+929	Q	0.3312	
+930	A	0.3077	
+931	I	0.2699	
+932	V	0.2398	
+933	Q	0.2158	
+934	H	0.1935	
+935	L	0.1818	
+936	E	0.1676	
+937	K	0.1594	
+938	S	0.1435	
+939	F	0.1327	
+940	A	0.1161	
+941	I	0.1097	
+942	A	0.1094	
+943	S	0.0985	
+944	L	0.0818	
+945	V	0.0735	
+946	E	0.0694	
+947	T	0.0730	
+948	G	0.0747	
+949	H	0.0765	
+950	L	0.0831	
+951	A	0.0916	
+952	A	0.1050	
+953	F	0.1137	
+954	S	0.1202	
+955	L	0.1321	
+956	T	0.1316	
+957	S	0.1270	
+958	H	0.1196	
+959	L	0.1169	
+960	N	0.1250	
+961	D	0.1425	
+962	T	0.1572	
+963	F	0.1754	
+964	R	0.1946	
+965	F	0.2196	
+966	D	0.2307	
+967	S	0.2366	
+968	E	0.2224	
+969	K	0.2068	
+970	L	0.2020	
+971	Q	0.2016	
+972	V	0.2224	
+973	G	0.2535	
+974	Q	0.2909	
+975	G	0.3244	
+976	V	0.3532	
+977	S	0.3690	
+978	L	0.3815	
+979	T	0.3756	
+980	L	0.3611	
+981	K	0.3383	
+982	T	0.3240	
+983	T	0.3218	
+984	E	0.3266	
+985	P	0.3461	
+986	G	0.3658	
+987	V	0.3907	
+988	T	0.4185	
+989	G	0.4474	
+990	L	0.4746	
+991	L	0.4886	
+992	L	0.5030	
+993	A	0.5021	
+994	V	0.4960	
+995	E	0.4928	
+996	G	0.4999	
+997	P	0.5018	
+998	A	0.5134	
+999	A	0.5282	
+1000	K	0.5539	
+1001	R	0.5831	
+1002	T	0.6121	
+1003	M	0.6352	
+1004	R	0.6519	
+1005	P	0.6633	
+1006	T	0.6715	
+1007	Q	0.6794	
+1008	K	0.6835	
+1009	D	0.6820	
+1010	S	0.6871	
+1011	E	0.6878	
+1012	T	0.6837	
+1013	V	0.6763	
+1014	D	0.6649	
+1015	E	0.6516	
+1016	D	0.6262	
+1017	E	0.5995	
+1018	E	0.5736	
+1019	V	0.5503	
+1020	D	0.5290	
+1021	P	0.5135	
+1022	A	0.4955	
+1023	L	0.4772	
+1024	T	0.4554	
+1025	V	0.4391	
+1026	G	0.4195	
+1027	T	0.3912	
+1028	I	0.3677	
+1029	K	0.3488	
+1030	K	0.3330	
+1031	H	0.3137	
+1032	T	0.2921	
+1033	L	0.2808	
+1034	S	0.2708	
+1035	I	0.2783	
+1036	G	0.2834	domain S1 motif 9
+1037	D	0.2935	domain S1 motif 9
+1038	M	0.2942	domain S1 motif 9
+1039	V	0.2957	domain S1 motif 9
+1040	T	0.2880	domain S1 motif 9
+1041	G	0.2763	domain S1 motif 9
+1042	T	0.2645	domain S1 motif 9
+1043	V	0.2544	domain S1 motif 9
+1044	K	0.2433	domain S1 motif 9
+1045	S	0.2359	domain S1 motif 9
+1046	I	0.2280	domain S1 motif 9
+1047	K	0.2264	domain S1 motif 9
+1048	P	0.2299	domain S1 motif 9
+1049	T	0.2205	domain S1 motif 9
+1050	H	0.2018	domain S1 motif 9
+1051	V	0.1852	domain S1 motif 9
+1052	V	0.1708	domain S1 motif 9
+1053	V	0.1631	domain S1 motif 9
+1054	T	0.1545	domain S1 motif 9
+1055	L	0.1558	domain S1 motif 9
+1056	E	0.1485	domain S1 motif 9
+1057	D	0.1422	domain S1 motif 9
+1058	G	0.1295	domain S1 motif 9
+1059	I	0.1230	domain S1 motif 9
+1060	I	0.1205	domain S1 motif 9
+1061	G	0.1242	domain S1 motif 9
+1062	C	0.1355	domain S1 motif 9
+1063	I	0.1518	domain S1 motif 9
+1064	H	0.1802	domain S1 motif 9
+1065	A	0.2161	domain S1 motif 9
+1066	S	0.2564	domain S1 motif 9
+1067	H	0.2867	domain S1 motif 9
+1068	I	0.3083	domain S1 motif 9
+1069	L	0.3259	domain S1 motif 9
+1070	D	0.3476	domain S1 motif 9
+1071	D	0.3653	domain S1 motif 9
+1072	V	0.3801	domain S1 motif 9
+1073	P	0.3876	domain S1 motif 9
+1074	E	0.3953	domain S1 motif 9
+1075	G	0.4059	domain S1 motif 9
+1076	T	0.4126	domain S1 motif 9
+1077	S	0.4205	domain S1 motif 9
+1078	P	0.4254	domain S1 motif 9
+1079	T	0.4306	domain S1 motif 9
+1080	T	0.4318	domain S1 motif 9
+1081	K	0.4254	domain S1 motif 9
+1082	L	0.4212	domain S1 motif 9
+1083	K	0.4179	domain S1 motif 9
+1084	V	0.4126	domain S1 motif 9
+1085	G	0.4015	domain S1 motif 9
+1086	K	0.3915	domain S1 motif 9
+1087	T	0.3677	domain S1 motif 9
+1088	V	0.3558	domain S1 motif 9
+1089	T	0.3453	domain S1 motif 9
+1090	A	0.3347	domain S1 motif 9
+1091	R	0.3119	domain S1 motif 9
+1092	V	0.2868	domain S1 motif 9
+1093	I	0.2652	domain S1 motif 9
+1094	G	0.2609	domain S1 motif 9
+1095	G	0.2665	domain S1 motif 9
+1096	R	0.2671	domain S1 motif 9
+1097	D	0.2728	domain S1 motif 9
+1098	M	0.2802	domain S1 motif 9
+1099	K	0.2861	domain S1 motif 9
+1100	T	0.2931	domain S1 motif 9
+1101	F	0.2999	domain S1 motif 9
+1102	K	0.3067	domain S1 motif 9
+1103	Y	0.3118	domain S1 motif 9
+1104	L	0.3106	domain S1 motif 9
+1105	P	0.2950	domain S1 motif 9
+1106	I	0.2749	domain S1 motif 9
+1107	S	0.2573	domain S1 motif 9
+1108	H	0.2558	domain S1 motif 9
+1109	P	0.2505	domain S1 motif 9
+1110	R	0.2455	
+1111	F	0.2487	
+1112	V	0.2728	
+1113	R	0.3106	
+1114	T	0.3468	
+1115	I	0.3819	
+1116	P	0.4080	
+1117	E	0.4246	
+1118	L	0.4286	
+1119	S	0.4269	
+1120	V	0.4343	
+1121	R	0.4410	
+1122	P	0.4463	
+1123	S	0.4530	
+1124	E	0.4515	
+1125	L	0.4611	
+1126	E	0.4835	
+1127	D	0.5021	
+1128	G	0.5163	
+1129	H	0.5204	
+1130	T	0.5200	
+1131	A	0.5184	
+1132	L	0.5143	
+1133	N	0.4995	
+1134	T	0.4856	
+1135	H	0.4635	
+1136	S	0.4306	
+1137	V	0.4092	
+1138	S	0.4058	
+1139	P	0.4039	
+1140	M	0.3974	
+1141	E	0.3831	
+1142	K	0.3572	
+1143	I	0.3310	
+1144	K	0.3047	
+1145	Q	0.2767	
+1146	Y	0.2405	
+1147	Q	0.2022	
+1148	A	0.1706	
+1149	G	0.1421	domain S1 motif 10
+1150	Q	0.1204	domain S1 motif 10
+1151	T	0.1028	domain S1 motif 10
+1152	V	0.0947	domain S1 motif 10
+1153	T	0.0807	domain S1 motif 10
+1154	C	0.0651	domain S1 motif 10
+1155	F	0.0497	domain S1 motif 10
+1156	L	0.0438	domain S1 motif 10
+1157	K	0.0437	domain S1 motif 10
+1158	K	0.0364	domain S1 motif 10
+1159	Y	0.0280	domain S1 motif 10
+1160	N	0.0213	domain S1 motif 10
+1161	V	0.0160	domain S1 motif 10
+1162	V	0.0165	domain S1 motif 10
+1163	K	0.0227	domain S1 motif 10
+1164	K	0.0264	domain S1 motif 10
+1165	W	0.0304	domain S1 motif 10
+1166	L	0.0353	domain S1 motif 10
+1167	E	0.0385	domain S1 motif 10
+1168	V	0.0403	domain S1 motif 10
+1169	E	0.0384	domain S1 motif 10
+1170	I	0.0357	domain S1 motif 10
+1171	A	0.0317	domain S1 motif 10
+1172	P	0.0297	domain S1 motif 10
+1173	D	0.0264	domain S1 motif 10
+1174	I	0.0249	domain S1 motif 10
+1175	R	0.0259	domain S1 motif 10
+1176	G	0.0304	domain S1 motif 10
+1177	R	0.0292	domain S1 motif 10
+1178	I	0.0273	domain S1 motif 10
+1179	P	0.0301	domain S1 motif 10
+1180	L	0.0356	domain S1 motif 10
+1181	L	0.0430	domain S1 motif 10
+1182	L	0.0550	domain S1 motif 10
+1183	T	0.0632	domain S1 motif 10
+1184	S	0.0653	domain S1 motif 10
+1185	L	0.0673	domain S1 motif 10
+1186	S	0.0669	domain S1 motif 10
+1187	F	0.0733	domain S1 motif 10
+1188	K	0.0743	domain S1 motif 10
+1189	V	0.0806	domain S1 motif 10
+1190	L	0.0914	domain S1 motif 10
+1191	K	0.1086	domain S1 motif 10
+1192	H	0.1242	domain S1 motif 10
+1193	P	0.1342	domain S1 motif 10
+1194	D	0.1461	domain S1 motif 10
+1195	K	0.1550	domain S1 motif 10
+1196	K	0.1664	domain S1 motif 10
+1197	F	0.1829	domain S1 motif 10
+1198	R	0.2069	domain S1 motif 10
+1199	V	0.2415	domain S1 motif 10
+1200	G	0.2763	domain S1 motif 10
+1201	Q	0.3126	domain S1 motif 10
+1202	A	0.3289	domain S1 motif 10
+1203	L	0.3349	domain S1 motif 10
+1204	R	0.3295	domain S1 motif 10
+1205	A	0.3197	domain S1 motif 10
+1206	T	0.2835	domain S1 motif 10
+1207	V	0.2461	domain S1 motif 10
+1208	V	0.2077	domain S1 motif 10
+1209	G	0.1957	domain S1 motif 10
+1210	P	0.1972	domain S1 motif 10
+1211	D	0.2003	domain S1 motif 10
+1212	S	0.2104	domain S1 motif 10
+1213	S	0.2251	domain S1 motif 10
+1214	K	0.2507	domain S1 motif 10
+1215	T	0.2775	domain S1 motif 10
+1216	L	0.3076	domain S1 motif 10
+1217	L	0.3387	domain S1 motif 10
+1218	C	0.3560	domain S1 motif 10
+1219	L	0.3681	domain S1 motif 10
+1220	S	0.3632	domain S1 motif 10
+1221	L	0.3475	domain S1 motif 10
+1222	T	0.3291	domain S1 motif 10
+1223	G	0.3184	
+1224	P	0.2944	
+1225	H	0.2724	
+1226	K	0.2516	
+1227	L	0.2515	
+1228	E	0.2714	
+1229	E	0.2983	
+1230	G	0.3246	domain S1 motif 11
+1231	E	0.3406	domain S1 motif 11
+1232	V	0.3613	domain S1 motif 11
+1233	A	0.3714	domain S1 motif 11
+1234	M	0.3834	domain S1 motif 11
+1235	G	0.3831	domain S1 motif 11
+1236	R	0.3658	domain S1 motif 11
+1237	V	0.3422	domain S1 motif 11
+1238	V	0.3172	domain S1 motif 11
+1239	K	0.2862	domain S1 motif 11
+1240	V	0.2619	domain S1 motif 11
+1241	T	0.2400	domain S1 motif 11
+1242	P	0.2213	domain S1 motif 11
+1243	N	0.2113	domain S1 motif 11
+1244	E	0.2021	domain S1 motif 11
+1245	G	0.1980	domain S1 motif 11
+1246	L	0.2030	domain S1 motif 11
+1247	T	0.2086	domain S1 motif 11
+1248	V	0.2080	domain S1 motif 11
+1249	S	0.1969	domain S1 motif 11
+1250	F	0.1887	domain S1 motif 11
+1251	P	0.1669	domain S1 motif 11
+1252	F	0.1566	domain S1 motif 11
+1253	G	0.1322	domain S1 motif 11
+1254	K	0.1160	domain S1 motif 11
+1255	I	0.1044	domain S1 motif 11
+1256	G	0.0956	domain S1 motif 11
+1257	T	0.1029	domain S1 motif 11
+1258	V	0.1240	domain S1 motif 11
+1259	S	0.1402	domain S1 motif 11
+1260	I	0.1607	domain S1 motif 11
+1261	F	0.1718	domain S1 motif 11
+1262	H	0.1794	domain S1 motif 11
+1263	M	0.1901	domain S1 motif 11
+1264	S	0.1874	domain S1 motif 11
+1265	D	0.1814	domain S1 motif 11
+1266	S	0.1752	domain S1 motif 11
+1267	Y	0.1748	domain S1 motif 11
+1268	S	0.1869	domain S1 motif 11
+1269	E	0.2031	domain S1 motif 11
+1270	T	0.2181	domain S1 motif 11
+1271	P	0.2179	domain S1 motif 11
+1272	L	0.2232	domain S1 motif 11
+1273	E	0.2135	domain S1 motif 11
+1274	D	0.1975	domain S1 motif 11
+1275	F	0.1822	domain S1 motif 11
+1276	V	0.1659	domain S1 motif 11
+1277	P	0.1569	domain S1 motif 11
+1278	Q	0.1483	domain S1 motif 11
+1279	K	0.1340	domain S1 motif 11
+1280	V	0.1303	domain S1 motif 11
+1281	V	0.1360	domain S1 motif 11
+1282	R	0.1359	domain S1 motif 11
+1283	C	0.1329	domain S1 motif 11
+1284	Y	0.1208	domain S1 motif 11
+1285	I	0.1117	domain S1 motif 11
+1286	L	0.1073	domain S1 motif 11
+1287	S	0.1086	domain S1 motif 11
+1288	T	0.1094	domain S1 motif 11
+1289	A	0.1148	domain S1 motif 11
+1290	D	0.1291	domain S1 motif 11
+1291	N	0.1506	domain S1 motif 11
+1292	V	0.1908	domain S1 motif 11
+1293	L	0.2394	domain S1 motif 11
+1294	T	0.2953	domain S1 motif 11
+1295	L	0.3523	domain S1 motif 11
+1296	S	0.3883	domain S1 motif 11
+1297	L	0.4189	domain S1 motif 11
+1298	R	0.4379	domain S1 motif 11
+1299	S	0.4484	
+1300	S	0.4581	
+1301	R	0.4648	
+1302	T	0.4674	
+1303	N	0.4848	
+1304	P	0.5100	
+1305	E	0.5375	
+1306	T	0.5612	
+1307	K	0.5745	
+1308	S	0.5805	
+1309	K	0.5818	
+1310	V	0.5788	
+1311	E	0.5681	
+1312	D	0.5617	
+1313	P	0.5491	
+1314	E	0.5241	
+1315	I	0.4971	
+1316	N	0.4735	
+1317	S	0.4551	
+1318	I	0.4293	
+1319	Q	0.3973	
+1320	D	0.3613	
+1321	I	0.3284	
+1322	K	0.3080	
+1323	E	0.3074	
+1324	G	0.3048	domain S1 motif 12
+1325	Q	0.3035	domain S1 motif 12
+1326	L	0.3041	domain S1 motif 12
+1327	L	0.3037	domain S1 motif 12
+1328	R	0.2981	domain S1 motif 12
+1329	G	0.2826	domain S1 motif 12
+1330	Y	0.2643	domain S1 motif 12
+1331	V	0.2377	domain S1 motif 12
+1332	G	0.2111	domain S1 motif 12
+1333	S	0.1805	domain S1 motif 12
+1334	I	0.1556	domain S1 motif 12
+1335	Q	0.1487	domain S1 motif 12
+1336	P	0.1502	domain S1 motif 12
+1337	H	0.1491	domain S1 motif 12
+1338	G	0.1510	domain S1 motif 12
+1339	V	0.1475	domain S1 motif 12
+1340	F	0.1448	domain S1 motif 12
+1341	F	0.1515	domain S1 motif 12
+1342	R	0.1497	domain S1 motif 12
+1343	L	0.1461	domain S1 motif 12
+1344	G	0.1349	domain S1 motif 12
+1345	P	0.1272	domain S1 motif 12
+1346	S	0.1182	domain S1 motif 12
+1347	V	0.1148	domain S1 motif 12
+1348	V	0.1287	domain S1 motif 12
+1349	G	0.1644	domain S1 motif 12
+1350	L	0.2158	domain S1 motif 12
+1351	A	0.2654	domain S1 motif 12
+1352	R	0.3005	domain S1 motif 12
+1353	Y	0.3358	domain S1 motif 12
+1354	S	0.3607	domain S1 motif 12
+1355	H	0.3697	domain S1 motif 12
+1356	V	0.3658	domain S1 motif 12
+1357	S	0.3516	domain S1 motif 12
+1358	Q	0.3450	domain S1 motif 12
+1359	H	0.3524	domain S1 motif 12
+1360	S	0.3733	domain S1 motif 12
+1361	P	0.4059	domain S1 motif 12
+1362	S	0.4369	domain S1 motif 12
+1363	K	0.4697	domain S1 motif 12
+1364	K	0.4918	domain S1 motif 12
+1365	A	0.4910	domain S1 motif 12
+1366	L	0.4841	domain S1 motif 12
+1367	Y	0.4785	domain S1 motif 12
+1368	N	0.4638	domain S1 motif 12
+1369	K	0.4300	domain S1 motif 12
+1370	H	0.3797	domain S1 motif 12
+1371	L	0.3280	domain S1 motif 12
+1372	P	0.2848	domain S1 motif 12
+1373	E	0.2733	domain S1 motif 12
+1374	G	0.2610	domain S1 motif 12
+1375	K	0.2601	domain S1 motif 12
+1376	L	0.2707	domain S1 motif 12
+1377	L	0.2897	domain S1 motif 12
+1378	T	0.3160	domain S1 motif 12
+1379	A	0.3353	domain S1 motif 12
+1380	R	0.3299	domain S1 motif 12
+1381	V	0.3063	domain S1 motif 12
+1382	L	0.2734	domain S1 motif 12
+1383	R	0.2329	domain S1 motif 12
+1384	L	0.2025	domain S1 motif 12
+1385	N	0.1793	domain S1 motif 12
+1386	H	0.1765	domain S1 motif 12
+1387	Q	0.1856	domain S1 motif 12
+1388	K	0.2076	domain S1 motif 12
+1389	N	0.2355	domain S1 motif 12
+1390	L	0.2750	domain S1 motif 12
+1391	V	0.3237	domain S1 motif 12
+1392	E	0.3644	domain S1 motif 12
+1393	L	0.3967	domain S1 motif 12
+1394	S	0.4030	domain S1 motif 12
+1395	F	0.3990	domain S1 motif 12
+1396	L	0.3954	domain S1 motif 12
+1397	P	0.3930	
+1398	G	0.3871	
+1399	D	0.3783	
+1400	T	0.3778	
+1401	G	0.3967	
+1402	K	0.4326	
+1403	P	0.4717	
+1404	D	0.5149	
+1405	V	0.5483	
+1406	L	0.5796	
+1407	S	0.6036	
+1408	A	0.6165	
+1409	S	0.6124	
+1410	L	0.6090	
+1411	E	0.5992	
+1412	G	0.5878	
+1413	Q	0.5765	
+1414	L	0.5698	
+1415	T	0.5773	
+1416	K	0.5973	
+1417	Q	0.6135	
+1418	E	0.6310	
+1419	E	0.6476	
+1420	R	0.6631	
+1421	K	0.6739	
+1422	T	0.6803	
+1423	E	0.6812	
+1424	A	0.6830	
+1425	E	0.6885	
+1426	E	0.6942	
+1427	R	0.6979	
+1428	D	0.7011	
+1429	Q	0.7018	
+1430	K	0.7066	
+1431	G	0.7092	
+1432	E	0.7146	
+1433	K	0.7223	
+1434	K	0.7355	
+1435	N	0.7425	
+1436	Q	0.7435	
+1437	K	0.7384	
+1438	R	0.7331	
+1439	N	0.7268	
+1440	E	0.7201	
+1441	K	0.7166	
+1442	K	0.7172	
+1443	N	0.7202	
+1444	Q	0.7275	
+1445	K	0.7368	
+1446	G	0.7467	
+1447	Q	0.7561	
+1448	E	0.7629	
+1449	E	0.7689	
+1450	V	0.7778	
+1451	E	0.7880	
+1452	M	0.7990	
+1453	P	0.8068	
+1454	S	0.8087	
+1455	K	0.8103	
+1456	E	0.8156	
+1457	K	0.8244	
+1458	Q	0.8328	
+1459	Q	0.8390	
+1460	P	0.8417	
+1461	Q	0.8423	
+1462	K	0.8402	
+1463	P	0.8355	
+1464	Q	0.8278	
+1465	A	0.8196	
+1466	Q	0.8101	
+1467	K	0.8030	
+1468	R	0.8000	
+1469	G	0.7951	
+1470	G	0.7877	
+1471	R	0.7770	
+1472	E	0.7601	
+1473	C	0.7405	
+1474	R	0.7236	
+1475	E	0.7117	
+1476	S	0.6979	
+1477	G	0.6839	
+1478	S	0.6693	
+1479	E	0.6569	
+1480	Q	0.6442	
+1481	E	0.6374	
+1482	R	0.6354	
+1483	V	0.6354	
+1484	S	0.6385	
+1485	K	0.6472	
+1486	K	0.6571	
+1487	P	0.6611	
+1488	K	0.6571	
+1489	K	0.6413	
+1490	A	0.6224	
+1491	G	0.5982	
+1492	L	0.5737	
+1493	S	0.5553	
+1494	E	0.5407	
+1495	E	0.5300	
+1496	D	0.5247	
+1497	D	0.5228	
+1498	S	0.5254	
+1499	L	0.5385	
+1500	V	0.5533	
+1501	D	0.5664	
+1502	V	0.5708	
+1503	Y	0.5689	
+1504	Y	0.5627	
+1505	R	0.5524	
+1506	E	0.5397	
+1507	G	0.5180	
+1508	K	0.5040	
+1509	E	0.4968	
+1510	E	0.5017	
+1511	A	0.5165	
+1512	E	0.5403	
+1513	E	0.5717	
+1514	T	0.5978	
+1515	N	0.6188	
+1516	V	0.6331	
+1517	L	0.6434	
+1518	P	0.6429	
+1519	K	0.6402	
+1520	E	0.6224	
+1521	K	0.6077	
+1522	Q	0.5924	
+1523	T	0.5854	
+1524	K	0.5782	
+1525	P	0.5704	
+1526	A	0.5625	
+1527	E	0.5463	
+1528	A	0.5378	
+1529	P	0.5247	
+1530	R	0.5058	
+1531	L	0.4839	
+1532	Q	0.4625	
+1533	L	0.4481	
+1534	S	0.4273	
+1535	S	0.4155	
+1536	G	0.4078	
+1537	F	0.4047	
+1538	A	0.3974	
+1539	W	0.4025	
+1540	N	0.4021	
+1541	V	0.4103	
+1542	G	0.4106	
+1543	L	0.4195	
+1544	D	0.4270	
+1545	S	0.4348	
+1546	L	0.4532	
+1547	T	0.4769	
+1548	P	0.5051	
+1549	A	0.5274	
+1550	L	0.5588	
+1551	P	0.5945	
+1552	P	0.6255	
+1553	L	0.6558	
+1554	A	0.6807	
+1555	E	0.7024	
+1556	S	0.7161	
+1557	S	0.7261	
+1558	D	0.7281	
+1559	S	0.7295	
+1560	E	0.7213	
+1561	E	0.7167	
+1562	D	0.7079	
+1563	E	0.7029	
+1564	K	0.6976	
+1565	P	0.6963	
+1566	H	0.7014	
+1567	Q	0.6994	
+1568	A	0.6961	
+1569	T	0.6894	
+1570	I	0.6888	
+1571	K	0.6817	
+1572	K	0.6730	
+1573	S	0.6657	
+1574	K	0.6540	
+1575	K	0.6374	
+1576	E	0.6189	
+1577	R	0.6035	
+1578	E	0.5874	
+1579	L	0.5768	
+1580	E	0.5660	
+1581	K	0.5588	
+1582	Q	0.5527	
+1583	K	0.5517	
+1584	A	0.5517	
+1585	E	0.5504	
+1586	K	0.5497	
+1587	E	0.5500	
+1588	L	0.5586	
+1589	S	0.5649	
+1590	R	0.5837	
+1591	I	0.6011	
+1592	E	0.6134	
+1593	E	0.6243	
+1594	A	0.6278	
+1595	L	0.6338	
+1596	M	0.6358	
+1597	D	0.6343	
+1598	P	0.6168	
+1599	G	0.5902	
+1600	R	0.5601	
+1601	Q	0.5321	
+1602	P	0.5117	
+1603	E	0.5001	
+1604	S	0.4972	
+1605	A	0.5082	
+1606	D	0.5161	
+1607	D	0.5147	
+1608	F	0.5087	
+1609	D	0.4800	
+1610	R	0.4344	
+1611	L	0.3721	
+1612	V	0.2982	
+1613	L	0.2291	
+1614	S	0.1701	
+1615	S	0.1281	
+1616	P	0.0895	
+1617	N	0.0682	
+1618	S	0.0585	
+1619	S	0.0562	
+1620	I	0.0620	
+1621	L	0.0669	
+1622	W	0.0728	
+1623	L	0.0830	
+1624	Q	0.0883	
+1625	Y	0.0904	
+1626	M	0.0810	
+1627	A	0.0683	
+1628	F	0.0611	
+1629	H	0.0521	
+1630	L	0.0480	
+1631	Q	0.0501	
+1632	A	0.0597	
+1633	T	0.0735	
+1634	E	0.0837	
+1635	I	0.0950	
+1636	E	0.1019	
+1637	K	0.1104	
+1638	A	0.1098	
+1639	R	0.1039	
+1640	A	0.1059	
+1641	V	0.1098	
+1642	A	0.1209	
+1643	E	0.1360	
+1644	R	0.1467	
+1645	A	0.1531	
+1646	L	0.1590	
+1647	K	0.1627	
+1648	T	0.1589	
+1649	I	0.1475	
+1650	S	0.1297	
+1651	F	0.1091	
+1652	R	0.0866	
+1653	E	0.0700	
+1654	E	0.0578	
+1655	Q	0.0553	
+1656	E	0.0520	
+1657	K	0.0505	
+1658	L	0.0551	
+1659	N	0.0617	
+1660	V	0.0730	
+1661	W	0.0817	
+1662	V	0.0887	
+1663	A	0.0920	
+1664	L	0.0922	
+1665	L	0.0873	
+1666	N	0.0793	
+1667	L	0.0738	
+1668	E	0.0630	
+1669	N	0.0629	
+1670	M	0.0610	
+1671	Y	0.0686	
+1672	G	0.0757	
+1673	S	0.0910	
+1674	Q	0.1029	
+1675	E	0.1154	
+1676	S	0.1288	
+1677	L	0.1485	
+1678	T	0.1658	
+1679	K	0.1743	
+1680	V	0.1753	
+1681	F	0.1693	
+1682	E	0.1572	
+1683	R	0.1380	
+1684	A	0.1138	
+1685	V	0.0908	
+1686	Q	0.0637	
+1687	Y	0.0498	
+1688	N	0.0346	
+1689	E	0.0322	
+1690	P	0.0328	
+1691	L	0.0415	
+1692	K	0.0463	
+1693	V	0.0535	
+1694	F	0.0575	
+1695	L	0.0642	
+1696	H	0.0716	
+1697	L	0.0790	
+1698	A	0.0771	
+1699	D	0.0716	
+1700	I	0.0686	
+1701	Y	0.0662	
+1702	A	0.0635	
+1703	K	0.0658	
+1704	S	0.0698	
+1705	E	0.0731	
+1706	K	0.0733	
+1707	F	0.0785	
+1708	Q	0.0828	
+1709	E	0.0914	
+1710	A	0.1021	
+1711	G	0.1174	
+1712	E	0.1263	
+1713	L	0.1342	
+1714	Y	0.1400	
+1715	N	0.1399	
+1716	R	0.1284	
+1717	M	0.1105	
+1718	L	0.0910	
+1719	K	0.0698	
+1720	R	0.0518	
+1721	F	0.0398	
+1722	R	0.0316	
+1723	Q	0.0288	
+1724	E	0.0285	
+1725	K	0.0285	
+1726	A	0.0294	
+1727	V	0.0335	
+1728	W	0.0361	
+1729	I	0.0419	
+1730	K	0.0489	
+1731	Y	0.0552	
+1732	G	0.0541	
+1733	A	0.0523	
+1734	F	0.0508	
+1735	L	0.0473	
+1736	L	0.0481	
+1737	R	0.0547	
+1738	R	0.0619	
+1739	S	0.0625	
+1740	Q	0.0618	
+1741	A	0.0638	
+1742	A	0.0639	
+1743	A	0.0751	
+1744	S	0.0882	
+1745	H	0.1033	
+1746	R	0.1210	
+1747	V	0.1409	
+1748	L	0.1600	
+1749	Q	0.1769	
+1750	R	0.1826	
+1751	A	0.1716	
+1752	L	0.1533	
+1753	E	0.1275	
+1754	C	0.1077	
+1755	L	0.0906	
+1756	P	0.0835	
+1757	S	0.0798	
+1758	K	0.0723	
+1759	E	0.0700	
+1760	H	0.0687	
+1761	V	0.0762	
+1762	D	0.0841	
+1763	V	0.0949	
+1764	I	0.1017	
+1765	A	0.1091	
+1766	K	0.1165	
+1767	F	0.1227	
+1768	A	0.1239	
+1769	Q	0.1142	
+1770	L	0.1043	
+1771	E	0.0913	
+1772	F	0.0847	
+1773	Q	0.0794	
+1774	L	0.0875	
+1775	G	0.0946	
+1776	D	0.1009	
+1777	A	0.1084	
+1778	E	0.1128	
+1779	R	0.1232	
+1780	A	0.1440	
+1781	K	0.1683	
+1782	A	0.1889	
+1783	I	0.2094	
+1784	F	0.2307	
+1785	E	0.2418	
+1786	N	0.2395	
+1787	T	0.2173	
+1788	L	0.1886	
+1789	S	0.1549	
+1790	T	0.1256	
+1791	Y	0.1004	
+1792	P	0.0863	
+1793	K	0.0808	
+1794	R	0.0832	
+1795	T	0.0875	
+1796	D	0.0966	
+1797	V	0.1117	
+1798	W	0.1275	
+1799	S	0.1426	
+1800	V	0.1594	
+1801	Y	0.1675	
+1802	I	0.1720	
+1803	D	0.1725	
+1804	M	0.1712	
+1805	T	0.1500	
+1806	I	0.1337	
+1807	K	0.1175	
+1808	H	0.1136	
+1809	G	0.1125	
+1810	S	0.1156	
+1811	Q	0.1230	
+1812	K	0.1233	
+1813	D	0.1243	
+1814	V	0.1272	
+1815	R	0.1311	
+1816	D	0.1329	
+1817	I	0.1366	
+1818	F	0.1419	
+1819	E	0.1398	
+1820	R	0.1327	
+1821	V	0.1215	
+1822	I	0.1081	
+1823	H	0.0872	
+1824	L	0.0700	
+1825	S	0.0491	
+1826	L	0.0392	
+1827	A	0.0318	
+1828	P	0.0312	
+1829	K	0.0328	
+1830	R	0.0338	
+1831	M	0.0423	
+1832	K	0.0509	
+1833	F	0.0714	
+1834	F	0.0939	
+1835	F	0.1196	
+1836	K	0.1453	
+1837	R	0.1634	
+1838	Y	0.1690	
+1839	L	0.1662	
+1840	D	0.1622	
+1841	Y	0.1656	
+1842	E	0.1635	
+1843	K	0.1689	
+1844	Q	0.1826	
+1845	H	0.1979	
+1846	G	0.2223	
+1847	T	0.2488	
+1848	E	0.2700	
+1849	K	0.2853	
+1850	D	0.2910	
+1851	V	0.2988	
+1852	Q	0.2975	
+1853	A	0.2983	
+1854	V	0.2908	
+1855	K	0.2759	
+1856	A	0.2522	
+1857	K	0.2223	
+1858	A	0.2019	
+1859	L	0.1960	
+1860	E	0.1988	
+1861	Y	0.2266	
+1862	V	0.2661	
+1863	E	0.3234	
+1864	A	0.3907	
+1865	K	0.4640	
+1866	S	0.5392	
+1867	S	0.6128	
+1868	V	0.6822	
+1869	L	0.7462	
+1870	E	0.8057	
+1871	D	0.8640	

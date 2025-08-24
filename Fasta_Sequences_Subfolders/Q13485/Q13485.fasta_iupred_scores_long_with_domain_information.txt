@@ -1,0 +1,564 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.6230	
+2	D	0.6983	
+3	N	0.7035	
+4	M	0.6671	
+5	S	0.6102	
+6	I	0.5475	
+7	T	0.4886	
+8	N	0.4385	
+9	T	0.3987	
+10	P	0.3684	
+11	T	0.3339	
+12	S	0.3122	
+13	N	0.2988	
+14	D	0.2870	
+15	A	0.2676	
+16	C	0.2524	
+17	L	0.2534	
+18	S	0.2592	domain MH1
+19	I	0.2655	domain MH1
+20	V	0.2650	domain MH1
+21	H	0.2599	domain MH1
+22	S	0.2472	domain MH1
+23	L	0.2288	domain MH1
+24	M	0.2063	domain MH1
+25	C	0.2044	domain MH1
+26	H	0.2193	domain MH1
+27	R	0.2405	domain MH1
+28	Q	0.2519	domain MH1
+29	G	0.2688	domain MH1
+30	G	0.2879	domain MH1
+31	E	0.3078	domain MH1
+32	S	0.3242	domain MH1
+33	E	0.3305	domain MH1
+34	T	0.3274	domain MH1
+35	F	0.3239	domain MH1
+36	A	0.3341	domain MH1
+37	K	0.3505	domain MH1
+38	R	0.3494	domain MH1
+39	A	0.3447	domain MH1
+40	I	0.3471	domain MH1
+41	E	0.3436	domain MH1
+42	S	0.3336	domain MH1
+43	L	0.3275	domain MH1
+44	V	0.3242	domain MH1
+45	K	0.3270	domain MH1
+46	K	0.3117	domain MH1
+47	L	0.2913	domain MH1
+48	K	0.2735	domain MH1
+49	E	0.2664	domain MH1
+50	K	0.2588	domain MH1
+51	K	0.2558	domain MH1
+52	D	0.2581	domain MH1
+53	E	0.2713	domain MH1
+54	L	0.3079	domain MH1
+55	D	0.3525	domain MH1
+56	S	0.3936	domain MH1
+57	L	0.4157	domain MH1
+58	I	0.4245	domain MH1
+59	T	0.4159	domain MH1
+60	A	0.3961	domain MH1
+61	I	0.3594	domain MH1
+62	T	0.3213	domain MH1
+63	T	0.2905	domain MH1
+64	N	0.2666	domain MH1
+65	G	0.2485	domain MH1
+66	A	0.2527	domain MH1
+67	H	0.2836	domain MH1
+68	P	0.3207	domain MH1
+69	S	0.3526	domain MH1
+70	K	0.3695	domain MH1
+71	C	0.3769	domain MH1
+72	V	0.3861	domain MH1
+73	T	0.3881	domain MH1
+74	I	0.3831	domain MH1
+75	Q	0.3596	domain MH1
+76	R	0.3380	domain MH1
+77	T	0.3195	domain MH1
+78	L	0.3145	domain MH1
+79	D	0.3081	domain MH1
+80	G	0.3118	domain MH1
+81	R	0.3185	domain MH1
+82	L	0.3194	domain MH1
+83	Q	0.3166	domain MH1
+84	V	0.3120	domain MH1
+85	A	0.2953	domain MH1
+86	G	0.2792	domain MH1
+87	R	0.2527	domain MH1
+88	K	0.2171	domain MH1
+89	G	0.1775	domain MH1
+90	F	0.1510	domain MH1
+91	P	0.1447	domain MH1
+92	H	0.1475	domain MH1
+93	V	0.1426	domain MH1
+94	I	0.1492	domain MH1
+95	Y	0.1587	domain MH1
+96	A	0.1720	domain MH1
+97	R	0.1840	domain MH1
+98	L	0.1870	domain MH1
+99	W	0.1856	domain MH1
+100	R	0.1769	domain MH1
+101	W	0.1771	domain MH1
+102	P	0.1696	domain MH1
+103	D	0.1598	domain MH1
+104	L	0.1478	domain MH1
+105	H	0.1421	domain MH1
+106	K	0.1422	domain MH1
+107	N	0.1377	domain MH1
+108	E	0.1303	domain MH1
+109	L	0.1325	domain MH1
+110	K	0.1435	domain MH1
+111	H	0.1450	domain MH1
+112	V	0.1411	domain MH1
+113	K	0.1330	domain MH1
+114	Y	0.1228	domain MH1
+115	C	0.1153	domain MH1
+116	Q	0.0994	domain MH1
+117	Y	0.0821	domain MH1
+118	A	0.0630	domain MH1
+119	F	0.0572	domain MH1
+120	D	0.0487	domain MH1
+121	L	0.0523	domain MH1
+122	K	0.0396	domain MH1
+123	C	0.0466	domain MH1
+124	D	0.0564	domain MH1
+125	S	0.0738	domain MH1
+126	V	0.0886	domain MH1
+127	C	0.1038	domain MH1
+128	V	0.1312	domain MH1
+129	N	0.1605	domain MH1
+130	P	0.1840	domain MH1
+131	Y	0.1986	domain MH1
+132	H	0.2078	domain MH1
+133	Y	0.2203	domain MH1
+134	E	0.2310	domain MH1
+135	R	0.2414	domain MH1
+136	V	0.2421	domain MH1
+137	V	0.2499	domain MH1
+138	S	0.2693	domain MH1
+139	P	0.2961	domain MH1
+140	G	0.3172	domain MH1
+141	I	0.3468	domain MH1
+142	D	0.3709	domain MH1
+143	L	0.3995	
+144	S	0.4136	
+145	G	0.4274	
+146	L	0.4401	
+147	T	0.4392	
+148	L	0.4466	
+149	Q	0.4407	
+150	S	0.4355	
+151	N	0.4296	
+152	A	0.4227	
+153	P	0.4193	
+154	S	0.4239	
+155	S	0.4335	
+156	M	0.4547	
+157	M	0.4764	
+158	V	0.4979	
+159	K	0.5135	
+160	D	0.5214	
+161	E	0.5228	
+162	Y	0.5164	
+163	V	0.5134	
+164	H	0.5183	
+165	D	0.5153	
+166	F	0.5189	
+167	E	0.5191	
+168	G	0.5328	
+169	Q	0.5374	
+170	P	0.5404	
+171	S	0.5409	
+172	L	0.5559	
+173	S	0.5817	
+174	T	0.6232	
+175	E	0.6614	
+176	G	0.6946	
+177	H	0.7300	
+178	S	0.7603	
+179	I	0.7837	
+180	Q	0.7882	
+181	T	0.7794	
+182	I	0.7719	
+183	Q	0.7659	
+184	H	0.7661	
+185	P	0.7574	
+186	P	0.7532	
+187	S	0.7380	
+188	N	0.7236	
+189	R	0.7091	
+190	A	0.7002	
+191	S	0.7031	
+192	T	0.7195	
+193	E	0.7262	
+194	T	0.7246	
+195	Y	0.7168	
+196	S	0.7213	
+197	T	0.7326	
+198	P	0.7218	
+199	A	0.7089	
+200	L	0.6794	
+201	L	0.6633	
+202	A	0.6653	
+203	P	0.6605	
+204	S	0.6502	
+205	E	0.6323	
+206	S	0.6192	
+207	N	0.6076	
+208	A	0.6072	
+209	T	0.6131	
+210	S	0.6358	
+211	T	0.6663	
+212	A	0.6952	
+213	N	0.7061	
+214	F	0.7213	
+215	P	0.7275	
+216	N	0.7158	
+217	I	0.6842	
+218	P	0.6306	
+219	V	0.5955	
+220	A	0.5792	
+221	S	0.5783	
+222	T	0.5888	
+223	S	0.6083	
+224	Q	0.6342	
+225	P	0.6550	
+226	A	0.6665	
+227	S	0.6600	
+228	I	0.6498	
+229	L	0.6379	
+230	G	0.6268	
+231	G	0.6127	
+232	S	0.5997	
+233	H	0.5955	
+234	S	0.6117	
+235	E	0.6363	
+236	G	0.6677	
+237	L	0.7102	
+238	L	0.7525	
+239	Q	0.7899	
+240	I	0.8183	
+241	A	0.8281	
+242	S	0.8379	
+243	G	0.8390	
+244	P	0.8300	
+245	Q	0.8169	
+246	P	0.8084	
+247	G	0.8090	
+248	Q	0.8245	
+249	Q	0.8415	
+250	Q	0.8641	
+251	N	0.8844	
+252	G	0.8915	
+253	F	0.8947	
+254	T	0.8873	
+255	G	0.8729	
+256	Q	0.8450	
+257	P	0.8032	
+258	A	0.7654	
+259	T	0.7281	
+260	Y	0.7105	
+261	H	0.6920	
+262	H	0.6931	
+263	N	0.6896	
+264	S	0.6864	
+265	T	0.6841	
+266	T	0.6809	
+267	T	0.6699	
+268	W	0.6656	
+269	T	0.6608	
+270	G	0.6732	
+271	S	0.6847	
+272	R	0.6994	
+273	T	0.7247	
+274	A	0.7423	
+275	P	0.7435	
+276	Y	0.7516	
+277	T	0.7585	
+278	P	0.7687	
+279	N	0.7710	
+280	L	0.7872	
+281	P	0.7988	
+282	H	0.8133	
+283	H	0.8273	
+284	Q	0.8522	
+285	N	0.8719	
+286	G	0.8883	
+287	H	0.8973	
+288	L	0.9130	
+289	Q	0.9055	
+290	H	0.8960	
+291	H	0.8687	
+292	P	0.8431	
+293	P	0.8123	
+294	M	0.7817	
+295	P	0.7435	
+296	P	0.7216	
+297	H	0.6992	
+298	P	0.6764	
+299	G	0.6564	
+300	H	0.6292	
+301	Y	0.5994	
+302	W	0.5761	
+303	P	0.5483	
+304	V	0.5248	
+305	H	0.5019	
+306	N	0.4967	
+307	E	0.4853	
+308	L	0.4851	
+309	A	0.4705	
+310	F	0.4713	
+311	Q	0.4742	
+312	P	0.4658	
+313	P	0.4337	
+314	I	0.3945	
+315	S	0.3516	
+316	N	0.3102	
+317	H	0.2734	
+318	P	0.2386	
+319	A	0.2163	
+320	P	0.1995	
+321	E	0.1983	
+322	Y	0.2003	
+323	W	0.2014	domain MH2
+324	C	0.2139	domain MH2
+325	S	0.2128	domain MH2
+326	I	0.1968	domain MH2
+327	A	0.1686	domain MH2
+328	Y	0.1433	domain MH2
+329	F	0.1261	domain MH2
+330	E	0.1256	domain MH2
+331	M	0.1246	domain MH2
+332	D	0.1209	domain MH2
+333	V	0.1303	domain MH2
+334	Q	0.1433	domain MH2
+335	V	0.1712	domain MH2
+336	G	0.2070	domain MH2
+337	E	0.2441	domain MH2
+338	T	0.2623	domain MH2
+339	F	0.2747	domain MH2
+340	K	0.2770	domain MH2
+341	V	0.2840	domain MH2
+342	P	0.2847	domain MH2
+343	S	0.2809	domain MH2
+344	S	0.2705	domain MH2
+345	C	0.2729	domain MH2
+346	P	0.2865	domain MH2
+347	I	0.3096	domain MH2
+348	V	0.3264	domain MH2
+349	T	0.3428	domain MH2
+350	V	0.3480	domain MH2
+351	D	0.3337	domain MH2
+352	G	0.3071	domain MH2
+353	Y	0.2785	domain MH2
+354	V	0.2533	domain MH2
+355	D	0.2435	domain MH2
+356	P	0.2305	domain MH2
+357	S	0.2191	domain MH2
+358	G	0.2304	domain MH2
+359	G	0.2665	domain MH2
+360	D	0.3009	domain MH2
+361	R	0.3304	domain MH2
+362	F	0.3426	domain MH2
+363	C	0.3586	domain MH2
+364	L	0.3764	domain MH2
+365	G	0.3953	domain MH2
+366	Q	0.3871	domain MH2
+367	L	0.3711	domain MH2
+368	S	0.3430	domain MH2
+369	N	0.3179	domain MH2
+370	V	0.2974	domain MH2
+371	H	0.2882	domain MH2
+372	R	0.2942	domain MH2
+373	T	0.3221	domain MH2
+374	E	0.3521	domain MH2
+375	A	0.3757	domain MH2
+376	I	0.3976	domain MH2
+377	E	0.4154	domain MH2
+378	R	0.4172	domain MH2
+379	A	0.4002	domain MH2
+380	R	0.3725	domain MH2
+381	L	0.3571	domain MH2
+382	H	0.3427	domain MH2
+383	I	0.3448	domain MH2
+384	G	0.3483	domain MH2
+385	K	0.3464	domain MH2
+386	G	0.3284	domain MH2
+387	V	0.3078	domain MH2
+388	Q	0.2712	domain MH2
+389	L	0.2388	domain MH2
+390	E	0.2065	domain MH2
+391	C	0.1852	domain MH2
+392	K	0.1665	domain MH2
+393	G	0.1545	domain MH2
+394	E	0.1447	domain MH2
+395	G	0.1448	domain MH2
+396	D	0.1448	domain MH2
+397	V	0.1340	domain MH2
+398	W	0.1204	domain MH2
+399	V	0.1071	domain MH2
+400	R	0.0845	domain MH2
+401	C	0.0665	domain MH2
+402	L	0.0506	domain MH2
+403	S	0.0494	domain MH2
+404	D	0.0459	domain MH2
+405	H	0.0361	domain MH2
+406	A	0.0231	domain MH2
+407	V	0.0193	domain MH2
+408	F	0.0333	domain MH2
+409	V	0.0645	domain MH2
+410	Q	0.0945	domain MH2
+411	S	0.1214	domain MH2
+412	Y	0.1449	domain MH2
+413	Y	0.1650	domain MH2
+414	L	0.1846	domain MH2
+415	D	0.1941	domain MH2
+416	R	0.1973	domain MH2
+417	E	0.1977	domain MH2
+418	A	0.1981	domain MH2
+419	G	0.2029	domain MH2
+420	R	0.2216	domain MH2
+421	A	0.2479	domain MH2
+422	P	0.2754	domain MH2
+423	G	0.2916	domain MH2
+424	D	0.2834	domain MH2
+425	A	0.2658	domain MH2
+426	V	0.2450	domain MH2
+427	H	0.2206	domain MH2
+428	K	0.1877	domain MH2
+429	I	0.1485	domain MH2
+430	Y	0.1139	domain MH2
+431	P	0.0889	domain MH2
+432	S	0.0758	domain MH2
+433	A	0.0615	domain MH2
+434	Y	0.0594	domain MH2
+435	I	0.0639	domain MH2
+436	K	0.0748	domain MH2
+437	V	0.0839	domain MH2
+438	F	0.0965	domain MH2
+439	D	0.1108	domain MH2
+440	L	0.1348	domain MH2
+441	R	0.1544	domain MH2
+442	Q	0.1768	domain MH2
+443	C	0.1971	domain MH2
+444	H	0.2188	domain MH2
+445	R	0.2519	domain MH2
+446	Q	0.2791	domain MH2
+447	M	0.3090	domain MH2
+448	Q	0.3431	domain MH2
+449	Q	0.3822	domain MH2
+450	Q	0.4038	domain MH2
+451	A	0.4150	domain MH2
+452	A	0.4190	domain MH2
+453	T	0.4192	domain MH2
+454	A	0.4154	domain MH2
+455	Q	0.3983	domain MH2
+456	A	0.3713	domain MH2
+457	A	0.3525	domain MH2
+458	A	0.3448	domain MH2
+459	A	0.3329	domain MH2
+460	A	0.3390	domain MH2
+461	Q	0.3454	domain MH2
+462	A	0.3502	domain MH2
+463	A	0.3545	domain MH2
+464	A	0.3568	domain MH2
+465	V	0.3561	domain MH2
+466	A	0.3594	domain MH2
+467	G	0.3607	domain MH2
+468	N	0.3441	domain MH2
+469	I	0.3280	domain MH2
+470	P	0.3130	domain MH2
+471	G	0.3070	domain MH2
+472	P	0.3005	domain MH2
+473	G	0.2918	domain MH2
+474	S	0.2864	domain MH2
+475	V	0.2860	domain MH2
+476	G	0.2820	domain MH2
+477	G	0.2769	domain MH2
+478	I	0.2709	domain MH2
+479	A	0.2604	domain MH2
+480	P	0.2442	domain MH2
+481	A	0.2178	domain MH2
+482	I	0.1964	domain MH2
+483	S	0.1744	domain MH2
+484	L	0.1605	domain MH2
+485	S	0.1481	domain MH2
+486	A	0.1333	domain MH2
+487	A	0.1169	domain MH2
+488	A	0.1044	domain MH2
+489	G	0.0929	domain MH2
+490	I	0.0770	domain MH2
+491	G	0.0607	domain MH2
+492	V	0.0517	domain MH2
+493	D	0.0445	domain MH2
+494	D	0.0350	domain MH2
+495	L	0.0375	domain MH2
+496	R	0.0394	domain MH2
+497	R	0.0417	domain MH2
+498	L	0.0433	domain MH2
+499	C	0.0399	domain MH2
+500	I	0.0437	domain MH2
+501	L	0.0545	domain MH2
+502	R	0.0639	domain MH2
+503	M	0.0695	domain MH2
+504	S	0.0599	domain MH2
+505	F	0.0577	domain MH2
+506	V	0.0687	domain MH2
+507	K	0.1051	domain MH2
+508	G	0.1402	domain MH2
+509	W	0.1797	domain MH2
+510	G	0.2163	domain MH2
+511	P	0.2581	domain MH2
+512	D	0.2852	domain MH2
+513	Y	0.2975	domain MH2
+514	P	0.2983	domain MH2
+515	R	0.3065	domain MH2
+516	Q	0.2909	domain MH2
+517	S	0.2701	domain MH2
+518	I	0.2628	domain MH2
+519	K	0.2646	domain MH2
+520	E	0.2690	domain MH2
+521	T	0.2652	domain MH2
+522	P	0.2417	domain MH2
+523	C	0.2127	domain MH2
+524	W	0.1784	domain MH2
+525	I	0.1608	domain MH2
+526	E	0.1332	domain MH2
+527	I	0.1094	domain MH2
+528	H	0.0836	domain MH2
+529	L	0.0808	domain MH2
+530	H	0.0712	domain MH2
+531	R	0.0656	domain MH2
+532	A	0.0526	domain MH2
+533	L	0.0649	domain MH2
+534	Q	0.0756	domain MH2
+535	L	0.1017	domain MH2
+536	L	0.1324	domain MH2
+537	D	0.1748	domain MH2
+538	E	0.2173	domain MH2
+539	V	0.2419	domain MH2
+540	L	0.2641	domain MH2
+541	H	0.2935	domain MH2
+542	T	0.3228	domain MH2
+543	M	0.3380	domain MH2
+544	P	0.3536	domain MH2
+545	I	0.3709	domain MH2
+546	A	0.3921	domain MH2
+547	D	0.4193	domain MH2
+548	P	0.4533	domain MH2
+549	Q	0.4941	domain MH2
+550	P	0.5400	domain MH2
+551	L	0.5874	domain MH2
+552	D	0.6306	domain MH2

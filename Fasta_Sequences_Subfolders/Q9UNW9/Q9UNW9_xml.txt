@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-08-04" modified="2024-10-02" version="166" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9UNW9</accession>
+  <accession>O43267</accession>
+  <accession>Q9UEA1</accession>
+  <name>NOVA2_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="6">RNA-binding protein Nova-2</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Astrocytic NOVA1-like RNA-binding protein</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Neuro-oncological ventral antigen 2</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="7" type="primary">NOVA2</name>
+    <name type="synonym">ANOVA</name>
+    <name type="synonym">NOVA3</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1997" name="Neurogenetics" volume="1" first="31" last="36">
+      <title>ANOVA, a putative astrocytic RNA binding protein gene that maps to chromosome 19q13.3.</title>
+      <authorList>
+        <person name="Ueki K."/>
+        <person name="Ramaswamy S."/>
+        <person name="Billings S.J."/>
+        <person name="Mohrenweiser H.W."/>
+        <person name="Louis D.N."/>
+      </authorList>
+      <dbReference type="PubMed" id="10735272"/>
+      <dbReference type="DOI" id="10.1007/s100480050005"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1998" name="Proc. Natl. Acad. Sci. U.S.A." volume="95" first="13254" last="13259">
+      <title>The neuronal RNA-binding protein Nova-2 is implicated as the autoantigen targeted in POMA patients with dementia.</title>
+      <authorList>
+        <person name="Yang Y.Y."/>
+        <person name="Yin G.L."/>
+        <person name="Darnell R.B."/>
+      </authorList>
+      <dbReference type="PubMed" id="9789075"/>
+      <dbReference type="DOI" id="10.1073/pnas.95.22.13254"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2004" name="Nature" volume="428" first="529" last="535">
+      <title>The DNA sequence and biology of human chromosome 19.</title>
+      <authorList>
+        <person name="Grimwood J."/>
+        <person name="Gordon L.A."/>
+        <person name="Olsen A.S."/>
+        <person name="Terry A."/>
+        <person name="Schmutz J."/>
+        <person name="Lamerdin J.E."/>
+        <person name="Hellsten U."/>
+        <person name="Goodstein D."/>
+        <person name="Couronne O."/>
+        <person name="Tran-Gyamfi M."/>
+        <person name="Aerts A."/>
+        <person name="Altherr M."/>
+        <person name="Ashworth L."/>
+        <person name="Bajorek E."/>
+        <person name="Black S."/>
+        <person name="Branscomb E."/>
+        <person name="Caenepeel S."/>
+        <person name="Carrano A.V."/>
+        <person name="Caoile C."/>
+        <person name="Chan Y.M."/>
+        <person name="Christensen M."/>
+        <person name="Cleland C.A."/>
+        <person name="Copeland A."/>
+        <person name="Dalin E."/>
+        <person name="Dehal P."/>
+        <person name="Denys M."/>
+        <person name="Detter J.C."/>
+        <person name="Escobar J."/>
+        <person name="Flowers D."/>
+        <person name="Fotopulos D."/>
+        <person name="Garcia C."/>
+        <person name="Georgescu A.M."/>
+        <person name="Glavina T."/>
+        <person name="Gomez M."/>
+        <person name="Gonzales E."/>
+        <person name="Groza M."/>
+        <person name="Hammon N."/>
+        <person name="Hawkins T."/>
+        <person name="Haydu L."/>
+        <person name="Ho I."/>
+        <person name="Huang W."/>
+        <person name="Israni S."/>
+        <person name="Jett J."/>
+        <person name="Kadner K."/>
+        <person name="Kimball H."/>
+        <person name="Kobayashi A."/>
+        <person name="Larionov V."/>
+        <person name="Leem S.-H."/>
+        <person name="Lopez F."/>
+        <person name="Lou Y."/>
+        <person name="Lowry S."/>
+        <person name="Malfatti S."/>
+        <person name="Martinez D."/>
+        <person name="McCready P.M."/>
+        <person name="Medina C."/>
+        <person name="Morgan J."/>
+        <person name="Nelson K."/>
+        <person name="Nolan M."/>
+        <person name="Ovcharenko I."/>
+        <person name="Pitluck S."/>
+        <person name="Pollard M."/>
+        <person name="Popkie A.P."/>
+        <person name="Predki P."/>
+        <person name="Quan G."/>
+        <person name="Ramirez L."/>
+        <person name="Rash S."/>
+        <person name="Retterer J."/>
+        <person name="Rodriguez A."/>
+        <person name="Rogers S."/>
+        <person name="Salamov A."/>
+        <person name="Salazar A."/>
+        <person name="She X."/>
+        <person name="Smith D."/>
+        <person name="Slezak T."/>
+        <person name="Solovyev V."/>
+        <person name="Thayer N."/>
+        <person name="Tice H."/>
+        <person name="Tsai M."/>
+        <person name="Ustaszewska A."/>
+        <person name="Vo N."/>
+        <person name="Wagner M."/>
+        <person name="Wheeler J."/>
+        <person name="Wu K."/>
+        <person name="Xie G."/>
+        <person name="Yang J."/>
+        <person name="Dubchak I."/>
+        <person name="Furey T.S."/>
+        <person name="DeJong P."/>
+        <person name="Dickson M."/>
+        <person name="Gordon D."/>
+        <person name="Eichler E.E."/>
+        <person name="Pennacchio L.A."/>
+        <person name="Richardson P."/>
+        <person name="Stubbs L."/>
+        <person name="Rokhsar D.S."/>
+        <person name="Myers R.M."/>
+        <person name="Rubin E.M."/>
+        <person name="Lucas S.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="15057824"/>
+      <dbReference type="DOI" id="10.1038/nature02399"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2000" name="Proc. Natl. Acad. Sci. U.S.A." volume="97" first="5740" last="5745">
+      <title>The tetranucleotide UCAY directs the specific recognition of RNA by the Nova K-homology 3 domain.</title>
+      <authorList>
+        <person name="Jensen K.B."/>
+        <person name="Musunuru K."/>
+        <person name="Lewis H.A."/>
+        <person name="Burley S.K."/>
+        <person name="Darnell R.B."/>
+      </authorList>
+      <dbReference type="PubMed" id="10811881"/>
+      <dbReference type="DOI" id="10.1073/pnas.090553997"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2017" name="Nat. Struct. Mol. Biol." volume="24" first="325" last="336">
+      <title>Site-specific mapping of the human SUMO proteome reveals co-modification with phosphorylation.</title>
+      <authorList>
+        <person name="Hendriks I.A."/>
+        <person name="Lyon D."/>
+        <person name="Young C."/>
+        <person name="Jensen L.J."/>
+        <person name="Vertegaal A.C."/>
+        <person name="Nielsen M.L."/>
+      </authorList>
+      <dbReference type="PubMed" id="28112733"/>
+      <dbReference type="DOI" id="10.1038/nsmb.3366"/>
+    </citation>
+    <scope>SUMOYLATION [LARGE SCALE ANALYSIS] AT LYS-112</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="1999" name="Structure" volume="7" first="191" last="203">
+      <title>Crystal structures of Nova-1 and Nova-2 K-homology RNA-binding domains.</title>
+      <authorList>
+        <person name="Lewis H.A."/>
+        <person name="Chen H."/>
+        <person name="Edo C."/>
+        <person name="Buckanovich R.J."/>
+        <person name="Yang Y.Y.-L."/>
+        <person name="Musunuru K."/>
+        <person name="Zhong R."/>
+        <person name="Darnell R.B."/>
+        <person name="Burley S.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="10368286"/>
+      <dbReference type="DOI" id="10.1016/s0969-2126(99)80025-2"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) OF 405-480</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2000" name="Cell" volume="100" first="323" last="332">
+      <title>Sequence-specific RNA binding by a Nova KH domain: implications for paraneoplastic disease and the fragile X syndrome.</title>
+      <authorList>
+        <person name="Lewis H.A."/>
+        <person name="Musunuru K."/>
+        <person name="Jensen K.B."/>
+        <person name="Edo C."/>
+        <person name="Chen H."/>
+        <person name="Darnell R.B."/>
+        <person name="Burley S.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="10676814"/>
+      <dbReference type="DOI" id="10.1016/s0092-8674(00)80668-6"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.4 ANGSTROMS) OF 405-491 IN COMPLEX WITH RNA</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2020" name="Am. J. Hum. Genet." volume="106" first="438" last="452">
+      <title>De Novo Frameshift Variants in the Neuronal Splicing Factor NOVA2 Result in a Common C-Terminal Extension and Cause a Severe Form of Neurodevelopmental Disorder.</title>
+      <authorList>
+        <person name="Mattioli F."/>
+        <person name="Hayot G."/>
+        <person name="Drouot N."/>
+        <person name="Isidor B."/>
+        <person name="Courraud J."/>
+        <person name="Hinckelmann M.V."/>
+        <person name="Mau-Them F.T."/>
+        <person name="Sellier C."/>
+        <person name="Goldman A."/>
+        <person name="Telegrafi A."/>
+        <person name="Boughton A."/>
+        <person name="Gamble C."/>
+        <person name="Moutton S."/>
+        <person name="Quartier A."/>
+        <person name="Jean N."/>
+        <person name="Van Ness P."/>
+        <person name="Grotto S."/>
+        <person name="Nambot S."/>
+        <person name="Douglas G."/>
+        <person name="Si Y.C."/>
+        <person name="Chelly J."/>
+        <person name="Shad Z."/>
+        <person name="Kaplan E."/>
+        <person name="Dineen R."/>
+        <person name="Golzio C."/>
+        <person name="Charlet-Berguerand N."/>
+        <person name="Mandel J.L."/>
+        <person name="Piton A."/>
+      </authorList>
+      <dbReference type="PubMed" id="32197073"/>
+      <dbReference type="DOI" id="10.1016/j.ajhg.2020.02.013"/>
+    </citation>
+    <scope>INVOLVEMENT IN NEDASB</scope>
+    <scope>FUNCTION</scope>
+    <scope>MUTAGENESIS OF 231-TYR--GLY-492</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1 4 5">Functions to regulate alternative splicing in neurons by binding pre-mRNA in a sequence-specific manner to activate exon inclusion or exclusion (PubMed:32197073). It binds specifically to the sequences 5'-YCAY-3' and regulates splicing in only a subset of regulated exons (PubMed:10811881). Binding to an exonic 5'-YCAY-3' cluster changes the protein complexes assembled on pre-mRNA, blocking U1 snRNP binding and exon inclusion, whereas binding to an intronic 5'-YCAY-3' cluster enhances spliceosome assembly and exon inclusion. With NOVA1, they perform unique biological functions in different brain areas and cell types. Uniquely regulates alternative splicing events of a series of axon guidance related genes during cortical development, being essential for central nervous system development by regulating neural networks wiring. Regulates differentially alternative splicing on the same transcripts expressed in different neurons. This includes functional differences in transcripts expressed in cortical and cerebellar excitatory versus inhibitory neurons where is required for, respectively, development of laminar structure and motor coordination and synapse formation. Also the regulation the regulation of intron retention can sequester the trans-acting splicing factor PTBP2, acting as a variable cis-acting scaffolding platform for PTBP2 across various natural conditions (By similarity).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="1">Interacts with PTBP2; the interaction is direct.</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Nucleus</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="tissue specificity">
+    <text>Brain. Expression restricted to astrocytes.</text>
+  </comment>
+  <comment type="domain">
+    <text evidence="4">The third KH domain (KH3) recognizes specifically 5'-YCAY-3'.</text>
+  </comment>
+  <comment type="disease" evidence="5">
+    <disease id="DI-05826">
+      <name>Neurodevelopmental disorder with or without autistic features and/or structural brain abnormalities</name>
+      <acronym>NEDASB</acronym>
+      <description>An early-onset neurodevelopmental disorder characterized by intellectual disability, motor and speech delay, autistic features, hypotonia, feeding difficulties, spasticity or ataxic gait, and structural brain abnormalities including cerebral atrophy, cerebellar atrophy, and/or thin corpus callosum.</description>
+      <dbReference type="MIM" id="618859"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="sequence caution" evidence="6">
+    <conflict type="erroneous initiation">
+      <sequence resource="EMBL-CDS" id="AAB88661" version="1"/>
+    </conflict>
+    <text>Extended N-terminus.</text>
+  </comment>
+  <dbReference type="EMBL" id="U70477">
+    <property type="protein sequence ID" value="AAB88661.1"/>
+    <property type="status" value="ALT_INIT"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF083898">
+    <property type="protein sequence ID" value="AAC72355.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AC006540">
+    <property type="protein sequence ID" value="AAD13116.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS12679.1"/>
+  <dbReference type="RefSeq" id="NP_002507.1">
+    <property type="nucleotide sequence ID" value="NM_002516.3"/>
+  </dbReference>
+  <dbReference type="PDB" id="1DTJ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="A/B/C/D=406-480"/>
+  </dbReference>
+  <dbReference type="PDB" id="1EC6">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.40 A"/>
+    <property type="chains" value="A/B=406-491"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1DTJ"/>
+  <dbReference type="PDBsum" id="1EC6"/>
+  <dbReference type="AlphaFoldDB" id="Q9UNW9"/>
+  <dbReference type="SMR" id="Q9UNW9"/>
+  <dbReference type="BioGRID" id="110920">
+    <property type="interactions" value="12"/>
+  </dbReference>
+  <dbReference type="IntAct" id="Q9UNW9">
+    <property type="interactions" value="4"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q9UNW9"/>
+  <dbReference type="STRING" id="9606.ENSP00000263257"/>
+  <dbReference type="GlyGen" id="Q9UNW9">
+    <property type="glycosylation" value="1 site, 1 O-linked glycan (1 site)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="Q9UNW9"/>
+  <dbReference type="PhosphoSitePlus" id="Q9UNW9"/>
+  <dbReference type="BioMuta" id="NOVA2"/>
+  <dbReference type="DMDM" id="33516944"/>
+  <dbReference type="jPOST" id="Q9UNW9"/>
+  <dbReference type="MassIVE" id="Q9UNW9"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000263257"/>
+  <dbReference type="PeptideAtlas" id="Q9UNW9"/>
+  <dbReference type="ProteomicsDB" id="85338"/>
+  <dbReference type="Pumba" id="Q9UNW9"/>
+  <dbReference type="Antibodypedia" id="18063">
+    <property type="antibodies" value="209 antibodies from 26 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="4858"/>
+  <dbReference type="Ensembl" id="ENST00000263257.6">
+    <property type="protein sequence ID" value="ENSP00000263257.4"/>
+    <property type="gene ID" value="ENSG00000104967.8"/>
+  </dbReference>
+  <dbReference type="GeneID" id="4858"/>
+  <dbReference type="KEGG" id="hsa:4858"/>
+  <dbReference type="MANE-Select" id="ENST00000263257.6">
+    <property type="protein sequence ID" value="ENSP00000263257.4"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_002516.4"/>
+    <property type="RefSeq protein sequence ID" value="NP_002507.1"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc002pdv.3">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:7887"/>
+  <dbReference type="CTD" id="4858"/>
+  <dbReference type="DisGeNET" id="4858"/>
+  <dbReference type="GeneCards" id="NOVA2"/>
+  <dbReference type="HGNC" id="HGNC:7887">
+    <property type="gene designation" value="NOVA2"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000104967">
+    <property type="expression patterns" value="Tissue enhanced (brain)"/>
+  </dbReference>
+  <dbReference type="MalaCards" id="NOVA2"/>
+  <dbReference type="MIM" id="601991">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="MIM" id="618859">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q9UNW9"/>
+  <dbReference type="OpenTargets" id="ENSG00000104967"/>
+  <dbReference type="PharmGKB" id="PA31689"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000104967"/>
+  <dbReference type="eggNOG" id="KOG2191">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00940000161740"/>
+  <dbReference type="HOGENOM" id="CLU_022670_1_1_1"/>
+  <dbReference type="InParanoid" id="Q9UNW9"/>
+  <dbReference type="OMA" id="TERICLI"/>
+  <dbReference type="OrthoDB" id="5478127at2759"/>
+  <dbReference type="PhylomeDB" id="Q9UNW9"/>
+  <dbReference type="TreeFam" id="TF316981"/>
+  <dbReference type="PathwayCommons" id="Q9UNW9"/>
+  <dbReference type="SignaLink" id="Q9UNW9"/>
+  <dbReference type="SIGNOR" id="Q9UNW9"/>
+  <dbReference type="BioGRID-ORCS" id="4858">
+    <property type="hits" value="10 hits in 1148 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q9UNW9"/>
+  <dbReference type="GenomeRNAi" id="4858"/>
+  <dbReference type="Pharos" id="Q9UNW9">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q9UNW9"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 19"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q9UNW9">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000104967">
+    <property type="expression patterns" value="Expressed in cortical plate and 167 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q9UNW9">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003729">
+    <property type="term" value="F:mRNA binding"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003723">
+    <property type="term" value="F:RNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1990825">
+    <property type="term" value="F:sequence-specific mRNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0021954">
+    <property type="term" value="P:central nervous system neuron development"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000398">
+    <property type="term" value="P:mRNA splicing, via spliceosome"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0120163">
+    <property type="term" value="P:negative regulation of cold-induced thermogenesis"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="YuBioLab"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030182">
+    <property type="term" value="P:neuron differentiation"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000381">
+    <property type="term" value="P:regulation of alternative mRNA splicing, via spliceosome"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1902667">
+    <property type="term" value="P:regulation of axon guidance"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051252">
+    <property type="term" value="P:regulation of RNA metabolic process"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd22435">
+    <property type="entry name" value="KH-I_NOVA_rpt1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd22436">
+    <property type="entry name" value="KH-I_NOVA_rpt2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd09031">
+    <property type="entry name" value="KH-I_NOVA_rpt3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.1370.10">
+    <property type="entry name" value="K Homology domain, type 1"/>
+    <property type="match status" value="3"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR047275">
+    <property type="entry name" value="KH-I_NOVA_rpt1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR047276">
+    <property type="entry name" value="KH-I_NOVA_rpt2"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR047274">
+    <property type="entry name" value="KH-I_NOVA_rpt3"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR004087">
+    <property type="entry name" value="KH_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR004088">
+    <property type="entry name" value="KH_dom_type_1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036612">
+    <property type="entry name" value="KH_dom_type_1_sf"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR10288">
+    <property type="entry name" value="KH DOMAIN CONTAINING RNA BINDING PROTEIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR10288:SF162">
+    <property type="entry name" value="RNA-BINDING PROTEIN NOVA-2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00013">
+    <property type="entry name" value="KH_1"/>
+    <property type="match status" value="3"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00322">
+    <property type="entry name" value="KH"/>
+    <property type="match status" value="3"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF54791">
+    <property type="entry name" value="Eukaryotic type KH-domain (KH-domain type I)"/>
+    <property type="match status" value="3"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50084">
+    <property type="entry name" value="KH_TYPE_1"/>
+    <property type="match status" value="3"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-1268">Autism spectrum disorder</keyword>
+  <keyword id="KW-0991">Intellectual disability</keyword>
+  <keyword id="KW-1017">Isopeptide bond</keyword>
+  <keyword id="KW-0507">mRNA processing</keyword>
+  <keyword id="KW-0508">mRNA splicing</keyword>
+  <keyword id="KW-0524">Neurogenesis</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0677">Repeat</keyword>
+  <keyword id="KW-0694">RNA-binding</keyword>
+  <keyword id="KW-0832">Ubl conjugation</keyword>
+  <feature type="chain" id="PRO_0000050119" description="RNA-binding protein Nova-2">
+    <location>
+      <begin position="1"/>
+      <end position="492"/>
+    </location>
+  </feature>
+  <feature type="domain" description="KH 1" evidence="3">
+    <location>
+      <begin position="32"/>
+      <end position="99"/>
+    </location>
+  </feature>
+  <feature type="domain" description="KH 2" evidence="3">
+    <location>
+      <begin position="130"/>
+      <end position="196"/>
+    </location>
+  </feature>
+  <feature type="domain" description="KH 3" evidence="3">
+    <location>
+      <begin position="406"/>
+      <end position="473"/>
+    </location>
+  </feature>
+  <feature type="short sequence motif" description="Bipartite nuclear localization signal" evidence="2">
+    <location>
+      <begin position="10"/>
+      <end position="26"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)" evidence="8">
+    <location>
+      <position position="112"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of alternative splicing regulation." evidence="5">
+    <location>
+      <begin position="231"/>
+      <end position="492"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; AAB88661." evidence="6" ref="1">
+    <original>A</original>
+    <variation>R</variation>
+    <location>
+      <position position="247"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; AAB88661." evidence="6" ref="1">
+    <original>PAA</original>
+    <variation>TAT</variation>
+    <location>
+      <begin position="265"/>
+      <end position="267"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="9">
+    <location>
+      <begin position="407"/>
+      <end position="414"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="9">
+    <location>
+      <begin position="415"/>
+      <end position="417"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="9">
+    <location>
+      <begin position="418"/>
+      <end position="422"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="10">
+    <location>
+      <begin position="424"/>
+      <end position="426"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="9">
+    <location>
+      <begin position="427"/>
+      <end position="436"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="9">
+    <location>
+      <begin position="439"/>
+      <end position="442"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="9">
+    <location>
+      <begin position="454"/>
+      <end position="462"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="9">
+    <location>
+      <begin position="463"/>
+      <end position="476"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="A0A1W2P872"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="2"/>
+  <evidence type="ECO:0000255" key="3">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00117"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="10811881"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="32197073"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="6"/>
+  <evidence type="ECO:0000312" key="7">
+    <source>
+      <dbReference type="HGNC" id="HGNC:7887"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="8">
+    <source>
+      <dbReference type="PubMed" id="28112733"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="9">
+    <source>
+      <dbReference type="PDB" id="1DTJ"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="10">
+    <source>
+      <dbReference type="PDB" id="1EC6"/>
+    </source>
+  </evidence>
+  <sequence length="492" mass="49009" checksum="41B63EAF6899256B" modified="2000-05-01" version="1">MEPEAPDSRKRPLETPPEVVCTKRSNTGEEGEYFLKVLIPSYAAGSIIGKGGQTIVQLQKETGATIKLSKSKDFYPGTTERVCLVQGTAEALNAVHSFIAEKVREIPQAMTKPEVVNILQPQTTMNPDRAKQAKLIVPNSTAGLIIGKGGATVKAVMEQSGAWVQLSQKPEGINLQERVVTVSGEPEQVHKAVSAIVQKVQEDPQSSSCLNISYANVAGPVANSNPTGSPYASPADVLPAAAAASAAAASGLLGPAGLAGVGAFPAALPAFSGTDLLAISTALNTLASYGYNTNSLGLGLNSAAASGVLAAVAAGANPAAAAAANLLASYAGEAGAGPAGGAAPPPPPPPGALGSFALAAAANGYLGAGAGGGAGGGGGPLVAAAAAAGAAGGFLTAEKLAAESAKELVEIAVPENLVGAILGKGGKTLVEYQELTGARIQISKKGEFLPGTRNRRVTITGSPAATQAAQYLISQRVTYEQGVRASNPQKVG</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

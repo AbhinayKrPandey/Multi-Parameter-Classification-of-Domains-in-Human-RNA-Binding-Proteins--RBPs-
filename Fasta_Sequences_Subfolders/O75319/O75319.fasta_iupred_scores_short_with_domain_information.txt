@@ -1,0 +1,342 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9423	
+2	S	0.9347	
+3	Q	0.9127	
+4	W	0.8782	
+5	H	0.8343	
+6	H	0.7845	
+7	P	0.7328	
+8	R	0.6832	
+9	S	0.6395	
+10	G	0.6049	
+11	W	0.5852	
+12	G	0.5761	
+13	R	0.5874	
+14	R	0.5996	
+15	R	0.6123	
+16	D	0.6178	
+17	F	0.6307	
+18	S	0.6427	
+19	G	0.6487	
+20	R	0.6471	
+21	S	0.6499	
+22	S	0.6464	
+23	A	0.6453	
+24	K	0.6503	
+25	K	0.6466	
+26	K	0.6344	
+27	G	0.6191	
+28	G	0.5999	
+29	N	0.5794	
+30	H	0.5593	
+31	I	0.5491	
+32	P	0.5388	
+33	E	0.5381	
+34	R	0.5282	
+35	W	0.5291	
+36	K	0.5233	
+37	D	0.5199	
+38	Y	0.4933	
+39	L	0.4656	
+40	P	0.4305	
+41	V	0.3919	
+42	G	0.3437	
+43	Q	0.3094	
+44	R	0.2784	
+45	M	0.2600	
+46	P	0.2508	
+47	G	0.2592	
+48	T	0.2777	
+49	R	0.2927	
+50	F	0.3047	
+51	I	0.3098	
+52	A	0.3032	
+53	F	0.2980	
+54	K	0.2815	
+55	V	0.2632	
+56	P	0.2320	
+57	L	0.2099	
+58	Q	0.1968	
+59	K	0.2017	
+60	S	0.2024	
+61	F	0.2159	domain Tyrosine-protein phosphatase
+62	E	0.2322	domain Tyrosine-protein phosphatase
+63	K	0.2486	domain Tyrosine-protein phosphatase
+64	K	0.2503	domain Tyrosine-protein phosphatase
+65	L	0.2479	domain Tyrosine-protein phosphatase
+66	A	0.2413	domain Tyrosine-protein phosphatase
+67	P	0.2321	domain Tyrosine-protein phosphatase
+68	E	0.2094	domain Tyrosine-protein phosphatase
+69	E	0.1823	domain Tyrosine-protein phosphatase
+70	C	0.1659	domain Tyrosine-protein phosphatase
+71	F	0.1693	domain Tyrosine-protein phosphatase
+72	S	0.1900	domain Tyrosine-protein phosphatase
+73	P	0.2173	domain Tyrosine-protein phosphatase
+74	L	0.2364	domain Tyrosine-protein phosphatase
+75	D	0.2466	domain Tyrosine-protein phosphatase
+76	L	0.2456	domain Tyrosine-protein phosphatase
+77	F	0.2427	domain Tyrosine-protein phosphatase
+78	N	0.2251	domain Tyrosine-protein phosphatase
+79	K	0.1936	domain Tyrosine-protein phosphatase
+80	I	0.1538	domain Tyrosine-protein phosphatase
+81	R	0.1221	domain Tyrosine-protein phosphatase
+82	E	0.0998	domain Tyrosine-protein phosphatase
+83	Q	0.0884	domain Tyrosine-protein phosphatase
+84	N	0.0877	domain Tyrosine-protein phosphatase
+85	E	0.1000	domain Tyrosine-protein phosphatase
+86	E	0.1069	domain Tyrosine-protein phosphatase
+87	L	0.1208	domain Tyrosine-protein phosphatase
+88	G	0.1321	domain Tyrosine-protein phosphatase
+89	L	0.1450	domain Tyrosine-protein phosphatase
+90	I	0.1524	domain Tyrosine-protein phosphatase
+91	I	0.1674	domain Tyrosine-protein phosphatase
+92	D	0.1648	domain Tyrosine-protein phosphatase
+93	L	0.1570	domain Tyrosine-protein phosphatase
+94	T	0.1493	domain Tyrosine-protein phosphatase
+95	Y	0.1468	domain Tyrosine-protein phosphatase
+96	T	0.1515	domain Tyrosine-protein phosphatase
+97	Q	0.1668	domain Tyrosine-protein phosphatase
+98	R	0.1713	domain Tyrosine-protein phosphatase
+99	Y	0.1797	domain Tyrosine-protein phosphatase
+100	Y	0.1946	domain Tyrosine-protein phosphatase
+101	K	0.2097	domain Tyrosine-protein phosphatase
+102	P	0.2116	domain Tyrosine-protein phosphatase
+103	E	0.2045	domain Tyrosine-protein phosphatase
+104	D	0.1823	domain Tyrosine-protein phosphatase
+105	L	0.1645	domain Tyrosine-protein phosphatase
+106	P	0.1511	domain Tyrosine-protein phosphatase
+107	E	0.1504	domain Tyrosine-protein phosphatase
+108	T	0.1422	domain Tyrosine-protein phosphatase
+109	V	0.1537	domain Tyrosine-protein phosphatase
+110	P	0.1751	domain Tyrosine-protein phosphatase
+111	Y	0.1993	domain Tyrosine-protein phosphatase
+112	L	0.2187	domain Tyrosine-protein phosphatase
+113	K	0.2342	domain Tyrosine-protein phosphatase
+114	I	0.2351	domain Tyrosine-protein phosphatase
+115	F	0.2247	domain Tyrosine-protein phosphatase
+116	T	0.2032	domain Tyrosine-protein phosphatase
+117	V	0.1779	domain Tyrosine-protein phosphatase
+118	G	0.1424	domain Tyrosine-protein phosphatase
+119	H	0.1206	domain Tyrosine-protein phosphatase
+120	Q	0.1092	domain Tyrosine-protein phosphatase
+121	V	0.1119	domain Tyrosine-protein phosphatase
+122	P	0.1192	domain Tyrosine-protein phosphatase
+123	D	0.1399	domain Tyrosine-protein phosphatase
+124	D	0.1618	domain Tyrosine-protein phosphatase
+125	E	0.1881	domain Tyrosine-protein phosphatase
+126	T	0.1992	domain Tyrosine-protein phosphatase
+127	I	0.2043	domain Tyrosine-protein phosphatase
+128	F	0.2060	domain Tyrosine-protein phosphatase
+129	K	0.2060	domain Tyrosine-protein phosphatase
+130	F	0.2058	domain Tyrosine-protein phosphatase
+131	K	0.2006	domain Tyrosine-protein phosphatase
+132	H	0.1978	domain Tyrosine-protein phosphatase
+133	A	0.1833	domain Tyrosine-protein phosphatase
+134	V	0.1805	domain Tyrosine-protein phosphatase
+135	N	0.1798	domain Tyrosine-protein phosphatase
+136	G	0.1689	domain Tyrosine-protein phosphatase
+137	F	0.1538	domain Tyrosine-protein phosphatase
+138	L	0.1443	domain Tyrosine-protein phosphatase
+139	K	0.1421	domain Tyrosine-protein phosphatase
+140	E	0.1410	domain Tyrosine-protein phosphatase
+141	N	0.1393	domain Tyrosine-protein phosphatase
+142	K	0.1300	domain Tyrosine-protein phosphatase
+143	D	0.1282	domain Tyrosine-protein phosphatase
+144	N	0.1339	domain Tyrosine-protein phosphatase
+145	D	0.1432	domain Tyrosine-protein phosphatase
+146	K	0.1543	domain Tyrosine-protein phosphatase
+147	L	0.1671	domain Tyrosine-protein phosphatase
+148	I	0.1788	domain Tyrosine-protein phosphatase
+149	G	0.1781	domain Tyrosine-protein phosphatase
+150	V	0.1731	domain Tyrosine-protein phosphatase
+151	H	0.1495	domain Tyrosine-protein phosphatase
+152	C	0.1226	domain Tyrosine-protein phosphatase
+153	T	0.0923	domain Tyrosine-protein phosphatase
+154	H	0.0620	domain Tyrosine-protein phosphatase
+155	G	0.0277	domain Tyrosine-protein phosphatase
+156	L	0.0063	domain Tyrosine-protein phosphatase
+157	N	0.0004	domain Tyrosine-protein phosphatase
+158	R	0.0061	domain Tyrosine-protein phosphatase
+159	T	0.0109	domain Tyrosine-protein phosphatase
+160	G	0.0122	domain Tyrosine-protein phosphatase
+161	Y	0.0158	domain Tyrosine-protein phosphatase
+162	L	0.0193	domain Tyrosine-protein phosphatase
+163	I	0.0234	domain Tyrosine-protein phosphatase
+164	C	0.0299	domain Tyrosine-protein phosphatase
+165	R	0.0341	domain Tyrosine-protein phosphatase
+166	Y	0.0361	domain Tyrosine-protein phosphatase
+167	L	0.0356	domain Tyrosine-protein phosphatase
+168	I	0.0351	domain Tyrosine-protein phosphatase
+169	D	0.0331	domain Tyrosine-protein phosphatase
+170	V	0.0280	domain Tyrosine-protein phosphatase
+171	E	0.0229	domain Tyrosine-protein phosphatase
+172	G	0.0256	domain Tyrosine-protein phosphatase
+173	V	0.0296	domain Tyrosine-protein phosphatase
+174	R	0.0382	domain Tyrosine-protein phosphatase
+175	P	0.0503	domain Tyrosine-protein phosphatase
+176	D	0.0601	domain Tyrosine-protein phosphatase
+177	D	0.0673	domain Tyrosine-protein phosphatase
+178	A	0.0771	domain Tyrosine-protein phosphatase
+179	I	0.0880	domain Tyrosine-protein phosphatase
+180	E	0.0949	domain Tyrosine-protein phosphatase
+181	L	0.1028	domain Tyrosine-protein phosphatase
+182	F	0.1041	domain Tyrosine-protein phosphatase
+183	N	0.1040	domain Tyrosine-protein phosphatase
+184	R	0.1011	domain Tyrosine-protein phosphatase
+185	C	0.0858	domain Tyrosine-protein phosphatase
+186	R	0.0774	domain Tyrosine-protein phosphatase
+187	G	0.0810	domain Tyrosine-protein phosphatase
+188	H	0.0803	domain Tyrosine-protein phosphatase
+189	C	0.0782	domain Tyrosine-protein phosphatase
+190	L	0.0977	domain Tyrosine-protein phosphatase
+191	E	0.1310	domain Tyrosine-protein phosphatase
+192	R	0.1690	domain Tyrosine-protein phosphatase
+193	Q	0.2003	domain Tyrosine-protein phosphatase
+194	N	0.2284	domain Tyrosine-protein phosphatase
+195	Y	0.2510	domain Tyrosine-protein phosphatase
+196	I	0.2751	domain Tyrosine-protein phosphatase
+197	E	0.3005	domain Tyrosine-protein phosphatase
+198	D	0.3220	domain Tyrosine-protein phosphatase
+199	L	0.3375	domain Tyrosine-protein phosphatase
+200	Q	0.3553	domain Tyrosine-protein phosphatase
+201	N	0.3860	domain Tyrosine-protein phosphatase
+202	G	0.4132	domain Tyrosine-protein phosphatase
+203	P	0.4293	domain Tyrosine-protein phosphatase
+204	I	0.4502	domain Tyrosine-protein phosphatase
+205	R	0.4728	domain Tyrosine-protein phosphatase
+206	K	0.4922	domain Tyrosine-protein phosphatase
+207	N	0.4998	domain Tyrosine-protein phosphatase
+208	W	0.5095	domain Tyrosine-protein phosphatase
+209	N	0.5185	
+210	S	0.5304	
+211	S	0.5256	
+212	V	0.5194	
+213	P	0.5109	
+214	R	0.5072	
+215	S	0.5135	
+216	S	0.5270	
+217	D	0.5369	
+218	F	0.5563	
+219	E	0.5821	
+220	D	0.6020	
+221	S	0.6199	
+222	A	0.6299	
+223	H	0.6376	
+224	L	0.6523	
+225	M	0.6600	
+226	Q	0.6691	
+227	P	0.6715	
+228	V	0.6773	
+229	H	0.6754	
+230	N	0.6746	
+231	K	0.6733	
+232	P	0.6699	
+233	V	0.6672	
+234	K	0.6658	
+235	Q	0.6776	
+236	G	0.6913	
+237	P	0.7061	
+238	R	0.7195	
+239	Y	0.7299	
+240	N	0.7321	
+241	L	0.7362	
+242	H	0.7365	
+243	Q	0.7315	
+244	I	0.7255	
+245	Q	0.7144	
+246	G	0.7104	
+247	H	0.7077	
+248	S	0.7094	
+249	A	0.7196	
+250	P	0.7350	
+251	R	0.7516	
+252	H	0.7595	
+253	F	0.7711	
+254	H	0.7719	
+255	T	0.7727	
+256	Q	0.7685	
+257	T	0.7590	
+258	Q	0.7443	
+259	S	0.7317	
+260	L	0.7188	
+261	Q	0.7155	
+262	Q	0.7113	
+263	S	0.6998	
+264	V	0.6932	
+265	R	0.6846	
+266	K	0.6756	
+267	F	0.6663	
+268	S	0.6599	
+269	E	0.6643	
+270	N	0.6652	
+271	P	0.6721	
+272	H	0.6804	
+273	V	0.6951	
+274	Y	0.7127	
+275	Q	0.7284	
+276	R	0.7413	
+277	H	0.7370	
+278	H	0.7329	
+279	L	0.7298	
+280	P	0.7287	
+281	P	0.7192	
+282	P	0.6974	
+283	G	0.6716	
+284	P	0.6488	
+285	P	0.6240	
+286	G	0.6004	
+287	E	0.5831	
+288	D	0.5644	
+289	Y	0.5509	
+290	S	0.5348	
+291	H	0.5210	
+292	R	0.5046	
+293	R	0.4838	
+294	Y	0.4697	
+295	S	0.4521	
+296	W	0.4431	
+297	N	0.4336	
+298	V	0.4301	
+299	K	0.4224	
+300	P	0.4077	
+301	N	0.3816	
+302	A	0.3571	
+303	S	0.3320	
+304	R	0.3136	
+305	A	0.2970	
+306	A	0.2851	
+307	Q	0.2764	
+308	D	0.2739	
+309	R	0.2724	
+310	R	0.2626	
+311	R	0.2379	
+312	W	0.2067	
+313	Y	0.1744	
+314	P	0.1419	
+315	Y	0.1116	
+316	N	0.0819	
+317	Y	0.0588	
+318	S	0.0409	
+319	R	0.0320	
+320	L	0.0352	
+321	S	0.0532	
+322	Y	0.0957	
+323	P	0.1546	
+324	A	0.2271	
+325	C	0.3091	
+326	W	0.3958	
+327	E	0.4818	
+328	W	0.5609	
+329	T	0.6265	
+330	Q	0.6720	

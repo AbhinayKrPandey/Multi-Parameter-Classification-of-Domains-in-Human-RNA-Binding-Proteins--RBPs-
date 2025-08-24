@@ -1,0 +1,470 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.4591	
+2	A	0.5096	
+3	A	0.5352	
+4	Q	0.5459	
+5	G	0.5490	
+6	A	0.5506	
+7	A	0.5545	
+8	A	0.5635	
+9	A	0.5789	
+10	V	0.6009	
+11	A	0.6245	
+12	A	0.6591	
+13	G	0.6984	
+14	T	0.7350	
+15	S	0.7650	
+16	G	0.7825	
+17	V	0.8004	
+18	A	0.8156	
+19	G	0.8313	
+20	E	0.8423	
+21	G	0.8537	
+22	E	0.8643	
+23	P	0.8761	
+24	G	0.8884	
+25	P	0.8986	
+26	G	0.9101	
+27	E	0.9187	
+28	N	0.9217	
+29	A	0.9234	
+30	A	0.9269	
+31	A	0.9308	
+32	E	0.9314	
+33	G	0.9263	
+34	T	0.9152	
+35	A	0.9094	
+36	P	0.9053	
+37	S	0.9113	
+38	P	0.9135	
+39	G	0.9199	
+40	R	0.9235	
+41	V	0.9284	
+42	S	0.9267	
+43	P	0.9250	
+44	P	0.9159	
+45	T	0.9050	
+46	P	0.8894	
+47	A	0.8727	
+48	R	0.8481	
+49	G	0.8211	
+50	E	0.7888	
+51	P	0.7458	
+52	E	0.7065	
+53	V	0.6715	
+54	T	0.6398	
+55	V	0.6200	domain Tudor-knot
+56	E	0.5919	domain Tudor-knot
+57	I	0.5747	domain Tudor-knot
+58	G	0.5632	domain Tudor-knot
+59	E	0.5584	domain Tudor-knot
+60	T	0.5435	domain Tudor-knot
+61	Y	0.5251	domain Tudor-knot
+62	L	0.5051	domain Tudor-knot
+63	C	0.4936	domain Tudor-knot
+64	R	0.4829	domain Tudor-knot
+65	R	0.4774	domain Tudor-knot
+66	P	0.4657	domain Tudor-knot
+67	D	0.4621	domain Tudor-knot
+68	S	0.4649	domain Tudor-knot
+69	T	0.4738	domain Tudor-knot
+70	W	0.4953	domain Tudor-knot
+71	H	0.5296	domain Tudor-knot
+72	S	0.5838	domain Tudor-knot
+73	A	0.6423	domain Tudor-knot
+74	E	0.6796	domain Tudor-knot
+75	V	0.7083	domain Tudor-knot
+76	I	0.7245	domain Tudor-knot
+77	Q	0.7232	domain Tudor-knot
+78	S	0.7006	domain Tudor-knot
+79	R	0.6487	domain Tudor-knot
+80	V	0.5897	domain Tudor-knot
+81	N	0.5343	domain Tudor-knot
+82	D	0.4955	domain Tudor-knot
+83	Q	0.4666	domain Tudor-knot
+84	E	0.4374	domain Tudor-knot
+85	G	0.4232	domain Tudor-knot
+86	R	0.4233	domain Tudor-knot
+87	E	0.4282	domain Tudor-knot
+88	E	0.4256	domain Tudor-knot
+89	F	0.4186	domain Tudor-knot
+90	Y	0.4125	domain Tudor-knot
+91	V	0.4060	domain Tudor-knot
+92	H	0.3838	domain Tudor-knot
+93	Y	0.3573	domain Tudor-knot
+94	V	0.3232	domain Tudor-knot
+95	G	0.2936	domain Tudor-knot
+96	F	0.2711	domain Tudor-knot
+97	N	0.2497	domain Tudor-knot
+98	R	0.2440	domain Tudor-knot
+99	R	0.2395	domain Tudor-knot
+100	L	0.2518	domain Tudor-knot
+101	D	0.2734	domain Tudor-knot
+102	E	0.2959	domain Tudor-knot
+103	W	0.3188	domain Tudor-knot
+104	V	0.3438	domain Tudor-knot
+105	D	0.3726	domain Tudor-knot
+106	K	0.3935	domain Tudor-knot
+107	N	0.3949	domain Tudor-knot
+108	R	0.3943	domain Tudor-knot
+109	L	0.4083	domain Tudor-knot
+110	A	0.4256	domain Tudor-knot
+111	L	0.4441	
+112	T	0.4564	
+113	K	0.4738	
+114	T	0.4759	
+115	V	0.4725	
+116	K	0.4678	
+117	D	0.4522	
+118	A	0.4314	
+119	V	0.4136	
+120	Q	0.4147	
+121	K	0.4259	
+122	N	0.4440	
+123	S	0.4753	
+124	E	0.5007	
+125	K	0.5122	
+126	Y	0.5201	
+127	L	0.5280	
+128	S	0.5378	
+129	E	0.5389	
+130	L	0.5246	
+131	A	0.5211	
+132	E	0.5250	
+133	Q	0.5296	
+134	P	0.5414	
+135	E	0.5617	
+136	R	0.5816	
+137	K	0.5951	
+138	I	0.6240	
+139	T	0.6575	
+140	R	0.6817	
+141	N	0.6893	
+142	Q	0.6791	
+143	K	0.6514	
+144	R	0.6150	
+145	K	0.5817	
+146	H	0.5611	
+147	D	0.5447	
+148	E	0.5304	
+149	I	0.5310	
+150	N	0.5426	
+151	H	0.5515	
+152	V	0.5529	
+153	Q	0.5441	
+154	K	0.5272	
+155	T	0.5032	
+156	Y	0.4850	
+157	A	0.4706	
+158	E	0.4706	
+159	M	0.4669	
+160	D	0.4684	
+161	P	0.4754	
+162	T	0.4794	
+163	T	0.4732	
+164	A	0.4662	
+165	A	0.4490	
+166	L	0.4371	
+167	E	0.4225	
+168	K	0.4021	
+169	E	0.3825	
+170	H	0.3514	
+171	E	0.3224	
+172	A	0.2950	
+173	I	0.2696	
+174	T	0.2516	domain MYST-type HAT
+175	K	0.2366	domain MYST-type HAT
+176	V	0.2310	domain MYST-type HAT
+177	K	0.2162	domain MYST-type HAT
+178	Y	0.1974	domain MYST-type HAT
+179	V	0.1823	domain MYST-type HAT
+180	D	0.1602	domain MYST-type HAT
+181	K	0.1278	domain MYST-type HAT
+182	I	0.0930	domain MYST-type HAT
+183	H	0.0606	domain MYST-type HAT
+184	I	0.0448	domain MYST-type HAT
+185	G	0.0386	domain MYST-type HAT
+186	N	0.0405	domain MYST-type HAT
+187	Y	0.0430	domain MYST-type HAT
+188	E	0.0419	domain MYST-type HAT
+189	I	0.0533	domain MYST-type HAT
+190	D	0.0666	domain MYST-type HAT
+191	A	0.0808	domain MYST-type HAT
+192	W	0.0976	domain MYST-type HAT
+193	Y	0.1107	domain MYST-type HAT
+194	F	0.1203	domain MYST-type HAT
+195	S	0.1236	domain MYST-type HAT
+196	P	0.1205	domain MYST-type HAT
+197	F	0.1088	domain MYST-type HAT
+198	P	0.0955	domain MYST-type HAT
+199	E	0.0825	domain MYST-type HAT
+200	D	0.0610	domain MYST-type HAT
+201	Y	0.0465	domain MYST-type HAT
+202	G	0.0399	domain MYST-type HAT
+203	K	0.0405	domain MYST-type HAT
+204	Q	0.0473	domain MYST-type HAT
+205	P	0.0515	domain MYST-type HAT
+206	K	0.0500	domain MYST-type HAT
+207	L	0.0501	domain MYST-type HAT
+208	W	0.0474	domain MYST-type HAT
+209	L	0.0456	domain MYST-type HAT
+210	C	0.0428	domain MYST-type HAT
+211	E	0.0368	domain MYST-type HAT
+212	Y	0.0327	domain MYST-type HAT
+213	C	0.0270	domain MYST-type HAT
+214	L	0.0259	domain MYST-type HAT
+215	K	0.0224	domain MYST-type HAT
+216	Y	0.0209	domain MYST-type HAT
+217	M	0.0194	domain MYST-type HAT
+218	K	0.0163	domain MYST-type HAT
+219	Y	0.0146	domain MYST-type HAT
+220	E	0.0158	domain MYST-type HAT
+221	K	0.0226	domain MYST-type HAT
+222	S	0.0300	domain MYST-type HAT
+223	Y	0.0538	domain MYST-type HAT
+224	R	0.0849	domain MYST-type HAT
+225	F	0.1233	domain MYST-type HAT
+226	H	0.1550	domain MYST-type HAT
+227	L	0.1808	domain MYST-type HAT
+228	G	0.1976	domain MYST-type HAT
+229	Q	0.2063	domain MYST-type HAT
+230	C	0.2047	domain MYST-type HAT
+231	Q	0.2034	domain MYST-type HAT
+232	W	0.2064	domain MYST-type HAT
+233	R	0.2096	domain MYST-type HAT
+234	Q	0.2195	domain MYST-type HAT
+235	P	0.2213	domain MYST-type HAT
+236	P	0.2258	domain MYST-type HAT
+237	G	0.2295	domain MYST-type HAT
+238	K	0.2345	domain MYST-type HAT
+239	E	0.2365	domain MYST-type HAT
+240	I	0.2365	domain MYST-type HAT
+241	Y	0.2470	domain MYST-type HAT
+242	R	0.2673	domain MYST-type HAT
+243	K	0.2906	domain MYST-type HAT
+244	S	0.2931	domain MYST-type HAT
+245	N	0.2859	domain MYST-type HAT
+246	I	0.2699	domain MYST-type HAT
+247	S	0.2452	domain MYST-type HAT
+248	V	0.2087	domain MYST-type HAT
+249	Y	0.1733	domain MYST-type HAT
+250	E	0.1399	domain MYST-type HAT
+251	V	0.1116	domain MYST-type HAT
+252	D	0.0968	domain MYST-type HAT
+253	G	0.0835	domain MYST-type HAT
+254	K	0.0742	domain MYST-type HAT
+255	D	0.0649	domain MYST-type HAT
+256	H	0.0539	domain MYST-type HAT
+257	K	0.0376	domain MYST-type HAT
+258	I	0.0218	domain MYST-type HAT
+259	Y	0.0113	domain MYST-type HAT
+260	C	0.0144	domain MYST-type HAT
+261	Q	0.0223	domain MYST-type HAT
+262	N	0.0212	domain MYST-type HAT
+263	L	0.0182	domain MYST-type HAT
+264	C	0.0146	domain MYST-type HAT
+265	L	0.0118	domain MYST-type HAT
+266	L	0.0110	domain MYST-type HAT
+267	A	0.0103	domain MYST-type HAT
+268	K	0.0095	domain MYST-type HAT
+269	L	0.0087	domain MYST-type HAT
+270	F	0.0079	domain MYST-type HAT
+271	L	0.0085	domain MYST-type HAT
+272	D	0.0087	domain MYST-type HAT
+273	H	0.0091	domain MYST-type HAT
+274	K	0.0088	domain MYST-type HAT
+275	T	0.0077	domain MYST-type HAT
+276	L	0.0068	domain MYST-type HAT
+277	Y	0.0061	domain MYST-type HAT
+278	F	0.0069	domain MYST-type HAT
+279	D	0.0079	domain MYST-type HAT
+280	V	0.0098	domain MYST-type HAT
+281	E	0.0111	domain MYST-type HAT
+282	P	0.0119	domain MYST-type HAT
+283	F	0.0131	domain MYST-type HAT
+284	V	0.0156	domain MYST-type HAT
+285	F	0.0191	domain MYST-type HAT
+286	Y	0.0221	domain MYST-type HAT
+287	I	0.0248	domain MYST-type HAT
+288	L	0.0261	domain MYST-type HAT
+289	T	0.0244	domain MYST-type HAT
+290	E	0.0219	domain MYST-type HAT
+291	V	0.0127	domain MYST-type HAT
+292	D	0.0055	domain MYST-type HAT
+293	R	0.0135	domain MYST-type HAT
+294	Q	0.0285	domain MYST-type HAT
+295	G	0.0513	domain MYST-type HAT
+296	A	0.0907	domain MYST-type HAT
+297	H	0.1403	domain MYST-type HAT
+298	I	0.2004	domain MYST-type HAT
+299	V	0.2598	domain MYST-type HAT
+300	G	0.3148	domain MYST-type HAT
+301	Y	0.3452	domain MYST-type HAT
+302	F	0.3529	domain MYST-type HAT
+303	S	0.3408	domain MYST-type HAT
+304	K	0.3033	domain MYST-type HAT
+305	E	0.2526	domain MYST-type HAT
+306	K	0.2022	domain MYST-type HAT
+307	E	0.1621	domain MYST-type HAT
+308	S	0.1423	domain MYST-type HAT
+309	P	0.1311	domain MYST-type HAT
+310	D	0.1470	domain MYST-type HAT
+311	G	0.1858	domain MYST-type HAT
+312	N	0.2247	domain MYST-type HAT
+313	N	0.2613	domain MYST-type HAT
+314	V	0.2909	domain MYST-type HAT
+315	A	0.3021	domain MYST-type HAT
+316	C	0.2954	domain MYST-type HAT
+317	I	0.2706	domain MYST-type HAT
+318	L	0.2366	domain MYST-type HAT
+319	T	0.1895	domain MYST-type HAT
+320	L	0.1418	domain MYST-type HAT
+321	P	0.1027	domain MYST-type HAT
+322	P	0.0684	domain MYST-type HAT
+323	Y	0.0392	domain MYST-type HAT
+324	Q	0.0220	domain MYST-type HAT
+325	R	0.0160	domain MYST-type HAT
+326	R	0.0170	domain MYST-type HAT
+327	G	0.0169	domain MYST-type HAT
+328	Y	0.0274	domain MYST-type HAT
+329	G	0.0361	domain MYST-type HAT
+330	K	0.0398	domain MYST-type HAT
+331	F	0.0411	domain MYST-type HAT
+332	L	0.0394	domain MYST-type HAT
+333	I	0.0407	domain MYST-type HAT
+334	A	0.0353	domain MYST-type HAT
+335	F	0.0328	domain MYST-type HAT
+336	S	0.0297	domain MYST-type HAT
+337	Y	0.0293	domain MYST-type HAT
+338	E	0.0320	domain MYST-type HAT
+339	L	0.0465	domain MYST-type HAT
+340	S	0.0602	domain MYST-type HAT
+341	K	0.0889	domain MYST-type HAT
+342	L	0.1193	domain MYST-type HAT
+343	E	0.1615	domain MYST-type HAT
+344	S	0.2086	domain MYST-type HAT
+345	T	0.2399	domain MYST-type HAT
+346	V	0.2666	domain MYST-type HAT
+347	G	0.2945	domain MYST-type HAT
+348	S	0.3157	domain MYST-type HAT
+349	P	0.3238	domain MYST-type HAT
+350	E	0.3214	domain MYST-type HAT
+351	K	0.3134	domain MYST-type HAT
+352	P	0.2928	domain MYST-type HAT
+353	L	0.2677	domain MYST-type HAT
+354	S	0.2346	domain MYST-type HAT
+355	D	0.1970	domain MYST-type HAT
+356	L	0.1572	domain MYST-type HAT
+357	G	0.1214	domain MYST-type HAT
+358	K	0.0801	domain MYST-type HAT
+359	L	0.0544	domain MYST-type HAT
+360	S	0.0282	domain MYST-type HAT
+361	Y	0.0182	domain MYST-type HAT
+362	R	0.0194	domain MYST-type HAT
+363	S	0.0126	domain MYST-type HAT
+364	Y	0.0083	domain MYST-type HAT
+365	W	0.0111	domain MYST-type HAT
+366	S	0.0132	domain MYST-type HAT
+367	W	0.0144	domain MYST-type HAT
+368	V	0.0140	domain MYST-type HAT
+369	L	0.0138	domain MYST-type HAT
+370	L	0.0146	domain MYST-type HAT
+371	E	0.0146	domain MYST-type HAT
+372	I	0.0115	domain MYST-type HAT
+373	L	0.0098	domain MYST-type HAT
+374	R	0.0151	domain MYST-type HAT
+375	D	0.0233	domain MYST-type HAT
+376	F	0.0280	domain MYST-type HAT
+377	R	0.0304	domain MYST-type HAT
+378	G	0.0484	domain MYST-type HAT
+379	T	0.0740	domain MYST-type HAT
+380	L	0.1052	domain MYST-type HAT
+381	S	0.1353	domain MYST-type HAT
+382	I	0.1729	domain MYST-type HAT
+383	K	0.2012	domain MYST-type HAT
+384	D	0.2204	domain MYST-type HAT
+385	L	0.2307	domain MYST-type HAT
+386	S	0.2292	domain MYST-type HAT
+387	Q	0.2269	domain MYST-type HAT
+388	M	0.2221	domain MYST-type HAT
+389	T	0.2120	domain MYST-type HAT
+390	S	0.2037	domain MYST-type HAT
+391	I	0.2055	domain MYST-type HAT
+392	T	0.2192	domain MYST-type HAT
+393	Q	0.2373	domain MYST-type HAT
+394	N	0.2378	domain MYST-type HAT
+395	D	0.2202	domain MYST-type HAT
+396	I	0.2048	domain MYST-type HAT
+397	I	0.1878	domain MYST-type HAT
+398	S	0.1718	domain MYST-type HAT
+399	T	0.1540	domain MYST-type HAT
+400	L	0.1439	domain MYST-type HAT
+401	Q	0.1291	domain MYST-type HAT
+402	S	0.1160	domain MYST-type HAT
+403	L	0.1035	domain MYST-type HAT
+404	N	0.0932	domain MYST-type HAT
+405	M	0.0910	domain MYST-type HAT
+406	V	0.0838	domain MYST-type HAT
+407	K	0.0680	domain MYST-type HAT
+408	Y	0.0588	domain MYST-type HAT
+409	W	0.0553	domain MYST-type HAT
+410	K	0.0603	domain MYST-type HAT
+411	G	0.0747	domain MYST-type HAT
+412	Q	0.0740	domain MYST-type HAT
+413	H	0.0722	domain MYST-type HAT
+414	V	0.0722	domain MYST-type HAT
+415	I	0.0779	domain MYST-type HAT
+416	C	0.0916	domain MYST-type HAT
+417	V	0.1034	domain MYST-type HAT
+418	T	0.1171	domain MYST-type HAT
+419	P	0.1245	domain MYST-type HAT
+420	K	0.1308	domain MYST-type HAT
+421	L	0.1364	domain MYST-type HAT
+422	V	0.1483	domain MYST-type HAT
+423	E	0.1737	domain MYST-type HAT
+424	E	0.1986	domain MYST-type HAT
+425	H	0.2241	domain MYST-type HAT
+426	L	0.2468	domain MYST-type HAT
+427	K	0.2712	domain MYST-type HAT
+428	S	0.3003	domain MYST-type HAT
+429	A	0.3149	domain MYST-type HAT
+430	Q	0.3002	domain MYST-type HAT
+431	Y	0.2760	domain MYST-type HAT
+432	K	0.2422	domain MYST-type HAT
+433	K	0.2151	domain MYST-type HAT
+434	P	0.1876	domain MYST-type HAT
+435	P	0.1702	domain MYST-type HAT
+436	I	0.1675	domain MYST-type HAT
+437	T	0.1813	domain MYST-type HAT
+438	V	0.2127	domain MYST-type HAT
+439	D	0.2392	domain MYST-type HAT
+440	S	0.2602	domain MYST-type HAT
+441	V	0.2743	domain MYST-type HAT
+442	C	0.2784	domain MYST-type HAT
+443	L	0.2771	domain MYST-type HAT
+444	K	0.2621	domain MYST-type HAT
+445	W	0.2479	domain MYST-type HAT
+446	A	0.2329	domain MYST-type HAT
+447	P	0.2267	domain MYST-type HAT
+448	P	0.2192	
+449	K	0.2155	
+450	H	0.2310	
+451	K	0.2587	
+452	Q	0.2977	
+453	V	0.3462	
+454	K	0.4004	
+455	L	0.4552	
+456	S	0.5036	
+457	K	0.5366	
+458	K	0.5433	

@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2005-03-01" modified="2024-10-02" version="188" xmlns="http://uniprot.org/uniprot">
+  <accession>Q96C86</accession>
+  <accession>Q8NHL8</accession>
+  <accession>Q9Y2S5</accession>
+  <name>DCPS_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName>m7GpppX diphosphatase</fullName>
+      <ecNumber evidence="8 9 15 16">3.6.1.59</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName>DCS-1</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Decapping scavenger enzyme</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Hint-related 7meGMP-directed hydrolase</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Histidine triad nucleotide-binding protein 5</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Histidine triad protein member 5</fullName>
+      <shortName>HINT-5</shortName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Scavenger mRNA-decapping enzyme DcpS</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">DCPS</name>
+    <name type="synonym">DCS1</name>
+    <name type="synonym">HINT5</name>
+    <name type="ORF">HSPC015</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="submission" date="2001-06" db="EMBL/GenBank/DDBJ databases">
+      <title>Cloning and characterization of a novel member of the histidine triad protein family (HINT-5) in different vertebrate species.</title>
+      <authorList>
+        <person name="Huang C.-H."/>
+        <person name="Peng J."/>
+        <person name="Chen H."/>
+        <person name="Chen Y."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2002" name="EMBO J." volume="21" first="4699" last="4708">
+      <title>The scavenger mRNA decapping enzyme DcpS is a member of the HIT family of pyrophosphatases.</title>
+      <authorList>
+        <person name="Liu H."/>
+        <person name="Rodgers N.D."/>
+        <person name="Jiao X."/>
+        <person name="Kiledjian M."/>
+      </authorList>
+      <dbReference type="PubMed" id="12198172"/>
+      <dbReference type="DOI" id="10.1093/emboj/cdf448"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <scope>FUNCTION</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <scope>MUTAGENESIS OF HIS-277</scope>
+    <scope>SUBUNIT</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2003" name="J. Biol. Chem." volume="278" first="39051" last="39058">
+      <title>Coordinate expression of NADPH-dependent flavin reductase, Fre-1, and Hint-related 7meGMP-directed hydrolase, DCS-1.</title>
+      <authorList>
+        <person name="Kwasnicka D.A."/>
+        <person name="Krakowiak A."/>
+        <person name="Thacker C."/>
+        <person name="Brenner C."/>
+        <person name="Vincent S.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="12871939"/>
+      <dbReference type="DOI" id="10.1074/jbc.m306355200"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <source>
+      <tissue>Placenta</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2000" name="Genome Res." volume="10" first="1546" last="1560">
+      <title>Cloning and functional analysis of cDNAs with open reading frames for 300 previously undefined genes expressed in CD34+ hematopoietic stem/progenitor cells.</title>
+      <authorList>
+        <person name="Zhang Q.-H."/>
+        <person name="Ye M."/>
+        <person name="Wu X.-Y."/>
+        <person name="Ren S.-X."/>
+        <person name="Zhao M."/>
+        <person name="Zhao C.-J."/>
+        <person name="Fu G."/>
+        <person name="Shen Y."/>
+        <person name="Fan H.-Y."/>
+        <person name="Lu G."/>
+        <person name="Zhong M."/>
+        <person name="Xu X.-R."/>
+        <person name="Han Z.-G."/>
+        <person name="Zhang J.-W."/>
+        <person name="Tao J."/>
+        <person name="Huang Q.-H."/>
+        <person name="Zhou J."/>
+        <person name="Hu G.-X."/>
+        <person name="Gu J."/>
+        <person name="Chen S.-J."/>
+        <person name="Chen Z."/>
+      </authorList>
+      <dbReference type="PubMed" id="11042152"/>
+      <dbReference type="DOI" id="10.1101/gr.140200"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Umbilical cord blood</tissue>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <scope>VARIANT GLU-73</scope>
+    <source>
+      <tissue>Bone marrow</tissue>
+    </source>
+  </reference>
+  <reference key="6">
+    <citation type="submission" date="2010-01" db="UniProtKB">
+      <authorList>
+        <person name="Bienvenut W.V."/>
+      </authorList>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 2-11; 129-138 AND 243-255</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE</scope>
+    <scope>ACETYLATION AT ALA-2</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <source>
+      <tissue>Ovarian carcinoma</tissue>
+    </source>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2001" name="Cell" volume="107" first="751" last="762">
+      <title>Functional link between the mammalian exosome and mRNA decapping.</title>
+      <authorList>
+        <person name="Wang Z."/>
+        <person name="Kiledjian M."/>
+      </authorList>
+      <dbReference type="PubMed" id="11747811"/>
+      <dbReference type="DOI" id="10.1016/s0092-8674(01)00592-x"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH EXOSOME PROTEINS</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2003" name="Proc. Natl. Acad. Sci. U.S.A." volume="100" first="12081" last="12086">
+      <title>DcpS can act in the 5'-3' mRNA decay pathway in addition to the 3'-5' pathway.</title>
+      <authorList>
+        <person name="van Dijk E."/>
+        <person name="Le Hir H."/>
+        <person name="Seraphin B."/>
+      </authorList>
+      <dbReference type="PubMed" id="14523240"/>
+      <dbReference type="DOI" id="10.1073/pnas.1635192100"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2004" name="RNA" volume="10" first="1412" last="1422">
+      <title>Functional analysis of mRNA scavenger decapping enzymes.</title>
+      <authorList>
+        <person name="Liu S.-W."/>
+        <person name="Jiao X."/>
+        <person name="Liu H."/>
+        <person name="Gu M."/>
+        <person name="Lima C.D."/>
+        <person name="Kiledjian M."/>
+      </authorList>
+      <dbReference type="PubMed" id="15273322"/>
+      <dbReference type="DOI" id="10.1261/rna.7660804"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>SUBSTRATE SPECIFICITY</scope>
+    <scope>DOMAIN</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MUTAGENESIS OF HIS-277</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2004" name="RNA" volume="10" first="1609" last="1624">
+      <title>Nematode m7GpppG and m3(2,2,7)GpppG decapping: activities in Ascaris embryos and characterization of C. elegans scavenger DcpS.</title>
+      <authorList>
+        <person name="Cohen L.S."/>
+        <person name="Mikhli C."/>
+        <person name="Friedman C."/>
+        <person name="Jankowska-Anyszka M."/>
+        <person name="Stepinski J."/>
+        <person name="Darzynkiewicz E."/>
+        <person name="Davis R.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="15383679"/>
+      <dbReference type="DOI" id="10.1261/rna.7690504"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>SUBSTRATE SPECIFICITY</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2005" name="Biochem. Biophys. Res. Commun." volume="336" first="565" last="571">
+      <title>Role of a novel dual flavin reductase (NR1) and an associated histidine triad protein (DCS-1) in menadione-induced cytotoxicity.</title>
+      <authorList>
+        <person name="Kwasnicka-Crawford D.A."/>
+        <person name="Vincent S.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="16140270"/>
+      <dbReference type="DOI" id="10.1016/j.bbrc.2005.08.129"/>
+    </citation>
+    <scope>FUNCTION IN CYTOTOXICITY INHIBITION</scope>
+    <scope>INDUCTION</scope>
+    <scope>INTERACTION WITH NDOR1</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2008" name="RNA" volume="14" first="1132" last="1142">
+      <title>DcpS scavenger decapping enzyme can modulate pre-mRNA splicing.</title>
+      <authorList>
+        <person name="Shen V."/>
+        <person name="Liu H."/>
+        <person name="Liu S.W."/>
+        <person name="Jiao X."/>
+        <person name="Kiledjian M."/>
+      </authorList>
+      <dbReference type="PubMed" id="18426921"/>
+      <dbReference type="DOI" id="10.1261/rna.1008208"/>
+    </citation>
+    <scope>FUNCTION IN SPLICING</scope>
+    <scope>MUTAGENESIS OF 10-LYS--ARG-13; LEU-148 AND LEU-150</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2009" name="Anal. Chem." volume="81" first="4493" last="4501">
+      <title>Lys-N and trypsin cover complementary parts of the phosphoproteome in a refined SCX-based approach.</title>
+      <authorList>
+        <person name="Gauci S."/>
+        <person name="Helbig A.O."/>
+        <person name="Slijper M."/>
+        <person name="Krijgsveld J."/>
+        <person name="Heck A.J."/>
+        <person name="Mohammed S."/>
+      </authorList>
+      <dbReference type="PubMed" id="19413330"/>
+      <dbReference type="DOI" id="10.1021/ac9004309"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2009" name="Biochimie" volume="91" first="109" last="122">
+      <title>Proteomic approach to the identification of novel delta-lactoferrin target genes: Characterization of DcpS, an mRNA scavenger decapping enzyme.</title>
+      <authorList>
+        <person name="Mariller C."/>
+        <person name="Hardiville S."/>
+        <person name="Hoedt E."/>
+        <person name="Benaissa M."/>
+        <person name="Mazurier J."/>
+        <person name="Pierce A."/>
+      </authorList>
+      <dbReference type="PubMed" id="18725266"/>
+      <dbReference type="DOI" id="10.1016/j.biochi.2008.07.009"/>
+    </citation>
+    <scope>INDUCTION</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2009" name="Science" volume="325" first="834" last="840">
+      <title>Lysine acetylation targets protein complexes and co-regulates major cellular functions.</title>
+      <authorList>
+        <person name="Choudhary C."/>
+        <person name="Kumar C."/>
+        <person name="Gnad F."/>
+        <person name="Nielsen M.L."/>
+        <person name="Rehman M."/>
+        <person name="Walther T.C."/>
+        <person name="Olsen J.V."/>
+        <person name="Mann M."/>
+      </authorList>
+      <dbReference type="PubMed" id="19608861"/>
+      <dbReference type="DOI" id="10.1126/science.1175371"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-138 AND LYS-142</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="17">
+    <citation type="journal article" date="2012" name="Biochemistry" volume="51" first="8003" last="8013">
+      <title>7-Methylguanosine diphosphate (m(7)GDP) is not hydrolyzed but strongly bound by decapping scavenger (dcpS) enzymes and potently inhibits their activity.</title>
+      <authorList>
+        <person name="Wypijewska A."/>
+        <person name="Bojarska E."/>
+        <person name="Lukaszewicz M."/>
+        <person name="Stepinski J."/>
+        <person name="Jemielity J."/>
+        <person name="Davis R.E."/>
+        <person name="Darzynkiewicz E."/>
+      </authorList>
+      <dbReference type="PubMed" id="22985415"/>
+      <dbReference type="DOI" id="10.1021/bi300781g"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>SUBSTRATE SPECIFICITY</scope>
+    <scope>ACTIVITY REGULATION</scope>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="2012" name="Mol. Cell. Proteomics" volume="11" first="M111.015131" last="M111.015131">
+      <title>Comparative large-scale characterisation of plant vs. mammal proteins reveals similar and idiosyncratic N-alpha acetylation features.</title>
+      <authorList>
+        <person name="Bienvenut W.V."/>
+        <person name="Sumpton D."/>
+        <person name="Martinez A."/>
+        <person name="Lilla S."/>
+        <person name="Espagne C."/>
+        <person name="Meinnel T."/>
+        <person name="Giglione C."/>
+      </authorList>
+      <dbReference type="PubMed" id="22223895"/>
+      <dbReference type="DOI" id="10.1074/mcp.m111.015131"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="19">
+    <citation type="journal article" date="2012" name="Proc. Natl. Acad. Sci. U.S.A." volume="109" first="12449" last="12454">
+      <title>N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.</title>
+      <authorList>
+        <person name="Van Damme P."/>
+        <person name="Lasa M."/>
+        <person name="Polevoda B."/>
+        <person name="Gazquez C."/>
+        <person name="Elosegui-Artola A."/>
+        <person name="Kim D.S."/>
+        <person name="De Juan-Pardo E."/>
+        <person name="Demeyer K."/>
+        <person name="Hole K."/>
+        <person name="Larrea E."/>
+        <person name="Timmerman E."/>
+        <person name="Prieto J."/>
+        <person name="Arnesen T."/>
+        <person name="Sherman F."/>
+        <person name="Gevaert K."/>
+        <person name="Aldabe R."/>
+      </authorList>
+      <dbReference type="PubMed" id="22814378"/>
+      <dbReference type="DOI" id="10.1073/pnas.1210303109"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="20">
+    <citation type="journal article" date="2013" name="J. Proteome Res." volume="12" first="260" last="271">
+      <title>Toward a comprehensive characterization of a human cancer cell phosphoproteome.</title>
+      <authorList>
+        <person name="Zhou H."/>
+        <person name="Di Palma S."/>
+        <person name="Preisinger C."/>
+        <person name="Peng M."/>
+        <person name="Polat A.N."/>
+        <person name="Heck A.J."/>
+        <person name="Mohammed S."/>
+      </authorList>
+      <dbReference type="PubMed" id="23186163"/>
+      <dbReference type="DOI" id="10.1021/pr300630k"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-24</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Erythroleukemia</tissue>
+    </source>
+  </reference>
+  <reference key="21">
+    <citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+      <title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+      <authorList>
+        <person name="Bian Y."/>
+        <person name="Song C."/>
+        <person name="Cheng K."/>
+        <person name="Dong M."/>
+        <person name="Wang F."/>
+        <person name="Huang J."/>
+        <person name="Sun D."/>
+        <person name="Wang L."/>
+        <person name="Ye M."/>
+        <person name="Zou H."/>
+      </authorList>
+      <dbReference type="PubMed" id="24275569"/>
+      <dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Liver</tissue>
+    </source>
+  </reference>
+  <reference key="22">
+    <citation type="journal article" date="2015" name="Hum. Mol. Genet." volume="24" first="3163" last="3171">
+      <title>Loss of the scavenger mRNA decapping enzyme DCPS causes syndromic intellectual disability with neuromuscular defects.</title>
+      <authorList>
+        <person name="Ng C.K."/>
+        <person name="Shboul M."/>
+        <person name="Taverniti V."/>
+        <person name="Bonnard C."/>
+        <person name="Lee H."/>
+        <person name="Eskin A."/>
+        <person name="Nelson S.F."/>
+        <person name="Al-Raqad M."/>
+        <person name="Altawalbeh S."/>
+        <person name="Seraphin B."/>
+        <person name="Reversade B."/>
+      </authorList>
+      <dbReference type="PubMed" id="25712129"/>
+      <dbReference type="DOI" id="10.1093/hmg/ddv067"/>
+    </citation>
+    <scope>INVOLVEMENT IN ARS</scope>
+  </reference>
+  <reference key="23">
+    <citation type="journal article" date="2015" name="Hum. Mol. Genet." volume="24" first="3172" last="3180">
+      <title>Mutations in DCPS and EDC3 in autosomal recessive intellectual disability indicate a crucial role for mRNA decapping in neurodevelopment.</title>
+      <authorList>
+        <person name="Ahmed I."/>
+        <person name="Buchert R."/>
+        <person name="Zhou M."/>
+        <person name="Jiao X."/>
+        <person name="Mittal K."/>
+        <person name="Sheikh T.I."/>
+        <person name="Scheller U."/>
+        <person name="Vasli N."/>
+        <person name="Rafiq M.A."/>
+        <person name="Brohi M.Q."/>
+        <person name="Mikhailov A."/>
+        <person name="Ayaz M."/>
+        <person name="Bhatti A."/>
+        <person name="Sticht H."/>
+        <person name="Nasr T."/>
+        <person name="Carter M.T."/>
+        <person name="Uebe S."/>
+        <person name="Reis A."/>
+        <person name="Ayub M."/>
+        <person name="John P."/>
+        <person name="Kiledjian M."/>
+        <person name="Vincent J.B."/>
+        <person name="Jamra R.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="25701870"/>
+      <dbReference type="DOI" id="10.1093/hmg/ddv069"/>
+    </citation>
+    <scope>INVOLVEMENT IN ARS</scope>
+    <scope>VARIANT ARS MET-316</scope>
+    <scope>CHARACTERIZATION OF VARIANT ARS MET-316</scope>
+  </reference>
+  <reference key="24">
+    <citation type="journal article" date="2004" name="Mol. Cell" volume="14" first="67" last="80">
+      <title>Insights into the structure, mechanism, and regulation of scavenger mRNA decapping activity.</title>
+      <authorList>
+        <person name="Gu M."/>
+        <person name="Fabrega C."/>
+        <person name="Liu S.-W."/>
+        <person name="Liu H."/>
+        <person name="Kiledjian M."/>
+        <person name="Lima C.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="15068804"/>
+      <dbReference type="DOI" id="10.1016/s1097-2765(04)00180-7"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.9 ANGSTROMS) OF MUTANT ASN-277 IN COMPLEX WITH SUBSTRATE</scope>
+    <scope>SUBUNIT</scope>
+    <scope>MUTAGENESIS OF ARG-58; ILE-61; PHE-63; ILE-83; GLU-85; PHE-108; ASN-110; TYR-113; LYS-128; LYS-138; ARG-145; GLN-146; TRP-175; GLU-185; PRO-204; ASP-205; LEU-206; LYS-207; TYR-217; HIS-268; SER-272; HIS-277; HIS-279; ARG-294 AND ARG-322</scope>
+  </reference>
+  <reference key="25">
+    <citation type="journal article" date="2005" name="J. Mol. Biol." volume="347" first="707" last="718">
+      <title>Crystal structures of human DcpS in ligand-free and m7GDP-bound forms suggest a dynamic mechanism for scavenger mRNA decapping.</title>
+      <authorList>
+        <person name="Chen N."/>
+        <person name="Walsh M.A."/>
+        <person name="Liu Y."/>
+        <person name="Parker R."/>
+        <person name="Song H."/>
+      </authorList>
+      <dbReference type="PubMed" id="15769464"/>
+      <dbReference type="DOI" id="10.1016/j.jmb.2005.01.062"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.0 ANGSTROMS) IN COMPLEX WITH SUBSTRATE</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>MUTAGENESIS OF TYR-273</scope>
+  </reference>
+  <reference key="26">
+    <citation type="journal article" date="2008" name="ACS Chem. Biol." volume="3" first="711" last="722">
+      <title>DcpS as a therapeutic target for spinal muscular atrophy.</title>
+      <authorList>
+        <person name="Singh J."/>
+        <person name="Salcius M."/>
+        <person name="Liu S.W."/>
+        <person name="Staker B.L."/>
+        <person name="Mishra R."/>
+        <person name="Thurmond J."/>
+        <person name="Michaud G."/>
+        <person name="Mattoon D.R."/>
+        <person name="Printen J."/>
+        <person name="Christensen J."/>
+        <person name="Bjornsson J.M."/>
+        <person name="Pollok B.A."/>
+        <person name="Kiledjian M."/>
+        <person name="Stewart L."/>
+        <person name="Jarecki J."/>
+        <person name="Gurney M.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="18839960"/>
+      <dbReference type="DOI" id="10.1021/cb800120t"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS) OF 38-337 IN COMPLEX WITH SUBSTRATE ANALOGS</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>ACTIVITY REGULATION</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="3 4 5 6 8 9 11 12 13 16">Decapping scavenger enzyme that catalyzes the cleavage of a residual cap structure following the degradation of mRNAs by the 3'-&gt;5' exosome-mediated mRNA decay pathway. Hydrolyzes cap analog structures like 7-methylguanosine nucleoside triphosphate (m7GpppG) with up to 10 nucleotide substrates (small capped oligoribonucleotides) and specifically releases 5'-phosphorylated RNA fragments and 7-methylguanosine monophosphate (m7GMP). Cleaves cap analog structures like tri-methyl guanosine nucleoside triphosphate (m3(2,2,7)GpppG) with very poor efficiency. Does not hydrolyze unmethylated cap analog (GpppG) and shows no decapping activity on intact m7GpppG-capped mRNA molecules longer than 25 nucleotides. Does not hydrolyze 7-methylguanosine diphosphate (m7GDP) to m7GMP (PubMed:22985415). May also play a role in the 5'-&gt;3 mRNA decay pathway; m7GDP, the downstream product released by the 5'-&gt;3' mRNA mediated decapping activity, may be also converted by DCPS to m7GMP (PubMed:14523240). Binds to m7GpppG and strongly to m7GDP. Plays a role in first intron splicing of pre-mRNAs. Inhibits activation-induced cell death.</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="8 9 15 16">
+      <text>a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-ribonucleoside in mRNA + H2O = a 5'-end diphospho-ribonucleoside in mRNA + 2 H(+) + N(7)-methyl-GMP</text>
+      <dbReference type="Rhea" id="RHEA:65388"/>
+      <dbReference type="Rhea" id="RHEA-COMP:17165"/>
+      <dbReference type="Rhea" id="RHEA-COMP:17167"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:58285"/>
+      <dbReference type="ChEBI" id="CHEBI:156461"/>
+      <dbReference type="ChEBI" id="CHEBI:167616"/>
+      <dbReference type="EC" id="3.6.1.59"/>
+    </reaction>
+  </comment>
+  <comment type="activity regulation">
+    <text evidence="15 16">The hydrolytic product 7-methylguanosine diphosphate (m7GDP) efficiently inhibits the decapping scavenger activity and acts as a competitive inhibitor in vitro. Inhibited by 2,4-diaminoquinazoline.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="3 4 7 11 12 15">Homodimer. Associates with components of the exosome multienzyme ribonuclease complex, such as EXOSC3 and EXOSC4. Interacts with NDOR1.</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3917181">
+      <id>Q96C86</id>
+    </interactant>
+    <interactant intactId="EBI-3917181">
+      <id>Q96C86</id>
+      <label>DCPS</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3917181">
+      <id>Q96C86</id>
+    </interactant>
+    <interactant intactId="EBI-349938">
+      <id>P52292</id>
+      <label>KPNA2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3917181">
+      <id>Q96C86</id>
+    </interactant>
+    <interactant intactId="EBI-540602">
+      <id>O15131</id>
+      <label>KPNA5</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3917181">
+      <id>Q96C86</id>
+    </interactant>
+    <interactant intactId="EBI-359923">
+      <id>O60684</id>
+      <label>KPNA6</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>5</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location>Cytoplasm</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location>Nucleus</location>
+    </subcellularLocation>
+    <text>Predominantly localized in the nucleus. Nucleocytoplasmic shuttling protein that can transiently enter the cytoplasm in mammalian cells in a XPO1/CRM1-dependent manner.</text>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="5">Detected in liver, brain, kidney, testis and prostate.</text>
+  </comment>
+  <comment type="induction">
+    <text evidence="12 14">Up-regulated by menadione. Up-regulated by the transcription factor LTF isoform delta-lactoferrin (at protein level).</text>
+  </comment>
+  <comment type="domain">
+    <text evidence="8">The C-terminal histidine triad (HIT) motif and the N-terminal domain are required for the decapping activity. The N-terminus is necessary but not sufficient for binding cap structures.</text>
+  </comment>
+  <comment type="disease" evidence="17 18">
+    <disease id="DI-04480">
+      <name>Al-Raqad syndrome</name>
+      <acronym>ARS</acronym>
+      <description>A syndrome characterized by delayed psychomotor development, moderate to severe intellectual disability, poor or absent speech, microcephaly, congenital hypotonia, and severe growth delay.</description>
+      <dbReference type="MIM" id="616459"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="20">Belongs to the HIT family.</text>
+  </comment>
+  <dbReference type="EC" id="3.6.1.59" evidence="8 9 15 16"/>
+  <dbReference type="EMBL" id="AH010984">
+    <property type="protein sequence ID" value="AAK91763.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AY040771">
+    <property type="protein sequence ID" value="AAK91765.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF532613">
+    <property type="protein sequence ID" value="AAM90310.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AY077684">
+    <property type="protein sequence ID" value="AAL77216.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF077201">
+    <property type="protein sequence ID" value="AAD26996.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC014532">
+    <property type="protein sequence ID" value="AAH14532.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS8473.1"/>
+  <dbReference type="RefSeq" id="NP_054745.1">
+    <property type="nucleotide sequence ID" value="NM_014026.4"/>
+  </dbReference>
+  <dbReference type="PDB" id="1ST0">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.90 A"/>
+    <property type="chains" value="A/B=1-337"/>
+  </dbReference>
+  <dbReference type="PDB" id="1ST4">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.02 A"/>
+    <property type="chains" value="A/B=1-337"/>
+  </dbReference>
+  <dbReference type="PDB" id="1XML">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="A/B=1-337"/>
+  </dbReference>
+  <dbReference type="PDB" id="1XMM">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="A/B/C/D=1-337"/>
+  </dbReference>
+  <dbReference type="PDB" id="3BL7">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.31 A"/>
+    <property type="chains" value="A/B=38-337"/>
+  </dbReference>
+  <dbReference type="PDB" id="3BL9">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.80 A"/>
+    <property type="chains" value="A/B=38-337"/>
+  </dbReference>
+  <dbReference type="PDB" id="3BLA">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.60 A"/>
+    <property type="chains" value="A/B=38-337"/>
+  </dbReference>
+  <dbReference type="PDB" id="4QDE">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.90 A"/>
+    <property type="chains" value="A/B/C/D=2-337"/>
+  </dbReference>
+  <dbReference type="PDB" id="4QDV">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.80 A"/>
+    <property type="chains" value="A/B/C/D=2-337"/>
+  </dbReference>
+  <dbReference type="PDB" id="4QEB">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.21 A"/>
+    <property type="chains" value="A/B/C/D=2-337"/>
+  </dbReference>
+  <dbReference type="PDB" id="5OSY">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.06 A"/>
+    <property type="chains" value="A/B=37-337"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1ST0"/>
+  <dbReference type="PDBsum" id="1ST4"/>
+  <dbReference type="PDBsum" id="1XML"/>
+  <dbReference type="PDBsum" id="1XMM"/>
+  <dbReference type="PDBsum" id="3BL7"/>
+  <dbReference type="PDBsum" id="3BL9"/>
+  <dbReference type="PDBsum" id="3BLA"/>
+  <dbReference type="PDBsum" id="4QDE"/>
+  <dbReference type="PDBsum" id="4QDV"/>
+  <dbReference type="PDBsum" id="4QEB"/>
+  <dbReference type="PDBsum" id="5OSY"/>
+  <dbReference type="AlphaFoldDB" id="Q96C86"/>
+  <dbReference type="SMR" id="Q96C86"/>
+  <dbReference type="BioGRID" id="118787">
+    <property type="interactions" value="395"/>
+  </dbReference>
+  <dbReference type="IntAct" id="Q96C86">
+    <property type="interactions" value="8"/>
+  </dbReference>
+  <dbReference type="STRING" id="9606.ENSP00000263579"/>
+  <dbReference type="BindingDB" id="Q96C86"/>
+  <dbReference type="ChEMBL" id="CHEMBL1949488"/>
+  <dbReference type="DrugBank" id="DB07644">
+    <property type="generic name" value="5-[(1S)-1-(3-chlorophenyl)ethoxy]quinazoline-2,4-diamine"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB07643">
+    <property type="generic name" value="5-{[1-(2,3-dichlorobenzyl)piperidin-4-yl]methoxy}quinazoline-2,4-diamine"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB07642">
+    <property type="generic name" value="5-{[1-(2-fluorobenzyl)piperidin-4-yl]methoxy}quinazoline-2,4-diamine"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03593">
+    <property type="generic name" value="7-methyl-5'-guanylic acid"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB01960">
+    <property type="generic name" value="7-methyl-7,8-dihydroguanosine-5'-diphosphate"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB01649">
+    <property type="generic name" value="7-methyl-GpppA"/>
+  </dbReference>
+  <dbReference type="DrugBank" id="DB03958">
+    <property type="generic name" value="7-methyl-guanosine-5'-triphosphate-5'-guanosine"/>
+  </dbReference>
+  <dbReference type="GlyGen" id="Q96C86">
+    <property type="glycosylation" value="1 site, 1 O-linked glycan (1 site)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="Q96C86"/>
+  <dbReference type="PhosphoSitePlus" id="Q96C86"/>
+  <dbReference type="SwissPalm" id="Q96C86"/>
+  <dbReference type="BioMuta" id="DCPS"/>
+  <dbReference type="DMDM" id="116241325"/>
+  <dbReference type="REPRODUCTION-2DPAGE" id="IPI00335385"/>
+  <dbReference type="jPOST" id="Q96C86"/>
+  <dbReference type="MassIVE" id="Q96C86"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000263579"/>
+  <dbReference type="PeptideAtlas" id="Q96C86"/>
+  <dbReference type="ProteomicsDB" id="76164"/>
+  <dbReference type="Pumba" id="Q96C86"/>
+  <dbReference type="Antibodypedia" id="32998">
+    <property type="antibodies" value="264 antibodies from 24 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="28960"/>
+  <dbReference type="Ensembl" id="ENST00000263579.5">
+    <property type="protein sequence ID" value="ENSP00000263579.4"/>
+    <property type="gene ID" value="ENSG00000110063.10"/>
+  </dbReference>
+  <dbReference type="GeneID" id="28960"/>
+  <dbReference type="KEGG" id="hsa:28960"/>
+  <dbReference type="MANE-Select" id="ENST00000263579.5">
+    <property type="protein sequence ID" value="ENSP00000263579.4"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_014026.6"/>
+    <property type="RefSeq protein sequence ID" value="NP_054745.1"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc001qdp.3">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:29812"/>
+  <dbReference type="CTD" id="28960"/>
+  <dbReference type="DisGeNET" id="28960"/>
+  <dbReference type="GeneCards" id="DCPS"/>
+  <dbReference type="HGNC" id="HGNC:29812">
+    <property type="gene designation" value="DCPS"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000110063">
+    <property type="expression patterns" value="Tissue enhanced (liver)"/>
+  </dbReference>
+  <dbReference type="MalaCards" id="DCPS"/>
+  <dbReference type="MIM" id="610534">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="MIM" id="616459">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q96C86"/>
+  <dbReference type="OpenTargets" id="ENSG00000110063"/>
+  <dbReference type="Orphanet" id="88616">
+    <property type="disease" value="Autosomal recessive non-syndromic intellectual disability"/>
+  </dbReference>
+  <dbReference type="PharmGKB" id="PA134863866"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000110063"/>
+  <dbReference type="eggNOG" id="KOG3969">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00390000003924"/>
+  <dbReference type="HOGENOM" id="CLU_041045_2_0_1"/>
+  <dbReference type="InParanoid" id="Q96C86"/>
+  <dbReference type="OMA" id="HVHINPI"/>
+  <dbReference type="OrthoDB" id="5490768at2759"/>
+  <dbReference type="PhylomeDB" id="Q96C86"/>
+  <dbReference type="TreeFam" id="TF105622"/>
+  <dbReference type="BRENDA" id="3.6.1.59">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="Q96C86"/>
+  <dbReference type="Reactome" id="R-HSA-429958">
+    <property type="pathway name" value="mRNA decay by 3' to 5' exoribonuclease"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="Q96C86"/>
+  <dbReference type="BioGRID-ORCS" id="28960">
+    <property type="hits" value="258 hits in 1184 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="DCPS">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q96C86"/>
+  <dbReference type="GeneWiki" id="DCPS_(gene)"/>
+  <dbReference type="GenomeRNAi" id="28960"/>
+  <dbReference type="Pharos" id="Q96C86">
+    <property type="development level" value="Tchem"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q96C86"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 11"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q96C86">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000110063">
+    <property type="expression patterns" value="Expressed in right lobe of liver and 156 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q96C86">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005829">
+    <property type="term" value="C:cytosol"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005739">
+    <property type="term" value="C:mitochondrion"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000932">
+    <property type="term" value="C:P-body"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140932">
+    <property type="term" value="F:5'-(N(7)-methyl 5'-triphosphoguanosine)-[mRNA] diphosphatase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042802">
+    <property type="term" value="F:identical protein binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="IntAct"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000340">
+    <property type="term" value="F:RNA 7-methylguanosine cap binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004532">
+    <property type="term" value="F:RNA exonuclease activity"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000290">
+    <property type="term" value="P:deadenylation-dependent decapping of nuclear-transcribed mRNA"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045292">
+    <property type="term" value="P:mRNA cis splicing, via spliceosome"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0110156">
+    <property type="term" value="P:mRNA methylguanosine-cap decapping"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="WormBase"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000288">
+    <property type="term" value="P:nuclear-transcribed mRNA catabolic process, deadenylation-dependent decay"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.428.10">
+    <property type="entry name" value="HIT-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.200.40">
+    <property type="entry name" value="Scavenger mRNA decapping enzyme, N-terminal domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008594">
+    <property type="entry name" value="DcpS/DCS2"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR019808">
+    <property type="entry name" value="Histidine_triad_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036265">
+    <property type="entry name" value="HIT-like_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011145">
+    <property type="entry name" value="Scavenger_mRNA_decap_enz_N"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR12978">
+    <property type="entry name" value="HISTIDINE TRIAD HIT PROTEIN MEMBER"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR12978:SF0">
+    <property type="entry name" value="M7GPPPX DIPHOSPHATASE"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF05652">
+    <property type="entry name" value="DcpS"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF11969">
+    <property type="entry name" value="DcpS_C"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PIRSF" id="PIRSF028973">
+    <property type="entry name" value="Scavenger_mRNA_decap_enz"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF54197">
+    <property type="entry name" value="HIT-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF102860">
+    <property type="entry name" value="mRNA decapping enzyme DcpS N-terminal domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00892">
+    <property type="entry name" value="HIT_1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0225">Disease variant</keyword>
+  <keyword id="KW-0378">Hydrolase</keyword>
+  <keyword id="KW-0991">Intellectual disability</keyword>
+  <keyword id="KW-0507">mRNA processing</keyword>
+  <keyword id="KW-0508">mRNA splicing</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <feature type="initiator methionine" description="Removed" evidence="19 21 23 24">
+    <location>
+      <position position="1"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000109794" description="m7GpppX diphosphatase">
+    <location>
+      <begin position="2"/>
+      <end position="337"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="35"/>
+    </location>
+  </feature>
+  <feature type="short sequence motif" description="nuclear localization signal (NLS)">
+    <location>
+      <begin position="10"/>
+      <end position="13"/>
+    </location>
+  </feature>
+  <feature type="short sequence motif" description="nuclear export sequence (NES)">
+    <location>
+      <begin position="142"/>
+      <end position="154"/>
+    </location>
+  </feature>
+  <feature type="short sequence motif" description="Histidine triad motif">
+    <location>
+      <begin position="275"/>
+      <end position="279"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="26"/>
+    </location>
+  </feature>
+  <feature type="active site" description="Nucleophile">
+    <location>
+      <position position="277"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="7 11">
+    <location>
+      <position position="175"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7 11">
+    <location>
+      <position position="185"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7 11">
+    <location>
+      <position position="205"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="7 11">
+    <location>
+      <position position="207"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site">
+    <location>
+      <begin position="268"/>
+      <end position="279"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="modified residue" description="N-acetylalanine" evidence="19 21 23 24">
+    <location>
+      <position position="2"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="25">
+    <location>
+      <position position="24"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="1">
+    <location>
+      <position position="101"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="22">
+    <location>
+      <position position="138"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="22">
+    <location>
+      <position position="142"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_027958" description="In dbSNP:rs11557735." evidence="10">
+    <original>G</original>
+    <variation>E</variation>
+    <location>
+      <position position="73"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_073956" description="In ARS; results in a severe decrease of decapase activity; dbSNP:rs137941190." evidence="17">
+    <original>T</original>
+    <variation>M</variation>
+    <location>
+      <position position="316"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increases cytoplasmic localization." evidence="13">
+    <location>
+      <begin position="10"/>
+      <end position="13"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increases decapping activity to 125% of wild-type." evidence="7">
+    <original>R</original>
+    <variation>A</variation>
+    <location>
+      <position position="58"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect." evidence="7">
+    <original>I</original>
+    <variation>A</variation>
+    <location>
+      <position position="61"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect." evidence="7">
+    <original>F</original>
+    <variation>A</variation>
+    <location>
+      <position position="63"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Strongly reduces decapping activity." evidence="7">
+    <original>I</original>
+    <variation>A</variation>
+    <location>
+      <position position="83"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduces decapping activity." evidence="7">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="85"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduces decapping activity." evidence="7">
+    <original>F</original>
+    <variation>A</variation>
+    <location>
+      <position position="108"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of decapping activity." evidence="7">
+    <original>N</original>
+    <variation>A</variation>
+    <location>
+      <position position="110"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of decapping activity." evidence="7">
+    <original>Y</original>
+    <variation>A</variation>
+    <location>
+      <position position="113"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect." evidence="7">
+    <original>K</original>
+    <variation>A</variation>
+    <location>
+      <position position="128"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increases decapping activity to 250% of wild-type." evidence="7">
+    <original>K</original>
+    <variation>D</variation>
+    <location>
+      <position position="138"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increases decapping activity to 180% of wild-type." evidence="7">
+    <original>R</original>
+    <variation>A</variation>
+    <location>
+      <position position="145"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increases decapping activity to 140% of wild-type." evidence="7">
+    <original>Q</original>
+    <variation>P</variation>
+    <location>
+      <position position="146"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Inhibits nuclear export to the cytoplasm." evidence="13">
+    <original>L</original>
+    <variation>A</variation>
+    <location>
+      <position position="148"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Inhibits nuclear export to the cytoplasm." evidence="13">
+    <original>L</original>
+    <variation>A</variation>
+    <location>
+      <position position="150"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of decapping activity." evidence="7">
+    <original>W</original>
+    <variation>A</variation>
+    <location>
+      <position position="175"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of decapping activity." evidence="7">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="185"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduces decapping activity." evidence="7">
+    <original>P</original>
+    <variation>A</variation>
+    <location>
+      <position position="204"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduces decapping activity." evidence="7">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="205"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect." evidence="7">
+    <original>L</original>
+    <variation>A</variation>
+    <location>
+      <position position="206"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduces decapping activity." evidence="7">
+    <original>K</original>
+    <variation>A</variation>
+    <location>
+      <position position="207"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect." evidence="7">
+    <original>K</original>
+    <variation>R</variation>
+    <location>
+      <position position="207"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect." evidence="7">
+    <original>Y</original>
+    <variation>A</variation>
+    <location>
+      <position position="217"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduces decapping activity." evidence="7">
+    <original>Y</original>
+    <variation>F</variation>
+    <location>
+      <position position="217"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of decapping activity." evidence="7">
+    <original>H</original>
+    <variation>N</variation>
+    <location>
+      <position position="268"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect." evidence="7">
+    <original>S</original>
+    <variation>A</variation>
+    <location>
+      <position position="272"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduces decapping activity." evidence="11">
+    <original>Y</original>
+    <variation>A</variation>
+    <location>
+      <position position="273"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Activates decapping activity to 120% of wild-type." evidence="11">
+    <original>Y</original>
+    <variation>F</variation>
+    <location>
+      <position position="273"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of decapping activity. Does not inhibit cap structure and capped RNA binding. Preferentially hydrolyzes cap structure (m7GpppG) at least 2500-fold more efficiently than capped RNA (m7Gppp-RNA)." evidence="4 7 8">
+    <original>H</original>
+    <variation>N</variation>
+    <location>
+      <position position="277"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of decapping activity." evidence="7">
+    <original>H</original>
+    <variation>N</variation>
+    <location>
+      <position position="279"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect." evidence="7">
+    <original>R</original>
+    <variation>A</variation>
+    <variation>K</variation>
+    <location>
+      <position position="294"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect." evidence="7">
+    <original>R</original>
+    <variation>A</variation>
+    <location>
+      <position position="322"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; AAK91763." evidence="20" ref="1">
+    <original>N</original>
+    <variation>K</variation>
+    <location>
+      <position position="69"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="26">
+    <location>
+      <begin position="43"/>
+      <end position="45"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="48"/>
+      <end position="56"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="28">
+    <location>
+      <begin position="57"/>
+      <end position="60"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="61"/>
+      <end position="67"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="79"/>
+      <end position="86"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="91"/>
+      <end position="98"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="103"/>
+      <end position="110"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="113"/>
+      <end position="119"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="122"/>
+      <end position="124"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="127"/>
+      <end position="132"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="137"/>
+      <end position="143"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="148"/>
+      <end position="153"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="155"/>
+      <end position="160"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="162"/>
+      <end position="167"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="174"/>
+      <end position="180"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="183"/>
+      <end position="185"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="186"/>
+      <end position="188"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="191"/>
+      <end position="193"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="28">
+    <location>
+      <begin position="196"/>
+      <end position="198"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="200"/>
+      <end position="204"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="27">
+    <location>
+      <begin position="213"/>
+      <end position="215"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="217"/>
+      <end position="225"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="230"/>
+      <end position="232"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="235"/>
+      <end position="237"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="238"/>
+      <end position="256"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="260"/>
+      <end position="262"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="263"/>
+      <end position="270"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="272"/>
+      <end position="275"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="277"/>
+      <end position="282"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="28">
+    <location>
+      <begin position="292"/>
+      <end position="294"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="295"/>
+      <end position="297"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="298"/>
+      <end position="307"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="311"/>
+      <end position="314"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="317"/>
+      <end position="322"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="326"/>
+      <end position="333"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q9DAR7"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="11747811"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="12198172"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="12871939"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="14523240"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="15068804"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="15273322"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="15383679"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="15489334"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="15769464"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="16140270"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="18426921"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="14">
+    <source>
+      <dbReference type="PubMed" id="18725266"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="15">
+    <source>
+      <dbReference type="PubMed" id="18839960"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="16">
+    <source>
+      <dbReference type="PubMed" id="22985415"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="17">
+    <source>
+      <dbReference type="PubMed" id="25701870"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="18">
+    <source>
+      <dbReference type="PubMed" id="25712129"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="19">
+    <source ref="6"/>
+  </evidence>
+  <evidence type="ECO:0000305" key="20"/>
+  <evidence type="ECO:0007744" key="21">
+    <source>
+      <dbReference type="PubMed" id="19413330"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="22">
+    <source>
+      <dbReference type="PubMed" id="19608861"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="23">
+    <source>
+      <dbReference type="PubMed" id="22223895"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="24">
+    <source>
+      <dbReference type="PubMed" id="22814378"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="25">
+    <source>
+      <dbReference type="PubMed" id="23186163"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="26">
+    <source>
+      <dbReference type="PDB" id="1ST0"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="27">
+    <source>
+      <dbReference type="PDB" id="1XML"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="28">
+    <source>
+      <dbReference type="PDB" id="3BL9"/>
+    </source>
+  </evidence>
+  <sequence length="337" mass="38609" checksum="C9C5A33C212D7A52" modified="2006-10-17" version="2">MADAAPQLGKRKRELDVEEAHAASTEEKEAGVGNGTCAPVRLPFSGFRLQKVLRESARDKIIFLHGKVNEASGDGDGEDAVVILEKTPFQVEQVAQLLTGSPELQLQFSNDIYSTYHLFPPRQLNDVKTTVVYPATEKHLQKYLRQDLRLIRETGDDYRNITLPHLESQSLSIQWVYNILDKKAEADRIVFENPDPSDGFVLIPDLKWNQQQLDDLYLIAICHRRGIRSLRDLTPEHLPLLRNILHQGQEAILQRYRMKGDHLRVYLHYLPSYYHLHVHFTALGFEAPGSGVERAHLLAEVIENLECDPRHYQQRTLTFALRADDPLLKLLQEAQQS</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

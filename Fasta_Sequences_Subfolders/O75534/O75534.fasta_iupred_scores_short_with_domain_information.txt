@@ -1,0 +1,810 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9004	
+2	S	0.8794	
+3	F	0.8417	
+4	D	0.7942	
+5	P	0.7420	
+6	N	0.6893	
+7	L	0.6392	
+8	L	0.5937	
+9	H	0.5541	
+10	N	0.5211	
+11	N	0.4895	
+12	G	0.4725	
+13	H	0.4643	
+14	N	0.4568	
+15	G	0.4512	
+16	Y	0.4577	
+17	P	0.4623	
+18	N	0.4609	
+19	G	0.4494	
+20	T	0.4290	
+21	S	0.4079	
+22	A	0.3862	
+23	A	0.3605	
+24	L	0.3362	
+25	R	0.3099	
+26	E	0.2828	domain CSD 1
+27	T	0.2525	domain CSD 1
+28	G	0.2156	domain CSD 1
+29	V	0.1796	domain CSD 1
+30	I	0.1529	domain CSD 1
+31	E	0.1342	domain CSD 1
+32	K	0.1183	domain CSD 1
+33	L	0.1089	domain CSD 1
+34	L	0.1078	domain CSD 1
+35	T	0.1138	domain CSD 1
+36	S	0.1204	domain CSD 1
+37	Y	0.1167	domain CSD 1
+38	G	0.1046	domain CSD 1
+39	F	0.0898	domain CSD 1
+40	I	0.0734	domain CSD 1
+41	Q	0.0530	domain CSD 1
+42	C	0.0429	domain CSD 1
+43	S	0.0368	domain CSD 1
+44	E	0.0384	domain CSD 1
+45	R	0.0406	domain CSD 1
+46	Q	0.0430	domain CSD 1
+47	A	0.0546	domain CSD 1
+48	R	0.0679	domain CSD 1
+49	L	0.0848	domain CSD 1
+50	F	0.0970	domain CSD 1
+51	F	0.1101	domain CSD 1
+52	H	0.1150	domain CSD 1
+53	C	0.1208	domain CSD 1
+54	S	0.1158	domain CSD 1
+55	Q	0.1116	domain CSD 1
+56	Y	0.1039	domain CSD 1
+57	N	0.0987	domain CSD 1
+58	G	0.1001	domain CSD 1
+59	N	0.1043	domain CSD 1
+60	L	0.1183	domain CSD 1
+61	Q	0.1380	domain CSD 1
+62	D	0.1664	domain CSD 1
+63	L	0.1915	domain CSD 1
+64	K	0.2064	domain CSD 1
+65	V	0.2323	domain CSD 1
+66	G	0.2536	domain CSD 1
+67	D	0.2798	domain CSD 1
+68	D	0.2934	domain CSD 1
+69	V	0.3091	domain CSD 1
+70	E	0.3240	domain CSD 1
+71	F	0.3398	domain CSD 1
+72	E	0.3437	domain CSD 1
+73	V	0.3519	domain CSD 1
+74	S	0.3400	domain CSD 1
+75	S	0.3196	domain CSD 1
+76	D	0.2955	domain CSD 1
+77	R	0.2730	domain CSD 1
+78	R	0.2543	domain CSD 1
+79	T	0.2449	domain CSD 1
+80	G	0.2470	domain CSD 1
+81	K	0.2502	domain CSD 1
+82	P	0.2520	domain CSD 1
+83	I	0.2652	domain CSD 1
+84	A	0.2722	domain CSD 1
+85	V	0.2854	domain CSD 1
+86	K	0.2828	domain CSD 1
+87	L	0.2754	domain CSD 1
+88	V	0.2692	
+89	K	0.2659	
+90	I	0.2687	
+91	K	0.2728	
+92	Q	0.2709	
+93	E	0.2586	
+94	I	0.2453	
+95	L	0.2429	
+96	P	0.2487	
+97	E	0.2600	
+98	E	0.2709	
+99	R	0.2826	
+100	M	0.3007	
+101	N	0.3269	
+102	G	0.3534	
+103	Q	0.3792	
+104	V	0.3948	
+105	V	0.4044	
+106	C	0.4109	
+107	A	0.4154	
+108	V	0.4215	
+109	P	0.4157	
+110	H	0.4119	
+111	N	0.4041	
+112	L	0.4129	
+113	E	0.4329	
+114	S	0.4664	
+115	K	0.4966	
+116	S	0.5179	
+117	P	0.5270	
+118	A	0.5278	
+119	A	0.5278	
+120	P	0.5284	
+121	G	0.5277	
+122	Q	0.5160	
+123	S	0.5061	
+124	P	0.4990	
+125	T	0.4890	
+126	G	0.4728	
+127	S	0.4399	
+128	V	0.4036	
+129	C	0.3626	
+130	Y	0.3322	
+131	E	0.3081	
+132	R	0.2959	
+133	N	0.2794	
+134	G	0.2787	
+135	E	0.2826	
+136	V	0.2894	domain CSD 2; truncated
+137	F	0.2993	domain CSD 2; truncated
+138	Y	0.3170	domain CSD 2; truncated
+139	L	0.3322	domain CSD 2; truncated
+140	T	0.3425	domain CSD 2; truncated
+141	Y	0.3496	domain CSD 2; truncated
+142	T	0.3544	domain CSD 2; truncated
+143	P	0.3601	domain CSD 2; truncated
+144	E	0.3640	domain CSD 2; truncated
+145	D	0.3611	domain CSD 2; truncated
+146	V	0.3606	domain CSD 2; truncated
+147	E	0.3594	domain CSD 2; truncated
+148	G	0.3667	domain CSD 2; truncated
+149	N	0.3686	domain CSD 2; truncated
+150	V	0.3674	domain CSD 2; truncated
+151	Q	0.3504	domain CSD 2; truncated
+152	L	0.3378	domain CSD 2; truncated
+153	E	0.3238	domain CSD 2; truncated
+154	T	0.3127	domain CSD 2; truncated
+155	G	0.3009	domain CSD 2; truncated
+156	D	0.2957	domain CSD 2; truncated
+157	K	0.2871	domain CSD 2; truncated
+158	I	0.2898	domain CSD 2; truncated
+159	N	0.2898	domain CSD 2; truncated
+160	F	0.2921	domain CSD 2; truncated
+161	V	0.2941	domain CSD 2; truncated
+162	I	0.2952	domain CSD 2; truncated
+163	D	0.2849	domain CSD 2; truncated
+164	N	0.2658	domain CSD 2; truncated
+165	N	0.2344	domain CSD 2; truncated
+166	K	0.2105	domain CSD 2; truncated
+167	H	0.1847	domain CSD 2; truncated
+168	T	0.1762	domain CSD 2; truncated
+169	G	0.1771	domain CSD 2; truncated
+170	A	0.1871	domain CSD 2; truncated
+171	V	0.2070	domain CSD 2; truncated
+172	S	0.2359	domain CSD 2; truncated
+173	A	0.2634	domain CSD 2; truncated
+174	R	0.2799	domain CSD 2; truncated
+175	N	0.2766	domain CSD 2; truncated
+176	I	0.2566	domain CSD 2; truncated
+177	M	0.2199	domain CSD 2; truncated
+178	L	0.1793	domain CSD 2; truncated
+179	L	0.1396	domain CSD 2; truncated
+180	K	0.1098	
+181	K	0.0899	
+182	K	0.0798	
+183	Q	0.0687	
+184	A	0.0633	
+185	R	0.0563	
+186	C	0.0575	domain CSD 3
+187	Q	0.0585	domain CSD 3
+188	G	0.0579	domain CSD 3
+189	V	0.0547	domain CSD 3
+190	V	0.0500	domain CSD 3
+191	C	0.0486	domain CSD 3
+192	A	0.0466	domain CSD 3
+193	M	0.0481	domain CSD 3
+194	K	0.0463	domain CSD 3
+195	E	0.0435	domain CSD 3
+196	A	0.0409	domain CSD 3
+197	F	0.0377	domain CSD 3
+198	G	0.0358	domain CSD 3
+199	F	0.0369	domain CSD 3
+200	I	0.0370	domain CSD 3
+201	E	0.0367	domain CSD 3
+202	R	0.0388	domain CSD 3
+203	G	0.0369	domain CSD 3
+204	D	0.0329	domain CSD 3
+205	V	0.0357	domain CSD 3
+206	V	0.0456	domain CSD 3
+207	K	0.0580	domain CSD 3
+208	E	0.0686	domain CSD 3
+209	I	0.0751	domain CSD 3
+210	F	0.0750	domain CSD 3
+211	F	0.0880	domain CSD 3
+212	H	0.0980	domain CSD 3
+213	Y	0.1143	domain CSD 3
+214	S	0.1224	domain CSD 3
+215	E	0.1375	domain CSD 3
+216	F	0.1550	domain CSD 3
+217	K	0.1744	domain CSD 3
+218	G	0.2006	domain CSD 3
+219	D	0.2249	domain CSD 3
+220	L	0.2460	domain CSD 3
+221	E	0.2616	domain CSD 3
+222	T	0.2728	domain CSD 3
+223	L	0.2839	domain CSD 3
+224	Q	0.3012	domain CSD 3
+225	P	0.3289	domain CSD 3
+226	G	0.3466	domain CSD 3
+227	D	0.3602	domain CSD 3
+228	D	0.3675	domain CSD 3
+229	V	0.3865	domain CSD 3
+230	E	0.4069	domain CSD 3
+231	F	0.4274	domain CSD 3
+232	T	0.4216	domain CSD 3
+233	I	0.4132	domain CSD 3
+234	K	0.3828	domain CSD 3
+235	D	0.3488	domain CSD 3
+236	R	0.3202	domain CSD 3
+237	N	0.2968	domain CSD 3
+238	G	0.2799	domain CSD 3
+239	K	0.2679	domain CSD 3
+240	E	0.2683	domain CSD 3
+241	V	0.2729	domain CSD 3
+242	A	0.2888	domain CSD 3
+243	T	0.3132	domain CSD 3
+244	D	0.3118	domain CSD 3
+245	V	0.3005	domain CSD 3
+246	R	0.2750	
+247	L	0.2462	
+248	L	0.2171	
+249	P	0.2016	
+250	Q	0.1887	
+251	G	0.1764	
+252	T	0.1666	
+253	V	0.1753	
+254	I	0.1872	
+255	F	0.2038	
+256	E	0.2237	
+257	D	0.2289	
+258	I	0.2222	
+259	S	0.2073	
+260	I	0.1992	
+261	E	0.1914	
+262	H	0.1841	
+263	F	0.1825	
+264	E	0.1846	
+265	G	0.2124	
+266	T	0.2415	
+267	V	0.2849	
+268	T	0.3270	
+269	K	0.3628	
+270	V	0.3887	
+271	I	0.4155	
+272	P	0.4340	
+273	K	0.4481	
+274	V	0.4567	
+275	P	0.4668	
+276	S	0.4677	
+277	K	0.4578	
+278	N	0.4481	
+279	Q	0.4410	
+280	N	0.4348	
+281	D	0.4304	
+282	P	0.4247	
+283	L	0.4309	
+284	P	0.4294	
+285	G	0.4280	
+286	R	0.4146	
+287	I	0.4048	
+288	K	0.3873	
+289	V	0.3735	
+290	D	0.3594	
+291	F	0.3468	
+292	V	0.3285	
+293	I	0.3336	
+294	P	0.3440	
+295	K	0.3469	
+296	E	0.3387	
+297	L	0.3324	domain CSD 4; truncated
+298	P	0.3259	domain CSD 4; truncated
+299	F	0.3283	domain CSD 4; truncated
+300	G	0.3361	domain CSD 4; truncated
+301	D	0.3483	domain CSD 4; truncated
+302	K	0.3611	domain CSD 4; truncated
+303	D	0.3773	domain CSD 4; truncated
+304	T	0.3849	domain CSD 4; truncated
+305	K	0.3874	domain CSD 4; truncated
+306	S	0.3845	domain CSD 4; truncated
+307	K	0.3760	domain CSD 4; truncated
+308	V	0.3601	domain CSD 4; truncated
+309	T	0.3361	domain CSD 4; truncated
+310	L	0.3181	domain CSD 4; truncated
+311	L	0.3102	domain CSD 4; truncated
+312	E	0.3083	domain CSD 4; truncated
+313	G	0.3102	domain CSD 4; truncated
+314	D	0.3003	domain CSD 4; truncated
+315	H	0.2833	domain CSD 4; truncated
+316	V	0.2787	domain CSD 4; truncated
+317	R	0.2777	domain CSD 4; truncated
+318	F	0.2861	domain CSD 4; truncated
+319	N	0.3018	domain CSD 4; truncated
+320	I	0.3209	domain CSD 4; truncated
+321	S	0.3309	domain CSD 4; truncated
+322	T	0.3339	domain CSD 4; truncated
+323	D	0.3341	domain CSD 4; truncated
+324	R	0.3265	domain CSD 4; truncated
+325	R	0.3213	domain CSD 4; truncated
+326	D	0.3140	domain CSD 4; truncated
+327	K	0.3030	domain CSD 4; truncated
+328	L	0.2977	domain CSD 4; truncated
+329	E	0.2933	domain CSD 4; truncated
+330	R	0.2988	domain CSD 4; truncated
+331	A	0.2982	domain CSD 4; truncated
+332	T	0.2916	domain CSD 4; truncated
+333	N	0.2747	domain CSD 4; truncated
+334	I	0.2605	domain CSD 4; truncated
+335	E	0.2472	domain CSD 4; truncated
+336	V	0.2439	domain CSD 4; truncated
+337	L	0.2423	domain CSD 4; truncated
+338	S	0.2491	
+339	N	0.2499	
+340	T	0.2385	
+341	F	0.2168	
+342	Q	0.1919	
+343	F	0.1741	
+344	T	0.1579	
+345	N	0.1511	
+346	E	0.1417	
+347	A	0.1399	
+348	R	0.1484	
+349	E	0.1497	domain CSD 5
+350	M	0.1487	domain CSD 5
+351	G	0.1358	domain CSD 5
+352	V	0.1171	domain CSD 5
+353	I	0.0970	domain CSD 5
+354	A	0.0796	domain CSD 5
+355	A	0.0620	domain CSD 5
+356	M	0.0543	domain CSD 5
+357	R	0.0523	domain CSD 5
+358	D	0.0484	domain CSD 5
+359	G	0.0400	domain CSD 5
+360	F	0.0355	domain CSD 5
+361	G	0.0313	domain CSD 5
+362	F	0.0268	domain CSD 5
+363	I	0.0274	domain CSD 5
+364	K	0.0232	domain CSD 5
+365	C	0.0193	domain CSD 5
+366	V	0.0146	domain CSD 5
+367	D	0.0137	domain CSD 5
+368	R	0.0131	domain CSD 5
+369	D	0.0120	domain CSD 5
+370	V	0.0150	domain CSD 5
+371	R	0.0184	domain CSD 5
+372	M	0.0228	domain CSD 5
+373	F	0.0277	domain CSD 5
+374	F	0.0314	domain CSD 5
+375	H	0.0360	domain CSD 5
+376	F	0.0392	domain CSD 5
+377	S	0.0388	domain CSD 5
+378	E	0.0402	domain CSD 5
+379	I	0.0371	domain CSD 5
+380	L	0.0325	domain CSD 5
+381	D	0.0324	domain CSD 5
+382	G	0.0399	domain CSD 5
+383	N	0.0457	domain CSD 5
+384	Q	0.0514	domain CSD 5
+385	L	0.0606	domain CSD 5
+386	H	0.0696	domain CSD 5
+387	I	0.0831	domain CSD 5
+388	A	0.0901	domain CSD 5
+389	D	0.0963	domain CSD 5
+390	E	0.1035	domain CSD 5
+391	V	0.1060	domain CSD 5
+392	E	0.1133	domain CSD 5
+393	F	0.1305	domain CSD 5
+394	T	0.1405	domain CSD 5
+395	V	0.1599	domain CSD 5
+396	V	0.1759	domain CSD 5
+397	P	0.1859	domain CSD 5
+398	D	0.1880	domain CSD 5
+399	M	0.1808	domain CSD 5
+400	L	0.1850	domain CSD 5
+401	S	0.1908	domain CSD 5
+402	A	0.2124	domain CSD 5
+403	Q	0.2328	domain CSD 5
+404	R	0.2579	domain CSD 5
+405	N	0.2865	domain CSD 5
+406	H	0.3097	domain CSD 5
+407	A	0.3336	domain CSD 5
+408	I	0.3526	domain CSD 5
+409	R	0.3565	domain CSD 5
+410	I	0.3626	domain CSD 5
+411	K	0.3668	
+412	K	0.3658	
+413	L	0.3704	
+414	P	0.3759	
+415	K	0.3935	
+416	G	0.4041	
+417	T	0.4025	
+418	V	0.4067	
+419	S	0.4112	
+420	F	0.4351	
+421	H	0.4529	
+422	S	0.4745	
+423	H	0.4793	
+424	S	0.4797	
+425	D	0.4787	
+426	H	0.4786	
+427	R	0.4797	
+428	F	0.4843	
+429	L	0.4904	
+430	G	0.5074	
+431	T	0.5180	
+432	V	0.5303	
+433	E	0.5436	
+434	K	0.5522	
+435	E	0.5524	
+436	A	0.5517	
+437	T	0.5492	
+438	F	0.5583	
+439	S	0.5683	
+440	N	0.5909	
+441	P	0.6051	
+442	K	0.6158	
+443	T	0.6274	
+444	T	0.6403	
+445	S	0.6460	
+446	P	0.6446	
+447	N	0.6342	domain CSD 6
+448	K	0.6251	domain CSD 6
+449	G	0.6128	domain CSD 6
+450	K	0.6014	domain CSD 6
+451	E	0.5839	domain CSD 6
+452	K	0.5684	domain CSD 6
+453	E	0.5419	domain CSD 6
+454	A	0.5203	domain CSD 6
+455	E	0.4924	domain CSD 6
+456	D	0.4645	domain CSD 6
+457	G	0.4314	domain CSD 6
+458	I	0.3945	domain CSD 6
+459	I	0.3574	domain CSD 6
+460	A	0.3205	domain CSD 6
+461	Y	0.2885	domain CSD 6
+462	D	0.2600	domain CSD 6
+463	D	0.2356	domain CSD 6
+464	C	0.2176	domain CSD 6
+465	G	0.2001	domain CSD 6
+466	V	0.1906	domain CSD 6
+467	K	0.1928	domain CSD 6
+468	L	0.2124	domain CSD 6
+469	T	0.2320	domain CSD 6
+470	I	0.2545	domain CSD 6
+471	A	0.2761	domain CSD 6
+472	F	0.3014	domain CSD 6
+473	Q	0.3252	domain CSD 6
+474	A	0.3476	domain CSD 6
+475	K	0.3636	domain CSD 6
+476	D	0.3732	domain CSD 6
+477	V	0.3820	domain CSD 6
+478	E	0.3889	domain CSD 6
+479	G	0.3989	domain CSD 6
+480	S	0.4049	domain CSD 6
+481	T	0.4129	domain CSD 6
+482	S	0.4196	domain CSD 6
+483	P	0.4258	domain CSD 6
+484	Q	0.4305	domain CSD 6
+485	I	0.4413	domain CSD 6
+486	G	0.4664	domain CSD 6
+487	D	0.4924	domain CSD 6
+488	K	0.5115	domain CSD 6
+489	V	0.5291	domain CSD 6
+490	E	0.5347	domain CSD 6
+491	F	0.5373	domain CSD 6
+492	S	0.5294	domain CSD 6
+493	I	0.5145	domain CSD 6
+494	S	0.4871	domain CSD 6
+495	D	0.4526	domain CSD 6
+496	K	0.4105	domain CSD 6
+497	Q	0.3752	domain CSD 6
+498	R	0.3468	domain CSD 6
+499	P	0.3297	domain CSD 6
+500	G	0.3237	domain CSD 6
+501	Q	0.3304	domain CSD 6
+502	Q	0.3506	domain CSD 6
+503	V	0.3735	domain CSD 6
+504	A	0.4010	domain CSD 6
+505	T	0.4248	domain CSD 6
+506	C	0.4292	domain CSD 6
+507	V	0.4119	domain CSD 6
+508	R	0.3764	
+509	L	0.3299	
+510	L	0.2727	
+511	G	0.2188	
+512	R	0.1727	
+513	N	0.1353	
+514	S	0.1118	
+515	N	0.1091	
+516	S	0.1206	
+517	K	0.1365	
+518	R	0.1480	
+519	L	0.1526	domain CSD 7
+520	L	0.1555	domain CSD 7
+521	G	0.1472	domain CSD 7
+522	Y	0.1337	domain CSD 7
+523	V	0.1111	domain CSD 7
+524	A	0.0888	domain CSD 7
+525	T	0.0682	domain CSD 7
+526	L	0.0628	domain CSD 7
+527	K	0.0643	domain CSD 7
+528	D	0.0720	domain CSD 7
+529	N	0.0817	domain CSD 7
+530	F	0.0910	domain CSD 7
+531	G	0.0923	domain CSD 7
+532	F	0.0945	domain CSD 7
+533	I	0.0940	domain CSD 7
+534	E	0.0891	domain CSD 7
+535	T	0.0825	domain CSD 7
+536	A	0.0698	domain CSD 7
+537	N	0.0571	domain CSD 7
+538	H	0.0582	domain CSD 7
+539	D	0.0668	domain CSD 7
+540	K	0.0864	domain CSD 7
+541	E	0.1020	domain CSD 7
+542	I	0.1193	domain CSD 7
+543	F	0.1337	domain CSD 7
+544	F	0.1516	domain CSD 7
+545	H	0.1597	domain CSD 7
+546	Y	0.1652	domain CSD 7
+547	S	0.1529	domain CSD 7
+548	E	0.1376	domain CSD 7
+549	F	0.1202	domain CSD 7
+550	S	0.1097	domain CSD 7
+551	G	0.1109	domain CSD 7
+552	D	0.1189	domain CSD 7
+553	V	0.1368	domain CSD 7
+554	D	0.1537	domain CSD 7
+555	S	0.1756	domain CSD 7
+556	L	0.2038	domain CSD 7
+557	E	0.2271	domain CSD 7
+558	L	0.2556	domain CSD 7
+559	G	0.2714	domain CSD 7
+560	D	0.2804	domain CSD 7
+561	M	0.2830	domain CSD 7
+562	V	0.2894	domain CSD 7
+563	E	0.2960	domain CSD 7
+564	Y	0.3067	domain CSD 7
+565	S	0.3052	domain CSD 7
+566	L	0.3119	domain CSD 7
+567	S	0.3141	domain CSD 7
+568	K	0.3236	domain CSD 7
+569	G	0.3355	domain CSD 7
+570	K	0.3504	domain CSD 7
+571	G	0.3679	domain CSD 7
+572	N	0.3862	domain CSD 7
+573	K	0.4043	domain CSD 7
+574	V	0.4218	domain CSD 7
+575	S	0.4406	domain CSD 7
+576	A	0.4614	domain CSD 7
+577	E	0.4660	domain CSD 7
+578	K	0.4701	domain CSD 7
+579	V	0.4741	domain CSD 7
+580	N	0.4792	
+581	K	0.4866	
+582	T	0.4891	
+583	H	0.4863	
+584	S	0.4896	
+585	V	0.4932	
+586	N	0.4937	
+587	G	0.4879	
+588	I	0.4788	
+589	T	0.4621	
+590	E	0.4514	
+591	E	0.4351	
+592	A	0.4185	
+593	D	0.4070	
+594	P	0.3991	
+595	T	0.3879	
+596	I	0.3766	
+597	Y	0.3834	
+598	S	0.4041	
+599	G	0.4259	
+600	K	0.4332	
+601	V	0.4426	
+602	I	0.4504	
+603	R	0.4588	
+604	P	0.4651	
+605	L	0.4668	
+606	R	0.4552	
+607	S	0.4424	
+608	V	0.4321	
+609	D	0.4210	
+610	P	0.4162	domain CSD 8
+611	T	0.4126	domain CSD 8
+612	Q	0.4097	domain CSD 8
+613	T	0.4109	domain CSD 8
+614	E	0.4183	domain CSD 8
+615	Y	0.4336	domain CSD 8
+616	Q	0.4570	domain CSD 8
+617	G	0.4756	domain CSD 8
+618	M	0.4731	domain CSD 8
+619	I	0.4647	domain CSD 8
+620	E	0.4403	domain CSD 8
+621	I	0.4099	domain CSD 8
+622	V	0.3745	domain CSD 8
+623	E	0.3344	domain CSD 8
+624	E	0.2906	domain CSD 8
+625	G	0.2524	domain CSD 8
+626	D	0.2112	domain CSD 8
+627	M	0.1891	domain CSD 8
+628	K	0.1932	domain CSD 8
+629	G	0.2068	domain CSD 8
+630	E	0.2185	domain CSD 8
+631	V	0.2288	domain CSD 8
+632	Y	0.2389	domain CSD 8
+633	P	0.2361	domain CSD 8
+634	F	0.2331	domain CSD 8
+635	G	0.2150	domain CSD 8
+636	I	0.1947	domain CSD 8
+637	V	0.1708	domain CSD 8
+638	G	0.1513	domain CSD 8
+639	M	0.1415	domain CSD 8
+640	A	0.1369	domain CSD 8
+641	N	0.1459	domain CSD 8
+642	K	0.1574	domain CSD 8
+643	G	0.1598	domain CSD 8
+644	D	0.1460	domain CSD 8
+645	C	0.1287	domain CSD 8
+646	L	0.1113	domain CSD 8
+647	Q	0.0979	domain CSD 8
+648	K	0.0849	domain CSD 8
+649	G	0.0705	domain CSD 8
+650	E	0.0619	domain CSD 8
+651	S	0.0586	domain CSD 8
+652	V	0.0648	domain CSD 8
+653	K	0.0667	domain CSD 8
+654	F	0.0755	domain CSD 8
+655	Q	0.0755	domain CSD 8
+656	L	0.0753	domain CSD 8
+657	C	0.0704	domain CSD 8
+658	V	0.0640	domain CSD 8
+659	L	0.0587	domain CSD 8
+660	G	0.0544	domain CSD 8
+661	Q	0.0446	domain CSD 8
+662	N	0.0359	domain CSD 8
+663	A	0.0371	domain CSD 8
+664	Q	0.0460	domain CSD 8
+665	T	0.0639	domain CSD 8
+666	M	0.0789	domain CSD 8
+667	A	0.0927	domain CSD 8
+668	Y	0.1058	domain CSD 8
+669	N	0.1145	domain CSD 8
+670	I	0.1221	domain CSD 8
+671	T	0.1214	
+672	P	0.1173	
+673	L	0.1057	
+674	R	0.0939	domain CSD 9
+675	R	0.0823	domain CSD 9
+676	A	0.0736	domain CSD 9
+677	T	0.0671	domain CSD 9
+678	V	0.0658	domain CSD 9
+679	E	0.0588	domain CSD 9
+680	C	0.0549	domain CSD 9
+681	V	0.0562	domain CSD 9
+682	K	0.0635	domain CSD 9
+683	D	0.0707	domain CSD 9
+684	Q	0.0707	domain CSD 9
+685	F	0.0709	domain CSD 9
+686	G	0.0661	domain CSD 9
+687	F	0.0634	domain CSD 9
+688	I	0.0607	domain CSD 9
+689	N	0.0559	domain CSD 9
+690	Y	0.0507	domain CSD 9
+691	E	0.0419	domain CSD 9
+692	V	0.0370	domain CSD 9
+693	G	0.0391	domain CSD 9
+694	D	0.0452	domain CSD 9
+695	S	0.0527	domain CSD 9
+696	K	0.0628	domain CSD 9
+697	K	0.0714	domain CSD 9
+698	L	0.0800	domain CSD 9
+699	F	0.0905	domain CSD 9
+700	F	0.1026	domain CSD 9
+701	H	0.1138	domain CSD 9
+702	V	0.1168	domain CSD 9
+703	K	0.1108	domain CSD 9
+704	E	0.1058	domain CSD 9
+705	V	0.1070	domain CSD 9
+706	Q	0.1095	domain CSD 9
+707	D	0.1194	domain CSD 9
+708	G	0.1244	domain CSD 9
+709	I	0.1289	domain CSD 9
+710	E	0.1334	domain CSD 9
+711	L	0.1381	domain CSD 9
+712	Q	0.1463	domain CSD 9
+713	A	0.1551	domain CSD 9
+714	G	0.1550	domain CSD 9
+715	D	0.1574	domain CSD 9
+716	E	0.1538	domain CSD 9
+717	V	0.1526	domain CSD 9
+718	E	0.1546	domain CSD 9
+719	F	0.1602	domain CSD 9
+720	S	0.1572	domain CSD 9
+721	V	0.1472	domain CSD 9
+722	I	0.1343	domain CSD 9
+723	L	0.1203	domain CSD 9
+724	N	0.1041	domain CSD 9
+725	Q	0.0890	domain CSD 9
+726	R	0.0676	domain CSD 9
+727	T	0.0515	domain CSD 9
+728	G	0.0441	domain CSD 9
+729	K	0.0465	domain CSD 9
+730	C	0.0573	domain CSD 9
+731	S	0.0758	domain CSD 9
+732	A	0.0922	domain CSD 9
+733	C	0.1044	domain CSD 9
+734	N	0.1071	domain CSD 9
+735	V	0.1122	domain CSD 9
+736	W	0.1162	
+737	R	0.1222	
+738	V	0.1238	
+739	C	0.1307	
+740	E	0.1450	
+741	G	0.1655	
+742	P	0.1887	
+743	K	0.2097	
+744	A	0.2314	
+745	V	0.2565	
+746	A	0.2814	
+747	A	0.3074	
+748	P	0.3245	domain SUZ-C
+749	R	0.3417	domain SUZ-C
+750	P	0.3535	domain SUZ-C
+751	D	0.3529	domain SUZ-C
+752	R	0.3526	domain SUZ-C
+753	L	0.3603	domain SUZ-C
+754	V	0.3702	domain SUZ-C
+755	N	0.3934	domain SUZ-C
+756	R	0.4103	domain SUZ-C
+757	L	0.4173	domain SUZ-C
+758	K	0.4165	domain SUZ-C
+759	N	0.4094	domain SUZ-C
+760	I	0.3893	domain SUZ-C
+761	T	0.3590	domain SUZ-C
+762	L	0.3373	domain SUZ-C
+763	D	0.3217	domain SUZ-C
+764	D	0.3221	domain SUZ-C
+765	A	0.3394	domain SUZ-C
+766	S	0.3669	domain SUZ-C
+767	A	0.4171	domain SUZ-C
+768	P	0.4649	domain SUZ-C
+769	R	0.5094	domain SUZ-C
+770	L	0.5407	domain SUZ-C
+771	M	0.5583	domain SUZ-C
+772	V	0.5645	domain SUZ-C
+773	L	0.5717	domain SUZ-C
+774	R	0.5750	domain SUZ-C
+775	Q	0.5651	domain SUZ-C
+776	P	0.5463	domain SUZ-C
+777	R	0.5285	domain SUZ-C
+778	G	0.5153	domain SUZ-C
+779	P	0.5190	domain SUZ-C
+780	D	0.5396	domain SUZ-C
+781	N	0.5597	domain SUZ-C
+782	S	0.5817	domain SUZ-C
+783	M	0.5932	domain SUZ-C
+784	G	0.5914	domain SUZ-C
+785	F	0.5884	domain SUZ-C
+786	G	0.5760	domain SUZ-C
+787	A	0.5686	domain SUZ-C
+788	E	0.5535	domain SUZ-C
+789	R	0.5460	domain SUZ-C
+790	K	0.5532	
+791	I	0.5740	
+792	R	0.6092	
+793	Q	0.6577	
+794	A	0.7167	
+795	G	0.7810	
+796	V	0.8428	
+797	I	0.8917	
+798	D	0.9141	

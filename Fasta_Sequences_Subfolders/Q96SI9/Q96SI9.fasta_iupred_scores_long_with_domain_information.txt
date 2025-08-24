@@ -1,0 +1,684 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.4153	
+2	R	0.4153	
+3	S	0.4153	
+4	I	0.4136	
+5	R	0.4094	domain DZF
+6	S	0.4027	domain DZF
+7	F	0.3943	domain DZF
+8	A	0.3853	domain DZF
+9	N	0.3772	domain DZF
+10	D	0.3717	domain DZF
+11	D	0.3708	domain DZF
+12	R	0.3758	domain DZF
+13	H	0.3888	domain DZF
+14	V	0.4117	domain DZF
+15	M	0.4353	domain DZF
+16	V	0.4656	domain DZF
+17	K	0.4973	domain DZF
+18	H	0.5235	domain DZF
+19	S	0.5307	domain DZF
+20	T	0.5235	domain DZF
+21	I	0.5039	domain DZF
+22	Y	0.4914	domain DZF
+23	P	0.4837	domain DZF
+24	S	0.4884	domain DZF
+25	P	0.4832	domain DZF
+26	E	0.4774	domain DZF
+27	E	0.4776	domain DZF
+28	L	0.4809	domain DZF
+29	E	0.4727	domain DZF
+30	A	0.4652	domain DZF
+31	V	0.4591	domain DZF
+32	Q	0.4500	domain DZF
+33	N	0.4328	domain DZF
+34	M	0.4076	domain DZF
+35	V	0.3811	domain DZF
+36	S	0.3588	domain DZF
+37	T	0.3340	domain DZF
+38	V	0.3101	domain DZF
+39	E	0.2861	domain DZF
+40	C	0.2788	domain DZF
+41	A	0.2816	domain DZF
+42	L	0.3036	domain DZF
+43	K	0.3208	domain DZF
+44	H	0.3415	domain DZF
+45	V	0.3543	domain DZF
+46	S	0.3709	domain DZF
+47	D	0.3912	domain DZF
+48	W	0.4184	domain DZF
+49	L	0.4492	domain DZF
+50	D	0.4894	domain DZF
+51	E	0.5293	domain DZF
+52	T	0.5569	domain DZF
+53	N	0.5784	domain DZF
+54	K	0.5980	domain DZF
+55	G	0.6260	domain DZF
+56	T	0.6536	domain DZF
+57	K	0.6826	domain DZF
+58	T	0.7113	domain DZF
+59	E	0.7322	domain DZF
+60	G	0.7546	domain DZF
+61	E	0.7668	domain DZF
+62	T	0.7762	domain DZF
+63	E	0.7614	domain DZF
+64	V	0.7463	domain DZF
+65	K	0.7415	domain DZF
+66	K	0.7361	domain DZF
+67	D	0.7287	domain DZF
+68	E	0.7244	domain DZF
+69	A	0.7106	domain DZF
+70	G	0.6909	domain DZF
+71	E	0.6606	domain DZF
+72	N	0.6177	domain DZF
+73	Y	0.5772	domain DZF
+74	S	0.5392	domain DZF
+75	K	0.5084	domain DZF
+76	D	0.4703	domain DZF
+77	Q	0.4361	domain DZF
+78	G	0.4071	domain DZF
+79	G	0.3862	domain DZF
+80	R	0.3681	domain DZF
+81	T	0.3389	domain DZF
+82	L	0.3055	domain DZF
+83	C	0.2776	domain DZF
+84	G	0.2527	domain DZF
+85	V	0.2327	domain DZF
+86	M	0.2067	domain DZF
+87	R	0.1799	domain DZF
+88	I	0.1603	domain DZF
+89	G	0.1459	domain DZF
+90	L	0.1377	domain DZF
+91	V	0.1375	domain DZF
+92	A	0.1476	domain DZF
+93	K	0.1622	domain DZF
+94	G	0.1630	domain DZF
+95	L	0.1540	domain DZF
+96	L	0.1397	domain DZF
+97	I	0.1317	domain DZF
+98	K	0.1250	domain DZF
+99	D	0.1242	domain DZF
+100	D	0.1318	domain DZF
+101	M	0.1495	domain DZF
+102	D	0.1752	domain DZF
+103	L	0.2172	domain DZF
+104	E	0.2538	domain DZF
+105	L	0.2921	domain DZF
+106	V	0.3097	domain DZF
+107	L	0.3271	domain DZF
+108	M	0.3284	domain DZF
+109	C	0.3270	domain DZF
+110	K	0.3182	domain DZF
+111	D	0.3166	domain DZF
+112	K	0.3129	domain DZF
+113	P	0.3054	domain DZF
+114	T	0.3123	domain DZF
+115	E	0.3294	domain DZF
+116	T	0.3504	domain DZF
+117	L	0.3724	domain DZF
+118	L	0.3892	domain DZF
+119	N	0.4067	domain DZF
+120	T	0.4091	domain DZF
+121	V	0.4051	domain DZF
+122	K	0.3936	domain DZF
+123	D	0.3783	domain DZF
+124	N	0.3522	domain DZF
+125	L	0.3422	domain DZF
+126	P	0.3303	domain DZF
+127	I	0.3286	domain DZF
+128	Q	0.3183	domain DZF
+129	I	0.3202	domain DZF
+130	Q	0.3135	domain DZF
+131	K	0.3072	domain DZF
+132	L	0.3066	domain DZF
+133	T	0.3032	domain DZF
+134	E	0.2999	domain DZF
+135	E	0.2830	domain DZF
+136	K	0.2600	domain DZF
+137	Y	0.2480	domain DZF
+138	Q	0.2363	domain DZF
+139	V	0.2279	domain DZF
+140	E	0.2234	domain DZF
+141	Q	0.2206	domain DZF
+142	C	0.2223	domain DZF
+143	V	0.2325	domain DZF
+144	N	0.2537	domain DZF
+145	E	0.2790	domain DZF
+146	A	0.2963	domain DZF
+147	S	0.3053	domain DZF
+148	I	0.3014	domain DZF
+149	I	0.2859	domain DZF
+150	I	0.2671	domain DZF
+151	R	0.2524	domain DZF
+152	N	0.2398	domain DZF
+153	T	0.2149	domain DZF
+154	K	0.1866	domain DZF
+155	E	0.1737	domain DZF
+156	P	0.1732	domain DZF
+157	T	0.1815	domain DZF
+158	L	0.1963	domain DZF
+159	T	0.2151	domain DZF
+160	L	0.2370	domain DZF
+161	K	0.2463	domain DZF
+162	V	0.2520	domain DZF
+163	I	0.2508	domain DZF
+164	L	0.2477	domain DZF
+165	T	0.2446	domain DZF
+166	S	0.2409	domain DZF
+167	P	0.2261	domain DZF
+168	L	0.2210	domain DZF
+169	I	0.2308	domain DZF
+170	R	0.2579	domain DZF
+171	D	0.2930	domain DZF
+172	E	0.3300	domain DZF
+173	L	0.3752	domain DZF
+174	E	0.4213	domain DZF
+175	K	0.4670	domain DZF
+176	K	0.4914	domain DZF
+177	D	0.5161	domain DZF
+178	G	0.5487	domain DZF
+179	E	0.5666	domain DZF
+180	N	0.5714	domain DZF
+181	V	0.5681	domain DZF
+182	S	0.5615	domain DZF
+183	M	0.5522	domain DZF
+184	K	0.5365	domain DZF
+185	D	0.5104	domain DZF
+186	P	0.4722	domain DZF
+187	P	0.4250	domain DZF
+188	D	0.3746	domain DZF
+189	L	0.3350	domain DZF
+190	L	0.3120	domain DZF
+191	D	0.2994	domain DZF
+192	R	0.2939	domain DZF
+193	Q	0.2852	domain DZF
+194	K	0.2574	domain DZF
+195	C	0.2286	domain DZF
+196	L	0.2017	domain DZF
+197	N	0.1781	domain DZF
+198	A	0.1521	domain DZF
+199	L	0.1204	domain DZF
+200	A	0.1025	domain DZF
+201	S	0.0993	domain DZF
+202	L	0.1089	domain DZF
+203	R	0.1274	domain DZF
+204	H	0.1480	domain DZF
+205	A	0.1585	domain DZF
+206	K	0.1539	domain DZF
+207	W	0.1445	domain DZF
+208	F	0.1350	domain DZF
+209	Q	0.1245	domain DZF
+210	A	0.1120	domain DZF
+211	R	0.0929	domain DZF
+212	A	0.0752	domain DZF
+213	N	0.0565	domain DZF
+214	G	0.0426	domain DZF
+215	L	0.0420	domain DZF
+216	K	0.0435	domain DZF
+217	S	0.0386	domain DZF
+218	C	0.0389	domain DZF
+219	V	0.0392	domain DZF
+220	I	0.0408	domain DZF
+221	V	0.0413	domain DZF
+222	L	0.0420	domain DZF
+223	R	0.0396	domain DZF
+224	I	0.0345	domain DZF
+225	L	0.0319	domain DZF
+226	R	0.0315	domain DZF
+227	D	0.0338	domain DZF
+228	L	0.0377	domain DZF
+229	C	0.0495	domain DZF
+230	N	0.0672	domain DZF
+231	R	0.0845	domain DZF
+232	V	0.0909	domain DZF
+233	P	0.0967	domain DZF
+234	T	0.1022	domain DZF
+235	W	0.1003	domain DZF
+236	A	0.1021	domain DZF
+237	P	0.1067	domain DZF
+238	L	0.1114	domain DZF
+239	K	0.1068	domain DZF
+240	G	0.1093	domain DZF
+241	W	0.1130	domain DZF
+242	P	0.1161	domain DZF
+243	L	0.1251	domain DZF
+244	E	0.1234	domain DZF
+245	L	0.1214	domain DZF
+246	I	0.1179	domain DZF
+247	C	0.1261	domain DZF
+248	E	0.1391	domain DZF
+249	K	0.1556	domain DZF
+250	S	0.1583	domain DZF
+251	I	0.1608	domain DZF
+252	G	0.1722	domain DZF
+253	T	0.1902	domain DZF
+254	C	0.2147	domain DZF
+255	N	0.2425	domain DZF
+256	R	0.2659	domain DZF
+257	P	0.2700	domain DZF
+258	L	0.2774	domain DZF
+259	G	0.2806	domain DZF
+260	A	0.2844	domain DZF
+261	G	0.2807	domain DZF
+262	E	0.2605	domain DZF
+263	A	0.2331	domain DZF
+264	L	0.2015	domain DZF
+265	R	0.1888	domain DZF
+266	R	0.1878	domain DZF
+267	V	0.1914	domain DZF
+268	M	0.1834	domain DZF
+269	E	0.1801	domain DZF
+270	C	0.1824	domain DZF
+271	L	0.1942	domain DZF
+272	A	0.2131	domain DZF
+273	S	0.2276	domain DZF
+274	G	0.2348	domain DZF
+275	I	0.2285	domain DZF
+276	L	0.2258	domain DZF
+277	L	0.2483	domain DZF
+278	P	0.2819	domain DZF
+279	G	0.3234	domain DZF
+280	G	0.3665	domain DZF
+281	P	0.4005	domain DZF
+282	G	0.4335	domain DZF
+283	L	0.4684	domain DZF
+284	H	0.4987	domain DZF
+285	D	0.5157	domain DZF
+286	P	0.5037	domain DZF
+287	C	0.4828	domain DZF
+288	E	0.4604	domain DZF
+289	R	0.4492	domain DZF
+290	D	0.4451	domain DZF
+291	P	0.4405	domain DZF
+292	T	0.4380	domain DZF
+293	D	0.4310	domain DZF
+294	A	0.4257	domain DZF
+295	L	0.4326	domain DZF
+296	S	0.4454	domain DZF
+297	Y	0.4601	domain DZF
+298	M	0.4618	domain DZF
+299	T	0.4533	domain DZF
+300	I	0.4343	domain DZF
+301	Q	0.4137	domain DZF
+302	Q	0.4014	domain DZF
+303	K	0.3836	domain DZF
+304	E	0.3605	domain DZF
+305	D	0.3438	domain DZF
+306	I	0.3381	domain DZF
+307	T	0.3479	domain DZF
+308	H	0.3602	domain DZF
+309	S	0.3607	domain DZF
+310	A	0.3542	domain DZF
+311	Q	0.3348	domain DZF
+312	H	0.2993	domain DZF
+313	A	0.2571	domain DZF
+314	L	0.2201	domain DZF
+315	R	0.1878	domain DZF
+316	L	0.1654	domain DZF
+317	S	0.1506	domain DZF
+318	A	0.1333	domain DZF
+319	F	0.1351	domain DZF
+320	G	0.1526	domain DZF
+321	Q	0.1622	domain DZF
+322	I	0.1721	domain DZF
+323	Y	0.1838	domain DZF
+324	K	0.2058	domain DZF
+325	V	0.2285	domain DZF
+326	L	0.2539	domain DZF
+327	E	0.2720	domain DZF
+328	M	0.2851	domain DZF
+329	D	0.2871	domain DZF
+330	P	0.2819	domain DZF
+331	L	0.2760	domain DZF
+332	P	0.2768	domain DZF
+333	S	0.2963	domain DZF
+334	S	0.3219	domain DZF
+335	K	0.3509	domain DZF
+336	P	0.3793	domain DZF
+337	F	0.4173	domain DZF
+338	Q	0.4526	domain DZF
+339	K	0.4859	domain DZF
+340	Y	0.4868	domain DZF
+341	S	0.4741	domain DZF
+342	W	0.4692	domain DZF
+343	S	0.4491	domain DZF
+344	V	0.4254	domain DZF
+345	T	0.4079	domain DZF
+346	D	0.4019	domain DZF
+347	K	0.3949	domain DZF
+348	E	0.3949	domain DZF
+349	G	0.4023	domain DZF
+350	A	0.4231	domain DZF
+351	G	0.4582	domain DZF
+352	S	0.4903	domain DZF
+353	S	0.5188	domain DZF
+354	A	0.5404	domain DZF
+355	L	0.5675	domain DZF
+356	K	0.5961	domain DZF
+357	R	0.6297	domain DZF
+358	P	0.6295	domain DZF
+359	F	0.6363	domain DZF
+360	E	0.6461	domain DZF
+361	D	0.6564	domain DZF
+362	G	0.6606	domain DZF
+363	L	0.6717	domain DZF
+364	G	0.6893	
+365	D	0.7026	
+366	D	0.6985	
+367	K	0.6850	
+368	D	0.6768	
+369	P	0.6664	
+370	N	0.6571	
+371	K	0.6447	
+372	K	0.6266	
+373	M	0.6093	
+374	K	0.5984	
+375	R	0.5913	
+376	N	0.5613	
+377	L	0.5300	
+378	R	0.4902	
+379	K	0.4490	
+380	I	0.3979	
+381	L	0.3596	
+382	D	0.3328	
+383	S	0.3149	
+384	K	0.2948	
+385	A	0.2744	
+386	I	0.2747	
+387	D	0.2807	domain DRBM 1
+388	L	0.2982	domain DRBM 1
+389	M	0.3186	domain DRBM 1
+390	N	0.3396	domain DRBM 1
+391	A	0.3493	domain DRBM 1
+392	L	0.3502	domain DRBM 1
+393	M	0.3512	domain DRBM 1
+394	R	0.3387	domain DRBM 1
+395	L	0.3273	domain DRBM 1
+396	N	0.3129	domain DRBM 1
+397	Q	0.3099	domain DRBM 1
+398	I	0.3074	domain DRBM 1
+399	R	0.3184	domain DRBM 1
+400	P	0.3563	domain DRBM 1
+401	G	0.3928	domain DRBM 1
+402	L	0.4266	domain DRBM 1
+403	Q	0.4493	domain DRBM 1
+404	Y	0.4738	domain DRBM 1
+405	K	0.4775	domain DRBM 1
+406	L	0.4788	domain DRBM 1
+407	L	0.4649	domain DRBM 1
+408	S	0.4503	domain DRBM 1
+409	Q	0.4271	domain DRBM 1
+410	S	0.3922	domain DRBM 1
+411	G	0.3735	domain DRBM 1
+412	P	0.3661	domain DRBM 1
+413	V	0.3754	domain DRBM 1
+414	H	0.3937	domain DRBM 1
+415	A	0.4326	domain DRBM 1
+416	P	0.4542	domain DRBM 1
+417	V	0.4701	domain DRBM 1
+418	F	0.4875	domain DRBM 1
+419	T	0.4971	domain DRBM 1
+420	M	0.4995	domain DRBM 1
+421	S	0.4878	domain DRBM 1
+422	V	0.4769	domain DRBM 1
+423	D	0.4675	domain DRBM 1
+424	V	0.4747	domain DRBM 1
+425	D	0.4862	domain DRBM 1
+426	G	0.5135	domain DRBM 1
+427	T	0.5440	domain DRBM 1
+428	T	0.5620	domain DRBM 1
+429	Y	0.5810	domain DRBM 1
+430	E	0.5975	domain DRBM 1
+431	A	0.6086	domain DRBM 1
+432	S	0.6025	domain DRBM 1
+433	G	0.5954	domain DRBM 1
+434	P	0.5696	domain DRBM 1
+435	S	0.5459	domain DRBM 1
+436	K	0.5164	domain DRBM 1
+437	K	0.4984	domain DRBM 1
+438	T	0.4837	domain DRBM 1
+439	A	0.4733	domain DRBM 1
+440	K	0.4637	domain DRBM 1
+441	L	0.4620	domain DRBM 1
+442	H	0.4537	domain DRBM 1
+443	V	0.4480	domain DRBM 1
+444	A	0.4330	domain DRBM 1
+445	V	0.4174	domain DRBM 1
+446	K	0.3955	domain DRBM 1
+447	V	0.3727	domain DRBM 1
+448	L	0.3532	domain DRBM 1
+449	Q	0.3411	domain DRBM 1
+450	A	0.3265	domain DRBM 1
+451	M	0.3139	domain DRBM 1
+452	G	0.3062	domain DRBM 1
+453	Y	0.3145	domain DRBM 1
+454	P	0.3266	
+455	T	0.3497	
+456	G	0.3645	
+457	F	0.3939	
+458	D	0.4290	
+459	A	0.4734	
+460	D	0.5014	
+461	I	0.5377	
+462	E	0.5618	
+463	C	0.5944	
+464	M	0.6177	
+465	S	0.6424	
+466	S	0.6605	
+467	D	0.6781	
+468	E	0.6945	
+469	K	0.7076	
+470	S	0.7280	
+471	D	0.7539	
+472	N	0.7832	
+473	E	0.8167	
+474	S	0.8390	
+475	K	0.8614	
+476	N	0.8818	
+477	E	0.9005	
+478	T	0.9004	
+479	V	0.8959	
+480	S	0.8927	
+481	S	0.8949	
+482	N	0.8913	
+483	S	0.8906	
+484	S	0.8851	
+485	N	0.8757	
+486	N	0.8659	
+487	T	0.8485	
+488	G	0.8339	
+489	N	0.8309	
+490	S	0.8314	
+491	T	0.8333	
+492	T	0.8341	
+493	E	0.8291	
+494	T	0.8193	
+495	S	0.8015	
+496	S	0.7694	
+497	T	0.7321	
+498	L	0.7041	
+499	E	0.6752	
+500	V	0.6621	
+501	R	0.6491	
+502	T	0.6416	
+503	Q	0.6327	
+504	G	0.6255	
+505	P	0.6092	
+506	I	0.5922	
+507	L	0.5897	
+508	T	0.5963	
+509	A	0.6140	
+510	S	0.6232	domain DRBM 2
+511	G	0.6317	domain DRBM 2
+512	K	0.6437	domain DRBM 2
+513	N	0.6507	domain DRBM 2
+514	P	0.6410	domain DRBM 2
+515	V	0.6216	domain DRBM 2
+516	M	0.5958	domain DRBM 2
+517	E	0.5676	domain DRBM 2
+518	L	0.5499	domain DRBM 2
+519	N	0.5284	domain DRBM 2
+520	E	0.5186	domain DRBM 2
+521	K	0.5064	domain DRBM 2
+522	R	0.4934	domain DRBM 2
+523	R	0.4913	domain DRBM 2
+524	G	0.4967	domain DRBM 2
+525	L	0.5143	domain DRBM 2
+526	K	0.5357	domain DRBM 2
+527	Y	0.5653	domain DRBM 2
+528	E	0.5676	domain DRBM 2
+529	L	0.5649	domain DRBM 2
+530	I	0.5477	domain DRBM 2
+531	S	0.5252	domain DRBM 2
+532	E	0.4942	domain DRBM 2
+533	T	0.4480	domain DRBM 2
+534	G	0.4147	domain DRBM 2
+535	G	0.4048	domain DRBM 2
+536	S	0.4131	domain DRBM 2
+537	H	0.4384	domain DRBM 2
+538	D	0.4803	domain DRBM 2
+539	K	0.5141	domain DRBM 2
+540	R	0.5321	domain DRBM 2
+541	F	0.5454	domain DRBM 2
+542	V	0.5474	domain DRBM 2
+543	M	0.5510	domain DRBM 2
+544	E	0.5440	domain DRBM 2
+545	V	0.5328	domain DRBM 2
+546	E	0.5109	domain DRBM 2
+547	V	0.5027	domain DRBM 2
+548	D	0.4929	domain DRBM 2
+549	G	0.5000	domain DRBM 2
+550	Q	0.5119	domain DRBM 2
+551	K	0.5173	domain DRBM 2
+552	F	0.5271	domain DRBM 2
+553	R	0.5421	domain DRBM 2
+554	G	0.5560	domain DRBM 2
+555	A	0.5548	domain DRBM 2
+556	G	0.5465	domain DRBM 2
+557	P	0.5371	domain DRBM 2
+558	N	0.5202	domain DRBM 2
+559	K	0.4955	domain DRBM 2
+560	K	0.4638	domain DRBM 2
+561	V	0.4393	domain DRBM 2
+562	A	0.4176	domain DRBM 2
+563	K	0.4019	domain DRBM 2
+564	A	0.3858	domain DRBM 2
+565	S	0.3705	domain DRBM 2
+566	A	0.3534	domain DRBM 2
+567	A	0.3394	domain DRBM 2
+568	L	0.3287	domain DRBM 2
+569	A	0.3197	domain DRBM 2
+570	A	0.3188	domain DRBM 2
+571	L	0.3395	domain DRBM 2
+572	E	0.3672	domain DRBM 2
+573	K	0.3809	domain DRBM 2
+574	L	0.3861	domain DRBM 2
+575	F	0.3963	domain DRBM 2
+576	S	0.4052	domain DRBM 2
+577	G	0.4140	
+578	P	0.4195	
+579	N	0.4201	
+580	A	0.4186	
+581	A	0.4286	
+582	N	0.4508	
+583	N	0.4722	
+584	K	0.4899	
+585	K	0.5002	
+586	K	0.5090	
+587	K	0.5011	
+588	I	0.4850	
+589	I	0.4725	
+590	P	0.4568	
+591	Q	0.4315	
+592	A	0.3871	
+593	K	0.3428	
+594	G	0.3085	
+595	V	0.2871	
+596	V	0.2745	
+597	N	0.2816	
+598	T	0.2937	
+599	A	0.3055	
+600	V	0.3274	
+601	S	0.3500	
+602	A	0.3753	
+603	A	0.3974	
+604	V	0.4165	
+605	Q	0.4241	
+606	A	0.4185	
+607	V	0.4077	
+608	R	0.4057	
+609	G	0.4030	
+610	R	0.3811	
+611	G	0.3653	
+612	R	0.3619	
+613	G	0.3678	
+614	T	0.3713	
+615	L	0.3819	
+616	T	0.3968	
+617	R	0.4032	
+618	G	0.3897	
+619	A	0.3529	
+620	F	0.3182	
+621	V	0.2810	
+622	G	0.2526	
+623	A	0.2292	
+624	T	0.2021	
+625	A	0.1796	
+626	A	0.1748	
+627	P	0.1751	
+628	G	0.1650	
+629	Y	0.1622	
+630	I	0.1669	
+631	A	0.1865	
+632	P	0.1989	
+633	G	0.1971	
+634	Y	0.1882	
+635	G	0.1860	
+636	T	0.1866	
+637	P	0.1772	
+638	Y	0.1790	
+639	G	0.1799	
+640	Y	0.1977	
+641	S	0.2141	
+642	T	0.2203	
+643	A	0.2232	
+644	A	0.2177	
+645	P	0.1995	
+646	A	0.1748	
+647	Y	0.1443	
+648	G	0.1217	
+649	L	0.1191	
+650	P	0.1147	
+651	K	0.1186	
+652	R	0.1099	
+653	M	0.1081	
+654	V	0.1162	
+655	L	0.1220	
+656	L	0.1290	
+657	P	0.1278	
+658	V	0.1271	
+659	M	0.1176	
+660	K	0.1055	
+661	F	0.0923	
+662	P	0.0740	
+663	T	0.0567	
+664	Y	0.0416	
+665	P	0.0310	
+666	V	0.0262	
+667	P	0.0274	
+668	H	0.0340	
+669	Y	0.0441	
+670	S	0.0543	
+671	F	0.0595	
+672	F	0.0528	

@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="TrEMBL" created="2011-03-08" modified="2024-10-02" version="77" xmlns="http://uniprot.org/uniprot">
+  <accession>E7ESL0</accession>
+  <name>E7ESL0_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="6">Large ribosomal subunit protein uL22m</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="7">39S ribosomal protein L22, mitochondrial</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="9" type="primary">MRPL22</name>
+  </gene>
+  <organism evidence="9 10">
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference evidence="9" key="1">
+    <citation type="journal article" date="2001" name="Nature" volume="409" first="860" last="921">
+      <title>Initial sequencing and analysis of the human genome.</title>
+      <authorList>
+        <consortium name="International Human Genome Sequencing Consortium"/>
+        <person name="Lander E.S."/>
+        <person name="Linton L.M."/>
+        <person name="Birren B."/>
+        <person name="Nusbaum C."/>
+        <person name="Zody M.C."/>
+        <person name="Baldwin J."/>
+        <person name="Devon K."/>
+        <person name="Dewar K."/>
+        <person name="Doyle M."/>
+        <person name="FitzHugh W."/>
+        <person name="Funke R."/>
+        <person name="Gage D."/>
+        <person name="Harris K."/>
+        <person name="Heaford A."/>
+        <person name="Howland J."/>
+        <person name="Kann L."/>
+        <person name="Lehoczky J."/>
+        <person name="LeVine R."/>
+        <person name="McEwan P."/>
+        <person name="McKernan K."/>
+        <person name="Meldrim J."/>
+        <person name="Mesirov J.P."/>
+        <person name="Miranda C."/>
+        <person name="Morris W."/>
+        <person name="Naylor J."/>
+        <person name="Raymond C."/>
+        <person name="Rosetti M."/>
+        <person name="Santos R."/>
+        <person name="Sheridan A."/>
+        <person name="Sougnez C."/>
+        <person name="Stange-Thomann N."/>
+        <person name="Stojanovic N."/>
+        <person name="Subramanian A."/>
+        <person name="Wyman D."/>
+        <person name="Rogers J."/>
+        <person name="Sulston J."/>
+        <person name="Ainscough R."/>
+        <person name="Beck S."/>
+        <person name="Bentley D."/>
+        <person name="Burton J."/>
+        <person name="Clee C."/>
+        <person name="Carter N."/>
+        <person name="Coulson A."/>
+        <person name="Deadman R."/>
+        <person name="Deloukas P."/>
+        <person name="Dunham A."/>
+        <person name="Dunham I."/>
+        <person name="Durbin R."/>
+        <person name="French L."/>
+        <person name="Grafham D."/>
+        <person name="Gregory S."/>
+        <person name="Hubbard T."/>
+        <person name="Humphray S."/>
+        <person name="Hunt A."/>
+        <person name="Jones M."/>
+        <person name="Lloyd C."/>
+        <person name="McMurray A."/>
+        <person name="Matthews L."/>
+        <person name="Mercer S."/>
+        <person name="Milne S."/>
+        <person name="Mullikin J.C."/>
+        <person name="Mungall A."/>
+        <person name="Plumb R."/>
+        <person name="Ross M."/>
+        <person name="Shownkeen R."/>
+        <person name="Sims S."/>
+        <person name="Waterston R.H."/>
+        <person name="Wilson R.K."/>
+        <person name="Hillier L.W."/>
+        <person name="McPherson J.D."/>
+        <person name="Marra M.A."/>
+        <person name="Mardis E.R."/>
+        <person name="Fulton L.A."/>
+        <person name="Chinwalla A.T."/>
+        <person name="Pepin K.H."/>
+        <person name="Gish W.R."/>
+        <person name="Chissoe S.L."/>
+        <person name="Wendl M.C."/>
+        <person name="Delehaunty K.D."/>
+        <person name="Miner T.L."/>
+        <person name="Delehaunty A."/>
+        <person name="Kramer J.B."/>
+        <person name="Cook L.L."/>
+        <person name="Fulton R.S."/>
+        <person name="Johnson D.L."/>
+        <person name="Minx P.J."/>
+        <person name="Clifton S.W."/>
+        <person name="Hawkins T."/>
+        <person name="Branscomb E."/>
+        <person name="Predki P."/>
+        <person name="Richardson P."/>
+        <person name="Wenning S."/>
+        <person name="Slezak T."/>
+        <person name="Doggett N."/>
+        <person name="Cheng J.F."/>
+        <person name="Olsen A."/>
+        <person name="Lucas S."/>
+        <person name="Elkin C."/>
+        <person name="Uberbacher E."/>
+        <person name="Frazier M."/>
+        <person name="Gibbs R.A."/>
+        <person name="Muzny D.M."/>
+        <person name="Scherer S.E."/>
+        <person name="Bouck J.B."/>
+        <person name="Sodergren E.J."/>
+        <person name="Worley K.C."/>
+        <person name="Rives C.M."/>
+        <person name="Gorrell J.H."/>
+        <person name="Metzker M.L."/>
+        <person name="Naylor S.L."/>
+        <person name="Kucherlapati R.S."/>
+        <person name="Nelson D.L."/>
+        <person name="Weinstock G.M."/>
+        <person name="Sakaki Y."/>
+        <person name="Fujiyama A."/>
+        <person name="Hattori M."/>
+        <person name="Yada T."/>
+        <person name="Toyoda A."/>
+        <person name="Itoh T."/>
+        <person name="Kawagoe C."/>
+        <person name="Watanabe H."/>
+        <person name="Totoki Y."/>
+        <person name="Taylor T."/>
+        <person name="Weissenbach J."/>
+        <person name="Heilig R."/>
+        <person name="Saurin W."/>
+        <person name="Artiguenave F."/>
+        <person name="Brottier P."/>
+        <person name="Bruls T."/>
+        <person name="Pelletier E."/>
+        <person name="Robert C."/>
+        <person name="Wincker P."/>
+        <person name="Smith D.R."/>
+        <person name="Doucette-Stamm L."/>
+        <person name="Rubenfield M."/>
+        <person name="Weinstock K."/>
+        <person name="Lee H.M."/>
+        <person name="Dubois J."/>
+        <person name="Rosenthal A."/>
+        <person name="Platzer M."/>
+        <person name="Nyakatura G."/>
+        <person name="Taudien S."/>
+        <person name="Rump A."/>
+        <person name="Yang H."/>
+        <person name="Yu J."/>
+        <person name="Wang J."/>
+        <person name="Huang G."/>
+        <person name="Gu J."/>
+        <person name="Hood L."/>
+        <person name="Rowen L."/>
+        <person name="Madan A."/>
+        <person name="Qin S."/>
+        <person name="Davis R.W."/>
+        <person name="Federspiel N.A."/>
+        <person name="Abola A.P."/>
+        <person name="Proctor M.J."/>
+        <person name="Myers R.M."/>
+        <person name="Schmutz J."/>
+        <person name="Dickson M."/>
+        <person name="Grimwood J."/>
+        <person name="Cox D.R."/>
+        <person name="Olson M.V."/>
+        <person name="Kaul R."/>
+        <person name="Raymond C."/>
+        <person name="Shimizu N."/>
+        <person name="Kawasaki K."/>
+        <person name="Minoshima S."/>
+        <person name="Evans G.A."/>
+        <person name="Athanasiou M."/>
+        <person name="Schultz R."/>
+        <person name="Roe B.A."/>
+        <person name="Chen F."/>
+        <person name="Pan H."/>
+        <person name="Ramser J."/>
+        <person name="Lehrach H."/>
+        <person name="Reinhardt R."/>
+        <person name="McCombie W.R."/>
+        <person name="de la Bastide M."/>
+        <person name="Dedhia N."/>
+        <person name="Blocker H."/>
+        <person name="Hornischer K."/>
+        <person name="Nordsiek G."/>
+        <person name="Agarwala R."/>
+        <person name="Aravind L."/>
+        <person name="Bailey J.A."/>
+        <person name="Bateman A."/>
+        <person name="Batzoglou S."/>
+        <person name="Birney E."/>
+        <person name="Bork P."/>
+        <person name="Brown D.G."/>
+        <person name="Burge C.B."/>
+        <person name="Cerutti L."/>
+        <person name="Chen H.C."/>
+        <person name="Church D."/>
+        <person name="Clamp M."/>
+        <person name="Copley R.R."/>
+        <person name="Doerks T."/>
+        <person name="Eddy S.R."/>
+        <person name="Eichler E.E."/>
+        <person name="Furey T.S."/>
+        <person name="Galagan J."/>
+        <person name="Gilbert J.G."/>
+        <person name="Harmon C."/>
+        <person name="Hayashizaki Y."/>
+        <person name="Haussler D."/>
+        <person name="Hermjakob H."/>
+        <person name="Hokamp K."/>
+        <person name="Jang W."/>
+        <person name="Johnson L.S."/>
+        <person name="Jones T.A."/>
+        <person name="Kasif S."/>
+        <person name="Kaspryzk A."/>
+        <person name="Kennedy S."/>
+        <person name="Kent W.J."/>
+        <person name="Kitts P."/>
+        <person name="Koonin E.V."/>
+        <person name="Korf I."/>
+        <person name="Kulp D."/>
+        <person name="Lancet D."/>
+        <person name="Lowe T.M."/>
+        <person name="McLysaght A."/>
+        <person name="Mikkelsen T."/>
+        <person name="Moran J.V."/>
+        <person name="Mulder N."/>
+        <person name="Pollara V.J."/>
+        <person name="Ponting C.P."/>
+        <person name="Schuler G."/>
+        <person name="Schultz J."/>
+        <person name="Slater G."/>
+        <person name="Smit A.F."/>
+        <person name="Stupka E."/>
+        <person name="Szustakowski J."/>
+        <person name="Thierry-Mieg D."/>
+        <person name="Thierry-Mieg J."/>
+        <person name="Wagner L."/>
+        <person name="Wallis J."/>
+        <person name="Wheeler R."/>
+        <person name="Williams A."/>
+        <person name="Wolf Y.I."/>
+        <person name="Wolfe K.H."/>
+        <person name="Yang S.P."/>
+        <person name="Yeh R.F."/>
+        <person name="Collins F."/>
+        <person name="Guyer M.S."/>
+        <person name="Peterson J."/>
+        <person name="Felsenfeld A."/>
+        <person name="Wetterstrand K.A."/>
+        <person name="Patrinos A."/>
+        <person name="Morgan M.J."/>
+        <person name="de Jong P."/>
+        <person name="Catanese J.J."/>
+        <person name="Osoegawa K."/>
+        <person name="Shizuya H."/>
+        <person name="Choi S."/>
+        <person name="Chen Y.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="11237011"/>
+      <dbReference type="DOI" id="10.1038/35057062"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference evidence="9 10" key="2">
+    <citation type="journal article" date="2004" name="Nature" volume="431" first="268" last="274">
+      <title>The DNA sequence and comparative analysis of human chromosome 5.</title>
+      <authorList>
+        <person name="Schmutz J."/>
+        <person name="Martin J."/>
+        <person name="Terry A."/>
+        <person name="Couronne O."/>
+        <person name="Grimwood J."/>
+        <person name="Lowry S."/>
+        <person name="Gordon L.A."/>
+        <person name="Scott D."/>
+        <person name="Xie G."/>
+        <person name="Huang W."/>
+        <person name="Hellsten U."/>
+        <person name="Tran-Gyamfi M."/>
+        <person name="She X."/>
+        <person name="Prabhakar S."/>
+        <person name="Aerts A."/>
+        <person name="Altherr M."/>
+        <person name="Bajorek E."/>
+        <person name="Black S."/>
+        <person name="Branscomb E."/>
+        <person name="Caoile C."/>
+        <person name="Challacombe J.F."/>
+        <person name="Chan Y.M."/>
+        <person name="Denys M."/>
+        <person name="Detter J.C."/>
+        <person name="Escobar J."/>
+        <person name="Flowers D."/>
+        <person name="Fotopulos D."/>
+        <person name="Glavina T."/>
+        <person name="Gomez M."/>
+        <person name="Gonzales E."/>
+        <person name="Goodstein D."/>
+        <person name="Grigoriev I."/>
+        <person name="Groza M."/>
+        <person name="Hammon N."/>
+        <person name="Hawkins T."/>
+        <person name="Haydu L."/>
+        <person name="Israni S."/>
+        <person name="Jett J."/>
+        <person name="Kadner K."/>
+        <person name="Kimball H."/>
+        <person name="Kobayashi A."/>
+        <person name="Lopez F."/>
+        <person name="Lou Y."/>
+        <person name="Martinez D."/>
+        <person name="Medina C."/>
+        <person name="Morgan J."/>
+        <person name="Nandkeshwar R."/>
+        <person name="Noonan J.P."/>
+        <person name="Pitluck S."/>
+        <person name="Pollard M."/>
+        <person name="Predki P."/>
+        <person name="Priest J."/>
+        <person name="Ramirez L."/>
+        <person name="Retterer J."/>
+        <person name="Rodriguez A."/>
+        <person name="Rogers S."/>
+        <person name="Salamov A."/>
+        <person name="Salazar A."/>
+        <person name="Thayer N."/>
+        <person name="Tice H."/>
+        <person name="Tsai M."/>
+        <person name="Ustaszewska A."/>
+        <person name="Vo N."/>
+        <person name="Wheeler J."/>
+        <person name="Wu K."/>
+        <person name="Yang J."/>
+        <person name="Dickson M."/>
+        <person name="Cheng J.F."/>
+        <person name="Eichler E.E."/>
+        <person name="Olsen A."/>
+        <person name="Pennacchio L.A."/>
+        <person name="Rokhsar D.S."/>
+        <person name="Richardson P."/>
+        <person name="Lucas S.M."/>
+        <person name="Myers R.M."/>
+        <person name="Rubin E.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="15372022"/>
+      <dbReference type="DOI" id="10.1038/nature02919"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference evidence="9" key="3">
+    <citation type="journal article" date="2004" name="Nature" volume="431" first="931" last="945">
+      <title>Finishing the euchromatic sequence of the human genome.</title>
+      <authorList>
+        <consortium name="International Human Genome Sequencing Consortium"/>
+      </authorList>
+      <dbReference type="PubMed" id="15496913"/>
+      <dbReference type="DOI" id="10.1038/nature03001"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference evidence="24" key="4">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Burckstummer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference evidence="25" key="5">
+    <citation type="journal article" date="2015" name="Proteomics" volume="15" first="2519" last="2524">
+      <title>N-terminome analysis of the human mitochondrial proteome.</title>
+      <authorList>
+        <person name="Vaca Jacome A.S."/>
+        <person name="Rabilloud T."/>
+        <person name="Schaeffer-Reiss C."/>
+        <person name="Rompais M."/>
+        <person name="Ayoub D."/>
+        <person name="Lane L."/>
+        <person name="Bairoch A."/>
+        <person name="Van Dorsselaer A."/>
+        <person name="Carapito C."/>
+      </authorList>
+      <dbReference type="PubMed" id="25944712"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference evidence="11" key="6">
+    <citation type="journal article" date="2015" name="Science" volume="348" first="95" last="98">
+      <title>Ribosome. The structure of the human mitochondrial ribosome.</title>
+      <authorList>
+        <person name="Amunts A."/>
+        <person name="Brown A."/>
+        <person name="Toots J."/>
+        <person name="Scheres S.H."/>
+        <person name="Ramakrishnan V."/>
+      </authorList>
+      <dbReference type="PubMed" id="25838379"/>
+      <dbReference type="DOI" id="10.1126/science.aaa1193"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (3.50 ANGSTROMS)</scope>
+  </reference>
+  <reference evidence="15" key="7">
+    <citation type="journal article" date="2020" name="Elife" volume="9" first="e58362" last="e58362">
+      <title>Structural basis of mitochondrial translation.</title>
+      <authorList>
+        <person name="Aibara S."/>
+        <person name="Singh V."/>
+        <person name="Modelska A."/>
+        <person name="Amunts A."/>
+      </authorList>
+      <dbReference type="PubMed" id="32812867"/>
+      <dbReference type="DOI" id="10.7554/elife.58362"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (3.50 ANGSTROMS)</scope>
+  </reference>
+  <reference evidence="13 14" key="8">
+    <citation type="journal article" date="2020" name="Nat. Commun." volume="11" first="3830" last="3830">
+      <title>Structures of the human mitochondrial ribosome bound to EF-G1 reveal distinct features of mitochondrial translation elongation.</title>
+      <authorList>
+        <person name="Koripella R.K."/>
+        <person name="Sharma M.R."/>
+        <person name="Bhargava K."/>
+        <person name="Datta P.P."/>
+        <person name="Kaushal P.S."/>
+        <person name="Keshavan P."/>
+        <person name="Spremulli L.L."/>
+        <person name="Banavali N.K."/>
+        <person name="Agrawal R.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="32737313"/>
+      <dbReference type="DOI" id="10.1038/s41467-020-17715-2"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (2.96 ANGSTROMS)</scope>
+  </reference>
+  <reference evidence="16 17" key="9">
+    <citation type="journal article" date="2020" name="Science" volume="370" first="1105" last="1110">
+      <title>Elongational stalling activates mitoribosome-associated quality control.</title>
+      <authorList>
+        <person name="Desai N."/>
+        <person name="Yang H."/>
+        <person name="Chandrasekaran V."/>
+        <person name="Kazi R."/>
+        <person name="Minczuk M."/>
+        <person name="Ramakrishnan V."/>
+      </authorList>
+      <dbReference type="PubMed" id="33243891"/>
+      <dbReference type="DOI" id="10.1126/science.abc7782"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (3.10 ANGSTROMS)</scope>
+  </reference>
+  <reference evidence="12" key="10">
+    <citation type="journal article" date="2021" name="Cell Rep." volume="35" first="109024" last="109024">
+      <title>Inhibition of mitochondrial translation suppresses glioblastoma stem cell growth.</title>
+      <authorList>
+        <person name="Sighel D."/>
+        <person name="Notarangelo M."/>
+        <person name="Aibara S."/>
+        <person name="Re A."/>
+        <person name="Ricci G."/>
+        <person name="Guida M."/>
+        <person name="Soldano A."/>
+        <person name="Adami V."/>
+        <person name="Ambrosini C."/>
+        <person name="Broso F."/>
+        <person name="Rosatti E.F."/>
+        <person name="Longhi S."/>
+        <person name="Buccarelli M."/>
+        <person name="D'Alessandris Q.G."/>
+        <person name="Giannetti S."/>
+        <person name="Pacioni S."/>
+        <person name="Ricci-Vitiani L."/>
+        <person name="Rorbach J."/>
+        <person name="Pallini R."/>
+        <person name="Roulland S."/>
+        <person name="Amunts A."/>
+        <person name="Mancini I."/>
+        <person name="Modelska A."/>
+        <person name="Quattrone A."/>
+      </authorList>
+      <dbReference type="PubMed" id="33910005"/>
+      <dbReference type="DOI" id="10.1016/j.celrep.2021.109024"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (3.90 ANGSTROMS)</scope>
+  </reference>
+  <reference evidence="18 19" key="11">
+    <citation type="journal article" date="2021" name="Nat. Commun." volume="12" first="3607" last="3607">
+      <title>Distinct mechanisms of the human mitoribosome recycling and antibiotic resistance.</title>
+      <authorList>
+        <person name="Koripella R.K."/>
+        <person name="Deep A."/>
+        <person name="Agrawal E.K."/>
+        <person name="Keshavan P."/>
+        <person name="Banavali N.K."/>
+        <person name="Agrawal R.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="34127662"/>
+      <dbReference type="DOI" id="10.1038/s41467-021-23726-4"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (3.15 ANGSTROMS)</scope>
+  </reference>
+  <reference evidence="20 21" key="12">
+    <citation type="journal article" date="2021" name="Nat. Commun." volume="12" first="3673" last="3673">
+      <title>Structural basis for late maturation steps of the human mitoribosomal large subunit.</title>
+      <authorList>
+        <person name="Cipullo M."/>
+        <person name="Gese G.V."/>
+        <person name="Khawaja A."/>
+        <person name="Hallberg B.M."/>
+        <person name="Rorbach J."/>
+      </authorList>
+      <dbReference type="PubMed" id="34135318"/>
+      <dbReference type="DOI" id="10.1038/s41467-021-23617-8"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (2.50 ANGSTROMS)</scope>
+  </reference>
+  <reference evidence="9" key="13">
+    <citation type="submission" date="2024-06" db="UniProtKB">
+      <authorList>
+        <consortium name="Ensembl"/>
+      </authorList>
+    </citation>
+    <scope>IDENTIFICATION</scope>
+  </reference>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Mitochondrion</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2 8">Belongs to the universal ribosomal protein uL22 family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AC008410">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AC008421">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="PDB" id="3J9M">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.50 A"/>
+    <property type="chains" value="T=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="6I9R">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.90 A"/>
+    <property type="chains" value="T=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="6VLZ">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.97 A"/>
+    <property type="chains" value="T=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="6VMI">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.96 A"/>
+    <property type="chains" value="T=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="6ZS9">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="4.00 A"/>
+    <property type="chains" value="XT=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="7A5H">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.30 A"/>
+    <property type="chains" value="T=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="7A5I">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.70 A"/>
+    <property type="chains" value="T3=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="7A5J">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.10 A"/>
+    <property type="chains" value="T=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="7A5K">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.70 A"/>
+    <property type="chains" value="T3=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="7L08">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.49 A"/>
+    <property type="chains" value="T=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="7L20">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.15 A"/>
+    <property type="chains" value="T=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O9K">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.10 A"/>
+    <property type="chains" value="T=1-212"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O9M">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="T=1-212"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="3J9M"/>
+  <dbReference type="AlphaFoldDB" id="E7ESL0"/>
+  <dbReference type="EMDB" id="EMD-11390"/>
+  <dbReference type="EMDB" id="EMD-11643"/>
+  <dbReference type="EMDB" id="EMD-11644"/>
+  <dbReference type="EMDB" id="EMD-11645"/>
+  <dbReference type="EMDB" id="EMD-11646"/>
+  <dbReference type="EMDB" id="EMD-12763"/>
+  <dbReference type="EMDB" id="EMD-12764"/>
+  <dbReference type="EMDB" id="EMD-21233"/>
+  <dbReference type="EMDB" id="EMD-21242"/>
+  <dbReference type="EMDB" id="EMD-23096"/>
+  <dbReference type="EMDB" id="EMD-23121"/>
+  <dbReference type="EMDB" id="EMD-4434"/>
+  <dbReference type="SMR" id="E7ESL0"/>
+  <dbReference type="IntAct" id="E7ESL0">
+    <property type="interactions" value="1"/>
+  </dbReference>
+  <dbReference type="MassIVE" id="E7ESL0"/>
+  <dbReference type="PeptideAtlas" id="E7ESL0"/>
+  <dbReference type="ProteomicsDB" id="18014"/>
+  <dbReference type="Antibodypedia" id="28351">
+    <property type="antibodies" value="147 antibodies from 18 providers"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000522038.5">
+    <property type="protein sequence ID" value="ENSP00000429039.1"/>
+    <property type="gene ID" value="ENSG00000082515.18"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc063jbe.1">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="HGNC" id="HGNC:14480">
+    <property type="gene designation" value="MRPL22"/>
+  </dbReference>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000082515"/>
+  <dbReference type="GeneTree" id="ENSGT00390000002110"/>
+  <dbReference type="OMA" id="HKVIRQM"/>
+  <dbReference type="ChiTaRS" id="MRPL22">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 5"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000082515">
+    <property type="expression patterns" value="Expressed in mucosa of transverse colon and 200 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="E7ESL0">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0015934">
+    <property type="term" value="C:large ribosomal subunit"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005739">
+    <property type="term" value="C:mitochondrion"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003735">
+    <property type="term" value="F:structural constituent of ribosome"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006412">
+    <property type="term" value="P:translation"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd00336">
+    <property type="entry name" value="Ribosomal_L22"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.90.470.10">
+    <property type="entry name" value="Ribosomal protein L22/L17"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001063">
+    <property type="entry name" value="Ribosomal_uL22"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR047867">
+    <property type="entry name" value="Ribosomal_uL22_bac/org-type"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036394">
+    <property type="entry name" value="Ribosomal_uL22_sf"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR13501:SF8">
+    <property type="entry name" value="39S RIBOSOMAL PROTEIN L22, MITOCHONDRIAL"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR13501">
+    <property type="entry name" value="CHLOROPLAST 50S RIBOSOMAL PROTEIN L22-RELATED"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00237">
+    <property type="entry name" value="Ribosomal_L22"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF54843">
+    <property type="entry name" value="Ribosomal protein L22"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword evidence="11 12" id="KW-0002">3D-structure</keyword>
+  <keyword evidence="4" id="KW-0496">Mitochondrion</keyword>
+  <keyword evidence="22 23" id="KW-1267">Proteomics identification</keyword>
+  <keyword evidence="10" id="KW-1185">Reference proteome</keyword>
+  <keyword evidence="5 8" id="KW-0687">Ribonucleoprotein</keyword>
+  <keyword evidence="3 8" id="KW-0689">Ribosomal protein</keyword>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="ARBA" id="ARBA00004173"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="ARBA" id="ARBA00009451"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="ARBA" id="ARBA00022980"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023128"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="ARBA" id="ARBA00023274"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="6">
+    <source>
+      <dbReference type="ARBA" id="ARBA00035286"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="7">
+    <source>
+      <dbReference type="ARBA" id="ARBA00035506"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="8">
+    <source>
+      <dbReference type="RuleBase" id="RU004005"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="9">
+    <source>
+      <dbReference type="Ensembl" id="ENSP00000429039.1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000313" key="10">
+    <source>
+      <dbReference type="Proteomes" id="UP000005640"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="11">
+    <source>
+      <dbReference type="PDB" id="3J9M"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="12">
+    <source>
+      <dbReference type="PDB" id="6I9R"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="13">
+    <source>
+      <dbReference type="PDB" id="6VLZ"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="14">
+    <source>
+      <dbReference type="PDB" id="6VMI"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="15">
+    <source>
+      <dbReference type="PDB" id="6ZS9"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="16">
+    <source>
+      <dbReference type="PDB" id="7A5H"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="17">
+    <source>
+      <dbReference type="PDB" id="7A5I"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="18">
+    <source>
+      <dbReference type="PDB" id="7L08"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="19">
+    <source>
+      <dbReference type="PDB" id="7L20"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="20">
+    <source>
+      <dbReference type="PDB" id="7O9K"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="21">
+    <source>
+      <dbReference type="PDB" id="7O9M"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="22">
+    <source>
+      <dbReference type="PeptideAtlas" id="E7ESL0"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="23">
+    <source>
+      <dbReference type="ProteomicsDB" id="E7ESL0"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="24">
+    <source>
+      <dbReference type="PubMed" id="21269460"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="25">
+    <source>
+      <dbReference type="PubMed" id="25944712"/>
+    </source>
+  </evidence>
+  <sequence length="212" mass="24325" checksum="46F8A8C2F314F3E2" modified="2011-03-08" version="1">MAAAVLGQLGALWIHNLRSRGKLALGLLSFHSVLPQSYIHTSASLDISRKWEKKNKIVYPPQLPGEPRRPAEIYHCRRQIKYSKDKMWYLAKLIRGMSIDQALAQLEFNDKKGAKIIKEVLLEAQDMAVRDHNVEFRSNLYIAESTSGRGQCLKRIRYHGRGRFGIMEKVYCHYFVKLVEGPPPPPEPPKTAVAHAKEYIQQLRSRTIVHTL</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

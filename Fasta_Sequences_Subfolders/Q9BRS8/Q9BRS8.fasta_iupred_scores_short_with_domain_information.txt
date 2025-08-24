@@ -1,0 +1,503 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9739	
+2	A	0.9827	
+3	Q	0.9740	
+4	S	0.9497	
+5	G	0.9123	
+6	G	0.8652	
+7	E	0.8125	
+8	A	0.7582	
+9	R	0.7064	
+10	P	0.6609	
+11	G	0.6290	
+12	P	0.6007	
+13	K	0.5894	
+14	T	0.5882	
+15	A	0.5953	
+16	V	0.6042	
+17	Q	0.6067	
+18	I	0.6049	
+19	R	0.5916	
+20	V	0.5820	
+21	A	0.5745	
+22	I	0.5741	
+23	Q	0.5780	
+24	E	0.5864	
+25	A	0.6015	
+26	E	0.6225	
+27	D	0.6462	
+28	V	0.6751	
+29	D	0.7011	
+30	E	0.7211	
+31	L	0.7417	
+32	E	0.7606	
+33	D	0.7819	
+34	E	0.7910	
+35	E	0.7908	
+36	E	0.7890	
+37	G	0.7805	
+38	A	0.7748	
+39	E	0.7659	
+40	T	0.7562	
+41	R	0.7431	
+42	G	0.7293	
+43	A	0.7156	
+44	G	0.7009	
+45	D	0.6903	
+46	P	0.6782	
+47	A	0.6674	
+48	R	0.6636	
+49	Y	0.6665	
+50	L	0.6780	
+51	S	0.6969	
+52	P	0.7055	
+53	G	0.7046	
+54	W	0.7037	
+55	G	0.7025	
+56	S	0.7050	
+57	A	0.7053	
+58	S	0.7104	
+59	E	0.7165	
+60	E	0.7300	
+61	E	0.7497	
+62	P	0.7655	
+63	S	0.7851	
+64	R	0.8030	
+65	G	0.8157	
+66	H	0.8189	
+67	S	0.8224	
+68	G	0.8284	
+69	T	0.8311	
+70	T	0.8227	
+71	A	0.8069	
+72	S	0.7875	
+73	G	0.7681	
+74	G	0.7574	
+75	E	0.7520	
+76	N	0.7548	
+77	E	0.7579	
+78	R	0.7660	
+79	E	0.7737	
+80	D	0.7731	
+81	L	0.7584	
+82	E	0.7372	
+83	Q	0.7062	
+84	E	0.6608	
+85	W	0.6139	
+86	K	0.5786	domain HTH La-type RNA-binding
+87	P	0.5509	domain HTH La-type RNA-binding
+88	P	0.5164	domain HTH La-type RNA-binding
+89	D	0.4757	domain HTH La-type RNA-binding
+90	E	0.4292	domain HTH La-type RNA-binding
+91	E	0.3879	domain HTH La-type RNA-binding
+92	L	0.3510	domain HTH La-type RNA-binding
+93	I	0.3188	domain HTH La-type RNA-binding
+94	K	0.2897	domain HTH La-type RNA-binding
+95	K	0.2564	domain HTH La-type RNA-binding
+96	L	0.2285	domain HTH La-type RNA-binding
+97	V	0.2109	domain HTH La-type RNA-binding
+98	D	0.2027	domain HTH La-type RNA-binding
+99	Q	0.1891	domain HTH La-type RNA-binding
+100	I	0.1731	domain HTH La-type RNA-binding
+101	E	0.1528	domain HTH La-type RNA-binding
+102	F	0.1279	domain HTH La-type RNA-binding
+103	Y	0.1003	domain HTH La-type RNA-binding
+104	F	0.0850	domain HTH La-type RNA-binding
+105	S	0.0788	domain HTH La-type RNA-binding
+106	D	0.0773	domain HTH La-type RNA-binding
+107	E	0.0673	domain HTH La-type RNA-binding
+108	N	0.0558	domain HTH La-type RNA-binding
+109	L	0.0587	domain HTH La-type RNA-binding
+110	E	0.0669	domain HTH La-type RNA-binding
+111	K	0.0818	domain HTH La-type RNA-binding
+112	D	0.0944	domain HTH La-type RNA-binding
+113	A	0.1010	domain HTH La-type RNA-binding
+114	F	0.1034	domain HTH La-type RNA-binding
+115	L	0.1024	domain HTH La-type RNA-binding
+116	L	0.0995	domain HTH La-type RNA-binding
+117	K	0.0925	domain HTH La-type RNA-binding
+118	H	0.0774	domain HTH La-type RNA-binding
+119	V	0.0570	domain HTH La-type RNA-binding
+120	R	0.0415	domain HTH La-type RNA-binding
+121	R	0.0325	domain HTH La-type RNA-binding
+122	N	0.0271	domain HTH La-type RNA-binding
+123	K	0.0275	domain HTH La-type RNA-binding
+124	L	0.0368	domain HTH La-type RNA-binding
+125	G	0.0416	domain HTH La-type RNA-binding
+126	Y	0.0476	domain HTH La-type RNA-binding
+127	V	0.0561	domain HTH La-type RNA-binding
+128	S	0.0646	domain HTH La-type RNA-binding
+129	V	0.0729	domain HTH La-type RNA-binding
+130	K	0.0697	domain HTH La-type RNA-binding
+131	L	0.0663	domain HTH La-type RNA-binding
+132	L	0.0586	domain HTH La-type RNA-binding
+133	T	0.0534	domain HTH La-type RNA-binding
+134	S	0.0554	domain HTH La-type RNA-binding
+135	F	0.0567	domain HTH La-type RNA-binding
+136	K	0.0659	domain HTH La-type RNA-binding
+137	K	0.0782	domain HTH La-type RNA-binding
+138	V	0.0907	domain HTH La-type RNA-binding
+139	K	0.1073	domain HTH La-type RNA-binding
+140	H	0.1252	domain HTH La-type RNA-binding
+141	L	0.1387	domain HTH La-type RNA-binding
+142	T	0.1504	domain HTH La-type RNA-binding
+143	R	0.1595	domain HTH La-type RNA-binding
+144	D	0.1588	domain HTH La-type RNA-binding
+145	W	0.1522	domain HTH La-type RNA-binding
+146	R	0.1454	domain HTH La-type RNA-binding
+147	T	0.1424	domain HTH La-type RNA-binding
+148	T	0.1265	domain HTH La-type RNA-binding
+149	A	0.1196	domain HTH La-type RNA-binding
+150	H	0.1149	domain HTH La-type RNA-binding
+151	A	0.1209	domain HTH La-type RNA-binding
+152	L	0.1342	domain HTH La-type RNA-binding
+153	K	0.1470	domain HTH La-type RNA-binding
+154	Y	0.1616	domain HTH La-type RNA-binding
+155	S	0.1780	domain HTH La-type RNA-binding
+156	V	0.1855	domain HTH La-type RNA-binding
+157	V	0.1885	domain HTH La-type RNA-binding
+158	L	0.2070	domain HTH La-type RNA-binding
+159	E	0.2192	domain HTH La-type RNA-binding
+160	L	0.2301	domain HTH La-type RNA-binding
+161	N	0.2357	domain HTH La-type RNA-binding
+162	E	0.2338	domain HTH La-type RNA-binding
+163	D	0.2344	domain HTH La-type RNA-binding
+164	H	0.2411	domain HTH La-type RNA-binding
+165	R	0.2569	domain HTH La-type RNA-binding
+166	K	0.2638	domain HTH La-type RNA-binding
+167	V	0.2771	domain HTH La-type RNA-binding
+168	R	0.2962	domain HTH La-type RNA-binding
+169	R	0.3255	domain HTH La-type RNA-binding
+170	T	0.3506	domain HTH La-type RNA-binding
+171	T	0.3794	domain HTH La-type RNA-binding
+172	P	0.3925	domain HTH La-type RNA-binding
+173	V	0.3923	domain HTH La-type RNA-binding
+174	P	0.3752	domain HTH La-type RNA-binding
+175	L	0.3450	domain HTH La-type RNA-binding
+176	F	0.3156	domain HTH La-type RNA-binding
+177	P	0.2824	domain HTH La-type RNA-binding
+178	N	0.2431	
+179	E	0.1940	
+180	N	0.1522	
+181	L	0.1229	
+182	P	0.1061	
+183	S	0.0998	
+184	K	0.0948	domain RRM
+185	M	0.0893	domain RRM
+186	L	0.0847	domain RRM
+187	L	0.0835	domain RRM
+188	V	0.0774	domain RRM
+189	Y	0.0725	domain RRM
+190	D	0.0564	domain RRM
+191	L	0.0420	domain RRM
+192	Y	0.0278	domain RRM
+193	L	0.0265	domain RRM
+194	S	0.0287	domain RRM
+195	P	0.0429	domain RRM
+196	K	0.0571	domain RRM
+197	L	0.0677	domain RRM
+198	W	0.0836	domain RRM
+199	A	0.1081	domain RRM
+200	L	0.1417	domain RRM
+201	A	0.1656	domain RRM
+202	T	0.1849	domain RRM
+203	P	0.2004	domain RRM
+204	Q	0.2073	domain RRM
+205	K	0.2045	domain RRM
+206	N	0.2074	domain RRM
+207	G	0.2097	domain RRM
+208	R	0.2103	domain RRM
+209	V	0.2178	domain RRM
+210	Q	0.2221	domain RRM
+211	E	0.2262	domain RRM
+212	K	0.2205	domain RRM
+213	V	0.2083	domain RRM
+214	M	0.1876	domain RRM
+215	E	0.1614	domain RRM
+216	H	0.1302	domain RRM
+217	L	0.1031	domain RRM
+218	L	0.0852	domain RRM
+219	K	0.0680	domain RRM
+220	L	0.0578	domain RRM
+221	F	0.0573	domain RRM
+222	G	0.0617	domain RRM
+223	T	0.0609	domain RRM
+224	F	0.0543	domain RRM
+225	G	0.0534	domain RRM
+226	V	0.0671	domain RRM
+227	I	0.0836	domain RRM
+228	S	0.1157	domain RRM
+229	S	0.1522	domain RRM
+230	V	0.1796	domain RRM
+231	R	0.1978	domain RRM
+232	I	0.2236	domain RRM
+233	L	0.2462	domain RRM
+234	K	0.2637	domain RRM
+235	P	0.2773	domain RRM
+236	G	0.2804	domain RRM
+237	R	0.2810	domain RRM
+238	E	0.2814	domain RRM
+239	L	0.2868	domain RRM
+240	P	0.3069	domain RRM
+241	P	0.3350	domain RRM
+242	D	0.3444	domain RRM
+243	I	0.3603	domain RRM
+244	R	0.3759	domain RRM
+245	R	0.3880	domain RRM
+246	I	0.3979	domain RRM
+247	S	0.3910	domain RRM
+248	S	0.3733	domain RRM
+249	R	0.3364	domain RRM
+250	Y	0.3046	domain RRM
+251	S	0.2721	domain RRM
+252	Q	0.2556	domain RRM
+253	V	0.2478	domain RRM
+254	G	0.2437	domain RRM
+255	T	0.2462	domain RRM
+256	Q	0.2435	domain RRM
+257	E	0.2411	domain RRM
+258	C	0.2420	domain RRM
+259	A	0.2488	domain RRM
+260	I	0.2481	domain RRM
+261	V	0.2425	domain RRM
+262	E	0.2310	domain RRM
+263	F	0.2246	domain RRM
+264	E	0.2077	domain RRM
+265	E	0.1928	domain RRM
+266	V	0.1847	domain RRM
+267	E	0.1723	domain RRM
+268	A	0.1736	domain RRM
+269	A	0.1795	domain RRM
+270	I	0.2037	domain RRM
+271	K	0.2334	domain RRM
+272	A	0.2745	domain RRM
+273	H	0.3188	domain RRM
+274	E	0.3475	domain RRM
+275	F	0.3667	domain RRM
+276	M	0.3747	domain RRM
+277	I	0.3808	domain RRM
+278	T	0.3792	domain RRM
+279	E	0.3753	domain RRM
+280	S	0.3720	domain RRM
+281	Q	0.3732	domain RRM
+282	G	0.3788	domain RRM
+283	K	0.4008	domain RRM
+284	E	0.4285	domain RRM
+285	N	0.4622	domain RRM
+286	M	0.5038	domain RRM
+287	K	0.5403	domain RRM
+288	A	0.5730	domain RRM
+289	V	0.5972	domain RRM
+290	L	0.6151	domain RRM
+291	I	0.6268	domain RRM
+292	G	0.6282	domain RRM
+293	M	0.6229	domain RRM
+294	K	0.6183	domain RRM
+295	P	0.6214	domain RRM
+296	P	0.6328	domain RRM
+297	K	0.6522	
+298	K	0.6775	
+299	K	0.7073	
+300	P	0.7343	
+301	A	0.7559	
+302	K	0.7717	
+303	D	0.7798	
+304	K	0.7771	
+305	N	0.7654	
+306	H	0.7488	
+307	D	0.7275	
+308	E	0.7043	
+309	E	0.6915	
+310	P	0.6789	
+311	T	0.6722	
+312	A	0.6661	
+313	S	0.6609	
+314	I	0.6575	
+315	H	0.6451	
+316	L	0.6351	
+317	N	0.6206	
+318	K	0.6102	
+319	S	0.5990	
+320	L	0.5929	
+321	N	0.5931	
+322	K	0.5989	
+323	R	0.6068	
+324	V	0.6191	
+325	E	0.6316	
+326	E	0.6433	
+327	L	0.6566	
+328	Q	0.6628	
+329	Y	0.6710	
+330	M	0.6770	
+331	G	0.6880	
+332	D	0.6985	
+333	E	0.7088	
+334	S	0.7235	
+335	S	0.7348	
+336	A	0.7484	
+337	N	0.7577	
+338	S	0.7669	
+339	S	0.7736	
+340	S	0.7802	
+341	D	0.7844	
+342	P	0.7846	
+343	E	0.7842	
+344	S	0.7858	
+345	N	0.7854	
+346	P	0.7832	
+347	T	0.7812	
+348	S	0.7768	
+349	P	0.7732	
+350	M	0.7643	
+351	A	0.7540	
+352	G	0.7492	
+353	R	0.7485	
+354	R	0.7462	
+355	H	0.7390	
+356	A	0.7283	
+357	A	0.7161	
+358	T	0.7048	
+359	N	0.6865	
+360	K	0.6682	
+361	L	0.6514	
+362	S	0.6380	
+363	P	0.6237	
+364	S	0.6160	
+365	G	0.6112	
+366	H	0.6113	
+367	Q	0.6076	
+368	N	0.6010	
+369	L	0.5914	
+370	F	0.5839	
+371	L	0.5797	
+372	S	0.5740	
+373	P	0.5594	
+374	N	0.5424	
+375	A	0.5281	
+376	S	0.5208	
+377	P	0.5147	
+378	C	0.5162	
+379	T	0.5174	
+380	S	0.5286	
+381	P	0.5354	
+382	W	0.5442	
+383	S	0.5485	
+384	S	0.5563	
+385	P	0.5494	
+386	L	0.5425	
+387	A	0.5328	
+388	Q	0.5336	
+389	R	0.5405	
+390	K	0.5472	
+391	G	0.5507	
+392	V	0.5513	
+393	S	0.5460	
+394	R	0.5426	
+395	K	0.5411	
+396	S	0.5369	
+397	P	0.5238	
+398	L	0.5200	
+399	A	0.5146	
+400	E	0.5094	
+401	E	0.5052	
+402	G	0.5022	
+403	R	0.4882	
+404	L	0.4703	
+405	N	0.4456	
+406	C	0.4284	
+407	S	0.4123	
+408	T	0.4027	
+409	S	0.3937	
+410	P	0.3857	
+411	E	0.3799	
+412	I	0.3830	
+413	F	0.3898	
+414	R	0.4065	
+415	K	0.4268	
+416	C	0.4451	
+417	M	0.4585	
+418	D	0.4698	
+419	Y	0.4766	
+420	S	0.4743	
+421	S	0.4746	
+422	D	0.4701	
+423	S	0.4686	
+424	S	0.4727	
+425	V	0.4872	
+426	T	0.5146	
+427	P	0.5442	domain SUZ-C
+428	S	0.5726	domain SUZ-C
+429	G	0.5971	domain SUZ-C
+430	S	0.6153	domain SUZ-C
+431	P	0.6226	domain SUZ-C
+432	W	0.6312	domain SUZ-C
+433	V	0.6418	domain SUZ-C
+434	R	0.6492	domain SUZ-C
+435	R	0.6553	domain SUZ-C
+436	R	0.6648	domain SUZ-C
+437	R	0.6734	domain SUZ-C
+438	Q	0.6809	domain SUZ-C
+439	A	0.6939	domain SUZ-C
+440	E	0.7040	domain SUZ-C
+441	M	0.7151	domain SUZ-C
+442	G	0.7216	domain SUZ-C
+443	T	0.7295	domain SUZ-C
+444	Q	0.7349	domain SUZ-C
+445	E	0.7389	domain SUZ-C
+446	K	0.7431	domain SUZ-C
+447	S	0.7442	domain SUZ-C
+448	P	0.7474	domain SUZ-C
+449	G	0.7478	domain SUZ-C
+450	T	0.7468	domain SUZ-C
+451	S	0.7496	domain SUZ-C
+452	P	0.7503	domain SUZ-C
+453	L	0.7492	domain SUZ-C
+454	L	0.7399	domain SUZ-C
+455	S	0.7243	domain SUZ-C
+456	R	0.7011	domain SUZ-C
+457	K	0.6655	domain SUZ-C
+458	M	0.6282	domain SUZ-C
+459	Q	0.5952	domain SUZ-C
+460	T	0.5693	domain SUZ-C
+461	A	0.5539	domain SUZ-C
+462	D	0.5459	domain SUZ-C
+463	G	0.5539	domain SUZ-C
+464	L	0.5726	domain SUZ-C
+465	P	0.5913	domain SUZ-C
+466	V	0.6133	domain SUZ-C
+467	G	0.6204	domain SUZ-C
+468	V	0.6204	domain SUZ-C
+469	L	0.6103	domain SUZ-C
+470	R	0.5921	domain SUZ-C
+471	L	0.5725	domain SUZ-C
+472	P	0.5550	domain SUZ-C
+473	R	0.5564	domain SUZ-C
+474	G	0.5626	domain SUZ-C
+475	P	0.5687	domain SUZ-C
+476	D	0.5773	domain SUZ-C
+477	N	0.5860	domain SUZ-C
+478	T	0.5972	domain SUZ-C
+479	R	0.6042	domain SUZ-C
+480	G	0.6073	domain SUZ-C
+481	F	0.6167	domain SUZ-C
+482	H	0.6288	domain SUZ-C
+483	G	0.6478	domain SUZ-C
+484	H	0.6721	domain SUZ-C
+485	E	0.7014	domain SUZ-C
+486	R	0.7348	
+487	S	0.7707	
+488	R	0.8071	
+489	A	0.8414	
+490	C	0.8702	
+491	V	0.8895	

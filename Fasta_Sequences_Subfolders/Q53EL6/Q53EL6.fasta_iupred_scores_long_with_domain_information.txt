@@ -1,0 +1,481 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.5497	
+2	D	0.6211	
+3	V	0.6733	
+4	E	0.7117	
+5	N	0.7398	
+6	E	0.7598	
+7	Q	0.7729	
+8	I	0.7795	
+9	L	0.7794	
+10	N	0.7726	
+11	V	0.7572	
+12	N	0.7311	
+13	P	0.7001	
+14	A	0.6740	
+15	D	0.6587	
+16	P	0.6556	
+17	D	0.6581	
+18	N	0.6698	
+19	L	0.7004	
+20	S	0.7359	
+21	D	0.7661	
+22	S	0.7811	
+23	L	0.7837	
+24	F	0.7737	
+25	S	0.7494	
+26	G	0.7217	
+27	D	0.6923	
+28	E	0.6724	
+29	E	0.6592	
+30	N	0.6480	
+31	A	0.6441	
+32	G	0.6477	
+33	T	0.6544	
+34	E	0.6577	
+35	E	0.6483	
+36	I	0.6325	
+37	K	0.6217	
+38	N	0.6114	
+39	E	0.5949	
+40	I	0.5747	
+41	N	0.5545	
+42	G	0.5394	
+43	N	0.5190	
+44	W	0.5029	
+45	I	0.4933	
+46	S	0.4922	
+47	A	0.4933	
+48	S	0.4858	
+49	S	0.4729	
+50	I	0.4662	
+51	N	0.4671	
+52	E	0.4734	
+53	A	0.4761	
+54	R	0.4774	
+55	I	0.4932	
+56	N	0.5183	
+57	A	0.5459	
+58	K	0.5633	
+59	A	0.5871	
+60	K	0.6145	
+61	R	0.6320	
+62	R	0.6408	
+63	L	0.6497	
+64	R	0.6657	
+65	K	0.6837	
+66	N	0.6913	
+67	S	0.7027	
+68	S	0.7143	
+69	R	0.7306	
+70	D	0.7479	
+71	S	0.7636	
+72	G	0.7719	
+73	R	0.7873	
+74	G	0.7957	
+75	D	0.7967	
+76	S	0.7807	
+77	V	0.7588	
+78	S	0.7351	
+79	D	0.7150	
+80	S	0.6922	
+81	G	0.6761	
+82	S	0.6796	
+83	D	0.6916	
+84	A	0.7010	
+85	L	0.7117	
+86	R	0.7188	
+87	S	0.7197	
+88	G	0.7009	
+89	L	0.6741	
+90	T	0.6402	
+91	V	0.6202	
+92	P	0.6004	
+93	T	0.5896	
+94	S	0.5934	
+95	P	0.6054	
+96	K	0.6292	
+97	G	0.6584	
+98	R	0.6826	
+99	L	0.6979	
+100	L	0.7144	
+101	D	0.7236	
+102	R	0.7190	
+103	R	0.6992	
+104	S	0.6764	
+105	R	0.6593	
+106	S	0.6542	
+107	G	0.6577	
+108	K	0.6697	
+109	G	0.6837	
+110	R	0.6922	
+111	G	0.6909	
+112	L	0.6869	
+113	P	0.6858	
+114	K	0.6811	
+115	K	0.6665	
+116	G	0.6529	
+117	G	0.6312	
+118	A	0.6183	
+119	G	0.6113	
+120	G	0.6092	
+121	K	0.5990	
+122	G	0.5799	
+123	V	0.5503	
+124	W	0.5209	
+125	G	0.5069	
+126	T	0.5051	
+127	P	0.4962	
+128	G	0.4886	
+129	Q	0.4751	
+130	V	0.4703	
+131	Y	0.4750	
+132	D	0.4971	
+133	V	0.5261	
+134	E	0.5591	
+135	E	0.5857	
+136	V	0.5970	
+137	D	0.5961	
+138	V	0.5964	
+139	K	0.5930	
+140	D	0.5816	
+141	P	0.5617	
+142	N	0.5322	
+143	Y	0.5116	
+144	D	0.5015	
+145	D	0.4925	
+146	D	0.4886	
+147	Q	0.4818	
+148	E	0.4751	
+149	N	0.4556	
+150	C	0.4469	
+151	V	0.4428	
+152	Y	0.4372	
+153	E	0.4294	
+154	T	0.4127	
+155	V	0.3871	
+156	V	0.3581	
+157	L	0.3380	
+158	P	0.3302	
+159	L	0.3295	
+160	D	0.3231	
+161	E	0.3192	
+162	R	0.3126	
+163	A	0.3089	domain MI 1
+164	F	0.3121	domain MI 1
+165	E	0.3146	domain MI 1
+166	K	0.3249	domain MI 1
+167	T	0.3287	domain MI 1
+168	L	0.3369	domain MI 1
+169	T	0.3483	domain MI 1
+170	P	0.3697	domain MI 1
+171	I	0.3900	domain MI 1
+172	I	0.4078	domain MI 1
+173	Q	0.4262	domain MI 1
+174	E	0.4265	domain MI 1
+175	Y	0.4193	domain MI 1
+176	F	0.4161	domain MI 1
+177	E	0.4134	domain MI 1
+178	H	0.4057	domain MI 1
+179	G	0.3959	domain MI 1
+180	D	0.3829	domain MI 1
+181	T	0.3729	domain MI 1
+182	N	0.3783	domain MI 1
+183	E	0.3869	domain MI 1
+184	V	0.4097	domain MI 1
+185	A	0.4372	domain MI 1
+186	E	0.4648	domain MI 1
+187	M	0.4849	domain MI 1
+188	L	0.4953	domain MI 1
+189	R	0.4915	domain MI 1
+190	D	0.4684	domain MI 1
+191	L	0.4451	domain MI 1
+192	N	0.4050	domain MI 1
+193	L	0.3608	domain MI 1
+194	G	0.3127	domain MI 1
+195	E	0.2803	domain MI 1
+196	M	0.2564	domain MI 1
+197	K	0.2352	domain MI 1
+198	S	0.2281	domain MI 1
+199	G	0.2240	domain MI 1
+200	V	0.2338	domain MI 1
+201	P	0.2430	domain MI 1
+202	V	0.2560	domain MI 1
+203	L	0.2654	domain MI 1
+204	A	0.2851	domain MI 1
+205	V	0.3107	domain MI 1
+206	S	0.3222	domain MI 1
+207	L	0.3265	domain MI 1
+208	A	0.3206	domain MI 1
+209	L	0.3217	domain MI 1
+210	E	0.3183	domain MI 1
+211	G	0.3145	domain MI 1
+212	K	0.3024	domain MI 1
+213	A	0.3024	domain MI 1
+214	S	0.3037	domain MI 1
+215	H	0.3084	domain MI 1
+216	R	0.3169	domain MI 1
+217	E	0.3183	domain MI 1
+218	M	0.3280	domain MI 1
+219	T	0.3366	domain MI 1
+220	S	0.3474	domain MI 1
+221	K	0.3388	domain MI 1
+222	L	0.3431	domain MI 1
+223	L	0.3541	domain MI 1
+224	S	0.3593	domain MI 1
+225	D	0.3540	domain MI 1
+226	L	0.3397	domain MI 1
+227	C	0.3317	domain MI 1
+228	G	0.3192	domain MI 1
+229	T	0.3077	domain MI 1
+230	V	0.2831	domain MI 1
+231	M	0.2550	domain MI 1
+232	S	0.2412	domain MI 1
+233	T	0.2351	domain MI 1
+234	T	0.2395	domain MI 1
+235	D	0.2469	domain MI 1
+236	V	0.2652	domain MI 1
+237	E	0.2792	domain MI 1
+238	K	0.2945	domain MI 1
+239	S	0.2964	domain MI 1
+240	F	0.3003	domain MI 1
+241	D	0.2961	domain MI 1
+242	K	0.2966	domain MI 1
+243	L	0.2938	domain MI 1
+244	L	0.2921	domain MI 1
+245	K	0.2903	domain MI 1
+246	D	0.2954	domain MI 1
+247	L	0.3120	domain MI 1
+248	P	0.3233	domain MI 1
+249	E	0.3287	domain MI 1
+250	L	0.3264	domain MI 1
+251	A	0.3200	domain MI 1
+252	L	0.3204	domain MI 1
+253	D	0.3122	domain MI 1
+254	T	0.2977	domain MI 1
+255	P	0.2757	domain MI 1
+256	R	0.2620	domain MI 1
+257	A	0.2578	domain MI 1
+258	P	0.2577	domain MI 1
+259	Q	0.2515	domain MI 1
+260	L	0.2502	domain MI 1
+261	V	0.2468	domain MI 1
+262	G	0.2413	domain MI 1
+263	Q	0.2233	domain MI 1
+264	F	0.1990	domain MI 1
+265	I	0.1688	domain MI 1
+266	A	0.1392	domain MI 1
+267	R	0.1085	domain MI 1
+268	A	0.0713	domain MI 1
+269	V	0.0440	domain MI 1
+270	G	0.0390	domain MI 1
+271	D	0.0465	domain MI 1
+272	G	0.0549	domain MI 1
+273	I	0.0610	domain MI 1
+274	L	0.0691	domain MI 1
+275	C	0.0830	domain MI 1
+276	N	0.0939	domain MI 1
+277	T	0.1001	domain MI 1
+278	Y	0.0958	domain MI 1
+279	I	0.0901	domain MI 1
+280	D	0.0905	domain MI 1
+281	S	0.0859	domain MI 1
+282	Y	0.0780	domain MI 1
+283	K	0.0785	domain MI 1
+284	G	0.0969	domain MI 1
+285	T	0.1143	
+286	V	0.1317	
+287	D	0.1415	
+288	C	0.1516	
+289	V	0.1558	
+290	Q	0.1537	
+291	A	0.1454	
+292	R	0.1282	
+293	A	0.1173	
+294	A	0.1090	
+295	L	0.1116	
+296	D	0.1192	
+297	K	0.1473	
+298	A	0.1838	
+299	T	0.2162	
+300	V	0.2389	
+301	L	0.2547	
+302	L	0.2723	
+303	S	0.2771	
+304	M	0.2718	
+305	S	0.2524	
+306	K	0.2454	
+307	G	0.2449	
+308	G	0.2594	
+309	K	0.2914	
+310	R	0.3369	
+311	K	0.3929	
+312	D	0.4351	
+313	S	0.4695	
+314	V	0.4863	
+315	W	0.4940	
+316	G	0.4854	
+317	S	0.4685	
+318	G	0.4340	
+319	G	0.3823	
+320	G	0.3385	
+321	Q	0.3087	
+322	Q	0.2915	
+323	S	0.2725	
+324	V	0.2633	
+325	N	0.2477	
+326	H	0.2265	domain MI 2
+327	L	0.2025	domain MI 2
+328	V	0.1798	domain MI 2
+329	K	0.1596	domain MI 2
+330	E	0.1310	domain MI 2
+331	I	0.1013	domain MI 2
+332	D	0.0716	domain MI 2
+333	M	0.0533	domain MI 2
+334	L	0.0505	domain MI 2
+335	L	0.0637	domain MI 2
+336	K	0.0808	domain MI 2
+337	E	0.0869	domain MI 2
+338	Y	0.0889	domain MI 2
+339	L	0.0866	domain MI 2
+340	L	0.0862	domain MI 2
+341	S	0.0905	domain MI 2
+342	G	0.0943	domain MI 2
+343	D	0.0900	domain MI 2
+344	I	0.0847	domain MI 2
+345	S	0.0874	domain MI 2
+346	E	0.1062	domain MI 2
+347	A	0.1386	domain MI 2
+348	E	0.1693	domain MI 2
+349	H	0.1898	domain MI 2
+350	C	0.2048	domain MI 2
+351	L	0.2199	domain MI 2
+352	K	0.2248	domain MI 2
+353	E	0.2176	domain MI 2
+354	L	0.2043	domain MI 2
+355	E	0.1790	domain MI 2
+356	V	0.1495	domain MI 2
+357	P	0.1124	domain MI 2
+358	H	0.0822	domain MI 2
+359	F	0.0625	domain MI 2
+360	H	0.0555	domain MI 2
+361	H	0.0517	domain MI 2
+362	E	0.0472	domain MI 2
+363	L	0.0489	domain MI 2
+364	V	0.0607	domain MI 2
+365	Y	0.0799	domain MI 2
+366	E	0.0977	domain MI 2
+367	A	0.1085	domain MI 2
+368	I	0.1094	domain MI 2
+369	I	0.1096	domain MI 2
+370	M	0.1080	domain MI 2
+371	V	0.0994	domain MI 2
+372	L	0.0856	domain MI 2
+373	E	0.0752	domain MI 2
+374	S	0.0706	domain MI 2
+375	T	0.0629	domain MI 2
+376	G	0.0616	domain MI 2
+377	E	0.0577	domain MI 2
+378	S	0.0639	domain MI 2
+379	T	0.0730	domain MI 2
+380	F	0.0855	domain MI 2
+381	K	0.0955	domain MI 2
+382	M	0.1024	domain MI 2
+383	I	0.1058	domain MI 2
+384	L	0.1068	domain MI 2
+385	D	0.1028	domain MI 2
+386	L	0.0883	domain MI 2
+387	L	0.0757	domain MI 2
+388	K	0.0704	domain MI 2
+389	S	0.0623	domain MI 2
+390	L	0.0544	domain MI 2
+391	W	0.0661	domain MI 2
+392	K	0.0940	domain MI 2
+393	S	0.1184	domain MI 2
+394	S	0.1408	domain MI 2
+395	T	0.1553	domain MI 2
+396	I	0.1653	domain MI 2
+397	T	0.1786	domain MI 2
+398	V	0.1960	domain MI 2
+399	D	0.2132	domain MI 2
+400	Q	0.2300	domain MI 2
+401	M	0.2432	domain MI 2
+402	K	0.2534	domain MI 2
+403	R	0.2639	domain MI 2
+404	G	0.2616	domain MI 2
+405	Y	0.2630	domain MI 2
+406	E	0.2646	domain MI 2
+407	R	0.2618	domain MI 2
+408	I	0.2528	domain MI 2
+409	Y	0.2480	domain MI 2
+410	N	0.2471	domain MI 2
+411	E	0.2442	domain MI 2
+412	I	0.2382	domain MI 2
+413	P	0.2246	domain MI 2
+414	D	0.2008	domain MI 2
+415	I	0.1759	domain MI 2
+416	N	0.1593	domain MI 2
+417	L	0.1500	domain MI 2
+418	D	0.1427	domain MI 2
+419	V	0.1396	domain MI 2
+420	P	0.1353	domain MI 2
+421	H	0.1360	domain MI 2
+422	S	0.1264	domain MI 2
+423	Y	0.1184	domain MI 2
+424	S	0.1038	domain MI 2
+425	V	0.0947	domain MI 2
+426	L	0.0854	domain MI 2
+427	E	0.0754	domain MI 2
+428	R	0.0666	domain MI 2
+429	F	0.0629	domain MI 2
+430	V	0.0614	domain MI 2
+431	E	0.0641	domain MI 2
+432	E	0.0635	domain MI 2
+433	C	0.0513	domain MI 2
+434	F	0.0460	domain MI 2
+435	Q	0.0524	domain MI 2
+436	A	0.0588	domain MI 2
+437	G	0.0646	domain MI 2
+438	I	0.0789	domain MI 2
+439	I	0.1010	domain MI 2
+440	S	0.1250	domain MI 2
+441	K	0.1462	domain MI 2
+442	Q	0.1542	domain MI 2
+443	L	0.1613	domain MI 2
+444	R	0.1657	domain MI 2
+445	D	0.1725	domain MI 2
+446	L	0.1848	domain MI 2
+447	C	0.2038	domain MI 2
+448	P	0.2323	domain MI 2
+449	S	0.2654	domain MI 2
+450	R	0.2843	
+451	G	0.3051	
+452	R	0.3300	
+453	K	0.3595	
+454	R	0.3817	
+455	F	0.3937	
+456	V	0.4052	
+457	S	0.4211	
+458	E	0.4323	
+459	G	0.4275	
+460	D	0.4085	
+461	G	0.3810	
+462	G	0.3603	
+463	R	0.3541	
+464	L	0.3673	
+465	K	0.4006	
+466	P	0.4489	
+467	E	0.4998	
+468	S	0.5317	
+469	Y	0.5125	

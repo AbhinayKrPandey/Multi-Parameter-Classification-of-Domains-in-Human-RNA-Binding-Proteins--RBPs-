@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2002-05-10" modified="2024-10-02" version="200" xmlns="http://uniprot.org/uniprot">
+  <accession>Q92979</accession>
+  <accession>O00675</accession>
+  <accession>O00726</accession>
+  <name>NEP1_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="12">Ribosomal RNA small subunit methyltransferase NEP1</fullName>
+      <ecNumber evidence="5">2.1.1.-</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="9">18S rRNA (pseudouridine(1248)-N1)-methyltransferase</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="9">18S rRNA Psi1248 methyltransferase</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="1">Nucleolar protein EMG1 homolog</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="10">Protein C2f</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="9">Ribosome biogenesis protein NEP1</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="8" type="primary">EMG1</name>
+    <name evidence="10" type="synonym">C2F</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1997" name="Genome Res." volume="7" first="268" last="280">
+      <title>Large-scale sequencing in human chromosome 12p13: experimental and computational gene structure determination.</title>
+      <authorList>
+        <person name="Ansari-Lari M.A."/>
+        <person name="Shen Y."/>
+        <person name="Muzny D.M."/>
+        <person name="Lee W."/>
+        <person name="Gibbs R.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="9074930"/>
+      <dbReference type="DOI" id="10.1101/gr.7.3.268"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA]</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Testis</tissue>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="submission" date="2004-10" db="UniProtKB">
+      <authorList>
+        <person name="Bienvenut W.V."/>
+      </authorList>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 2-11</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE</scope>
+    <scope>ACETYLATION AT ALA-2</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2002" name="Curr. Genet." volume="40" first="326" last="338">
+      <title>Nep1p (Emg1p), a novel protein conserved in eukaryotes and archaea, is involved in ribosome biogenesis.</title>
+      <authorList>
+        <person name="Eschrich D."/>
+        <person name="Buchhaupt M."/>
+        <person name="Koetter P."/>
+        <person name="Entian K.-D."/>
+      </authorList>
+      <dbReference type="PubMed" id="11935223"/>
+      <dbReference type="DOI" id="10.1007/s00294-001-0269-4"/>
+    </citation>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2010" name="Nucleic Acids Res." volume="38" first="2387" last="2398">
+      <title>The ribosome assembly factor Nep1 responsible for Bowen-Conradi syndrome is a pseudouridine-N1-specific methyltransferase.</title>
+      <authorList>
+        <person name="Wurm J.P."/>
+        <person name="Meyer B."/>
+        <person name="Bahr U."/>
+        <person name="Held M."/>
+        <person name="Frolow O."/>
+        <person name="Kotter P."/>
+        <person name="Engels J.W."/>
+        <person name="Heckel A."/>
+        <person name="Karas M."/>
+        <person name="Entian K.D."/>
+        <person name="Wohnert J."/>
+      </authorList>
+      <dbReference type="PubMed" id="20047967"/>
+      <dbReference type="DOI" id="10.1093/nar/gkp1189"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2012" name="Proc. Natl. Acad. Sci. U.S.A." volume="109" first="12449" last="12454">
+      <title>N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.</title>
+      <authorList>
+        <person name="Van Damme P."/>
+        <person name="Lasa M."/>
+        <person name="Polevoda B."/>
+        <person name="Gazquez C."/>
+        <person name="Elosegui-Artola A."/>
+        <person name="Kim D.S."/>
+        <person name="De Juan-Pardo E."/>
+        <person name="Demeyer K."/>
+        <person name="Hole K."/>
+        <person name="Larrea E."/>
+        <person name="Timmerman E."/>
+        <person name="Prieto J."/>
+        <person name="Arnesen T."/>
+        <person name="Sherman F."/>
+        <person name="Gevaert K."/>
+        <person name="Aldabe R."/>
+      </authorList>
+      <dbReference type="PubMed" id="22814378"/>
+      <dbReference type="DOI" id="10.1073/pnas.1210303109"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2013" name="J. Proteome Res." volume="12" first="260" last="271">
+      <title>Toward a comprehensive characterization of a human cancer cell phosphoproteome.</title>
+      <authorList>
+        <person name="Zhou H."/>
+        <person name="Di Palma S."/>
+        <person name="Preisinger C."/>
+        <person name="Peng M."/>
+        <person name="Polat A.N."/>
+        <person name="Heck A.J."/>
+        <person name="Mohammed S."/>
+      </authorList>
+      <dbReference type="PubMed" id="23186163"/>
+      <dbReference type="DOI" id="10.1021/pr300630k"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-5 AND SER-14</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+      <tissue>Erythroleukemia</tissue>
+    </source>
+  </reference>
+  <reference evidence="13 14 15" key="9">
+    <citation type="journal article" date="2021" name="Science" volume="373" first="eabj5338" last="eabj5338">
+      <title>Nucleolar maturation of the human small subunit processome.</title>
+      <authorList>
+        <person name="Singh S."/>
+        <person name="Vanden Broeck A."/>
+        <person name="Miller L."/>
+        <person name="Chaker-Margot M."/>
+        <person name="Klinge S."/>
+      </authorList>
+      <dbReference type="PubMed" id="34516797"/>
+      <dbReference type="DOI" id="10.1126/science.abj5338"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (2.70 ANGSTROMS)</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2009" name="Am. J. Hum. Genet." volume="84" first="728" last="739">
+      <title>Mutation of a gene essential for ribosome biogenesis, EMG1, causes Bowen-Conradi syndrome.</title>
+      <authorList>
+        <person name="Armistead J."/>
+        <person name="Khatkar S."/>
+        <person name="Meyer B."/>
+        <person name="Mark B.L."/>
+        <person name="Patel N."/>
+        <person name="Coghlan G."/>
+        <person name="Lamont R.E."/>
+        <person name="Liu S."/>
+        <person name="Wiechert J."/>
+        <person name="Cattini P.A."/>
+        <person name="Koetter P."/>
+        <person name="Wrogemann K."/>
+        <person name="Greenberg C.R."/>
+        <person name="Entian K.-D."/>
+        <person name="Zelinski T."/>
+        <person name="Triggs-Raine B."/>
+      </authorList>
+      <dbReference type="PubMed" id="19463982"/>
+      <dbReference type="DOI" id="10.1016/j.ajhg.2009.04.017"/>
+    </citation>
+    <scope>VARIANT BWCNS GLY-86</scope>
+    <scope>CHARACTERIZATION OF VARIANT BWCNS GLY-86</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1 5 6">S-adenosyl-L-methionine-dependent pseudouridine N(1)-methyltransferase that methylates pseudouridine at position 1248 (Psi1248) in 18S rRNA. Involved the biosynthesis of the hypermodified N1-methyl-N3-(3-amino-3-carboxypropyl) pseudouridine (m1acp3-Psi) conserved in eukaryotic 18S rRNA. Is not able to methylate uridine at this position (PubMed:20047967). Has also an essential role in 40S ribosomal subunit biogenesis independent on its methyltransferase activity, facilitating the incorporation of ribosomal protein S19 during the formation of pre-ribosomes (By similarity). Part of the small subunit (SSU) processome, first precursor of the small eukaryotic ribosomal subunit. During the assembly of the SSU processome in the nucleolus, many ribosome biogenesis factors, an RNA chaperone and ribosomal proteins associate with the nascent pre-rRNA and work in concert to generate RNA folding, modifications, rearrangements and cleavage as well as targeted degradation of pre-ribosomal RNA by the RNA exosome (PubMed:34516797).</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="5">
+      <text>pseudouridine(1248) in human 18S rRNA + S-adenosyl-L-methionine = H(+) + N(1)-methylpseudouridine(1248) in human 18S rRNA + S-adenosyl-L-homocysteine</text>
+      <dbReference type="Rhea" id="RHEA:46712"/>
+      <dbReference type="Rhea" id="RHEA-COMP:11638"/>
+      <dbReference type="Rhea" id="RHEA-COMP:11639"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:57856"/>
+      <dbReference type="ChEBI" id="CHEBI:59789"/>
+      <dbReference type="ChEBI" id="CHEBI:65314"/>
+      <dbReference type="ChEBI" id="CHEBI:74890"/>
+    </reaction>
+  </comment>
+  <comment type="subunit">
+    <text evidence="1 6">Homodimer. Part of the small subunit (SSU) processome, composed of more than 70 proteins and the RNA chaperone small nucleolar RNA (snoRNA) U3 (PubMed:34516797).</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-718638">
+      <id>Q92979</id>
+    </interactant>
+    <interactant intactId="EBI-718638">
+      <id>Q92979</id>
+      <label>EMG1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-718638">
+      <id>Q92979</id>
+    </interactant>
+    <interactant intactId="EBI-10247271">
+      <id>Q5TZK3</id>
+      <label>FAM74A6</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-718638">
+      <id>Q92979</id>
+    </interactant>
+    <interactant intactId="EBI-3918847">
+      <id>Q9H2F3</id>
+      <label>HSD3B7</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-718638">
+      <id>Q92979</id>
+    </interactant>
+    <interactant intactId="EBI-1210580">
+      <id>Q9H5H4</id>
+      <label>ZNF768</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="3 6">Nucleus</location>
+      <location evidence="3 6">Nucleolus</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="disease" evidence="4">
+    <disease id="DI-02492">
+      <name>Bowen-Conradi syndrome</name>
+      <acronym>BWCNS</acronym>
+      <description>A combination of malformations characterized in newborns by low birth weight, microcephaly, mild joint restriction, a prominent nose, micrognathia, fifth finger clinodactyly, and 'rocker-bottom' feet. The syndrome is transmitted as an autosomal recessive trait. The prognosis is poor, with all infants dying within the first few months of life.</description>
+      <dbReference type="MIM" id="211180"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="11">Belongs to the class IV-like SAM-binding methyltransferase superfamily. RNA methyltransferase NEP1 family.</text>
+  </comment>
+  <comment type="sequence caution" evidence="11">
+    <conflict type="erroneous initiation">
+      <sequence resource="EMBL-CDS" id="AAB51325" version="1"/>
+    </conflict>
+  </comment>
+  <dbReference type="EC" id="2.1.1.-" evidence="5"/>
+  <dbReference type="EMBL" id="U47924">
+    <property type="protein sequence ID" value="AAB51325.1"/>
+    <property type="status" value="ALT_INIT"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="U72514">
+    <property type="protein sequence ID" value="AAC51641.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC055314">
+    <property type="protein sequence ID" value="AAH55314.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS73430.1"/>
+  <dbReference type="RefSeq" id="NP_001306978.1">
+    <property type="nucleotide sequence ID" value="NM_001320049.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_006322.4">
+    <property type="nucleotide sequence ID" value="NM_006331.7"/>
+  </dbReference>
+  <dbReference type="PDB" id="5FAI">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.80 A"/>
+    <property type="chains" value="A=14-244"/>
+  </dbReference>
+  <dbReference type="PDB" id="7MQ8">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.60 A"/>
+    <property type="chains" value="SJ/SK=1-244"/>
+  </dbReference>
+  <dbReference type="PDB" id="7MQ9">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.87 A"/>
+    <property type="chains" value="SJ/SK=1-244"/>
+  </dbReference>
+  <dbReference type="PDB" id="7MQA">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.70 A"/>
+    <property type="chains" value="SJ/SK=1-244"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5FAI"/>
+  <dbReference type="PDBsum" id="7MQ8"/>
+  <dbReference type="PDBsum" id="7MQ9"/>
+  <dbReference type="PDBsum" id="7MQA"/>
+  <dbReference type="AlphaFoldDB" id="Q92979"/>
+  <dbReference type="EMDB" id="EMD-23936"/>
+  <dbReference type="EMDB" id="EMD-23937"/>
+  <dbReference type="EMDB" id="EMD-23938"/>
+  <dbReference type="SMR" id="Q92979"/>
+  <dbReference type="BioGRID" id="115703">
+    <property type="interactions" value="124"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-2511">
+    <property type="entry name" value="Small ribosomal subunit processome"/>
+  </dbReference>
+  <dbReference type="IntAct" id="Q92979">
+    <property type="interactions" value="46"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q92979"/>
+  <dbReference type="STRING" id="9606.ENSP00000470560"/>
+  <dbReference type="BindingDB" id="Q92979"/>
+  <dbReference type="GlyGen" id="Q92979">
+    <property type="glycosylation" value="1 site, 1 O-linked glycan (1 site)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="Q92979"/>
+  <dbReference type="PhosphoSitePlus" id="Q92979"/>
+  <dbReference type="SwissPalm" id="Q92979"/>
+  <dbReference type="BioMuta" id="EMG1"/>
+  <dbReference type="DMDM" id="20532172"/>
+  <dbReference type="jPOST" id="Q92979"/>
+  <dbReference type="MassIVE" id="Q92979"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000470560"/>
+  <dbReference type="PeptideAtlas" id="Q92979"/>
+  <dbReference type="ProteomicsDB" id="75641"/>
+  <dbReference type="Pumba" id="Q92979"/>
+  <dbReference type="Antibodypedia" id="6124">
+    <property type="antibodies" value="213 antibodies from 24 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="10436"/>
+  <dbReference type="Ensembl" id="ENST00000599672.6">
+    <property type="protein sequence ID" value="ENSP00000470560.1"/>
+    <property type="gene ID" value="ENSG00000126749.17"/>
+  </dbReference>
+  <dbReference type="GeneID" id="10436"/>
+  <dbReference type="KEGG" id="hsa:10436"/>
+  <dbReference type="MANE-Select" id="ENST00000599672.6">
+    <property type="protein sequence ID" value="ENSP00000470560.1"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_006331.8"/>
+    <property type="RefSeq protein sequence ID" value="NP_006322.4"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc031ysa.2">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:16912"/>
+  <dbReference type="CTD" id="10436"/>
+  <dbReference type="DisGeNET" id="10436"/>
+  <dbReference type="GeneCards" id="EMG1"/>
+  <dbReference type="HGNC" id="HGNC:16912">
+    <property type="gene designation" value="EMG1"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000126749">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MalaCards" id="EMG1"/>
+  <dbReference type="MIM" id="211180">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="MIM" id="611531">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q92979"/>
+  <dbReference type="OpenTargets" id="ENSG00000126749"/>
+  <dbReference type="Orphanet" id="1270">
+    <property type="disease" value="Bowen-Conradi syndrome"/>
+  </dbReference>
+  <dbReference type="PharmGKB" id="PA142671909"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000126749"/>
+  <dbReference type="eggNOG" id="KOG3073">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00390000000305"/>
+  <dbReference type="HOGENOM" id="CLU_055846_1_1_1"/>
+  <dbReference type="InParanoid" id="Q92979"/>
+  <dbReference type="OMA" id="NEFEYLW"/>
+  <dbReference type="OrthoDB" id="275493at2759"/>
+  <dbReference type="PhylomeDB" id="Q92979"/>
+  <dbReference type="BRENDA" id="2.1.1.257">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="Q92979"/>
+  <dbReference type="Reactome" id="R-HSA-6790901">
+    <property type="pathway name" value="rRNA modification in the nucleus and cytosol"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-6791226">
+    <property type="pathway name" value="Major pathway of rRNA processing in the nucleolus and cytosol"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="Q92979"/>
+  <dbReference type="BioGRID-ORCS" id="10436">
+    <property type="hits" value="54 hits in 293 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="EMG1">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q92979"/>
+  <dbReference type="GeneWiki" id="EMG1"/>
+  <dbReference type="GenomeRNAi" id="10436"/>
+  <dbReference type="Pharos" id="Q92979">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q92979"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 12"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q92979">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000126749">
+    <property type="expression patterns" value="Expressed in islet of Langerhans and 195 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q92979">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005694">
+    <property type="term" value="C:chromosome"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005730">
+    <property type="term" value="C:nucleolus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0032040">
+    <property type="term" value="C:small-subunit processome"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042802">
+    <property type="term" value="F:identical protein binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="IntAct"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003723">
+    <property type="term" value="F:RNA binding"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070037">
+    <property type="term" value="F:rRNA (pseudouridine) methyltransferase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0019843">
+    <property type="term" value="F:rRNA binding"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001824">
+    <property type="term" value="P:blastocyst development"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0017126">
+    <property type="term" value="P:nucleologenesis"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042274">
+    <property type="term" value="P:ribosomal small subunit biogenesis"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070475">
+    <property type="term" value="P:rRNA base methylation"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006364">
+    <property type="term" value="P:rRNA processing"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd18088">
+    <property type="entry name" value="Nep1-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.40.1280.10">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR029028">
+    <property type="entry name" value="Alpha/beta_knot_MTases"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR005304">
+    <property type="entry name" value="Rbsml_bgen_MeTrfase_EMG1/NEP1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR029026">
+    <property type="entry name" value="tRNA_m1G_MTases_N"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR12636">
+    <property type="entry name" value="NEP1/MRA1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR12636:SF5">
+    <property type="entry name" value="RIBOSOMAL RNA SMALL SUBUNIT METHYLTRANSFERASE NEP1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF03587">
+    <property type="entry name" value="EMG1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF75217">
+    <property type="entry name" value="alpha/beta knot"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0225">Disease variant</keyword>
+  <keyword id="KW-0489">Methyltransferase</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0690">Ribosome biogenesis</keyword>
+  <keyword id="KW-0694">RNA-binding</keyword>
+  <keyword id="KW-0698">rRNA processing</keyword>
+  <keyword id="KW-0699">rRNA-binding</keyword>
+  <keyword id="KW-0949">S-adenosyl-L-methionine</keyword>
+  <keyword id="KW-0808">Transferase</keyword>
+  <feature type="initiator methionine" description="Removed" evidence="7 16">
+    <location>
+      <position position="1"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000158606" description="Ribosomal RNA small subunit methyltransferase NEP1">
+    <location>
+      <begin position="2"/>
+      <end position="244"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="2">
+    <location>
+      <begin position="1"/>
+      <end position="34"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="1">
+    <location>
+      <position position="176"/>
+    </location>
+    <ligand>
+      <name>S-adenosyl-L-methionine</name>
+      <dbReference type="ChEBI" id="CHEBI:59789"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="1">
+    <location>
+      <position position="201"/>
+    </location>
+    <ligand>
+      <name>S-adenosyl-L-methionine</name>
+      <dbReference type="ChEBI" id="CHEBI:59789"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="1">
+    <location>
+      <position position="206"/>
+    </location>
+    <ligand>
+      <name>S-adenosyl-L-methionine</name>
+      <dbReference type="ChEBI" id="CHEBI:59789"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="1">
+    <location>
+      <begin position="219"/>
+      <end position="224"/>
+    </location>
+    <ligand>
+      <name>S-adenosyl-L-methionine</name>
+      <dbReference type="ChEBI" id="CHEBI:59789"/>
+    </ligand>
+  </feature>
+  <feature type="site" description="Interaction with substrate rRNA" evidence="1">
+    <location>
+      <position position="84"/>
+    </location>
+  </feature>
+  <feature type="site" description="Stabilizes Arg-84" evidence="1">
+    <location>
+      <position position="86"/>
+    </location>
+  </feature>
+  <feature type="site" description="Interaction with substrate rRNA" evidence="1">
+    <location>
+      <position position="125"/>
+    </location>
+  </feature>
+  <feature type="site" description="Interaction with substrate rRNA" evidence="1">
+    <location>
+      <position position="128"/>
+    </location>
+  </feature>
+  <feature type="site" description="Interaction with substrate rRNA" evidence="1">
+    <location>
+      <position position="132"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N-acetylalanine" evidence="7 16">
+    <location>
+      <position position="2"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="17">
+    <location>
+      <position position="5"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="17">
+    <location>
+      <position position="14"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_050237" description="In dbSNP:rs11064480.">
+    <original>A</original>
+    <variation>G</variation>
+    <location>
+      <position position="34"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_062480" description="In BWCNS; studies in fibroblasts show a dramatically reduced level of EMG1 protein in a BWCNS-affected patient compared to normal fibroblasts although patient fibroblasts do not have complete EMG1 deficiency; the mutation increases dimerization of EMG1 subunits suggesting that aggregation of EMG1 leads to reduced levels of the protein; dbSNP:rs74435397." evidence="4">
+    <original>D</original>
+    <variation>G</variation>
+    <location>
+      <position position="86"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="42"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="54"/>
+      <end position="57"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="60"/>
+      <end position="63"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="18">
+    <location>
+      <begin position="66"/>
+      <end position="68"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="18">
+    <location>
+      <begin position="75"/>
+      <end position="77"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="18">
+    <location>
+      <begin position="80"/>
+      <end position="82"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="18">
+    <location>
+      <begin position="85"/>
+      <end position="97"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="18">
+    <location>
+      <begin position="99"/>
+      <end position="102"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="106"/>
+      <end position="112"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="117"/>
+      <end position="120"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="18">
+    <location>
+      <begin position="130"/>
+      <end position="143"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="144"/>
+      <end position="147"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="154"/>
+      <end position="159"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="18">
+    <location>
+      <begin position="163"/>
+      <end position="166"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="172"/>
+      <end position="176"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="181"/>
+      <end position="183"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="18">
+    <location>
+      <begin position="186"/>
+      <end position="189"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="192"/>
+      <end position="201"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="203"/>
+      <end position="205"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="18">
+    <location>
+      <begin position="214"/>
+      <end position="218"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="18">
+    <location>
+      <begin position="226"/>
+      <end position="241"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q06287"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="11935223"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="19463982"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="20047967"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="34516797"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source ref="3"/>
+  </evidence>
+  <evidence type="ECO:0000303" key="8">
+    <source>
+      <dbReference type="PubMed" id="19463982"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="9">
+    <source>
+      <dbReference type="PubMed" id="20047967"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="10">
+    <source>
+      <dbReference type="PubMed" id="9074930"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="11"/>
+  <evidence type="ECO:0000305" key="12">
+    <source>
+      <dbReference type="PubMed" id="20047967"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="13">
+    <source>
+      <dbReference type="PDB" id="7MQ8"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="14">
+    <source>
+      <dbReference type="PDB" id="7MQ9"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="15">
+    <source>
+      <dbReference type="PDB" id="7MQA"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="16">
+    <source>
+      <dbReference type="PubMed" id="22814378"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="17">
+    <source>
+      <dbReference type="PubMed" id="23186163"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="18">
+    <source>
+      <dbReference type="PDB" id="5FAI"/>
+    </source>
+  </evidence>
+  <sequence length="244" mass="26720" checksum="922F6CF49B4EFD11" modified="2007-01-23" version="4">MAAPSDGFKPRERSGGEQAQDWDALPPKRPRLGAGNKIGGRRLIVVLEGASLETVKVGKTYELLNCDKHKSILLKNGRDPGEARPDITHQSLLMLMDSPLNRAGLLQVYIHTQKNVLIEVNPQTRIPRTFDRFCGLMVQLLHKLSVRAADGPQKLLKVIKNPVSDHFPVGCMKVGTSFSIPVVSDVRELVPSSDPIVFVVGAFAHGKVSVEYTEKMVSISNYPLSAALTCAKLTTAFEEVWGVI</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

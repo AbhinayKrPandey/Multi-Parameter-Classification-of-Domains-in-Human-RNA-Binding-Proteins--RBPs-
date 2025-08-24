@@ -1,0 +1,275 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.5224	
+2	A	0.4690	
+3	R	0.4429	
+4	G	0.4326	
+5	P	0.4297	
+6	K	0.4281	
+7	K	0.4239	
+8	H	0.4150	
+9	L	0.4007	
+10	K	0.3814	
+11	R	0.3613	
+12	V	0.3332	
+13	A	0.2988	
+14	A	0.2737	
+15	P	0.2458	
+16	K	0.2186	
+17	H	0.1815	
+18	W	0.1587	
+19	M	0.1449	
+20	L	0.1664	
+21	D	0.1989	
+22	K	0.2294	
+23	L	0.2599	
+24	T	0.2942	
+25	G	0.3156	
+26	V	0.3239	
+27	F	0.3321	
+28	A	0.3443	
+29	P	0.3606	
+30	R	0.3664	
+31	P	0.3580	
+32	S	0.3449	
+33	T	0.3187	
+34	G	0.2943	
+35	P	0.2601	
+36	H	0.2278	
+37	K	0.1951	
+38	L	0.1830	
+39	R	0.1725	
+40	E	0.1609	
+41	C	0.1428	
+42	L	0.1286	domain S4 RNA-binding
+43	P	0.1121	domain S4 RNA-binding
+44	L	0.0872	domain S4 RNA-binding
+45	I	0.0566	domain S4 RNA-binding
+46	I	0.0349	domain S4 RNA-binding
+47	F	0.0266	domain S4 RNA-binding
+48	L	0.0290	domain S4 RNA-binding
+49	R	0.0356	domain S4 RNA-binding
+50	N	0.0359	domain S4 RNA-binding
+51	R	0.0300	domain S4 RNA-binding
+52	L	0.0367	domain S4 RNA-binding
+53	K	0.0443	domain S4 RNA-binding
+54	Y	0.0617	domain S4 RNA-binding
+55	A	0.0770	domain S4 RNA-binding
+56	L	0.0946	domain S4 RNA-binding
+57	T	0.1032	domain S4 RNA-binding
+58	G	0.1125	domain S4 RNA-binding
+59	D	0.1114	domain S4 RNA-binding
+60	E	0.1052	domain S4 RNA-binding
+61	V	0.0977	domain S4 RNA-binding
+62	K	0.0967	domain S4 RNA-binding
+63	K	0.0950	domain S4 RNA-binding
+64	I	0.1021	domain S4 RNA-binding
+65	C	0.1136	domain S4 RNA-binding
+66	M	0.1351	domain S4 RNA-binding
+67	Q	0.1528	domain S4 RNA-binding
+68	R	0.1581	domain S4 RNA-binding
+69	F	0.1526	domain S4 RNA-binding
+70	I	0.1423	domain S4 RNA-binding
+71	K	0.1309	domain S4 RNA-binding
+72	I	0.1258	domain S4 RNA-binding
+73	D	0.1136	domain S4 RNA-binding
+74	G	0.1125	domain S4 RNA-binding
+75	K	0.1079	domain S4 RNA-binding
+76	V	0.1111	domain S4 RNA-binding
+77	R	0.1115	domain S4 RNA-binding
+78	T	0.1142	domain S4 RNA-binding
+79	D	0.1083	domain S4 RNA-binding
+80	I	0.1003	domain S4 RNA-binding
+81	T	0.1013	domain S4 RNA-binding
+82	Y	0.1106	domain S4 RNA-binding
+83	P	0.1204	domain S4 RNA-binding
+84	A	0.1401	domain S4 RNA-binding
+85	G	0.1538	domain S4 RNA-binding
+86	F	0.1650	domain S4 RNA-binding
+87	M	0.1667	domain S4 RNA-binding
+88	D	0.1618	domain S4 RNA-binding
+89	V	0.1503	domain S4 RNA-binding
+90	I	0.1284	domain S4 RNA-binding
+91	S	0.1069	domain S4 RNA-binding
+92	I	0.0963	domain S4 RNA-binding
+93	D	0.0874	domain S4 RNA-binding
+94	K	0.0889	domain S4 RNA-binding
+95	T	0.0891	domain S4 RNA-binding
+96	G	0.1036	domain S4 RNA-binding
+97	E	0.1204	domain S4 RNA-binding
+98	N	0.1315	domain S4 RNA-binding
+99	F	0.1456	domain S4 RNA-binding
+100	R	0.1541	domain S4 RNA-binding
+101	L	0.1632	domain S4 RNA-binding
+102	I	0.1616	domain S4 RNA-binding
+103	Y	0.1651	domain S4 RNA-binding
+104	D	0.1665	domain S4 RNA-binding
+105	T	0.1686	
+106	K	0.1762	
+107	G	0.1783	
+108	R	0.1788	
+109	F	0.1880	
+110	A	0.1951	
+111	V	0.2072	
+112	H	0.2204	
+113	R	0.2224	
+114	I	0.2191	
+115	T	0.2094	
+116	P	0.1963	
+117	E	0.1705	
+118	E	0.1470	
+119	A	0.1347	
+120	K	0.1168	
+121	Y	0.1183	
+122	K	0.1238	
+123	L	0.1342	
+124	C	0.1389	
+125	K	0.1362	
+126	V	0.1335	
+127	R	0.1193	
+128	K	0.0961	
+129	I	0.0798	
+130	F	0.0669	
+131	V	0.0765	
+132	G	0.0930	
+133	T	0.1111	
+134	K	0.1227	
+135	G	0.1296	
+136	I	0.1522	
+137	P	0.1765	
+138	H	0.2066	
+139	L	0.2285	
+140	V	0.2470	
+141	T	0.2625	
+142	H	0.2741	
+143	D	0.2734	
+144	A	0.2746	
+145	R	0.2658	
+146	T	0.2601	
+147	I	0.2513	
+148	R	0.2404	
+149	Y	0.2482	
+150	P	0.2526	
+151	D	0.2638	
+152	P	0.2529	
+153	L	0.2330	
+154	I	0.2202	
+155	K	0.2185	
+156	V	0.2257	
+157	N	0.2264	
+158	D	0.2301	
+159	T	0.2282	
+160	I	0.2252	
+161	Q	0.2037	
+162	I	0.1874	
+163	D	0.1664	
+164	L	0.1575	
+165	E	0.1504	
+166	T	0.1515	
+167	G	0.1540	
+168	K	0.1479	
+169	I	0.1544	
+170	T	0.1491	
+171	D	0.1426	
+172	F	0.1340	
+173	I	0.1299	
+174	K	0.1321	
+175	F	0.1358	
+176	D	0.1390	
+177	T	0.1472	
+178	G	0.1497	
+179	N	0.1431	
+180	L	0.1396	
+181	C	0.1349	
+182	M	0.1415	
+183	V	0.1519	
+184	T	0.1627	
+185	G	0.1712	
+186	G	0.1729	
+187	A	0.1905	
+188	N	0.2143	
+189	L	0.2565	
+190	G	0.3029	
+191	R	0.3474	
+192	I	0.3910	
+193	G	0.4176	
+194	V	0.4286	
+195	I	0.4309	
+196	T	0.4164	
+197	N	0.3911	
+198	R	0.3537	
+199	E	0.3161	
+200	R	0.3092	
+201	H	0.3296	
+202	P	0.3648	
+203	G	0.4037	
+204	S	0.4363	
+205	F	0.4701	
+206	D	0.4826	
+207	V	0.4857	
+208	V	0.4730	
+209	H	0.4496	
+210	V	0.4161	
+211	K	0.3695	
+212	D	0.3250	
+213	A	0.2791	
+214	N	0.2436	
+215	G	0.2240	
+216	N	0.1976	
+217	S	0.1770	
+218	F	0.1801	
+219	A	0.1958	
+220	T	0.2247	
+221	R	0.2414	
+222	L	0.2508	
+223	S	0.2510	
+224	N	0.2413	
+225	I	0.2186	
+226	F	0.1936	
+227	V	0.1761	
+228	I	0.1748	
+229	G	0.1709	
+230	K	0.1807	
+231	G	0.1928	
+232	N	0.2092	
+233	K	0.2289	
+234	P	0.2363	
+235	W	0.2436	
+236	I	0.2531	
+237	S	0.2663	
+238	L	0.2945	
+239	P	0.3144	
+240	R	0.3351	
+241	G	0.3454	
+242	K	0.3544	
+243	G	0.3502	
+244	I	0.3482	
+245	R	0.3489	
+246	L	0.3632	
+247	T	0.3685	
+248	I	0.3843	
+249	A	0.3918	
+250	E	0.4051	
+251	E	0.4117	
+252	R	0.4107	
+253	D	0.4122	
+254	K	0.4214	
+255	R	0.4382	
+256	L	0.4653	
+257	A	0.5022	
+258	A	0.5460	
+259	K	0.5906	
+260	Q	0.6264	
+261	S	0.6396	
+262	S	0.6115	
+263	G	0.5182	

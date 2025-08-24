@@ -1,0 +1,739 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.1142	
+2	N	0.0895	
+3	Q	0.0741	
+4	K	0.0653	
+5	L	0.0607	
+6	L	0.0585	
+7	K	0.0571	
+8	L	0.0557	
+9	E	0.0535	
+10	N	0.0504	
+11	L	0.0422	
+12	L	0.0398	
+13	R	0.0369	
+14	F	0.0377	
+15	H	0.0398	
+16	T	0.0416	
+17	I	0.0406	
+18	Y	0.0390	
+19	R	0.0449	
+20	Q	0.0521	
+21	L	0.0553	
+22	H	0.0540	
+23	S	0.0600	
+24	L	0.0631	
+25	C	0.0692	
+26	Q	0.0837	
+27	R	0.0964	
+28	R	0.1051	
+29	A	0.1039	
+30	L	0.1041	
+31	R	0.1068	
+32	Q	0.1061	
+33	W	0.1057	
+34	R	0.1040	
+35	H	0.0995	
+36	G	0.0878	
+37	F	0.0810	
+38	S	0.0747	
+39	S	0.0662	
+40	A	0.0569	
+41	Y	0.0560	
+42	P	0.0496	
+43	V	0.0471	
+44	W	0.0486	
+45	T	0.0562	
+46	A	0.0651	
+47	Q	0.0615	
+48	L	0.0616	
+49	C	0.0619	
+50	A	0.0659	
+51	W	0.0721	
+52	P	0.0771	
+53	W	0.0872	
+54	P	0.0873	
+55	T	0.0886	
+56	D	0.0793	
+57	V	0.0717	
+58	L	0.0682	
+59	T	0.0667	
+60	G	0.0776	
+61	A	0.0904	
+62	A	0.1020	
+63	L	0.1207	
+64	S	0.1494	
+65	Q	0.1737	
+66	Y	0.1915	
+67	R	0.1980	
+68	L	0.2068	
+69	L	0.2073	
+70	V	0.2114	
+71	T	0.2164	
+72	K	0.2207	
+73	K	0.2390	
+74	E	0.2560	
+75	E	0.2822	
+76	G	0.3213	
+77	P	0.3705	
+78	W	0.4239	
+79	K	0.4612	
+80	S	0.4807	
+81	Q	0.4740	
+82	L	0.4503	
+83	S	0.4084	
+84	S	0.3584	
+85	T	0.3023	
+86	K	0.2539	
+87	S	0.2114	
+88	K	0.1902	
+89	K	0.1803	
+90	V	0.1806	
+91	V	0.1858	
+92	E	0.1880	
+93	V	0.1781	
+94	W	0.1649	
+95	I	0.1600	
+96	G	0.1626	
+97	M	0.1644	
+98	T	0.1594	
+99	I	0.1579	
+100	E	0.1625	
+101	E	0.1688	
+102	L	0.1769	
+103	A	0.1754	
+104	R	0.1808	
+105	A	0.1787	
+106	M	0.1818	
+107	E	0.1871	
+108	K	0.1904	
+109	N	0.1965	
+110	T	0.2036	
+111	D	0.2024	
+112	Y	0.1961	
+113	V	0.1915	
+114	Y	0.1945	
+115	E	0.1944	
+116	A	0.1821	
+117	L	0.1575	
+118	L	0.1400	
+119	N	0.1394	
+120	T	0.1453	
+121	D	0.1478	
+122	I	0.1587	
+123	D	0.1658	
+124	I	0.1876	
+125	D	0.2051	
+126	S	0.2160	
+127	L	0.2173	
+128	E	0.2078	
+129	A	0.1996	
+130	D	0.1809	
+131	S	0.1700	
+132	H	0.1634	
+133	L	0.1740	
+134	D	0.1923	
+135	E	0.1987	
+136	V	0.2009	
+137	W	0.2040	
+138	I	0.2089	
+139	K	0.2023	
+140	E	0.1777	
+141	V	0.1470	
+142	I	0.1261	
+143	T	0.1159	
+144	K	0.1201	
+145	A	0.1252	
+146	G	0.1376	
+147	M	0.1653	
+148	K	0.1961	
+149	L	0.2384	
+150	K	0.2742	
+151	W	0.3111	
+152	S	0.3325	
+153	K	0.3516	
+154	L	0.3590	
+155	K	0.3585	
+156	Q	0.3669	
+157	D	0.3809	
+158	K	0.4063	
+159	V	0.4418	
+160	R	0.4794	
+161	K	0.5269	
+162	N	0.5655	
+163	K	0.5798	
+164	D	0.5804	
+165	A	0.5803	
+166	V	0.5746	
+167	R	0.5759	
+168	R	0.5823	
+169	P	0.5847	
+170	Q	0.5730	
+171	A	0.5706	
+172	D	0.5632	
+173	P	0.5461	
+174	A	0.5184	
+175	L	0.4774	
+176	L	0.4457	
+177	T	0.4212	
+178	P	0.4052	domain tr-type G
+179	R	0.4046	domain tr-type G
+180	S	0.4037	domain tr-type G
+181	P	0.3934	domain tr-type G
+182	V	0.3913	domain tr-type G
+183	V	0.3936	domain tr-type G
+184	T	0.3938	domain tr-type G
+185	I	0.3962	domain tr-type G
+186	M	0.3886	domain tr-type G
+187	G	0.3763	domain tr-type G
+188	H	0.3507	domain tr-type G
+189	V	0.3221	domain tr-type G
+190	D	0.3030	domain tr-type G
+191	H	0.2962	domain tr-type G
+192	G	0.2881	domain tr-type G
+193	K	0.2845	domain tr-type G
+194	T	0.2891	domain tr-type G
+195	T	0.3066	domain tr-type G
+196	L	0.3303	domain tr-type G
+197	L	0.3517	domain tr-type G
+198	D	0.3596	domain tr-type G
+199	K	0.3568	domain tr-type G
+200	F	0.3443	domain tr-type G
+201	R	0.3230	domain tr-type G
+202	K	0.3187	domain tr-type G
+203	T	0.3140	domain tr-type G
+204	Q	0.3082	domain tr-type G
+205	V	0.3073	domain tr-type G
+206	A	0.3067	domain tr-type G
+207	A	0.3013	domain tr-type G
+208	V	0.2940	domain tr-type G
+209	E	0.2857	domain tr-type G
+210	T	0.2668	domain tr-type G
+211	G	0.2324	domain tr-type G
+212	G	0.2003	domain tr-type G
+213	I	0.1782	domain tr-type G
+214	T	0.1721	domain tr-type G
+215	Q	0.1853	domain tr-type G
+216	H	0.2028	domain tr-type G
+217	I	0.2252	domain tr-type G
+218	G	0.2327	domain tr-type G
+219	A	0.2329	domain tr-type G
+220	F	0.2224	domain tr-type G
+221	L	0.1995	domain tr-type G
+222	V	0.1762	domain tr-type G
+223	S	0.1550	domain tr-type G
+224	L	0.1422	domain tr-type G
+225	P	0.1372	domain tr-type G
+226	S	0.1498	domain tr-type G
+227	G	0.1676	domain tr-type G
+228	E	0.1964	domain tr-type G
+229	K	0.2197	domain tr-type G
+230	I	0.2450	domain tr-type G
+231	T	0.2650	domain tr-type G
+232	F	0.2854	domain tr-type G
+233	L	0.3064	domain tr-type G
+234	D	0.3232	domain tr-type G
+235	T	0.3250	domain tr-type G
+236	P	0.3162	domain tr-type G
+237	G	0.3137	domain tr-type G
+238	H	0.3066	domain tr-type G
+239	A	0.3106	domain tr-type G
+240	A	0.3222	domain tr-type G
+241	F	0.3436	domain tr-type G
+242	S	0.3575	domain tr-type G
+243	A	0.3611	domain tr-type G
+244	M	0.3508	domain tr-type G
+245	R	0.3150	domain tr-type G
+246	A	0.2672	domain tr-type G
+247	R	0.2134	domain tr-type G
+248	G	0.1636	domain tr-type G
+249	A	0.1269	domain tr-type G
+250	Q	0.1063	domain tr-type G
+251	V	0.1023	domain tr-type G
+252	T	0.1238	domain tr-type G
+253	D	0.1486	domain tr-type G
+254	I	0.1612	domain tr-type G
+255	V	0.1724	domain tr-type G
+256	V	0.1793	domain tr-type G
+257	L	0.1769	domain tr-type G
+258	V	0.1672	domain tr-type G
+259	V	0.1572	domain tr-type G
+260	A	0.1452	domain tr-type G
+261	A	0.1446	domain tr-type G
+262	D	0.1421	domain tr-type G
+263	D	0.1556	domain tr-type G
+264	G	0.1688	domain tr-type G
+265	V	0.1967	domain tr-type G
+266	M	0.2452	domain tr-type G
+267	K	0.3096	domain tr-type G
+268	Q	0.3678	domain tr-type G
+269	T	0.4140	domain tr-type G
+270	V	0.4418	domain tr-type G
+271	E	0.4455	domain tr-type G
+272	S	0.4260	domain tr-type G
+273	I	0.3882	domain tr-type G
+274	Q	0.3435	domain tr-type G
+275	H	0.3003	domain tr-type G
+276	A	0.2544	domain tr-type G
+277	K	0.2211	domain tr-type G
+278	D	0.2032	domain tr-type G
+279	A	0.1981	domain tr-type G
+280	Q	0.1952	domain tr-type G
+281	V	0.2047	domain tr-type G
+282	P	0.2104	domain tr-type G
+283	I	0.2226	domain tr-type G
+284	I	0.2344	domain tr-type G
+285	L	0.2541	domain tr-type G
+286	A	0.2696	domain tr-type G
+287	V	0.2875	domain tr-type G
+288	N	0.2917	domain tr-type G
+289	K	0.2973	domain tr-type G
+290	C	0.2994	domain tr-type G
+291	D	0.2961	domain tr-type G
+292	K	0.3001	domain tr-type G
+293	A	0.3146	domain tr-type G
+294	E	0.3207	domain tr-type G
+295	A	0.3226	domain tr-type G
+296	D	0.3289	domain tr-type G
+297	P	0.3312	domain tr-type G
+298	E	0.3214	domain tr-type G
+299	K	0.2983	domain tr-type G
+300	V	0.2791	domain tr-type G
+301	K	0.2645	domain tr-type G
+302	K	0.2475	domain tr-type G
+303	E	0.2330	domain tr-type G
+304	L	0.2155	domain tr-type G
+305	L	0.2024	domain tr-type G
+306	A	0.1880	domain tr-type G
+307	Y	0.1783	domain tr-type G
+308	D	0.1576	domain tr-type G
+309	V	0.1389	domain tr-type G
+310	V	0.1196	domain tr-type G
+311	C	0.1085	domain tr-type G
+312	E	0.0978	domain tr-type G
+313	D	0.0919	domain tr-type G
+314	Y	0.0951	domain tr-type G
+315	G	0.1113	domain tr-type G
+316	G	0.1447	domain tr-type G
+317	D	0.1756	domain tr-type G
+318	V	0.2066	domain tr-type G
+319	Q	0.2348	domain tr-type G
+320	A	0.2598	domain tr-type G
+321	V	0.2756	domain tr-type G
+322	P	0.2779	domain tr-type G
+323	V	0.2780	domain tr-type G
+324	S	0.2706	domain tr-type G
+325	A	0.2576	domain tr-type G
+326	L	0.2397	domain tr-type G
+327	T	0.2316	domain tr-type G
+328	G	0.2207	domain tr-type G
+329	D	0.2152	domain tr-type G
+330	N	0.2060	domain tr-type G
+331	L	0.2011	domain tr-type G
+332	M	0.1908	domain tr-type G
+333	A	0.1816	domain tr-type G
+334	L	0.1787	domain tr-type G
+335	A	0.1733	domain tr-type G
+336	E	0.1631	domain tr-type G
+337	A	0.1582	domain tr-type G
+338	T	0.1556	domain tr-type G
+339	V	0.1609	domain tr-type G
+340	A	0.1717	domain tr-type G
+341	L	0.2009	domain tr-type G
+342	A	0.2413	domain tr-type G
+343	E	0.2878	domain tr-type G
+344	M	0.3172	domain tr-type G
+345	L	0.3505	domain tr-type G
+346	E	0.3790	domain tr-type G
+347	L	0.3971	domain tr-type G
+348	K	0.3969	domain tr-type G
+349	A	0.3955	
+350	D	0.3896	
+351	P	0.3866	
+352	N	0.3891	
+353	G	0.4088	
+354	P	0.4385	
+355	V	0.4727	
+356	E	0.4969	
+357	G	0.5227	
+358	T	0.5339	
+359	V	0.5353	
+360	I	0.5274	
+361	E	0.5087	
+362	S	0.4622	
+363	F	0.4085	
+364	T	0.3614	
+365	D	0.3296	
+366	K	0.2981	
+367	G	0.2817	
+368	R	0.2768	
+369	G	0.2810	
+370	L	0.2963	
+371	V	0.3209	
+372	T	0.3470	
+373	T	0.3555	
+374	A	0.3404	
+375	I	0.3250	
+376	I	0.3074	
+377	Q	0.2858	
+378	R	0.2643	
+379	G	0.2382	
+380	T	0.2138	
+381	L	0.1924	
+382	R	0.1867	
+383	K	0.1977	
+384	G	0.1991	
+385	S	0.1894	
+386	V	0.1733	
+387	L	0.1554	
+388	V	0.1414	
+389	A	0.1381	
+390	G	0.1415	
+391	K	0.1351	
+392	C	0.1203	
+393	W	0.1227	
+394	A	0.1384	
+395	K	0.1599	
+396	V	0.1824	
+397	R	0.1888	
+398	L	0.2027	
+399	M	0.2094	
+400	F	0.2330	
+401	D	0.2615	
+402	E	0.2871	
+403	N	0.3105	
+404	G	0.3335	
+405	K	0.3536	
+406	T	0.3818	
+407	I	0.4146	
+408	D	0.4394	
+409	E	0.4547	
+410	A	0.4497	
+411	Y	0.4440	
+412	P	0.4361	
+413	S	0.4337	
+414	M	0.4306	
+415	P	0.4218	
+416	V	0.4262	
+417	G	0.4235	
+418	I	0.4355	
+419	T	0.4403	
+420	G	0.4386	
+421	W	0.4222	
+422	R	0.4015	
+423	D	0.3833	
+424	L	0.3665	
+425	P	0.3564	
+426	S	0.3673	
+427	A	0.3862	
+428	G	0.4152	
+429	E	0.4491	
+430	E	0.4722	
+431	I	0.4950	
+432	L	0.5039	
+433	E	0.5005	
+434	V	0.4858	
+435	E	0.4502	
+436	S	0.4176	
+437	E	0.3826	
+438	P	0.3580	
+439	R	0.3414	
+440	A	0.3428	
+441	R	0.3662	
+442	E	0.3983	
+443	V	0.4352	
+444	V	0.4805	
+445	D	0.5165	
+446	W	0.5449	
+447	R	0.5471	
+448	K	0.5274	
+449	Y	0.4918	
+450	E	0.4507	
+451	Q	0.4222	
+452	E	0.3946	
+453	Q	0.3760	
+454	E	0.3761	
+455	K	0.3939	
+456	G	0.4281	
+457	Q	0.4708	
+458	E	0.5112	
+459	D	0.5454	
+460	L	0.5758	
+461	K	0.5865	
+462	I	0.5853	
+463	I	0.5847	
+464	E	0.5808	
+465	E	0.5590	
+466	K	0.5343	
+467	R	0.5117	
+468	K	0.5094	
+469	E	0.5219	
+470	H	0.5301	
+471	K	0.5351	
+472	E	0.5293	
+473	A	0.5231	
+474	H	0.5166	
+475	Q	0.5016	
+476	K	0.4781	
+477	A	0.4514	
+478	R	0.4187	
+479	E	0.3784	
+480	K	0.3357	
+481	Y	0.2946	
+482	G	0.2591	
+483	H	0.2245	
+484	L	0.1777	
+485	L	0.1382	
+486	W	0.1203	
+487	K	0.1118	
+488	K	0.1114	
+489	R	0.1072	
+490	S	0.1016	
+491	I	0.1045	
+492	L	0.1159	
+493	R	0.1359	
+494	F	0.1605	
+495	L	0.1884	
+496	E	0.2204	
+497	R	0.2547	
+498	K	0.2924	
+499	E	0.3289	
+500	Q	0.3661	
+501	I	0.4097	
+502	P	0.4484	
+503	L	0.4890	
+504	K	0.5175	
+505	P	0.5322	
+506	K	0.5325	
+507	E	0.5074	
+508	K	0.4711	
+509	R	0.4262	
+510	E	0.3893	
+511	R	0.3673	
+512	D	0.3533	
+513	S	0.3511	
+514	N	0.3639	
+515	V	0.3742	
+516	L	0.3787	
+517	S	0.3725	
+518	V	0.3500	
+519	I	0.3053	
+520	I	0.2627	
+521	K	0.2235	
+522	G	0.1809	
+523	D	0.1414	
+524	V	0.1101	
+525	D	0.0863	
+526	G	0.0900	
+527	S	0.0985	
+528	V	0.1306	
+529	E	0.1653	
+530	A	0.1997	
+531	I	0.2311	
+532	L	0.2524	
+533	N	0.2615	
+534	I	0.2550	
+535	I	0.2390	
+536	D	0.2182	
+537	T	0.1823	
+538	Y	0.1511	
+539	D	0.1281	
+540	A	0.1254	
+541	S	0.1251	
+542	H	0.1286	
+543	E	0.1400	
+544	C	0.1621	
+545	E	0.1827	
+546	L	0.2130	
+547	E	0.2302	
+548	L	0.2402	
+549	V	0.2422	
+550	H	0.2374	
+551	F	0.2271	
+552	G	0.2054	
+553	V	0.1911	
+554	G	0.1866	
+555	D	0.1808	
+556	V	0.1795	
+557	S	0.1793	
+558	A	0.1944	
+559	N	0.1992	
+560	D	0.1976	
+561	V	0.1910	
+562	N	0.1709	
+563	L	0.1558	
+564	A	0.1485	
+565	E	0.1420	
+566	T	0.1331	
+567	F	0.1252	
+568	D	0.1245	
+569	G	0.1258	
+570	V	0.1170	
+571	I	0.1139	
+572	Y	0.1115	
+573	G	0.1133	
+574	F	0.1141	
+575	N	0.1142	
+576	V	0.1263	
+577	N	0.1374	
+578	A	0.1562	
+579	G	0.1655	
+580	N	0.1754	
+581	V	0.1918	
+582	I	0.2153	
+583	Q	0.2416	
+584	Q	0.2595	
+585	S	0.2626	
+586	A	0.2544	
+587	A	0.2391	
+588	K	0.2149	
+589	K	0.1871	
+590	G	0.1573	
+591	V	0.1309	
+592	K	0.1090	
+593	I	0.0979	
+594	K	0.0947	
+595	L	0.0967	
+596	H	0.1059	
+597	K	0.1029	
+598	I	0.0988	
+599	I	0.0946	
+600	Y	0.1006	
+601	R	0.1086	
+602	L	0.1149	
+603	V	0.1128	
+604	E	0.1064	
+605	D	0.1028	
+606	L	0.1062	
+607	Q	0.1177	
+608	E	0.1439	
+609	E	0.1670	
+610	L	0.2025	
+611	S	0.2529	
+612	S	0.3118	
+613	R	0.3533	
+614	L	0.3874	
+615	P	0.3993	
+616	C	0.3970	
+617	A	0.3722	
+618	V	0.3454	
+619	E	0.3103	
+620	E	0.2749	
+621	H	0.2354	
+622	P	0.2032	
+623	V	0.1966	
+624	G	0.1986	
+625	E	0.2223	
+626	A	0.2585	
+627	S	0.2786	
+628	I	0.3003	
+629	L	0.3157	
+630	A	0.3330	
+631	T	0.3235	
+632	F	0.2983	
+633	S	0.2584	
+634	V	0.2252	
+635	T	0.1945	
+636	E	0.1845	
+637	G	0.1830	
+638	K	0.1954	
+639	K	0.2153	
+640	K	0.2372	
+641	V	0.2767	
+642	P	0.3102	
+643	V	0.3560	
+644	A	0.3827	
+645	G	0.3928	
+646	C	0.3888	
+647	R	0.3660	
+648	V	0.3449	
+649	Q	0.3186	
+650	K	0.2974	
+651	G	0.2848	
+652	Q	0.2844	
+653	L	0.2933	
+654	E	0.3074	
+655	K	0.3298	
+656	Q	0.3424	
+657	K	0.3426	
+658	K	0.3323	
+659	F	0.3209	
+660	K	0.3004	
+661	L	0.2881	
+662	T	0.2642	
+663	R	0.2512	
+664	N	0.2307	
+665	G	0.2210	
+666	H	0.2181	
+667	V	0.2224	
+668	I	0.2436	
+669	W	0.2745	
+670	K	0.3039	
+671	G	0.3202	
+672	S	0.3171	
+673	L	0.3089	
+674	T	0.2950	
+675	S	0.2766	
+676	L	0.2633	
+677	K	0.2541	
+678	H	0.2643	
+679	H	0.2844	
+680	K	0.3027	
+681	D	0.3234	
+682	D	0.3284	
+683	I	0.3293	
+684	S	0.3120	
+685	I	0.3035	
+686	V	0.2930	
+687	K	0.2976	
+688	T	0.3069	
+689	G	0.3094	
+690	M	0.3006	
+691	D	0.2884	
+692	C	0.2858	
+693	G	0.2892	
+694	L	0.3033	
+695	S	0.3095	
+696	L	0.3227	
+697	D	0.3201	
+698	E	0.3079	
+699	D	0.2887	
+700	N	0.2639	
+701	M	0.2404	
+702	E	0.2165	
+703	F	0.2125	
+704	Q	0.2074	
+705	V	0.2312	
+706	G	0.2569	
+707	D	0.2749	
+708	R	0.2708	
+709	I	0.2628	
+710	V	0.2517	
+711	C	0.2455	
+712	Y	0.2490	
+713	E	0.2520	
+714	E	0.2568	
+715	K	0.2477	
+716	Q	0.2394	
+717	I	0.2383	
+718	Q	0.2430	
+719	A	0.2463	
+720	K	0.2608	
+721	T	0.2884	
+722	S	0.3273	
+723	W	0.3718	
+724	D	0.4108	
+725	P	0.4267	
+726	G	0.3946	
+727	F	0.2810	

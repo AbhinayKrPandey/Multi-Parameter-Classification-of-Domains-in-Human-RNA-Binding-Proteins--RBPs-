@@ -1,0 +1,237 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.3565	
+2	G	0.3341	domain GST C-terminal
+3	F	0.3198	domain GST C-terminal
+4	G	0.3100	domain GST C-terminal
+5	D	0.3023	domain GST C-terminal
+6	L	0.2956	domain GST C-terminal
+7	K	0.2895	domain GST C-terminal
+8	S	0.2844	domain GST C-terminal
+9	P	0.2807	domain GST C-terminal
+10	A	0.2794	domain GST C-terminal
+11	G	0.2820	domain GST C-terminal
+12	L	0.2966	domain GST C-terminal
+13	Q	0.3017	domain GST C-terminal
+14	V	0.3038	domain GST C-terminal
+15	L	0.3059	domain GST C-terminal
+16	N	0.3035	domain GST C-terminal
+17	D	0.2921	domain GST C-terminal
+18	Y	0.2749	domain GST C-terminal
+19	L	0.2627	domain GST C-terminal
+20	A	0.2735	domain GST C-terminal
+21	D	0.2863	domain GST C-terminal
+22	K	0.2936	domain GST C-terminal
+23	S	0.3006	domain GST C-terminal
+24	Y	0.3019	domain GST C-terminal
+25	I	0.3082	domain GST C-terminal
+26	E	0.3169	domain GST C-terminal
+27	G	0.3081	domain GST C-terminal
+28	Y	0.2828	domain GST C-terminal
+29	V	0.2658	domain GST C-terminal
+30	P	0.2612	domain GST C-terminal
+31	S	0.2699	domain GST C-terminal
+32	Q	0.2941	domain GST C-terminal
+33	A	0.3290	domain GST C-terminal
+34	D	0.3707	domain GST C-terminal
+35	V	0.4218	domain GST C-terminal
+36	A	0.4544	domain GST C-terminal
+37	V	0.4801	domain GST C-terminal
+38	F	0.5101	domain GST C-terminal
+39	E	0.5193	domain GST C-terminal
+40	A	0.4996	domain GST C-terminal
+41	V	0.4575	domain GST C-terminal
+42	S	0.4108	domain GST C-terminal
+43	S	0.3656	domain GST C-terminal
+44	P	0.3373	domain GST C-terminal
+45	P	0.3186	domain GST C-terminal
+46	P	0.3007	domain GST C-terminal
+47	A	0.2969	domain GST C-terminal
+48	D	0.3032	domain GST C-terminal
+49	L	0.3210	domain GST C-terminal
+50	C	0.3347	domain GST C-terminal
+51	H	0.3526	domain GST C-terminal
+52	A	0.3554	domain GST C-terminal
+53	L	0.3410	domain GST C-terminal
+54	R	0.3128	domain GST C-terminal
+55	W	0.2886	domain GST C-terminal
+56	Y	0.2668	domain GST C-terminal
+57	N	0.2534	domain GST C-terminal
+58	H	0.2480	domain GST C-terminal
+59	I	0.2402	domain GST C-terminal
+60	K	0.2404	domain GST C-terminal
+61	S	0.2570	domain GST C-terminal
+62	Y	0.2825	domain GST C-terminal
+63	E	0.3036	domain GST C-terminal
+64	K	0.3269	domain GST C-terminal
+65	E	0.3337	domain GST C-terminal
+66	K	0.3418	domain GST C-terminal
+67	A	0.3517	domain GST C-terminal
+68	S	0.3588	domain GST C-terminal
+69	L	0.3788	domain GST C-terminal
+70	P	0.3950	domain GST C-terminal
+71	G	0.4053	domain GST C-terminal
+72	V	0.4118	domain GST C-terminal
+73	K	0.4212	domain GST C-terminal
+74	K	0.4344	domain GST C-terminal
+75	A	0.4499	domain GST C-terminal
+76	L	0.4648	domain GST C-terminal
+77	G	0.4696	domain GST C-terminal
+78	K	0.4755	domain GST C-terminal
+79	Y	0.4859	domain GST C-terminal
+80	G	0.4971	domain GST C-terminal
+81	P	0.5125	domain GST C-terminal
+82	A	0.5280	domain GST C-terminal
+83	D	0.5427	domain GST C-terminal
+84	V	0.5718	domain GST C-terminal
+85	E	0.6047	
+86	D	0.6595	
+87	T	0.7104	
+88	T	0.7515	
+89	G	0.7806	
+90	S	0.7822	
+91	G	0.7650	
+92	A	0.7383	
+93	T	0.6986	
+94	D	0.6581	
+95	S	0.6224	
+96	K	0.6008	
+97	D	0.5939	
+98	D	0.6088	
+99	D	0.6347	
+100	D	0.6636	
+101	I	0.6974	
+102	D	0.7194	
+103	L	0.7271	
+104	F	0.7209	
+105	G	0.7063	
+106	S	0.6885	
+107	D	0.6501	
+108	D	0.6176	
+109	E	0.5912	
+110	E	0.5760	
+111	E	0.5744	
+112	S	0.5904	
+113	E	0.6153	
+114	E	0.6405	
+115	A	0.6646	
+116	K	0.6728	
+117	R	0.6586	
+118	L	0.6379	
+119	R	0.6132	
+120	E	0.5875	
+121	E	0.5564	
+122	R	0.5091	
+123	L	0.4737	
+124	A	0.4538	
+125	Q	0.4334	
+126	Y	0.4274	
+127	E	0.4145	
+128	S	0.4053	
+129	K	0.3894	
+130	K	0.3627	
+131	A	0.3427	
+132	K	0.3262	
+133	K	0.3118	
+134	P	0.2910	
+135	A	0.2705	
+136	L	0.2504	
+137	V	0.2460	
+138	A	0.2602	
+139	K	0.2732	
+140	S	0.2862	
+141	S	0.2908	
+142	I	0.2902	
+143	L	0.2961	
+144	L	0.3133	
+145	D	0.3260	
+146	V	0.3380	
+147	K	0.3408	
+148	P	0.3367	
+149	W	0.3381	
+150	D	0.3383	
+151	D	0.3462	
+152	E	0.3533	
+153	T	0.3632	
+154	D	0.3770	
+155	M	0.3986	
+156	A	0.4208	
+157	K	0.4338	
+158	L	0.4366	
+159	E	0.4262	
+160	E	0.4054	
+161	C	0.3664	
+162	V	0.3337	
+163	R	0.3046	
+164	S	0.2793	
+165	I	0.2536	
+166	Q	0.2409	
+167	A	0.2404	
+168	D	0.2348	
+169	G	0.2387	
+170	L	0.2322	
+171	V	0.2272	
+172	W	0.2259	
+173	G	0.2235	
+174	S	0.2182	
+175	S	0.2090	
+176	K	0.1922	
+177	L	0.1758	
+178	V	0.1667	
+179	P	0.1493	
+180	V	0.1403	
+181	G	0.1324	
+182	Y	0.1383	
+183	G	0.1369	
+184	I	0.1448	
+185	K	0.1620	
+186	K	0.1783	
+187	L	0.1937	
+188	Q	0.1962	
+189	I	0.2108	
+190	Q	0.2210	
+191	C	0.2330	
+192	V	0.2509	
+193	V	0.2739	
+194	E	0.2894	
+195	D	0.3026	
+196	D	0.3133	
+197	K	0.3237	
+198	V	0.3337	
+199	G	0.3419	
+200	T	0.3506	
+201	D	0.3471	
+202	M	0.3420	
+203	L	0.3358	
+204	E	0.3437	
+205	E	0.3469	
+206	Q	0.3310	
+207	I	0.3191	
+208	T	0.2975	
+209	A	0.2761	
+210	F	0.2526	
+211	E	0.2330	
+212	D	0.2099	
+213	Y	0.1814	
+214	V	0.1538	
+215	Q	0.1343	
+216	S	0.1186	
+217	M	0.1109	
+218	D	0.1054	
+219	V	0.1005	
+220	A	0.0953	
+221	A	0.0898	
+222	F	0.0860	
+223	N	0.0876	
+224	K	0.1009	
+225	I	0.1354	

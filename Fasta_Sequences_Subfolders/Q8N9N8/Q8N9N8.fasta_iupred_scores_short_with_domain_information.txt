@@ -1,0 +1,177 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9278	
+2	S	0.9116	
+3	Q	0.8729	
+4	A	0.8189	
+5	T	0.7562	domain S1-like
+6	K	0.6909	domain S1-like
+7	R	0.6278	domain S1-like
+8	K	0.5711	domain S1-like
+9	H	0.5238	domain S1-like
+10	V	0.4880	domain S1-like
+11	V	0.4676	domain S1-like
+12	K	0.4610	domain S1-like
+13	E	0.4607	domain S1-like
+14	V	0.4558	domain S1-like
+15	L	0.4526	domain S1-like
+16	G	0.4450	domain S1-like
+17	E	0.4283	domain S1-like
+18	H	0.3921	domain S1-like
+19	I	0.3500	domain S1-like
+20	V	0.3255	domain S1-like
+21	P	0.3226	domain S1-like
+22	S	0.3281	domain S1-like
+23	D	0.3439	domain S1-like
+24	Q	0.3724	domain S1-like
+25	Q	0.4017	domain S1-like
+26	Q	0.4262	domain S1-like
+27	I	0.4446	domain S1-like
+28	V	0.4553	domain S1-like
+29	R	0.4531	domain S1-like
+30	V	0.4393	domain S1-like
+31	L	0.4203	domain S1-like
+32	R	0.4032	domain S1-like
+33	T	0.3980	domain S1-like
+34	P	0.3942	domain S1-like
+35	G	0.3955	domain S1-like
+36	N	0.3888	domain S1-like
+37	N	0.3779	domain S1-like
+38	L	0.3705	domain S1-like
+39	H	0.3769	domain S1-like
+40	E	0.3851	domain S1-like
+41	V	0.3834	domain S1-like
+42	E	0.3731	domain S1-like
+43	T	0.3613	domain S1-like
+44	A	0.3504	domain S1-like
+45	Q	0.3447	domain S1-like
+46	G	0.3410	domain S1-like
+47	Q	0.3360	domain S1-like
+48	R	0.3170	domain S1-like
+49	F	0.2850	domain S1-like
+50	L	0.2580	domain S1-like
+51	V	0.2396	domain S1-like
+52	S	0.2178	domain S1-like
+53	M	0.2004	domain S1-like
+54	P	0.1766	domain S1-like
+55	S	0.1482	domain S1-like
+56	K	0.1183	domain S1-like
+57	Y	0.1010	domain S1-like
+58	R	0.0965	domain S1-like
+59	K	0.0930	domain S1-like
+60	N	0.0835	domain S1-like
+61	I	0.0744	domain S1-like
+62	W	0.0665	domain S1-like
+63	I	0.0687	domain S1-like
+64	K	0.0762	domain S1-like
+65	R	0.0795	domain S1-like
+66	G	0.0794	domain S1-like
+67	D	0.0714	domain S1-like
+68	F	0.0675	domain S1-like
+69	L	0.0723	domain S1-like
+70	I	0.0845	domain S1-like
+71	V	0.1014	domain S1-like
+72	D	0.1142	domain S1-like
+73	P	0.1169	domain S1-like
+74	I	0.1076	domain S1-like
+75	E	0.0971	domain S1-like
+76	E	0.0938	domain S1-like
+77	G	0.0887	domain S1-like
+78	E	0.0848	domain S1-like
+79	K	0.0811	domain S1-like
+80	V	0.0842	domain S1-like
+81	K	0.0948	domain S1-like
+82	A	0.1108	domain S1-like
+83	E	0.1225	domain S1-like
+84	I	0.1352	domain S1-like
+85	S	0.1374	domain S1-like
+86	F	0.1355	domain S1-like
+87	V	0.1241	domain S1-like
+88	L	0.1206	domain S1-like
+89	C	0.1207	domain S1-like
+90	K	0.1206	
+91	D	0.1223	
+92	H	0.1187	
+93	V	0.1203	
+94	R	0.1366	
+95	S	0.1595	
+96	L	0.1880	
+97	Q	0.2170	
+98	K	0.2539	
+99	E	0.2860	
+100	G	0.3177	
+101	F	0.3431	
+102	W	0.3701	
+103	P	0.3955	
+104	E	0.4156	
+105	A	0.4172	
+106	F	0.4316	
+107	S	0.4511	
+108	E	0.4755	
+109	V	0.5007	
+110	A	0.5225	
+111	E	0.5428	
+112	K	0.5672	
+113	H	0.5980	
+114	N	0.6276	
+115	N	0.6543	
+116	R	0.6827	
+117	N	0.7028	
+118	R	0.7228	
+119	Q	0.7381	
+120	T	0.7544	
+121	Q	0.7732	
+122	P	0.7874	
+123	E	0.7910	
+124	L	0.7958	
+125	P	0.8028	
+126	A	0.8194	
+127	E	0.8328	
+128	P	0.8462	
+129	Q	0.8551	
+130	L	0.8570	
+131	S	0.8561	
+132	G	0.8578	
+133	E	0.8499	
+134	E	0.8370	
+135	S	0.8216	
+136	S	0.8043	
+137	S	0.7880	
+138	E	0.7739	
+139	D	0.7595	
+140	D	0.7457	
+141	S	0.7352	
+142	D	0.7256	
+143	L	0.7215	
+144	F	0.7232	
+145	V	0.7279	
+146	N	0.7368	
+147	T	0.7447	
+148	N	0.7434	
+149	R	0.7401	
+150	R	0.7415	
+151	Q	0.7409	
+152	Y	0.7443	
+153	H	0.7526	
+154	E	0.7675	
+155	S	0.7911	
+156	E	0.8211	
+157	E	0.8557	
+158	E	0.8906	
+159	S	0.9231	
+160	E	0.9507	
+161	E	0.9717	
+162	E	0.9855	
+163	E	0.9929	
+164	A	0.9964	
+165	A	1.0006	

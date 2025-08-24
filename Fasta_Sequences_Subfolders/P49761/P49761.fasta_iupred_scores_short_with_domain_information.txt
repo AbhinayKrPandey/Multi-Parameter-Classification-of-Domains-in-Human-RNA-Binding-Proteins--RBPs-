@@ -1,0 +1,502 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.8962	
+2	H	0.8900	
+3	H	0.8611	
+4	C	0.8131	
+5	K	0.7504	
+6	R	0.6779	
+7	Y	0.6013	
+8	R	0.5258	
+9	S	0.4566	
+10	P	0.3982	
+11	E	0.3563	
+12	P	0.3297	
+13	D	0.3253	
+14	P	0.3282	
+15	Y	0.3417	
+16	L	0.3617	
+17	S	0.3783	
+18	Y	0.3900	
+19	R	0.3792	
+20	W	0.3735	
+21	K	0.3662	
+22	R	0.3643	
+23	R	0.3559	
+24	R	0.3525	
+25	S	0.3481	
+26	Y	0.3567	
+27	S	0.3788	
+28	R	0.4094	
+29	E	0.4438	
+30	H	0.4798	
+31	E	0.5213	
+32	G	0.5552	
+33	R	0.5834	
+34	L	0.6027	
+35	R	0.6183	
+36	Y	0.6318	
+37	P	0.6400	
+38	S	0.6469	
+39	R	0.6511	
+40	R	0.6611	
+41	E	0.6662	
+42	P	0.6732	
+43	P	0.6838	
+44	P	0.6892	
+45	R	0.6945	
+46	R	0.7033	
+47	S	0.7100	
+48	R	0.7145	
+49	S	0.7144	
+50	R	0.7099	
+51	S	0.6996	
+52	H	0.6863	
+53	D	0.6693	
+54	R	0.6563	
+55	L	0.6494	
+56	P	0.6452	
+57	Y	0.6423	
+58	Q	0.6336	
+59	R	0.6233	
+60	R	0.6028	
+61	Y	0.5903	
+62	R	0.5743	
+63	E	0.5611	
+64	R	0.5470	
+65	R	0.5388	
+66	D	0.5375	
+67	S	0.5393	
+68	D	0.5404	
+69	T	0.5363	
+70	Y	0.5323	
+71	R	0.5212	
+72	C	0.5124	
+73	E	0.5035	
+74	E	0.5005	
+75	R	0.5003	
+76	S	0.5007	
+77	P	0.5040	
+78	S	0.5024	
+79	F	0.5114	
+80	G	0.5264	
+81	E	0.5504	
+82	D	0.5651	
+83	Y	0.5825	
+84	Y	0.6010	
+85	G	0.6191	
+86	P	0.6309	
+87	S	0.6338	
+88	R	0.6326	
+89	S	0.6330	
+90	R	0.6400	
+91	H	0.6464	
+92	R	0.6667	
+93	R	0.6900	
+94	R	0.7117	
+95	S	0.7283	
+96	R	0.7371	
+97	E	0.7406	
+98	R	0.7415	
+99	G	0.7402	
+100	P	0.7357	
+101	Y	0.7368	
+102	R	0.7373	
+103	T	0.7449	
+104	R	0.7489	
+105	K	0.7467	
+106	H	0.7384	
+107	A	0.7297	
+108	H	0.7196	
+109	H	0.7038	
+110	C	0.6947	
+111	H	0.6897	
+112	K	0.6925	
+113	R	0.6940	
+114	R	0.6968	
+115	T	0.7022	
+116	R	0.7079	
+117	S	0.7085	
+118	C	0.7124	
+119	S	0.7166	
+120	S	0.7214	
+121	A	0.7212	
+122	S	0.7128	
+123	S	0.7028	
+124	R	0.6900	
+125	S	0.6773	
+126	Q	0.6693	
+127	Q	0.6673	
+128	S	0.6727	
+129	S	0.6816	
+130	K	0.6997	
+131	R	0.7080	
+132	S	0.7004	
+133	S	0.6834	
+134	R	0.6610	
+135	S	0.6263	
+136	V	0.5827	
+137	E	0.5340	
+138	D	0.4976	
+139	D	0.4555	
+140	K	0.4187	
+141	E	0.3930	
+142	G	0.3720	
+143	H	0.3478	
+144	L	0.3278	
+145	V	0.3092	
+146	C	0.2917	
+147	R	0.2700	
+148	I	0.2468	
+149	G	0.2236	
+150	D	0.1973	
+151	W	0.1697	
+152	L	0.1545	
+153	Q	0.1548	
+154	E	0.1567	
+155	R	0.1557	
+156	Y	0.1673	domain Protein kinase
+157	E	0.1738	domain Protein kinase
+158	I	0.1778	domain Protein kinase
+159	V	0.1772	domain Protein kinase
+160	G	0.1723	domain Protein kinase
+161	N	0.1566	domain Protein kinase
+162	L	0.1380	domain Protein kinase
+163	G	0.1219	domain Protein kinase
+164	E	0.1135	domain Protein kinase
+165	G	0.1101	domain Protein kinase
+166	T	0.1100	domain Protein kinase
+167	F	0.1256	domain Protein kinase
+168	G	0.1468	domain Protein kinase
+169	K	0.1658	domain Protein kinase
+170	V	0.1831	domain Protein kinase
+171	V	0.2006	domain Protein kinase
+172	E	0.2035	domain Protein kinase
+173	C	0.1934	domain Protein kinase
+174	L	0.1751	domain Protein kinase
+175	D	0.1509	domain Protein kinase
+176	H	0.1294	domain Protein kinase
+177	A	0.1053	domain Protein kinase
+178	R	0.0908	domain Protein kinase
+179	G	0.0882	domain Protein kinase
+180	K	0.0943	domain Protein kinase
+181	S	0.1056	domain Protein kinase
+182	Q	0.1251	domain Protein kinase
+183	V	0.1412	domain Protein kinase
+184	A	0.1556	domain Protein kinase
+185	L	0.1681	domain Protein kinase
+186	K	0.1692	domain Protein kinase
+187	I	0.1675	domain Protein kinase
+188	I	0.1555	domain Protein kinase
+189	R	0.1366	domain Protein kinase
+190	N	0.1164	domain Protein kinase
+191	V	0.0949	domain Protein kinase
+192	G	0.0732	domain Protein kinase
+193	K	0.0589	domain Protein kinase
+194	Y	0.0531	domain Protein kinase
+195	R	0.0491	domain Protein kinase
+196	E	0.0538	domain Protein kinase
+197	A	0.0621	domain Protein kinase
+198	A	0.0707	domain Protein kinase
+199	R	0.0832	domain Protein kinase
+200	L	0.1028	domain Protein kinase
+201	E	0.1222	domain Protein kinase
+202	I	0.1436	domain Protein kinase
+203	N	0.1593	domain Protein kinase
+204	V	0.1674	domain Protein kinase
+205	L	0.1663	domain Protein kinase
+206	K	0.1535	domain Protein kinase
+207	K	0.1335	domain Protein kinase
+208	I	0.1117	domain Protein kinase
+209	K	0.0853	domain Protein kinase
+210	E	0.0642	domain Protein kinase
+211	K	0.0493	domain Protein kinase
+212	D	0.0388	domain Protein kinase
+213	K	0.0359	domain Protein kinase
+214	E	0.0424	domain Protein kinase
+215	N	0.0474	domain Protein kinase
+216	K	0.0473	domain Protein kinase
+217	F	0.0464	domain Protein kinase
+218	L	0.0425	domain Protein kinase
+219	C	0.0366	domain Protein kinase
+220	V	0.0306	domain Protein kinase
+221	L	0.0245	domain Protein kinase
+222	M	0.0205	domain Protein kinase
+223	S	0.0156	domain Protein kinase
+224	D	0.0108	domain Protein kinase
+225	W	0.0056	domain Protein kinase
+226	F	0.0025	domain Protein kinase
+227	N	0.0002	domain Protein kinase
+228	F	0.0026	domain Protein kinase
+229	H	0.0054	domain Protein kinase
+230	G	0.0092	domain Protein kinase
+231	H	0.0112	domain Protein kinase
+232	M	0.0116	domain Protein kinase
+233	C	0.0113	domain Protein kinase
+234	I	0.0124	domain Protein kinase
+235	A	0.0146	domain Protein kinase
+236	F	0.0142	domain Protein kinase
+237	E	0.0146	domain Protein kinase
+238	L	0.0143	domain Protein kinase
+239	L	0.0155	domain Protein kinase
+240	G	0.0201	domain Protein kinase
+241	K	0.0238	domain Protein kinase
+242	N	0.0273	domain Protein kinase
+243	T	0.0310	domain Protein kinase
+244	F	0.0378	domain Protein kinase
+245	E	0.0494	domain Protein kinase
+246	F	0.0667	domain Protein kinase
+247	L	0.0838	domain Protein kinase
+248	K	0.1009	domain Protein kinase
+249	E	0.1130	domain Protein kinase
+250	N	0.1202	domain Protein kinase
+251	N	0.1223	domain Protein kinase
+252	F	0.1236	domain Protein kinase
+253	Q	0.1284	domain Protein kinase
+254	P	0.1312	domain Protein kinase
+255	Y	0.1306	domain Protein kinase
+256	P	0.1280	domain Protein kinase
+257	L	0.1274	domain Protein kinase
+258	P	0.1245	domain Protein kinase
+259	H	0.1191	domain Protein kinase
+260	V	0.1029	domain Protein kinase
+261	R	0.0866	domain Protein kinase
+262	H	0.0714	domain Protein kinase
+263	M	0.0581	domain Protein kinase
+264	A	0.0513	domain Protein kinase
+265	Y	0.0475	domain Protein kinase
+266	Q	0.0517	domain Protein kinase
+267	L	0.0621	domain Protein kinase
+268	C	0.0674	domain Protein kinase
+269	H	0.0732	domain Protein kinase
+270	A	0.0722	domain Protein kinase
+271	L	0.0695	domain Protein kinase
+272	R	0.0718	domain Protein kinase
+273	F	0.0819	domain Protein kinase
+274	L	0.0983	domain Protein kinase
+275	H	0.1238	domain Protein kinase
+276	E	0.1462	domain Protein kinase
+277	N	0.1573	domain Protein kinase
+278	Q	0.1631	domain Protein kinase
+279	L	0.1745	domain Protein kinase
+280	T	0.1863	domain Protein kinase
+281	H	0.2027	domain Protein kinase
+282	T	0.2173	domain Protein kinase
+283	D	0.2278	domain Protein kinase
+284	L	0.2356	domain Protein kinase
+285	K	0.2432	domain Protein kinase
+286	P	0.2493	domain Protein kinase
+287	E	0.2481	domain Protein kinase
+288	N	0.2405	domain Protein kinase
+289	I	0.2258	domain Protein kinase
+290	L	0.2092	domain Protein kinase
+291	F	0.2020	domain Protein kinase
+292	V	0.1955	domain Protein kinase
+293	N	0.2014	domain Protein kinase
+294	S	0.2079	domain Protein kinase
+295	E	0.1994	domain Protein kinase
+296	F	0.1952	domain Protein kinase
+297	E	0.1912	domain Protein kinase
+298	T	0.1991	domain Protein kinase
+299	L	0.2118	domain Protein kinase
+300	Y	0.2315	domain Protein kinase
+301	N	0.2609	domain Protein kinase
+302	E	0.2849	domain Protein kinase
+303	H	0.3076	domain Protein kinase
+304	K	0.3297	domain Protein kinase
+305	S	0.3365	domain Protein kinase
+306	C	0.3419	domain Protein kinase
+307	E	0.3386	domain Protein kinase
+308	E	0.3411	domain Protein kinase
+309	K	0.3417	domain Protein kinase
+310	S	0.3382	domain Protein kinase
+311	V	0.3401	domain Protein kinase
+312	K	0.3413	domain Protein kinase
+313	N	0.3401	domain Protein kinase
+314	T	0.3330	domain Protein kinase
+315	S	0.3176	domain Protein kinase
+316	I	0.3147	domain Protein kinase
+317	R	0.3120	domain Protein kinase
+318	V	0.3215	domain Protein kinase
+319	A	0.3332	domain Protein kinase
+320	D	0.3396	domain Protein kinase
+321	F	0.3378	domain Protein kinase
+322	G	0.3358	domain Protein kinase
+323	S	0.3383	domain Protein kinase
+324	A	0.3310	domain Protein kinase
+325	T	0.3125	domain Protein kinase
+326	F	0.2978	domain Protein kinase
+327	D	0.2805	domain Protein kinase
+328	H	0.2744	domain Protein kinase
+329	E	0.2781	domain Protein kinase
+330	H	0.2833	domain Protein kinase
+331	H	0.3015	domain Protein kinase
+332	T	0.3138	domain Protein kinase
+333	T	0.3190	domain Protein kinase
+334	I	0.3182	domain Protein kinase
+335	V	0.3106	domain Protein kinase
+336	A	0.2949	domain Protein kinase
+337	T	0.2681	domain Protein kinase
+338	R	0.2291	domain Protein kinase
+339	H	0.1792	domain Protein kinase
+340	Y	0.1410	domain Protein kinase
+341	R	0.1198	domain Protein kinase
+342	P	0.1063	domain Protein kinase
+343	P	0.0955	domain Protein kinase
+344	E	0.0846	domain Protein kinase
+345	V	0.0772	domain Protein kinase
+346	I	0.0776	domain Protein kinase
+347	L	0.0784	domain Protein kinase
+348	E	0.0706	domain Protein kinase
+349	L	0.0629	domain Protein kinase
+350	G	0.0485	domain Protein kinase
+351	W	0.0369	domain Protein kinase
+352	A	0.0272	domain Protein kinase
+353	Q	0.0203	domain Protein kinase
+354	P	0.0138	domain Protein kinase
+355	C	0.0122	domain Protein kinase
+356	D	0.0074	domain Protein kinase
+357	V	0.0030	domain Protein kinase
+358	W	0.0022	domain Protein kinase
+359	S	0.0022	domain Protein kinase
+360	I	0.0058	domain Protein kinase
+361	G	0.0055	domain Protein kinase
+362	C	0.0048	domain Protein kinase
+363	I	0.0033	domain Protein kinase
+364	L	0.0024	domain Protein kinase
+365	F	0.0026	domain Protein kinase
+366	E	0.0037	domain Protein kinase
+367	Y	0.0056	domain Protein kinase
+368	Y	0.0072	domain Protein kinase
+369	R	0.0112	domain Protein kinase
+370	G	0.0131	domain Protein kinase
+371	F	0.0131	domain Protein kinase
+372	T	0.0157	domain Protein kinase
+373	L	0.0239	domain Protein kinase
+374	F	0.0264	domain Protein kinase
+375	Q	0.0357	domain Protein kinase
+376	T	0.0456	domain Protein kinase
+377	H	0.0475	domain Protein kinase
+378	E	0.0488	domain Protein kinase
+379	N	0.0552	domain Protein kinase
+380	R	0.0724	domain Protein kinase
+381	E	0.0960	domain Protein kinase
+382	H	0.1225	domain Protein kinase
+383	L	0.1484	domain Protein kinase
+384	V	0.1726	domain Protein kinase
+385	M	0.1960	domain Protein kinase
+386	M	0.2076	domain Protein kinase
+387	E	0.2044	domain Protein kinase
+388	K	0.1921	domain Protein kinase
+389	I	0.1761	domain Protein kinase
+390	L	0.1743	domain Protein kinase
+391	G	0.1888	domain Protein kinase
+392	P	0.2025	domain Protein kinase
+393	I	0.2189	domain Protein kinase
+394	P	0.2390	domain Protein kinase
+395	S	0.2577	domain Protein kinase
+396	H	0.2736	domain Protein kinase
+397	M	0.2841	domain Protein kinase
+398	I	0.2890	domain Protein kinase
+399	H	0.2857	domain Protein kinase
+400	R	0.2747	domain Protein kinase
+401	T	0.2524	domain Protein kinase
+402	R	0.2303	domain Protein kinase
+403	K	0.2195	domain Protein kinase
+404	Q	0.2094	domain Protein kinase
+405	K	0.1993	domain Protein kinase
+406	Y	0.1958	domain Protein kinase
+407	F	0.1960	domain Protein kinase
+408	Y	0.2113	domain Protein kinase
+409	K	0.2309	domain Protein kinase
+410	G	0.2477	domain Protein kinase
+411	G	0.2417	domain Protein kinase
+412	L	0.2196	domain Protein kinase
+413	V	0.2022	domain Protein kinase
+414	W	0.1925	domain Protein kinase
+415	D	0.1835	domain Protein kinase
+416	E	0.1868	domain Protein kinase
+417	N	0.1926	domain Protein kinase
+418	S	0.2151	domain Protein kinase
+419	S	0.2405	domain Protein kinase
+420	D	0.2665	domain Protein kinase
+421	G	0.2844	domain Protein kinase
+422	R	0.2965	domain Protein kinase
+423	Y	0.3022	domain Protein kinase
+424	V	0.3005	domain Protein kinase
+425	K	0.3032	domain Protein kinase
+426	E	0.3014	domain Protein kinase
+427	N	0.2904	domain Protein kinase
+428	C	0.2867	domain Protein kinase
+429	K	0.2733	domain Protein kinase
+430	P	0.2549	domain Protein kinase
+431	L	0.2395	domain Protein kinase
+432	K	0.2265	domain Protein kinase
+433	S	0.2108	domain Protein kinase
+434	Y	0.1952	domain Protein kinase
+435	M	0.1724	domain Protein kinase
+436	L	0.1548	domain Protein kinase
+437	Q	0.1379	domain Protein kinase
+438	D	0.1220	domain Protein kinase
+439	S	0.0961	domain Protein kinase
+440	L	0.0788	domain Protein kinase
+441	E	0.0652	domain Protein kinase
+442	H	0.0570	domain Protein kinase
+443	V	0.0641	domain Protein kinase
+444	Q	0.0678	domain Protein kinase
+445	L	0.0723	domain Protein kinase
+446	F	0.0807	domain Protein kinase
+447	D	0.0855	domain Protein kinase
+448	L	0.0910	domain Protein kinase
+449	M	0.0894	domain Protein kinase
+450	R	0.0903	domain Protein kinase
+451	R	0.0914	domain Protein kinase
+452	M	0.0792	domain Protein kinase
+453	L	0.0712	domain Protein kinase
+454	E	0.0714	domain Protein kinase
+455	F	0.0821	domain Protein kinase
+456	D	0.0907	domain Protein kinase
+457	P	0.1017	domain Protein kinase
+458	A	0.1102	domain Protein kinase
+459	Q	0.1124	domain Protein kinase
+460	R	0.1161	domain Protein kinase
+461	I	0.1157	domain Protein kinase
+462	T	0.1155	domain Protein kinase
+463	L	0.1214	domain Protein kinase
+464	A	0.1293	domain Protein kinase
+465	E	0.1468	domain Protein kinase
+466	A	0.1599	domain Protein kinase
+467	L	0.1679	domain Protein kinase
+468	L	0.1870	domain Protein kinase
+469	H	0.2118	domain Protein kinase
+470	P	0.2239	domain Protein kinase
+471	F	0.2296	domain Protein kinase
+472	F	0.2415	domain Protein kinase
+473	A	0.2679	
+474	G	0.2916	
+475	L	0.3235	
+476	T	0.3537	
+477	P	0.3905	
+478	E	0.4348	
+479	E	0.4818	
+480	R	0.5380	
+481	S	0.6008	
+482	F	0.6687	
+483	H	0.7365	
+484	T	0.8004	
+485	S	0.8569	
+486	R	0.9029	
+487	N	0.9361	
+488	P	0.9557	
+489	S	0.9619	
+490	R	0.9571	

@@ -1,0 +1,1026 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.3045	
+2	A	0.2633	
+3	E	0.2467	
+4	S	0.2478	
+5	S	0.2602	
+6	D	0.2786	
+7	K	0.2982	
+8	L	0.3152	
+9	Y	0.3267	
+10	R	0.3308	
+11	V	0.3330	
+12	E	0.3069	
+13	Y	0.2823	
+14	A	0.2543	
+15	K	0.2438	
+16	S	0.2386	
+17	G	0.2426	
+18	R	0.2549	
+19	A	0.2805	
+20	S	0.3094	
+21	C	0.3511	
+22	K	0.3846	
+23	K	0.4047	
+24	C	0.4063	
+25	S	0.3903	
+26	E	0.3748	
+27	S	0.3513	
+28	I	0.3379	
+29	P	0.3291	
+30	K	0.3306	
+31	D	0.3332	
+32	S	0.3322	
+33	L	0.3482	
+34	R	0.3700	
+35	M	0.3877	
+36	A	0.3961	
+37	I	0.3929	
+38	M	0.3803	
+39	V	0.3698	
+40	Q	0.3559	
+41	S	0.3398	
+42	P	0.3058	
+43	M	0.2636	
+44	F	0.2295	
+45	D	0.1935	
+46	G	0.1655	
+47	K	0.1403	
+48	V	0.1306	
+49	P	0.1182	
+50	H	0.1051	
+51	W	0.0954	
+52	Y	0.0974	
+53	H	0.1093	
+54	F	0.1243	
+55	S	0.1231	
+56	C	0.1288	
+57	F	0.1338	
+58	W	0.1408	
+59	K	0.1494	
+60	V	0.1508	
+61	G	0.1528	
+62	H	0.1589	
+63	S	0.1685	
+64	I	0.1895	
+65	R	0.2141	
+66	H	0.2468	
+67	P	0.2807	
+68	D	0.3142	
+69	V	0.3437	
+70	E	0.3699	
+71	V	0.4042	
+72	D	0.4263	
+73	G	0.4338	
+74	F	0.4391	
+75	S	0.4317	
+76	E	0.4324	
+77	L	0.4304	
+78	R	0.4205	
+79	W	0.4185	
+80	D	0.4190	
+81	D	0.4257	
+82	Q	0.4281	
+83	Q	0.4302	
+84	K	0.4487	
+85	V	0.4768	
+86	K	0.5115	
+87	K	0.5475	
+88	T	0.5779	
+89	A	0.6047	
+90	E	0.6179	
+91	A	0.6242	
+92	G	0.6215	
+93	G	0.6147	
+94	V	0.6048	
+95	T	0.5940	
+96	G	0.5894	
+97	K	0.5907	
+98	G	0.5860	
+99	Q	0.5920	
+100	D	0.5866	
+101	G	0.5672	
+102	I	0.5459	
+103	G	0.5196	
+104	S	0.4960	
+105	K	0.4705	
+106	A	0.4414	
+107	E	0.4215	
+108	K	0.4099	
+109	T	0.3956	
+110	L	0.3942	
+111	G	0.4015	
+112	D	0.4032	
+113	F	0.4010	
+114	A	0.4031	
+115	A	0.4027	
+116	E	0.3847	
+117	Y	0.3634	
+118	A	0.3362	
+119	K	0.3204	
+120	S	0.3069	
+121	N	0.3071	
+122	R	0.3228	
+123	S	0.3416	
+124	T	0.3605	
+125	C	0.3852	
+126	K	0.4118	
+127	G	0.4315	
+128	C	0.4378	
+129	M	0.4339	
+130	E	0.4312	
+131	K	0.4102	
+132	I	0.3856	
+133	E	0.3808	
+134	K	0.3893	
+135	G	0.4009	
+136	Q	0.4241	
+137	V	0.4637	
+138	R	0.4953	
+139	L	0.5319	
+140	S	0.5646	
+141	K	0.5873	
+142	K	0.5839	
+143	M	0.5575	
+144	V	0.5291	
+145	D	0.5127	
+146	P	0.4986	
+147	E	0.4864	
+148	K	0.4823	
+149	P	0.4748	
+150	Q	0.4593	
+151	L	0.4451	
+152	G	0.4396	
+153	M	0.4265	
+154	I	0.4176	
+155	D	0.4052	
+156	R	0.3827	
+157	W	0.3529	
+158	Y	0.3347	
+159	H	0.3317	
+160	P	0.3243	
+161	G	0.3046	
+162	C	0.2809	
+163	F	0.2752	
+164	V	0.2905	
+165	K	0.3056	
+166	N	0.3230	
+167	R	0.3361	
+168	E	0.3460	
+169	E	0.3521	
+170	L	0.3624	
+171	G	0.3700	
+172	F	0.3783	
+173	R	0.3803	
+174	P	0.3790	
+175	E	0.3559	
+176	Y	0.3320	
+177	S	0.3246	
+178	A	0.3309	
+179	S	0.3304	
+180	Q	0.3219	
+181	L	0.3281	
+182	K	0.3433	
+183	G	0.3577	
+184	F	0.3726	
+185	S	0.3752	
+186	L	0.3743	
+187	L	0.3646	
+188	A	0.3552	
+189	T	0.3489	
+190	E	0.3476	
+191	D	0.3496	
+192	K	0.3660	
+193	E	0.3824	
+194	A	0.3981	
+195	L	0.4318	
+196	K	0.4779	
+197	K	0.5184	
+198	Q	0.5490	
+199	L	0.5737	
+200	P	0.5798	
+201	G	0.5842	
+202	V	0.5761	
+203	K	0.5666	
+204	S	0.5651	
+205	E	0.5561	
+206	G	0.5516	
+207	K	0.5503	
+208	R	0.5510	
+209	K	0.5512	
+210	G	0.5521	
+211	D	0.5511	
+212	E	0.5458	
+213	V	0.5441	
+214	D	0.5469	
+215	G	0.5532	
+216	V	0.5627	
+217	D	0.5708	
+218	E	0.5732	
+219	V	0.5717	
+220	A	0.5671	
+221	K	0.5683	
+222	K	0.5720	
+223	K	0.5675	
+224	S	0.5572	
+225	K	0.5392	domain PADR1 zinc-binding
+226	K	0.5265	domain PADR1 zinc-binding
+227	E	0.5211	domain PADR1 zinc-binding
+228	K	0.5287	domain PADR1 zinc-binding
+229	D	0.5350	domain PADR1 zinc-binding
+230	K	0.5446	domain PADR1 zinc-binding
+231	D	0.5476	domain PADR1 zinc-binding
+232	S	0.5419	domain PADR1 zinc-binding
+233	K	0.5212	domain PADR1 zinc-binding
+234	L	0.4969	domain PADR1 zinc-binding
+235	E	0.4664	domain PADR1 zinc-binding
+236	K	0.4318	domain PADR1 zinc-binding
+237	A	0.3798	domain PADR1 zinc-binding
+238	L	0.3404	domain PADR1 zinc-binding
+239	K	0.3135	domain PADR1 zinc-binding
+240	A	0.2975	domain PADR1 zinc-binding
+241	Q	0.2822	domain PADR1 zinc-binding
+242	N	0.2642	domain PADR1 zinc-binding
+243	D	0.2439	domain PADR1 zinc-binding
+244	L	0.2271	domain PADR1 zinc-binding
+245	I	0.2126	domain PADR1 zinc-binding
+246	W	0.2111	domain PADR1 zinc-binding
+247	N	0.2091	domain PADR1 zinc-binding
+248	I	0.2135	domain PADR1 zinc-binding
+249	K	0.2193	domain PADR1 zinc-binding
+250	D	0.2246	domain PADR1 zinc-binding
+251	E	0.2170	domain PADR1 zinc-binding
+252	L	0.2069	domain PADR1 zinc-binding
+253	K	0.1904	domain PADR1 zinc-binding
+254	K	0.1797	domain PADR1 zinc-binding
+255	V	0.1581	domain PADR1 zinc-binding
+256	C	0.1450	domain PADR1 zinc-binding
+257	S	0.1440	domain PADR1 zinc-binding
+258	T	0.1553	domain PADR1 zinc-binding
+259	N	0.1615	domain PADR1 zinc-binding
+260	D	0.1663	domain PADR1 zinc-binding
+261	L	0.1812	domain PADR1 zinc-binding
+262	K	0.2094	domain PADR1 zinc-binding
+263	E	0.2424	domain PADR1 zinc-binding
+264	L	0.2702	domain PADR1 zinc-binding
+265	L	0.2931	domain PADR1 zinc-binding
+266	I	0.3143	domain PADR1 zinc-binding
+267	F	0.3279	domain PADR1 zinc-binding
+268	N	0.3323	domain PADR1 zinc-binding
+269	K	0.3224	domain PADR1 zinc-binding
+270	Q	0.2964	domain PADR1 zinc-binding
+271	Q	0.2770	domain PADR1 zinc-binding
+272	V	0.2743	domain PADR1 zinc-binding
+273	P	0.2773	domain PADR1 zinc-binding
+274	S	0.2981	domain PADR1 zinc-binding
+275	G	0.3344	domain PADR1 zinc-binding
+276	E	0.3708	domain PADR1 zinc-binding
+277	S	0.3990	domain PADR1 zinc-binding
+278	A	0.4105	domain PADR1 zinc-binding
+279	I	0.4023	domain PADR1 zinc-binding
+280	L	0.3906	domain PADR1 zinc-binding
+281	D	0.3722	domain PADR1 zinc-binding
+282	R	0.3342	domain PADR1 zinc-binding
+283	V	0.2824	domain PADR1 zinc-binding
+284	A	0.2416	domain PADR1 zinc-binding
+285	D	0.2155	domain PADR1 zinc-binding
+286	G	0.2061	domain PADR1 zinc-binding
+287	M	0.2037	domain PADR1 zinc-binding
+288	V	0.1986	domain PADR1 zinc-binding
+289	F	0.2018	domain PADR1 zinc-binding
+290	G	0.2019	domain PADR1 zinc-binding
+291	A	0.2002	domain PADR1 zinc-binding
+292	L	0.1970	domain PADR1 zinc-binding
+293	L	0.1940	domain PADR1 zinc-binding
+294	P	0.1842	domain PADR1 zinc-binding
+295	C	0.1744	domain PADR1 zinc-binding
+296	E	0.1519	domain PADR1 zinc-binding
+297	E	0.1318	domain PADR1 zinc-binding
+298	C	0.1176	domain PADR1 zinc-binding
+299	S	0.1131	domain PADR1 zinc-binding
+300	G	0.1218	domain PADR1 zinc-binding
+301	Q	0.1212	domain PADR1 zinc-binding
+302	L	0.1184	domain PADR1 zinc-binding
+303	V	0.1218	domain PADR1 zinc-binding
+304	F	0.1321	domain PADR1 zinc-binding
+305	K	0.1426	domain PADR1 zinc-binding
+306	S	0.1522	domain PADR1 zinc-binding
+307	D	0.1508	domain PADR1 zinc-binding
+308	A	0.1407	domain PADR1 zinc-binding
+309	Y	0.1284	domain PADR1 zinc-binding
+310	Y	0.1133	domain PADR1 zinc-binding
+311	C	0.1081	domain PADR1 zinc-binding
+312	T	0.1093	domain PADR1 zinc-binding
+313	G	0.1164	domain PADR1 zinc-binding
+314	D	0.1135	domain PADR1 zinc-binding
+315	V	0.1301	domain PADR1 zinc-binding
+316	T	0.1594	domain PADR1 zinc-binding
+317	A	0.2048	domain PADR1 zinc-binding
+318	W	0.2567	domain PADR1 zinc-binding
+319	T	0.3032	domain PADR1 zinc-binding
+320	K	0.3360	domain PADR1 zinc-binding
+321	C	0.3652	domain PADR1 zinc-binding
+322	M	0.3905	domain PADR1 zinc-binding
+323	V	0.4115	domain PADR1 zinc-binding
+324	K	0.4282	domain PADR1 zinc-binding
+325	T	0.4314	domain PADR1 zinc-binding
+326	Q	0.4287	domain PADR1 zinc-binding
+327	T	0.4322	domain PADR1 zinc-binding
+328	P	0.4409	domain PADR1 zinc-binding
+329	N	0.4552	domain PADR1 zinc-binding
+330	R	0.4743	domain PADR1 zinc-binding
+331	K	0.4893	domain PADR1 zinc-binding
+332	E	0.4872	domain PADR1 zinc-binding
+333	W	0.4754	domain PADR1 zinc-binding
+334	V	0.4568	domain PADR1 zinc-binding
+335	T	0.4388	domain PADR1 zinc-binding
+336	P	0.4049	domain PADR1 zinc-binding
+337	K	0.3576	domain PADR1 zinc-binding
+338	E	0.3054	domain PADR1 zinc-binding
+339	F	0.2740	domain PADR1 zinc-binding
+340	R	0.2570	domain PADR1 zinc-binding
+341	E	0.2547	domain PADR1 zinc-binding
+342	I	0.2509	domain PADR1 zinc-binding
+343	S	0.2446	domain PADR1 zinc-binding
+344	Y	0.2440	domain PADR1 zinc-binding
+345	L	0.2479	domain PADR1 zinc-binding
+346	K	0.2539	domain PADR1 zinc-binding
+347	K	0.2568	domain PADR1 zinc-binding
+348	L	0.2565	domain PADR1 zinc-binding
+349	K	0.2577	domain PADR1 zinc-binding
+350	V	0.2719	domain PADR1 zinc-binding
+351	K	0.2874	domain PADR1 zinc-binding
+352	K	0.3115	domain PADR1 zinc-binding
+353	Q	0.3386	domain PADR1 zinc-binding
+354	D	0.3646	domain PADR1 zinc-binding
+355	R	0.3791	domain PADR1 zinc-binding
+356	I	0.3967	domain PADR1 zinc-binding
+357	F	0.4296	domain PADR1 zinc-binding
+358	P	0.4803	domain PADR1 zinc-binding
+359	P	0.5324	domain PADR1 zinc-binding
+360	E	0.5617	
+361	T	0.5827	
+362	S	0.6129	
+363	A	0.6391	
+364	S	0.6613	
+365	V	0.6741	
+366	A	0.6730	
+367	A	0.6691	
+368	T	0.6670	
+369	P	0.6577	
+370	P	0.6508	
+371	P	0.6280	
+372	S	0.6134	
+373	T	0.6047	
+374	A	0.6058	
+375	S	0.6170	
+376	A	0.6437	
+377	P	0.6648	
+378	A	0.6717	
+379	A	0.6559	
+380	V	0.6403	
+381	N	0.6129	
+382	S	0.5728	
+383	S	0.5262	
+384	A	0.4821	
+385	S	0.4473	domain BRCT
+386	A	0.4223	domain BRCT
+387	D	0.4038	domain BRCT
+388	K	0.3911	domain BRCT
+389	P	0.3682	domain BRCT
+390	L	0.3606	domain BRCT
+391	S	0.3621	domain BRCT
+392	N	0.3765	domain BRCT
+393	M	0.3888	domain BRCT
+394	K	0.4015	domain BRCT
+395	I	0.4130	domain BRCT
+396	L	0.4191	domain BRCT
+397	T	0.4189	domain BRCT
+398	L	0.4184	domain BRCT
+399	G	0.4048	domain BRCT
+400	K	0.3835	domain BRCT
+401	L	0.3613	domain BRCT
+402	S	0.3460	domain BRCT
+403	R	0.3429	domain BRCT
+404	N	0.3434	domain BRCT
+405	K	0.3538	domain BRCT
+406	D	0.3714	domain BRCT
+407	E	0.3891	domain BRCT
+408	V	0.4143	domain BRCT
+409	K	0.4367	domain BRCT
+410	A	0.4663	domain BRCT
+411	M	0.4822	domain BRCT
+412	I	0.4997	domain BRCT
+413	E	0.5084	domain BRCT
+414	K	0.5039	domain BRCT
+415	L	0.4912	domain BRCT
+416	G	0.4700	domain BRCT
+417	G	0.4396	domain BRCT
+418	K	0.4088	domain BRCT
+419	L	0.3817	domain BRCT
+420	T	0.3650	domain BRCT
+421	G	0.3691	domain BRCT
+422	T	0.3730	domain BRCT
+423	A	0.3853	domain BRCT
+424	N	0.4013	domain BRCT
+425	K	0.4240	domain BRCT
+426	A	0.4439	domain BRCT
+427	S	0.4537	domain BRCT
+428	L	0.4664	domain BRCT
+429	C	0.4722	domain BRCT
+430	I	0.4819	domain BRCT
+431	S	0.4913	domain BRCT
+432	T	0.4935	domain BRCT
+433	K	0.4872	domain BRCT
+434	K	0.4785	domain BRCT
+435	E	0.4771	domain BRCT
+436	V	0.4880	domain BRCT
+437	E	0.5052	domain BRCT
+438	K	0.5298	domain BRCT
+439	M	0.5485	domain BRCT
+440	N	0.5629	domain BRCT
+441	K	0.5796	domain BRCT
+442	K	0.5869	domain BRCT
+443	M	0.5840	domain BRCT
+444	E	0.5701	domain BRCT
+445	E	0.5439	domain BRCT
+446	V	0.5161	domain BRCT
+447	K	0.4882	domain BRCT
+448	E	0.4694	domain BRCT
+449	A	0.4535	domain BRCT
+450	N	0.4305	domain BRCT
+451	I	0.4155	domain BRCT
+452	R	0.3960	domain BRCT
+453	V	0.3809	domain BRCT
+454	V	0.3702	domain BRCT
+455	S	0.3730	domain BRCT
+456	E	0.3863	domain BRCT
+457	D	0.3847	domain BRCT
+458	F	0.3756	domain BRCT
+459	L	0.3710	domain BRCT
+460	Q	0.3698	domain BRCT
+461	D	0.3598	domain BRCT
+462	V	0.3330	domain BRCT
+463	S	0.3051	domain BRCT
+464	A	0.2811	domain BRCT
+465	S	0.2608	domain BRCT
+466	T	0.2455	domain BRCT
+467	K	0.2333	domain BRCT
+468	S	0.2223	domain BRCT
+469	L	0.2260	domain BRCT
+470	Q	0.2329	domain BRCT
+471	E	0.2372	domain BRCT
+472	L	0.2322	domain BRCT
+473	F	0.2287	domain BRCT
+474	L	0.2322	domain BRCT
+475	A	0.2358	domain BRCT
+476	H	0.2277	domain BRCT
+477	I	0.2129	
+478	L	0.2046	
+479	S	0.2055	
+480	P	0.1993	
+481	W	0.1990	
+482	G	0.2071	
+483	A	0.2319	
+484	E	0.2568	
+485	V	0.2958	
+486	K	0.3365	
+487	A	0.3830	
+488	E	0.4220	
+489	P	0.4488	
+490	V	0.4593	
+491	E	0.4550	
+492	V	0.4515	
+493	V	0.4519	
+494	A	0.4602	
+495	P	0.4634	
+496	R	0.4594	
+497	G	0.4545	
+498	K	0.4654	
+499	S	0.4791	
+500	G	0.4933	
+501	A	0.5147	
+502	A	0.5250	
+503	L	0.5387	
+504	S	0.5458	
+505	K	0.5581	
+506	K	0.5529	
+507	S	0.5509	
+508	K	0.5423	
+509	G	0.5384	
+510	Q	0.5395	
+511	V	0.5442	
+512	K	0.5564	
+513	E	0.5731	
+514	E	0.5740	
+515	G	0.5585	
+516	I	0.5471	
+517	N	0.5295	
+518	K	0.5126	
+519	S	0.4891	
+520	E	0.4641	
+521	K	0.4548	
+522	R	0.4551	
+523	M	0.4675	
+524	K	0.4704	
+525	L	0.4813	
+526	T	0.4810	
+527	L	0.4866	
+528	K	0.4926	
+529	G	0.4977	
+530	G	0.4912	
+531	A	0.4810	
+532	A	0.4617	
+533	V	0.4458	
+534	D	0.4367	
+535	P	0.4458	
+536	D	0.4610	
+537	S	0.4698	
+538	G	0.4708	
+539	L	0.4795	
+540	E	0.4804	
+541	H	0.4804	
+542	S	0.4696	domain WGR
+543	A	0.4470	domain WGR
+544	H	0.4135	domain WGR
+545	V	0.3830	domain WGR
+546	L	0.3521	domain WGR
+547	E	0.3272	domain WGR
+548	K	0.2986	domain WGR
+549	G	0.2612	domain WGR
+550	G	0.2205	domain WGR
+551	K	0.1860	domain WGR
+552	V	0.1667	domain WGR
+553	F	0.1674	domain WGR
+554	S	0.1758	domain WGR
+555	A	0.1850	domain WGR
+556	T	0.1848	domain WGR
+557	L	0.1887	domain WGR
+558	G	0.1839	domain WGR
+559	L	0.1817	domain WGR
+560	V	0.1664	domain WGR
+561	D	0.1432	domain WGR
+562	I	0.1194	domain WGR
+563	V	0.0971	domain WGR
+564	K	0.0852	domain WGR
+565	G	0.0931	domain WGR
+566	T	0.1180	domain WGR
+567	N	0.1488	domain WGR
+568	S	0.1871	domain WGR
+569	Y	0.2251	domain WGR
+570	Y	0.2577	domain WGR
+571	K	0.2836	domain WGR
+572	L	0.2997	domain WGR
+573	Q	0.2885	domain WGR
+574	L	0.2611	domain WGR
+575	L	0.2225	domain WGR
+576	E	0.1803	domain WGR
+577	D	0.1446	domain WGR
+578	D	0.1178	domain WGR
+579	K	0.1123	domain WGR
+580	E	0.1232	domain WGR
+581	N	0.1408	domain WGR
+582	R	0.1604	domain WGR
+583	Y	0.1823	domain WGR
+584	W	0.1979	domain WGR
+585	I	0.2063	domain WGR
+586	F	0.2124	domain WGR
+587	R	0.2028	domain WGR
+588	S	0.1818	domain WGR
+589	W	0.1590	domain WGR
+590	G	0.1419	domain WGR
+591	R	0.1345	domain WGR
+592	V	0.1405	domain WGR
+593	G	0.1657	domain WGR
+594	T	0.2128	domain WGR
+595	V	0.2598	domain WGR
+596	I	0.3175	domain WGR
+597	G	0.3823	domain WGR
+598	S	0.4366	domain WGR
+599	N	0.4681	domain WGR
+600	K	0.4823	domain WGR
+601	L	0.4824	domain WGR
+602	E	0.4686	domain WGR
+603	Q	0.4519	domain WGR
+604	M	0.4306	domain WGR
+605	P	0.4082	domain WGR
+606	S	0.3900	domain WGR
+607	K	0.3661	domain WGR
+608	E	0.3607	domain WGR
+609	D	0.3675	domain WGR
+610	A	0.3699	domain WGR
+611	I	0.3806	domain WGR
+612	E	0.3876	domain WGR
+613	H	0.3880	domain WGR
+614	F	0.3821	domain WGR
+615	M	0.3706	domain WGR
+616	K	0.3615	domain WGR
+617	L	0.3354	domain WGR
+618	Y	0.3067	domain WGR
+619	E	0.2774	domain WGR
+620	E	0.2603	domain WGR
+621	K	0.2603	domain WGR
+622	T	0.2606	domain WGR
+623	G	0.2765	domain WGR
+624	N	0.2908	domain WGR
+625	A	0.3037	domain WGR
+626	W	0.3190	domain WGR
+627	H	0.3347	domain WGR
+628	S	0.3440	domain WGR
+629	K	0.3335	domain WGR
+630	N	0.3047	domain WGR
+631	F	0.2757	domain WGR
+632	T	0.2335	domain WGR
+633	K	0.1968	domain WGR
+634	Y	0.1815	domain WGR
+635	P	0.1727	domain WGR
+636	K	0.1726	domain WGR
+637	K	0.1782	domain WGR
+638	F	0.1931	domain WGR
+639	Y	0.2172	
+640	P	0.2397	
+641	L	0.2547	
+642	E	0.2441	
+643	I	0.2345	
+644	D	0.2138	
+645	Y	0.2102	
+646	G	0.2117	
+647	Q	0.2322	
+648	D	0.2573	
+649	E	0.2904	
+650	E	0.3222	
+651	A	0.3699	
+652	V	0.4186	
+653	K	0.4611	
+654	K	0.4962	
+655	L	0.5168	
+656	T	0.5212	
+657	V	0.5233	
+658	N	0.5213	
+659	P	0.5203	
+660	G	0.4990	
+661	T	0.4806	
+662	K	0.4551	domain PARP alpha-helical
+663	S	0.4298	domain PARP alpha-helical
+664	K	0.3983	domain PARP alpha-helical
+665	L	0.3816	domain PARP alpha-helical
+666	P	0.3582	domain PARP alpha-helical
+667	K	0.3377	domain PARP alpha-helical
+668	P	0.3044	domain PARP alpha-helical
+669	V	0.2827	domain PARP alpha-helical
+670	Q	0.2601	domain PARP alpha-helical
+671	D	0.2451	domain PARP alpha-helical
+672	L	0.2297	domain PARP alpha-helical
+673	I	0.2198	domain PARP alpha-helical
+674	K	0.2089	domain PARP alpha-helical
+675	M	0.1994	domain PARP alpha-helical
+676	I	0.1780	domain PARP alpha-helical
+677	F	0.1632	domain PARP alpha-helical
+678	D	0.1439	domain PARP alpha-helical
+679	V	0.1239	domain PARP alpha-helical
+680	E	0.1029	domain PARP alpha-helical
+681	S	0.0904	domain PARP alpha-helical
+682	M	0.0831	domain PARP alpha-helical
+683	K	0.0943	domain PARP alpha-helical
+684	K	0.1207	domain PARP alpha-helical
+685	A	0.1556	domain PARP alpha-helical
+686	M	0.1858	domain PARP alpha-helical
+687	V	0.2143	domain PARP alpha-helical
+688	E	0.2400	domain PARP alpha-helical
+689	Y	0.2648	domain PARP alpha-helical
+690	E	0.2697	domain PARP alpha-helical
+691	I	0.2727	domain PARP alpha-helical
+692	D	0.2717	domain PARP alpha-helical
+693	L	0.2727	domain PARP alpha-helical
+694	Q	0.2659	domain PARP alpha-helical
+695	K	0.2717	domain PARP alpha-helical
+696	M	0.2824	domain PARP alpha-helical
+697	P	0.2854	domain PARP alpha-helical
+698	L	0.2897	domain PARP alpha-helical
+699	G	0.2897	domain PARP alpha-helical
+700	K	0.2793	domain PARP alpha-helical
+701	L	0.2656	domain PARP alpha-helical
+702	S	0.2576	domain PARP alpha-helical
+703	K	0.2543	domain PARP alpha-helical
+704	R	0.2455	domain PARP alpha-helical
+705	Q	0.2335	domain PARP alpha-helical
+706	I	0.2315	domain PARP alpha-helical
+707	Q	0.2337	domain PARP alpha-helical
+708	A	0.2405	domain PARP alpha-helical
+709	A	0.2471	domain PARP alpha-helical
+710	Y	0.2510	domain PARP alpha-helical
+711	S	0.2596	domain PARP alpha-helical
+712	I	0.2766	domain PARP alpha-helical
+713	L	0.2957	domain PARP alpha-helical
+714	S	0.3170	domain PARP alpha-helical
+715	E	0.3325	domain PARP alpha-helical
+716	V	0.3413	domain PARP alpha-helical
+717	Q	0.3355	domain PARP alpha-helical
+718	Q	0.3399	domain PARP alpha-helical
+719	A	0.3433	domain PARP alpha-helical
+720	V	0.3519	domain PARP alpha-helical
+721	S	0.3714	domain PARP alpha-helical
+722	Q	0.3947	domain PARP alpha-helical
+723	G	0.4066	domain PARP alpha-helical
+724	S	0.4060	domain PARP alpha-helical
+725	S	0.3921	domain PARP alpha-helical
+726	D	0.3833	domain PARP alpha-helical
+727	S	0.3623	domain PARP alpha-helical
+728	Q	0.3321	domain PARP alpha-helical
+729	I	0.3012	domain PARP alpha-helical
+730	L	0.2792	domain PARP alpha-helical
+731	D	0.2561	domain PARP alpha-helical
+732	L	0.2400	domain PARP alpha-helical
+733	S	0.2243	domain PARP alpha-helical
+734	N	0.2158	domain PARP alpha-helical
+735	R	0.1992	domain PARP alpha-helical
+736	F	0.1866	domain PARP alpha-helical
+737	Y	0.1810	domain PARP alpha-helical
+738	T	0.1811	domain PARP alpha-helical
+739	L	0.1840	domain PARP alpha-helical
+740	I	0.2010	domain PARP alpha-helical
+741	P	0.2202	domain PARP alpha-helical
+742	H	0.2398	domain PARP alpha-helical
+743	D	0.2419	domain PARP alpha-helical
+744	F	0.2569	domain PARP alpha-helical
+745	G	0.2734	domain PARP alpha-helical
+746	M	0.2996	domain PARP alpha-helical
+747	K	0.3296	domain PARP alpha-helical
+748	K	0.3642	domain PARP alpha-helical
+749	P	0.3938	domain PARP alpha-helical
+750	P	0.4096	domain PARP alpha-helical
+751	L	0.4191	domain PARP alpha-helical
+752	L	0.4292	domain PARP alpha-helical
+753	N	0.4378	domain PARP alpha-helical
+754	N	0.4284	domain PARP alpha-helical
+755	A	0.4091	domain PARP alpha-helical
+756	D	0.3875	domain PARP alpha-helical
+757	S	0.3647	domain PARP alpha-helical
+758	V	0.3382	domain PARP alpha-helical
+759	Q	0.3172	domain PARP alpha-helical
+760	A	0.3007	domain PARP alpha-helical
+761	K	0.2680	domain PARP alpha-helical
+762	V	0.2380	domain PARP alpha-helical
+763	E	0.2043	domain PARP alpha-helical
+764	M	0.1805	domain PARP alpha-helical
+765	L	0.1575	domain PARP alpha-helical
+766	D	0.1404	domain PARP alpha-helical
+767	N	0.1202	domain PARP alpha-helical
+768	L	0.0963	domain PARP alpha-helical
+769	L	0.0803	domain PARP alpha-helical
+770	D	0.0775	domain PARP alpha-helical
+771	I	0.0916	domain PARP alpha-helical
+772	E	0.1102	domain PARP alpha-helical
+773	V	0.1335	domain PARP alpha-helical
+774	A	0.1590	domain PARP alpha-helical
+775	Y	0.1919	domain PARP alpha-helical
+776	S	0.2235	domain PARP alpha-helical
+777	L	0.2564	domain PARP alpha-helical
+778	L	0.2799	domain PARP alpha-helical
+779	R	0.3062	domain PARP alpha-helical
+780	G	0.3303	
+781	G	0.3434	
+782	S	0.3495	
+783	D	0.3608	
+784	D	0.3781	
+785	S	0.4029	
+786	S	0.4309	
+787	K	0.4603	
+788	D	0.4902	domain PARP catalytic
+789	P	0.5009	domain PARP catalytic
+790	I	0.4968	domain PARP catalytic
+791	D	0.4785	domain PARP catalytic
+792	V	0.4514	domain PARP catalytic
+793	N	0.4140	domain PARP catalytic
+794	Y	0.3778	domain PARP catalytic
+795	E	0.3443	domain PARP catalytic
+796	K	0.3241	domain PARP catalytic
+797	L	0.3232	domain PARP catalytic
+798	K	0.3310	domain PARP catalytic
+799	T	0.3463	domain PARP catalytic
+800	D	0.3556	domain PARP catalytic
+801	I	0.3655	domain PARP catalytic
+802	K	0.3629	domain PARP catalytic
+803	V	0.3565	domain PARP catalytic
+804	V	0.3417	domain PARP catalytic
+805	D	0.3275	domain PARP catalytic
+806	R	0.3127	domain PARP catalytic
+807	D	0.2939	domain PARP catalytic
+808	S	0.2818	domain PARP catalytic
+809	E	0.2779	domain PARP catalytic
+810	E	0.2906	domain PARP catalytic
+811	A	0.3183	domain PARP catalytic
+812	E	0.3487	domain PARP catalytic
+813	I	0.3867	domain PARP catalytic
+814	I	0.4252	domain PARP catalytic
+815	R	0.4498	domain PARP catalytic
+816	K	0.4603	domain PARP catalytic
+817	Y	0.4481	domain PARP catalytic
+818	V	0.4190	domain PARP catalytic
+819	K	0.3895	domain PARP catalytic
+820	N	0.3500	domain PARP catalytic
+821	T	0.3152	domain PARP catalytic
+822	H	0.2756	domain PARP catalytic
+823	A	0.2498	domain PARP catalytic
+824	T	0.2316	domain PARP catalytic
+825	T	0.2190	domain PARP catalytic
+826	H	0.2060	domain PARP catalytic
+827	N	0.1977	domain PARP catalytic
+828	A	0.1903	domain PARP catalytic
+829	Y	0.1854	domain PARP catalytic
+830	D	0.1845	domain PARP catalytic
+831	L	0.1962	domain PARP catalytic
+832	E	0.1886	domain PARP catalytic
+833	V	0.1928	domain PARP catalytic
+834	I	0.1961	domain PARP catalytic
+835	D	0.1826	domain PARP catalytic
+836	I	0.1720	domain PARP catalytic
+837	F	0.1642	domain PARP catalytic
+838	K	0.1559	domain PARP catalytic
+839	I	0.1524	domain PARP catalytic
+840	E	0.1402	domain PARP catalytic
+841	R	0.1425	domain PARP catalytic
+842	E	0.1521	domain PARP catalytic
+843	G	0.1851	domain PARP catalytic
+844	E	0.2213	domain PARP catalytic
+845	C	0.2668	domain PARP catalytic
+846	Q	0.3065	domain PARP catalytic
+847	R	0.3381	domain PARP catalytic
+848	Y	0.3588	domain PARP catalytic
+849	K	0.3687	domain PARP catalytic
+850	P	0.3532	domain PARP catalytic
+851	F	0.3370	domain PARP catalytic
+852	K	0.3124	domain PARP catalytic
+853	Q	0.2927	domain PARP catalytic
+854	L	0.2791	domain PARP catalytic
+855	H	0.2744	domain PARP catalytic
+856	N	0.2911	domain PARP catalytic
+857	R	0.3052	domain PARP catalytic
+858	R	0.2999	domain PARP catalytic
+859	L	0.2985	domain PARP catalytic
+860	L	0.2831	domain PARP catalytic
+861	W	0.2773	domain PARP catalytic
+862	H	0.2704	domain PARP catalytic
+863	G	0.2600	domain PARP catalytic
+864	S	0.2371	domain PARP catalytic
+865	R	0.2171	domain PARP catalytic
+866	T	0.2027	domain PARP catalytic
+867	T	0.1949	domain PARP catalytic
+868	N	0.2011	domain PARP catalytic
+869	F	0.2191	domain PARP catalytic
+870	A	0.2420	domain PARP catalytic
+871	G	0.2829	domain PARP catalytic
+872	I	0.3119	domain PARP catalytic
+873	L	0.3470	domain PARP catalytic
+874	S	0.3851	domain PARP catalytic
+875	Q	0.3989	domain PARP catalytic
+876	G	0.3779	domain PARP catalytic
+877	L	0.3460	domain PARP catalytic
+878	R	0.3099	domain PARP catalytic
+879	I	0.2953	domain PARP catalytic
+880	A	0.2934	domain PARP catalytic
+881	P	0.2989	domain PARP catalytic
+882	P	0.2928	domain PARP catalytic
+883	E	0.2823	domain PARP catalytic
+884	A	0.2723	domain PARP catalytic
+885	P	0.2548	domain PARP catalytic
+886	V	0.2380	domain PARP catalytic
+887	T	0.2164	domain PARP catalytic
+888	G	0.1877	domain PARP catalytic
+889	Y	0.1672	domain PARP catalytic
+890	M	0.1441	domain PARP catalytic
+891	F	0.1346	domain PARP catalytic
+892	G	0.1349	domain PARP catalytic
+893	K	0.1370	domain PARP catalytic
+894	G	0.1183	domain PARP catalytic
+895	I	0.0929	domain PARP catalytic
+896	Y	0.0712	domain PARP catalytic
+897	F	0.0627	domain PARP catalytic
+898	A	0.0675	domain PARP catalytic
+899	D	0.0794	domain PARP catalytic
+900	M	0.0893	domain PARP catalytic
+901	V	0.1065	domain PARP catalytic
+902	S	0.1366	domain PARP catalytic
+903	K	0.1778	domain PARP catalytic
+904	S	0.2149	domain PARP catalytic
+905	A	0.2381	domain PARP catalytic
+906	N	0.2505	domain PARP catalytic
+907	Y	0.2510	domain PARP catalytic
+908	C	0.2459	domain PARP catalytic
+909	H	0.2391	domain PARP catalytic
+910	T	0.2229	domain PARP catalytic
+911	S	0.1989	domain PARP catalytic
+912	Q	0.1726	domain PARP catalytic
+913	G	0.1480	domain PARP catalytic
+914	D	0.1331	domain PARP catalytic
+915	P	0.1262	domain PARP catalytic
+916	I	0.1297	domain PARP catalytic
+917	G	0.1316	domain PARP catalytic
+918	L	0.1273	domain PARP catalytic
+919	I	0.1137	domain PARP catalytic
+920	L	0.1053	domain PARP catalytic
+921	L	0.1025	domain PARP catalytic
+922	G	0.0918	domain PARP catalytic
+923	E	0.0781	domain PARP catalytic
+924	V	0.0594	domain PARP catalytic
+925	A	0.0418	domain PARP catalytic
+926	L	0.0398	domain PARP catalytic
+927	G	0.0514	domain PARP catalytic
+928	N	0.0695	domain PARP catalytic
+929	M	0.0791	domain PARP catalytic
+930	Y	0.1009	domain PARP catalytic
+931	E	0.1301	domain PARP catalytic
+932	L	0.1636	domain PARP catalytic
+933	K	0.1966	domain PARP catalytic
+934	H	0.2321	domain PARP catalytic
+935	A	0.2579	domain PARP catalytic
+936	S	0.2781	domain PARP catalytic
+937	H	0.2924	domain PARP catalytic
+938	I	0.3032	domain PARP catalytic
+939	S	0.3135	domain PARP catalytic
+940	K	0.3256	domain PARP catalytic
+941	L	0.3342	domain PARP catalytic
+942	P	0.3439	domain PARP catalytic
+943	K	0.3588	domain PARP catalytic
+944	G	0.3872	domain PARP catalytic
+945	K	0.4218	domain PARP catalytic
+946	H	0.4700	domain PARP catalytic
+947	S	0.5078	domain PARP catalytic
+948	V	0.5373	domain PARP catalytic
+949	K	0.5643	domain PARP catalytic
+950	G	0.5752	domain PARP catalytic
+951	L	0.5723	domain PARP catalytic
+952	G	0.5556	domain PARP catalytic
+953	K	0.5321	domain PARP catalytic
+954	T	0.4979	domain PARP catalytic
+955	T	0.4628	domain PARP catalytic
+956	P	0.4236	domain PARP catalytic
+957	D	0.4030	domain PARP catalytic
+958	P	0.3986	domain PARP catalytic
+959	S	0.3957	domain PARP catalytic
+960	A	0.3973	domain PARP catalytic
+961	N	0.4041	domain PARP catalytic
+962	I	0.4063	domain PARP catalytic
+963	S	0.3929	domain PARP catalytic
+964	L	0.3806	domain PARP catalytic
+965	D	0.3482	domain PARP catalytic
+966	G	0.3112	domain PARP catalytic
+967	V	0.2772	domain PARP catalytic
+968	D	0.2558	domain PARP catalytic
+969	V	0.2470	domain PARP catalytic
+970	P	0.2286	domain PARP catalytic
+971	L	0.2310	domain PARP catalytic
+972	G	0.2348	domain PARP catalytic
+973	T	0.2416	domain PARP catalytic
+974	G	0.2404	domain PARP catalytic
+975	I	0.2354	domain PARP catalytic
+976	S	0.2229	domain PARP catalytic
+977	S	0.2046	domain PARP catalytic
+978	G	0.1716	domain PARP catalytic
+979	V	0.1443	domain PARP catalytic
+980	N	0.1204	domain PARP catalytic
+981	D	0.1008	domain PARP catalytic
+982	T	0.0883	domain PARP catalytic
+983	S	0.0697	domain PARP catalytic
+984	L	0.0576	domain PARP catalytic
+985	L	0.0451	domain PARP catalytic
+986	Y	0.0448	domain PARP catalytic
+987	N	0.0508	domain PARP catalytic
+988	E	0.0449	domain PARP catalytic
+989	Y	0.0407	domain PARP catalytic
+990	I	0.0326	domain PARP catalytic
+991	V	0.0278	domain PARP catalytic
+992	Y	0.0233	domain PARP catalytic
+993	D	0.0160	domain PARP catalytic
+994	I	0.0114	domain PARP catalytic
+995	A	0.0104	domain PARP catalytic
+996	Q	0.0090	domain PARP catalytic
+997	V	0.0106	domain PARP catalytic
+998	N	0.0117	domain PARP catalytic
+999	L	0.0157	domain PARP catalytic
+1000	K	0.0169	domain PARP catalytic
+1001	Y	0.0183	domain PARP catalytic
+1002	L	0.0191	domain PARP catalytic
+1003	L	0.0197	domain PARP catalytic
+1004	K	0.0198	domain PARP catalytic
+1005	L	0.0194	domain PARP catalytic
+1006	K	0.0173	domain PARP catalytic
+1007	F	0.0147	domain PARP catalytic
+1008	N	0.0122	domain PARP catalytic
+1009	F	0.0103	domain PARP catalytic
+1010	K	0.0093	domain PARP catalytic
+1011	T	0.0096	domain PARP catalytic
+1012	S	0.0112	domain PARP catalytic
+1013	L	0.0141	domain PARP catalytic
+1014	W	0.0179	domain PARP catalytic

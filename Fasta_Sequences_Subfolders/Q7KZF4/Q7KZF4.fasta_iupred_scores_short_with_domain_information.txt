@@ -1,0 +1,922 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9428	
+2	A	0.9457	
+3	S	0.9198	
+4	S	0.8762	
+5	A	0.8239	
+6	Q	0.7694	
+7	S	0.7174	
+8	G	0.6711	
+9	G	0.6320	
+10	S	0.6005	
+11	S	0.5765	
+12	G	0.5552	
+13	G	0.5395	
+14	P	0.5224	
+15	A	0.5055	
+16	V	0.4925	
+17	P	0.4814	
+18	T	0.4626	domain TNase-like 1
+19	V	0.4328	domain TNase-like 1
+20	Q	0.3982	domain TNase-like 1
+21	R	0.3646	domain TNase-like 1
+22	G	0.3221	domain TNase-like 1
+23	I	0.2811	domain TNase-like 1
+24	I	0.2546	domain TNase-like 1
+25	K	0.2412	domain TNase-like 1
+26	M	0.2316	domain TNase-like 1
+27	V	0.2263	domain TNase-like 1
+28	L	0.2379	domain TNase-like 1
+29	S	0.2619	domain TNase-like 1
+30	G	0.2860	domain TNase-like 1
+31	C	0.3159	domain TNase-like 1
+32	A	0.3455	domain TNase-like 1
+33	I	0.3826	domain TNase-like 1
+34	I	0.4184	domain TNase-like 1
+35	V	0.4583	domain TNase-like 1
+36	R	0.4981	domain TNase-like 1
+37	G	0.5253	domain TNase-like 1
+38	Q	0.5452	domain TNase-like 1
+39	P	0.5610	domain TNase-like 1
+40	R	0.5647	domain TNase-like 1
+41	G	0.5696	domain TNase-like 1
+42	G	0.5834	domain TNase-like 1
+43	P	0.6061	domain TNase-like 1
+44	P	0.6303	domain TNase-like 1
+45	P	0.6469	domain TNase-like 1
+46	E	0.6634	domain TNase-like 1
+47	R	0.6774	domain TNase-like 1
+48	Q	0.6809	domain TNase-like 1
+49	I	0.6710	domain TNase-like 1
+50	N	0.6458	domain TNase-like 1
+51	L	0.6224	domain TNase-like 1
+52	S	0.5921	domain TNase-like 1
+53	N	0.5649	domain TNase-like 1
+54	I	0.5418	domain TNase-like 1
+55	R	0.5259	domain TNase-like 1
+56	A	0.5162	domain TNase-like 1
+57	G	0.5110	domain TNase-like 1
+58	N	0.5127	domain TNase-like 1
+59	L	0.5179	domain TNase-like 1
+60	A	0.5367	domain TNase-like 1
+61	R	0.5656	domain TNase-like 1
+62	R	0.5997	domain TNase-like 1
+63	A	0.6263	domain TNase-like 1
+64	A	0.6465	domain TNase-like 1
+65	A	0.6620	domain TNase-like 1
+66	T	0.6706	domain TNase-like 1
+67	Q	0.6722	domain TNase-like 1
+68	P	0.6701	domain TNase-like 1
+69	D	0.6665	domain TNase-like 1
+70	A	0.6589	domain TNase-like 1
+71	K	0.6523	domain TNase-like 1
+72	D	0.6442	domain TNase-like 1
+73	T	0.6402	domain TNase-like 1
+74	P	0.6335	domain TNase-like 1
+75	D	0.6204	domain TNase-like 1
+76	E	0.5967	domain TNase-like 1
+77	P	0.5627	domain TNase-like 1
+78	W	0.5290	domain TNase-like 1
+79	A	0.4992	domain TNase-like 1
+80	F	0.4745	domain TNase-like 1
+81	P	0.4473	domain TNase-like 1
+82	A	0.4187	domain TNase-like 1
+83	R	0.3815	domain TNase-like 1
+84	E	0.3416	domain TNase-like 1
+85	F	0.3033	domain TNase-like 1
+86	L	0.2677	domain TNase-like 1
+87	R	0.2374	domain TNase-like 1
+88	K	0.2119	domain TNase-like 1
+89	K	0.1909	domain TNase-like 1
+90	L	0.1796	domain TNase-like 1
+91	I	0.1902	domain TNase-like 1
+92	G	0.2157	domain TNase-like 1
+93	K	0.2456	domain TNase-like 1
+94	E	0.2662	domain TNase-like 1
+95	V	0.2873	domain TNase-like 1
+96	C	0.3073	domain TNase-like 1
+97	F	0.3271	domain TNase-like 1
+98	T	0.3399	domain TNase-like 1
+99	I	0.3418	domain TNase-like 1
+100	E	0.3283	domain TNase-like 1
+101	N	0.3047	domain TNase-like 1
+102	K	0.2785	domain TNase-like 1
+103	T	0.2575	domain TNase-like 1
+104	P	0.2441	domain TNase-like 1
+105	Q	0.2512	domain TNase-like 1
+106	G	0.2742	domain TNase-like 1
+107	R	0.3070	domain TNase-like 1
+108	E	0.3385	domain TNase-like 1
+109	Y	0.3757	domain TNase-like 1
+110	G	0.4109	domain TNase-like 1
+111	M	0.4367	domain TNase-like 1
+112	I	0.4344	domain TNase-like 1
+113	Y	0.4126	domain TNase-like 1
+114	L	0.3864	domain TNase-like 1
+115	G	0.3611	domain TNase-like 1
+116	K	0.3363	domain TNase-like 1
+117	D	0.3115	domain TNase-like 1
+118	T	0.2927	domain TNase-like 1
+119	N	0.2898	domain TNase-like 1
+120	G	0.2978	domain TNase-like 1
+121	E	0.3197	domain TNase-like 1
+122	N	0.3480	domain TNase-like 1
+123	I	0.3831	domain TNase-like 1
+124	A	0.4206	domain TNase-like 1
+125	E	0.4589	domain TNase-like 1
+126	S	0.4794	domain TNase-like 1
+127	L	0.4849	domain TNase-like 1
+128	V	0.4826	domain TNase-like 1
+129	A	0.4841	domain TNase-like 1
+130	E	0.4755	domain TNase-like 1
+131	G	0.4683	domain TNase-like 1
+132	L	0.4697	domain TNase-like 1
+133	A	0.4791	domain TNase-like 1
+134	T	0.5033	domain TNase-like 1
+135	R	0.5288	domain TNase-like 1
+136	R	0.5533	domain TNase-like 1
+137	E	0.5717	domain TNase-like 1
+138	G	0.5852	domain TNase-like 1
+139	M	0.5939	domain TNase-like 1
+140	R	0.5976	domain TNase-like 1
+141	A	0.5998	domain TNase-like 1
+142	N	0.6023	domain TNase-like 1
+143	N	0.6095	domain TNase-like 1
+144	P	0.6103	domain TNase-like 1
+145	E	0.6056	domain TNase-like 1
+146	Q	0.6064	domain TNase-like 1
+147	N	0.6136	domain TNase-like 1
+148	R	0.6177	domain TNase-like 1
+149	L	0.6207	domain TNase-like 1
+150	S	0.6157	domain TNase-like 1
+151	E	0.6041	domain TNase-like 1
+152	C	0.5928	domain TNase-like 1
+153	E	0.5772	domain TNase-like 1
+154	E	0.5615	domain TNase-like 1
+155	Q	0.5456	domain TNase-like 1
+156	A	0.5328	domain TNase-like 1
+157	K	0.5207	domain TNase-like 1
+158	A	0.5221	domain TNase-like 1
+159	A	0.5295	domain TNase-like 1
+160	K	0.5470	domain TNase-like 1
+161	K	0.5634	domain TNase-like 1
+162	G	0.5758	domain TNase-like 1
+163	M	0.5768	domain TNase-like 1
+164	W	0.5720	domain TNase-like 1
+165	S	0.5578	domain TNase-like 1
+166	E	0.5376	domain TNase-like 1
+167	G	0.5042	
+168	N	0.4739	
+169	G	0.4572	
+170	S	0.4477	
+171	H	0.4454	
+172	T	0.4501	
+173	I	0.4574	
+174	R	0.4628	
+175	D	0.4642	
+176	L	0.4563	
+177	K	0.4433	
+178	Y	0.4345	
+179	T	0.4172	
+180	I	0.4116	
+181	E	0.4163	
+182	N	0.4296	
+183	P	0.4367	
+184	R	0.4480	
+185	H	0.4442	
+186	F	0.4354	
+187	V	0.4234	
+188	D	0.4077	
+189	S	0.3880	
+190	H	0.3691	
+191	H	0.3524	
+192	Q	0.3394	
+193	K	0.3383	domain TNase-like 2
+194	P	0.3344	domain TNase-like 2
+195	V	0.3386	domain TNase-like 2
+196	N	0.3363	domain TNase-like 2
+197	A	0.3177	domain TNase-like 2
+198	I	0.2931	domain TNase-like 2
+199	I	0.2653	domain TNase-like 2
+200	E	0.2343	domain TNase-like 2
+201	H	0.1915	domain TNase-like 2
+202	V	0.1476	domain TNase-like 2
+203	R	0.1065	domain TNase-like 2
+204	D	0.0743	domain TNase-like 2
+205	G	0.0521	domain TNase-like 2
+206	S	0.0413	domain TNase-like 2
+207	V	0.0377	domain TNase-like 2
+208	V	0.0413	domain TNase-like 2
+209	R	0.0444	domain TNase-like 2
+210	A	0.0430	domain TNase-like 2
+211	L	0.0388	domain TNase-like 2
+212	L	0.0326	domain TNase-like 2
+213	L	0.0311	domain TNase-like 2
+214	P	0.0284	domain TNase-like 2
+215	D	0.0260	domain TNase-like 2
+216	Y	0.0179	domain TNase-like 2
+217	Y	0.0138	domain TNase-like 2
+218	L	0.0168	domain TNase-like 2
+219	V	0.0234	domain TNase-like 2
+220	T	0.0277	domain TNase-like 2
+221	V	0.0313	domain TNase-like 2
+222	M	0.0339	domain TNase-like 2
+223	L	0.0414	domain TNase-like 2
+224	S	0.0518	domain TNase-like 2
+225	G	0.0635	domain TNase-like 2
+226	I	0.0837	domain TNase-like 2
+227	K	0.1172	domain TNase-like 2
+228	C	0.1698	domain TNase-like 2
+229	P	0.2215	domain TNase-like 2
+230	T	0.2765	domain TNase-like 2
+231	F	0.3240	domain TNase-like 2
+232	R	0.3702	domain TNase-like 2
+233	R	0.4213	domain TNase-like 2
+234	E	0.4519	domain TNase-like 2
+235	A	0.4669	domain TNase-like 2
+236	D	0.4706	domain TNase-like 2
+237	G	0.4675	domain TNase-like 2
+238	S	0.4624	domain TNase-like 2
+239	E	0.4641	domain TNase-like 2
+240	T	0.4662	domain TNase-like 2
+241	P	0.4726	domain TNase-like 2
+242	E	0.4722	domain TNase-like 2
+243	P	0.4658	domain TNase-like 2
+244	F	0.4515	domain TNase-like 2
+245	A	0.4386	domain TNase-like 2
+246	A	0.4381	domain TNase-like 2
+247	E	0.4287	domain TNase-like 2
+248	A	0.4106	domain TNase-like 2
+249	K	0.3660	domain TNase-like 2
+250	F	0.3213	domain TNase-like 2
+251	F	0.2868	domain TNase-like 2
+252	T	0.2519	domain TNase-like 2
+253	E	0.2168	domain TNase-like 2
+254	S	0.1742	domain TNase-like 2
+255	R	0.1374	domain TNase-like 2
+256	L	0.1172	domain TNase-like 2
+257	L	0.1177	domain TNase-like 2
+258	Q	0.1279	domain TNase-like 2
+259	R	0.1435	domain TNase-like 2
+260	D	0.1549	domain TNase-like 2
+261	V	0.1635	domain TNase-like 2
+262	Q	0.1571	domain TNase-like 2
+263	I	0.1443	domain TNase-like 2
+264	I	0.1290	domain TNase-like 2
+265	L	0.1124	domain TNase-like 2
+266	E	0.0972	domain TNase-like 2
+267	S	0.0788	domain TNase-like 2
+268	C	0.0592	domain TNase-like 2
+269	H	0.0511	domain TNase-like 2
+270	N	0.0622	domain TNase-like 2
+271	Q	0.0823	domain TNase-like 2
+272	N	0.0955	domain TNase-like 2
+273	I	0.1057	domain TNase-like 2
+274	L	0.1151	domain TNase-like 2
+275	G	0.1223	domain TNase-like 2
+276	T	0.1240	domain TNase-like 2
+277	I	0.1138	domain TNase-like 2
+278	L	0.0996	domain TNase-like 2
+279	H	0.0879	domain TNase-like 2
+280	P	0.0733	domain TNase-like 2
+281	N	0.0623	domain TNase-like 2
+282	G	0.0498	domain TNase-like 2
+283	N	0.0462	domain TNase-like 2
+284	I	0.0534	domain TNase-like 2
+285	T	0.0647	domain TNase-like 2
+286	E	0.0655	domain TNase-like 2
+287	L	0.0637	domain TNase-like 2
+288	L	0.0611	domain TNase-like 2
+289	L	0.0574	domain TNase-like 2
+290	K	0.0517	domain TNase-like 2
+291	E	0.0434	domain TNase-like 2
+292	G	0.0292	domain TNase-like 2
+293	F	0.0212	domain TNase-like 2
+294	A	0.0187	domain TNase-like 2
+295	R	0.0167	domain TNase-like 2
+296	C	0.0190	domain TNase-like 2
+297	V	0.0261	domain TNase-like 2
+298	D	0.0333	domain TNase-like 2
+299	W	0.0418	domain TNase-like 2
+300	S	0.0454	domain TNase-like 2
+301	I	0.0511	domain TNase-like 2
+302	A	0.0503	domain TNase-like 2
+303	V	0.0511	domain TNase-like 2
+304	Y	0.0470	domain TNase-like 2
+305	T	0.0487	domain TNase-like 2
+306	R	0.0517	domain TNase-like 2
+307	G	0.0570	domain TNase-like 2
+308	A	0.0741	domain TNase-like 2
+309	E	0.0962	domain TNase-like 2
+310	K	0.1130	domain TNase-like 2
+311	L	0.1297	domain TNase-like 2
+312	R	0.1454	domain TNase-like 2
+313	A	0.1622	domain TNase-like 2
+314	A	0.1664	domain TNase-like 2
+315	E	0.1591	domain TNase-like 2
+316	R	0.1460	domain TNase-like 2
+317	F	0.1257	domain TNase-like 2
+318	A	0.1107	domain TNase-like 2
+319	K	0.1067	domain TNase-like 2
+320	E	0.1020	domain TNase-like 2
+321	R	0.1024	domain TNase-like 2
+322	R	0.1018	domain TNase-like 2
+323	L	0.1117	domain TNase-like 2
+324	R	0.1175	domain TNase-like 2
+325	I	0.1281	domain TNase-like 2
+326	W	0.1445	domain TNase-like 2
+327	R	0.1642	domain TNase-like 2
+328	D	0.1737	domain TNase-like 2
+329	Y	0.1732	
+330	V	0.1752	
+331	A	0.1827	
+332	P	0.1849	
+333	T	0.1881	
+334	A	0.1848	
+335	N	0.1791	
+336	L	0.1803	
+337	D	0.1852	
+338	Q	0.1953	
+339	K	0.2009	
+340	D	0.2049	
+341	K	0.2016	domain TNase-like 3
+342	Q	0.1896	domain TNase-like 3
+343	F	0.1779	domain TNase-like 3
+344	V	0.1623	domain TNase-like 3
+345	A	0.1530	domain TNase-like 3
+346	K	0.1347	domain TNase-like 3
+347	V	0.1119	domain TNase-like 3
+348	M	0.0919	domain TNase-like 3
+349	Q	0.0758	domain TNase-like 3
+350	V	0.0679	domain TNase-like 3
+351	L	0.0643	domain TNase-like 3
+352	N	0.0663	domain TNase-like 3
+353	A	0.0780	domain TNase-like 3
+354	D	0.0822	domain TNase-like 3
+355	A	0.0906	domain TNase-like 3
+356	I	0.1047	domain TNase-like 3
+357	V	0.1165	domain TNase-like 3
+358	V	0.1267	domain TNase-like 3
+359	K	0.1257	domain TNase-like 3
+360	L	0.1291	domain TNase-like 3
+361	N	0.1321	domain TNase-like 3
+362	S	0.1445	domain TNase-like 3
+363	G	0.1617	domain TNase-like 3
+364	D	0.1819	domain TNase-like 3
+365	Y	0.2116	domain TNase-like 3
+366	K	0.2443	domain TNase-like 3
+367	T	0.2833	domain TNase-like 3
+368	I	0.3193	domain TNase-like 3
+369	H	0.3490	domain TNase-like 3
+370	L	0.3862	domain TNase-like 3
+371	S	0.4094	domain TNase-like 3
+372	S	0.4274	domain TNase-like 3
+373	I	0.4459	domain TNase-like 3
+374	R	0.4571	domain TNase-like 3
+375	P	0.4781	domain TNase-like 3
+376	P	0.5019	domain TNase-like 3
+377	R	0.5164	domain TNase-like 3
+378	L	0.5415	domain TNase-like 3
+379	E	0.5605	domain TNase-like 3
+380	G	0.5850	domain TNase-like 3
+381	E	0.5886	domain TNase-like 3
+382	N	0.5841	domain TNase-like 3
+383	T	0.5697	domain TNase-like 3
+384	Q	0.5477	domain TNase-like 3
+385	D	0.5230	domain TNase-like 3
+386	K	0.4840	domain TNase-like 3
+387	N	0.4489	domain TNase-like 3
+388	K	0.4244	domain TNase-like 3
+389	K	0.3940	domain TNase-like 3
+390	L	0.3747	domain TNase-like 3
+391	R	0.3492	domain TNase-like 3
+392	P	0.3211	domain TNase-like 3
+393	L	0.2979	domain TNase-like 3
+394	Y	0.2705	domain TNase-like 3
+395	D	0.2383	domain TNase-like 3
+396	I	0.2082	domain TNase-like 3
+397	P	0.1762	domain TNase-like 3
+398	Y	0.1544	domain TNase-like 3
+399	M	0.1296	domain TNase-like 3
+400	F	0.1171	domain TNase-like 3
+401	E	0.1121	domain TNase-like 3
+402	A	0.1135	domain TNase-like 3
+403	R	0.1145	domain TNase-like 3
+404	E	0.1134	domain TNase-like 3
+405	F	0.1149	domain TNase-like 3
+406	L	0.1178	domain TNase-like 3
+407	R	0.1232	domain TNase-like 3
+408	K	0.1258	domain TNase-like 3
+409	K	0.1141	domain TNase-like 3
+410	L	0.1053	domain TNase-like 3
+411	I	0.0995	domain TNase-like 3
+412	G	0.1005	domain TNase-like 3
+413	K	0.1059	domain TNase-like 3
+414	K	0.1125	domain TNase-like 3
+415	V	0.1201	domain TNase-like 3
+416	N	0.1311	domain TNase-like 3
+417	V	0.1544	domain TNase-like 3
+418	T	0.1791	domain TNase-like 3
+419	V	0.2047	domain TNase-like 3
+420	D	0.2179	domain TNase-like 3
+421	Y	0.2225	domain TNase-like 3
+422	I	0.2237	domain TNase-like 3
+423	R	0.2301	domain TNase-like 3
+424	P	0.2319	domain TNase-like 3
+425	A	0.2398	domain TNase-like 3
+426	S	0.2473	domain TNase-like 3
+427	P	0.2609	domain TNase-like 3
+428	A	0.2793	domain TNase-like 3
+429	T	0.2956	domain TNase-like 3
+430	E	0.3235	domain TNase-like 3
+431	T	0.3407	domain TNase-like 3
+432	V	0.3510	domain TNase-like 3
+433	P	0.3488	domain TNase-like 3
+434	A	0.3350	domain TNase-like 3
+435	F	0.3148	domain TNase-like 3
+436	S	0.2923	domain TNase-like 3
+437	E	0.2767	domain TNase-like 3
+438	R	0.2504	domain TNase-like 3
+439	T	0.2225	domain TNase-like 3
+440	C	0.1937	domain TNase-like 3
+441	A	0.1821	domain TNase-like 3
+442	T	0.1763	domain TNase-like 3
+443	V	0.1693	domain TNase-like 3
+444	T	0.1578	domain TNase-like 3
+445	I	0.1605	domain TNase-like 3
+446	G	0.1567	domain TNase-like 3
+447	G	0.1496	domain TNase-like 3
+448	I	0.1445	domain TNase-like 3
+449	N	0.1304	domain TNase-like 3
+450	I	0.1186	domain TNase-like 3
+451	A	0.1068	domain TNase-like 3
+452	E	0.0987	domain TNase-like 3
+453	A	0.0836	domain TNase-like 3
+454	L	0.0749	domain TNase-like 3
+455	V	0.0816	domain TNase-like 3
+456	S	0.0941	domain TNase-like 3
+457	K	0.1053	domain TNase-like 3
+458	G	0.1182	domain TNase-like 3
+459	L	0.1416	domain TNase-like 3
+460	A	0.1702	domain TNase-like 3
+461	T	0.2050	domain TNase-like 3
+462	V	0.2399	domain TNase-like 3
+463	I	0.2740	domain TNase-like 3
+464	R	0.3019	domain TNase-like 3
+465	Y	0.3244	domain TNase-like 3
+466	R	0.3301	domain TNase-like 3
+467	Q	0.3302	domain TNase-like 3
+468	D	0.3221	domain TNase-like 3
+469	D	0.3161	domain TNase-like 3
+470	D	0.3196	domain TNase-like 3
+471	Q	0.3267	domain TNase-like 3
+472	R	0.3368	domain TNase-like 3
+473	S	0.3557	domain TNase-like 3
+474	S	0.3782	domain TNase-like 3
+475	H	0.4004	domain TNase-like 3
+476	Y	0.4185	domain TNase-like 3
+477	D	0.4268	domain TNase-like 3
+478	E	0.4250	domain TNase-like 3
+479	L	0.4140	domain TNase-like 3
+480	L	0.3911	domain TNase-like 3
+481	A	0.3757	domain TNase-like 3
+482	A	0.3617	domain TNase-like 3
+483	E	0.3538	domain TNase-like 3
+484	A	0.3483	domain TNase-like 3
+485	R	0.3458	domain TNase-like 3
+486	A	0.3473	domain TNase-like 3
+487	I	0.3608	domain TNase-like 3
+488	K	0.3784	domain TNase-like 3
+489	N	0.4058	domain TNase-like 3
+490	G	0.4276	domain TNase-like 3
+491	K	0.4418	domain TNase-like 3
+492	G	0.4454	domain TNase-like 3
+493	L	0.4493	domain TNase-like 3
+494	H	0.4474	domain TNase-like 3
+495	S	0.4450	domain TNase-like 3
+496	K	0.4436	domain TNase-like 3
+497	K	0.4379	
+498	E	0.4269	
+499	V	0.4330	
+500	P	0.4471	
+501	I	0.4646	
+502	H	0.4731	
+503	R	0.4800	
+504	V	0.4748	
+505	A	0.4551	
+506	D	0.4293	
+507	I	0.4010	
+508	S	0.3618	
+509	G	0.3254	
+510	D	0.2859	
+511	T	0.2562	
+512	Q	0.2436	
+513	K	0.2569	
+514	A	0.2753	
+515	K	0.2994	
+516	Q	0.3150	
+517	F	0.3237	
+518	L	0.3247	
+519	P	0.3063	
+520	F	0.2680	
+521	L	0.2233	
+522	Q	0.1725	
+523	R	0.1209	
+524	A	0.0831	
+525	G	0.0588	domain TNase-like 4
+526	R	0.0512	domain TNase-like 4
+527	S	0.0591	domain TNase-like 4
+528	E	0.0648	domain TNase-like 4
+529	A	0.0680	domain TNase-like 4
+530	V	0.0689	domain TNase-like 4
+531	V	0.0725	domain TNase-like 4
+532	E	0.0669	domain TNase-like 4
+533	Y	0.0594	domain TNase-like 4
+534	V	0.0485	domain TNase-like 4
+535	F	0.0393	domain TNase-like 4
+536	S	0.0321	domain TNase-like 4
+537	G	0.0303	domain TNase-like 4
+538	S	0.0295	domain TNase-like 4
+539	R	0.0234	domain TNase-like 4
+540	L	0.0245	domain TNase-like 4
+541	K	0.0225	domain TNase-like 4
+542	L	0.0193	domain TNase-like 4
+543	Y	0.0168	domain TNase-like 4
+544	L	0.0175	domain TNase-like 4
+545	P	0.0175	domain TNase-like 4
+546	K	0.0178	domain TNase-like 4
+547	E	0.0150	domain TNase-like 4
+548	T	0.0109	domain TNase-like 4
+549	C	0.0119	domain TNase-like 4
+550	L	0.0163	domain TNase-like 4
+551	I	0.0235	domain TNase-like 4
+552	T	0.0295	domain TNase-like 4
+553	F	0.0378	domain TNase-like 4
+554	L	0.0434	domain TNase-like 4
+555	L	0.0498	domain TNase-like 4
+556	A	0.0529	domain TNase-like 4
+557	G	0.0517	domain TNase-like 4
+558	I	0.0394	domain TNase-like 4
+559	E	0.0332	domain TNase-like 4
+560	C	0.0433	domain TNase-like 4
+561	P	0.0573	domain TNase-like 4
+562	R	0.0857	domain TNase-like 4
+563	G	0.1193	domain TNase-like 4
+564	A	0.1611	domain TNase-like 4
+565	R	0.2082	domain TNase-like 4
+566	N	0.2653	domain TNase-like 4
+567	L	0.3195	domain TNase-like 4
+568	P	0.3642	domain TNase-like 4
+569	G	0.3945	domain TNase-like 4
+570	L	0.4045	domain TNase-like 4
+571	V	0.4062	domain TNase-like 4
+572	Q	0.4094	domain TNase-like 4
+573	E	0.4084	domain TNase-like 4
+574	G	0.3994	domain TNase-like 4
+575	E	0.3789	domain TNase-like 4
+576	P	0.3527	domain TNase-like 4
+577	F	0.3307	domain TNase-like 4
+578	S	0.3282	domain TNase-like 4
+579	E	0.3296	domain TNase-like 4
+580	E	0.3369	domain TNase-like 4
+581	A	0.3331	domain TNase-like 4
+582	T	0.3198	domain TNase-like 4
+583	L	0.3087	domain TNase-like 4
+584	F	0.3001	domain TNase-like 4
+585	T	0.2908	domain TNase-like 4
+586	K	0.2812	domain TNase-like 4
+587	E	0.2597	domain TNase-like 4
+588	L	0.2235	domain TNase-like 4
+589	V	0.1973	domain TNase-like 4
+590	L	0.2037	domain TNase-like 4
+591	Q	0.2155	domain TNase-like 4
+592	R	0.2281	domain TNase-like 4
+593	E	0.2328	domain TNase-like 4
+594	V	0.2348	domain TNase-like 4
+595	E	0.2277	domain TNase-like 4
+596	V	0.2224	domain TNase-like 4
+597	E	0.2088	domain TNase-like 4
+598	V	0.1931	domain TNase-like 4
+599	E	0.1645	domain TNase-like 4
+600	S	0.1378	domain TNase-like 4
+601	M	0.1156	domain TNase-like 4
+602	D	0.0988	domain TNase-like 4
+603	K	0.0964	domain TNase-like 4
+604	A	0.1025	domain TNase-like 4
+605	G	0.1046	domain TNase-like 4
+606	N	0.0969	domain TNase-like 4
+607	F	0.0863	domain TNase-like 4
+608	I	0.0821	domain TNase-like 4
+609	G	0.0730	domain TNase-like 4
+610	W	0.0627	domain TNase-like 4
+611	L	0.0480	domain TNase-like 4
+612	H	0.0322	domain TNase-like 4
+613	I	0.0203	domain TNase-like 4
+614	D	0.0148	domain TNase-like 4
+615	G	0.0116	domain TNase-like 4
+616	A	0.0147	domain TNase-like 4
+617	N	0.0149	domain TNase-like 4
+618	L	0.0225	domain TNase-like 4
+619	S	0.0255	domain TNase-like 4
+620	V	0.0296	domain TNase-like 4
+621	L	0.0331	domain TNase-like 4
+622	L	0.0392	domain TNase-like 4
+623	V	0.0473	domain TNase-like 4
+624	E	0.0510	domain TNase-like 4
+625	H	0.0510	domain TNase-like 4
+626	A	0.0501	domain TNase-like 4
+627	L	0.0518	domain TNase-like 4
+628	S	0.0583	domain TNase-like 4
+629	K	0.0664	domain TNase-like 4
+630	V	0.0708	domain TNase-like 4
+631	H	0.0735	domain TNase-like 4
+632	F	0.0816	domain TNase-like 4
+633	T	0.0899	domain TNase-like 4
+634	A	0.1025	domain TNase-like 4
+635	E	0.1095	domain TNase-like 4
+636	R	0.1192	domain TNase-like 4
+637	S	0.1265	domain TNase-like 4
+638	S	0.1353	domain TNase-like 4
+639	Y	0.1484	domain TNase-like 4
+640	Y	0.1771	domain TNase-like 4
+641	K	0.2172	domain TNase-like 4
+642	S	0.2465	domain TNase-like 4
+643	L	0.2638	domain TNase-like 4
+644	L	0.2699	domain TNase-like 4
+645	S	0.2701	domain TNase-like 4
+646	A	0.2658	domain TNase-like 4
+647	E	0.2497	domain TNase-like 4
+648	E	0.2318	domain TNase-like 4
+649	A	0.2184	domain TNase-like 4
+650	A	0.2155	domain TNase-like 4
+651	K	0.2286	domain TNase-like 4
+652	Q	0.2634	domain TNase-like 4
+653	K	0.2965	domain TNase-like 4
+654	K	0.3324	domain TNase-like 4
+655	E	0.3656	domain TNase-like 4
+656	K	0.3862	domain TNase-like 4
+657	V	0.3893	domain TNase-like 4
+658	W	0.3885	domain TNase-like 4
+659	A	0.3848	domain TNase-like 4
+660	H	0.3709	domain TNase-like 4
+661	Y	0.3452	
+662	E	0.3202	
+663	E	0.3085	
+664	Q	0.3075	
+665	P	0.3120	
+666	V	0.3266	
+667	E	0.3451	
+668	E	0.3714	
+669	V	0.4031	
+670	M	0.4314	
+671	P	0.4398	
+672	V	0.4336	
+673	L	0.4174	
+674	E	0.3937	
+675	E	0.3559	
+676	K	0.3202	
+677	E	0.2893	
+678	R	0.2766	
+679	S	0.2727	
+680	A	0.2828	
+681	S	0.2971	
+682	Y	0.3068	
+683	K	0.3136	
+684	P	0.3067	
+685	V	0.2836	
+686	F	0.2531	
+687	V	0.2248	
+688	T	0.1952	
+689	E	0.1730	
+690	I	0.1584	
+691	T	0.1533	
+692	D	0.1762	
+693	D	0.2063	
+694	L	0.2381	
+695	H	0.2617	
+696	F	0.2890	
+697	Y	0.3071	
+698	V	0.3254	
+699	Q	0.3283	
+700	D	0.3222	
+701	V	0.3142	
+702	E	0.3108	
+703	T	0.3152	
+704	G	0.3181	
+705	T	0.3291	
+706	Q	0.3488	
+707	L	0.3786	
+708	E	0.4029	
+709	K	0.4217	
+710	L	0.4428	
+711	M	0.4610	
+712	E	0.4698	
+713	N	0.4656	
+714	M	0.4585	
+715	R	0.4481	
+716	N	0.4422	
+717	D	0.4360	
+718	I	0.4356	
+719	A	0.4397	
+720	S	0.4540	
+721	H	0.4670	
+722	P	0.4691	
+723	P	0.4652	
+724	V	0.4540	
+725	E	0.4342	
+726	G	0.4046	
+727	S	0.3688	
+728	Y	0.3340	
+729	A	0.3069	domain Tudor
+730	P	0.2886	domain Tudor
+731	R	0.2665	domain Tudor
+732	R	0.2430	domain Tudor
+733	G	0.2209	domain Tudor
+734	E	0.1931	domain Tudor
+735	F	0.1658	domain Tudor
+736	C	0.1392	domain Tudor
+737	I	0.1212	domain Tudor
+738	A	0.1095	domain Tudor
+739	K	0.0935	domain Tudor
+740	F	0.0764	domain Tudor
+741	V	0.0720	domain Tudor
+742	D	0.0731	domain Tudor
+743	G	0.0778	domain Tudor
+744	E	0.0827	domain Tudor
+745	W	0.0905	domain Tudor
+746	Y	0.1049	domain Tudor
+747	R	0.1190	domain Tudor
+748	A	0.1333	domain Tudor
+749	R	0.1353	domain Tudor
+750	V	0.1293	domain Tudor
+751	E	0.1160	domain Tudor
+752	K	0.0945	domain Tudor
+753	V	0.0721	domain Tudor
+754	E	0.0592	domain Tudor
+755	S	0.0592	domain Tudor
+756	P	0.0613	domain Tudor
+757	A	0.0687	domain Tudor
+758	K	0.0722	domain Tudor
+759	I	0.0858	domain Tudor
+760	H	0.1015	domain Tudor
+761	V	0.1114	domain Tudor
+762	F	0.1143	domain Tudor
+763	Y	0.1156	domain Tudor
+764	I	0.1116	domain Tudor
+765	D	0.1006	domain Tudor
+766	Y	0.0956	domain Tudor
+767	G	0.0875	domain Tudor
+768	N	0.0883	domain Tudor
+769	R	0.0869	domain Tudor
+770	E	0.0920	domain Tudor
+771	V	0.1122	domain Tudor
+772	L	0.1422	domain Tudor
+773	P	0.1834	domain Tudor
+774	S	0.2162	domain Tudor
+775	T	0.2345	domain Tudor
+776	R	0.2416	domain Tudor
+777	L	0.2412	domain Tudor
+778	G	0.2383	domain Tudor
+779	T	0.2360	domain Tudor
+780	L	0.2338	domain Tudor
+781	S	0.2348	domain Tudor
+782	P	0.2405	domain Tudor
+783	A	0.2443	domain Tudor
+784	F	0.2481	domain Tudor
+785	S	0.2507	domain Tudor
+786	T	0.2515	domain Tudor
+787	R	0.2277	domain Tudor
+788	V	0.1945	
+789	L	0.1651	
+790	P	0.1382	
+791	A	0.1296	
+792	Q	0.1239	
+793	A	0.1305	
+794	T	0.1455	
+795	E	0.1652	
+796	Y	0.1988	
+797	A	0.2363	
+798	F	0.2699	
+799	A	0.2921	
+800	F	0.3150	
+801	I	0.3235	
+802	Q	0.3129	
+803	V	0.3065	
+804	P	0.2943	
+805	Q	0.2832	
+806	D	0.2718	
+807	D	0.2673	
+808	D	0.2802	
+809	A	0.3100	
+810	R	0.3477	
+811	T	0.3894	
+812	D	0.4176	
+813	A	0.4281	
+814	V	0.4180	
+815	D	0.3941	
+816	S	0.3563	
+817	V	0.3044	
+818	V	0.2543	
+819	R	0.2154	
+820	D	0.1827	
+821	I	0.1599	
+822	Q	0.1475	
+823	N	0.1523	
+824	T	0.1575	
+825	Q	0.1568	
+826	C	0.1580	
+827	L	0.1585	
+828	L	0.1635	
+829	N	0.1631	
+830	V	0.1590	
+831	E	0.1437	
+832	H	0.1201	
+833	L	0.1059	
+834	S	0.0970	
+835	A	0.1007	
+836	G	0.1045	
+837	C	0.1270	
+838	P	0.1552	
+839	H	0.1804	
+840	V	0.1939	
+841	T	0.1967	
+842	L	0.1930	
+843	Q	0.1779	
+844	F	0.1617	
+845	A	0.1450	
+846	D	0.1349	
+847	S	0.1293	
+848	K	0.1264	
+849	G	0.1238	
+850	D	0.1218	
+851	V	0.1204	
+852	G	0.1156	
+853	L	0.1257	
+854	G	0.1265	
+855	L	0.1300	
+856	V	0.1329	
+857	K	0.1458	
+858	E	0.1494	
+859	G	0.1396	
+860	L	0.1303	
+861	V	0.1250	
+862	M	0.1245	
+863	V	0.1249	
+864	E	0.1239	
+865	V	0.1228	
+866	R	0.1136	
+867	K	0.1108	
+868	E	0.1074	
+869	K	0.1046	
+870	Q	0.1048	
+871	F	0.1180	
+872	Q	0.1395	
+873	K	0.1664	
+874	V	0.1855	
+875	I	0.2122	
+876	T	0.2320	
+877	E	0.2366	
+878	Y	0.2237	
+879	L	0.1999	
+880	N	0.1805	
+881	A	0.1629	
+882	Q	0.1448	
+883	E	0.1342	
+884	S	0.1224	
+885	A	0.1264	
+886	K	0.1354	
+887	S	0.1454	
+888	A	0.1602	
+889	R	0.1705	
+890	L	0.1866	
+891	N	0.1980	
+892	L	0.2015	
+893	W	0.1969	
+894	R	0.1877	
+895	Y	0.1768	
+896	G	0.1521	
+897	D	0.1290	
+898	F	0.1198	
+899	R	0.1275	
+900	A	0.1592	
+901	D	0.2092	
+902	D	0.2764	
+903	A	0.3545	
+904	D	0.4387	
+905	E	0.5238	
+906	F	0.6053	
+907	G	0.6800	
+908	Y	0.7460	
+909	S	0.8036	
+910	R	0.8560	

@@ -1,0 +1,611 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.0710	
+2	M	0.0626	
+3	N	0.0721	domain RRM 1
+4	K	0.0903	domain RRM 1
+5	L	0.1104	domain RRM 1
+6	Y	0.1278	domain RRM 1
+7	I	0.1399	domain RRM 1
+8	G	0.1455	domain RRM 1
+9	N	0.1451	domain RRM 1
+10	L	0.1400	domain RRM 1
+11	S	0.1293	domain RRM 1
+12	P	0.1269	domain RRM 1
+13	A	0.1258	domain RRM 1
+14	V	0.1326	domain RRM 1
+15	T	0.1454	domain RRM 1
+16	A	0.1693	domain RRM 1
+17	D	0.1937	domain RRM 1
+18	D	0.2187	domain RRM 1
+19	L	0.2427	domain RRM 1
+20	R	0.2571	domain RRM 1
+21	Q	0.2542	domain RRM 1
+22	L	0.2365	domain RRM 1
+23	F	0.2107	domain RRM 1
+24	G	0.1878	domain RRM 1
+25	D	0.1740	domain RRM 1
+26	R	0.1565	domain RRM 1
+27	K	0.1394	domain RRM 1
+28	L	0.1242	domain RRM 1
+29	P	0.1047	domain RRM 1
+30	L	0.1008	domain RRM 1
+31	A	0.0880	domain RRM 1
+32	G	0.0828	domain RRM 1
+33	Q	0.0785	domain RRM 1
+34	V	0.0796	domain RRM 1
+35	L	0.0796	domain RRM 1
+36	L	0.0873	domain RRM 1
+37	K	0.0965	domain RRM 1
+38	S	0.1034	domain RRM 1
+39	G	0.0994	domain RRM 1
+40	Y	0.0920	domain RRM 1
+41	A	0.0823	domain RRM 1
+42	F	0.0800	domain RRM 1
+43	V	0.0771	domain RRM 1
+44	D	0.0746	domain RRM 1
+45	Y	0.0705	domain RRM 1
+46	P	0.0699	domain RRM 1
+47	D	0.0803	domain RRM 1
+48	Q	0.0905	domain RRM 1
+49	N	0.0927	domain RRM 1
+50	W	0.1106	domain RRM 1
+51	A	0.1327	domain RRM 1
+52	I	0.1587	domain RRM 1
+53	R	0.1799	domain RRM 1
+54	A	0.1932	domain RRM 1
+55	I	0.2015	domain RRM 1
+56	E	0.2012	domain RRM 1
+57	T	0.1938	domain RRM 1
+58	L	0.1782	domain RRM 1
+59	S	0.1616	domain RRM 1
+60	G	0.1522	domain RRM 1
+61	K	0.1462	domain RRM 1
+62	V	0.1553	domain RRM 1
+63	E	0.1657	domain RRM 1
+64	L	0.1861	domain RRM 1
+65	H	0.2040	domain RRM 1
+66	G	0.2208	domain RRM 1
+67	K	0.2208	domain RRM 1
+68	I	0.2248	domain RRM 1
+69	M	0.2324	domain RRM 1
+70	E	0.2405	domain RRM 1
+71	V	0.2501	domain RRM 1
+72	D	0.2499	domain RRM 1
+73	Y	0.2471	domain RRM 1
+74	S	0.2334	domain RRM 1
+75	V	0.2382	domain RRM 1
+76	S	0.2318	domain RRM 1
+77	K	0.2411	
+78	K	0.2504	
+79	L	0.2644	
+80	R	0.2903	
+81	S	0.3223	
+82	R	0.3432	domain RRM 2
+83	K	0.3480	domain RRM 2
+84	I	0.3590	domain RRM 2
+85	Q	0.3541	domain RRM 2
+86	I	0.3444	domain RRM 2
+87	R	0.3275	domain RRM 2
+88	N	0.3097	domain RRM 2
+89	I	0.2848	domain RRM 2
+90	P	0.2610	domain RRM 2
+91	P	0.2483	domain RRM 2
+92	H	0.2195	domain RRM 2
+93	L	0.2094	domain RRM 2
+94	Q	0.1989	domain RRM 2
+95	W	0.2051	domain RRM 2
+96	E	0.2057	domain RRM 2
+97	V	0.2126	domain RRM 2
+98	L	0.2193	domain RRM 2
+99	D	0.2287	domain RRM 2
+100	G	0.2244	domain RRM 2
+101	L	0.2094	domain RRM 2
+102	L	0.1979	domain RRM 2
+103	A	0.2001	domain RRM 2
+104	Q	0.2148	domain RRM 2
+105	Y	0.2436	domain RRM 2
+106	G	0.2794	domain RRM 2
+107	T	0.3217	domain RRM 2
+108	V	0.3613	domain RRM 2
+109	E	0.4055	domain RRM 2
+110	N	0.4372	domain RRM 2
+111	V	0.4565	domain RRM 2
+112	E	0.4635	domain RRM 2
+113	Q	0.4647	domain RRM 2
+114	V	0.4523	domain RRM 2
+115	N	0.4446	domain RRM 2
+116	T	0.4350	domain RRM 2
+117	D	0.4350	domain RRM 2
+118	T	0.4431	domain RRM 2
+119	E	0.4507	domain RRM 2
+120	T	0.4576	domain RRM 2
+121	A	0.4624	domain RRM 2
+122	V	0.4713	domain RRM 2
+123	V	0.4798	domain RRM 2
+124	N	0.4758	domain RRM 2
+125	V	0.4663	domain RRM 2
+126	T	0.4242	domain RRM 2
+127	Y	0.3920	domain RRM 2
+128	A	0.3664	domain RRM 2
+129	T	0.3421	domain RRM 2
+130	R	0.3311	domain RRM 2
+131	E	0.3304	domain RRM 2
+132	E	0.3400	domain RRM 2
+133	A	0.3585	domain RRM 2
+134	K	0.3877	domain RRM 2
+135	I	0.4141	domain RRM 2
+136	A	0.4348	domain RRM 2
+137	M	0.4550	domain RRM 2
+138	E	0.4518	domain RRM 2
+139	K	0.4229	domain RRM 2
+140	L	0.3821	domain RRM 2
+141	S	0.3373	domain RRM 2
+142	G	0.3072	domain RRM 2
+143	H	0.2786	domain RRM 2
+144	Q	0.2507	domain RRM 2
+145	F	0.2445	domain RRM 2
+146	E	0.2515	domain RRM 2
+147	N	0.2752	domain RRM 2
+148	Y	0.2972	domain RRM 2
+149	S	0.3120	domain RRM 2
+150	F	0.3363	domain RRM 2
+151	K	0.3524	domain RRM 2
+152	I	0.3757	domain RRM 2
+153	S	0.3872	domain RRM 2
+154	Y	0.4045	domain RRM 2
+155	I	0.4318	domain RRM 2
+156	P	0.4645	domain RRM 2
+157	D	0.5019	domain RRM 2
+158	E	0.5370	
+159	E	0.5765	
+160	V	0.6300	
+161	S	0.6836	
+162	S	0.7409	
+163	P	0.7902	
+164	S	0.8386	
+165	P	0.8832	
+166	P	0.9095	
+167	Q	0.9232	
+168	R	0.9326	
+169	A	0.9354	
+170	Q	0.9408	
+171	R	0.9401	
+172	G	0.9429	
+173	D	0.9384	
+174	H	0.9413	
+175	S	0.9377	
+176	S	0.9369	
+177	R	0.9307	
+178	E	0.9264	
+179	Q	0.9149	
+180	G	0.9039	
+181	H	0.8905	
+182	A	0.8789	
+183	P	0.8539	
+184	G	0.8178	
+185	G	0.7614	
+186	T	0.7023	
+187	S	0.6487	
+188	Q	0.5971	
+189	A	0.5496	
+190	R	0.5071	
+191	Q	0.4735	
+192	I	0.4453	
+193	D	0.4120	domain KH 1
+194	F	0.3876	domain KH 1
+195	P	0.3466	domain KH 1
+196	L	0.3156	domain KH 1
+197	R	0.2679	domain KH 1
+198	I	0.2306	domain KH 1
+199	L	0.2026	domain KH 1
+200	V	0.1903	domain KH 1
+201	P	0.1906	domain KH 1
+202	T	0.1968	domain KH 1
+203	Q	0.1922	domain KH 1
+204	F	0.1960	domain KH 1
+205	V	0.2087	domain KH 1
+206	G	0.2265	domain KH 1
+207	A	0.2389	domain KH 1
+208	I	0.2428	domain KH 1
+209	I	0.2603	domain KH 1
+210	G	0.2809	domain KH 1
+211	K	0.3115	domain KH 1
+212	E	0.3406	domain KH 1
+213	G	0.3593	domain KH 1
+214	L	0.3843	domain KH 1
+215	T	0.3988	domain KH 1
+216	I	0.4246	domain KH 1
+217	K	0.4403	domain KH 1
+218	N	0.4580	domain KH 1
+219	I	0.4757	domain KH 1
+220	T	0.4937	domain KH 1
+221	K	0.5127	domain KH 1
+222	Q	0.5301	domain KH 1
+223	T	0.5454	domain KH 1
+224	Q	0.5748	domain KH 1
+225	S	0.6029	domain KH 1
+226	R	0.6331	domain KH 1
+227	V	0.6681	domain KH 1
+228	D	0.7005	domain KH 1
+229	I	0.7346	domain KH 1
+230	H	0.7411	domain KH 1
+231	R	0.7330	domain KH 1
+232	K	0.7072	domain KH 1
+233	E	0.6780	domain KH 1
+234	N	0.6582	domain KH 1
+235	S	0.6393	domain KH 1
+236	G	0.6339	domain KH 1
+237	A	0.6460	domain KH 1
+238	A	0.6747	domain KH 1
+239	E	0.7168	domain KH 1
+240	K	0.7562	domain KH 1
+241	P	0.7852	domain KH 1
+242	V	0.7968	domain KH 1
+243	T	0.7842	domain KH 1
+244	I	0.7652	domain KH 1
+245	H	0.7224	domain KH 1
+246	A	0.6756	domain KH 1
+247	T	0.6219	domain KH 1
+248	P	0.5680	domain KH 1
+249	E	0.5255	domain KH 1
+250	G	0.4879	domain KH 1
+251	T	0.4665	domain KH 1
+252	S	0.4599	domain KH 1
+253	E	0.4667	domain KH 1
+254	A	0.4837	domain KH 1
+255	C	0.5099	domain KH 1
+256	R	0.5278	domain KH 1
+257	M	0.5431	domain KH 1
+258	I	0.5360	domain KH 1
+259	L	0.5230	
+260	E	0.4943	
+261	I	0.4627	
+262	M	0.4372	
+263	Q	0.4195	
+264	K	0.4089	
+265	E	0.3917	
+266	A	0.3813	
+267	D	0.3779	
+268	E	0.3852	
+269	T	0.3925	
+270	K	0.3890	
+271	L	0.3882	
+272	A	0.3933	
+273	E	0.3948	
+274	E	0.3825	domain KH 2
+275	I	0.3630	domain KH 2
+276	P	0.3233	domain KH 2
+277	L	0.2882	domain KH 2
+278	K	0.2398	domain KH 2
+279	I	0.2059	domain KH 2
+280	L	0.1794	domain KH 2
+281	A	0.1738	domain KH 2
+282	H	0.1824	domain KH 2
+283	N	0.1913	domain KH 2
+284	G	0.1955	domain KH 2
+285	L	0.2033	domain KH 2
+286	V	0.2226	domain KH 2
+287	G	0.2460	domain KH 2
+288	R	0.2603	domain KH 2
+289	L	0.2651	domain KH 2
+290	I	0.2846	domain KH 2
+291	G	0.3159	domain KH 2
+292	K	0.3553	domain KH 2
+293	E	0.3847	domain KH 2
+294	G	0.4071	domain KH 2
+295	R	0.4353	domain KH 2
+296	N	0.4514	domain KH 2
+297	L	0.4679	domain KH 2
+298	K	0.4806	domain KH 2
+299	K	0.4926	domain KH 2
+300	I	0.5022	domain KH 2
+301	E	0.5081	domain KH 2
+302	H	0.5082	domain KH 2
+303	E	0.4898	domain KH 2
+304	T	0.4630	domain KH 2
+305	G	0.4395	domain KH 2
+306	T	0.4116	domain KH 2
+307	K	0.3845	domain KH 2
+308	I	0.3681	domain KH 2
+309	T	0.3669	domain KH 2
+310	I	0.3835	domain KH 2
+311	S	0.3896	domain KH 2
+312	S	0.3866	domain KH 2
+313	L	0.3833	domain KH 2
+314	Q	0.3732	domain KH 2
+315	D	0.3554	domain KH 2
+316	L	0.3394	domain KH 2
+317	S	0.3275	domain KH 2
+318	I	0.3196	domain KH 2
+319	Y	0.3234	domain KH 2
+320	N	0.3372	domain KH 2
+321	P	0.3526	domain KH 2
+322	E	0.3540	domain KH 2
+323	R	0.3542	domain KH 2
+324	T	0.3536	domain KH 2
+325	I	0.3590	domain KH 2
+326	T	0.3569	domain KH 2
+327	V	0.3692	domain KH 2
+328	K	0.3810	domain KH 2
+329	G	0.3829	domain KH 2
+330	T	0.3721	domain KH 2
+331	V	0.3628	domain KH 2
+332	E	0.3463	domain KH 2
+333	A	0.3288	domain KH 2
+334	C	0.2991	domain KH 2
+335	A	0.2737	domain KH 2
+336	S	0.2666	domain KH 2
+337	A	0.2630	domain KH 2
+338	E	0.2699	domain KH 2
+339	I	0.2869	domain KH 2
+340	E	0.2853	domain KH 2
+341	I	0.2828	domain KH 2
+342	M	0.2746	
+343	K	0.2642	
+344	K	0.2505	
+345	L	0.2573	
+346	R	0.2648	
+347	E	0.2733	
+348	A	0.2760	
+349	F	0.2820	
+350	E	0.2989	
+351	N	0.3215	
+352	D	0.3203	
+353	M	0.3175	
+354	L	0.3137	
+355	A	0.3049	
+356	V	0.3029	
+357	N	0.2968	
+358	Q	0.2826	
+359	Q	0.2567	
+360	A	0.2283	
+361	N	0.2003	
+362	L	0.1761	
+363	I	0.1640	
+364	P	0.1582	
+365	G	0.1542	
+366	L	0.1399	
+367	N	0.1221	
+368	L	0.1218	
+369	S	0.1188	
+370	A	0.1090	
+371	L	0.0974	
+372	G	0.0894	
+373	I	0.0954	
+374	F	0.1094	
+375	S	0.1388	
+376	T	0.1820	
+377	G	0.2034	
+378	L	0.2370	
+379	S	0.2757	
+380	V	0.3168	
+381	L	0.3635	
+382	S	0.4181	
+383	P	0.4671	
+384	P	0.4885	
+385	A	0.5021	
+386	G	0.5132	
+387	P	0.5297	
+388	R	0.5628	
+389	G	0.5909	
+390	A	0.6186	
+391	P	0.6436	
+392	P	0.6609	
+393	A	0.6670	
+394	A	0.6561	
+395	P	0.6094	
+396	Y	0.5443	
+397	H	0.4735	
+398	P	0.4087	
+399	F	0.3433	
+400	T	0.3074	
+401	T	0.2991	
+402	H	0.2885	
+403	S	0.2778	
+404	G	0.2616	
+405	Y	0.2521	
+406	F	0.2618	
+407	S	0.2784	
+408	S	0.2860	
+409	L	0.2816	
+410	Y	0.2776	
+411	P	0.2801	
+412	H	0.2969	
+413	H	0.3073	
+414	Q	0.3164	
+415	F	0.3423	
+416	G	0.3888	
+417	P	0.4261	
+418	F	0.4544	
+419	P	0.4704	
+420	H	0.4698	
+421	H	0.4496	
+422	H	0.4139	
+423	S	0.3660	
+424	Y	0.3344	
+425	P	0.3290	
+426	E	0.3388	
+427	Q	0.3366	domain KH 3
+428	E	0.3255	domain KH 3
+429	I	0.3187	domain KH 3
+430	V	0.3150	domain KH 3
+431	N	0.2879	domain KH 3
+432	L	0.2532	domain KH 3
+433	F	0.2127	domain KH 3
+434	I	0.1825	domain KH 3
+435	P	0.1715	domain KH 3
+436	T	0.1627	domain KH 3
+437	Q	0.1458	domain KH 3
+438	A	0.1500	domain KH 3
+439	V	0.1640	domain KH 3
+440	G	0.1829	domain KH 3
+441	A	0.2013	domain KH 3
+442	I	0.2102	domain KH 3
+443	I	0.2299	domain KH 3
+444	G	0.2522	domain KH 3
+445	K	0.2646	domain KH 3
+446	K	0.2646	domain KH 3
+447	G	0.2501	domain KH 3
+448	A	0.2349	domain KH 3
+449	H	0.2204	domain KH 3
+450	I	0.2158	domain KH 3
+451	K	0.2106	domain KH 3
+452	Q	0.2139	domain KH 3
+453	L	0.2303	domain KH 3
+454	A	0.2510	domain KH 3
+455	R	0.2636	domain KH 3
+456	F	0.2744	domain KH 3
+457	A	0.2826	domain KH 3
+458	G	0.3009	domain KH 3
+459	A	0.3210	domain KH 3
+460	S	0.3360	domain KH 3
+461	I	0.3576	domain KH 3
+462	K	0.3751	domain KH 3
+463	I	0.3938	domain KH 3
+464	A	0.3946	domain KH 3
+465	P	0.3859	domain KH 3
+466	A	0.3741	domain KH 3
+467	E	0.3529	domain KH 3
+468	G	0.3563	domain KH 3
+469	P	0.3683	domain KH 3
+470	D	0.3958	domain KH 3
+471	V	0.4306	domain KH 3
+472	S	0.4722	domain KH 3
+473	E	0.5176	domain KH 3
+474	R	0.5440	domain KH 3
+475	M	0.5583	domain KH 3
+476	V	0.5632	domain KH 3
+477	I	0.5459	domain KH 3
+478	I	0.5244	domain KH 3
+479	T	0.4961	domain KH 3
+480	G	0.4610	domain KH 3
+481	P	0.4232	domain KH 3
+482	P	0.3798	domain KH 3
+483	E	0.3546	domain KH 3
+484	A	0.3517	domain KH 3
+485	Q	0.3535	domain KH 3
+486	F	0.3746	domain KH 3
+487	K	0.3930	domain KH 3
+488	A	0.4171	domain KH 3
+489	Q	0.4231	domain KH 3
+490	G	0.4251	domain KH 3
+491	R	0.4129	domain KH 3
+492	I	0.3943	domain KH 3
+493	F	0.3758	
+494	G	0.3623	
+495	K	0.3446	
+496	L	0.3381	
+497	K	0.3408	
+498	E	0.3613	
+499	E	0.3692	
+500	N	0.3607	
+501	F	0.3477	
+502	F	0.3418	
+503	N	0.3515	
+504	P	0.3678	
+505	K	0.3733	
+506	E	0.3881	
+507	E	0.4065	
+508	V	0.4308	
+509	K	0.4464	domain KH 4
+510	L	0.4655	domain KH 4
+511	E	0.4729	domain KH 4
+512	A	0.4839	domain KH 4
+513	H	0.4722	domain KH 4
+514	I	0.4590	domain KH 4
+515	R	0.4412	domain KH 4
+516	V	0.4366	domain KH 4
+517	P	0.4299	domain KH 4
+518	S	0.4305	domain KH 4
+519	S	0.4235	domain KH 4
+520	T	0.4318	domain KH 4
+521	A	0.4611	domain KH 4
+522	G	0.4919	domain KH 4
+523	R	0.5062	domain KH 4
+524	V	0.5054	domain KH 4
+525	I	0.5032	domain KH 4
+526	G	0.5014	domain KH 4
+527	K	0.5030	domain KH 4
+528	G	0.4964	domain KH 4
+529	G	0.4795	domain KH 4
+530	K	0.4608	domain KH 4
+531	T	0.4304	domain KH 4
+532	V	0.4103	domain KH 4
+533	N	0.3922	domain KH 4
+534	E	0.3869	domain KH 4
+535	L	0.3856	domain KH 4
+536	Q	0.3957	domain KH 4
+537	N	0.4068	domain KH 4
+538	L	0.4210	domain KH 4
+539	T	0.4423	domain KH 4
+540	S	0.4791	domain KH 4
+541	A	0.5214	domain KH 4
+542	E	0.5491	domain KH 4
+543	V	0.5717	domain KH 4
+544	I	0.5972	domain KH 4
+545	V	0.6243	domain KH 4
+546	P	0.6236	domain KH 4
+547	R	0.6048	domain KH 4
+548	D	0.5704	domain KH 4
+549	Q	0.5340	domain KH 4
+550	T	0.4991	domain KH 4
+551	P	0.4700	domain KH 4
+552	D	0.4527	domain KH 4
+553	E	0.4395	domain KH 4
+554	N	0.4380	domain KH 4
+555	E	0.4475	domain KH 4
+556	E	0.4403	domain KH 4
+557	V	0.4347	domain KH 4
+558	I	0.4335	domain KH 4
+559	V	0.4224	domain KH 4
+560	R	0.3987	domain KH 4
+561	I	0.3726	domain KH 4
+562	I	0.3432	domain KH 4
+563	G	0.3186	domain KH 4
+564	H	0.2936	domain KH 4
+565	F	0.2668	domain KH 4
+566	F	0.2433	domain KH 4
+567	A	0.2384	domain KH 4
+568	S	0.2432	domain KH 4
+569	Q	0.2524	domain KH 4
+570	T	0.2617	domain KH 4
+571	A	0.2871	domain KH 4
+572	Q	0.3196	domain KH 4
+573	R	0.3557	domain KH 4
+574	K	0.3818	domain KH 4
+575	I	0.4131	domain KH 4
+576	R	0.4438	
+577	E	0.4715	
+578	I	0.4868	
+579	V	0.4945	
+580	Q	0.4938	
+581	Q	0.4856	
+582	V	0.4700	
+583	K	0.4505	
+584	Q	0.4455	
+585	Q	0.4532	
+586	E	0.4711	
+587	Q	0.4946	
+588	K	0.5197	
+589	Y	0.5578	
+590	P	0.5964	
+591	Q	0.6291	
+592	G	0.6550	
+593	V	0.6715	
+594	A	0.6770	
+595	S	0.6711	
+596	Q	0.6551	
+597	R	0.6320	
+598	S	0.6071	
+599	K	0.5880	

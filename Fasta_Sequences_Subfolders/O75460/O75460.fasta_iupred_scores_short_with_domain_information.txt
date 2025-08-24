@@ -1,0 +1,989 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.5699	
+2	P	0.3984	
+3	A	0.2732	
+4	R	0.1836	
+5	R	0.1209	
+6	L	0.0780	
+7	L	0.0492	
+8	L	0.0302	
+9	L	0.0178	
+10	L	0.0098	
+11	T	0.0074	
+12	L	0.0028	
+13	L	-0.0043	
+14	L	-0.0008	
+15	P	0.0025	
+16	G	0.0040	
+17	L	0.0076	
+18	G	0.0112	
+19	I	0.0165	
+20	F	0.0218	
+21	G	0.0285	
+22	S	0.0344	
+23	T	0.0298	
+24	S	0.0271	
+25	T	0.0265	
+26	V	0.0297	
+27	T	0.0385	
+28	L	0.0526	
+29	P	0.0661	
+30	E	0.0808	
+31	T	0.0839	
+32	L	0.0845	
+33	L	0.0824	
+34	F	0.0854	
+35	V	0.0833	
+36	S	0.0838	
+37	T	0.0796	
+38	L	0.0779	
+39	D	0.0859	
+40	G	0.1038	
+41	S	0.1102	
+42	L	0.1150	
+43	H	0.1221	
+44	A	0.1440	
+45	V	0.1640	
+46	S	0.1930	
+47	K	0.2214	
+48	R	0.2460	
+49	T	0.2578	
+50	G	0.2685	
+51	S	0.2765	
+52	I	0.2892	
+53	K	0.2979	
+54	W	0.3131	
+55	T	0.3213	
+56	L	0.3394	
+57	K	0.3538	
+58	E	0.3735	
+59	D	0.3771	
+60	P	0.3699	
+61	V	0.3646	
+62	L	0.3736	
+63	Q	0.3847	
+64	V	0.4123	
+65	P	0.4461	
+66	T	0.4784	
+67	H	0.5058	
+68	V	0.5335	
+69	E	0.5527	
+70	E	0.5643	
+71	P	0.5573	
+72	A	0.5415	
+73	F	0.5173	
+74	L	0.5027	
+75	P	0.4963	
+76	D	0.4987	
+77	P	0.4904	
+78	N	0.4902	
+79	D	0.4881	
+80	G	0.4939	
+81	S	0.4999	
+82	L	0.5112	
+83	Y	0.5154	
+84	T	0.5088	
+85	L	0.4928	
+86	G	0.4707	
+87	S	0.4432	
+88	K	0.4144	
+89	N	0.3825	
+90	N	0.3490	
+91	E	0.3221	
+92	G	0.3051	
+93	L	0.3068	
+94	T	0.3172	
+95	K	0.3268	
+96	L	0.3319	
+97	P	0.3284	
+98	F	0.3324	
+99	T	0.3306	
+100	I	0.3392	
+101	P	0.3372	
+102	E	0.3289	
+103	L	0.3109	
+104	V	0.2911	
+105	Q	0.2732	
+106	A	0.2565	
+107	S	0.2422	
+108	P	0.2331	
+109	C	0.2318	
+110	R	0.2384	
+111	S	0.2476	
+112	S	0.2573	
+113	D	0.2651	
+114	G	0.2526	
+115	I	0.2276	
+116	L	0.1949	
+117	Y	0.1573	
+118	M	0.1269	
+119	G	0.0958	
+120	K	0.0675	
+121	K	0.0466	
+122	Q	0.0396	
+123	D	0.0430	
+124	I	0.0522	
+125	W	0.0660	
+126	Y	0.0881	
+127	V	0.1058	
+128	I	0.1170	
+129	D	0.1203	
+130	L	0.1191	
+131	L	0.1072	
+132	T	0.0947	
+133	G	0.0825	
+134	E	0.0656	
+135	K	0.0610	
+136	Q	0.0742	
+137	Q	0.1046	
+138	T	0.1408	
+139	L	0.1804	
+140	S	0.2134	
+141	S	0.2341	
+142	A	0.2289	
+143	F	0.2140	
+144	A	0.1919	
+145	D	0.1678	
+146	S	0.1354	
+147	L	0.1037	
+148	C	0.0873	
+149	P	0.0798	
+150	S	0.0866	
+151	T	0.0958	
+152	S	0.0986	
+153	L	0.0997	
+154	L	0.0953	
+155	Y	0.0972	
+156	L	0.0980	
+157	G	0.1042	
+158	R	0.1104	
+159	T	0.1163	
+160	E	0.1107	
+161	Y	0.1100	
+162	T	0.1152	
+163	I	0.1270	
+164	T	0.1333	
+165	M	0.1358	
+166	Y	0.1364	
+167	D	0.1356	
+168	T	0.1343	
+169	K	0.1222	
+170	T	0.1078	
+171	R	0.0927	
+172	E	0.0746	
+173	L	0.0700	
+174	R	0.0682	
+175	W	0.0865	
+176	N	0.1062	
+177	A	0.1281	
+178	T	0.1356	
+179	Y	0.1354	
+180	F	0.1348	
+181	D	0.1364	
+182	Y	0.1360	
+183	A	0.1289	
+184	A	0.1217	
+185	S	0.1099	
+186	L	0.1022	
+187	P	0.1002	
+188	E	0.1135	
+189	D	0.1336	
+190	D	0.1542	
+191	V	0.1819	
+192	D	0.2035	
+193	Y	0.2269	
+194	K	0.2351	
+195	M	0.2402	
+196	S	0.2239	
+197	H	0.1919	
+198	F	0.1565	
+199	V	0.1348	
+200	S	0.1326	
+201	N	0.1425	
+202	G	0.1629	
+203	D	0.1763	
+204	G	0.1859	
+205	L	0.1926	
+206	V	0.1971	
+207	V	0.1893	
+208	T	0.1697	
+209	V	0.1490	
+210	D	0.1233	
+211	S	0.1069	
+212	E	0.0947	
+213	S	0.0941	
+214	G	0.0954	
+215	D	0.0923	
+216	V	0.0825	
+217	L	0.0710	
+218	W	0.0636	
+219	I	0.0591	
+220	Q	0.0503	
+221	N	0.0343	
+222	Y	0.0198	
+223	A	0.0094	
+224	S	0.0051	
+225	P	0.0056	
+226	V	0.0083	
+227	V	0.0136	
+228	A	0.0155	
+229	F	0.0188	
+230	Y	0.0199	
+231	V	0.0197	
+232	W	0.0192	
+233	Q	0.0166	
+234	R	0.0138	
+235	E	0.0109	
+236	G	0.0087	
+237	L	0.0097	
+238	R	0.0138	
+239	K	0.0189	
+240	V	0.0221	
+241	M	0.0241	
+242	H	0.0268	
+243	I	0.0286	
+244	N	0.0259	
+245	V	0.0250	
+246	A	0.0226	
+247	V	0.0207	
+248	E	0.0213	
+249	T	0.0234	
+250	L	0.0285	
+251	R	0.0323	
+252	Y	0.0403	
+253	L	0.0459	
+254	T	0.0513	
+255	F	0.0536	
+256	M	0.0504	
+257	S	0.0498	
+258	G	0.0481	
+259	E	0.0480	
+260	V	0.0563	
+261	G	0.0712	
+262	R	0.1000	
+263	I	0.1346	
+264	T	0.1660	
+265	K	0.1964	
+266	W	0.2184	
+267	K	0.2369	
+268	Y	0.2578	
+269	P	0.2628	
+270	F	0.2617	
+271	P	0.2523	
+272	K	0.2517	
+273	E	0.2439	
+274	T	0.2338	
+275	E	0.2321	
+276	A	0.2394	
+277	K	0.2508	
+278	S	0.2641	
+279	K	0.2691	
+280	L	0.2748	
+281	T	0.2735	
+282	P	0.2714	
+283	T	0.2611	
+284	L	0.2351	
+285	Y	0.2093	
+286	V	0.2006	
+287	G	0.1932	
+288	K	0.1895	
+289	Y	0.1915	
+290	S	0.2037	
+291	T	0.2115	
+292	S	0.2097	
+293	L	0.2025	
+294	Y	0.1977	
+295	A	0.2083	
+296	S	0.2244	
+297	P	0.2366	
+298	S	0.2506	
+299	M	0.2652	
+300	V	0.2904	
+301	H	0.3136	
+302	E	0.3286	
+303	G	0.3323	
+304	V	0.3354	
+305	A	0.3367	
+306	V	0.3462	
+307	V	0.3571	
+308	P	0.3752	
+309	R	0.3988	
+310	G	0.4113	
+311	S	0.4216	
+312	T	0.4306	
+313	L	0.4456	
+314	P	0.4591	
+315	L	0.4734	
+316	L	0.4874	
+317	E	0.5011	
+318	G	0.5105	
+319	P	0.5101	
+320	Q	0.5057	
+321	T	0.4907	
+322	D	0.4770	
+323	G	0.4617	
+324	V	0.4612	
+325	T	0.4641	
+326	I	0.4756	
+327	G	0.4773	
+328	D	0.4751	
+329	K	0.4658	
+330	G	0.4480	
+331	E	0.4205	
+332	C	0.3905	
+333	V	0.3621	
+334	I	0.3503	
+335	T	0.3513	
+336	P	0.3594	
+337	S	0.3676	
+338	T	0.3731	
+339	D	0.3674	
+340	V	0.3616	
+341	K	0.3533	
+342	F	0.3502	
+343	D	0.3448	
+344	P	0.3380	
+345	G	0.3135	
+346	L	0.2864	
+347	K	0.2519	
+348	S	0.2164	
+349	K	0.1794	
+350	N	0.1387	
+351	K	0.1056	
+352	L	0.0917	
+353	N	0.0861	
+354	Y	0.0949	
+355	L	0.1072	
+356	R	0.1183	
+357	N	0.1200	
+358	Y	0.1179	
+359	W	0.1162	
+360	L	0.1178	
+361	L	0.1272	
+362	I	0.1382	
+363	G	0.1441	
+364	H	0.1462	
+365	H	0.1563	
+366	E	0.1761	
+367	T	0.2015	
+368	P	0.2275	
+369	L	0.2612	
+370	S	0.2949	
+371	A	0.3336	
+372	S	0.3700	
+373	T	0.4057	
+374	K	0.4331	
+375	M	0.4490	
+376	L	0.4537	
+377	E	0.4514	
+378	R	0.4456	
+379	F	0.4417	
+380	P	0.4375	
+381	N	0.4375	
+382	N	0.4363	
+383	L	0.4422	
+384	P	0.4503	
+385	K	0.4676	
+386	H	0.4856	
+387	R	0.5037	
+388	E	0.5188	
+389	N	0.5364	
+390	V	0.5436	
+391	I	0.5465	
+392	P	0.5397	
+393	A	0.5258	
+394	D	0.5015	
+395	S	0.4818	
+396	E	0.4684	
+397	K	0.4571	
+398	K	0.4550	
+399	S	0.4615	
+400	F	0.4763	
+401	E	0.4968	
+402	E	0.5208	
+403	V	0.5380	
+404	I	0.5499	
+405	N	0.5569	
+406	L	0.5548	
+407	V	0.5495	
+408	D	0.5414	
+409	Q	0.5371	
+410	T	0.5387	
+411	S	0.5506	
+412	E	0.5643	
+413	N	0.5868	
+414	A	0.6147	
+415	P	0.6410	
+416	T	0.6606	
+417	T	0.6734	
+418	V	0.6790	
+419	S	0.6850	
+420	R	0.6924	
+421	D	0.6807	
+422	V	0.6674	
+423	E	0.6625	
+424	E	0.6625	
+425	K	0.6534	
+426	P	0.6413	
+427	A	0.6326	
+428	H	0.6110	
+429	A	0.5937	
+430	P	0.5728	
+431	A	0.5592	
+432	R	0.5413	
+433	P	0.5150	
+434	E	0.4811	
+435	A	0.4427	
+436	P	0.3980	
+437	V	0.3572	
+438	D	0.3136	
+439	S	0.2617	
+440	M	0.2071	
+441	L	0.1610	
+442	K	0.1264	
+443	D	0.0920	
+444	M	0.0646	
+445	A	0.0457	
+446	T	0.0242	
+447	I	0.0101	
+448	I	0.0000	
+449	L	0.0024	
+450	S	0.0049	
+451	T	0.0053	
+452	F	0.0040	
+453	L	0.0015	
+454	L	0.0008	
+455	I	0.0014	
+456	G	0.0011	
+457	W	0.0019	
+458	V	0.0018	
+459	A	0.0025	
+460	F	0.0025	
+461	I	0.0031	
+462	I	0.0061	
+463	T	0.0099	
+464	Y	0.0091	
+465	P	0.0084	
+466	L	0.0148	
+467	S	0.0129	
+468	M	0.0315	
+469	H	0.0499	
+470	Q	0.0776	
+471	Q	0.1140	
+472	Q	0.1554	
+473	Q	0.1944	
+474	L	0.2278	
+475	Q	0.2526	
+476	H	0.2707	
+477	Q	0.2698	
+478	Q	0.2652	
+479	F	0.2566	
+480	Q	0.2590	
+481	K	0.2766	
+482	E	0.2910	
+483	L	0.3073	
+484	E	0.3314	
+485	K	0.3508	
+486	I	0.3809	
+487	Q	0.4049	
+488	L	0.4377	
+489	L	0.4675	
+490	Q	0.5012	
+491	Q	0.5314	
+492	Q	0.5590	
+493	Q	0.5941	
+494	Q	0.6349	
+495	Q	0.6661	
+496	L	0.6989	
+497	P	0.7247	
+498	F	0.7508	
+499	H	0.7791	
+500	P	0.8046	
+501	P	0.8179	
+502	G	0.8234	
+503	D	0.8280	
+504	T	0.8262	
+505	A	0.8268	
+506	Q	0.8338	
+507	D	0.8375	
+508	G	0.8382	
+509	E	0.8296	
+510	L	0.8135	
+511	L	0.7989	
+512	D	0.7814	
+513	T	0.7617	
+514	S	0.7412	
+515	G	0.7272	
+516	P	0.7171	
+517	Y	0.7110	
+518	S	0.7154	
+519	E	0.7216	
+520	S	0.7256	
+521	S	0.7274	
+522	G	0.7285	
+523	T	0.7269	
+524	S	0.7242	
+525	S	0.7211	
+526	P	0.7105	
+527	S	0.6959	
+528	T	0.6807	
+529	S	0.6708	
+530	P	0.6643	
+531	R	0.6595	
+532	A	0.6488	
+533	S	0.6388	
+534	N	0.6352	
+535	H	0.6300	
+536	S	0.6208	
+537	L	0.6125	
+538	C	0.6030	
+539	S	0.5942	
+540	G	0.5889	
+541	S	0.5836	
+542	S	0.5773	
+543	A	0.5771	
+544	S	0.5806	
+545	K	0.5909	
+546	A	0.6060	
+547	G	0.6284	
+548	S	0.6558	
+549	S	0.6783	
+550	P	0.6853	
+551	S	0.6848	
+552	L	0.6749	
+553	E	0.6609	
+554	Q	0.6482	
+555	D	0.6219	
+556	D	0.5897	
+557	G	0.5541	
+558	D	0.5235	
+559	E	0.5023	
+560	E	0.4825	
+561	T	0.4629	
+562	S	0.4378	
+563	V	0.4149	
+564	V	0.3871	
+565	I	0.3597	
+566	V	0.3301	
+567	G	0.2987	
+568	K	0.2670	
+569	I	0.2413	
+570	S	0.2141	
+571	F	0.1978	domain Protein kinase
+572	C	0.1915	domain Protein kinase
+573	P	0.1913	domain Protein kinase
+574	K	0.1924	domain Protein kinase
+575	D	0.1810	domain Protein kinase
+576	V	0.1688	domain Protein kinase
+577	L	0.1581	domain Protein kinase
+578	G	0.1531	domain Protein kinase
+579	H	0.1489	domain Protein kinase
+580	G	0.1427	domain Protein kinase
+581	A	0.1426	domain Protein kinase
+582	E	0.1435	domain Protein kinase
+583	G	0.1505	domain Protein kinase
+584	T	0.1550	domain Protein kinase
+585	I	0.1572	domain Protein kinase
+586	V	0.1525	domain Protein kinase
+587	Y	0.1464	domain Protein kinase
+588	R	0.1400	domain Protein kinase
+589	G	0.1281	domain Protein kinase
+590	M	0.1088	domain Protein kinase
+591	F	0.0982	domain Protein kinase
+592	D	0.0892	domain Protein kinase
+593	N	0.0794	domain Protein kinase
+594	R	0.0660	domain Protein kinase
+595	D	0.0539	domain Protein kinase
+596	V	0.0506	domain Protein kinase
+597	A	0.0545	domain Protein kinase
+598	V	0.0644	domain Protein kinase
+599	K	0.0750	domain Protein kinase
+600	R	0.0819	domain Protein kinase
+601	I	0.0859	domain Protein kinase
+602	L	0.0877	domain Protein kinase
+603	P	0.0866	domain Protein kinase
+604	E	0.0823	domain Protein kinase
+605	C	0.0698	domain Protein kinase
+606	F	0.0590	domain Protein kinase
+607	S	0.0589	domain Protein kinase
+608	F	0.0719	domain Protein kinase
+609	A	0.0860	domain Protein kinase
+610	D	0.1113	domain Protein kinase
+611	R	0.1408	domain Protein kinase
+612	E	0.1670	domain Protein kinase
+613	V	0.1919	domain Protein kinase
+614	Q	0.2031	domain Protein kinase
+615	L	0.2068	domain Protein kinase
+616	L	0.1969	domain Protein kinase
+617	R	0.1831	domain Protein kinase
+618	E	0.1607	domain Protein kinase
+619	S	0.1377	domain Protein kinase
+620	D	0.1171	domain Protein kinase
+621	E	0.1114	domain Protein kinase
+622	H	0.1222	domain Protein kinase
+623	P	0.1313	domain Protein kinase
+624	N	0.1429	domain Protein kinase
+625	V	0.1575	domain Protein kinase
+626	I	0.1718	domain Protein kinase
+627	R	0.1713	domain Protein kinase
+628	Y	0.1631	domain Protein kinase
+629	F	0.1402	domain Protein kinase
+630	C	0.1124	domain Protein kinase
+631	T	0.0833	domain Protein kinase
+632	E	0.0558	domain Protein kinase
+633	K	0.0324	domain Protein kinase
+634	D	0.0133	domain Protein kinase
+635	R	0.0113	domain Protein kinase
+636	Q	0.0136	domain Protein kinase
+637	F	0.0215	domain Protein kinase
+638	Q	0.0259	domain Protein kinase
+639	Y	0.0302	domain Protein kinase
+640	I	0.0347	domain Protein kinase
+641	A	0.0386	domain Protein kinase
+642	I	0.0409	domain Protein kinase
+643	E	0.0390	domain Protein kinase
+644	L	0.0356	domain Protein kinase
+645	C	0.0327	domain Protein kinase
+646	A	0.0321	domain Protein kinase
+647	A	0.0285	domain Protein kinase
+648	T	0.0260	domain Protein kinase
+649	L	0.0253	domain Protein kinase
+650	Q	0.0291	domain Protein kinase
+651	E	0.0357	domain Protein kinase
+652	Y	0.0424	domain Protein kinase
+653	V	0.0491	domain Protein kinase
+654	E	0.0581	domain Protein kinase
+655	Q	0.0669	domain Protein kinase
+656	K	0.0684	domain Protein kinase
+657	D	0.0659	domain Protein kinase
+658	F	0.0698	domain Protein kinase
+659	A	0.0804	domain Protein kinase
+660	H	0.0932	domain Protein kinase
+661	L	0.1082	domain Protein kinase
+662	G	0.1194	domain Protein kinase
+663	L	0.1290	domain Protein kinase
+664	E	0.1388	domain Protein kinase
+665	P	0.1435	domain Protein kinase
+666	I	0.1417	domain Protein kinase
+667	T	0.1380	domain Protein kinase
+668	L	0.1395	domain Protein kinase
+669	L	0.1401	domain Protein kinase
+670	Q	0.1364	domain Protein kinase
+671	Q	0.1376	domain Protein kinase
+672	T	0.1410	domain Protein kinase
+673	T	0.1430	domain Protein kinase
+674	S	0.1404	domain Protein kinase
+675	G	0.1324	domain Protein kinase
+676	L	0.1349	domain Protein kinase
+677	A	0.1489	domain Protein kinase
+678	H	0.1774	domain Protein kinase
+679	L	0.2052	domain Protein kinase
+680	H	0.2265	domain Protein kinase
+681	S	0.2409	domain Protein kinase
+682	L	0.2359	domain Protein kinase
+683	N	0.2196	domain Protein kinase
+684	I	0.1957	domain Protein kinase
+685	V	0.1663	domain Protein kinase
+686	H	0.1432	domain Protein kinase
+687	R	0.1266	domain Protein kinase
+688	D	0.1152	domain Protein kinase
+689	L	0.1243	domain Protein kinase
+690	K	0.1460	domain Protein kinase
+691	P	0.1870	domain Protein kinase
+692	H	0.2247	domain Protein kinase
+693	N	0.2457	domain Protein kinase
+694	I	0.2675	domain Protein kinase
+695	L	0.2833	domain Protein kinase
+696	I	0.3026	domain Protein kinase
+697	S	0.3115	domain Protein kinase
+698	M	0.3082	domain Protein kinase
+699	P	0.2835	domain Protein kinase
+700	N	0.2476	domain Protein kinase
+701	A	0.2119	domain Protein kinase
+702	H	0.1932	domain Protein kinase
+703	G	0.1818	domain Protein kinase
+704	K	0.1768	domain Protein kinase
+705	I	0.1810	domain Protein kinase
+706	K	0.1771	domain Protein kinase
+707	A	0.1798	domain Protein kinase
+708	M	0.1795	domain Protein kinase
+709	I	0.1885	domain Protein kinase
+710	S	0.1842	domain Protein kinase
+711	D	0.1683	domain Protein kinase
+712	F	0.1464	domain Protein kinase
+713	G	0.1266	domain Protein kinase
+714	L	0.1228	domain Protein kinase
+715	C	0.1259	domain Protein kinase
+716	K	0.1395	domain Protein kinase
+717	K	0.1448	domain Protein kinase
+718	L	0.1480	domain Protein kinase
+719	A	0.1552	domain Protein kinase
+720	V	0.1845	domain Protein kinase
+721	G	0.2241	domain Protein kinase
+722	R	0.2615	domain Protein kinase
+723	H	0.2878	domain Protein kinase
+724	S	0.3047	domain Protein kinase
+725	F	0.3317	domain Protein kinase
+726	S	0.3548	domain Protein kinase
+727	R	0.3791	domain Protein kinase
+728	R	0.3862	domain Protein kinase
+729	S	0.3913	domain Protein kinase
+730	G	0.3876	domain Protein kinase
+731	V	0.3856	domain Protein kinase
+732	P	0.3886	domain Protein kinase
+733	G	0.3887	domain Protein kinase
+734	T	0.3859	domain Protein kinase
+735	E	0.3866	domain Protein kinase
+736	G	0.3767	domain Protein kinase
+737	W	0.3731	domain Protein kinase
+738	I	0.3775	domain Protein kinase
+739	A	0.3881	domain Protein kinase
+740	P	0.3993	domain Protein kinase
+741	E	0.3904	domain Protein kinase
+742	M	0.3676	domain Protein kinase
+743	L	0.3414	domain Protein kinase
+744	S	0.3209	domain Protein kinase
+745	E	0.3071	domain Protein kinase
+746	D	0.2813	domain Protein kinase
+747	C	0.2612	domain Protein kinase
+748	K	0.2473	domain Protein kinase
+749	E	0.2365	domain Protein kinase
+750	N	0.2280	domain Protein kinase
+751	P	0.2157	domain Protein kinase
+752	T	0.1878	domain Protein kinase
+753	Y	0.1591	domain Protein kinase
+754	T	0.1244	domain Protein kinase
+755	V	0.0939	domain Protein kinase
+756	D	0.0608	domain Protein kinase
+757	I	0.0403	domain Protein kinase
+758	F	0.0320	domain Protein kinase
+759	S	0.0288	domain Protein kinase
+760	A	0.0271	domain Protein kinase
+761	G	0.0252	domain Protein kinase
+762	C	0.0291	domain Protein kinase
+763	V	0.0342	domain Protein kinase
+764	F	0.0363	domain Protein kinase
+765	Y	0.0375	domain Protein kinase
+766	Y	0.0365	domain Protein kinase
+767	V	0.0364	domain Protein kinase
+768	I	0.0378	domain Protein kinase
+769	S	0.0437	domain Protein kinase
+770	E	0.0503	domain Protein kinase
+771	G	0.0521	domain Protein kinase
+772	S	0.0611	domain Protein kinase
+773	H	0.0746	domain Protein kinase
+774	P	0.0910	domain Protein kinase
+775	F	0.1076	domain Protein kinase
+776	G	0.1216	domain Protein kinase
+777	K	0.1353	domain Protein kinase
+778	S	0.1400	domain Protein kinase
+779	L	0.1361	domain Protein kinase
+780	Q	0.1241	domain Protein kinase
+781	R	0.1096	domain Protein kinase
+782	Q	0.0905	domain Protein kinase
+783	A	0.0728	domain Protein kinase
+784	N	0.0546	domain Protein kinase
+785	I	0.0458	domain Protein kinase
+786	L	0.0493	domain Protein kinase
+787	L	0.0683	domain Protein kinase
+788	G	0.0898	domain Protein kinase
+789	A	0.0986	domain Protein kinase
+790	C	0.1032	domain Protein kinase
+791	S	0.1091	domain Protein kinase
+792	L	0.1187	domain Protein kinase
+793	D	0.1151	domain Protein kinase
+794	C	0.1135	domain Protein kinase
+795	L	0.1150	domain Protein kinase
+796	H	0.1257	domain Protein kinase
+797	P	0.1405	domain Protein kinase
+798	E	0.1544	domain Protein kinase
+799	K	0.1705	domain Protein kinase
+800	H	0.1860	domain Protein kinase
+801	E	0.2040	domain Protein kinase
+802	D	0.2218	domain Protein kinase
+803	V	0.2391	domain Protein kinase
+804	I	0.2566	domain Protein kinase
+805	A	0.2844	domain Protein kinase
+806	R	0.3115	domain Protein kinase
+807	E	0.3214	domain Protein kinase
+808	L	0.3218	domain Protein kinase
+809	I	0.3344	domain Protein kinase
+810	E	0.3566	domain Protein kinase
+811	K	0.3674	domain Protein kinase
+812	M	0.3620	domain Protein kinase
+813	I	0.3530	domain Protein kinase
+814	A	0.3587	domain Protein kinase
+815	M	0.3798	domain Protein kinase
+816	D	0.3923	domain Protein kinase
+817	P	0.4013	domain Protein kinase
+818	Q	0.4023	domain Protein kinase
+819	K	0.3962	domain Protein kinase
+820	R	0.3839	domain Protein kinase
+821	P	0.3735	domain Protein kinase
+822	S	0.3588	domain Protein kinase
+823	A	0.3504	domain Protein kinase
+824	K	0.3471	domain Protein kinase
+825	H	0.3319	domain Protein kinase
+826	V	0.3049	domain Protein kinase
+827	L	0.2839	domain Protein kinase
+828	K	0.2734	domain Protein kinase
+829	H	0.2600	domain Protein kinase
+830	P	0.2197	domain Protein kinase
+831	F	0.1791	domain Protein kinase
+832	F	0.1434	domain Protein kinase
+833	W	0.1284	
+834	S	0.1162	
+835	L	0.1123	domain KEN
+836	E	0.1130	domain KEN
+837	K	0.1224	domain KEN
+838	Q	0.1286	domain KEN
+839	L	0.1374	domain KEN
+840	Q	0.1469	domain KEN
+841	F	0.1710	domain KEN
+842	F	0.2014	domain KEN
+843	Q	0.2310	domain KEN
+844	D	0.2583	domain KEN
+845	V	0.2776	domain KEN
+846	S	0.2953	domain KEN
+847	D	0.3101	domain KEN
+848	R	0.3029	domain KEN
+849	I	0.2908	domain KEN
+850	E	0.2785	domain KEN
+851	K	0.2833	domain KEN
+852	E	0.2951	domain KEN
+853	S	0.3082	domain KEN
+854	L	0.3277	domain KEN
+855	D	0.3503	domain KEN
+856	G	0.3742	domain KEN
+857	P	0.3763	domain KEN
+858	I	0.3676	domain KEN
+859	V	0.3543	domain KEN
+860	K	0.3448	domain KEN
+861	Q	0.3312	domain KEN
+862	L	0.3214	domain KEN
+863	E	0.2998	domain KEN
+864	R	0.2924	domain KEN
+865	G	0.2883	domain KEN
+866	G	0.2796	domain KEN
+867	R	0.2666	domain KEN
+868	A	0.2625	domain KEN
+869	V	0.2699	domain KEN
+870	V	0.2737	domain KEN
+871	K	0.2823	domain KEN
+872	M	0.2879	domain KEN
+873	D	0.2782	domain KEN
+874	W	0.2801	domain KEN
+875	R	0.2729	domain KEN
+876	E	0.2639	domain KEN
+877	N	0.2409	domain KEN
+878	I	0.2264	domain KEN
+879	T	0.2177	domain KEN
+880	V	0.2231	domain KEN
+881	P	0.2230	domain KEN
+882	L	0.2425	domain KEN
+883	Q	0.2611	domain KEN
+884	T	0.2833	domain KEN
+885	D	0.2918	domain KEN
+886	L	0.3008	domain KEN
+887	R	0.3072	domain KEN
+888	K	0.3079	domain KEN
+889	F	0.3063	domain KEN
+890	R	0.2989	domain KEN
+891	T	0.2887	domain KEN
+892	Y	0.2776	domain KEN
+893	K	0.2767	domain KEN
+894	G	0.2928	domain KEN
+895	G	0.2985	domain KEN
+896	S	0.3085	domain KEN
+897	V	0.3234	domain KEN
+898	R	0.3455	domain KEN
+899	D	0.3572	domain KEN
+900	L	0.3680	domain KEN
+901	L	0.3724	domain KEN
+902	R	0.3763	domain KEN
+903	A	0.3626	domain KEN
+904	M	0.3473	domain KEN
+905	R	0.3360	domain KEN
+906	N	0.3273	domain KEN
+907	K	0.3236	domain KEN
+908	K	0.3241	domain KEN
+909	H	0.3336	domain KEN
+910	H	0.3325	domain KEN
+911	Y	0.3435	domain KEN
+912	R	0.3593	domain KEN
+913	E	0.3689	domain KEN
+914	L	0.3742	domain KEN
+915	P	0.3697	domain KEN
+916	A	0.3567	domain KEN
+917	E	0.3267	domain KEN
+918	V	0.2866	domain KEN
+919	R	0.2460	domain KEN
+920	E	0.2077	domain KEN
+921	T	0.1637	domain KEN
+922	L	0.1267	domain KEN
+923	G	0.0998	domain KEN
+924	S	0.0791	domain KEN
+925	L	0.0718	domain KEN
+926	P	0.0691	domain KEN
+927	D	0.0708	domain KEN
+928	D	0.0651	domain KEN
+929	F	0.0594	domain KEN
+930	V	0.0503	domain KEN
+931	C	0.0440	domain KEN
+932	Y	0.0338	domain KEN
+933	F	0.0306	domain KEN
+934	T	0.0306	domain KEN
+935	S	0.0287	domain KEN
+936	R	0.0220	domain KEN
+937	F	0.0175	domain KEN
+938	P	0.0174	domain KEN
+939	H	0.0226	domain KEN
+940	L	0.0273	domain KEN
+941	L	0.0333	domain KEN
+942	A	0.0439	domain KEN
+943	H	0.0549	domain KEN
+944	T	0.0654	domain KEN
+945	Y	0.0760	domain KEN
+946	R	0.0805	domain KEN
+947	A	0.0836	domain KEN
+948	M	0.0793	domain KEN
+949	E	0.0729	domain KEN
+950	L	0.0674	domain KEN
+951	C	0.0637	domain KEN
+952	S	0.0727	domain KEN
+953	H	0.0893	domain KEN
+954	E	0.1065	domain KEN
+955	R	0.1315	domain KEN
+956	L	0.1655	domain KEN
+957	F	0.2115	domain KEN
+958	Q	0.2616	domain KEN
+959	P	0.3162	domain KEN
+960	Y	0.3615	domain KEN
+961	Y	0.3980	domain KEN
+962	F	0.4338	domain KEN
+963	H	0.4635	domain KEN
+964	E	0.4862	
+965	P	0.5076	
+966	P	0.5289	
+967	E	0.5610	
+968	P	0.6058	
+969	Q	0.6593	
+970	P	0.7203	
+971	P	0.7859	
+972	V	0.8522	
+973	T	0.9136	
+974	P	0.9639	
+975	D	0.9954	
+976	A	0.9993	
+977	L	0.9659	

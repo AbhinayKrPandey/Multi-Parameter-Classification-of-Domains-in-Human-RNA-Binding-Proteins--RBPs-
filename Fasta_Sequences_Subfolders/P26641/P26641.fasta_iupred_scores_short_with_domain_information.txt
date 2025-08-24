@@ -1,0 +1,449 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.6940	
+2	A	0.6456	domain GST N-terminal
+3	A	0.5733	domain GST N-terminal
+4	G	0.4877	domain GST N-terminal
+5	T	0.3978	domain GST N-terminal
+6	L	0.3102	domain GST N-terminal
+7	Y	0.2303	domain GST N-terminal
+8	T	0.1616	domain GST N-terminal
+9	Y	0.1063	domain GST N-terminal
+10	P	0.0654	domain GST N-terminal
+11	E	0.0415	domain GST N-terminal
+12	N	0.0211	domain GST N-terminal
+13	W	0.0212	domain GST N-terminal
+14	R	0.0303	domain GST N-terminal
+15	A	0.0433	domain GST N-terminal
+16	F	0.0621	domain GST N-terminal
+17	K	0.0753	domain GST N-terminal
+18	A	0.0826	domain GST N-terminal
+19	L	0.0764	domain GST N-terminal
+20	I	0.0739	domain GST N-terminal
+21	A	0.0716	domain GST N-terminal
+22	A	0.0741	domain GST N-terminal
+23	Q	0.0746	domain GST N-terminal
+24	Y	0.0751	domain GST N-terminal
+25	S	0.0769	domain GST N-terminal
+26	G	0.0921	domain GST N-terminal
+27	A	0.1107	domain GST N-terminal
+28	Q	0.1308	domain GST N-terminal
+29	V	0.1602	domain GST N-terminal
+30	R	0.1769	domain GST N-terminal
+31	V	0.2047	domain GST N-terminal
+32	L	0.2389	domain GST N-terminal
+33	S	0.2796	domain GST N-terminal
+34	A	0.3130	domain GST N-terminal
+35	P	0.3457	domain GST N-terminal
+36	P	0.3703	domain GST N-terminal
+37	H	0.3766	domain GST N-terminal
+38	F	0.3815	domain GST N-terminal
+39	H	0.3805	domain GST N-terminal
+40	F	0.3931	domain GST N-terminal
+41	G	0.3947	domain GST N-terminal
+42	Q	0.3920	domain GST N-terminal
+43	T	0.3872	domain GST N-terminal
+44	N	0.3869	domain GST N-terminal
+45	R	0.3841	domain GST N-terminal
+46	T	0.3830	domain GST N-terminal
+47	P	0.3780	domain GST N-terminal
+48	E	0.3590	domain GST N-terminal
+49	F	0.3475	domain GST N-terminal
+50	L	0.3463	domain GST N-terminal
+51	R	0.3596	domain GST N-terminal
+52	K	0.3726	domain GST N-terminal
+53	F	0.3764	domain GST N-terminal
+54	P	0.3662	domain GST N-terminal
+55	A	0.3448	domain GST N-terminal
+56	G	0.3056	domain GST N-terminal
+57	K	0.2694	domain GST N-terminal
+58	V	0.2455	domain GST N-terminal
+59	P	0.2223	domain GST N-terminal
+60	A	0.2124	domain GST N-terminal
+61	F	0.2089	domain GST N-terminal
+62	E	0.2097	domain GST N-terminal
+63	G	0.2161	domain GST N-terminal
+64	D	0.2150	domain GST N-terminal
+65	D	0.2007	domain GST N-terminal
+66	G	0.1759	domain GST N-terminal
+67	F	0.1453	domain GST N-terminal
+68	C	0.1179	domain GST N-terminal
+69	V	0.1026	domain GST N-terminal
+70	F	0.0989	domain GST N-terminal
+71	E	0.0960	domain GST N-terminal
+72	S	0.0943	domain GST N-terminal
+73	N	0.0927	domain GST N-terminal
+74	A	0.0889	domain GST N-terminal
+75	I	0.0990	domain GST N-terminal
+76	A	0.1084	domain GST N-terminal
+77	Y	0.1249	domain GST N-terminal
+78	Y	0.1492	domain GST N-terminal
+79	V	0.1709	domain GST N-terminal
+80	S	0.1945	domain GST N-terminal
+81	N	0.2200	domain GST N-terminal
+82	E	0.2262	domain GST N-terminal
+83	E	0.2240	domain GST N-terminal
+84	L	0.2211	domain GST N-terminal
+85	R	0.2156	domain GST N-terminal
+86	G	0.2163	domain GST N-terminal
+87	S	0.2139	domain GST N-terminal
+88	T	0.2168	domain GST C-terminal
+89	P	0.2285	domain GST C-terminal
+90	E	0.2371	domain GST C-terminal
+91	A	0.2316	domain GST C-terminal
+92	A	0.2237	domain GST C-terminal
+93	A	0.2183	domain GST C-terminal
+94	Q	0.2058	domain GST C-terminal
+95	V	0.1965	domain GST C-terminal
+96	V	0.1911	domain GST C-terminal
+97	Q	0.1942	domain GST C-terminal
+98	W	0.1991	domain GST C-terminal
+99	V	0.1946	domain GST C-terminal
+100	S	0.1852	domain GST C-terminal
+101	F	0.1721	domain GST C-terminal
+102	A	0.1592	domain GST C-terminal
+103	D	0.1546	domain GST C-terminal
+104	S	0.1556	domain GST C-terminal
+105	D	0.1471	domain GST C-terminal
+106	I	0.1427	domain GST C-terminal
+107	V	0.1481	domain GST C-terminal
+108	P	0.1606	domain GST C-terminal
+109	P	0.1721	domain GST C-terminal
+110	A	0.1813	domain GST C-terminal
+111	S	0.1928	domain GST C-terminal
+112	T	0.2026	domain GST C-terminal
+113	W	0.2130	domain GST C-terminal
+114	V	0.2229	domain GST C-terminal
+115	F	0.2434	domain GST C-terminal
+116	P	0.2550	domain GST C-terminal
+117	T	0.2601	domain GST C-terminal
+118	L	0.2642	domain GST C-terminal
+119	G	0.2596	domain GST C-terminal
+120	I	0.2653	domain GST C-terminal
+121	M	0.2832	domain GST C-terminal
+122	H	0.3007	domain GST C-terminal
+123	H	0.3125	domain GST C-terminal
+124	N	0.3252	domain GST C-terminal
+125	K	0.3339	domain GST C-terminal
+126	Q	0.3398	domain GST C-terminal
+127	A	0.3440	domain GST C-terminal
+128	T	0.3406	domain GST C-terminal
+129	E	0.3292	domain GST C-terminal
+130	N	0.3076	domain GST C-terminal
+131	A	0.2784	domain GST C-terminal
+132	K	0.2447	domain GST C-terminal
+133	E	0.2168	domain GST C-terminal
+134	E	0.1882	domain GST C-terminal
+135	V	0.1675	domain GST C-terminal
+136	R	0.1397	domain GST C-terminal
+137	R	0.1090	domain GST C-terminal
+138	I	0.0852	domain GST C-terminal
+139	L	0.0669	domain GST C-terminal
+140	G	0.0541	domain GST C-terminal
+141	L	0.0435	domain GST C-terminal
+142	L	0.0383	domain GST C-terminal
+143	D	0.0311	domain GST C-terminal
+144	A	0.0207	domain GST C-terminal
+145	Y	0.0113	domain GST C-terminal
+146	L	0.0082	domain GST C-terminal
+147	K	0.0103	domain GST C-terminal
+148	T	0.0135	domain GST C-terminal
+149	R	0.0150	domain GST C-terminal
+150	T	0.0137	domain GST C-terminal
+151	F	0.0131	domain GST C-terminal
+152	L	0.0125	domain GST C-terminal
+153	V	0.0126	domain GST C-terminal
+154	G	0.0129	domain GST C-terminal
+155	E	0.0131	domain GST C-terminal
+156	R	0.0111	domain GST C-terminal
+157	V	0.0092	domain GST C-terminal
+158	T	0.0073	domain GST C-terminal
+159	L	0.0060	domain GST C-terminal
+160	A	0.0046	domain GST C-terminal
+161	D	0.0034	domain GST C-terminal
+162	I	0.0030	domain GST C-terminal
+163	T	0.0017	domain GST C-terminal
+164	V	0.0014	domain GST C-terminal
+165	V	0.0014	domain GST C-terminal
+166	C	0.0027	domain GST C-terminal
+167	T	0.0029	domain GST C-terminal
+168	L	0.0031	domain GST C-terminal
+169	L	0.0027	domain GST C-terminal
+170	W	0.0031	domain GST C-terminal
+171	L	0.0030	domain GST C-terminal
+172	Y	0.0029	domain GST C-terminal
+173	K	0.0041	domain GST C-terminal
+174	Q	0.0075	domain GST C-terminal
+175	V	0.0083	domain GST C-terminal
+176	L	0.0117	domain GST C-terminal
+177	E	0.0195	domain GST C-terminal
+178	P	0.0290	domain GST C-terminal
+179	S	0.0353	domain GST C-terminal
+180	F	0.0378	domain GST C-terminal
+181	R	0.0388	domain GST C-terminal
+182	Q	0.0451	domain GST C-terminal
+183	A	0.0485	domain GST C-terminal
+184	F	0.0509	domain GST C-terminal
+185	P	0.0554	domain GST C-terminal
+186	N	0.0642	domain GST C-terminal
+187	T	0.0685	domain GST C-terminal
+188	N	0.0715	domain GST C-terminal
+189	R	0.0748	domain GST C-terminal
+190	W	0.0768	domain GST C-terminal
+191	F	0.0786	domain GST C-terminal
+192	L	0.0819	domain GST C-terminal
+193	T	0.0788	domain GST C-terminal
+194	C	0.0737	domain GST C-terminal
+195	I	0.0664	domain GST C-terminal
+196	N	0.0640	domain GST C-terminal
+197	Q	0.0568	domain GST C-terminal
+198	P	0.0467	domain GST C-terminal
+199	Q	0.0395	domain GST C-terminal
+200	F	0.0434	domain GST C-terminal
+201	R	0.0533	domain GST C-terminal
+202	A	0.0704	domain GST C-terminal
+203	V	0.0915	domain GST C-terminal
+204	L	0.1183	domain GST C-terminal
+205	G	0.1406	domain GST C-terminal
+206	E	0.1560	domain GST C-terminal
+207	V	0.1610	domain GST C-terminal
+208	K	0.1556	domain GST C-terminal
+209	L	0.1525	domain GST C-terminal
+210	C	0.1515	domain GST C-terminal
+211	E	0.1605	domain GST C-terminal
+212	K	0.1805	domain GST C-terminal
+213	M	0.1991	domain GST C-terminal
+214	A	0.2294	domain GST C-terminal
+215	Q	0.2668	domain GST C-terminal
+216	F	0.3095	domain GST C-terminal
+217	D	0.3537	
+218	A	0.3998	
+219	K	0.4420	
+220	K	0.4824	
+221	F	0.5159	
+222	A	0.5477	
+223	E	0.5834	
+224	T	0.6133	
+225	Q	0.6354	
+226	P	0.6490	
+227	K	0.6614	
+228	K	0.6710	
+229	D	0.6905	
+230	T	0.7165	
+231	P	0.7359	
+232	R	0.7525	
+233	K	0.7647	
+234	E	0.7747	
+235	K	0.7835	
+236	G	0.7910	
+237	S	0.7899	
+238	R	0.7841	
+239	E	0.7715	
+240	E	0.7575	
+241	K	0.7468	
+242	Q	0.7353	
+243	K	0.7296	
+244	P	0.7239	
+245	Q	0.7219	
+246	A	0.7200	
+247	E	0.7209	
+248	R	0.7311	
+249	K	0.7438	
+250	E	0.7529	
+251	E	0.7542	
+252	K	0.7529	
+253	K	0.7492	
+254	A	0.7438	
+255	A	0.7356	
+256	A	0.7217	
+257	P	0.7048	
+258	A	0.6912	
+259	P	0.6804	
+260	E	0.6761	
+261	E	0.6695	
+262	E	0.6689	
+263	M	0.6756	
+264	D	0.6762	
+265	E	0.6765	
+266	C	0.6745	
+267	E	0.6676	
+268	Q	0.6563	
+269	A	0.6286	
+270	L	0.5990	
+271	A	0.5737	
+272	A	0.5616	
+273	E	0.5502	
+274	P	0.5282	
+275	K	0.5079	
+276	A	0.4881	domain EF-1-gamma C-terminal
+277	K	0.4713	domain EF-1-gamma C-terminal
+278	D	0.4507	domain EF-1-gamma C-terminal
+279	P	0.4242	domain EF-1-gamma C-terminal
+280	F	0.3990	domain EF-1-gamma C-terminal
+281	A	0.3716	domain EF-1-gamma C-terminal
+282	H	0.3454	domain EF-1-gamma C-terminal
+283	L	0.3209	domain EF-1-gamma C-terminal
+284	P	0.2879	domain EF-1-gamma C-terminal
+285	K	0.2679	domain EF-1-gamma C-terminal
+286	S	0.2500	domain EF-1-gamma C-terminal
+287	T	0.2299	domain EF-1-gamma C-terminal
+288	F	0.2121	domain EF-1-gamma C-terminal
+289	V	0.2051	domain EF-1-gamma C-terminal
+290	L	0.2084	domain EF-1-gamma C-terminal
+291	D	0.2090	domain EF-1-gamma C-terminal
+292	E	0.2009	domain EF-1-gamma C-terminal
+293	F	0.1926	domain EF-1-gamma C-terminal
+294	K	0.1777	domain EF-1-gamma C-terminal
+295	R	0.1604	domain EF-1-gamma C-terminal
+296	K	0.1358	domain EF-1-gamma C-terminal
+297	Y	0.1136	domain EF-1-gamma C-terminal
+298	S	0.0932	domain EF-1-gamma C-terminal
+299	N	0.0793	domain EF-1-gamma C-terminal
+300	E	0.0703	domain EF-1-gamma C-terminal
+301	D	0.0647	domain EF-1-gamma C-terminal
+302	T	0.0579	domain EF-1-gamma C-terminal
+303	L	0.0611	domain EF-1-gamma C-terminal
+304	S	0.0602	domain EF-1-gamma C-terminal
+305	V	0.0643	domain EF-1-gamma C-terminal
+306	A	0.0651	domain EF-1-gamma C-terminal
+307	L	0.0671	domain EF-1-gamma C-terminal
+308	P	0.0659	domain EF-1-gamma C-terminal
+309	Y	0.0602	domain EF-1-gamma C-terminal
+310	F	0.0519	domain EF-1-gamma C-terminal
+311	W	0.0432	domain EF-1-gamma C-terminal
+312	E	0.0324	domain EF-1-gamma C-terminal
+313	H	0.0211	domain EF-1-gamma C-terminal
+314	F	0.0118	domain EF-1-gamma C-terminal
+315	D	0.0077	domain EF-1-gamma C-terminal
+316	K	0.0108	domain EF-1-gamma C-terminal
+317	D	0.0138	domain EF-1-gamma C-terminal
+318	G	0.0161	domain EF-1-gamma C-terminal
+319	W	0.0241	domain EF-1-gamma C-terminal
+320	S	0.0320	domain EF-1-gamma C-terminal
+321	L	0.0429	domain EF-1-gamma C-terminal
+322	W	0.0508	domain EF-1-gamma C-terminal
+323	Y	0.0589	domain EF-1-gamma C-terminal
+324	S	0.0656	domain EF-1-gamma C-terminal
+325	E	0.0682	domain EF-1-gamma C-terminal
+326	Y	0.0623	domain EF-1-gamma C-terminal
+327	R	0.0520	domain EF-1-gamma C-terminal
+328	F	0.0478	domain EF-1-gamma C-terminal
+329	P	0.0454	domain EF-1-gamma C-terminal
+330	E	0.0451	domain EF-1-gamma C-terminal
+331	E	0.0443	domain EF-1-gamma C-terminal
+332	L	0.0470	domain EF-1-gamma C-terminal
+333	T	0.0537	domain EF-1-gamma C-terminal
+334	Q	0.0688	domain EF-1-gamma C-terminal
+335	T	0.0761	domain EF-1-gamma C-terminal
+336	F	0.0824	domain EF-1-gamma C-terminal
+337	M	0.0856	domain EF-1-gamma C-terminal
+338	S	0.0869	domain EF-1-gamma C-terminal
+339	C	0.0886	domain EF-1-gamma C-terminal
+340	N	0.0852	domain EF-1-gamma C-terminal
+341	L	0.0818	domain EF-1-gamma C-terminal
+342	I	0.0795	domain EF-1-gamma C-terminal
+343	T	0.0791	domain EF-1-gamma C-terminal
+344	G	0.0733	domain EF-1-gamma C-terminal
+345	M	0.0657	domain EF-1-gamma C-terminal
+346	F	0.0636	domain EF-1-gamma C-terminal
+347	Q	0.0608	domain EF-1-gamma C-terminal
+348	R	0.0587	domain EF-1-gamma C-terminal
+349	L	0.0511	domain EF-1-gamma C-terminal
+350	D	0.0424	domain EF-1-gamma C-terminal
+351	K	0.0352	domain EF-1-gamma C-terminal
+352	L	0.0303	domain EF-1-gamma C-terminal
+353	R	0.0291	domain EF-1-gamma C-terminal
+354	K	0.0335	domain EF-1-gamma C-terminal
+355	N	0.0353	domain EF-1-gamma C-terminal
+356	A	0.0405	domain EF-1-gamma C-terminal
+357	F	0.0494	domain EF-1-gamma C-terminal
+358	A	0.0595	domain EF-1-gamma C-terminal
+359	S	0.0691	domain EF-1-gamma C-terminal
+360	V	0.0736	domain EF-1-gamma C-terminal
+361	I	0.0737	domain EF-1-gamma C-terminal
+362	L	0.0704	domain EF-1-gamma C-terminal
+363	F	0.0611	domain EF-1-gamma C-terminal
+364	G	0.0511	domain EF-1-gamma C-terminal
+365	T	0.0406	domain EF-1-gamma C-terminal
+366	N	0.0340	domain EF-1-gamma C-terminal
+367	N	0.0264	domain EF-1-gamma C-terminal
+368	S	0.0287	domain EF-1-gamma C-terminal
+369	S	0.0416	domain EF-1-gamma C-terminal
+370	S	0.0545	domain EF-1-gamma C-terminal
+371	I	0.0702	domain EF-1-gamma C-terminal
+372	S	0.0920	domain EF-1-gamma C-terminal
+373	G	0.1075	domain EF-1-gamma C-terminal
+374	V	0.1171	domain EF-1-gamma C-terminal
+375	W	0.1176	domain EF-1-gamma C-terminal
+376	V	0.1188	domain EF-1-gamma C-terminal
+377	F	0.1179	domain EF-1-gamma C-terminal
+378	R	0.1075	domain EF-1-gamma C-terminal
+379	G	0.1005	domain EF-1-gamma C-terminal
+380	Q	0.0884	domain EF-1-gamma C-terminal
+381	E	0.0817	domain EF-1-gamma C-terminal
+382	L	0.0860	domain EF-1-gamma C-terminal
+383	A	0.0957	domain EF-1-gamma C-terminal
+384	F	0.1160	domain EF-1-gamma C-terminal
+385	P	0.1317	domain EF-1-gamma C-terminal
+386	L	0.1470	domain EF-1-gamma C-terminal
+387	S	0.1506	domain EF-1-gamma C-terminal
+388	P	0.1540	domain EF-1-gamma C-terminal
+389	D	0.1464	domain EF-1-gamma C-terminal
+390	W	0.1377	domain EF-1-gamma C-terminal
+391	Q	0.1346	domain EF-1-gamma C-terminal
+392	V	0.1407	domain EF-1-gamma C-terminal
+393	D	0.1429	domain EF-1-gamma C-terminal
+394	Y	0.1652	domain EF-1-gamma C-terminal
+395	E	0.1976	domain EF-1-gamma C-terminal
+396	S	0.2386	domain EF-1-gamma C-terminal
+397	Y	0.2731	domain EF-1-gamma C-terminal
+398	T	0.2933	domain EF-1-gamma C-terminal
+399	W	0.3165	domain EF-1-gamma C-terminal
+400	R	0.3199	domain EF-1-gamma C-terminal
+401	K	0.3215	domain EF-1-gamma C-terminal
+402	L	0.3191	domain EF-1-gamma C-terminal
+403	D	0.3081	domain EF-1-gamma C-terminal
+404	P	0.2962	domain EF-1-gamma C-terminal
+405	G	0.2799	domain EF-1-gamma C-terminal
+406	S	0.2742	domain EF-1-gamma C-terminal
+407	E	0.2679	domain EF-1-gamma C-terminal
+408	E	0.2711	domain EF-1-gamma C-terminal
+409	T	0.2809	domain EF-1-gamma C-terminal
+410	Q	0.2959	domain EF-1-gamma C-terminal
+411	T	0.3000	domain EF-1-gamma C-terminal
+412	L	0.3084	domain EF-1-gamma C-terminal
+413	V	0.3119	domain EF-1-gamma C-terminal
+414	R	0.3140	domain EF-1-gamma C-terminal
+415	E	0.2903	domain EF-1-gamma C-terminal
+416	Y	0.2510	domain EF-1-gamma C-terminal
+417	F	0.2154	domain EF-1-gamma C-terminal
+418	S	0.1823	domain EF-1-gamma C-terminal
+419	W	0.1697	domain EF-1-gamma C-terminal
+420	E	0.1551	domain EF-1-gamma C-terminal
+421	G	0.1453	domain EF-1-gamma C-terminal
+422	A	0.1338	domain EF-1-gamma C-terminal
+423	F	0.1270	domain EF-1-gamma C-terminal
+424	Q	0.1284	domain EF-1-gamma C-terminal
+425	H	0.1403	domain EF-1-gamma C-terminal
+426	V	0.1629	domain EF-1-gamma C-terminal
+427	G	0.1942	domain EF-1-gamma C-terminal
+428	K	0.2386	domain EF-1-gamma C-terminal
+429	A	0.2929	domain EF-1-gamma C-terminal
+430	F	0.3546	domain EF-1-gamma C-terminal
+431	N	0.4212	domain EF-1-gamma C-terminal
+432	Q	0.4901	domain EF-1-gamma C-terminal
+433	G	0.5590	domain EF-1-gamma C-terminal
+434	K	0.6256	domain EF-1-gamma C-terminal
+435	I	0.6886	domain EF-1-gamma C-terminal
+436	F	0.7472	domain EF-1-gamma C-terminal
+437	K	0.8019	domain EF-1-gamma C-terminal

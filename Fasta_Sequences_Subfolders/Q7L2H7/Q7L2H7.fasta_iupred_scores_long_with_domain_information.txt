@@ -1,0 +1,386 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.1389	
+2	S	0.1904	
+3	V	0.2430	
+4	P	0.2861	
+5	A	0.3138	
+6	F	0.3241	
+7	I	0.3176	
+8	D	0.2976	
+9	I	0.2688	
+10	S	0.2370	
+11	E	0.2148	
+12	E	0.1993	
+13	D	0.1910	
+14	Q	0.1910	
+15	A	0.2046	
+16	A	0.2347	
+17	E	0.2666	
+18	L	0.3043	
+19	R	0.3301	
+20	A	0.3560	
+21	Y	0.3672	
+22	L	0.3791	
+23	K	0.3853	
+24	S	0.3814	
+25	K	0.3766	
+26	G	0.3700	
+27	A	0.3680	
+28	E	0.3660	
+29	I	0.3783	
+30	S	0.3814	
+31	E	0.3915	
+32	E	0.3862	
+33	N	0.3728	
+34	S	0.3608	
+35	E	0.3506	
+36	G	0.3340	
+37	G	0.3020	
+38	L	0.2729	
+39	H	0.2315	
+40	V	0.1987	
+41	D	0.1617	
+42	L	0.1372	
+43	A	0.1109	
+44	Q	0.0834	
+45	I	0.0641	
+46	I	0.0609	
+47	E	0.0687	
+48	A	0.0753	
+49	C	0.0920	
+50	D	0.1066	
+51	V	0.1195	
+52	C	0.1290	
+53	L	0.1461	
+54	K	0.1656	
+55	E	0.1814	
+56	D	0.1926	
+57	D	0.1964	
+58	K	0.1946	
+59	D	0.1808	
+60	V	0.1697	
+61	E	0.1525	
+62	S	0.1383	
+63	V	0.1215	
+64	M	0.1144	
+65	N	0.1244	
+66	S	0.1329	
+67	V	0.1317	
+68	V	0.1361	
+69	S	0.1391	
+70	L	0.1317	
+71	L	0.1196	
+72	L	0.1075	
+73	I	0.0963	
+74	L	0.0838	
+75	E	0.0750	
+76	P	0.0678	
+77	D	0.0553	
+78	K	0.0487	
+79	Q	0.0494	
+80	E	0.0607	
+81	A	0.0692	
+82	L	0.0808	
+83	I	0.1076	
+84	E	0.1341	
+85	S	0.1566	
+86	L	0.1650	
+87	C	0.1722	
+88	E	0.1801	
+89	K	0.1795	
+90	L	0.1642	
+91	V	0.1484	
+92	K	0.1401	
+93	F	0.1405	
+94	R	0.1403	
+95	E	0.1402	
+96	G	0.1326	
+97	E	0.1245	
+98	R	0.1238	
+99	P	0.1252	
+100	S	0.1248	
+101	L	0.1400	
+102	R	0.1631	
+103	L	0.2015	
+104	Q	0.2214	
+105	L	0.2396	
+106	L	0.2546	
+107	S	0.2668	
+108	N	0.2531	
+109	L	0.2256	
+110	F	0.2018	
+111	H	0.1781	
+112	G	0.1559	
+113	M	0.1405	
+114	D	0.1231	
+115	K	0.1086	
+116	N	0.1023	
+117	T	0.0996	
+118	P	0.0931	
+119	V	0.0895	
+120	R	0.0853	
+121	Y	0.0891	
+122	T	0.0847	
+123	V	0.0793	
+124	Y	0.0675	
+125	C	0.0599	
+126	S	0.0484	
+127	L	0.0335	
+128	I	0.0197	
+129	K	0.0136	
+130	V	0.0149	
+131	A	0.0106	
+132	A	0.0129	
+133	S	0.0196	
+134	C	0.0310	
+135	G	0.0398	
+136	A	0.0513	
+137	I	0.0586	
+138	Q	0.0650	
+139	Y	0.0710	
+140	I	0.0709	
+141	P	0.0696	
+142	T	0.0651	
+143	E	0.0519	
+144	L	0.0447	
+145	D	0.0427	
+146	Q	0.0552	
+147	V	0.0824	
+148	R	0.1133	
+149	K	0.1421	
+150	W	0.1691	
+151	I	0.1917	
+152	S	0.2036	
+153	D	0.1969	
+154	W	0.1782	
+155	N	0.1469	
+156	L	0.1147	
+157	T	0.0854	
+158	T	0.0626	
+159	E	0.0508	
+160	K	0.0483	
+161	K	0.0446	
+162	H	0.0467	
+163	T	0.0478	
+164	L	0.0558	
+165	L	0.0617	
+166	R	0.0642	
+167	L	0.0660	
+168	L	0.0642	
+169	Y	0.0625	
+170	E	0.0606	
+171	A	0.0574	
+172	L	0.0482	
+173	V	0.0395	
+174	D	0.0374	
+175	C	0.0389	
+176	K	0.0411	
+177	K	0.0469	
+178	S	0.0467	
+179	D	0.0486	
+180	A	0.0575	domain PCI
+181	A	0.0703	domain PCI
+182	S	0.0922	domain PCI
+183	K	0.1133	domain PCI
+184	V	0.1398	domain PCI
+185	M	0.1637	domain PCI
+186	V	0.1891	domain PCI
+187	E	0.2067	domain PCI
+188	L	0.2118	domain PCI
+189	L	0.2071	domain PCI
+190	G	0.2035	domain PCI
+191	S	0.2029	domain PCI
+192	Y	0.1992	domain PCI
+193	T	0.1951	domain PCI
+194	E	0.2018	domain PCI
+195	D	0.2116	domain PCI
+196	N	0.2128	domain PCI
+197	A	0.2128	domain PCI
+198	S	0.2091	domain PCI
+199	Q	0.2030	domain PCI
+200	A	0.2059	domain PCI
+201	R	0.2095	domain PCI
+202	V	0.2201	domain PCI
+203	D	0.2269	domain PCI
+204	A	0.2340	domain PCI
+205	H	0.2303	domain PCI
+206	R	0.2119	domain PCI
+207	C	0.1777	domain PCI
+208	I	0.1468	domain PCI
+209	V	0.1183	domain PCI
+210	R	0.0813	domain PCI
+211	A	0.0469	domain PCI
+212	L	0.0278	domain PCI
+213	K	0.0171	domain PCI
+214	D	0.0194	domain PCI
+215	P	0.0259	domain PCI
+216	N	0.0298	domain PCI
+217	A	0.0291	domain PCI
+218	F	0.0289	domain PCI
+219	L	0.0299	domain PCI
+220	F	0.0348	domain PCI
+221	D	0.0371	domain PCI
+222	H	0.0369	domain PCI
+223	L	0.0334	domain PCI
+224	L	0.0291	domain PCI
+225	T	0.0245	domain PCI
+226	L	0.0222	domain PCI
+227	K	0.0222	domain PCI
+228	P	0.0233	domain PCI
+229	V	0.0246	domain PCI
+230	K	0.0218	domain PCI
+231	F	0.0218	domain PCI
+232	L	0.0238	domain PCI
+233	E	0.0249	domain PCI
+234	G	0.0248	domain PCI
+235	E	0.0219	domain PCI
+236	L	0.0189	domain PCI
+237	I	0.0176	domain PCI
+238	H	0.0184	domain PCI
+239	D	0.0193	domain PCI
+240	L	0.0200	domain PCI
+241	L	0.0192	domain PCI
+242	T	0.0175	domain PCI
+243	I	0.0151	domain PCI
+244	F	0.0130	domain PCI
+245	V	0.0132	domain PCI
+246	S	0.0155	domain PCI
+247	A	0.0150	domain PCI
+248	K	0.0141	domain PCI
+249	L	0.0144	domain PCI
+250	A	0.0168	domain PCI
+251	S	0.0227	domain PCI
+252	Y	0.0289	domain PCI
+253	V	0.0329	domain PCI
+254	K	0.0370	domain PCI
+255	F	0.0374	domain PCI
+256	Y	0.0341	domain PCI
+257	Q	0.0371	domain PCI
+258	N	0.0375	domain PCI
+259	N	0.0350	domain PCI
+260	K	0.0325	domain PCI
+261	D	0.0398	domain PCI
+262	F	0.0623	domain PCI
+263	I	0.0922	domain PCI
+264	D	0.1288	domain PCI
+265	S	0.1592	domain PCI
+266	L	0.1739	domain PCI
+267	G	0.1749	domain PCI
+268	L	0.1660	domain PCI
+269	L	0.1498	domain PCI
+270	H	0.1297	domain PCI
+271	E	0.1054	domain PCI
+272	Q	0.0790	domain PCI
+273	N	0.0507	domain PCI
+274	M	0.0417	domain PCI
+275	A	0.0558	domain PCI
+276	K	0.0877	domain PCI
+277	M	0.1204	domain PCI
+278	R	0.1406	domain PCI
+279	L	0.1563	domain PCI
+280	L	0.1650	domain PCI
+281	T	0.1652	domain PCI
+282	F	0.1562	domain PCI
+283	M	0.1409	domain PCI
+284	G	0.1186	domain PCI
+285	M	0.0984	domain PCI
+286	A	0.0819	domain PCI
+287	V	0.0818	domain PCI
+288	E	0.0994	domain PCI
+289	N	0.1246	domain PCI
+290	K	0.1494	domain PCI
+291	E	0.1665	domain PCI
+292	I	0.1856	domain PCI
+293	S	0.2061	domain PCI
+294	F	0.2359	domain PCI
+295	D	0.2601	domain PCI
+296	T	0.2734	domain PCI
+297	M	0.2692	domain PCI
+298	Q	0.2556	domain PCI
+299	Q	0.2384	domain PCI
+300	E	0.2071	domain PCI
+301	L	0.1708	domain PCI
+302	Q	0.1372	domain PCI
+303	I	0.1127	domain PCI
+304	G	0.0930	domain PCI
+305	A	0.0903	domain PCI
+306	D	0.0924	domain PCI
+307	D	0.0977	domain PCI
+308	V	0.1019	domain PCI
+309	E	0.0970	domain PCI
+310	A	0.0831	domain PCI
+311	F	0.0663	domain PCI
+312	V	0.0534	domain PCI
+313	I	0.0447	domain PCI
+314	D	0.0399	domain PCI
+315	A	0.0329	domain PCI
+316	V	0.0329	domain PCI
+317	R	0.0409	domain PCI
+318	T	0.0516	domain PCI
+319	K	0.0570	domain PCI
+320	M	0.0622	domain PCI
+321	V	0.0714	domain PCI
+322	Y	0.0844	domain PCI
+323	C	0.0973	domain PCI
+324	K	0.1154	domain PCI
+325	I	0.1330	domain PCI
+326	D	0.1438	domain PCI
+327	Q	0.1583	domain PCI
+328	T	0.1633	domain PCI
+329	Q	0.1767	domain PCI
+330	R	0.1997	domain PCI
+331	K	0.2245	domain PCI
+332	V	0.2530	domain PCI
+333	V	0.2903	domain PCI
+334	V	0.3265	domain PCI
+335	S	0.3499	domain PCI
+336	H	0.3651	domain PCI
+337	S	0.3540	domain PCI
+338	T	0.3252	domain PCI
+339	H	0.2968	domain PCI
+340	R	0.2702	
+341	T	0.2439	
+342	F	0.2285	
+343	G	0.2263	
+344	K	0.2346	
+345	Q	0.2394	
+346	Q	0.2325	
+347	W	0.2304	
+348	Q	0.2229	
+349	Q	0.2060	
+350	L	0.1830	
+351	Y	0.1749	
+352	D	0.1792	
+353	T	0.1894	
+354	L	0.2003	
+355	N	0.1992	
+356	A	0.1924	
+357	W	0.1836	
+358	K	0.1777	
+359	Q	0.1784	
+360	N	0.1698	
+361	L	0.1718	
+362	N	0.1862	
+363	K	0.2067	
+364	V	0.2252	
+365	K	0.2454	
+366	N	0.2640	
+367	S	0.2790	
+368	L	0.2887	
+369	L	0.2921	
+370	S	0.2885	
+371	L	0.2782	
+372	S	0.2620	
+373	D	0.2420	
+374	T	0.2211	

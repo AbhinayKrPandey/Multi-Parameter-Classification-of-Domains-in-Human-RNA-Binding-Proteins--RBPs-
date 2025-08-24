@@ -1,0 +1,415 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.0642	
+2	A	0.0506	
+3	A	0.0446	
+4	F	0.0430	
+5	L	0.0433	
+6	K	0.0441	
+7	M	0.0443	
+8	S	0.0435	
+9	V	0.0417	
+10	S	0.0394	
+11	V	0.0411	
+12	N	0.0363	
+13	F	0.0345	
+14	F	0.0307	
+15	R	0.0369	
+16	P	0.0406	
+17	F	0.0444	
+18	T	0.0537	
+19	R	0.0692	
+20	F	0.0780	
+21	L	0.0905	
+22	V	0.1097	
+23	P	0.1244	
+24	F	0.1344	
+25	T	0.1297	
+26	L	0.1358	
+27	H	0.1351	
+28	R	0.1378	
+29	K	0.1461	
+30	R	0.1556	
+31	N	0.1800	
+32	N	0.2035	
+33	L	0.2354	
+34	T	0.2600	
+35	I	0.2767	
+36	L	0.2832	
+37	Q	0.2890	
+38	R	0.2753	
+39	Y	0.2533	
+40	M	0.2419	
+41	S	0.2462	
+42	S	0.2501	
+43	K	0.2630	
+44	I	0.3000	
+45	P	0.3478	
+46	A	0.4098	
+47	V	0.4545	
+48	T	0.4975	
+49	Y	0.5412	
+50	P	0.5637	
+51	K	0.5723	
+52	N	0.5594	
+53	E	0.5446	
+54	S	0.5253	
+55	T	0.5163	
+56	P	0.5208	
+57	P	0.5260	
+58	S	0.5378	
+59	E	0.5537	
+60	E	0.5623	
+61	L	0.5733	
+62	E	0.5726	
+63	L	0.5675	
+64	D	0.5527	
+65	K	0.5158	
+66	W	0.4772	
+67	K	0.4397	
+68	T	0.4078	
+69	T	0.3784	
+70	M	0.3470	
+71	K	0.3298	
+72	S	0.3193	
+73	S	0.3233	
+74	V	0.3484	
+75	Q	0.3855	
+76	E	0.4249	
+77	E	0.4494	
+78	C	0.4606	
+79	V	0.4707	
+80	S	0.4854	
+81	T	0.4889	
+82	I	0.4753	
+83	S	0.4641	
+84	S	0.4464	
+85	S	0.4250	
+86	K	0.4150	
+87	D	0.4002	
+88	E	0.3826	
+89	D	0.3596	
+90	P	0.3346	
+91	L	0.3108	
+92	A	0.2876	
+93	A	0.2729	
+94	T	0.2670	
+95	R	0.2567	
+96	E	0.2353	
+97	F	0.2180	
+98	I	0.2113	
+99	E	0.2167	
+100	M	0.2162	
+101	W	0.2123	
+102	R	0.2146	
+103	L	0.2232	
+104	L	0.2290	
+105	G	0.2420	
+106	R	0.2603	
+107	E	0.2713	
+108	V	0.2852	
+109	P	0.2967	
+110	E	0.3127	
+111	H	0.3274	
+112	I	0.3465	
+113	T	0.3647	
+114	E	0.3877	
+115	E	0.4068	
+116	E	0.4132	
+117	L	0.4289	
+118	K	0.4380	
+119	T	0.4356	
+120	L	0.4233	
+121	M	0.4025	
+122	E	0.3616	
+123	C	0.3134	
+124	V	0.2671	
+125	S	0.2250	
+126	N	0.1883	
+127	T	0.1578	
+128	A	0.1447	
+129	K	0.1376	
+130	K	0.1491	
+131	K	0.1673	
+132	Y	0.1964	
+133	L	0.2196	
+134	K	0.2338	
+135	Y	0.2365	
+136	L	0.2268	
+137	Y	0.2229	
+138	T	0.2143	
+139	K	0.2081	
+140	E	0.2020	
+141	K	0.1963	
+142	V	0.2055	
+143	K	0.2374	
+144	K	0.2796	
+145	A	0.3279	
+146	R	0.3729	
+147	Q	0.4127	
+148	I	0.4556	
+149	K	0.4858	
+150	K	0.5048	
+151	E	0.5014	
+152	M	0.4869	
+153	K	0.4595	
+154	A	0.4273	
+155	A	0.4033	
+156	A	0.3894	
+157	R	0.3888	
+158	E	0.3859	
+159	E	0.3934	
+160	A	0.4128	
+161	K	0.4466	
+162	N	0.4855	
+163	I	0.5116	
+164	K	0.5152	
+165	L	0.5079	
+166	L	0.4825	
+167	E	0.4416	
+168	T	0.3884	
+169	T	0.3193	
+170	E	0.2457	
+171	E	0.1869	
+172	D	0.1503	
+173	K	0.1370	
+174	Q	0.1421	
+175	K	0.1631	
+176	N	0.1793	
+177	F	0.1896	
+178	L	0.1875	
+179	F	0.1781	
+180	L	0.1615	
+181	R	0.1321	
+182	L	0.0911	
+183	W	0.0619	
+184	D	0.0450	
+185	R	0.0470	
+186	N	0.0441	
+187	M	0.0481	
+188	D	0.0582	
+189	I	0.0905	
+190	A	0.1269	
+191	M	0.1663	domain SAM-dependent MTase TRM10-type
+192	G	0.1916	domain SAM-dependent MTase TRM10-type
+193	W	0.2128	domain SAM-dependent MTase TRM10-type
+194	K	0.2205	domain SAM-dependent MTase TRM10-type
+195	G	0.2145	domain SAM-dependent MTase TRM10-type
+196	A	0.1963	domain SAM-dependent MTase TRM10-type
+197	Q	0.1752	domain SAM-dependent MTase TRM10-type
+198	A	0.1542	domain SAM-dependent MTase TRM10-type
+199	M	0.1362	domain SAM-dependent MTase TRM10-type
+200	Q	0.1186	domain SAM-dependent MTase TRM10-type
+201	F	0.1086	domain SAM-dependent MTase TRM10-type
+202	G	0.1168	domain SAM-dependent MTase TRM10-type
+203	Q	0.1409	domain SAM-dependent MTase TRM10-type
+204	P	0.1451	domain SAM-dependent MTase TRM10-type
+205	L	0.1403	domain SAM-dependent MTase TRM10-type
+206	V	0.1357	domain SAM-dependent MTase TRM10-type
+207	F	0.1469	domain SAM-dependent MTase TRM10-type
+208	D	0.1525	domain SAM-dependent MTase TRM10-type
+209	M	0.1632	domain SAM-dependent MTase TRM10-type
+210	A	0.1686	domain SAM-dependent MTase TRM10-type
+211	Y	0.1799	domain SAM-dependent MTase TRM10-type
+212	E	0.1900	domain SAM-dependent MTase TRM10-type
+213	N	0.2001	domain SAM-dependent MTase TRM10-type
+214	Y	0.1949	domain SAM-dependent MTase TRM10-type
+215	M	0.1998	domain SAM-dependent MTase TRM10-type
+216	K	0.2161	domain SAM-dependent MTase TRM10-type
+217	R	0.2303	domain SAM-dependent MTase TRM10-type
+218	K	0.2435	domain SAM-dependent MTase TRM10-type
+219	E	0.2501	domain SAM-dependent MTase TRM10-type
+220	L	0.2692	domain SAM-dependent MTase TRM10-type
+221	Q	0.3007	domain SAM-dependent MTase TRM10-type
+222	N	0.3219	domain SAM-dependent MTase TRM10-type
+223	T	0.3361	domain SAM-dependent MTase TRM10-type
+224	V	0.3466	domain SAM-dependent MTase TRM10-type
+225	S	0.3633	domain SAM-dependent MTase TRM10-type
+226	Q	0.3777	domain SAM-dependent MTase TRM10-type
+227	L	0.3909	domain SAM-dependent MTase TRM10-type
+228	L	0.3980	domain SAM-dependent MTase TRM10-type
+229	E	0.3960	domain SAM-dependent MTase TRM10-type
+230	S	0.3833	domain SAM-dependent MTase TRM10-type
+231	E	0.3500	domain SAM-dependent MTase TRM10-type
+232	G	0.2957	domain SAM-dependent MTase TRM10-type
+233	W	0.2449	domain SAM-dependent MTase TRM10-type
+234	N	0.2022	domain SAM-dependent MTase TRM10-type
+235	R	0.1646	domain SAM-dependent MTase TRM10-type
+236	R	0.1310	domain SAM-dependent MTase TRM10-type
+237	N	0.1023	domain SAM-dependent MTase TRM10-type
+238	V	0.0896	domain SAM-dependent MTase TRM10-type
+239	D	0.0859	domain SAM-dependent MTase TRM10-type
+240	P	0.0893	domain SAM-dependent MTase TRM10-type
+241	F	0.0962	domain SAM-dependent MTase TRM10-type
+242	H	0.0947	domain SAM-dependent MTase TRM10-type
+243	I	0.0900	domain SAM-dependent MTase TRM10-type
+244	Y	0.0839	domain SAM-dependent MTase TRM10-type
+245	F	0.0770	domain SAM-dependent MTase TRM10-type
+246	C	0.0718	domain SAM-dependent MTase TRM10-type
+247	N	0.0623	domain SAM-dependent MTase TRM10-type
+248	L	0.0575	domain SAM-dependent MTase TRM10-type
+249	K	0.0435	domain SAM-dependent MTase TRM10-type
+250	I	0.0375	domain SAM-dependent MTase TRM10-type
+251	D	0.0349	domain SAM-dependent MTase TRM10-type
+252	G	0.0448	domain SAM-dependent MTase TRM10-type
+253	A	0.0643	domain SAM-dependent MTase TRM10-type
+254	L	0.0869	domain SAM-dependent MTase TRM10-type
+255	H	0.1114	domain SAM-dependent MTase TRM10-type
+256	R	0.1340	domain SAM-dependent MTase TRM10-type
+257	E	0.1416	domain SAM-dependent MTase TRM10-type
+258	L	0.1420	domain SAM-dependent MTase TRM10-type
+259	V	0.1360	domain SAM-dependent MTase TRM10-type
+260	K	0.1287	domain SAM-dependent MTase TRM10-type
+261	R	0.1247	domain SAM-dependent MTase TRM10-type
+262	Y	0.1154	domain SAM-dependent MTase TRM10-type
+263	Q	0.1149	domain SAM-dependent MTase TRM10-type
+264	E	0.1350	domain SAM-dependent MTase TRM10-type
+265	K	0.1529	domain SAM-dependent MTase TRM10-type
+266	W	0.1732	domain SAM-dependent MTase TRM10-type
+267	D	0.1866	domain SAM-dependent MTase TRM10-type
+268	K	0.1957	domain SAM-dependent MTase TRM10-type
+269	L	0.1899	domain SAM-dependent MTase TRM10-type
+270	L	0.1850	domain SAM-dependent MTase TRM10-type
+271	L	0.1826	domain SAM-dependent MTase TRM10-type
+272	T	0.1823	domain SAM-dependent MTase TRM10-type
+273	S	0.1812	domain SAM-dependent MTase TRM10-type
+274	T	0.1767	domain SAM-dependent MTase TRM10-type
+275	E	0.1643	domain SAM-dependent MTase TRM10-type
+276	K	0.1509	domain SAM-dependent MTase TRM10-type
+277	S	0.1368	domain SAM-dependent MTase TRM10-type
+278	H	0.1253	domain SAM-dependent MTase TRM10-type
+279	V	0.1225	domain SAM-dependent MTase TRM10-type
+280	D	0.1172	domain SAM-dependent MTase TRM10-type
+281	L	0.1198	domain SAM-dependent MTase TRM10-type
+282	F	0.1293	domain SAM-dependent MTase TRM10-type
+283	P	0.1431	domain SAM-dependent MTase TRM10-type
+284	K	0.1588	domain SAM-dependent MTase TRM10-type
+285	D	0.1621	domain SAM-dependent MTase TRM10-type
+286	S	0.1594	domain SAM-dependent MTase TRM10-type
+287	I	0.1431	domain SAM-dependent MTase TRM10-type
+288	I	0.1291	domain SAM-dependent MTase TRM10-type
+289	Y	0.1296	domain SAM-dependent MTase TRM10-type
+290	L	0.1394	domain SAM-dependent MTase TRM10-type
+291	T	0.1550	domain SAM-dependent MTase TRM10-type
+292	A	0.1664	domain SAM-dependent MTase TRM10-type
+293	D	0.1635	domain SAM-dependent MTase TRM10-type
+294	S	0.1643	domain SAM-dependent MTase TRM10-type
+295	P	0.1654	domain SAM-dependent MTase TRM10-type
+296	N	0.1621	domain SAM-dependent MTase TRM10-type
+297	V	0.1572	domain SAM-dependent MTase TRM10-type
+298	M	0.1538	domain SAM-dependent MTase TRM10-type
+299	T	0.1562	domain SAM-dependent MTase TRM10-type
+300	T	0.1518	domain SAM-dependent MTase TRM10-type
+301	F	0.1523	domain SAM-dependent MTase TRM10-type
+302	R	0.1553	domain SAM-dependent MTase TRM10-type
+303	H	0.1550	domain SAM-dependent MTase TRM10-type
+304	D	0.1411	domain SAM-dependent MTase TRM10-type
+305	K	0.1247	domain SAM-dependent MTase TRM10-type
+306	V	0.1151	domain SAM-dependent MTase TRM10-type
+307	Y	0.1177	domain SAM-dependent MTase TRM10-type
+308	V	0.1340	domain SAM-dependent MTase TRM10-type
+309	I	0.1623	domain SAM-dependent MTase TRM10-type
+310	G	0.1815	domain SAM-dependent MTase TRM10-type
+311	S	0.1898	domain SAM-dependent MTase TRM10-type
+312	F	0.1874	domain SAM-dependent MTase TRM10-type
+313	V	0.1881	domain SAM-dependent MTase TRM10-type
+314	D	0.1980	domain SAM-dependent MTase TRM10-type
+315	K	0.2035	domain SAM-dependent MTase TRM10-type
+316	S	0.2001	domain SAM-dependent MTase TRM10-type
+317	M	0.2078	domain SAM-dependent MTase TRM10-type
+318	Q	0.2341	domain SAM-dependent MTase TRM10-type
+319	P	0.2610	domain SAM-dependent MTase TRM10-type
+320	G	0.2950	domain SAM-dependent MTase TRM10-type
+321	T	0.3301	domain SAM-dependent MTase TRM10-type
+322	S	0.3426	domain SAM-dependent MTase TRM10-type
+323	L	0.3488	domain SAM-dependent MTase TRM10-type
+324	A	0.3495	domain SAM-dependent MTase TRM10-type
+325	K	0.3380	domain SAM-dependent MTase TRM10-type
+326	A	0.3237	domain SAM-dependent MTase TRM10-type
+327	K	0.2986	domain SAM-dependent MTase TRM10-type
+328	R	0.2638	domain SAM-dependent MTase TRM10-type
+329	L	0.2294	domain SAM-dependent MTase TRM10-type
+330	N	0.1816	domain SAM-dependent MTase TRM10-type
+331	L	0.1447	domain SAM-dependent MTase TRM10-type
+332	A	0.1181	domain SAM-dependent MTase TRM10-type
+333	T	0.1024	domain SAM-dependent MTase TRM10-type
+334	E	0.0793	domain SAM-dependent MTase TRM10-type
+335	C	0.0656	domain SAM-dependent MTase TRM10-type
+336	L	0.0675	domain SAM-dependent MTase TRM10-type
+337	P	0.0730	domain SAM-dependent MTase TRM10-type
+338	L	0.0826	domain SAM-dependent MTase TRM10-type
+339	D	0.0889	domain SAM-dependent MTase TRM10-type
+340	K	0.0913	domain SAM-dependent MTase TRM10-type
+341	Y	0.0922	domain SAM-dependent MTase TRM10-type
+342	L	0.0981	domain SAM-dependent MTase TRM10-type
+343	Q	0.1051	domain SAM-dependent MTase TRM10-type
+344	W	0.1113	domain SAM-dependent MTase TRM10-type
+345	E	0.1097	domain SAM-dependent MTase TRM10-type
+346	I	0.1094	domain SAM-dependent MTase TRM10-type
+347	G	0.1023	domain SAM-dependent MTase TRM10-type
+348	N	0.0942	domain SAM-dependent MTase TRM10-type
+349	K	0.0837	domain SAM-dependent MTase TRM10-type
+350	N	0.0615	domain SAM-dependent MTase TRM10-type
+351	L	0.0545	domain SAM-dependent MTase TRM10-type
+352	T	0.0502	domain SAM-dependent MTase TRM10-type
+353	L	0.0560	domain SAM-dependent MTase TRM10-type
+354	D	0.0633	domain SAM-dependent MTase TRM10-type
+355	Q	0.0814	domain SAM-dependent MTase TRM10-type
+356	M	0.0929	domain SAM-dependent MTase TRM10-type
+357	I	0.1041	domain SAM-dependent MTase TRM10-type
+358	R	0.1157	domain SAM-dependent MTase TRM10-type
+359	I	0.1197	domain SAM-dependent MTase TRM10-type
+360	L	0.1140	domain SAM-dependent MTase TRM10-type
+361	L	0.1063	domain SAM-dependent MTase TRM10-type
+362	C	0.0943	domain SAM-dependent MTase TRM10-type
+363	L	0.0804	domain SAM-dependent MTase TRM10-type
+364	K	0.0698	domain SAM-dependent MTase TRM10-type
+365	N	0.0579	domain SAM-dependent MTase TRM10-type
+366	N	0.0575	domain SAM-dependent MTase TRM10-type
+367	G	0.0736	domain SAM-dependent MTase TRM10-type
+368	N	0.0950	domain SAM-dependent MTase TRM10-type
+369	W	0.1402	domain SAM-dependent MTase TRM10-type
+370	Q	0.1937	domain SAM-dependent MTase TRM10-type
+371	E	0.2523	domain SAM-dependent MTase TRM10-type
+372	A	0.2880	domain SAM-dependent MTase TRM10-type
+373	L	0.3100	domain SAM-dependent MTase TRM10-type
+374	Q	0.3087	domain SAM-dependent MTase TRM10-type
+375	F	0.2907	domain SAM-dependent MTase TRM10-type
+376	V	0.2629	domain SAM-dependent MTase TRM10-type
+377	P	0.2460	domain SAM-dependent MTase TRM10-type
+378	K	0.2262	domain SAM-dependent MTase TRM10-type
+379	R	0.2050	domain SAM-dependent MTase TRM10-type
+380	K	0.2044	domain SAM-dependent MTase TRM10-type
+381	H	0.2204	domain SAM-dependent MTase TRM10-type
+382	T	0.2435	domain SAM-dependent MTase TRM10-type
+383	G	0.2635	domain SAM-dependent MTase TRM10-type
+384	F	0.2755	
+385	L	0.2815	
+386	E	0.2795	
+387	I	0.2738	
+388	S	0.2576	
+389	Q	0.2533	
+390	H	0.2383	
+391	S	0.2264	
+392	Q	0.2246	
+393	E	0.2301	
+394	F	0.2441	
+395	I	0.2824	
+396	N	0.3229	
+397	R	0.3578	
+398	L	0.3801	
+399	K	0.3845	
+400	K	0.3686	
+401	A	0.3338	
+402	K	0.2869	
+403	T	0.2406	

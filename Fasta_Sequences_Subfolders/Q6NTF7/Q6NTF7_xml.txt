@@ -1,0 +1,1678 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-06-26" modified="2024-10-02" version="149" xmlns="http://uniprot.org/uniprot">
+  <accession>Q6NTF7</accession>
+  <accession>B0QYP0</accession>
+  <accession>B0QYP1</accession>
+  <accession>B7TQM5</accession>
+  <accession>E9PF38</accession>
+  <accession>M4W6S4</accession>
+  <accession>Q5JYL9</accession>
+  <accession>Q6IC87</accession>
+  <name>ABC3H_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName>DNA dC-&gt;dU-editing enzyme APOBEC-3H</fullName>
+      <ecNumber evidence="4 17">3.5.4.38</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName>APOBEC-related protein 10</fullName>
+      <shortName>ARP-10</shortName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Apolipoprotein B mRNA-editing enzyme catalytic polypeptide-like 3H</fullName>
+      <shortName>A3H</shortName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="22 24" type="primary">APOBEC3H</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2009" name="J. Virol." volume="83" first="295" last="303">
+      <title>Polymorphisms and splice variants influence the antiretroviral activity of human APOBEC3H.</title>
+      <authorList>
+        <person name="Harari A."/>
+        <person name="Ooms M."/>
+        <person name="Mulder L.C."/>
+        <person name="Simon V."/>
+      </authorList>
+      <dbReference type="PubMed" id="18945781"/>
+      <dbReference type="DOI" id="10.1128/jvi.01665-08"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+    <scope>POLYMORPHISM</scope>
+    <scope>ALTERNATIVE SPLICING</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2004" name="Genome Biol." volume="5" first="R84.1" last="R84.11">
+      <title>A genome annotation-driven approach to cloning the human ORFeome.</title>
+      <authorList>
+        <person name="Collins J.E."/>
+        <person name="Wright C.L."/>
+        <person name="Edwards C.A."/>
+        <person name="Davis M.P."/>
+        <person name="Grinham J.A."/>
+        <person name="Cole C.G."/>
+        <person name="Goward M.E."/>
+        <person name="Aguado B."/>
+        <person name="Mallya M."/>
+        <person name="Mokrab Y."/>
+        <person name="Huckle E.J."/>
+        <person name="Beare D.M."/>
+        <person name="Dunham I."/>
+      </authorList>
+      <dbReference type="PubMed" id="15461802"/>
+      <dbReference type="DOI" id="10.1186/gb-2004-5-10-r84"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)</scope>
+    <scope>VARIANTS ASN-15 DEL; LEU-18; ARG-105 AND ASP-178</scope>
+  </reference>
+  <reference key="3">
+    <citation type="submission" date="2012-12" db="EMBL/GenBank/DDBJ databases">
+      <title>Sequence analysis of APOBEC-3 members in chronic HBV patients.</title>
+      <authorList>
+        <person name="Dad R."/>
+        <person name="Sawal H.A."/>
+        <person name="Rehman Z."/>
+        <person name="Fahim A."/>
+        <person name="Sadia H."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="1999" name="Nature" volume="402" first="489" last="495">
+      <title>The DNA sequence of human chromosome 22.</title>
+      <authorList>
+        <person name="Dunham I."/>
+        <person name="Hunt A.R."/>
+        <person name="Collins J.E."/>
+        <person name="Bruskiewich R."/>
+        <person name="Beare D.M."/>
+        <person name="Clamp M."/>
+        <person name="Smink L.J."/>
+        <person name="Ainscough R."/>
+        <person name="Almeida J.P."/>
+        <person name="Babbage A.K."/>
+        <person name="Bagguley C."/>
+        <person name="Bailey J."/>
+        <person name="Barlow K.F."/>
+        <person name="Bates K.N."/>
+        <person name="Beasley O.P."/>
+        <person name="Bird C.P."/>
+        <person name="Blakey S.E."/>
+        <person name="Bridgeman A.M."/>
+        <person name="Buck D."/>
+        <person name="Burgess J."/>
+        <person name="Burrill W.D."/>
+        <person name="Burton J."/>
+        <person name="Carder C."/>
+        <person name="Carter N.P."/>
+        <person name="Chen Y."/>
+        <person name="Clark G."/>
+        <person name="Clegg S.M."/>
+        <person name="Cobley V.E."/>
+        <person name="Cole C.G."/>
+        <person name="Collier R.E."/>
+        <person name="Connor R."/>
+        <person name="Conroy D."/>
+        <person name="Corby N.R."/>
+        <person name="Coville G.J."/>
+        <person name="Cox A.V."/>
+        <person name="Davis J."/>
+        <person name="Dawson E."/>
+        <person name="Dhami P.D."/>
+        <person name="Dockree C."/>
+        <person name="Dodsworth S.J."/>
+        <person name="Durbin R.M."/>
+        <person name="Ellington A.G."/>
+        <person name="Evans K.L."/>
+        <person name="Fey J.M."/>
+        <person name="Fleming K."/>
+        <person name="French L."/>
+        <person name="Garner A.A."/>
+        <person name="Gilbert J.G.R."/>
+        <person name="Goward M.E."/>
+        <person name="Grafham D.V."/>
+        <person name="Griffiths M.N.D."/>
+        <person name="Hall C."/>
+        <person name="Hall R.E."/>
+        <person name="Hall-Tamlyn G."/>
+        <person name="Heathcott R.W."/>
+        <person name="Ho S."/>
+        <person name="Holmes S."/>
+        <person name="Hunt S.E."/>
+        <person name="Jones M.C."/>
+        <person name="Kershaw J."/>
+        <person name="Kimberley A.M."/>
+        <person name="King A."/>
+        <person name="Laird G.K."/>
+        <person name="Langford C.F."/>
+        <person name="Leversha M.A."/>
+        <person name="Lloyd C."/>
+        <person name="Lloyd D.M."/>
+        <person name="Martyn I.D."/>
+        <person name="Mashreghi-Mohammadi M."/>
+        <person name="Matthews L.H."/>
+        <person name="Mccann O.T."/>
+        <person name="Mcclay J."/>
+        <person name="Mclaren S."/>
+        <person name="McMurray A.A."/>
+        <person name="Milne S.A."/>
+        <person name="Mortimore B.J."/>
+        <person name="Odell C.N."/>
+        <person name="Pavitt R."/>
+        <person name="Pearce A.V."/>
+        <person name="Pearson D."/>
+        <person name="Phillimore B.J.C.T."/>
+        <person name="Phillips S.H."/>
+        <person name="Plumb R.W."/>
+        <person name="Ramsay H."/>
+        <person name="Ramsey Y."/>
+        <person name="Rogers L."/>
+        <person name="Ross M.T."/>
+        <person name="Scott C.E."/>
+        <person name="Sehra H.K."/>
+        <person name="Skuce C.D."/>
+        <person name="Smalley S."/>
+        <person name="Smith M.L."/>
+        <person name="Soderlund C."/>
+        <person name="Spragon L."/>
+        <person name="Steward C.A."/>
+        <person name="Sulston J.E."/>
+        <person name="Swann R.M."/>
+        <person name="Vaudin M."/>
+        <person name="Wall M."/>
+        <person name="Wallis J.M."/>
+        <person name="Whiteley M.N."/>
+        <person name="Willey D.L."/>
+        <person name="Williams L."/>
+        <person name="Williams S.A."/>
+        <person name="Williamson H."/>
+        <person name="Wilmer T.E."/>
+        <person name="Wilming L."/>
+        <person name="Wright C.L."/>
+        <person name="Hubbard T."/>
+        <person name="Bentley D.R."/>
+        <person name="Beck S."/>
+        <person name="Rogers J."/>
+        <person name="Shimizu N."/>
+        <person name="Minoshima S."/>
+        <person name="Kawasaki K."/>
+        <person name="Sasaki T."/>
+        <person name="Asakawa S."/>
+        <person name="Kudoh J."/>
+        <person name="Shintani A."/>
+        <person name="Shibuya K."/>
+        <person name="Yoshizaki Y."/>
+        <person name="Aoki N."/>
+        <person name="Mitsuyama S."/>
+        <person name="Roe B.A."/>
+        <person name="Chen F."/>
+        <person name="Chu L."/>
+        <person name="Crabtree J."/>
+        <person name="Deschamps S."/>
+        <person name="Do A."/>
+        <person name="Do T."/>
+        <person name="Dorman A."/>
+        <person name="Fang F."/>
+        <person name="Fu Y."/>
+        <person name="Hu P."/>
+        <person name="Hua A."/>
+        <person name="Kenton S."/>
+        <person name="Lai H."/>
+        <person name="Lao H.I."/>
+        <person name="Lewis J."/>
+        <person name="Lewis S."/>
+        <person name="Lin S.-P."/>
+        <person name="Loh P."/>
+        <person name="Malaj E."/>
+        <person name="Nguyen T."/>
+        <person name="Pan H."/>
+        <person name="Phan S."/>
+        <person name="Qi S."/>
+        <person name="Qian Y."/>
+        <person name="Ray L."/>
+        <person name="Ren Q."/>
+        <person name="Shaull S."/>
+        <person name="Sloan D."/>
+        <person name="Song L."/>
+        <person name="Wang Q."/>
+        <person name="Wang Y."/>
+        <person name="Wang Z."/>
+        <person name="White J."/>
+        <person name="Willingham D."/>
+        <person name="Wu H."/>
+        <person name="Yao Z."/>
+        <person name="Zhan M."/>
+        <person name="Zhang G."/>
+        <person name="Chissoe S."/>
+        <person name="Murray J."/>
+        <person name="Miller N."/>
+        <person name="Minx P."/>
+        <person name="Fulton R."/>
+        <person name="Johnson D."/>
+        <person name="Bemis G."/>
+        <person name="Bentley D."/>
+        <person name="Bradshaw H."/>
+        <person name="Bourne S."/>
+        <person name="Cordes M."/>
+        <person name="Du Z."/>
+        <person name="Fulton L."/>
+        <person name="Goela D."/>
+        <person name="Graves T."/>
+        <person name="Hawkins J."/>
+        <person name="Hinds K."/>
+        <person name="Kemp K."/>
+        <person name="Latreille P."/>
+        <person name="Layman D."/>
+        <person name="Ozersky P."/>
+        <person name="Rohlfing T."/>
+        <person name="Scheet P."/>
+        <person name="Walker C."/>
+        <person name="Wamsley A."/>
+        <person name="Wohldmann P."/>
+        <person name="Pepin K."/>
+        <person name="Nelson J."/>
+        <person name="Korf I."/>
+        <person name="Bedell J.A."/>
+        <person name="Hillier L.W."/>
+        <person name="Mardis E."/>
+        <person name="Waterston R."/>
+        <person name="Wilson R."/>
+        <person name="Emanuel B.S."/>
+        <person name="Shaikh T."/>
+        <person name="Kurahashi H."/>
+        <person name="Saitta S."/>
+        <person name="Budarf M.L."/>
+        <person name="McDermid H.E."/>
+        <person name="Johnson A."/>
+        <person name="Wong A.C.C."/>
+        <person name="Morrow B.E."/>
+        <person name="Edelmann L."/>
+        <person name="Kim U.J."/>
+        <person name="Shizuya H."/>
+        <person name="Simon M.I."/>
+        <person name="Dumanski J.P."/>
+        <person name="Peyrard M."/>
+        <person name="Kedra D."/>
+        <person name="Seroussi E."/>
+        <person name="Fransson I."/>
+        <person name="Tapia I."/>
+        <person name="Bruder C.E."/>
+        <person name="O'Brien K.P."/>
+        <person name="Wilkinson P."/>
+        <person name="Bodenteich A."/>
+        <person name="Hartman K."/>
+        <person name="Hu X."/>
+        <person name="Khan A.S."/>
+        <person name="Lane L."/>
+        <person name="Tilahun Y."/>
+        <person name="Wright H."/>
+      </authorList>
+      <dbReference type="PubMed" id="10591208"/>
+      <dbReference type="DOI" id="10.1038/990031"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 2 AND 3)</scope>
+    <source>
+      <tissue>Astrocyte</tissue>
+    </source>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2003" name="Trends Genet." volume="19" first="207" last="216">
+      <title>Messenger RNA editing in mammals: new members of the APOBEC family seeking roles in the family business.</title>
+      <authorList>
+        <person name="Wedekind J.E."/>
+        <person name="Dance G.S.C."/>
+        <person name="Sowden M.P."/>
+        <person name="Smith H.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="12683974"/>
+      <dbReference type="DOI" id="10.1016/s0168-9525(03)00054-4"/>
+    </citation>
+    <scope>REVIEW ON APOBEC FAMILY</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2006" name="J. Virol." volume="80" first="3853" last="3862">
+      <title>Adaptive evolution and antiviral activity of the conserved mammalian cytidine deaminase APOBEC3H.</title>
+      <authorList>
+        <person name="OhAinle M."/>
+        <person name="Kerns J.A."/>
+        <person name="Malik H.S."/>
+        <person name="Emerman M."/>
+      </authorList>
+      <dbReference type="PubMed" id="16571802"/>
+      <dbReference type="DOI" id="10.1128/jvi.80.8.3853-3862.2006"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2006" name="J. Virol." volume="80" first="10522" last="10533">
+      <title>Identification of APOBEC3DE as another antiretroviral factor from the human APOBEC family.</title>
+      <authorList>
+        <person name="Dang Y."/>
+        <person name="Wang X."/>
+        <person name="Esselman W.J."/>
+        <person name="Zheng Y.-H."/>
+      </authorList>
+      <dbReference type="PubMed" id="16920826"/>
+      <dbReference type="DOI" id="10.1128/jvi.01123-06"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2008" name="Annu. Rev. Immunol." volume="26" first="317" last="353">
+      <title>The APOBEC3 cytidine deaminases: an innate defensive network opposing exogenous retroviruses and endogenous retroelements.</title>
+      <authorList>
+        <person name="Chiu Y.L."/>
+        <person name="Greene W.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="18304004"/>
+      <dbReference type="DOI" id="10.1146/annurev.immunol.26.021607.090350"/>
+    </citation>
+    <scope>REVIEW</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2008" name="Cell Host Microbe" volume="4" first="249" last="259">
+      <title>Antiretroelement activity of APOBEC3H was lost twice in recent human evolution.</title>
+      <authorList>
+        <person name="OhAinle M."/>
+        <person name="Kerns J.A."/>
+        <person name="Li M.M."/>
+        <person name="Malik H.S."/>
+        <person name="Emerman M."/>
+      </authorList>
+      <dbReference type="PubMed" id="18779051"/>
+      <dbReference type="DOI" id="10.1016/j.chom.2008.07.005"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>POLYMORPHISM</scope>
+    <scope>CHARACTERIZATION OF VARIANTS ASN-15 DEL AND ARG-105</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2008" name="J. Biol. Chem." volume="283" first="11606" last="11614">
+      <title>Human cytidine deaminase APOBEC3H restricts HIV-1 replication.</title>
+      <authorList>
+        <person name="Dang Y."/>
+        <person name="Siew L.M."/>
+        <person name="Wang X."/>
+        <person name="Han Y."/>
+        <person name="Lampen R."/>
+        <person name="Zheng Y.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="18299330"/>
+      <dbReference type="DOI" id="10.1074/jbc.m707586200"/>
+    </citation>
+    <scope>FUNCTION IN HIV-1 RESTRICTION</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2009" name="FASEB J." volume="23" first="279" last="287">
+      <title>Sole copy of Z2-type human cytidine deaminase APOBEC3H has inhibitory activity against retrotransposons and HIV-1.</title>
+      <authorList>
+        <person name="Tan L."/>
+        <person name="Sarkis P.T."/>
+        <person name="Wang T."/>
+        <person name="Tian C."/>
+        <person name="Yu X.F."/>
+      </authorList>
+      <dbReference type="PubMed" id="18827027"/>
+      <dbReference type="DOI" id="10.1096/fj.07-088781"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CHARACTERIZATION OF ALLELE A3H-VAR</scope>
+    <scope>MUTAGENESIS OF GLU-56</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2010" name="Nucleic Acids Res." volume="38" first="4274" last="4284">
+      <title>Quantitative profiling of the full APOBEC3 mRNA repertoire in lymphocytes and tissues: implications for HIV-1 restriction.</title>
+      <authorList>
+        <person name="Refsland E.W."/>
+        <person name="Stenglein M.D."/>
+        <person name="Shindo K."/>
+        <person name="Albin J.S."/>
+        <person name="Brown W.L."/>
+        <person name="Harris R.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="20308164"/>
+      <dbReference type="DOI" id="10.1093/nar/gkq174"/>
+    </citation>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2010" name="Nat. Struct. Mol. Biol." volume="17" first="222" last="229">
+      <title>APOBEC3 proteins mediate the clearance of foreign DNA from human cells.</title>
+      <authorList>
+        <person name="Stenglein M.D."/>
+        <person name="Burns M.B."/>
+        <person name="Li M."/>
+        <person name="Lengyel J."/>
+        <person name="Harris R.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="20062055"/>
+      <dbReference type="DOI" id="10.1038/nsmb.1744"/>
+    </citation>
+    <scope>FUNCTION IN RETROTRANSPOSITION</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2011" name="J. Virol." volume="85" first="8197" last="8207">
+      <title>Polymorphism in human APOBEC3H affects a phenotype dominant for subcellular localization and antiviral activity.</title>
+      <authorList>
+        <person name="Li M.M."/>
+        <person name="Emerman M."/>
+      </authorList>
+      <dbReference type="PubMed" id="21653666"/>
+      <dbReference type="DOI" id="10.1128/jvi.00624-11"/>
+    </citation>
+    <scope>CHARACTERIZATION OF ALLELE A3H-VAR</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="2011" name="J. Virol." volume="85" first="11220" last="11234">
+      <title>Human and rhesus APOBEC3D, APOBEC3F, APOBEC3G, and APOBEC3H demonstrate a conserved capacity to restrict Vif-deficient HIV-1.</title>
+      <authorList>
+        <person name="Hultquist J.F."/>
+        <person name="Lengyel J.A."/>
+        <person name="Refsland E.W."/>
+        <person name="LaRue R.S."/>
+        <person name="Lackey L."/>
+        <person name="Brown W.L."/>
+        <person name="Harris R.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="21835787"/>
+      <dbReference type="DOI" id="10.1128/jvi.05238-11"/>
+    </citation>
+    <scope>FUNCTION IN HIV-1 RESTRICTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>ACTIVITY REGULATION (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="17">
+    <citation type="journal article" date="2011" name="Student Perspec. Contemp. Virol.">
+      <title>Cytosine deaminases APOBEC3A, APOBEC3C, and APOBEC3H: Current understanding of their functional roles.</title>
+      <authorList>
+        <person name="Love R."/>
+      </authorList>
+    </citation>
+    <scope>REVIEW</scope>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="2012" name="Front. Microbiol." volume="3" first="275" last="275">
+      <title>Retroelements versus APOBEC3 family members: No great escape from the magnificent seven.</title>
+      <authorList>
+        <person name="Arias J.F."/>
+        <person name="Koyama T."/>
+        <person name="Kinomoto M."/>
+        <person name="Tokunaga K."/>
+      </authorList>
+      <dbReference type="PubMed" id="22912627"/>
+      <dbReference type="DOI" id="10.3389/fmicb.2012.00275"/>
+    </citation>
+    <scope>REVIEW</scope>
+  </reference>
+  <reference key="19">
+    <citation type="journal article" date="2012" name="J. Virol." volume="86" first="6097" last="6108">
+      <title>APOBEC3A, APOBEC3B, and APOBEC3H haplotype 2 restrict human T-lymphotropic virus type 1.</title>
+      <authorList>
+        <person name="Ooms M."/>
+        <person name="Krikoni A."/>
+        <person name="Kress A.K."/>
+        <person name="Simon V."/>
+        <person name="Muenk C."/>
+      </authorList>
+      <dbReference type="PubMed" id="22457529"/>
+      <dbReference type="DOI" id="10.1128/jvi.06570-11"/>
+    </citation>
+    <scope>FUNCTION IN HTLV-1 RESTRICTION</scope>
+  </reference>
+  <reference key="20">
+    <citation type="journal article" date="2012" name="J. Virol." volume="86" first="11712" last="11724">
+      <title>HIV-1 replication and APOBEC3 antiviral activity are not regulated by P bodies.</title>
+      <authorList>
+        <person name="Phalora P.K."/>
+        <person name="Sherer N.M."/>
+        <person name="Wolinsky S.M."/>
+        <person name="Swanson C.M."/>
+        <person name="Malim M.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="22915799"/>
+      <dbReference type="DOI" id="10.1128/jvi.00595-12"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>INTERACTION WITH AGO1; AGO2 AND AGO3</scope>
+  </reference>
+  <reference key="21">
+    <citation type="journal article" date="2012" name="Semin. Cell Dev. Biol." volume="23" first="258" last="268">
+      <title>Functions and regulation of the APOBEC family of proteins.</title>
+      <authorList>
+        <person name="Smith H.C."/>
+        <person name="Bennett R.P."/>
+        <person name="Kizilyer A."/>
+        <person name="McDougall W.M."/>
+        <person name="Prohaska K.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="22001110"/>
+      <dbReference type="DOI" id="10.1016/j.semcdb.2011.10.004"/>
+    </citation>
+    <scope>REVIEW</scope>
+  </reference>
+  <reference key="22">
+    <citation type="journal article" date="2013" name="J. Virol." volume="87" first="444" last="453">
+      <title>APOBEC3G restricts HIV-1 to a greater extent than APOBEC3F and APOBEC3DE in human primary CD4+ t cells and macrophages.</title>
+      <authorList>
+        <person name="Chaipan C."/>
+        <person name="Smith J.L."/>
+        <person name="Hu W.S."/>
+        <person name="Pathak V.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="23097438"/>
+      <dbReference type="DOI" id="10.1128/jvi.00676-12"/>
+    </citation>
+    <scope>FUNCTION IN HIV-1 RESTRICTION</scope>
+  </reference>
+  <reference evidence="25 26" key="23">
+    <citation type="journal article" date="2018" name="Mol. Cell" volume="69" first="75" last="86">
+      <title>The antiviral and cancer genomic DNA deaminase APOBEC3H is regulated by an RNA-mediated dimerization mechanism.</title>
+      <authorList>
+        <person name="Shaban N.M."/>
+        <person name="Shi K."/>
+        <person name="Lauer K.V."/>
+        <person name="Carpenter M.A."/>
+        <person name="Richards C.M."/>
+        <person name="Salamango D."/>
+        <person name="Wang J."/>
+        <person name="Lopresti M.W."/>
+        <person name="Banerjee S."/>
+        <person name="Levin-Klein R."/>
+        <person name="Brown W.L."/>
+        <person name="Aihara H."/>
+        <person name="Harris R.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="29290613"/>
+      <dbReference type="DOI" id="10.1016/j.molcel.2017.12.010"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (3.28 ANGSTROMS) OF 1-181 IN COMPLEX WITH RNA AND ZINC</scope>
+    <scope>COFACTOR</scope>
+    <scope>ACTIVE SITE</scope>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>ACTIVITY REGULATION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MUTAGENESIS OF ARG-18; ARG-20; ARG-21; PRO-22; TYR-23; TYR-24; PRO-25; ARG-26; LYS-50; LYS-51; LYS-52; GLU-56; ARG-110; LEU-111; TYR-112; TYR-113; HIS-114; TRP-115; ARG-171; ALA-172; ILE-173; ARG-175; ARG-176 AND ARG-179</scope>
+  </reference>
+  <reference evidence="27" key="24">
+    <citation type="journal article" date="2023" name="Nat. Commun." volume="14" first="5241" last="5241">
+      <title>Structural basis of HIV-1 Vif-mediated E3 ligase targeting of host APOBEC3H.</title>
+      <authorList>
+        <person name="Ito F."/>
+        <person name="Alvarez-Cabrera A.L."/>
+        <person name="Kim K."/>
+        <person name="Zhou Z.H."/>
+        <person name="Chen X.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="37640699"/>
+      <dbReference type="DOI" id="10.1038/s41467-023-40955-x"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (3.24 ANGSTROMS) OF 1-181 IN COMPLEX WITH ELOB; ELOC; CBFB AND HIV-1 VIF</scope>
+    <scope>UBIQUITINATION (MICROBIAL INFECTION)</scope>
+    <scope>MUTAGENESIS OF 50-LYS-LYS-51; GLU-70; TRP-90; ASP-94; LYS-97; LEU-125 AND SER-129</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="4 5 6 7 8 10 13 14 15 16 17">DNA deaminase (cytidine deaminase) which acts as an inhibitor of retrovirus replication and retrotransposon mobility via deaminase-dependent and -independent mechanisms (PubMed:16571802, PubMed:16920826, PubMed:18779051, PubMed:18827027, PubMed:20062055, PubMed:22915799, PubMed:29290613). The A3H-var/haplotype 2 exhibits antiviral activity against vif-deficient HIV-1 (PubMed:18299330, PubMed:21835787, PubMed:23097438, PubMed:29290613). After the penetration of retroviral nucleocapsids into target cells of infection and the initiation of reverse transcription, it can induce the conversion of cytosine to uracil in the minus-sense single-strand viral DNA, leading to G-to-A hypermutations in the subsequent plus-strand viral DNA (PubMed:18299330). The resultant detrimental levels of mutations in the proviral genome, along with a deamination-independent mechanism that works prior to the proviral integration, together exert efficient antiretroviral effects in infected target cells (PubMed:18299330). Selectively targets single-stranded DNA and does not deaminate double-stranded DNA or single- or double-stranded RNA (PubMed:20062055). Exhibits antiviral activity also against T-cell leukemia virus type 1 (HTLV-1) and may inhibit the mobility of LTR and non-LTR retrotransposons (PubMed:20062055, PubMed:22457529).</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="4 17">
+      <text>a 2'-deoxycytidine in single-stranded DNA + H(+) + H2O = a 2'-deoxyuridine in single-stranded DNA + NH4(+)</text>
+      <dbReference type="Rhea" id="RHEA:50948"/>
+      <dbReference type="Rhea" id="RHEA-COMP:12846"/>
+      <dbReference type="Rhea" id="RHEA-COMP:12847"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:28938"/>
+      <dbReference type="ChEBI" id="CHEBI:85452"/>
+      <dbReference type="ChEBI" id="CHEBI:133902"/>
+      <dbReference type="EC" id="3.5.4.38"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="17">
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+    </cofactor>
+  </comment>
+  <comment type="activity regulation">
+    <text evidence="17">APOBEC3H activity is regulated by RNA (PubMed:29290613). While RNA-binding inhibits the DNA deaminase activity, double-stranded RNA is required for HIV-1 restriction by promoting APOBEC3H homodimerization and packaging into retroviral nucleocapsids (PubMed:29290613).</text>
+  </comment>
+  <comment type="activity regulation">
+    <text evidence="13 18">(Microbial infection) Antiviral activity is inhibited to some extent by the HIV-1 virion infectivity factor (VIF), that prevents its incorporation into progeny virions by both inhibiting its translation and/or by inducing its ubiquitination and subsequent degradation by the 26S proteasome.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="15 17">Homodimer (PubMed:29290613). Interacts with AGO1, AGO2 and AGO3 (PubMed:22915799).</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="12 13 17">Cytoplasm</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="7 12">Nucleus</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="15">Cytoplasm</location>
+      <location evidence="15">P-body</location>
+    </subcellularLocation>
+    <text evidence="12">Haplotype 1 is distributed in both the nucleus and cytoplasm, whereas haplotype 2 is predominantly cytoplasmic.</text>
+  </comment>
+  <comment type="alternative products">
+    <event type="alternative splicing"/>
+    <isoform>
+      <id>Q6NTF7-1</id>
+      <name>1</name>
+      <sequence type="displayed"/>
+    </isoform>
+    <isoform>
+      <id>Q6NTF7-2</id>
+      <name>2</name>
+      <sequence type="described" ref="VSP_035034"/>
+    </isoform>
+    <isoform>
+      <id>Q6NTF7-3</id>
+      <name>3</name>
+      <sequence type="described" ref="VSP_039975"/>
+    </isoform>
+    <isoform>
+      <id>Q6NTF7-4</id>
+      <name>4</name>
+      <sequence type="described" ref="VSP_047044"/>
+    </isoform>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="4 11">Expressed in lymphoid organs. Also detected in non-lymphoid tissues including lung, testis, ovary, fetal liver and skin.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="18">(Microbial infection) Following infection by some HIV-1 strains, such as isolate BRU/LAI, can be ubiquitinated by a cullin-5-RING E3 ubiquitin-protein ligase complex (ECS complex) hijacked by the HIV-1 Vif protein, leading to its degradation (PubMed:37640699). Ubiquitination by the ECS complex is however less efficent compared to APOBEC3G or APOBEC3G (PubMed:37640699).</text>
+  </comment>
+  <comment type="polymorphism">
+    <text evidence="7 9">There are at least 4 different haplotypes in the human population (PubMed:18779051, PubMed:18945781). The allele A3H-var/haplotype 2 encodes a more stable protein which is able to block HIV-1 replication (PubMed:18779051, PubMed:18945781). The displayed allele (haplotype 1) is unstable and inefficient to block HIV-1 replication (PubMed:18779051, PubMed:18945781).</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="4">APOBEC3H from old world monkeys has retained its antiviral activity, while it is lost in other primates.</text>
+  </comment>
+  <comment type="miscellaneous">
+    <text evidence="19">It is one of seven related genes or pseudogenes found in a cluster, thought to result from gene duplication, on chromosome 22.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="23">Belongs to the cytidine and deoxycytidylate deaminase family.</text>
+  </comment>
+  <dbReference type="EC" id="3.5.4.38" evidence="4 17"/>
+  <dbReference type="EMBL" id="FJ376613">
+    <property type="protein sequence ID" value="ACK77774.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CR456481">
+    <property type="protein sequence ID" value="CAG30367.3"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="KC329529">
+    <property type="protein sequence ID" value="AGI04217.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AL031846">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="KF457460">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC069023">
+    <property type="protein sequence ID" value="AAH69023.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BQ052182">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS13985.1">
+    <molecule id="Q6NTF7-3"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS54530.1">
+    <molecule id="Q6NTF7-1"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS54531.1">
+    <molecule id="Q6NTF7-2"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS54532.1">
+    <molecule id="Q6NTF7-4"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001159474.2">
+    <molecule id="Q6NTF7-2"/>
+    <property type="nucleotide sequence ID" value="NM_001166002.2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001159475.2">
+    <molecule id="Q6NTF7-1"/>
+    <property type="nucleotide sequence ID" value="NM_001166003.2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001159476.2">
+    <property type="nucleotide sequence ID" value="NM_001166004.2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_861438.3">
+    <molecule id="Q6NTF7-3"/>
+    <property type="nucleotide sequence ID" value="NM_181773.4"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="XP_011528294.1">
+    <molecule id="Q6NTF7-1"/>
+    <property type="nucleotide sequence ID" value="XM_011529992.2"/>
+  </dbReference>
+  <dbReference type="PDB" id="5W45">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.49 A"/>
+    <property type="chains" value="A/B=2-177"/>
+  </dbReference>
+  <dbReference type="PDB" id="6B0B">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.28 A"/>
+    <property type="chains" value="A/E=1-181"/>
+  </dbReference>
+  <dbReference type="PDB" id="6BBO">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.43 A"/>
+    <property type="chains" value="A/E=3-181"/>
+  </dbReference>
+  <dbReference type="PDB" id="8FVI">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.24 A"/>
+    <property type="chains" value="A=1-181"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5W45"/>
+  <dbReference type="PDBsum" id="6B0B"/>
+  <dbReference type="PDBsum" id="6BBO"/>
+  <dbReference type="PDBsum" id="8FVI"/>
+  <dbReference type="AlphaFoldDB" id="Q6NTF7"/>
+  <dbReference type="EMDB" id="EMD-29488"/>
+  <dbReference type="EMDB" id="EMD-29490"/>
+  <dbReference type="SMR" id="Q6NTF7"/>
+  <dbReference type="BioGRID" id="127899">
+    <property type="interactions" value="4"/>
+  </dbReference>
+  <dbReference type="STRING" id="9606.ENSP00000385741"/>
+  <dbReference type="iPTMnet" id="Q6NTF7"/>
+  <dbReference type="PhosphoSitePlus" id="Q6NTF7"/>
+  <dbReference type="BioMuta" id="APOBEC3H"/>
+  <dbReference type="DMDM" id="205371798"/>
+  <dbReference type="MassIVE" id="Q6NTF7"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000385741"/>
+  <dbReference type="PeptideAtlas" id="Q6NTF7"/>
+  <dbReference type="ProteomicsDB" id="66670">
+    <molecule id="Q6NTF7-1"/>
+  </dbReference>
+  <dbReference type="Antibodypedia" id="26556">
+    <property type="antibodies" value="60 antibodies from 19 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="164668"/>
+  <dbReference type="Ensembl" id="ENST00000348946.8">
+    <molecule id="Q6NTF7-2"/>
+    <property type="protein sequence ID" value="ENSP00000216123.5"/>
+    <property type="gene ID" value="ENSG00000100298.16"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000401756.5">
+    <molecule id="Q6NTF7-1"/>
+    <property type="protein sequence ID" value="ENSP00000385741.1"/>
+    <property type="gene ID" value="ENSG00000100298.16"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000442487.8">
+    <molecule id="Q6NTF7-3"/>
+    <property type="protein sequence ID" value="ENSP00000411754.3"/>
+    <property type="gene ID" value="ENSG00000100298.16"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000613677.4">
+    <molecule id="Q6NTF7-1"/>
+    <property type="protein sequence ID" value="ENSP00000483689.1"/>
+    <property type="gene ID" value="ENSG00000100298.16"/>
+  </dbReference>
+  <dbReference type="GeneID" id="164668"/>
+  <dbReference type="KEGG" id="hsa:164668"/>
+  <dbReference type="MANE-Select" id="ENST00000442487.8">
+    <molecule id="Q6NTF7-3"/>
+    <property type="protein sequence ID" value="ENSP00000411754.3"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_181773.5"/>
+    <property type="RefSeq protein sequence ID" value="NP_861438.3"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc021wps.2">
+    <molecule id="Q6NTF7-1"/>
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc062ejr.1">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:24100"/>
+  <dbReference type="CTD" id="164668"/>
+  <dbReference type="DisGeNET" id="164668"/>
+  <dbReference type="GeneCards" id="APOBEC3H"/>
+  <dbReference type="HGNC" id="HGNC:24100">
+    <property type="gene designation" value="APOBEC3H"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000100298">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MIM" id="610976">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q6NTF7"/>
+  <dbReference type="OpenTargets" id="ENSG00000100298"/>
+  <dbReference type="PharmGKB" id="PA162376694"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000100298"/>
+  <dbReference type="eggNOG" id="ENOG502TFVZ">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00940000162772"/>
+  <dbReference type="HOGENOM" id="CLU_080056_4_0_1"/>
+  <dbReference type="InParanoid" id="Q6NTF7"/>
+  <dbReference type="OMA" id="HVQGCYI"/>
+  <dbReference type="OrthoDB" id="5355962at2759"/>
+  <dbReference type="PhylomeDB" id="Q6NTF7"/>
+  <dbReference type="TreeFam" id="TF331356"/>
+  <dbReference type="BRENDA" id="3.5.4.38">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="Q6NTF7"/>
+  <dbReference type="Reactome" id="R-HSA-72200">
+    <property type="pathway name" value="mRNA Editing: C to U Conversion"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-75094">
+    <property type="pathway name" value="Formation of the Editosome"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="Q6NTF7"/>
+  <dbReference type="SIGNOR" id="Q6NTF7"/>
+  <dbReference type="BioGRID-ORCS" id="164668">
+    <property type="hits" value="6 hits in 1142 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="GeneWiki" id="APOBEC3H"/>
+  <dbReference type="GenomeRNAi" id="164668"/>
+  <dbReference type="Pharos" id="Q6NTF7">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q6NTF7"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 22"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q6NTF7">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000100298">
+    <property type="expression patterns" value="Expressed in granulocyte and 91 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q6NTF7">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005829">
+    <property type="term" value="C:cytosol"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000932">
+    <property type="term" value="C:P-body"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004126">
+    <property type="term" value="F:cytidine deaminase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003723">
+    <property type="term" value="F:RNA binding"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008270">
+    <property type="term" value="F:zinc ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0044355">
+    <property type="term" value="P:clearance of foreign intracellular DNA"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016554">
+    <property type="term" value="P:cytidine to uridine editing"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051607">
+    <property type="term" value="P:defense response to virus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070383">
+    <property type="term" value="P:DNA cytosine deamination"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045087">
+    <property type="term" value="P:innate immune response"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0044828">
+    <property type="term" value="P:negative regulation by host of viral genome replication"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045869">
+    <property type="term" value="P:negative regulation of single stranded viral RNA replication via double stranded DNA intermediate"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010526">
+    <property type="term" value="P:retrotransposon silencing"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd01283">
+    <property type="entry name" value="cytidine_deaminase"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.40.140.10">
+    <property type="entry name" value="Cytidine Deaminase, domain 2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR016192">
+    <property type="entry name" value="APOBEC/CMP_deaminase_Zn-bd"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041512">
+    <property type="entry name" value="APOBEC3H"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR050610">
+    <property type="entry name" value="APOBEC_Cyt_Deaminase"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002125">
+    <property type="entry name" value="CMP_dCMP_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR016193">
+    <property type="entry name" value="Cytidine_deaminase-like"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR13857:SF43">
+    <property type="entry name" value="DNA DC-DU-EDITING ENZYME APOBEC-3H"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR13857">
+    <property type="entry name" value="MRNA EDITING ENZYME"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF18771">
+    <property type="entry name" value="APOBEC3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF53927">
+    <property type="entry name" value="Cytidine deaminase-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00903">
+    <property type="entry name" value="CYT_DCMP_DEAMINASES_1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51747">
+    <property type="entry name" value="CYT_DCMP_DEAMINASES_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0025">Alternative splicing</keyword>
+  <keyword id="KW-0051">Antiviral defense</keyword>
+  <keyword id="KW-0175">Coiled coil</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0378">Hydrolase</keyword>
+  <keyword id="KW-0391">Immunity</keyword>
+  <keyword id="KW-0399">Innate immunity</keyword>
+  <keyword id="KW-0479">Metal-binding</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0832">Ubl conjugation</keyword>
+  <keyword id="KW-0862">Zinc</keyword>
+  <feature type="chain" id="PRO_0000291663" description="DNA dC-&gt;dU-editing enzyme APOBEC-3H">
+    <location>
+      <begin position="1"/>
+      <end position="200"/>
+    </location>
+  </feature>
+  <feature type="domain" description="CMP/dCMP-type deaminase" evidence="2">
+    <location>
+      <begin position="4"/>
+      <end position="126"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="1">
+    <location>
+      <begin position="160"/>
+      <end position="182"/>
+    </location>
+  </feature>
+  <feature type="active site" description="Proton donor" evidence="17 25 26">
+    <location>
+      <position position="56"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="17 25 26">
+    <location>
+      <position position="54"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <note>catalytic</note>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="17 25 26">
+    <location>
+      <position position="85"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <note>catalytic</note>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="17 25 26">
+    <location>
+      <position position="88"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <note>catalytic</note>
+    </ligand>
+  </feature>
+  <feature type="splice variant" id="VSP_047044" description="In isoform 4." evidence="23">
+    <original>EFADCWENFVDHEKPLSFNPYKMLEELDKNSRAIKRRLERIKIPGVRAQGRYMDILCDAEV</original>
+    <variation>NSRGTCAGSLHGYIV</variation>
+    <location>
+      <begin position="140"/>
+      <end position="200"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_035034" description="In isoform 2." evidence="20 21">
+    <original>IPGVRAQGRYMDILCDAEV</original>
+    <variation>S</variation>
+    <location>
+      <begin position="182"/>
+      <end position="200"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_039975" description="In isoform 3." evidence="21">
+    <original>IPGVRAQGRYMDILCDAEV</original>
+    <variation>QS</variation>
+    <location>
+      <begin position="182"/>
+      <end position="200"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_065622" description="Decreases protein stability." evidence="3 7">
+    <location>
+      <position position="15"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_032835" description="In dbSNP:rs139293." evidence="3">
+    <original>R</original>
+    <variation>L</variation>
+    <location>
+      <position position="18"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_032836" description="In allele A3H-Var; haplotype 2; allele presenting a higher expression and which is more effective in retrotransposons and HIV-1 restriction; increases protein stability; dbSNP:rs139297." evidence="3 7">
+    <original>G</original>
+    <variation>R</variation>
+    <location>
+      <position position="105"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_032837" description="In allele A3H-Var; haplotype 2; allele presenting a higher expression and more effective in retrotransposons and HIV-1 restriction; dbSNP:rs139298.">
+    <original>K</original>
+    <variation>E</variation>
+    <location>
+      <position position="121"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_032838" description="In dbSNP:rs139299.">
+    <original>K</original>
+    <variation>N</variation>
+    <location>
+      <position position="121"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_067444" description="In dbSNP:rs139300.">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="140"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_032839" description="In allele A3H-Var; haplotype 2; allele presenting a higher expression and more effective in retrotransposons and HIV-1 restriction; dbSNP:rs139302." evidence="3">
+    <original>E</original>
+    <variation>D</variation>
+    <location>
+      <position position="178"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increased DNA deaminase activity." evidence="17">
+    <original>R</original>
+    <variation>E</variation>
+    <location>
+      <position position="18"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increased DNA deaminase activity." evidence="17">
+    <original>R</original>
+    <variation>E</variation>
+    <location>
+      <position position="20"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decreased DNA deaminase activity." evidence="17">
+    <original>R</original>
+    <variation>E</variation>
+    <location>
+      <position position="21"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decreased DNA deaminase activity." evidence="17">
+    <original>P</original>
+    <variation>A</variation>
+    <location>
+      <position position="22"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decreased DNA deaminase activity." evidence="17">
+    <original>Y</original>
+    <variation>A</variation>
+    <location>
+      <position position="23"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decreased DNA deaminase activity." evidence="17">
+    <original>Y</original>
+    <variation>A</variation>
+    <location>
+      <position position="24"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decreased DNA deaminase activity." evidence="17">
+    <original>P</original>
+    <variation>A</variation>
+    <location>
+      <position position="25"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Does not affect the DNA deaminase activity." evidence="17">
+    <original>R</original>
+    <variation>E</variation>
+    <location>
+      <position position="26"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Does not affect ubiquitination by an ECS complex hijacked by HIV-1 Vif." evidence="18">
+    <original>KK</original>
+    <variation>RR</variation>
+    <location>
+      <begin position="50"/>
+      <end position="51"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Does not affect the DNA deaminase activity." evidence="17">
+    <original>K</original>
+    <variation>E</variation>
+    <location>
+      <position position="50"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Does not affect the DNA deaminase activity." evidence="17">
+    <original>K</original>
+    <variation>E</variation>
+    <location>
+      <position position="51"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Does not affect the DNA deaminase activity." evidence="17">
+    <original>K</original>
+    <variation>E</variation>
+    <location>
+      <position position="52"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished DNA deaminase activity." evidence="17">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="56"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduces the ability to inhibit the retrotransposition of LINE-1 elements." evidence="8">
+    <original>E</original>
+    <variation>Q</variation>
+    <location>
+      <position position="56"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Partial resistance to ubiquitination and degradation by an ECS complex hijacked by HIV-1 Vif." evidence="18">
+    <original>E</original>
+    <variation>R</variation>
+    <location>
+      <position position="70"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Resistance to ubiquitination and degradation by an ECS complex hijacked by HIV-1 Vif." evidence="18">
+    <original>W</original>
+    <variation>A</variation>
+    <location>
+      <position position="90"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Resistance to ubiquitination and degradation by an ECS complex hijacked by HIV-1 Vif." evidence="18">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="94"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increased ubiquitination and degradation by an ECS complex hijacked by HIV-1 Vif." evidence="18">
+    <original>K</original>
+    <variation>Q</variation>
+    <location>
+      <position position="97"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decreased DNA deaminase activity." evidence="17">
+    <original>R</original>
+    <variation>E</variation>
+    <location>
+      <position position="110"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decreased DNA deaminase activity." evidence="17">
+    <original>L</original>
+    <variation>A</variation>
+    <location>
+      <position position="111"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decreased DNA deaminase activity." evidence="17">
+    <original>Y</original>
+    <variation>A</variation>
+    <location>
+      <position position="112"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decreased DNA deaminase activity." evidence="17">
+    <original>Y</original>
+    <variation>A</variation>
+    <location>
+      <position position="113"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increased DNA deaminase activity." evidence="17">
+    <original>H</original>
+    <variation>A</variation>
+    <location>
+      <position position="114"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increased DNA deaminase activity." evidence="17">
+    <original>W</original>
+    <variation>A</variation>
+    <location>
+      <position position="115"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Resistance to ubiquitination and degradation by an ECS complex hijacked by HIV-1 Vif." evidence="18">
+    <original>L</original>
+    <variation>R</variation>
+    <location>
+      <position position="125"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Resistance to ubiquitination and degradation by an ECS complex hijacked by HIV-1 Vif." evidence="18">
+    <original>S</original>
+    <variation>R</variation>
+    <location>
+      <position position="129"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increased DNA deaminase activity." evidence="17">
+    <original>R</original>
+    <variation>E</variation>
+    <location>
+      <position position="171"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increased DNA deaminase activity." evidence="17">
+    <original>A</original>
+    <variation>E</variation>
+    <location>
+      <position position="172"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increased DNA deaminase activity." evidence="17">
+    <original>I</original>
+    <variation>A</variation>
+    <variation>E</variation>
+    <location>
+      <position position="173"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increased DNA deaminase activity." evidence="17">
+    <original>R</original>
+    <variation>E</variation>
+    <location>
+      <position position="175"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increased DNA deaminase activity." evidence="17">
+    <original>R</original>
+    <variation>E</variation>
+    <location>
+      <position position="176"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Increased DNA deaminase activity." evidence="17">
+    <original>R</original>
+    <variation>E</variation>
+    <location>
+      <position position="179"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 2; CAG30367." evidence="23" ref="2">
+    <original>K</original>
+    <variation>D</variation>
+    <location>
+      <position position="121"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="6"/>
+      <end position="13"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="21"/>
+      <end position="24"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="29"/>
+      <end position="36"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="29">
+    <location>
+      <begin position="37"/>
+      <end position="40"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="43"/>
+      <end position="48"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="30">
+    <location>
+      <begin position="51"/>
+      <end position="53"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="55"/>
+      <end position="66"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="30">
+    <location>
+      <begin position="70"/>
+      <end position="72"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="74"/>
+      <end position="82"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="86"/>
+      <end position="98"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="102"/>
+      <end position="110"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="117"/>
+      <end position="129"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="133"/>
+      <end position="135"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="138"/>
+      <end position="148"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="28">
+    <location>
+      <begin position="159"/>
+      <end position="177"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000255" key="1"/>
+  <evidence type="ECO:0000255" key="2">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU01083"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="15461802"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="16571802"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="16920826"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="18299330"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="18779051"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="18827027"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="18945781"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="20062055"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="20308164"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="21653666"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="21835787"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="14">
+    <source>
+      <dbReference type="PubMed" id="22457529"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="15">
+    <source>
+      <dbReference type="PubMed" id="22915799"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="16">
+    <source>
+      <dbReference type="PubMed" id="23097438"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="17">
+    <source>
+      <dbReference type="PubMed" id="29290613"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="18">
+    <source>
+      <dbReference type="PubMed" id="37640699"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="19">
+    <source>
+      <dbReference type="PubMed" id="12683974"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="20">
+    <source>
+      <dbReference type="PubMed" id="15461802"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="21">
+    <source>
+      <dbReference type="PubMed" id="15489334"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="22">
+    <source>
+      <dbReference type="PubMed" id="18945781"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="23"/>
+  <evidence type="ECO:0000312" key="24">
+    <source>
+      <dbReference type="HGNC" id="HGNC:24100"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="25">
+    <source>
+      <dbReference type="PDB" id="6B0B"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="26">
+    <source>
+      <dbReference type="PDB" id="6BBO"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="27">
+    <source>
+      <dbReference type="PDB" id="8FVI"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="28">
+    <source>
+      <dbReference type="PDB" id="5W45"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="29">
+    <source>
+      <dbReference type="PDB" id="6B0B"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="30">
+    <source>
+      <dbReference type="PDB" id="8FVI"/>
+    </source>
+  </evidence>
+  <sequence length="200" mass="23532" checksum="67A9E01382CC9388" modified="2018-09-12" version="4">MALLTAETFRLQFNNKRRLRRPYYPRKALLCYQLTPQNGSTPTRGYFENKKKCHAEICFINEIKSMGLDETQCYQVTCYLTWSPCSSCAWELVDFIKAHDHLNLGIFASRLYYHWCKPQQKGLRLLCGSQVPVEVMGFPEFADCWENFVDHEKPLSFNPYKMLEELDKNSRAIKRRLERIKIPGVRAQGRYMDILCDAEV</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

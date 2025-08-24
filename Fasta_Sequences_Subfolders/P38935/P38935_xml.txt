@@ -1,0 +1,2267 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1995-02-01" modified="2024-10-02" version="230" xmlns="http://uniprot.org/uniprot">
+  <accession>P38935</accession>
+  <accession>A0PJD2</accession>
+  <accession>Q00443</accession>
+  <accession>Q14177</accession>
+  <name>SMBP2_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName>DNA-binding protein SMUBP-2</fullName>
+      <ecNumber evidence="21">3.6.4.12</ecNumber>
+      <ecNumber evidence="16 18">3.6.4.13</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName>ATP-dependent helicase IGHMBP2</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Glial factor 1</fullName>
+      <shortName>GF-1</shortName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Immunoglobulin mu-binding protein 2</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">IGHMBP2</name>
+    <name type="synonym">SMBP2</name>
+    <name type="synonym">SMUBP2</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1993" name="J. Biol. Chem." volume="268" first="17463" last="17470">
+      <title>The human S mu bp-2, a DNA-binding protein specific to the single-stranded guanine-rich sequence related to the immunoglobulin mu chain switch region.</title>
+      <authorList>
+        <person name="Fukita Y."/>
+        <person name="Mizuta T.-R."/>
+        <person name="Shirozu M."/>
+        <person name="Ozawa K."/>
+        <person name="Shimizu A."/>
+        <person name="Honjo T."/>
+      </authorList>
+      <dbReference type="PubMed" id="8349627"/>
+      <dbReference type="DOI" id="10.1016/s0021-9258(19)85357-7"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <scope>FUNCTION</scope>
+    <scope>VARIANTS SER-201 AND VAL-275</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1999" name="Virology" volume="255" first="160" last="170">
+      <title>Smubp-2 represses the Epstein-Barr virus lytic switch promoter.</title>
+      <authorList>
+        <person name="Zhang Q."/>
+        <person name="Wang Y.C."/>
+        <person name="Montalvo E.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="10049831"/>
+      <dbReference type="DOI" id="10.1006/viro.1998.9588"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2006" name="Nature" volume="440" first="497" last="500">
+      <title>Human chromosome 11 DNA sequence and analysis including novel gene identification.</title>
+      <authorList>
+        <person name="Taylor T.D."/>
+        <person name="Noguchi H."/>
+        <person name="Totoki Y."/>
+        <person name="Toyoda A."/>
+        <person name="Kuroki Y."/>
+        <person name="Dewar K."/>
+        <person name="Lloyd C."/>
+        <person name="Itoh T."/>
+        <person name="Takeda T."/>
+        <person name="Kim D.-W."/>
+        <person name="She X."/>
+        <person name="Barlow K.F."/>
+        <person name="Bloom T."/>
+        <person name="Bruford E."/>
+        <person name="Chang J.L."/>
+        <person name="Cuomo C.A."/>
+        <person name="Eichler E."/>
+        <person name="FitzGerald M.G."/>
+        <person name="Jaffe D.B."/>
+        <person name="LaButti K."/>
+        <person name="Nicol R."/>
+        <person name="Park H.-S."/>
+        <person name="Seaman C."/>
+        <person name="Sougnez C."/>
+        <person name="Yang X."/>
+        <person name="Zimmer A.R."/>
+        <person name="Zody M.C."/>
+        <person name="Birren B.W."/>
+        <person name="Nusbaum C."/>
+        <person name="Fujiyama A."/>
+        <person name="Hattori M."/>
+        <person name="Rogers J."/>
+        <person name="Lander E.S."/>
+        <person name="Sakaki Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="16554811"/>
+      <dbReference type="DOI" id="10.1038/nature04632"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 1-868</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="submission" date="2007-07" db="UniProtKB">
+      <authorList>
+        <person name="Bienvenut W.V."/>
+        <person name="Boldt K."/>
+        <person name="von Kriegsheim A.F."/>
+        <person name="Kolch W."/>
+      </authorList>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 2-12; 221-233 AND 824-831</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE</scope>
+    <scope>ACETYLATION AT ALA-2</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <source>
+      <tissue>Hepatoma</tissue>
+    </source>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="1991" name="J. Biol. Chem." volume="266" first="15876" last="15881">
+      <title>A recombinant cDNA derived from human brain encodes a DNA binding protein that stimulates transcription of the human neurotropic virus JCV.</title>
+      <authorList>
+        <person name="Kerr D."/>
+        <person name="Khalili K."/>
+      </authorList>
+      <dbReference type="PubMed" id="1714899"/>
+      <dbReference type="DOI" id="10.1016/s0021-9258(18)98490-5"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 491-866</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2007" name="Science" volume="316" first="1160" last="1166">
+      <title>ATM and ATR substrate analysis reveals extensive protein networks responsive to DNA damage.</title>
+      <authorList>
+        <person name="Matsuoka S."/>
+        <person name="Ballif B.A."/>
+        <person name="Smogorzewska A."/>
+        <person name="McDonald E.R. III"/>
+        <person name="Hurov K.E."/>
+        <person name="Luo J."/>
+        <person name="Bakalarski C.E."/>
+        <person name="Zhao Z."/>
+        <person name="Solimini N."/>
+        <person name="Lerenthal Y."/>
+        <person name="Shiloh Y."/>
+        <person name="Gygi S.P."/>
+        <person name="Elledge S.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="17525332"/>
+      <dbReference type="DOI" id="10.1126/science.1140321"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Embryonic kidney</tissue>
+    </source>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2009" name="Hum. Mol. Genet." volume="18" first="1288" last="1300">
+      <title>IGHMBP2 is a ribosome-associated helicase inactive in the neuromuscular disorder distal SMA type 1 (DSMA1).</title>
+      <authorList>
+        <person name="Guenther U.P."/>
+        <person name="Handoko L."/>
+        <person name="Laggerbauer B."/>
+        <person name="Jablonka S."/>
+        <person name="Chari A."/>
+        <person name="Alzheimer M."/>
+        <person name="Ohmer J."/>
+        <person name="Ploettner O."/>
+        <person name="Gehring N."/>
+        <person name="Sickmann A."/>
+        <person name="von Au K."/>
+        <person name="Schuelke M."/>
+        <person name="Fischer U."/>
+      </authorList>
+      <dbReference type="PubMed" id="19158098"/>
+      <dbReference type="DOI" id="10.1093/hmg/ddp028"/>
+    </citation>
+    <scope>FUNCTION AS AN ATP-DEPENDENT HELICASE</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>INTERACTION WITH RIBOSOMES</scope>
+    <scope>CHARACTERIZATION OF VARIANTS HMNR1 ARG-196; ALA-221; ARG-241; LYS-382; PRO-445; ILE-493; ASN-565; ILE-583 AND HIS-603</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2009" name="Hum. Mol. Genet." volume="18" first="2115" last="2126">
+      <title>Biochemical and genetic evidence for a role of IGHMBP2 in the translational machinery.</title>
+      <authorList>
+        <person name="de Planell-Saguer M."/>
+        <person name="Schroeder D.G."/>
+        <person name="Rodicio M.C."/>
+        <person name="Cox G.A."/>
+        <person name="Mourelatos Z."/>
+      </authorList>
+      <dbReference type="PubMed" id="19299493"/>
+      <dbReference type="DOI" id="10.1093/hmg/ddp134"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>INTERACTION WITH RUVBL1; RUVBL2; GTF3C1 AND ABT1</scope>
+    <scope>TRNA-BINDING</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2010" name="Sci. Signal." volume="3" first="RA3" last="RA3">
+      <title>Quantitative phosphoproteomics reveals widespread full phosphorylation site occupancy during mitosis.</title>
+      <authorList>
+        <person name="Olsen J.V."/>
+        <person name="Vermeulen M."/>
+        <person name="Santamaria A."/>
+        <person name="Kumar C."/>
+        <person name="Miller M.L."/>
+        <person name="Jensen L.J."/>
+        <person name="Gnad F."/>
+        <person name="Cox J."/>
+        <person name="Jensen T.S."/>
+        <person name="Nigg E.A."/>
+        <person name="Brunak S."/>
+        <person name="Mann M."/>
+      </authorList>
+      <dbReference type="PubMed" id="20068231"/>
+      <dbReference type="DOI" id="10.1126/scisignal.2000475"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+    </source>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2012" name="Mol. Cell. Proteomics" volume="11" first="M111.015131" last="M111.015131">
+      <title>Comparative large-scale characterisation of plant vs. mammal proteins reveals similar and idiosyncratic N-alpha acetylation features.</title>
+      <authorList>
+        <person name="Bienvenut W.V."/>
+        <person name="Sumpton D."/>
+        <person name="Martinez A."/>
+        <person name="Lilla S."/>
+        <person name="Espagne C."/>
+        <person name="Meinnel T."/>
+        <person name="Giglione C."/>
+      </authorList>
+      <dbReference type="PubMed" id="22223895"/>
+      <dbReference type="DOI" id="10.1074/mcp.m111.015131"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2012" name="Proc. Natl. Acad. Sci. U.S.A." volume="109" first="12449" last="12454">
+      <title>N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.</title>
+      <authorList>
+        <person name="Van Damme P."/>
+        <person name="Lasa M."/>
+        <person name="Polevoda B."/>
+        <person name="Gazquez C."/>
+        <person name="Elosegui-Artola A."/>
+        <person name="Kim D.S."/>
+        <person name="De Juan-Pardo E."/>
+        <person name="Demeyer K."/>
+        <person name="Hole K."/>
+        <person name="Larrea E."/>
+        <person name="Timmerman E."/>
+        <person name="Prieto J."/>
+        <person name="Arnesen T."/>
+        <person name="Sherman F."/>
+        <person name="Gevaert K."/>
+        <person name="Aldabe R."/>
+      </authorList>
+      <dbReference type="PubMed" id="22814378"/>
+      <dbReference type="DOI" id="10.1073/pnas.1210303109"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2013" name="J. Proteome Res." volume="12" first="260" last="271">
+      <title>Toward a comprehensive characterization of a human cancer cell phosphoproteome.</title>
+      <authorList>
+        <person name="Zhou H."/>
+        <person name="Di Palma S."/>
+        <person name="Preisinger C."/>
+        <person name="Peng M."/>
+        <person name="Polat A.N."/>
+        <person name="Heck A.J."/>
+        <person name="Mohammed S."/>
+      </authorList>
+      <dbReference type="PubMed" id="23186163"/>
+      <dbReference type="DOI" id="10.1021/pr300630k"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+      <tissue>Erythroleukemia</tissue>
+    </source>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2018" name="Nat. Commun." volume="9" first="3752" last="3752">
+      <title>UPF1-like helicase grip on nucleic acids dictates processivity.</title>
+      <authorList>
+        <person name="Kanaan J."/>
+        <person name="Raj S."/>
+        <person name="Decourty L."/>
+        <person name="Saveanu C."/>
+        <person name="Croquette V."/>
+        <person name="Le Hir H."/>
+      </authorList>
+      <dbReference type="PubMed" id="30218034"/>
+      <dbReference type="DOI" id="10.1038/s41467-018-06313-y"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2003" name="J. Mol. Biol." volume="326" first="217" last="223">
+      <title>Solution structure of the R3H domain from human Smubp-2.</title>
+      <authorList>
+        <person name="Liepinsh E."/>
+        <person name="Leonchiks A."/>
+        <person name="Sharipo A."/>
+        <person name="Guignard L."/>
+        <person name="Otting G."/>
+      </authorList>
+      <dbReference type="PubMed" id="12547203"/>
+      <dbReference type="DOI" id="10.1016/s0022-2836(02)01381-5"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 709-794</scope>
+  </reference>
+  <reference evidence="26" key="16">
+    <citation type="journal article" date="2012" name="J. Mol. Biol." volume="424" first="42" last="53">
+      <title>Structural basis for 5'-end-specific recognition of single-stranded DNA by the R3H domain from human Smubp-2.</title>
+      <authorList>
+        <person name="Jaudzems K."/>
+        <person name="Jia X."/>
+        <person name="Yagi H."/>
+        <person name="Zhulenkovs D."/>
+        <person name="Graham B."/>
+        <person name="Otting G."/>
+        <person name="Liepinsh E."/>
+      </authorList>
+      <dbReference type="PubMed" id="22999958"/>
+      <dbReference type="DOI" id="10.1016/j.jmb.2012.09.010"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 711-786 IN COMPLEX WITH THE 5'-END OF SINGLE-STRANDED DNA</scope>
+    <scope>FUNCTION</scope>
+    <scope>DOMAIN</scope>
+  </reference>
+  <reference evidence="27 28" key="17">
+    <citation type="journal article" date="2012" name="Nucleic Acids Res." volume="40" first="11009" last="11022">
+      <title>The Ighmbp2 helicase structure reveals the molecular basis for disease-causing mutations in DMSA1.</title>
+      <authorList>
+        <person name="Lim S.C."/>
+        <person name="Bowler M.W."/>
+        <person name="Lai T.F."/>
+        <person name="Song H."/>
+      </authorList>
+      <dbReference type="PubMed" id="22965130"/>
+      <dbReference type="DOI" id="10.1093/nar/gks792"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 3-648 IN COMPLEX WITH RNA</scope>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>DOMAIN</scope>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="2001" name="Nat. Genet." volume="29" first="75" last="77">
+      <title>Mutations in the gene encoding immunoglobulin mu-binding protein 2 cause spinal muscular atrophy with respiratory distress type 1.</title>
+      <authorList>
+        <person name="Grohmann K."/>
+        <person name="Schuelke M."/>
+        <person name="Diers A."/>
+        <person name="Hoffmann K."/>
+        <person name="Lucke B."/>
+        <person name="Adams C."/>
+        <person name="Bertini E."/>
+        <person name="Leonhardt-Horti H."/>
+        <person name="Muntoni F."/>
+        <person name="Ouvrier R."/>
+        <person name="Pfeufer A."/>
+        <person name="Rossi R."/>
+        <person name="Van Maldergem L."/>
+        <person name="Wilmshurst J.M."/>
+        <person name="Wienker T.F."/>
+        <person name="Sendtner M."/>
+        <person name="Rudnik-Schoeneborn S."/>
+        <person name="Zerres K."/>
+        <person name="Huebner C."/>
+      </authorList>
+      <dbReference type="PubMed" id="11528396"/>
+      <dbReference type="DOI" id="10.1038/ng703"/>
+    </citation>
+    <scope>VARIANTS HMNR1 ARG-213; LYS-514 AND ILE-580</scope>
+  </reference>
+  <reference key="19">
+    <citation type="journal article" date="2003" name="Ann. Neurol." volume="54" first="719" last="724">
+      <title>Infantile spinal muscular atrophy with respiratory distress type 1 (SMARD1).</title>
+      <authorList>
+        <person name="Grohmann K."/>
+        <person name="Varon R."/>
+        <person name="Stolz P."/>
+        <person name="Schuelke M."/>
+        <person name="Janetzki C."/>
+        <person name="Bertini E."/>
+        <person name="Bushby K."/>
+        <person name="Muntoni F."/>
+        <person name="Ouvrier R."/>
+        <person name="Van Maldergem L."/>
+        <person name="Goemans N.M.L.A."/>
+        <person name="Lochmueller H."/>
+        <person name="Eichholz S."/>
+        <person name="Adams C."/>
+        <person name="Bosch F."/>
+        <person name="Grattan-Smith P."/>
+        <person name="Navarro C."/>
+        <person name="Neitzel H."/>
+        <person name="Polster T."/>
+        <person name="Topaloglu H."/>
+        <person name="Steglich C."/>
+        <person name="Guenther U.P."/>
+        <person name="Zerres K."/>
+        <person name="Rudnik-Schoeneborn S."/>
+        <person name="Huebner C."/>
+      </authorList>
+      <dbReference type="PubMed" id="14681881"/>
+      <dbReference type="DOI" id="10.1002/ana.10755"/>
+    </citation>
+    <scope>VARIANTS HMNR1 PRO-192; ALA-221; ARG-241; LYS-334; PRO-361; PRO-364; LYS-382; PRO-426; ASN-565; LYS-572 DEL; PRO-577; ILE-583; CYS-586; HIS-603; CYS-637 AND GLU-974</scope>
+  </reference>
+  <reference key="20">
+    <citation type="journal article" date="2004" name="Hum. Genet." volume="115" first="319" last="326">
+      <title>Genomic rearrangements at the IGHMBP2 gene locus in two patients with SMARD1.</title>
+      <authorList>
+        <person name="Guenther U.P."/>
+        <person name="Schuelke M."/>
+        <person name="Bertini E."/>
+        <person name="D'Amico A."/>
+        <person name="Goemans N."/>
+        <person name="Grohmann K."/>
+        <person name="Huebner C."/>
+        <person name="Varon R."/>
+      </authorList>
+      <dbReference type="PubMed" id="15290238"/>
+      <dbReference type="DOI" id="10.1007/s00439-004-1156-0"/>
+    </citation>
+    <scope>VARIANT HMNR1 LEU-369</scope>
+  </reference>
+  <reference key="21">
+    <citation type="journal article" date="2004" name="Hum. Mutat." volume="23" first="525" last="526">
+      <title>Allelic heterogeneity of SMARD1 at the IGHMBP2 locus.</title>
+      <authorList>
+        <person name="Maystadt I."/>
+        <person name="Zarhrate M."/>
+        <person name="Landrieu P."/>
+        <person name="Boespflug-Tanguy O."/>
+        <person name="Sukno S."/>
+        <person name="Collignon P."/>
+        <person name="Melki J."/>
+        <person name="Verellen-Dumoulin C."/>
+        <person name="Munnich A."/>
+        <person name="Viollet L."/>
+      </authorList>
+      <dbReference type="PubMed" id="15108294"/>
+      <dbReference type="DOI" id="10.1002/humu.9241"/>
+    </citation>
+    <scope>VARIANTS HMNR1 ARG-196; LEU-216; PRO-251; ASN-565; PRO-577; CYS-603 AND CYS-637</scope>
+  </reference>
+  <reference key="22">
+    <citation type="journal article" date="2005" name="Pediatr. Neurol." volume="32" first="288" last="290">
+      <title>A new mutation of IGHMBP2 gene in spinal muscular atrophy with respiratory distress type 1.</title>
+      <authorList>
+        <person name="Tachi N."/>
+        <person name="Kikuchi S."/>
+        <person name="Kozuka N."/>
+        <person name="Nogami A."/>
+      </authorList>
+      <dbReference type="PubMed" id="15797190"/>
+      <dbReference type="DOI" id="10.1016/j.pediatrneurol.2004.11.003"/>
+    </citation>
+    <scope>VARIANT LYS-879</scope>
+  </reference>
+  <reference key="23">
+    <citation type="journal article" date="2007" name="Hum. Mutat." volume="28" first="808" last="815">
+      <title>Clinical and mutational profile in spinal muscular atrophy with respiratory distress (SMARD): defining novel phenotypes through hierarchical cluster analysis.</title>
+      <authorList>
+        <person name="Guenther U.P."/>
+        <person name="Varon R."/>
+        <person name="Schlicke M."/>
+        <person name="Dutrannoy V."/>
+        <person name="Volk A."/>
+        <person name="Huebner C."/>
+        <person name="von Au K."/>
+        <person name="Schuelke M."/>
+      </authorList>
+      <dbReference type="PubMed" id="17431882"/>
+      <dbReference type="DOI" id="10.1002/humu.20525"/>
+    </citation>
+    <scope>VARIANTS HMNR1 PRO-17; PRO-361; ARG-386; PRO-445; PRO-472 AND SER-581</scope>
+  </reference>
+  <reference key="24">
+    <citation type="journal article" date="2009" name="J. Mol. Med." volume="87" first="31" last="41">
+      <title>Clinical variability in distal spinal muscular atrophy type 1 (DSMA1): determination of steady-state IGHMBP2 protein levels in five patients with infantile and juvenile disease.</title>
+      <authorList>
+        <person name="Guenther U.P."/>
+        <person name="Handoko L."/>
+        <person name="Varon R."/>
+        <person name="Stephani U."/>
+        <person name="Tsao C.Y."/>
+        <person name="Mendell J.R."/>
+        <person name="Luetzkendorf S."/>
+        <person name="Huebner C."/>
+        <person name="von Au K."/>
+        <person name="Jablonka S."/>
+        <person name="Dittmar G."/>
+        <person name="Heinemann U."/>
+        <person name="Schuetz A."/>
+        <person name="Schuelke M."/>
+      </authorList>
+      <dbReference type="PubMed" id="18802676"/>
+      <dbReference type="DOI" id="10.1007/s00109-008-0402-7"/>
+    </citation>
+    <scope>VARIANT HMNR1 ILE-493</scope>
+    <scope>CHARACTERIZATION OF VARIANT HMNR1 ILE-493</scope>
+  </reference>
+  <reference key="25">
+    <citation type="journal article" date="2014" name="Am. J. Hum. Genet." volume="95" first="590" last="601">
+      <title>Truncating and missense mutations in IGHMBP2 cause Charcot-Marie Tooth disease type 2.</title>
+      <authorList>
+        <person name="Cottenie E."/>
+        <person name="Kochanski A."/>
+        <person name="Jordanova A."/>
+        <person name="Bansagi B."/>
+        <person name="Zimon M."/>
+        <person name="Horga A."/>
+        <person name="Jaunmuktane Z."/>
+        <person name="Saveri P."/>
+        <person name="Rasic V.M."/>
+        <person name="Baets J."/>
+        <person name="Bartsakoulia M."/>
+        <person name="Ploski R."/>
+        <person name="Teterycz P."/>
+        <person name="Nikolic M."/>
+        <person name="Quinlivan R."/>
+        <person name="Laura M."/>
+        <person name="Sweeney M.G."/>
+        <person name="Taroni F."/>
+        <person name="Lunn M.P."/>
+        <person name="Moroni I."/>
+        <person name="Gonzalez M."/>
+        <person name="Hanna M.G."/>
+        <person name="Bettencourt C."/>
+        <person name="Chabrol E."/>
+        <person name="Franke A."/>
+        <person name="von Au K."/>
+        <person name="Schilhabel M."/>
+        <person name="Kabzinska D."/>
+        <person name="Hausmanowa-Petrusewicz I."/>
+        <person name="Brandner S."/>
+        <person name="Lim S.C."/>
+        <person name="Song H."/>
+        <person name="Choi B.O."/>
+        <person name="Horvath R."/>
+        <person name="Chung K.W."/>
+        <person name="Zuchner S."/>
+        <person name="Pareyson D."/>
+        <person name="Harms M."/>
+        <person name="Reilly M.M."/>
+        <person name="Houlden H."/>
+      </authorList>
+      <dbReference type="PubMed" id="25439726"/>
+      <dbReference type="DOI" id="10.1016/j.ajhg.2014.10.002"/>
+    </citation>
+    <scope>INVOLVEMENT IN CMT2S</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <scope>VARIANTS CMT2S VAL-202; GLY-373 AND THR-528</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="3 16 17 19 21 22">5' to 3' helicase that unwinds RNA and DNA duplexes in an ATP-dependent reaction (PubMed:19158098, PubMed:22999958, PubMed:30218034). Specific to 5'-phosphorylated single-stranded guanine-rich sequences (PubMed:22999958, PubMed:8349627). May play a role in RNA metabolism, ribosome biogenesis or initiation of translation (PubMed:19158098, PubMed:19299493). May play a role in regulation of transcription (By similarity). Interacts with tRNA-Tyr (PubMed:19299493).</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="16 21">
+      <text>ATP + H2O = ADP + H(+) + phosphate</text>
+      <dbReference type="Rhea" id="RHEA:13065"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+      <dbReference type="ChEBI" id="CHEBI:43474"/>
+      <dbReference type="ChEBI" id="CHEBI:456216"/>
+      <dbReference type="EC" id="3.6.4.12"/>
+    </reaction>
+    <physiologicalReaction direction="left-to-right" evidence="16 21">
+      <dbReference type="Rhea" id="RHEA:13066"/>
+    </physiologicalReaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="16 18">
+      <text>ATP + H2O = ADP + H(+) + phosphate</text>
+      <dbReference type="Rhea" id="RHEA:13065"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+      <dbReference type="ChEBI" id="CHEBI:43474"/>
+      <dbReference type="ChEBI" id="CHEBI:456216"/>
+      <dbReference type="EC" id="3.6.4.13"/>
+    </reaction>
+    <physiologicalReaction direction="left-to-right" evidence="16 18">
+      <dbReference type="Rhea" id="RHEA:13066"/>
+    </physiologicalReaction>
+  </comment>
+  <comment type="subunit">
+    <text evidence="16 17">Homooligomer (PubMed:19299493). Interacts with RUVBL1 (PubMed:19299493). Interacts with RUVBL2 (PubMed:19299493). Interacts with GTF3C1 (PubMed:19299493). Interacts with ABT1 (PubMed:19299493). Interacts with ribosomes (PubMed:19158098).</text>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="17">Nucleus</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="17">Cytoplasm</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="1">Cell projection</location>
+      <location evidence="1">Axon</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="20">Expressed in all tissues examined. Expressed in the developing and adult human brain, with highest expression in the cerebellum. Moderately expressed in fibroblasts.</text>
+  </comment>
+  <comment type="domain">
+    <text evidence="18 19">The R3H domain recognizes phosphorylated 5'-ends of single-stranded nucleic acids which promotes binding of nucleic acids and stimulates ATPase activity.</text>
+  </comment>
+  <comment type="disease" evidence="9 10 11 12 14 15 16">
+    <disease id="DI-00403">
+      <name>Neuronopathy, distal hereditary motor, autosomal recessive 1</name>
+      <acronym>HMNR1</acronym>
+      <description>A form of distal hereditary motor neuronopathy, a heterogeneous group of neuromuscular disorders caused by selective degeneration of motor neurons in the anterior horn of the spinal cord, without sensory deficit in the posterior horn. The overall clinical picture consists of a classical distal muscular atrophy syndrome in the legs without clinical sensory loss. The disease starts with weakness and wasting of distal muscles of the anterior tibial and peroneal compartments of the legs. Later on, weakness and atrophy may expand to the proximal muscles of the lower limbs and/or to the distal upper limbs.</description>
+      <dbReference type="MIM" id="604320"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="disease" evidence="20">
+    <disease id="DI-04308">
+      <name>Charcot-Marie-Tooth disease, axonal, 2S</name>
+      <acronym>CMT2S</acronym>
+      <description>An axonal form of Charcot-Marie-Tooth disease, a disorder of the peripheral nervous system, characterized by progressive weakness and atrophy, initially of the peroneal muscles and later of the distal muscles of the arms. Charcot-Marie-Tooth disease is classified in two main groups on the basis of electrophysiologic properties and histopathology: primary peripheral demyelinating neuropathies (designated CMT1 when they are dominantly inherited) and primary peripheral axonal neuropathies (CMT2). Neuropathies of the CMT2 group are characterized by signs of axonal degeneration in the absence of obvious myelin alterations, normal or slightly reduced nerve conduction velocities, and progressive distal muscle weakness and atrophy.</description>
+      <dbReference type="MIM" id="616155"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="24">Belongs to the DNA2/NAM7 helicase family.</text>
+  </comment>
+  <dbReference type="EC" id="3.6.4.12" evidence="21"/>
+  <dbReference type="EC" id="3.6.4.13" evidence="16 18"/>
+  <dbReference type="EMBL" id="L14754">
+    <property type="protein sequence ID" value="AAA53082.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="L24544">
+    <property type="protein sequence ID" value="AAA70430.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AP000808">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC025299">
+    <property type="protein sequence ID" value="AAH25299.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="M64979">
+    <property type="protein sequence ID" value="AAA58611.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS8187.1"/>
+  <dbReference type="PIR" id="A47500">
+    <property type="entry name" value="A47500"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_002171.2">
+    <property type="nucleotide sequence ID" value="NM_002180.2"/>
+  </dbReference>
+  <dbReference type="PDB" id="1MSZ">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=711-786"/>
+  </dbReference>
+  <dbReference type="PDB" id="2LRR">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=711-786"/>
+  </dbReference>
+  <dbReference type="PDB" id="4B3F">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="X=3-648"/>
+  </dbReference>
+  <dbReference type="PDB" id="4B3G">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.85 A"/>
+    <property type="chains" value="A/B=3-648"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1MSZ"/>
+  <dbReference type="PDBsum" id="2LRR"/>
+  <dbReference type="PDBsum" id="4B3F"/>
+  <dbReference type="PDBsum" id="4B3G"/>
+  <dbReference type="AlphaFoldDB" id="P38935"/>
+  <dbReference type="BMRB" id="P38935"/>
+  <dbReference type="SMR" id="P38935"/>
+  <dbReference type="BioGRID" id="109728">
+    <property type="interactions" value="34"/>
+  </dbReference>
+  <dbReference type="IntAct" id="P38935">
+    <property type="interactions" value="30"/>
+  </dbReference>
+  <dbReference type="MINT" id="P38935"/>
+  <dbReference type="STRING" id="9606.ENSP00000255078"/>
+  <dbReference type="GlyGen" id="P38935">
+    <property type="glycosylation" value="1 site, 1 O-linked glycan (1 site)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="P38935"/>
+  <dbReference type="PhosphoSitePlus" id="P38935"/>
+  <dbReference type="SwissPalm" id="P38935"/>
+  <dbReference type="BioMuta" id="IGHMBP2"/>
+  <dbReference type="DMDM" id="317373494"/>
+  <dbReference type="jPOST" id="P38935"/>
+  <dbReference type="MassIVE" id="P38935"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000255078"/>
+  <dbReference type="PeptideAtlas" id="P38935"/>
+  <dbReference type="ProteomicsDB" id="55306"/>
+  <dbReference type="Pumba" id="P38935"/>
+  <dbReference type="Antibodypedia" id="54271">
+    <property type="antibodies" value="109 antibodies from 22 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="3508"/>
+  <dbReference type="Ensembl" id="ENST00000255078.8">
+    <property type="protein sequence ID" value="ENSP00000255078.4"/>
+    <property type="gene ID" value="ENSG00000132740.10"/>
+  </dbReference>
+  <dbReference type="GeneID" id="3508"/>
+  <dbReference type="KEGG" id="hsa:3508"/>
+  <dbReference type="MANE-Select" id="ENST00000255078.8">
+    <property type="protein sequence ID" value="ENSP00000255078.4"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_002180.3"/>
+    <property type="RefSeq protein sequence ID" value="NP_002171.2"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc001ook.2">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:5542"/>
+  <dbReference type="CTD" id="3508"/>
+  <dbReference type="DisGeNET" id="3508"/>
+  <dbReference type="GeneCards" id="IGHMBP2"/>
+  <dbReference type="GeneReviews" id="IGHMBP2"/>
+  <dbReference type="HGNC" id="HGNC:5542">
+    <property type="gene designation" value="IGHMBP2"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000132740">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MalaCards" id="IGHMBP2"/>
+  <dbReference type="MIM" id="600502">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="MIM" id="604320">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="MIM" id="616155">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_P38935"/>
+  <dbReference type="OpenTargets" id="ENSG00000132740"/>
+  <dbReference type="Orphanet" id="443073">
+    <property type="disease" value="Charcot-Marie-Tooth disease type 2S"/>
+  </dbReference>
+  <dbReference type="Orphanet" id="98920">
+    <property type="disease" value="Spinal muscular atrophy with respiratory distress type 1"/>
+  </dbReference>
+  <dbReference type="PharmGKB" id="PA29731"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000132740"/>
+  <dbReference type="eggNOG" id="KOG1803">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00930000151035"/>
+  <dbReference type="HOGENOM" id="CLU_001666_5_0_1"/>
+  <dbReference type="InParanoid" id="P38935"/>
+  <dbReference type="OMA" id="TIIHGPP"/>
+  <dbReference type="OrthoDB" id="170190at2759"/>
+  <dbReference type="PhylomeDB" id="P38935"/>
+  <dbReference type="TreeFam" id="TF105388"/>
+  <dbReference type="BRENDA" id="3.6.4.12">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="P38935"/>
+  <dbReference type="SignaLink" id="P38935"/>
+  <dbReference type="BioGRID-ORCS" id="3508">
+    <property type="hits" value="22 hits in 1161 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="IGHMBP2">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="P38935"/>
+  <dbReference type="GeneWiki" id="IGHMBP2"/>
+  <dbReference type="GenomeRNAi" id="3508"/>
+  <dbReference type="Pharos" id="P38935">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:P38935"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 11"/>
+  </dbReference>
+  <dbReference type="RNAct" id="P38935">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000132740">
+    <property type="expression patterns" value="Expressed in mucosa of stomach and 119 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="P38935">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030424">
+    <property type="term" value="C:axon"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030426">
+    <property type="term" value="C:growth cone"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016020">
+    <property type="term" value="C:membrane"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016604">
+    <property type="term" value="C:nuclear body"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1990904">
+    <property type="term" value="C:ribonucleoprotein complex"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043139">
+    <property type="term" value="F:5'-3' DNA helicase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0032574">
+    <property type="term" value="F:5'-3' RNA helicase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005524">
+    <property type="term" value="F:ATP binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016887">
+    <property type="term" value="F:ATP hydrolysis activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008094">
+    <property type="term" value="F:ATP-dependent activity, acting on DNA"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008186">
+    <property type="term" value="F:ATP-dependent activity, acting on RNA"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003677">
+    <property type="term" value="F:DNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003678">
+    <property type="term" value="F:DNA helicase activity"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="ProtInc"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036121">
+    <property type="term" value="F:double-stranded DNA helicase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042802">
+    <property type="term" value="F:identical protein binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="MGI"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043022">
+    <property type="term" value="F:ribosome binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003723">
+    <property type="term" value="F:RNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003697">
+    <property type="term" value="F:single-stranded DNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003727">
+    <property type="term" value="F:single-stranded RNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008134">
+    <property type="term" value="F:transcription factor binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000049">
+    <property type="term" value="F:tRNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008270">
+    <property type="term" value="F:zinc ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0032508">
+    <property type="term" value="P:DNA duplex unwinding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010501">
+    <property type="term" value="P:RNA secondary structure unwinding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd18044">
+    <property type="entry name" value="DEXXQc_SMUBP2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd02641">
+    <property type="entry name" value="R3H_Smubp-2_like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd18808">
+    <property type="entry name" value="SF1_C_Upf1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.40.30.270">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="4.10.1110.10">
+    <property type="entry name" value="AN1-like Zinc finger"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.40.50.300">
+    <property type="entry name" value="P-loop containing nucleotide triphosphate hydrolases"/>
+    <property type="match status" value="2"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.1370.50">
+    <property type="entry name" value="R3H-like domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR003593">
+    <property type="entry name" value="AAA+_ATPase"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR035896">
+    <property type="entry name" value="AN1-like_Znf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR050534">
+    <property type="entry name" value="Coronavir_polyprotein_1ab"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041679">
+    <property type="entry name" value="DNA2/NAM7-like_C"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041677">
+    <property type="entry name" value="DNA2/NAM7_AAA_11"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR014001">
+    <property type="entry name" value="Helicase_ATP-bd"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR027417">
+    <property type="entry name" value="P-loop_NTPase"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001374">
+    <property type="entry name" value="R3H_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036867">
+    <property type="entry name" value="R3H_dom_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR034072">
+    <property type="entry name" value="R3H_Smubp-2"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR047187">
+    <property type="entry name" value="SF1_C_Upf1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR004483">
+    <property type="entry name" value="SMUBP-2/Hcs1-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR048761">
+    <property type="entry name" value="SMUBP-2_HCS1_1B"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000058">
+    <property type="entry name" value="Znf_AN1"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR00376">
+    <property type="entry name" value="IGHMBP2 family helicase"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR43788:SF19">
+    <property type="entry name" value="DNA-BINDING PROTEIN SMUBP-2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR43788">
+    <property type="entry name" value="DNA2/NAM7 HELICASE FAMILY MEMBER"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF13086">
+    <property type="entry name" value="AAA_11"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF13087">
+    <property type="entry name" value="AAA_12"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01424">
+    <property type="entry name" value="R3H"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF21138">
+    <property type="entry name" value="SMUBP-2_HCS1_1B"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01428">
+    <property type="entry name" value="zf-AN1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00382">
+    <property type="entry name" value="AAA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00487">
+    <property type="entry name" value="DEXDc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00393">
+    <property type="entry name" value="R3H"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00154">
+    <property type="entry name" value="ZnF_AN1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF118310">
+    <property type="entry name" value="AN1-like Zinc finger"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF52540">
+    <property type="entry name" value="P-loop containing nucleoside triphosphate hydrolases"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF82708">
+    <property type="entry name" value="R3H domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51061">
+    <property type="entry name" value="R3H"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51039">
+    <property type="entry name" value="ZF_AN1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0010">Activator</keyword>
+  <keyword id="KW-0067">ATP-binding</keyword>
+  <keyword id="KW-0966">Cell projection</keyword>
+  <keyword id="KW-0144">Charcot-Marie-Tooth disease</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0225">Disease variant</keyword>
+  <keyword id="KW-0238">DNA-binding</keyword>
+  <keyword id="KW-0347">Helicase</keyword>
+  <keyword id="KW-0378">Hydrolase</keyword>
+  <keyword id="KW-0479">Metal-binding</keyword>
+  <keyword id="KW-0523">Neurodegeneration</keyword>
+  <keyword id="KW-0622">Neuropathy</keyword>
+  <keyword id="KW-0547">Nucleotide-binding</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0687">Ribonucleoprotein</keyword>
+  <keyword id="KW-0694">RNA-binding</keyword>
+  <keyword id="KW-0804">Transcription</keyword>
+  <keyword id="KW-0805">Transcription regulation</keyword>
+  <keyword id="KW-0820">tRNA-binding</keyword>
+  <keyword id="KW-0862">Zinc</keyword>
+  <keyword id="KW-0863">Zinc-finger</keyword>
+  <feature type="initiator methionine" description="Removed" evidence="23 29 30">
+    <location>
+      <position position="1"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000080701" description="DNA-binding protein SMUBP-2">
+    <location>
+      <begin position="2"/>
+      <end position="993"/>
+    </location>
+  </feature>
+  <feature type="domain" description="R3H" evidence="5">
+    <location>
+      <begin position="723"/>
+      <end position="786"/>
+    </location>
+  </feature>
+  <feature type="zinc finger region" description="AN1-type" evidence="6">
+    <location>
+      <begin position="891"/>
+      <end position="940"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="SS DNA-binding" evidence="22 25">
+    <location>
+      <begin position="638"/>
+      <end position="785"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="8">
+    <location>
+      <begin position="651"/>
+      <end position="723"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="8">
+    <location>
+      <begin position="782"/>
+      <end position="828"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="8">
+    <location>
+      <begin position="841"/>
+      <end position="879"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="8">
+    <location>
+      <begin position="971"/>
+      <end position="993"/>
+    </location>
+  </feature>
+  <feature type="short sequence motif" description="Nuclear localization signal" evidence="4">
+    <location>
+      <begin position="864"/>
+      <end position="868"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="8">
+    <location>
+      <begin position="651"/>
+      <end position="682"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="8">
+    <location>
+      <begin position="704"/>
+      <end position="718"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Pro residues" evidence="8">
+    <location>
+      <begin position="800"/>
+      <end position="816"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="8">
+    <location>
+      <begin position="843"/>
+      <end position="857"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="7">
+    <location>
+      <begin position="214"/>
+      <end position="221"/>
+    </location>
+    <ligand>
+      <name>ATP</name>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="2">
+    <location>
+      <position position="403"/>
+    </location>
+    <ligand>
+      <name>ATP</name>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="2">
+    <location>
+      <position position="442"/>
+    </location>
+    <ligand>
+      <name>ATP</name>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="2">
+    <location>
+      <position position="571"/>
+    </location>
+    <ligand>
+      <name>ATP</name>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="897"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="902"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="913"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="916"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="921"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="924"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="930"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6">
+    <location>
+      <position position="932"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="modified residue" description="N-acetylalanine" evidence="23 29 30">
+    <location>
+      <position position="2"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_058497" description="In HMNR1; dbSNP:rs1594412120." evidence="14">
+    <original>L</original>
+    <variation>P</variation>
+    <location>
+      <position position="17"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_055225" description="In dbSNP:rs2228206.">
+    <original>A</original>
+    <variation>T</variation>
+    <location>
+      <position position="75"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022321" description="In HMNR1; dbSNP:rs879253996." evidence="10">
+    <original>L</original>
+    <variation>P</variation>
+    <location>
+      <position position="192"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_058498" description="In HMNR1; severe reduction of ATPase activity and loss of helicase activity on RNA duplices; dbSNP:rs1594422506." evidence="11 16">
+    <original>Q</original>
+    <variation>R</variation>
+    <location>
+      <position position="196"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_024242" description="In dbSNP:rs560096." evidence="22">
+    <original>L</original>
+    <variation>S</variation>
+    <location>
+      <position position="201"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_072694" description="In CMT2S; dbSNP:rs724159958." evidence="20">
+    <original>F</original>
+    <variation>V</variation>
+    <location>
+      <position position="202"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022322" description="In HMNR1; dbSNP:rs137852666." evidence="9">
+    <original>H</original>
+    <variation>R</variation>
+    <location>
+      <position position="213"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_058499" description="In HMNR1; dbSNP:rs1594422676." evidence="11">
+    <original>P</original>
+    <variation>L</variation>
+    <location>
+      <position position="216"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022323" description="In HMNR1; severe reduction of ATPase activity and loss of helicase activity on RNA duplices; dbSNP:rs1594422709." evidence="10 16">
+    <original>T</original>
+    <variation>A</variation>
+    <location>
+      <position position="221"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022324" description="In HMNR1; severe reduction of ATPase activity and loss of helicase activity on RNA duplices; dbSNP:rs1594427373." evidence="10 16">
+    <original>C</original>
+    <variation>R</variation>
+    <location>
+      <position position="241"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_058500" description="In HMNR1; dbSNP:rs1594427489." evidence="11">
+    <original>L</original>
+    <variation>P</variation>
+    <location>
+      <position position="251"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_024243" description="In dbSNP:rs10896380." evidence="22">
+    <original>I</original>
+    <variation>V</variation>
+    <location>
+      <position position="275"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022325" description="In HMNR1; dbSNP:rs1594431740." evidence="10">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="334"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022326" description="In HMNR1; dbSNP:rs201060167." evidence="10 14">
+    <original>L</original>
+    <variation>P</variation>
+    <location>
+      <position position="361"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022327" description="In HMNR1; dbSNP:rs1594445394." evidence="10">
+    <original>L</original>
+    <variation>P</variation>
+    <location>
+      <position position="364"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_072695" description="In HMNR1; dbSNP:rs137852670." evidence="12">
+    <original>F</original>
+    <variation>L</variation>
+    <location>
+      <position position="369"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_072696" description="In CMT2S; dbSNP:rs724159959." evidence="20">
+    <original>V</original>
+    <variation>G</variation>
+    <location>
+      <position position="373"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022328" description="In HMNR1; severe reduction of ATPase activity and loss of helicase activity on RNA duplices; dbSNP:rs776730737." evidence="10 16">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="382"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_058501" description="In HMNR1; dbSNP:rs759641927." evidence="14">
+    <original>W</original>
+    <variation>R</variation>
+    <location>
+      <position position="386"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022329" description="In HMNR1; dbSNP:rs1555247218." evidence="10">
+    <original>L</original>
+    <variation>P</variation>
+    <location>
+      <position position="426"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_058502" description="In HMNR1; severe reduction of ATPase activity and loss of helicase activity on RNA duplices; dbSNP:rs571142182." evidence="14 16">
+    <original>H</original>
+    <variation>P</variation>
+    <location>
+      <position position="445"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_058503" description="In HMNR1; dbSNP:rs1594451536." evidence="14">
+    <original>L</original>
+    <variation>P</variation>
+    <location>
+      <position position="472"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_058504" description="In HMNR1; does not affect activity; reduces protein steady-state levels; dbSNP:rs780594709." evidence="15 16">
+    <original>T</original>
+    <variation>I</variation>
+    <location>
+      <position position="493"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022330" description="In HMNR1; dbSNP:rs137852665." evidence="9">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="514"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_072697" description="In CMT2S; dbSNP:rs724159960." evidence="20">
+    <original>A</original>
+    <variation>T</variation>
+    <location>
+      <position position="528"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_055226" description="In dbSNP:rs7122089.">
+    <original>P</original>
+    <variation>A</variation>
+    <location>
+      <position position="557"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022331" description="In HMNR1; does not affect ATPase activity; loss of helicase activity on RNA duplices; dbSNP:rs770111639." evidence="10 11 16">
+    <original>D</original>
+    <variation>N</variation>
+    <location>
+      <position position="565"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022332" description="In HMNR1; dbSNP:rs775542203." evidence="10">
+    <location>
+      <position position="572"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022333" description="In HMNR1; dbSNP:rs1483165002." evidence="10 11">
+    <original>L</original>
+    <variation>P</variation>
+    <location>
+      <position position="577"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022334" description="In HMNR1; dbSNP:rs137852667." evidence="9">
+    <original>V</original>
+    <variation>I</variation>
+    <location>
+      <position position="580"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_058505" description="In HMNR1; dbSNP:rs1594454382." evidence="14">
+    <original>R</original>
+    <variation>S</variation>
+    <location>
+      <position position="581"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022335" description="In HMNR1; severe reduction of ATPase activity and loss of helicase activity on RNA duplices; dbSNP:rs1594454388." evidence="10 16">
+    <original>N</original>
+    <variation>I</variation>
+    <location>
+      <position position="583"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022336" description="In HMNR1; dbSNP:rs56052951." evidence="10">
+    <original>G</original>
+    <variation>C</variation>
+    <location>
+      <position position="586"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_058506" description="In HMNR1; dbSNP:rs1465803265." evidence="11">
+    <original>R</original>
+    <variation>C</variation>
+    <location>
+      <position position="603"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022337" description="In HMNR1; severe reduction of ATPase activity and loss of helicase activity on RNA duplices; dbSNP:rs151079750." evidence="10 16">
+    <original>R</original>
+    <variation>H</variation>
+    <location>
+      <position position="603"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022338" description="In HMNR1; dbSNP:rs201563456." evidence="10 11">
+    <original>R</original>
+    <variation>C</variation>
+    <location>
+      <position position="637"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020147" description="In dbSNP:rs622082.">
+    <original>T</original>
+    <variation>A</variation>
+    <location>
+      <position position="671"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_021899" description="In dbSNP:rs2236654.">
+    <original>R</original>
+    <variation>W</variation>
+    <location>
+      <position position="694"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022339" description="In dbSNP:rs17612126." evidence="13">
+    <original>T</original>
+    <variation>K</variation>
+    <location>
+      <position position="879"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_021900" description="In dbSNP:rs2275996.">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="928"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_022340" description="In HMNR1; uncertain significance; dbSNP:rs147674615." evidence="10">
+    <original>D</original>
+    <variation>E</variation>
+    <location>
+      <position position="974"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; AAA53082." evidence="24" ref="1">
+    <original>I</original>
+    <variation>N</variation>
+    <location>
+      <position position="292"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; AAA53082." evidence="24" ref="1">
+    <original>L</original>
+    <variation>V</variation>
+    <location>
+      <position position="461"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 6; AAA58611." evidence="24" ref="6">
+    <original>VDTA</original>
+    <variation>GGRV</variation>
+    <location>
+      <begin position="491"/>
+      <end position="494"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 6; AAA58611." evidence="24" ref="6">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="863"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 6; AAA58611." evidence="24" ref="6">
+    <original>K</original>
+    <variation>T</variation>
+    <location>
+      <position position="866"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="4"/>
+      <end position="33"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="37"/>
+      <end position="40"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="41"/>
+      <end position="43"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="45"/>
+      <end position="57"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="59"/>
+      <end position="61"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="63"/>
+      <end position="70"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="33">
+    <location>
+      <begin position="71"/>
+      <end position="74"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="88"/>
+      <end position="93"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="32">
+    <location>
+      <begin position="94"/>
+      <end position="97"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="102"/>
+      <end position="110"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="113"/>
+      <end position="117"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="134"/>
+      <end position="139"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="142"/>
+      <end position="156"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="33">
+    <location>
+      <begin position="160"/>
+      <end position="162"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="164"/>
+      <end position="170"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="33">
+    <location>
+      <begin position="172"/>
+      <end position="174"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="194"/>
+      <end position="205"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="207"/>
+      <end position="213"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="220"/>
+      <end position="233"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="238"/>
+      <end position="244"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="245"/>
+      <end position="257"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="262"/>
+      <end position="264"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="273"/>
+      <end position="276"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="280"/>
+      <end position="284"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="32">
+    <location>
+      <begin position="285"/>
+      <end position="288"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="293"/>
+      <end position="300"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="33">
+    <location>
+      <begin position="302"/>
+      <end position="304"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="32">
+    <location>
+      <begin position="305"/>
+      <end position="308"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="320"/>
+      <end position="344"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="346"/>
+      <end position="351"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="32">
+    <location>
+      <begin position="352"/>
+      <end position="355"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="357"/>
+      <end position="359"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="360"/>
+      <end position="363"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="370"/>
+      <end position="374"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="377"/>
+      <end position="379"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="382"/>
+      <end position="385"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="32">
+    <location>
+      <begin position="386"/>
+      <end position="388"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="389"/>
+      <end position="391"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="392"/>
+      <end position="399"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="411"/>
+      <end position="415"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="32">
+    <location>
+      <begin position="416"/>
+      <end position="419"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="422"/>
+      <end position="430"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="431"/>
+      <end position="433"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="435"/>
+      <end position="437"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="440"/>
+      <end position="444"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="446"/>
+      <end position="456"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="32">
+    <location>
+      <begin position="465"/>
+      <end position="469"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="472"/>
+      <end position="474"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="32">
+    <location>
+      <begin position="482"/>
+      <end position="485"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="487"/>
+      <end position="492"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="512"/>
+      <end position="527"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="532"/>
+      <end position="534"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="535"/>
+      <end position="540"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="542"/>
+      <end position="552"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="32">
+    <location>
+      <begin position="553"/>
+      <end position="555"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="560"/>
+      <end position="563"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="564"/>
+      <end position="567"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="572"/>
+      <end position="578"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="33">
+    <location>
+      <begin position="589"/>
+      <end position="592"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="594"/>
+      <end position="602"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="604"/>
+      <end position="612"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="614"/>
+      <end position="617"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="621"/>
+      <end position="632"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="32">
+    <location>
+      <begin position="633"/>
+      <end position="638"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="32">
+    <location>
+      <begin position="639"/>
+      <end position="641"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="31">
+    <location>
+      <begin position="727"/>
+      <end position="739"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="31">
+    <location>
+      <begin position="742"/>
+      <end position="746"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="31">
+    <location>
+      <begin position="753"/>
+      <end position="764"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="31">
+    <location>
+      <begin position="767"/>
+      <end position="772"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="31">
+    <location>
+      <begin position="774"/>
+      <end position="776"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="31">
+    <location>
+      <begin position="779"/>
+      <end position="784"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="P40694"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000250" key="2">
+    <source>
+      <dbReference type="UniProtKB" id="Q92900"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000250" key="3">
+    <source>
+      <dbReference type="UniProtKB" id="Q9EQN5"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="4"/>
+  <evidence type="ECO:0000255" key="5">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00382"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="6">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00449"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="7">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00499"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="8">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="11528396"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="14681881"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="15108294"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="15290238"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="15797190"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="14">
+    <source>
+      <dbReference type="PubMed" id="17431882"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="15">
+    <source>
+      <dbReference type="PubMed" id="18802676"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="16">
+    <source>
+      <dbReference type="PubMed" id="19158098"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="17">
+    <source>
+      <dbReference type="PubMed" id="19299493"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="18">
+    <source>
+      <dbReference type="PubMed" id="22965130"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="19">
+    <source>
+      <dbReference type="PubMed" id="22999958"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="20">
+    <source>
+      <dbReference type="PubMed" id="25439726"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="21">
+    <source>
+      <dbReference type="PubMed" id="30218034"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="22">
+    <source>
+      <dbReference type="PubMed" id="8349627"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="23">
+    <source ref="5"/>
+  </evidence>
+  <evidence type="ECO:0000305" key="24"/>
+  <evidence type="ECO:0000305" key="25">
+    <source>
+      <dbReference type="PubMed" id="22999958"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="26">
+    <source>
+      <dbReference type="PDB" id="2LRR"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="27">
+    <source>
+      <dbReference type="PDB" id="4B3F"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="28">
+    <source>
+      <dbReference type="PDB" id="4B3G"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="29">
+    <source>
+      <dbReference type="PubMed" id="22223895"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="30">
+    <source>
+      <dbReference type="PubMed" id="22814378"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="31">
+    <source>
+      <dbReference type="PDB" id="1MSZ"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="32">
+    <source>
+      <dbReference type="PDB" id="4B3F"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="33">
+    <source>
+      <dbReference type="PDB" id="4B3G"/>
+    </source>
+  </evidence>
+  <sequence length="993" mass="109149" checksum="DE785579EE60E26F" modified="2011-01-11" version="3">MASAAVESFVTKQLDLLELERDAEVEERRSWQENISLKELQSRGVCLLKLQVSSQRTGLYGRLLVTFEPRRYGSAAALPSNSFTSGDIVGLYDAANEGSQLATGILTRVTQKSVTVAFDESHDFQLSLDRENSYRLLKLANDVTYRRLKKALIALKKYHSGPASSLIEVLFGRSAPSPASEIHPLTFFNTCLDTSQKEAVLFALSQKELAIIHGPPGTGKTTTVVEIILQAVKQGLKVLCCAPSNIAVDNLVERLALCKQRILRLGHPARLLESIQQHSLDAVLARSDSAQIVADIRKDIDQVFVKNKKTQDKREKSNFRNEIKLLRKELKEREEAAMLESLTSANVVLATNTGASADGPLKLLPESYFDVVVIDECAQALEASCWIPLLKARKCILAGDHKQLPPTTVSHKAALAGLSLSLMERLAEEYGARVVRTLTVQYRMHQAIMRWASDTMYLGQLTAHSSVARHLLRDLPGVAATEETGVPLLLVDTAGCGLFELEEEDEQSKGNPGEVRLVSLHIQALVDAGVPARDIAVVSPYNLQVDLLRQSLVHRHPELEIKSVDGFQGREKEAVILSFVRSNRKGEVGFLAEDRRINVAVTRARRHVAVICDSRTVNNHAFLKTLVEYFTQHGEVRTAFEYLDDIVPENYSHENSQGSSHAATKPQGPATSTRTGSQRQEGGQEAAAPARQGRKKPAGKSLASEAPSQPSLNGGSPEGVESQDGVDHFRAMIVEFMASKKMQLEFPPSLNSHDRLRVHQIAEEHGLRHDSSGEGKRRFITVSKRAPRPRAALGPPAGTGGPAPLQPVPPTPAQTEQPPREQRGPDQPDLRTLHLERLQRVRSAQGQPASKEQQASGQQKLPEKKKKKAKGHPATDLPTEEDFEALVSAAVKADNTCGFAKCTAGVTTLGQFCQLCSRRYCLSHHLPEIHGCGERARAHARQRISREGVLYAGSGTKNGSLDPAKRAQLQRRLDKKLSELSNQRTSRRKERGT</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

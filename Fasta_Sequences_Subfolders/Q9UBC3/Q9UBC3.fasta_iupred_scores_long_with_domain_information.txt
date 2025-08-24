@@ -1,0 +1,865 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.8381	
+2	K	0.8509	
+3	G	0.8588	
+4	D	0.8640	
+5	T	0.8675	
+6	R	0.8698	
+7	H	0.8707	
+8	L	0.8694	
+9	N	0.8652	
+10	G	0.8571	
+11	E	0.8440	
+12	E	0.8227	
+13	D	0.7970	
+14	A	0.7741	
+15	G	0.7557	
+16	G	0.7461	
+17	R	0.7414	
+18	E	0.7362	
+19	D	0.7359	
+20	S	0.7416	
+21	I	0.7519	
+22	L	0.7631	
+23	V	0.7823	
+24	N	0.7959	
+25	G	0.7968	
+26	A	0.7790	
+27	C	0.7578	
+28	S	0.7473	
+29	D	0.7427	
+30	Q	0.7355	
+31	S	0.7316	
+32	S	0.7351	
+33	D	0.7497	
+34	S	0.7758	
+35	P	0.8023	
+36	P	0.8185	
+37	I	0.8310	
+38	L	0.8406	
+39	E	0.8479	
+40	A	0.8450	
+41	I	0.8352	
+42	R	0.8249	
+43	T	0.8142	
+44	P	0.7886	
+45	E	0.7584	
+46	I	0.7407	
+47	R	0.7351	
+48	G	0.7425	
+49	R	0.7493	
+50	R	0.7508	
+51	S	0.7459	
+52	S	0.7410	
+53	S	0.7305	
+54	R	0.7098	
+55	L	0.6842	
+56	S	0.6591	
+57	K	0.6471	
+58	R	0.6364	
+59	E	0.6250	
+60	V	0.6260	
+61	S	0.6356	
+62	S	0.6456	
+63	L	0.6531	
+64	L	0.6619	
+65	S	0.6750	
+66	Y	0.7029	
+67	T	0.7251	
+68	Q	0.7472	
+69	D	0.7638	
+70	L	0.7818	
+71	T	0.7996	
+72	G	0.8195	
+73	D	0.8419	
+74	G	0.8663	
+75	D	0.8917	
+76	G	0.9084	
+77	E	0.9195	
+78	D	0.9236	
+79	G	0.9209	
+80	D	0.9159	
+81	G	0.9036	
+82	S	0.8919	
+83	D	0.8816	
+84	T	0.8725	
+85	P	0.8647	
+86	V	0.8651	
+87	M	0.8645	
+88	P	0.8664	
+89	K	0.8633	
+90	L	0.8551	
+91	F	0.8476	
+92	R	0.8401	
+93	E	0.8340	
+94	T	0.8223	
+95	R	0.8102	
+96	T	0.8021	
+97	R	0.7996	
+98	S	0.8043	
+99	E	0.8148	
+100	S	0.8324	
+101	P	0.8470	
+102	A	0.8601	
+103	V	0.8701	
+104	R	0.8799	
+105	T	0.8868	
+106	R	0.8954	
+107	N	0.8993	
+108	N	0.8983	
+109	N	0.8991	
+110	S	0.9023	
+111	V	0.9099	
+112	S	0.9152	
+113	S	0.9203	
+114	R	0.9232	
+115	E	0.9262	
+116	R	0.9291	
+117	H	0.9311	
+118	R	0.9354	
+119	P	0.9356	
+120	S	0.9378	
+121	P	0.9340	
+122	R	0.9387	
+123	S	0.9426	
+124	T	0.9467	
+125	R	0.9484	
+126	G	0.9466	
+127	R	0.9390	
+128	Q	0.9307	
+129	G	0.9213	
+130	R	0.9098	
+131	N	0.8971	
+132	H	0.8833	
+133	V	0.8683	
+134	D	0.8537	
+135	E	0.8405	
+136	S	0.8255	
+137	P	0.8064	
+138	V	0.7899	
+139	E	0.7599	
+140	F	0.7542	
+141	P	0.7451	
+142	A	0.7464	
+143	T	0.7385	
+144	R	0.7278	
+145	S	0.7150	
+146	L	0.7052	
+147	R	0.7054	
+148	R	0.7203	
+149	R	0.7328	
+150	A	0.7514	
+151	T	0.7622	
+152	A	0.7762	
+153	S	0.7868	
+154	A	0.7870	
+155	G	0.7741	
+156	T	0.7516	
+157	P	0.7103	
+158	W	0.6858	
+159	P	0.6633	
+160	S	0.6689	
+161	P	0.6684	
+162	P	0.6764	
+163	S	0.6841	
+164	S	0.6880	
+165	Y	0.7009	
+166	L	0.7247	
+167	T	0.7455	
+168	I	0.7622	
+169	D	0.7579	
+170	L	0.7604	
+171	T	0.7614	
+172	D	0.7660	
+173	D	0.7721	
+174	T	0.7839	
+175	E	0.7953	
+176	D	0.8069	
+177	T	0.8191	
+178	H	0.8398	
+179	G	0.8493	
+180	T	0.8561	
+181	P	0.8502	
+182	Q	0.8397	
+183	S	0.8283	
+184	S	0.8232	
+185	S	0.8280	
+186	T	0.8285	
+187	P	0.8245	
+188	Y	0.8235	
+189	A	0.8187	
+190	R	0.8179	
+191	L	0.8092	
+192	A	0.7967	
+193	Q	0.7837	
+194	D	0.7688	
+195	S	0.7573	
+196	Q	0.7539	
+197	Q	0.7616	
+198	G	0.7720	
+199	G	0.7938	
+200	M	0.8239	
+201	E	0.8517	
+202	S	0.8789	
+203	P	0.8948	
+204	Q	0.8893	
+205	V	0.8829	
+206	E	0.8648	
+207	A	0.8555	
+208	D	0.8462	
+209	S	0.8247	
+210	G	0.8010	
+211	D	0.7805	
+212	G	0.7645	
+213	D	0.7440	
+214	S	0.7144	
+215	S	0.6816	
+216	E	0.6381	
+217	Y	0.5903	
+218	Q	0.5477	
+219	D	0.5092	
+220	G	0.4694	
+221	K	0.4331	
+222	E	0.3875	
+223	F	0.3443	
+224	G	0.3001	
+225	I	0.2752	domain PWWP
+226	G	0.2480	domain PWWP
+227	D	0.2157	domain PWWP
+228	L	0.1825	domain PWWP
+229	V	0.1502	domain PWWP
+230	W	0.1301	domain PWWP
+231	G	0.1123	domain PWWP
+232	K	0.0956	domain PWWP
+233	I	0.0814	domain PWWP
+234	K	0.0727	domain PWWP
+235	G	0.0644	domain PWWP
+236	F	0.0623	domain PWWP
+237	S	0.0670	domain PWWP
+238	W	0.0801	domain PWWP
+239	W	0.0956	domain PWWP
+240	P	0.1174	domain PWWP
+241	A	0.1354	domain PWWP
+242	M	0.1489	domain PWWP
+243	V	0.1756	domain PWWP
+244	V	0.1995	domain PWWP
+245	S	0.2235	domain PWWP
+246	W	0.2519	domain PWWP
+247	K	0.2733	domain PWWP
+248	A	0.2930	domain PWWP
+249	T	0.2993	domain PWWP
+250	S	0.2953	domain PWWP
+251	K	0.2881	domain PWWP
+252	R	0.2850	domain PWWP
+253	Q	0.2806	domain PWWP
+254	A	0.2762	domain PWWP
+255	M	0.2762	domain PWWP
+256	S	0.2915	domain PWWP
+257	G	0.3026	domain PWWP
+258	M	0.3135	domain PWWP
+259	R	0.3153	domain PWWP
+260	W	0.3113	domain PWWP
+261	V	0.3041	domain PWWP
+262	Q	0.2921	domain PWWP
+263	W	0.2708	domain PWWP
+264	F	0.2500	domain PWWP
+265	G	0.2398	domain PWWP
+266	D	0.2389	domain PWWP
+267	G	0.2226	domain PWWP
+268	K	0.1933	domain PWWP
+269	F	0.1787	domain PWWP
+270	S	0.1709	domain PWWP
+271	E	0.1728	domain PWWP
+272	V	0.1783	domain PWWP
+273	S	0.1801	domain PWWP
+274	A	0.1964	domain PWWP
+275	D	0.2094	domain PWWP
+276	K	0.2083	domain PWWP
+277	L	0.2021	domain PWWP
+278	V	0.1974	domain PWWP
+279	A	0.1863	domain PWWP
+280	L	0.1812	domain PWWP
+281	G	0.1648	domain PWWP
+282	L	0.1437	domain PWWP
+283	F	0.1313	domain PWWP
+284	S	0.1263	
+285	Q	0.1210	
+286	H	0.1041	
+287	F	0.0925	
+288	N	0.0886	
+289	L	0.1027	
+290	A	0.1098	
+291	T	0.1170	
+292	F	0.1272	
+293	N	0.1346	
+294	K	0.1413	
+295	L	0.1406	
+296	V	0.1410	
+297	S	0.1464	
+298	Y	0.1506	
+299	R	0.1619	
+300	K	0.1808	
+301	A	0.1922	
+302	M	0.2077	
+303	Y	0.2298	
+304	H	0.2461	
+305	A	0.2626	
+306	L	0.2747	
+307	E	0.3005	
+308	K	0.3297	
+309	A	0.3598	
+310	R	0.3804	
+311	V	0.4121	
+312	R	0.4501	
+313	A	0.4808	
+314	G	0.5014	
+315	K	0.5273	
+316	T	0.5369	
+317	F	0.5540	
+318	P	0.5734	
+319	S	0.5864	
+320	S	0.5827	
+321	P	0.5670	
+322	G	0.5562	
+323	D	0.5471	
+324	S	0.5267	
+325	L	0.5134	
+326	E	0.5026	
+327	D	0.4944	
+328	Q	0.4776	
+329	L	0.4655	
+330	K	0.4614	
+331	P	0.4646	
+332	M	0.4534	
+333	L	0.4408	
+334	E	0.4217	
+335	W	0.4135	
+336	A	0.4093	
+337	H	0.4163	
+338	G	0.4130	
+339	G	0.4153	
+340	F	0.4329	
+341	K	0.4602	
+342	P	0.5002	
+343	T	0.5312	
+344	G	0.5600	
+345	I	0.5991	
+346	E	0.6277	
+347	G	0.6513	
+348	L	0.6654	
+349	K	0.6771	
+350	P	0.6800	
+351	N	0.6685	
+352	N	0.6641	
+353	T	0.6712	
+354	Q	0.6811	
+355	P	0.6943	
+356	V	0.6954	
+357	V	0.7036	
+358	N	0.7145	
+359	K	0.7197	
+360	S	0.7148	
+361	K	0.6878	
+362	V	0.6534	
+363	R	0.6187	
+364	R	0.5893	
+365	A	0.5684	
+366	G	0.5552	
+367	S	0.5582	
+368	R	0.5730	
+369	K	0.5851	
+370	L	0.6052	
+371	E	0.6286	
+372	S	0.6541	
+373	R	0.6605	
+374	K	0.6521	
+375	Y	0.6615	
+376	E	0.6768	
+377	N	0.6935	
+378	K	0.6860	
+379	T	0.6669	
+380	R	0.6396	
+381	R	0.6156	
+382	R	0.5970	
+383	T	0.5749	
+384	A	0.5508	
+385	D	0.5422	
+386	D	0.5449	
+387	S	0.5468	
+388	A	0.5454	
+389	T	0.5375	
+390	S	0.5229	
+391	D	0.4783	
+392	Y	0.4197	
+393	C	0.3699	
+394	P	0.3305	
+395	A	0.3108	
+396	P	0.2815	
+397	K	0.2637	
+398	R	0.2566	
+399	L	0.2732	
+400	K	0.3044	
+401	T	0.3431	
+402	N	0.3684	
+403	C	0.3993	
+404	Y	0.4363	
+405	N	0.4759	
+406	N	0.4998	
+407	G	0.5087	
+408	K	0.5121	
+409	D	0.5123	
+410	R	0.5172	
+411	G	0.5318	
+412	D	0.5612	
+413	E	0.6095	
+414	D	0.6509	
+415	Q	0.6879	
+416	S	0.7044	
+417	R	0.7263	
+418	E	0.7448	
+419	Q	0.7423	
+420	M	0.7273	
+421	A	0.6976	
+422	S	0.6557	
+423	D	0.6102	domain ADD
+424	V	0.5469	domain ADD
+425	A	0.4672	domain ADD
+426	N	0.3895	domain ADD
+427	N	0.3127	domain ADD
+428	K	0.2514	domain ADD
+429	S	0.2074	domain ADD
+430	S	0.1754	domain ADD
+431	L	0.1682	domain ADD
+432	E	0.1786	domain ADD
+433	D	0.1928	domain ADD
+434	G	0.1898	domain ADD
+435	C	0.1875	domain ADD
+436	L	0.1804	domain ADD
+437	S	0.1629	domain ADD
+438	C	0.1481	domain ADD
+439	G	0.1255	domain ADD
+440	R	0.1125	domain ADD
+441	K	0.1001	domain ADD
+442	N	0.0887	domain ADD
+443	P	0.0747	domain ADD
+444	V	0.0715	domain ADD
+445	S	0.0702	domain ADD
+446	F	0.0765	domain ADD
+447	H	0.0846	domain ADD
+448	P	0.0880	domain ADD
+449	L	0.0882	domain ADD
+450	F	0.0889	domain ADD
+451	E	0.0884	domain ADD
+452	G	0.0806	domain ADD
+453	G	0.0648	domain ADD
+454	L	0.0467	domain ADD
+455	C	0.0352	domain ADD
+456	Q	0.0260	domain ADD
+457	T	0.0176	domain ADD
+458	C	0.0166	domain ADD
+459	R	0.0160	domain ADD
+460	D	0.0216	domain ADD
+461	R	0.0235	domain ADD
+462	F	0.0266	domain ADD
+463	L	0.0326	domain ADD
+464	E	0.0394	domain ADD
+465	L	0.0442	domain ADD
+466	F	0.0469	domain ADD
+467	Y	0.0466	domain ADD
+468	M	0.0426	domain ADD
+469	Y	0.0373	domain ADD
+470	D	0.0308	domain ADD
+471	D	0.0233	domain ADD
+472	D	0.0170	domain ADD
+473	G	0.0124	domain ADD
+474	Y	0.0124	domain ADD
+475	Q	0.0167	domain ADD
+476	S	0.0157	domain ADD
+477	Y	0.0153	domain ADD
+478	C	0.0187	domain ADD
+479	T	0.0182	domain ADD
+480	V	0.0156	domain ADD
+481	C	0.0129	domain ADD
+482	C	0.0107	domain ADD
+483	E	0.0088	domain ADD
+484	G	0.0070	domain ADD
+485	R	0.0061	domain ADD
+486	E	0.0056	domain ADD
+487	L	0.0051	domain ADD
+488	L	0.0042	domain ADD
+489	L	0.0034	domain ADD
+490	C	0.0032	domain ADD
+491	S	0.0033	domain ADD
+492	N	0.0035	domain ADD
+493	T	0.0036	domain ADD
+494	S	0.0033	domain ADD
+495	C	0.0030	domain ADD
+496	C	0.0030	domain ADD
+497	R	0.0031	domain ADD
+498	C	0.0036	domain ADD
+499	F	0.0033	domain ADD
+500	C	0.0039	domain ADD
+501	V	0.0051	domain ADD
+502	E	0.0087	domain ADD
+503	C	0.0036	domain ADD
+504	L	-0.0011	domain ADD
+505	E	-0.0015	domain ADD
+506	V	0.0031	domain ADD
+507	L	0.0123	domain ADD
+508	V	0.0260	domain ADD
+509	G	0.0459	domain ADD
+510	T	0.0680	domain ADD
+511	G	0.0856	domain ADD
+512	T	0.0964	domain ADD
+513	A	0.0989	domain ADD
+514	A	0.0974	domain ADD
+515	E	0.0910	domain ADD
+516	A	0.0798	domain ADD
+517	K	0.0649	domain ADD
+518	L	0.0523	domain ADD
+519	Q	0.0444	domain ADD
+520	E	0.0438	domain ADD
+521	P	0.0375	domain ADD
+522	W	0.0326	domain ADD
+523	S	0.0286	domain ADD
+524	C	0.0253	domain ADD
+525	Y	0.0200	domain ADD
+526	M	0.0155	domain ADD
+527	C	0.0138	domain ADD
+528	L	0.0154	domain ADD
+529	P	0.0188	domain ADD
+530	Q	0.0171	domain ADD
+531	R	0.0119	domain ADD
+532	C	0.0139	domain ADD
+533	H	0.0198	domain ADD
+534	G	0.0300	domain ADD
+535	V	0.0357	domain ADD
+536	L	0.0392	domain ADD
+537	R	0.0417	domain ADD
+538	R	0.0491	domain ADD
+539	R	0.0494	domain ADD
+540	K	0.0540	domain ADD
+541	D	0.0594	domain ADD
+542	W	0.0692	domain ADD
+543	N	0.0784	domain ADD
+544	V	0.0899	domain ADD
+545	R	0.0976	domain ADD
+546	L	0.1105	domain ADD
+547	Q	0.1197	domain ADD
+548	A	0.1198	domain ADD
+549	F	0.1133	domain ADD
+550	F	0.1050	domain ADD
+551	T	0.0994	domain ADD
+552	S	0.0991	domain ADD
+553	D	0.0886	domain ADD
+554	T	0.0793	domain ADD
+555	G	0.0767	domain ADD
+556	L	0.0812	
+557	E	0.0935	
+558	Y	0.1195	
+559	E	0.1444	
+560	A	0.1806	
+561	P	0.2051	
+562	K	0.2245	
+563	L	0.2360	
+564	Y	0.2430	
+565	P	0.2344	
+566	A	0.2162	
+567	I	0.1879	
+568	P	0.1572	
+569	A	0.1323	
+570	A	0.1129	
+571	R	0.0971	
+572	R	0.0893	
+573	R	0.0866	
+574	P	0.0813	
+575	I	0.0821	domain SAM-dependent MTase C5-type
+576	R	0.0845	domain SAM-dependent MTase C5-type
+577	V	0.0816	domain SAM-dependent MTase C5-type
+578	L	0.0837	domain SAM-dependent MTase C5-type
+579	S	0.0729	domain SAM-dependent MTase C5-type
+580	L	0.0601	domain SAM-dependent MTase C5-type
+581	F	0.0470	domain SAM-dependent MTase C5-type
+582	D	0.0347	domain SAM-dependent MTase C5-type
+583	G	0.0259	domain SAM-dependent MTase C5-type
+584	I	0.0213	domain SAM-dependent MTase C5-type
+585	A	0.0193	domain SAM-dependent MTase C5-type
+586	T	0.0231	domain SAM-dependent MTase C5-type
+587	G	0.0243	domain SAM-dependent MTase C5-type
+588	Y	0.0222	domain SAM-dependent MTase C5-type
+589	L	0.0247	domain SAM-dependent MTase C5-type
+590	V	0.0296	domain SAM-dependent MTase C5-type
+591	L	0.0350	domain SAM-dependent MTase C5-type
+592	K	0.0362	domain SAM-dependent MTase C5-type
+593	E	0.0367	domain SAM-dependent MTase C5-type
+594	L	0.0347	domain SAM-dependent MTase C5-type
+595	G	0.0356	domain SAM-dependent MTase C5-type
+596	I	0.0415	domain SAM-dependent MTase C5-type
+597	K	0.0443	domain SAM-dependent MTase C5-type
+598	V	0.0529	domain SAM-dependent MTase C5-type
+599	G	0.0586	domain SAM-dependent MTase C5-type
+600	K	0.0665	domain SAM-dependent MTase C5-type
+601	Y	0.0705	domain SAM-dependent MTase C5-type
+602	V	0.0734	domain SAM-dependent MTase C5-type
+603	A	0.0782	domain SAM-dependent MTase C5-type
+604	S	0.0892	domain SAM-dependent MTase C5-type
+605	E	0.0927	domain SAM-dependent MTase C5-type
+606	V	0.0991	domain SAM-dependent MTase C5-type
+607	C	0.1171	domain SAM-dependent MTase C5-type
+608	E	0.1452	domain SAM-dependent MTase C5-type
+609	E	0.1704	domain SAM-dependent MTase C5-type
+610	S	0.1858	domain SAM-dependent MTase C5-type
+611	I	0.1978	domain SAM-dependent MTase C5-type
+612	A	0.1978	domain SAM-dependent MTase C5-type
+613	V	0.2051	domain SAM-dependent MTase C5-type
+614	G	0.2084	domain SAM-dependent MTase C5-type
+615	T	0.2034	domain SAM-dependent MTase C5-type
+616	V	0.1971	domain SAM-dependent MTase C5-type
+617	K	0.1840	domain SAM-dependent MTase C5-type
+618	H	0.1903	domain SAM-dependent MTase C5-type
+619	E	0.1972	domain SAM-dependent MTase C5-type
+620	G	0.2040	domain SAM-dependent MTase C5-type
+621	N	0.2222	domain SAM-dependent MTase C5-type
+622	I	0.2494	domain SAM-dependent MTase C5-type
+623	K	0.2599	domain SAM-dependent MTase C5-type
+624	Y	0.2772	domain SAM-dependent MTase C5-type
+625	V	0.2865	domain SAM-dependent MTase C5-type
+626	N	0.2979	domain SAM-dependent MTase C5-type
+627	D	0.2968	domain SAM-dependent MTase C5-type
+628	V	0.2835	domain SAM-dependent MTase C5-type
+629	R	0.2609	domain SAM-dependent MTase C5-type
+630	N	0.2329	domain SAM-dependent MTase C5-type
+631	I	0.2111	domain SAM-dependent MTase C5-type
+632	T	0.1843	domain SAM-dependent MTase C5-type
+633	K	0.1731	domain SAM-dependent MTase C5-type
+634	K	0.1588	domain SAM-dependent MTase C5-type
+635	N	0.1403	domain SAM-dependent MTase C5-type
+636	I	0.1448	domain SAM-dependent MTase C5-type
+637	E	0.1526	domain SAM-dependent MTase C5-type
+638	E	0.1578	domain SAM-dependent MTase C5-type
+639	W	0.1671	domain SAM-dependent MTase C5-type
+640	G	0.1764	domain SAM-dependent MTase C5-type
+641	P	0.1779	domain SAM-dependent MTase C5-type
+642	F	0.1816	domain SAM-dependent MTase C5-type
+643	D	0.1715	domain SAM-dependent MTase C5-type
+644	L	0.1719	domain SAM-dependent MTase C5-type
+645	V	0.1595	domain SAM-dependent MTase C5-type
+646	I	0.1550	domain SAM-dependent MTase C5-type
+647	G	0.1638	domain SAM-dependent MTase C5-type
+648	G	0.1812	domain SAM-dependent MTase C5-type
+649	S	0.1928	domain SAM-dependent MTase C5-type
+650	P	0.2005	domain SAM-dependent MTase C5-type
+651	C	0.2214	domain SAM-dependent MTase C5-type
+652	N	0.2349	domain SAM-dependent MTase C5-type
+653	D	0.2527	domain SAM-dependent MTase C5-type
+654	L	0.2761	domain SAM-dependent MTase C5-type
+655	S	0.3092	domain SAM-dependent MTase C5-type
+656	N	0.3402	domain SAM-dependent MTase C5-type
+657	V	0.3595	domain SAM-dependent MTase C5-type
+658	N	0.3710	domain SAM-dependent MTase C5-type
+659	P	0.3708	domain SAM-dependent MTase C5-type
+660	A	0.3488	domain SAM-dependent MTase C5-type
+661	R	0.3127	domain SAM-dependent MTase C5-type
+662	K	0.2705	domain SAM-dependent MTase C5-type
+663	G	0.2092	domain SAM-dependent MTase C5-type
+664	L	0.1536	domain SAM-dependent MTase C5-type
+665	Y	0.1124	domain SAM-dependent MTase C5-type
+666	E	0.0842	domain SAM-dependent MTase C5-type
+667	G	0.0641	domain SAM-dependent MTase C5-type
+668	T	0.0493	domain SAM-dependent MTase C5-type
+669	G	0.0408	domain SAM-dependent MTase C5-type
+670	R	0.0302	domain SAM-dependent MTase C5-type
+671	L	0.0271	domain SAM-dependent MTase C5-type
+672	F	0.0247	domain SAM-dependent MTase C5-type
+673	F	0.0318	domain SAM-dependent MTase C5-type
+674	E	0.0414	domain SAM-dependent MTase C5-type
+675	F	0.0519	domain SAM-dependent MTase C5-type
+676	Y	0.0637	domain SAM-dependent MTase C5-type
+677	H	0.0763	domain SAM-dependent MTase C5-type
+678	L	0.0887	domain SAM-dependent MTase C5-type
+679	L	0.0949	domain SAM-dependent MTase C5-type
+680	N	0.0956	domain SAM-dependent MTase C5-type
+681	Y	0.0934	domain SAM-dependent MTase C5-type
+682	S	0.0880	domain SAM-dependent MTase C5-type
+683	R	0.0898	domain SAM-dependent MTase C5-type
+684	P	0.0948	domain SAM-dependent MTase C5-type
+685	K	0.1020	domain SAM-dependent MTase C5-type
+686	E	0.1133	domain SAM-dependent MTase C5-type
+687	G	0.1311	domain SAM-dependent MTase C5-type
+688	D	0.1490	domain SAM-dependent MTase C5-type
+689	D	0.1663	domain SAM-dependent MTase C5-type
+690	R	0.1795	domain SAM-dependent MTase C5-type
+691	P	0.1827	domain SAM-dependent MTase C5-type
+692	F	0.1835	domain SAM-dependent MTase C5-type
+693	F	0.1787	domain SAM-dependent MTase C5-type
+694	W	0.1668	domain SAM-dependent MTase C5-type
+695	M	0.1545	domain SAM-dependent MTase C5-type
+696	F	0.1461	domain SAM-dependent MTase C5-type
+697	E	0.1280	domain SAM-dependent MTase C5-type
+698	N	0.1157	domain SAM-dependent MTase C5-type
+699	V	0.0998	domain SAM-dependent MTase C5-type
+700	V	0.0800	domain SAM-dependent MTase C5-type
+701	A	0.0767	domain SAM-dependent MTase C5-type
+702	M	0.0769	domain SAM-dependent MTase C5-type
+703	K	0.0828	domain SAM-dependent MTase C5-type
+704	V	0.0948	domain SAM-dependent MTase C5-type
+705	G	0.1091	domain SAM-dependent MTase C5-type
+706	D	0.1310	domain SAM-dependent MTase C5-type
+707	K	0.1489	domain SAM-dependent MTase C5-type
+708	R	0.1644	domain SAM-dependent MTase C5-type
+709	D	0.1707	domain SAM-dependent MTase C5-type
+710	I	0.1732	domain SAM-dependent MTase C5-type
+711	S	0.1699	domain SAM-dependent MTase C5-type
+712	R	0.1646	domain SAM-dependent MTase C5-type
+713	F	0.1525	domain SAM-dependent MTase C5-type
+714	L	0.1412	domain SAM-dependent MTase C5-type
+715	E	0.1272	domain SAM-dependent MTase C5-type
+716	C	0.1208	domain SAM-dependent MTase C5-type
+717	N	0.1101	domain SAM-dependent MTase C5-type
+718	P	0.1022	domain SAM-dependent MTase C5-type
+719	V	0.1002	domain SAM-dependent MTase C5-type
+720	M	0.0965	domain SAM-dependent MTase C5-type
+721	I	0.1020	domain SAM-dependent MTase C5-type
+722	D	0.1053	domain SAM-dependent MTase C5-type
+723	A	0.1032	domain SAM-dependent MTase C5-type
+724	I	0.1017	domain SAM-dependent MTase C5-type
+725	K	0.0931	domain SAM-dependent MTase C5-type
+726	V	0.0883	domain SAM-dependent MTase C5-type
+727	S	0.0731	domain SAM-dependent MTase C5-type
+728	A	0.0635	domain SAM-dependent MTase C5-type
+729	A	0.0647	domain SAM-dependent MTase C5-type
+730	H	0.0809	domain SAM-dependent MTase C5-type
+731	R	0.1003	domain SAM-dependent MTase C5-type
+732	A	0.1223	domain SAM-dependent MTase C5-type
+733	R	0.1431	domain SAM-dependent MTase C5-type
+734	Y	0.1595	domain SAM-dependent MTase C5-type
+735	F	0.1648	domain SAM-dependent MTase C5-type
+736	W	0.1813	domain SAM-dependent MTase C5-type
+737	G	0.1869	domain SAM-dependent MTase C5-type
+738	N	0.1880	domain SAM-dependent MTase C5-type
+739	L	0.1831	domain SAM-dependent MTase C5-type
+740	P	0.1728	domain SAM-dependent MTase C5-type
+741	G	0.1760	domain SAM-dependent MTase C5-type
+742	M	0.1894	domain SAM-dependent MTase C5-type
+743	N	0.2112	domain SAM-dependent MTase C5-type
+744	R	0.2512	domain SAM-dependent MTase C5-type
+745	P	0.2780	domain SAM-dependent MTase C5-type
+746	V	0.2962	domain SAM-dependent MTase C5-type
+747	I	0.3094	domain SAM-dependent MTase C5-type
+748	A	0.3221	domain SAM-dependent MTase C5-type
+749	S	0.3211	domain SAM-dependent MTase C5-type
+750	K	0.3069	domain SAM-dependent MTase C5-type
+751	N	0.2786	domain SAM-dependent MTase C5-type
+752	D	0.2390	domain SAM-dependent MTase C5-type
+753	K	0.1968	domain SAM-dependent MTase C5-type
+754	L	0.1728	domain SAM-dependent MTase C5-type
+755	E	0.1544	domain SAM-dependent MTase C5-type
+756	L	0.1564	domain SAM-dependent MTase C5-type
+757	Q	0.1536	domain SAM-dependent MTase C5-type
+758	D	0.1484	domain SAM-dependent MTase C5-type
+759	C	0.1421	domain SAM-dependent MTase C5-type
+760	L	0.1342	domain SAM-dependent MTase C5-type
+761	E	0.1267	domain SAM-dependent MTase C5-type
+762	Y	0.1242	domain SAM-dependent MTase C5-type
+763	N	0.1177	domain SAM-dependent MTase C5-type
+764	R	0.1160	domain SAM-dependent MTase C5-type
+765	I	0.1151	domain SAM-dependent MTase C5-type
+766	A	0.1266	domain SAM-dependent MTase C5-type
+767	K	0.1499	domain SAM-dependent MTase C5-type
+768	L	0.1774	domain SAM-dependent MTase C5-type
+769	K	0.1985	domain SAM-dependent MTase C5-type
+770	K	0.2242	domain SAM-dependent MTase C5-type
+771	V	0.2607	domain SAM-dependent MTase C5-type
+772	Q	0.2933	domain SAM-dependent MTase C5-type
+773	T	0.3268	domain SAM-dependent MTase C5-type
+774	I	0.3607	domain SAM-dependent MTase C5-type
+775	T	0.3903	domain SAM-dependent MTase C5-type
+776	T	0.4178	domain SAM-dependent MTase C5-type
+777	K	0.4207	domain SAM-dependent MTase C5-type
+778	S	0.4113	domain SAM-dependent MTase C5-type
+779	N	0.3955	domain SAM-dependent MTase C5-type
+780	S	0.3671	domain SAM-dependent MTase C5-type
+781	I	0.3401	domain SAM-dependent MTase C5-type
+782	K	0.3293	domain SAM-dependent MTase C5-type
+783	Q	0.3268	domain SAM-dependent MTase C5-type
+784	G	0.3340	domain SAM-dependent MTase C5-type
+785	K	0.3484	domain SAM-dependent MTase C5-type
+786	N	0.3506	domain SAM-dependent MTase C5-type
+787	Q	0.3385	domain SAM-dependent MTase C5-type
+788	L	0.3198	domain SAM-dependent MTase C5-type
+789	F	0.2907	domain SAM-dependent MTase C5-type
+790	P	0.2493	domain SAM-dependent MTase C5-type
+791	V	0.2088	domain SAM-dependent MTase C5-type
+792	V	0.1598	domain SAM-dependent MTase C5-type
+793	M	0.1249	domain SAM-dependent MTase C5-type
+794	N	0.1034	domain SAM-dependent MTase C5-type
+795	G	0.0873	domain SAM-dependent MTase C5-type
+796	K	0.0768	domain SAM-dependent MTase C5-type
+797	E	0.0736	domain SAM-dependent MTase C5-type
+798	D	0.0682	domain SAM-dependent MTase C5-type
+799	V	0.0593	domain SAM-dependent MTase C5-type
+800	L	0.0530	domain SAM-dependent MTase C5-type
+801	W	0.0543	domain SAM-dependent MTase C5-type
+802	C	0.0569	domain SAM-dependent MTase C5-type
+803	T	0.0585	domain SAM-dependent MTase C5-type
+804	E	0.0551	domain SAM-dependent MTase C5-type
+805	L	0.0477	domain SAM-dependent MTase C5-type
+806	E	0.0376	domain SAM-dependent MTase C5-type
+807	R	0.0339	domain SAM-dependent MTase C5-type
+808	I	0.0335	domain SAM-dependent MTase C5-type
+809	F	0.0404	domain SAM-dependent MTase C5-type
+810	G	0.0499	domain SAM-dependent MTase C5-type
+811	F	0.0716	domain SAM-dependent MTase C5-type
+812	P	0.0955	domain SAM-dependent MTase C5-type
+813	V	0.1267	domain SAM-dependent MTase C5-type
+814	H	0.1438	domain SAM-dependent MTase C5-type
+815	Y	0.1595	domain SAM-dependent MTase C5-type
+816	T	0.1762	domain SAM-dependent MTase C5-type
+817	D	0.1939	domain SAM-dependent MTase C5-type
+818	V	0.2109	domain SAM-dependent MTase C5-type
+819	S	0.2230	domain SAM-dependent MTase C5-type
+820	N	0.2397	domain SAM-dependent MTase C5-type
+821	M	0.2626	domain SAM-dependent MTase C5-type
+822	G	0.2843	domain SAM-dependent MTase C5-type
+823	R	0.2955	domain SAM-dependent MTase C5-type
+824	G	0.2996	domain SAM-dependent MTase C5-type
+825	A	0.3090	domain SAM-dependent MTase C5-type
+826	R	0.3110	domain SAM-dependent MTase C5-type
+827	Q	0.3012	domain SAM-dependent MTase C5-type
+828	K	0.2849	domain SAM-dependent MTase C5-type
+829	L	0.2638	domain SAM-dependent MTase C5-type
+830	L	0.2375	domain SAM-dependent MTase C5-type
+831	G	0.2169	domain SAM-dependent MTase C5-type
+832	R	0.1874	domain SAM-dependent MTase C5-type
+833	S	0.1547	domain SAM-dependent MTase C5-type
+834	W	0.1275	domain SAM-dependent MTase C5-type
+835	S	0.1073	domain SAM-dependent MTase C5-type
+836	V	0.0914	domain SAM-dependent MTase C5-type
+837	P	0.0727	domain SAM-dependent MTase C5-type
+838	V	0.0621	domain SAM-dependent MTase C5-type
+839	I	0.0565	domain SAM-dependent MTase C5-type
+840	R	0.0529	domain SAM-dependent MTase C5-type
+841	H	0.0475	domain SAM-dependent MTase C5-type
+842	L	0.0379	domain SAM-dependent MTase C5-type
+843	F	0.0332	domain SAM-dependent MTase C5-type
+844	A	0.0334	domain SAM-dependent MTase C5-type
+845	P	0.0324	domain SAM-dependent MTase C5-type
+846	L	0.0317	domain SAM-dependent MTase C5-type
+847	K	0.0309	domain SAM-dependent MTase C5-type
+848	D	0.0300	domain SAM-dependent MTase C5-type
+849	Y	0.0285	domain SAM-dependent MTase C5-type
+850	F	0.0265	domain SAM-dependent MTase C5-type
+851	A	0.0241	domain SAM-dependent MTase C5-type
+852	C	0.0216	domain SAM-dependent MTase C5-type
+853	E	0.0194	domain SAM-dependent MTase C5-type

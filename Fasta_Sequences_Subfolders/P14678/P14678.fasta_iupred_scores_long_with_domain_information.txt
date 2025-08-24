@@ -1,0 +1,252 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.4265	
+2	T	0.4131	
+3	V	0.3915	
+4	G	0.3654	domain Sm
+5	K	0.3379	domain Sm
+6	S	0.3114	domain Sm
+7	S	0.2877	domain Sm
+8	K	0.2682	domain Sm
+9	M	0.2533	domain Sm
+10	L	0.2431	domain Sm
+11	Q	0.2465	domain Sm
+12	H	0.2376	domain Sm
+13	I	0.2316	domain Sm
+14	D	0.2135	domain Sm
+15	Y	0.2018	domain Sm
+16	R	0.1865	domain Sm
+17	M	0.1714	domain Sm
+18	R	0.1411	domain Sm
+19	C	0.1072	domain Sm
+20	I	0.0784	domain Sm
+21	L	0.0644	domain Sm
+22	Q	0.0611	domain Sm
+23	D	0.0720	domain Sm
+24	G	0.0818	domain Sm
+25	R	0.0912	domain Sm
+26	I	0.0987	domain Sm
+27	F	0.1089	domain Sm
+28	I	0.1225	domain Sm
+29	G	0.1301	domain Sm
+30	T	0.1313	domain Sm
+31	F	0.1212	domain Sm
+32	K	0.1016	domain Sm
+33	A	0.0898	domain Sm
+34	F	0.0804	domain Sm
+35	D	0.0773	domain Sm
+36	K	0.0792	domain Sm
+37	H	0.0787	domain Sm
+38	M	0.0845	domain Sm
+39	N	0.0996	domain Sm
+40	L	0.1226	domain Sm
+41	I	0.1509	domain Sm
+42	L	0.1817	domain Sm
+43	C	0.2136	domain Sm
+44	D	0.2377	domain Sm
+45	C	0.2579	domain Sm
+46	D	0.2707	domain Sm
+47	E	0.2865	domain Sm
+48	F	0.3073	domain Sm
+49	R	0.3420	domain Sm
+50	K	0.3899	domain Sm
+51	I	0.4491	domain Sm
+52	K	0.5133	domain Sm
+53	P	0.5852	domain Sm
+54	K	0.6521	domain Sm
+55	N	0.6890	domain Sm
+56	S	0.7025	domain Sm
+57	K	0.6881	domain Sm
+58	Q	0.6463	domain Sm
+59	A	0.5947	domain Sm
+60	E	0.5515	domain Sm
+61	R	0.5179	domain Sm
+62	E	0.4949	domain Sm
+63	E	0.4765	domain Sm
+64	K	0.4606	domain Sm
+65	R	0.4463	domain Sm
+66	V	0.4245	domain Sm
+67	L	0.4044	domain Sm
+68	G	0.3841	domain Sm
+69	L	0.3484	domain Sm
+70	V	0.3065	domain Sm
+71	L	0.2780	domain Sm
+72	L	0.2588	domain Sm
+73	R	0.2449	domain Sm
+74	G	0.2550	domain Sm
+75	E	0.2786	domain Sm
+76	N	0.3091	domain Sm
+77	L	0.3622	domain Sm
+78	V	0.4252	domain Sm
+79	S	0.5026	domain Sm
+80	M	0.5746	domain Sm
+81	T	0.6190	domain Sm
+82	V	0.6496	domain Sm
+83	E	0.6611	domain Sm
+84	G	0.6650	domain Sm
+85	P	0.6548	domain Sm
+86	P	0.6426	domain Sm
+87	P	0.6236	
+88	K	0.6185	
+89	D	0.6332	
+90	T	0.6578	
+91	G	0.6803	
+92	I	0.7063	
+93	A	0.7189	
+94	R	0.7140	
+95	V	0.6867	
+96	P	0.6437	
+97	L	0.6078	
+98	A	0.5690	
+99	G	0.5304	
+100	A	0.5080	
+101	A	0.4921	
+102	G	0.5025	
+103	G	0.5197	
+104	P	0.5331	
+105	G	0.5426	
+106	I	0.5554	
+107	G	0.5753	
+108	R	0.5975	
+109	A	0.6145	
+110	A	0.6347	
+111	G	0.6608	
+112	R	0.6810	
+113	G	0.6884	
+114	I	0.6936	
+115	P	0.6923	
+116	A	0.6929	
+117	G	0.6881	
+118	V	0.6879	
+119	P	0.6794	
+120	M	0.6843	
+121	P	0.6864	
+122	Q	0.6852	
+123	A	0.6894	
+124	P	0.6986	
+125	A	0.7230	
+126	G	0.7495	
+127	L	0.7730	
+128	A	0.7957	
+129	G	0.8207	
+130	P	0.8330	
+131	V	0.8385	
+132	R	0.8383	
+133	G	0.8381	
+134	V	0.8470	
+135	G	0.8532	
+136	G	0.8701	
+137	P	0.8856	
+138	S	0.9053	
+139	Q	0.9173	
+140	Q	0.9206	
+141	V	0.9156	
+142	M	0.9053	
+143	T	0.9059	
+144	P	0.9034	
+145	Q	0.8934	
+146	G	0.8809	
+147	R	0.8679	
+148	G	0.8531	
+149	T	0.8241	
+150	V	0.8074	
+151	A	0.7971	
+152	A	0.7875	
+153	A	0.7744	
+154	A	0.7593	
+155	A	0.7404	
+156	A	0.7233	
+157	A	0.7092	
+158	T	0.6980	
+159	A	0.6925	
+160	S	0.6893	
+161	I	0.7112	
+162	A	0.7454	
+163	G	0.7849	
+164	A	0.8268	
+165	P	0.8651	
+166	T	0.8963	
+167	Q	0.9063	
+168	Y	0.9188	
+169	P	0.9271	
+170	P	0.9398	
+171	G	0.9484	
+172	R	0.9544	
+173	G	0.9599	
+174	G	0.9659	
+175	P	0.9712	
+176	P	0.9748	
+177	P	0.9768	
+178	P	0.9744	
+179	M	0.9739	
+180	G	0.9722	
+181	R	0.9752	
+182	G	0.9758	
+183	A	0.9753	
+184	P	0.9735	
+185	P	0.9720	
+186	P	0.9675	
+187	G	0.9647	
+188	M	0.9654	
+189	M	0.9649	
+190	G	0.9649	
+191	P	0.9624	
+192	P	0.9567	
+193	P	0.9495	
+194	G	0.9411	
+195	M	0.9365	
+196	R	0.9341	
+197	P	0.9375	
+198	P	0.9403	
+199	M	0.9462	
+200	G	0.9517	
+201	P	0.9563	
+202	P	0.9586	
+203	M	0.9590	
+204	G	0.9540	
+205	I	0.9501	
+206	P	0.9453	
+207	P	0.9424	
+208	G	0.9424	
+209	R	0.9451	
+210	G	0.9491	
+211	T	0.9537	
+212	P	0.9572	
+213	M	0.9611	
+214	G	0.9642	
+215	M	0.9708	
+216	P	0.9743	
+217	P	0.9772	
+218	P	0.9782	
+219	G	0.9782	
+220	M	0.9777	
+221	R	0.9768	
+222	P	0.9768	
+223	P	0.9785	
+224	P	0.9800	
+225	P	0.9824	
+226	G	0.9836	
+227	M	0.9852	
+228	R	0.9867	
+229	G	0.9880	
+230	P	0.9887	
+231	P	0.9889	
+232	P	0.9890	
+233	P	0.9890	
+234	G	0.9889	
+235	M	0.9887	
+236	R	0.9887	
+237	P	0.9889	
+238	P	0.9894	
+239	R	0.9904	
+240	P	0.9922	

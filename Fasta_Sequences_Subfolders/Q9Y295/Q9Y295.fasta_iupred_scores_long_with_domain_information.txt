@@ -1,0 +1,379 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.1558	
+2	S	0.1930	
+3	S	0.2157	
+4	T	0.2320	
+5	L	0.2470	
+6	A	0.2639	
+7	K	0.2837	
+8	I	0.3063	
+9	A	0.3304	
+10	E	0.3542	
+11	I	0.3719	
+12	E	0.3817	
+13	A	0.4049	
+14	E	0.4136	
+15	M	0.4231	
+16	A	0.4262	
+17	R	0.4330	
+18	T	0.4412	
+19	Q	0.4391	
+20	K	0.4394	
+21	N	0.4355	
+22	K	0.4222	
+23	A	0.3999	
+24	T	0.3775	
+25	A	0.3725	
+26	H	0.3643	
+27	H	0.3458	
+28	L	0.3282	
+29	G	0.2978	
+30	L	0.2702	
+31	L	0.2500	
+32	K	0.2293	
+33	A	0.2162	
+34	R	0.1977	
+35	L	0.1915	
+36	A	0.1959	
+37	K	0.2099	
+38	L	0.2318	
+39	R	0.2710	
+40	R	0.3188	
+41	E	0.3583	
+42	L	0.4003	
+43	I	0.4465	
+44	T	0.4901	
+45	P	0.5215	
+46	K	0.5211	
+47	G	0.5091	
+48	G	0.4966	
+49	G	0.4914	
+50	G	0.4938	
+51	G	0.5067	
+52	G	0.5266	
+53	P	0.5397	
+54	G	0.5539	
+55	E	0.5562	
+56	G	0.5302	
+57	F	0.4965	
+58	D	0.4496	
+59	V	0.3921	
+60	A	0.3252	
+61	K	0.2616	
+62	T	0.2173	
+63	G	0.1954	
+64	D	0.1783	
+65	A	0.1686	domain OBG-type G
+66	R	0.1667	domain OBG-type G
+67	I	0.1786	domain OBG-type G
+68	G	0.1821	domain OBG-type G
+69	F	0.1878	domain OBG-type G
+70	V	0.1918	domain OBG-type G
+71	G	0.1872	domain OBG-type G
+72	F	0.1770	domain OBG-type G
+73	P	0.1524	domain OBG-type G
+74	S	0.1269	domain OBG-type G
+75	V	0.0980	domain OBG-type G
+76	G	0.0851	domain OBG-type G
+77	K	0.0881	domain OBG-type G
+78	S	0.0955	domain OBG-type G
+79	T	0.1059	domain OBG-type G
+80	L	0.1138	domain OBG-type G
+81	L	0.1257	domain OBG-type G
+82	S	0.1365	domain OBG-type G
+83	N	0.1344	domain OBG-type G
+84	L	0.1272	domain OBG-type G
+85	A	0.1140	domain OBG-type G
+86	G	0.0961	domain OBG-type G
+87	V	0.0799	domain OBG-type G
+88	Y	0.0732	domain OBG-type G
+89	S	0.0774	domain OBG-type G
+90	E	0.0868	domain OBG-type G
+91	V	0.0944	domain OBG-type G
+92	A	0.1036	domain OBG-type G
+93	A	0.1076	domain OBG-type G
+94	Y	0.1111	domain OBG-type G
+95	E	0.1160	domain OBG-type G
+96	F	0.1201	domain OBG-type G
+97	T	0.1180	domain OBG-type G
+98	T	0.1204	domain OBG-type G
+99	L	0.1194	domain OBG-type G
+100	T	0.1264	domain OBG-type G
+101	T	0.1355	domain OBG-type G
+102	V	0.1366	domain OBG-type G
+103	P	0.1357	domain OBG-type G
+104	G	0.1408	domain OBG-type G
+105	V	0.1385	domain OBG-type G
+106	I	0.1364	domain OBG-type G
+107	R	0.1352	domain OBG-type G
+108	Y	0.1373	domain OBG-type G
+109	K	0.1270	domain OBG-type G
+110	G	0.1162	domain OBG-type G
+111	A	0.1048	domain OBG-type G
+112	K	0.0906	domain OBG-type G
+113	I	0.0870	domain OBG-type G
+114	Q	0.0872	domain OBG-type G
+115	L	0.0960	domain OBG-type G
+116	L	0.1092	domain OBG-type G
+117	D	0.1266	domain OBG-type G
+118	L	0.1608	domain OBG-type G
+119	P	0.1941	domain OBG-type G
+120	G	0.2243	domain OBG-type G
+121	I	0.2482	domain OBG-type G
+122	I	0.2730	domain OBG-type G
+123	E	0.2877	domain OBG-type G
+124	G	0.2995	domain OBG-type G
+125	A	0.2962	domain OBG-type G
+126	K	0.2927	domain OBG-type G
+127	D	0.2918	domain OBG-type G
+128	G	0.2987	domain OBG-type G
+129	K	0.3054	domain OBG-type G
+130	G	0.3130	domain OBG-type G
+131	R	0.3201	domain OBG-type G
+132	G	0.3184	domain OBG-type G
+133	R	0.3100	domain OBG-type G
+134	Q	0.2797	domain OBG-type G
+135	V	0.2424	domain OBG-type G
+136	I	0.1988	domain OBG-type G
+137	A	0.1460	domain OBG-type G
+138	V	0.1014	domain OBG-type G
+139	A	0.0588	domain OBG-type G
+140	R	0.0307	domain OBG-type G
+141	T	0.0168	domain OBG-type G
+142	C	0.0192	domain OBG-type G
+143	N	0.0177	domain OBG-type G
+144	L	0.0204	domain OBG-type G
+145	I	0.0248	domain OBG-type G
+146	L	0.0263	domain OBG-type G
+147	I	0.0294	domain OBG-type G
+148	V	0.0319	domain OBG-type G
+149	L	0.0312	domain OBG-type G
+150	D	0.0306	domain OBG-type G
+151	V	0.0278	domain OBG-type G
+152	L	0.0274	domain OBG-type G
+153	K	0.0302	domain OBG-type G
+154	P	0.0404	domain OBG-type G
+155	L	0.0503	domain OBG-type G
+156	G	0.0606	domain OBG-type G
+157	H	0.0793	domain OBG-type G
+158	K	0.0932	domain OBG-type G
+159	K	0.1001	domain OBG-type G
+160	I	0.1018	domain OBG-type G
+161	I	0.1135	domain OBG-type G
+162	E	0.1310	domain OBG-type G
+163	N	0.1558	domain OBG-type G
+164	E	0.1740	domain OBG-type G
+165	L	0.1921	domain OBG-type G
+166	E	0.2097	domain OBG-type G
+167	G	0.2266	domain OBG-type G
+168	F	0.2345	domain OBG-type G
+169	G	0.2335	domain OBG-type G
+170	I	0.2300	domain OBG-type G
+171	R	0.2260	domain OBG-type G
+172	L	0.2277	domain OBG-type G
+173	N	0.2288	domain OBG-type G
+174	S	0.2377	domain OBG-type G
+175	K	0.2566	domain OBG-type G
+176	P	0.2702	domain OBG-type G
+177	P	0.2886	domain OBG-type G
+178	N	0.2982	domain OBG-type G
+179	I	0.3104	domain OBG-type G
+180	G	0.3240	domain OBG-type G
+181	F	0.3411	domain OBG-type G
+182	K	0.3466	domain OBG-type G
+183	K	0.3478	domain OBG-type G
+184	K	0.3404	domain OBG-type G
+185	D	0.3322	domain OBG-type G
+186	K	0.3126	domain OBG-type G
+187	G	0.3007	domain OBG-type G
+188	G	0.2983	domain OBG-type G
+189	I	0.2985	domain OBG-type G
+190	N	0.3066	domain OBG-type G
+191	L	0.3298	domain OBG-type G
+192	T	0.3533	domain OBG-type G
+193	A	0.3637	domain OBG-type G
+194	T	0.3574	domain OBG-type G
+195	C	0.3436	domain OBG-type G
+196	P	0.3206	domain OBG-type G
+197	Q	0.2951	domain OBG-type G
+198	S	0.2591	domain OBG-type G
+199	E	0.2275	domain OBG-type G
+200	L	0.2027	domain OBG-type G
+201	D	0.1956	domain OBG-type G
+202	A	0.1953	domain OBG-type G
+203	E	0.1977	domain OBG-type G
+204	T	0.1979	domain OBG-type G
+205	V	0.1971	domain OBG-type G
+206	K	0.1907	domain OBG-type G
+207	S	0.1780	domain OBG-type G
+208	I	0.1594	domain OBG-type G
+209	L	0.1505	domain OBG-type G
+210	A	0.1457	domain OBG-type G
+211	E	0.1360	domain OBG-type G
+212	Y	0.1233	domain OBG-type G
+213	K	0.1170	domain OBG-type G
+214	I	0.1252	domain OBG-type G
+215	H	0.1417	domain OBG-type G
+216	N	0.1613	domain OBG-type G
+217	A	0.1765	domain OBG-type G
+218	D	0.1833	domain OBG-type G
+219	V	0.1912	domain OBG-type G
+220	T	0.1910	domain OBG-type G
+221	L	0.1936	domain OBG-type G
+222	R	0.1973	domain OBG-type G
+223	S	0.2078	domain OBG-type G
+224	D	0.2083	domain OBG-type G
+225	A	0.2107	domain OBG-type G
+226	T	0.2097	domain OBG-type G
+227	A	0.2127	domain OBG-type G
+228	D	0.2174	domain OBG-type G
+229	D	0.2094	domain OBG-type G
+230	L	0.1882	domain OBG-type G
+231	I	0.1613	domain OBG-type G
+232	D	0.1310	domain OBG-type G
+233	V	0.0979	domain OBG-type G
+234	V	0.0747	domain OBG-type G
+235	E	0.0531	domain OBG-type G
+236	G	0.0376	domain OBG-type G
+237	N	0.0289	domain OBG-type G
+238	R	0.0181	domain OBG-type G
+239	V	0.0137	domain OBG-type G
+240	Y	0.0135	domain OBG-type G
+241	I	0.0253	domain OBG-type G
+242	P	0.0290	domain OBG-type G
+243	C	0.0305	domain OBG-type G
+244	I	0.0307	domain OBG-type G
+245	Y	0.0306	domain OBG-type G
+246	V	0.0297	domain OBG-type G
+247	L	0.0285	domain OBG-type G
+248	N	0.0235	domain OBG-type G
+249	K	0.0185	domain OBG-type G
+250	I	0.0160	domain OBG-type G
+251	D	0.0146	domain OBG-type G
+252	Q	0.0178	domain OBG-type G
+253	I	0.0231	domain OBG-type G
+254	S	0.0302	domain OBG-type G
+255	I	0.0409	domain OBG-type G
+256	E	0.0489	domain OBG-type G
+257	E	0.0534	domain OBG-type G
+258	L	0.0578	domain OBG-type G
+259	D	0.0590	domain OBG-type G
+260	I	0.0650	domain OBG-type G
+261	I	0.0691	domain OBG-type G
+262	Y	0.0713	domain OBG-type G
+263	K	0.0731	domain OBG-type G
+264	V	0.0785	domain OBG-type G
+265	P	0.0797	domain OBG-type G
+266	H	0.0764	domain OBG-type G
+267	C	0.0721	domain OBG-type G
+268	V	0.0736	domain OBG-type G
+269	P	0.0761	domain OBG-type G
+270	I	0.0826	domain OBG-type G
+271	S	0.0866	domain OBG-type G
+272	A	0.0917	domain OBG-type G
+273	H	0.0974	domain OBG-type G
+274	H	0.0989	domain OBG-type G
+275	R	0.0948	domain OBG-type G
+276	W	0.0857	domain OBG-type G
+277	N	0.0712	domain OBG-type G
+278	F	0.0600	domain OBG-type G
+279	D	0.0466	domain OBG-type G
+280	D	0.0355	domain OBG-type G
+281	L	0.0272	domain OBG-type G
+282	L	0.0259	domain OBG-type G
+283	E	0.0237	domain OBG-type G
+284	K	0.0228	domain OBG-type G
+285	I	0.0173	domain OBG-type G
+286	W	0.0154	domain OBG-type G
+287	D	0.0193	domain OBG-type G
+288	Y	0.0261	domain OBG-type G
+289	L	0.0300	domain OBG-type G
+290	K	0.0337	domain OBG-type G
+291	L	0.0378	domain TGS
+292	V	0.0407	domain TGS
+293	R	0.0535	domain TGS
+294	I	0.0634	domain TGS
+295	Y	0.0757	domain TGS
+296	T	0.0941	domain TGS
+297	K	0.1113	domain TGS
+298	P	0.1210	domain TGS
+299	K	0.1251	domain TGS
+300	G	0.1360	domain TGS
+301	Q	0.1552	domain TGS
+302	L	0.1747	domain TGS
+303	P	0.1985	domain TGS
+304	D	0.2296	domain TGS
+305	Y	0.2599	domain TGS
+306	T	0.2821	domain TGS
+307	S	0.2960	domain TGS
+308	P	0.2927	domain TGS
+309	V	0.2732	domain TGS
+310	V	0.2338	domain TGS
+311	L	0.1989	domain TGS
+312	P	0.1598	domain TGS
+313	Y	0.1286	domain TGS
+314	S	0.1037	domain TGS
+315	R	0.0948	domain TGS
+316	T	0.0852	domain TGS
+317	T	0.0797	domain TGS
+318	V	0.0817	domain TGS
+319	E	0.0864	domain TGS
+320	D	0.0819	domain TGS
+321	F	0.0788	domain TGS
+322	C	0.0788	domain TGS
+323	M	0.0730	domain TGS
+324	K	0.0628	domain TGS
+325	I	0.0569	domain TGS
+326	H	0.0471	domain TGS
+327	K	0.0366	domain TGS
+328	N	0.0213	domain TGS
+329	L	0.0110	domain TGS
+330	I	0.0074	domain TGS
+331	K	0.0100	domain TGS
+332	E	0.0098	domain TGS
+333	F	0.0149	domain TGS
+334	K	0.0164	domain TGS
+335	Y	0.0236	domain TGS
+336	A	0.0259	domain TGS
+337	L	0.0280	domain TGS
+338	V	0.0339	domain TGS
+339	W	0.0450	domain TGS
+340	G	0.0549	domain TGS
+341	L	0.0664	domain TGS
+342	S	0.0686	domain TGS
+343	V	0.0812	domain TGS
+344	K	0.1061	domain TGS
+345	H	0.1420	domain TGS
+346	N	0.1844	domain TGS
+347	P	0.2368	domain TGS
+348	Q	0.2897	domain TGS
+349	K	0.3383	domain TGS
+350	V	0.3808	domain TGS
+351	G	0.4096	domain TGS
+352	K	0.4279	domain TGS
+353	D	0.4279	domain TGS
+354	H	0.4063	domain TGS
+355	T	0.3730	domain TGS
+356	L	0.3410	domain TGS
+357	E	0.3174	domain TGS
+358	D	0.3070	domain TGS
+359	E	0.2959	domain TGS
+360	D	0.2833	domain TGS
+361	V	0.2668	domain TGS
+362	I	0.2453	domain TGS
+363	Q	0.2196	domain TGS
+364	I	0.1929	domain TGS
+365	V	0.1721	domain TGS
+366	K	0.1680	domain TGS
+367	K	0.1963	

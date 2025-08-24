@@ -1,0 +1,221 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9527	
+2	G	0.9081	
+3	S	0.8597	
+4	V	0.8083	
+5	S	0.7555	
+6	N	0.7038	
+7	Q	0.6557	
+8	Q	0.6141	
+9	F	0.5813	
+10	A	0.5596	
+11	G	0.5587	
+12	G	0.5628	
+13	C	0.5734	
+14	A	0.5898	
+15	K	0.6087	
+16	A	0.6190	
+17	A	0.6212	
+18	E	0.6114	
+19	E	0.5962	
+20	A	0.5893	
+21	P	0.5921	
+22	E	0.6011	
+23	E	0.6124	
+24	A	0.6309	
+25	P	0.6482	
+26	E	0.6693	
+27	D	0.6716	
+28	A	0.6617	
+29	A	0.6499	
+30	R	0.6206	
+31	A	0.5807	
+32	A	0.5317	
+33	D	0.4844	
+34	E	0.4278	
+35	P	0.3714	
+36	Q	0.3120	
+37	L	0.2614	
+38	L	0.2230	
+39	H	0.1944	domain CSD
+40	G	0.1744	domain CSD
+41	A	0.1546	domain CSD
+42	G	0.1327	domain CSD
+43	I	0.1126	domain CSD
+44	C	0.0988	domain CSD
+45	K	0.0762	domain CSD
+46	W	0.0537	domain CSD
+47	F	0.0371	domain CSD
+48	N	0.0261	domain CSD
+49	V	0.0250	domain CSD
+50	R	0.0245	domain CSD
+51	M	0.0277	domain CSD
+52	G	0.0279	domain CSD
+53	F	0.0292	domain CSD
+54	G	0.0276	domain CSD
+55	F	0.0323	domain CSD
+56	L	0.0406	domain CSD
+57	S	0.0528	domain CSD
+58	M	0.0632	domain CSD
+59	T	0.0647	domain CSD
+60	A	0.0626	domain CSD
+61	R	0.0627	domain CSD
+62	A	0.0648	domain CSD
+63	G	0.0694	domain CSD
+64	V	0.0771	domain CSD
+65	A	0.0800	domain CSD
+66	L	0.0950	domain CSD
+67	D	0.1131	domain CSD
+68	P	0.1284	domain CSD
+69	P	0.1388	domain CSD
+70	V	0.1466	domain CSD
+71	D	0.1495	domain CSD
+72	V	0.1545	domain CSD
+73	F	0.1539	domain CSD
+74	V	0.1560	domain CSD
+75	H	0.1701	domain CSD
+76	Q	0.1777	domain CSD
+77	S	0.1814	domain CSD
+78	K	0.1806	domain CSD
+79	L	0.1924	domain CSD
+80	H	0.2099	domain CSD
+81	M	0.2324	domain CSD
+82	E	0.2451	domain CSD
+83	G	0.2495	domain CSD
+84	F	0.2553	domain CSD
+85	R	0.2543	domain CSD
+86	S	0.2581	domain CSD
+87	L	0.2519	domain CSD
+88	K	0.2383	domain CSD
+89	E	0.2330	domain CSD
+90	G	0.2288	domain CSD
+91	E	0.2246	domain CSD
+92	A	0.2323	domain CSD
+93	V	0.2520	domain CSD
+94	E	0.2652	domain CSD
+95	F	0.2747	domain CSD
+96	T	0.2644	domain CSD
+97	F	0.2624	domain CSD
+98	K	0.2579	domain CSD
+99	K	0.2697	domain CSD
+100	S	0.2776	domain CSD
+101	A	0.2884	domain CSD
+102	K	0.2944	domain CSD
+103	G	0.2991	domain CSD
+104	L	0.3101	domain CSD
+105	E	0.3124	domain CSD
+106	S	0.3106	domain CSD
+107	I	0.3083	domain CSD
+108	R	0.2968	domain CSD
+109	V	0.2922	domain CSD
+110	T	0.2902	domain CSD
+111	G	0.3024	domain CSD
+112	P	0.3216	domain CSD
+113	G	0.3490	
+114	G	0.3723	
+115	V	0.4027	
+116	F	0.4262	
+117	C	0.4576	
+118	I	0.4835	
+119	G	0.5042	
+120	S	0.5052	
+121	E	0.5119	
+122	R	0.5274	
+123	R	0.5407	
+124	P	0.5698	
+125	K	0.5962	
+126	G	0.6144	
+127	K	0.6273	
+128	S	0.6233	
+129	M	0.6070	
+130	Q	0.5686	
+131	K	0.5189	
+132	R	0.4562	
+133	R	0.3859	
+134	S	0.3355	
+135	K	0.3033	
+136	G	0.2905	
+137	D	0.2864	
+138	R	0.2680	
+139	C	0.2493	
+140	Y	0.2248	
+141	N	0.1927	
+142	C	0.1502	
+143	G	0.1155	
+144	G	0.0926	
+145	L	0.0707	
+146	D	0.0716	
+147	H	0.0881	
+148	H	0.1095	
+149	A	0.1377	
+150	K	0.1564	
+151	E	0.1575	
+152	C	0.1564	
+153	K	0.1481	
+154	L	0.1444	
+155	P	0.1220	
+156	P	0.1064	
+157	Q	0.0913	
+158	P	0.0859	
+159	K	0.0965	
+160	K	0.0965	
+161	C	0.1067	
+162	H	0.1192	
+163	F	0.1206	
+164	C	0.1146	
+165	Q	0.1045	
+166	S	0.0970	
+167	I	0.0782	
+168	S	0.0634	
+169	H	0.0657	
+170	M	0.0802	
+171	V	0.1153	
+172	A	0.1788	
+173	S	0.2474	
+174	C	0.3261	
+175	P	0.3901	
+176	L	0.4471	
+177	K	0.4750	
+178	A	0.4862	
+179	Q	0.4808	
+180	Q	0.4765	
+181	G	0.4843	
+182	P	0.4934	
+183	S	0.5173	
+184	A	0.5581	
+185	Q	0.5947	
+186	G	0.6384	
+187	K	0.6791	
+188	P	0.7014	
+189	T	0.7073	
+190	Y	0.7006	
+191	F	0.6952	
+192	R	0.6887	
+193	E	0.6793	
+194	E	0.6750	
+195	E	0.6649	
+196	E	0.6654	
+197	E	0.6713	
+198	I	0.6919	
+199	H	0.7219	
+200	S	0.7619	
+201	P	0.8048	
+202	T	0.8473	
+203	L	0.8859	
+204	L	0.9177	
+205	P	0.9410	
+206	E	0.9559	
+207	A	0.9645	
+208	Q	0.9715	
+209	N	0.9847	

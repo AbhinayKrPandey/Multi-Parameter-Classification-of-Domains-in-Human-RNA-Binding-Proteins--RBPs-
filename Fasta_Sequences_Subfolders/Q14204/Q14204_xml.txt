@@ -1,0 +1,4738 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1997-11-01" modified="2024-10-02" version="229" xmlns="http://uniprot.org/uniprot">
+  <accession>Q14204</accession>
+  <accession>B0I1R0</accession>
+  <accession>Q6DKQ7</accession>
+  <accession>Q8WU28</accession>
+  <accession>Q92814</accession>
+  <accession>Q9Y4G5</accession>
+  <name>DYHC1_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName>Cytoplasmic dynein 1 heavy chain 1</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Cytoplasmic dynein heavy chain 1</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Dynein heavy chain, cytosolic</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="26" type="primary">DYNC1H1</name>
+    <name type="synonym">DHC1</name>
+    <name type="synonym">DNCH1</name>
+    <name type="synonym">DNCL</name>
+    <name type="synonym">DNECL</name>
+    <name type="synonym">DYHC</name>
+    <name type="synonym">KIAA0325</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1997" name="DNA Res." volume="4" first="141" last="150">
+      <title>Prediction of the coding sequences of unidentified human genes. VII. The complete sequences of 100 new cDNA clones from brain which can code for large proteins in vitro.</title>
+      <authorList>
+        <person name="Nagase T."/>
+        <person name="Ishikawa K."/>
+        <person name="Nakajima D."/>
+        <person name="Ohira M."/>
+        <person name="Seki N."/>
+        <person name="Miyajima N."/>
+        <person name="Tanaka A."/>
+        <person name="Kotani H."/>
+        <person name="Nomura N."/>
+        <person name="Ohara O."/>
+      </authorList>
+      <dbReference type="PubMed" id="9205841"/>
+      <dbReference type="DOI" id="10.1093/dnares/4.2.141"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <scope>VARIANT GLN-4029</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="submission" date="2005-08" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Ohara O."/>
+        <person name="Nagase T."/>
+        <person name="Kikuno R."/>
+        <person name="Yamakawa H."/>
+        <person name="Nomura N."/>
+      </authorList>
+    </citation>
+    <scope>SEQUENCE REVISION</scope>
+  </reference>
+  <reference key="3">
+    <citation type="submission" date="2007-01" db="EMBL/GenBank/DDBJ databases">
+      <title>Multiplex amplification and cloning of 5'-ends of cDNA by ligase-free recombination: preparation of full-length cDNA clones encoding motor proteins.</title>
+      <authorList>
+        <person name="Yamakawa H."/>
+        <person name="Kikuno R.F."/>
+        <person name="Nagase T."/>
+        <person name="Ohara O."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="submission" date="2004-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <consortium name="NIEHS SNPs program"/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+    <scope>VARIANTS ASN-3902 AND GLN-4029</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="1996" name="J. Cell Biol." volume="133" first="831" last="842">
+      <title>Mammalian cells express three distinct dynein heavy chains that are localized to different cytoplasmic organelles.</title>
+      <authorList>
+        <person name="Vaisberg E.A."/>
+        <person name="Grissom P.M."/>
+        <person name="McIntosh J.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="8666668"/>
+      <dbReference type="DOI" id="10.1083/jcb.133.4.831"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 1130-2026</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="1993" name="J. Cell Biol." volume="123" first="849" last="858">
+      <title>Cytoplasmic dynein plays a role in mammalian mitotic spindle formation.</title>
+      <authorList>
+        <person name="Vaisberg E.A."/>
+        <person name="Koonce M.P."/>
+        <person name="McIntosh J.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="8227145"/>
+      <dbReference type="DOI" id="10.1083/jcb.123.4.849"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 1884-2024</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 3658-4646</scope>
+    <source>
+      <tissue>Placenta</tissue>
+    </source>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2003" name="Nature" volume="426" first="570" last="574">
+      <title>Proteomic characterization of the human centrosome by protein correlation profiling.</title>
+      <authorList>
+        <person name="Andersen J.S."/>
+        <person name="Wilkinson C.J."/>
+        <person name="Mayor T."/>
+        <person name="Mortensen P."/>
+        <person name="Nigg E.A."/>
+        <person name="Mann M."/>
+      </authorList>
+      <dbReference type="PubMed" id="14654843"/>
+      <dbReference type="DOI" id="10.1038/nature02166"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <source>
+      <tissue>Lymphoblast</tissue>
+    </source>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2006" name="Cell" volume="127" first="635" last="648">
+      <title>Global, in vivo, and site-specific phosphorylation dynamics in signaling networks.</title>
+      <authorList>
+        <person name="Olsen J.V."/>
+        <person name="Blagoev B."/>
+        <person name="Gnad F."/>
+        <person name="Macek B."/>
+        <person name="Kumar C."/>
+        <person name="Mortensen P."/>
+        <person name="Mann M."/>
+      </authorList>
+      <dbReference type="PubMed" id="17081983"/>
+      <dbReference type="DOI" id="10.1016/j.cell.2006.09.026"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+    </source>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2008" name="Proc. Natl. Acad. Sci. U.S.A." volume="105" first="10762" last="10767">
+      <title>A quantitative atlas of mitotic phosphorylation.</title>
+      <authorList>
+        <person name="Dephoure N."/>
+        <person name="Zhou C."/>
+        <person name="Villen J."/>
+        <person name="Beausoleil S.A."/>
+        <person name="Bakalarski C.E."/>
+        <person name="Elledge S.J."/>
+        <person name="Gygi S.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="18669648"/>
+      <dbReference type="DOI" id="10.1073/pnas.0805139105"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-4368</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+    </source>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2009" name="Sci. Signal." volume="2" first="RA46" last="RA46">
+      <title>Quantitative phosphoproteomic analysis of T cell receptor signaling reveals system-wide modulation of protein-protein interactions.</title>
+      <authorList>
+        <person name="Mayya V."/>
+        <person name="Lundgren D.H."/>
+        <person name="Hwang S.-I."/>
+        <person name="Rezaul K."/>
+        <person name="Wu L."/>
+        <person name="Eng J.K."/>
+        <person name="Rodionov V."/>
+        <person name="Han D.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="19690332"/>
+      <dbReference type="DOI" id="10.1126/scisignal.2000007"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Leukemic T-cell</tissue>
+    </source>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2009" name="Science" volume="325" first="834" last="840">
+      <title>Lysine acetylation targets protein complexes and co-regulates major cellular functions.</title>
+      <authorList>
+        <person name="Choudhary C."/>
+        <person name="Kumar C."/>
+        <person name="Gnad F."/>
+        <person name="Nielsen M.L."/>
+        <person name="Rehman M."/>
+        <person name="Walther T.C."/>
+        <person name="Olsen J.V."/>
+        <person name="Mann M."/>
+      </authorList>
+      <dbReference type="PubMed" id="19608861"/>
+      <dbReference type="DOI" id="10.1126/science.1175371"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-1125; LYS-3480 AND LYS-4283</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2010" name="Sci. Signal." volume="3" first="RA3" last="RA3">
+      <title>Quantitative phosphoproteomics reveals widespread full phosphorylation site occupancy during mitosis.</title>
+      <authorList>
+        <person name="Olsen J.V."/>
+        <person name="Vermeulen M."/>
+        <person name="Santamaria A."/>
+        <person name="Kumar C."/>
+        <person name="Miller M.L."/>
+        <person name="Jensen L.J."/>
+        <person name="Gnad F."/>
+        <person name="Cox J."/>
+        <person name="Jensen T.S."/>
+        <person name="Nigg E.A."/>
+        <person name="Brunak S."/>
+        <person name="Mann M."/>
+      </authorList>
+      <dbReference type="PubMed" id="20068231"/>
+      <dbReference type="DOI" id="10.1126/scisignal.2000475"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+    </source>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2012" name="Mol. Cell. Proteomics" volume="11" first="M111.015131" last="M111.015131">
+      <title>Comparative large-scale characterisation of plant vs. mammal proteins reveals similar and idiosyncratic N-alpha acetylation features.</title>
+      <authorList>
+        <person name="Bienvenut W.V."/>
+        <person name="Sumpton D."/>
+        <person name="Martinez A."/>
+        <person name="Lilla S."/>
+        <person name="Espagne C."/>
+        <person name="Meinnel T."/>
+        <person name="Giglione C."/>
+      </authorList>
+      <dbReference type="PubMed" id="22223895"/>
+      <dbReference type="DOI" id="10.1074/mcp.m111.015131"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT SER-2</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="2013" name="J. Proteome Res." volume="12" first="260" last="271">
+      <title>Toward a comprehensive characterization of a human cancer cell phosphoproteome.</title>
+      <authorList>
+        <person name="Zhou H."/>
+        <person name="Di Palma S."/>
+        <person name="Preisinger C."/>
+        <person name="Peng M."/>
+        <person name="Polat A.N."/>
+        <person name="Heck A.J."/>
+        <person name="Mohammed S."/>
+      </authorList>
+      <dbReference type="PubMed" id="23186163"/>
+      <dbReference type="DOI" id="10.1021/pr300630k"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-70; SER-4162; THR-4366 AND SER-4368</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+      <tissue>Erythroleukemia</tissue>
+    </source>
+  </reference>
+  <reference key="17">
+    <citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+      <title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+      <authorList>
+        <person name="Bian Y."/>
+        <person name="Song C."/>
+        <person name="Cheng K."/>
+        <person name="Dong M."/>
+        <person name="Wang F."/>
+        <person name="Huang J."/>
+        <person name="Sun D."/>
+        <person name="Wang L."/>
+        <person name="Ye M."/>
+        <person name="Zou H."/>
+      </authorList>
+      <dbReference type="PubMed" id="24275569"/>
+      <dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Liver</tissue>
+    </source>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="2015" name="Proteomics" volume="15" first="2519" last="2524">
+      <title>N-terminome analysis of the human mitochondrial proteome.</title>
+      <authorList>
+        <person name="Vaca Jacome A.S."/>
+        <person name="Rabilloud T."/>
+        <person name="Schaeffer-Reiss C."/>
+        <person name="Rompais M."/>
+        <person name="Ayoub D."/>
+        <person name="Lane L."/>
+        <person name="Bairoch A."/>
+        <person name="Van Dorsselaer A."/>
+        <person name="Carapito C."/>
+      </authorList>
+      <dbReference type="PubMed" id="25944712"/>
+      <dbReference type="DOI" id="10.1002/pmic.201400617"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="19">
+    <citation type="journal article" date="2016" name="J. Biol. Chem." volume="291" first="20055" last="20067">
+      <title>Nuclear mitotic apparatus (NuMA) interacts with and regulates astrin at the mitotic spindle.</title>
+      <authorList>
+        <person name="Chu X."/>
+        <person name="Chen X."/>
+        <person name="Wan Q."/>
+        <person name="Zheng Z."/>
+        <person name="Du Q."/>
+      </authorList>
+      <dbReference type="PubMed" id="27462074"/>
+      <dbReference type="DOI" id="10.1074/jbc.m116.724831"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="20">
+    <citation type="journal article" date="2019" name="J. Cell Biol." volume="218" first="2232" last="2246">
+      <title>Rab46 integrates Ca2+ and histamine signaling to regulate selective cargo release from Weibel-Palade bodies.</title>
+      <authorList>
+        <person name="Miteva K.T."/>
+        <person name="Pedicini L."/>
+        <person name="Wilson L.A."/>
+        <person name="Jayasinghe I."/>
+        <person name="Slip R.G."/>
+        <person name="Marszalek K."/>
+        <person name="Gaunt H.J."/>
+        <person name="Bartoli F."/>
+        <person name="Deivasigamani S."/>
+        <person name="Sobradillo D."/>
+        <person name="Beech D.J."/>
+        <person name="McKeown L."/>
+      </authorList>
+      <dbReference type="PubMed" id="31092558"/>
+      <dbReference type="DOI" id="10.1083/jcb.201810118"/>
+    </citation>
+    <scope>INTERACTION WITH CRACR2A</scope>
+  </reference>
+  <reference evidence="27 28 29 30 31 32 33" key="21">
+    <citation type="journal article" date="2018" name="Nature" volume="554" first="202" last="206">
+      <title>Cryo-EM shows how dynactin recruits two dyneins for faster movement.</title>
+      <authorList>
+        <person name="Urnavicius L."/>
+        <person name="Lau C.K."/>
+        <person name="Elshenawy M.M."/>
+        <person name="Morales-Rios E."/>
+        <person name="Motz C."/>
+        <person name="Yildiz A."/>
+        <person name="Carter A.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="29420470"/>
+      <dbReference type="DOI" id="10.1038/nature25462"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.79 ANGSTROMS) OF 1-201</scope>
+    <scope>SUBUNIT</scope>
+  </reference>
+  <reference evidence="34 35 36 37 38 39 40" key="22">
+    <citation type="journal article" date="2022" name="Nature" volume="610" first="212" last="216">
+      <title>Structure of dynein-dynactin on microtubules shows tandem adaptor binding.</title>
+      <authorList>
+        <person name="Chaaban S."/>
+        <person name="Carter A.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="36071160"/>
+      <dbReference type="DOI" id="10.1038/s41586-022-05186-y"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (3.30 ANGSTROMS)</scope>
+    <scope>SUBUNIT</scope>
+  </reference>
+  <reference key="23">
+    <citation type="journal article" date="2010" name="Nat. Genet." volume="42" first="1109" last="1112">
+      <title>A de novo paradigm for mental retardation.</title>
+      <authorList>
+        <person name="Vissers L.E."/>
+        <person name="de Ligt J."/>
+        <person name="Gilissen C."/>
+        <person name="Janssen I."/>
+        <person name="Steehouwer M."/>
+        <person name="de Vries P."/>
+        <person name="van Lier B."/>
+        <person name="Arts P."/>
+        <person name="Wieskamp N."/>
+        <person name="del Rosario M."/>
+        <person name="van Bon B.W."/>
+        <person name="Hoischen A."/>
+        <person name="de Vries B.B."/>
+        <person name="Brunner H.G."/>
+        <person name="Veltman J.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="21076407"/>
+      <dbReference type="DOI" id="10.1038/ng.712"/>
+    </citation>
+    <scope>VARIANT CDCBM13 PRO-3822</scope>
+  </reference>
+  <reference key="24">
+    <citation type="journal article" date="2011" name="Am. J. Hum. Genet." volume="89" first="308" last="312">
+      <title>Exome sequencing identifies a DYNC1H1 mutation in a large pedigree with dominant axonal Charcot-Marie-Tooth disease.</title>
+      <authorList>
+        <person name="Weedon M.N."/>
+        <person name="Hastings R."/>
+        <person name="Caswell R."/>
+        <person name="Xie W."/>
+        <person name="Paszkiewicz K."/>
+        <person name="Antoniadi T."/>
+        <person name="Williams M."/>
+        <person name="King C."/>
+        <person name="Greenhalgh L."/>
+        <person name="Newbury-Ecob R."/>
+        <person name="Ellard S."/>
+      </authorList>
+      <dbReference type="PubMed" id="21820100"/>
+      <dbReference type="DOI" id="10.1016/j.ajhg.2011.07.002"/>
+    </citation>
+    <scope>VARIANT CMT2O ARG-306</scope>
+  </reference>
+  <reference key="25">
+    <citation type="journal article" date="2012" name="J. Med. Genet." volume="49" first="179" last="183">
+      <title>Mutations in DYNC1H1 cause severe intellectual disability with neuronal migration defects.</title>
+      <authorList>
+        <person name="Willemsen M.H."/>
+        <person name="Vissers L.E."/>
+        <person name="Willemsen M.A."/>
+        <person name="van Bon B.W."/>
+        <person name="Kroes T."/>
+        <person name="de Ligt J."/>
+        <person name="de Vries B.B."/>
+        <person name="Schoots J."/>
+        <person name="Lugtenberg D."/>
+        <person name="Hamel B.C."/>
+        <person name="van Bokhoven H."/>
+        <person name="Brunner H.G."/>
+        <person name="Veltman J.A."/>
+        <person name="Kleefstra T."/>
+      </authorList>
+      <dbReference type="PubMed" id="22368300"/>
+      <dbReference type="DOI" id="10.1136/jmedgenet-2011-100542"/>
+    </citation>
+    <scope>VARIANT CDCBM13 LYS-1518</scope>
+  </reference>
+  <reference key="26">
+    <citation type="journal article" date="2012" name="Neurogenetics" volume="13" first="327" last="332">
+      <title>A DYNC1H1 mutation causes a dominant spinal muscular atrophy with lower extremity predominance.</title>
+      <authorList>
+        <person name="Tsurusaki Y."/>
+        <person name="Saitoh S."/>
+        <person name="Tomizawa K."/>
+        <person name="Sudo A."/>
+        <person name="Asahina N."/>
+        <person name="Shiraishi H."/>
+        <person name="Ito J.I."/>
+        <person name="Tanaka H."/>
+        <person name="Doi H."/>
+        <person name="Saitsu H."/>
+        <person name="Miyake N."/>
+        <person name="Matsumoto N."/>
+      </authorList>
+      <dbReference type="PubMed" id="22847149"/>
+      <dbReference type="DOI" id="10.1007/s10048-012-0337-6"/>
+    </citation>
+    <scope>VARIANT SMALED1 ARG-306</scope>
+  </reference>
+  <reference key="27">
+    <citation type="journal article" date="2012" name="Neurology" volume="78" first="1714" last="1720">
+      <title>Mutations in the tail domain of DYNC1H1 cause dominant spinal muscular atrophy.</title>
+      <authorList>
+        <person name="Harms M.B."/>
+        <person name="Ori-McKenney K.M."/>
+        <person name="Scoto M."/>
+        <person name="Tuck E.P."/>
+        <person name="Bell S."/>
+        <person name="Ma D."/>
+        <person name="Masi S."/>
+        <person name="Allred P."/>
+        <person name="Al-Lozi M."/>
+        <person name="Reilly M.M."/>
+        <person name="Miller L.J."/>
+        <person name="Jani-Acsadi A."/>
+        <person name="Pestronk A."/>
+        <person name="Shy M.E."/>
+        <person name="Muntoni F."/>
+        <person name="Vallee R.B."/>
+        <person name="Baloh R.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="22459677"/>
+      <dbReference type="DOI" id="10.1212/wnl.0b013e3182556c05"/>
+    </citation>
+    <scope>VARIANTS SMALED1 LEU-584; GLU-671 AND CYS-970</scope>
+    <scope>CHARACTERIZATION OF VARIANT SMALED1 LEU-584</scope>
+  </reference>
+  <reference key="28">
+    <citation type="journal article" date="2012" name="N. Engl. J. Med." volume="367" first="1921" last="1929">
+      <title>Diagnostic exome sequencing in persons with severe intellectual disability.</title>
+      <authorList>
+        <person name="de Ligt J."/>
+        <person name="Willemsen M.H."/>
+        <person name="van Bon B.W."/>
+        <person name="Kleefstra T."/>
+        <person name="Yntema H.G."/>
+        <person name="Kroes T."/>
+        <person name="Vulto-van Silfhout A.T."/>
+        <person name="Koolen D.A."/>
+        <person name="de Vries P."/>
+        <person name="Gilissen C."/>
+        <person name="del Rosario M."/>
+        <person name="Hoischen A."/>
+        <person name="Scheffer H."/>
+        <person name="de Vries B.B."/>
+        <person name="Brunner H.G."/>
+        <person name="Veltman J.A."/>
+        <person name="Vissers L.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="23033978"/>
+      <dbReference type="DOI" id="10.1056/nejmoa1206524"/>
+    </citation>
+    <scope>VARIANT CDCBM13 LYS-1518</scope>
+    <scope>VARIANTS ALA-142; LEU-1250; MET-2247; CYS-4143; SER-4285; THR-4421; SER-4507 AND GLY-4603</scope>
+  </reference>
+  <reference key="29">
+    <citation type="journal article" date="2013" name="Nat. Genet." volume="45" first="639" last="647">
+      <title>Mutations in TUBG1, DYNC1H1, KIF5C and KIF2A cause malformations of cortical development and microcephaly.</title>
+      <authorList>
+        <person name="Poirier K."/>
+        <person name="Lebrun N."/>
+        <person name="Broix L."/>
+        <person name="Tian G."/>
+        <person name="Saillour Y."/>
+        <person name="Boscheron C."/>
+        <person name="Parrini E."/>
+        <person name="Valence S."/>
+        <person name="Pierre B.S."/>
+        <person name="Oger M."/>
+        <person name="Lacombe D."/>
+        <person name="Genevieve D."/>
+        <person name="Fontana E."/>
+        <person name="Darra F."/>
+        <person name="Cances C."/>
+        <person name="Barth M."/>
+        <person name="Bonneau D."/>
+        <person name="Bernadina B.D."/>
+        <person name="N'guyen S."/>
+        <person name="Gitiaux C."/>
+        <person name="Parent P."/>
+        <person name="des Portes V."/>
+        <person name="Pedespan J.M."/>
+        <person name="Legrez V."/>
+        <person name="Castelnau-Ptakine L."/>
+        <person name="Nitschke P."/>
+        <person name="Hieu T."/>
+        <person name="Masson C."/>
+        <person name="Zelenika D."/>
+        <person name="Andrieux A."/>
+        <person name="Francis F."/>
+        <person name="Guerrini R."/>
+        <person name="Cowan N.J."/>
+        <person name="Bahi-Buisson N."/>
+        <person name="Chelly J."/>
+      </authorList>
+      <dbReference type="PubMed" id="23603762"/>
+      <dbReference type="DOI" id="10.1038/ng.2613"/>
+    </citation>
+    <scope>VARIANTS CDCBM13 ILE-129; 659-THR--MET-662 DEL; GLN-1567; CYS-1962; THR-3241; ASN-3336; GLN-3344 AND GLN-3384</scope>
+    <scope>CHARACTERIZATION OF VARIANTS CDCBM13 ASN-3336 AND GLN-3384</scope>
+  </reference>
+  <reference key="30">
+    <citation type="journal article" date="2015" name="Hum. Mutat." volume="36" first="287" last="291">
+      <title>Novel mutations in the DYNC1H1 tail domain refine the genetic and clinical spectrum of dyneinopathies.</title>
+      <authorList>
+        <person name="Peeters K."/>
+        <person name="Bervoets S."/>
+        <person name="Chamova T."/>
+        <person name="Litvinenko I."/>
+        <person name="De Vriendt E."/>
+        <person name="Bichev S."/>
+        <person name="Kancheva D."/>
+        <person name="Mitev V."/>
+        <person name="Kennerson M."/>
+        <person name="Timmerman V."/>
+        <person name="De Jonghe P."/>
+        <person name="Tournev I."/>
+        <person name="MacMillan J."/>
+        <person name="Jordanova A."/>
+      </authorList>
+      <dbReference type="PubMed" id="25512093"/>
+      <dbReference type="DOI" id="10.1002/humu.22744"/>
+    </citation>
+    <scope>VARIANT LYS-94</scope>
+    <scope>VARIANT SMALED1 LEU-264</scope>
+    <scope>VARIANT CMT2O CYS-598</scope>
+    <scope>CHARACTERIZATION OF VARIANT SMALED1 LEU-264</scope>
+    <scope>CHARACTERIZATION OF VARIANT CMT2O CYS-598</scope>
+    <scope>INTERACTION WITH BICD2</scope>
+  </reference>
+  <reference key="31">
+    <citation type="journal article" date="2014" name="Hum. Mutat." volume="35" first="298" last="302">
+      <title>Novel dynein DYNC1H1 neck and motor domain mutations link distal spinal muscular atrophy and abnormal cortical development.</title>
+      <authorList>
+        <person name="Fiorillo C."/>
+        <person name="Moro F."/>
+        <person name="Yi J."/>
+        <person name="Weil S."/>
+        <person name="Brisca G."/>
+        <person name="Astrea G."/>
+        <person name="Severino M."/>
+        <person name="Romano A."/>
+        <person name="Battini R."/>
+        <person name="Rossi A."/>
+        <person name="Minetti C."/>
+        <person name="Bruno C."/>
+        <person name="Santorelli F.M."/>
+        <person name="Vallee R."/>
+      </authorList>
+      <dbReference type="PubMed" id="24307404"/>
+      <dbReference type="DOI" id="10.1002/humu.22491"/>
+    </citation>
+    <scope>VARIANTS CMT2O ARG-1194 AND LYS-3048</scope>
+    <scope>CHARACTERIZATION OF VARIANTS CMT2O ARG-1194 AND LYS-3048</scope>
+  </reference>
+  <reference key="32">
+    <citation type="journal article" date="2015" name="Pediatr. Neurol." volume="52" first="239" last="244">
+      <title>Exome Sequencing Identifies DYNC1H1 Variant Associated With Vertebral Abnormality and Spinal Muscular Atrophy With Lower Extremity Predominance.</title>
+      <authorList>
+        <person name="Punetha J."/>
+        <person name="Monges S."/>
+        <person name="Franchi M.E."/>
+        <person name="Hoffman E.P."/>
+        <person name="Cirak S."/>
+        <person name="Tesi-Rocha C."/>
+      </authorList>
+      <dbReference type="PubMed" id="25484024"/>
+      <dbReference type="DOI" id="10.1016/j.pediatrneurol.2014.09.003"/>
+    </citation>
+    <scope>VARIANT SMALED1 CYS-598</scope>
+  </reference>
+  <reference key="33">
+    <citation type="journal article" date="2016" name="Sci. Rep." volume="6" first="20423" last="20423">
+      <title>Identification of a de novo DYNC1H1 mutation via WES according to published guidelines.</title>
+      <authorList>
+        <person name="Ding D."/>
+        <person name="Chen Z."/>
+        <person name="Li K."/>
+        <person name="Long Z."/>
+        <person name="Ye W."/>
+        <person name="Tang Z."/>
+        <person name="Xia K."/>
+        <person name="Qiu R."/>
+        <person name="Tang B."/>
+        <person name="Jiang H."/>
+      </authorList>
+      <dbReference type="PubMed" id="26846447"/>
+      <dbReference type="DOI" id="10.1038/srep20423"/>
+    </citation>
+    <scope>VARIANT SMALED1 LEU-776</scope>
+  </reference>
+  <reference key="34">
+    <citation type="journal article" date="2017" name="J. Child Neurol." volume="32" first="379" last="386">
+      <title>Exome Sequencing Identifies De Novo DYNC1H1 Mutations Associated With Distal Spinal Muscular Atrophy and Malformations of Cortical Development.</title>
+      <authorList>
+        <person name="Chen Y."/>
+        <person name="Xu Y."/>
+        <person name="Li G."/>
+        <person name="Li N."/>
+        <person name="Yu T."/>
+        <person name="Yao R.E."/>
+        <person name="Wang X."/>
+        <person name="Shen Y."/>
+        <person name="Wang J."/>
+      </authorList>
+      <dbReference type="PubMed" id="28193117"/>
+      <dbReference type="DOI" id="10.1177/0883073816683083"/>
+    </citation>
+    <scope>VARIANT SMALED1 GLU-1132</scope>
+    <scope>VARIANT CDCBM13 GLN-3384</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="17">Cytoplasmic dynein 1 acts as a motor for the intracellular retrograde motility of vesicles and organelles along microtubules. Dynein has ATPase activity; the force-producing power stroke is thought to occur on release of ADP. Plays a role in mitotic spindle assembly and metaphase plate congression (PubMed:27462074).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="2 3 15 19 20 21">Homodimer. The cytoplasmic dynein 1 complex consists of two catalytic heavy chains (HCs) and a number of non-catalytic subunits presented by intermediate chains (ICs), light intermediate chains (LICs) and light chains (LCs); the composition seems to vary in respect to the IC, LIC and LC composition. The heavy chain homodimer serves as a scaffold for the probable homodimeric assembly of the respective non-catalytic subunits. The ICs and LICs bind directly to the HC dimer and dynein LCs assemble on the IC dimer (PubMed:29420470, PubMed:36071160). Interacts with DYNC1LI1; DYNC1LI1 and DYNC1LI2 bind mutually exclusive to DYNC1H1. Interacts with DYNC1LI2; DYNC1LI1 and DYNC1LI2 bind mutually exclusive to DYNC1H1. Interacts with DYNC1I2 (By similarity). Interacts with BICD2 (PubMed:25512093). Interacts with isoform 2 of CRACR2A (PubMed:31092558). Interacts with DNALI1 (By similarity).</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-941975">
+      <id>Q01484</id>
+      <label>ANK2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-2875816">
+      <id>Q9NP61</id>
+      <label>ARFGAP3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-12092171">
+      <id>Q12797-6</id>
+      <label>ASPH</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-12811889">
+      <id>Q9Y6H3</id>
+      <label>ATP23</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-747185">
+      <id>O95817</id>
+      <label>BAG3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-745073">
+      <id>Q9BXY8</id>
+      <label>BEX2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-21557060">
+      <id>Q7L1Q6-2</id>
+      <label>BZW1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-11039720">
+      <id>P49336-2</id>
+      <label>CDK8</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-351218">
+      <id>Q9Y281</id>
+      <label>CFL2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-10260134">
+      <id>Q86WV2</id>
+      <label>COX4I1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-1965681">
+      <id>P26998</id>
+      <label>CRYBB3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-6189940">
+      <id>P09668</id>
+      <label>CTSH</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-3924013">
+      <id>Q9BTE7</id>
+      <label>DCUN1D5</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-529989">
+      <id>Q9NRI5</id>
+      <label>DISC1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-3443946">
+      <id>Q9Y6W6</id>
+      <label>DUSP10</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-4401110">
+      <id>Q13144</id>
+      <label>EIF2B5</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-11337888">
+      <id>Q7L5A8</id>
+      <label>FA2H</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-448167">
+      <id>P24522</id>
+      <label>GADD45A</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-947774">
+      <id>O75420</id>
+      <label>GIGYF1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-25844370">
+      <id>B2RAF7</id>
+      <label>hCG_1818547</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-466029">
+      <id>P42858</id>
+      <label>HTT</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>8</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-17178971">
+      <id>Q14005-2</id>
+      <label>IL16</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-9088829">
+      <id>Q6DKI2</id>
+      <label>LGALS9C</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-476263">
+      <id>Q99683</id>
+      <label>MAP3K5</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-298304">
+      <id>Q15759</id>
+      <label>MAPK11</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-10279647">
+      <id>Q92886</id>
+      <label>NEUROG1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-25844111">
+      <id>P20783-2</id>
+      <label>NTF3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-9087860">
+      <id>P32243-2</id>
+      <label>OTX2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-9091052">
+      <id>Q6P4D5-2</id>
+      <label>PABIR3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-395189">
+      <id>P19388</id>
+      <label>POLR2E</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-10700351">
+      <id>O60237-2</id>
+      <label>PPP1R12B</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-2860740">
+      <id>Q96QH2</id>
+      <label>PRAM1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-2010251">
+      <id>P49810</id>
+      <label>PSEN2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-12275482">
+      <id>Q96DX8</id>
+      <label>RTP4</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-712405">
+      <id>P48443</id>
+      <label>RXRG</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-25837959">
+      <id>Q9BY12-3</id>
+      <label>SCAPER</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-750105">
+      <id>Q5T0L3</id>
+      <label>SPATA46</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-11123832">
+      <id>O60506-4</id>
+      <label>SYNCRIP</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-954089">
+      <id>O15273</id>
+      <label>TCAP</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-12090309">
+      <id>Q9BXU0</id>
+      <label>TEX12</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-2372529">
+      <id>O60830</id>
+      <label>TIMM17B</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-25839648">
+      <id>Q8IU80-2</id>
+      <label>TMPRSS6</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-9089156">
+      <id>Q8IUR5-4</id>
+      <label>TMTC1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-10316321">
+      <id>Q9NX94</id>
+      <label>WBP1L</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-540834">
+      <id>P61964</id>
+      <label>WDR5</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-743923">
+      <id>O00308</id>
+      <label>WWP2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-347088">
+      <id>P63104</id>
+      <label>YWHAZ</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-25830993">
+      <id>Q96EF9</id>
+      <label>ZHX1-C8orf76</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-356015">
+      <id>Q14204</id>
+    </interactant>
+    <interactant intactId="EBI-750454">
+      <id>Q96EJ4</id>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="25">Cytoplasm</location>
+      <location evidence="25">Cytoskeleton</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="domain">
+    <text>Dynein heavy chains probably consist of an N-terminal stem (which binds cargo and interacts with other dynein components), and the head or motor domain. The motor contains six tandemly-linked AAA domains in the head, which form a ring. A stalk-like structure (formed by two of the coiled coil domains) protrudes between AAA 4 and AAA 5 and terminates in a microtubule-binding site. A seventh domain may also contribute to this ring; it is not clear whether the N-terminus or the C-terminus forms this extra domain. There are four well-conserved and two non-conserved ATPase sites, one per AAA domain. Probably only one of these (within AAA 1) actually hydrolyzes ATP, the others may serve a regulatory function.</text>
+  </comment>
+  <comment type="disease" evidence="7 13 15">
+    <disease id="DI-03264">
+      <name>Charcot-Marie-Tooth disease, axonal, 2O</name>
+      <acronym>CMT2O</acronym>
+      <description>An axonal form of Charcot-Marie-Tooth disease, a disorder of the peripheral nervous system, characterized by progressive weakness and atrophy, initially of the peroneal muscles and later of the distal muscles of the arms. Charcot-Marie-Tooth disease is classified in two main groups on the basis of electrophysiologic properties and histopathology: primary peripheral demyelinating neuropathies (designated CMT1 when they are dominantly inherited) and primary peripheral axonal neuropathies (CMT2). Neuropathies of the CMT2 group are characterized by signs of axonal degeneration in the absence of obvious myelin alterations, normal or slightly reduced nerve conduction velocities, and progressive distal muscle weakness and atrophy.</description>
+      <dbReference type="MIM" id="614228"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="disease" evidence="6 8 11 12 18">
+    <disease id="DI-03425">
+      <name>Cortical dysplasia, complex, with other brain malformations 13</name>
+      <acronym>CDCBM13</acronym>
+      <description>An autosomal dominant disorder characterized by global developmental delay with impaired intellectual development. Some patients show signs of peripheral neuropathy, such as abnormal gait and hyporeflexia. CDCBM13 is associated with variable neuronal migration defects resulting in cortical malformations.</description>
+      <dbReference type="MIM" id="614563"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="disease" evidence="9 10 14 15 16 18">
+    <disease id="DI-03433">
+      <name>Spinal muscular atrophy, lower extremity-predominant 1, autosomal dominant</name>
+      <acronym>SMALED1</acronym>
+      <description>A form of spinal muscular atrophy, a neuromuscular disorder characterized by degeneration of the anterior horn cells of the spinal cord, leading to symmetrical muscle weakness and atrophy. SMALED1 is characterized by muscle weakness predominantly affecting the proximal lower extremities.</description>
+      <dbReference type="MIM" id="158600"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="24">Belongs to the dynein heavy chain family.</text>
+  </comment>
+  <comment type="sequence caution" evidence="24">
+    <conflict type="erroneous initiation">
+      <sequence resource="EMBL-CDS" id="BAA20783" version="3"/>
+    </conflict>
+    <text>Extended N-terminus.</text>
+  </comment>
+  <dbReference type="EMBL" id="AB002323">
+    <property type="protein sequence ID" value="BAA20783.3"/>
+    <property type="status" value="ALT_INIT"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB290157">
+    <property type="protein sequence ID" value="BAG06711.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AY682080">
+    <property type="protein sequence ID" value="AAT74625.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="U53530">
+    <property type="protein sequence ID" value="AAB09727.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="L23958">
+    <property type="protein sequence ID" value="AAA16065.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC021297">
+    <property type="protein sequence ID" value="AAH21297.2"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS9966.1"/>
+  <dbReference type="PIR" id="A49019">
+    <property type="entry name" value="A49019"/>
+  </dbReference>
+  <dbReference type="PIR" id="G02529">
+    <property type="entry name" value="G02529"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001367.2">
+    <property type="nucleotide sequence ID" value="NM_001376.4"/>
+  </dbReference>
+  <dbReference type="PDB" id="5NUG">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.80 A"/>
+    <property type="chains" value="A/B=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="5OWO">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.79 A"/>
+    <property type="chains" value="A/B/C/D=1-201"/>
+  </dbReference>
+  <dbReference type="PDB" id="6F1T">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.50 A"/>
+    <property type="chains" value="e/f/m/n=1-1053"/>
+  </dbReference>
+  <dbReference type="PDB" id="6F1U">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.40 A"/>
+    <property type="chains" value="f/m/n=1-1186"/>
+  </dbReference>
+  <dbReference type="PDB" id="6F1V">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.40 A"/>
+    <property type="chains" value="f/m=1-1186"/>
+  </dbReference>
+  <dbReference type="PDB" id="6F1Y">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.40 A"/>
+    <property type="chains" value="f=780-927"/>
+  </dbReference>
+  <dbReference type="PDB" id="6F38">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="6.70 A"/>
+    <property type="chains" value="e/f/m/n=1-1455"/>
+  </dbReference>
+  <dbReference type="PDB" id="6F3A">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="8.20 A"/>
+    <property type="chains" value="e/f=1-1455"/>
+  </dbReference>
+  <dbReference type="PDB" id="7Z8F">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="20.00 A"/>
+    <property type="chains" value="e/f/m/n=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="7Z8G">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.52 A"/>
+    <property type="chains" value="A=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="7Z8H">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.41 A"/>
+    <property type="chains" value="A=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="7Z8I">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.30 A"/>
+    <property type="chains" value="f/m/n=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="7Z8J">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.93 A"/>
+    <property type="chains" value="f/m/n=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="7Z8K">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="4.37 A"/>
+    <property type="chains" value="e/f=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="7Z8L">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="4.90 A"/>
+    <property type="chains" value="f=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8DYU">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="4.00 A"/>
+    <property type="chains" value="A=1320-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8DYV">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.97 A"/>
+    <property type="chains" value="A=1320-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8FCY">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.40 A"/>
+    <property type="chains" value="A=1458-3277, A=3412-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8FD6">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.90 A"/>
+    <property type="chains" value="A=1458-3277, A=3412-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8FDT">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.20 A"/>
+    <property type="chains" value="A=1458-3277, A=3412-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8FDU">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.30 A"/>
+    <property type="chains" value="A=1458-3277, A=3412-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PQV">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="4.00 A"/>
+    <property type="chains" value="A=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PQW">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="4.20 A"/>
+    <property type="chains" value="A=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PQY">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.80 A"/>
+    <property type="chains" value="A=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PQZ">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="5.50 A"/>
+    <property type="chains" value="A/J=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PR0">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="9.40 A"/>
+    <property type="chains" value="A/B=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PR1">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="8.20 A"/>
+    <property type="chains" value="A/G=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PR2">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.80 A"/>
+    <property type="chains" value="f/m=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PR3">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.90 A"/>
+    <property type="chains" value="f/m=1-4646"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PTK">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="10.00 A"/>
+    <property type="chains" value="e/f/m/n=1-4646"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5NUG"/>
+  <dbReference type="PDBsum" id="5OWO"/>
+  <dbReference type="PDBsum" id="6F1T"/>
+  <dbReference type="PDBsum" id="6F1U"/>
+  <dbReference type="PDBsum" id="6F1V"/>
+  <dbReference type="PDBsum" id="6F1Y"/>
+  <dbReference type="PDBsum" id="6F38"/>
+  <dbReference type="PDBsum" id="6F3A"/>
+  <dbReference type="PDBsum" id="7Z8F"/>
+  <dbReference type="PDBsum" id="7Z8G"/>
+  <dbReference type="PDBsum" id="7Z8H"/>
+  <dbReference type="PDBsum" id="7Z8I"/>
+  <dbReference type="PDBsum" id="7Z8J"/>
+  <dbReference type="PDBsum" id="7Z8K"/>
+  <dbReference type="PDBsum" id="7Z8L"/>
+  <dbReference type="PDBsum" id="8DYU"/>
+  <dbReference type="PDBsum" id="8DYV"/>
+  <dbReference type="PDBsum" id="8FCY"/>
+  <dbReference type="PDBsum" id="8FD6"/>
+  <dbReference type="PDBsum" id="8FDT"/>
+  <dbReference type="PDBsum" id="8FDU"/>
+  <dbReference type="PDBsum" id="8PQV"/>
+  <dbReference type="PDBsum" id="8PQW"/>
+  <dbReference type="PDBsum" id="8PQY"/>
+  <dbReference type="PDBsum" id="8PQZ"/>
+  <dbReference type="PDBsum" id="8PR0"/>
+  <dbReference type="PDBsum" id="8PR1"/>
+  <dbReference type="PDBsum" id="8PR2"/>
+  <dbReference type="PDBsum" id="8PR3"/>
+  <dbReference type="PDBsum" id="8PTK"/>
+  <dbReference type="BMRB" id="Q14204"/>
+  <dbReference type="EMDB" id="EMD-14549"/>
+  <dbReference type="EMDB" id="EMD-14550"/>
+  <dbReference type="EMDB" id="EMD-14551"/>
+  <dbReference type="EMDB" id="EMD-14552"/>
+  <dbReference type="EMDB" id="EMD-14553"/>
+  <dbReference type="EMDB" id="EMD-14555"/>
+  <dbReference type="EMDB" id="EMD-14556"/>
+  <dbReference type="EMDB" id="EMD-17825"/>
+  <dbReference type="EMDB" id="EMD-17826"/>
+  <dbReference type="EMDB" id="EMD-17828"/>
+  <dbReference type="EMDB" id="EMD-17829"/>
+  <dbReference type="EMDB" id="EMD-17830"/>
+  <dbReference type="EMDB" id="EMD-17831"/>
+  <dbReference type="EMDB" id="EMD-17832"/>
+  <dbReference type="EMDB" id="EMD-17833"/>
+  <dbReference type="EMDB" id="EMD-17873"/>
+  <dbReference type="EMDB" id="EMD-27782"/>
+  <dbReference type="EMDB" id="EMD-27783"/>
+  <dbReference type="EMDB" id="EMD-28999"/>
+  <dbReference type="EMDB" id="EMD-29003"/>
+  <dbReference type="EMDB" id="EMD-29012"/>
+  <dbReference type="EMDB" id="EMD-29014"/>
+  <dbReference type="EMDB" id="EMD-3698"/>
+  <dbReference type="EMDB" id="EMD-4168"/>
+  <dbReference type="EMDB" id="EMD-4169"/>
+  <dbReference type="EMDB" id="EMD-4170"/>
+  <dbReference type="EMDB" id="EMD-4171"/>
+  <dbReference type="EMDB" id="EMD-4177"/>
+  <dbReference type="SMR" id="Q14204"/>
+  <dbReference type="BioGRID" id="108117">
+    <property type="interactions" value="501"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-5025">
+    <property type="entry name" value="Cytoplasmic dynein complex, variant 1"/>
+  </dbReference>
+  <dbReference type="CORUM" id="Q14204"/>
+  <dbReference type="DIP" id="DIP-37544N"/>
+  <dbReference type="IntAct" id="Q14204">
+    <property type="interactions" value="226"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q14204"/>
+  <dbReference type="STRING" id="9606.ENSP00000348965"/>
+  <dbReference type="CarbonylDB" id="Q14204"/>
+  <dbReference type="GlyCosmos" id="Q14204">
+    <property type="glycosylation" value="5 sites, 2 glycans"/>
+  </dbReference>
+  <dbReference type="GlyGen" id="Q14204">
+    <property type="glycosylation" value="6 sites, 2 O-linked glycans (6 sites)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="Q14204"/>
+  <dbReference type="MetOSite" id="Q14204"/>
+  <dbReference type="PhosphoSitePlus" id="Q14204"/>
+  <dbReference type="SwissPalm" id="Q14204"/>
+  <dbReference type="BioMuta" id="DYNC1H1"/>
+  <dbReference type="DMDM" id="57015308"/>
+  <dbReference type="jPOST" id="Q14204"/>
+  <dbReference type="MassIVE" id="Q14204"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000348965"/>
+  <dbReference type="PeptideAtlas" id="Q14204"/>
+  <dbReference type="PRIDE" id="Q14204"/>
+  <dbReference type="ProteomicsDB" id="59927"/>
+  <dbReference type="Pumba" id="Q14204"/>
+  <dbReference type="Antibodypedia" id="122">
+    <property type="antibodies" value="170 antibodies from 29 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="1778"/>
+  <dbReference type="Ensembl" id="ENST00000360184.10">
+    <property type="protein sequence ID" value="ENSP00000348965.4"/>
+    <property type="gene ID" value="ENSG00000197102.14"/>
+  </dbReference>
+  <dbReference type="GeneID" id="1778"/>
+  <dbReference type="KEGG" id="hsa:1778"/>
+  <dbReference type="MANE-Select" id="ENST00000360184.10">
+    <property type="protein sequence ID" value="ENSP00000348965.4"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_001376.5"/>
+    <property type="RefSeq protein sequence ID" value="NP_001367.2"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc001yks.3">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:2961"/>
+  <dbReference type="CTD" id="1778"/>
+  <dbReference type="DisGeNET" id="1778"/>
+  <dbReference type="GeneCards" id="DYNC1H1"/>
+  <dbReference type="GeneReviews" id="DYNC1H1"/>
+  <dbReference type="HGNC" id="HGNC:2961">
+    <property type="gene designation" value="DYNC1H1"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000197102">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MalaCards" id="DYNC1H1"/>
+  <dbReference type="MIM" id="158600">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="MIM" id="600112">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="MIM" id="614228">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="MIM" id="614563">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q14204"/>
+  <dbReference type="OpenTargets" id="ENSG00000197102"/>
+  <dbReference type="Orphanet" id="284232">
+    <property type="disease" value="Autosomal dominant Charcot-Marie-Tooth disease type 2O"/>
+  </dbReference>
+  <dbReference type="Orphanet" id="178469">
+    <property type="disease" value="Autosomal dominant non-syndromic intellectual disability"/>
+  </dbReference>
+  <dbReference type="Orphanet" id="209341">
+    <property type="disease" value="DYNC1H1-related autosomal dominant childhood-onset proximal spinal muscular atrophy"/>
+  </dbReference>
+  <dbReference type="PharmGKB" id="PA27432"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000197102"/>
+  <dbReference type="eggNOG" id="KOG3595">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00940000156103"/>
+  <dbReference type="HOGENOM" id="CLU_000038_7_0_1"/>
+  <dbReference type="InParanoid" id="Q14204"/>
+  <dbReference type="OMA" id="NERQMTR"/>
+  <dbReference type="OrthoDB" id="312195at2759"/>
+  <dbReference type="PhylomeDB" id="Q14204"/>
+  <dbReference type="TreeFam" id="TF101165"/>
+  <dbReference type="PathwayCommons" id="Q14204"/>
+  <dbReference type="Reactome" id="R-HSA-141444">
+    <property type="pathway name" value="Amplification of signal from unattached kinetochores via a MAD2 inhibitory signal"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-2132295">
+    <property type="pathway name" value="MHC class II antigen presentation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-2467813">
+    <property type="pathway name" value="Separation of Sister Chromatids"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-2500257">
+    <property type="pathway name" value="Resolution of Sister Chromatid Cohesion"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-2565942">
+    <property type="pathway name" value="Regulation of PLK1 Activity at G2/M Transition"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-3371497">
+    <property type="pathway name" value="HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-380259">
+    <property type="pathway name" value="Loss of Nlp from mitotic centrosomes"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-380270">
+    <property type="pathway name" value="Recruitment of mitotic centrosome proteins and complexes"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-380284">
+    <property type="pathway name" value="Loss of proteins required for interphase microtubule organization from the centrosome"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-380320">
+    <property type="pathway name" value="Recruitment of NuMA to mitotic centrosomes"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-5620912">
+    <property type="pathway name" value="Anchoring of the basal body to the plasma membrane"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-5663220">
+    <property type="pathway name" value="RHO GTPases Activate Formins"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-6798695">
+    <property type="pathway name" value="Neutrophil degranulation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-6807878">
+    <property type="pathway name" value="COPI-mediated anterograde transport"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-6811436">
+    <property type="pathway name" value="COPI-independent Golgi-to-ER retrograde traffic"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-68877">
+    <property type="pathway name" value="Mitotic Prometaphase"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-8854518">
+    <property type="pathway name" value="AURKA Activation by TPX2"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9609690">
+    <property type="pathway name" value="HCMV Early Events"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9646399">
+    <property type="pathway name" value="Aggrephagy"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9648025">
+    <property type="pathway name" value="EML4 and NUDC in mitotic spindle formation"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="Q14204"/>
+  <dbReference type="SIGNOR" id="Q14204"/>
+  <dbReference type="BioGRID-ORCS" id="1778">
+    <property type="hits" value="817 hits in 1172 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="DYNC1H1">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="GeneWiki" id="DYNC1H1"/>
+  <dbReference type="GenomeRNAi" id="1778"/>
+  <dbReference type="Pharos" id="Q14204">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q14204"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 14"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q14204">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000197102">
+    <property type="expression patterns" value="Expressed in cortical plate and 203 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q14204">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1904115">
+    <property type="term" value="C:axon cytoplasm"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="GOC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0035578">
+    <property type="term" value="C:azurophil granule lumen"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005938">
+    <property type="term" value="C:cell cortex"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005813">
+    <property type="term" value="C:centrosome"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005868">
+    <property type="term" value="C:cytoplasmic dynein complex"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005881">
+    <property type="term" value="C:cytoplasmic microtubule"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005829">
+    <property type="term" value="C:cytosol"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030286">
+    <property type="term" value="C:dynein complex"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ComplexPortal"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070062">
+    <property type="term" value="C:extracellular exosome"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005576">
+    <property type="term" value="C:extracellular region"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030175">
+    <property type="term" value="C:filopodium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016020">
+    <property type="term" value="C:membrane"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005874">
+    <property type="term" value="C:microtubule"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005524">
+    <property type="term" value="F:ATP binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016887">
+    <property type="term" value="F:ATP hydrolysis activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045505">
+    <property type="term" value="F:dynein intermediate chain binding"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051959">
+    <property type="term" value="F:dynein light intermediate chain binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="FlyBase"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008569">
+    <property type="term" value="F:minus-end-directed microtubule motor activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003723">
+    <property type="term" value="F:RNA binding"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051301">
+    <property type="term" value="P:cell division"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031122">
+    <property type="term" value="P:cytoplasmic microtubule organization"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051293">
+    <property type="term" value="P:establishment of spindle localization"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="CACAO"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0007052">
+    <property type="term" value="P:mitotic spindle organization"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0007097">
+    <property type="term" value="P:nuclear migration"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0033962">
+    <property type="term" value="P:P-body assembly"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0120162">
+    <property type="term" value="P:positive regulation of cold-induced thermogenesis"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="YuBioLab"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0032388">
+    <property type="term" value="P:positive regulation of intracellular transport"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1905832">
+    <property type="term" value="P:positive regulation of spindle assembly"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0090235">
+    <property type="term" value="P:regulation of metaphase plate congression"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0060236">
+    <property type="term" value="P:regulation of mitotic spindle organization"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008090">
+    <property type="term" value="P:retrograde axonal transport"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0034063">
+    <property type="term" value="P:stress granule assembly"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd00009">
+    <property type="entry name" value="AAA"/>
+    <property type="match status" value="2"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.287.2620">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.472.130">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.8.1220">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.8.710">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.1270.280">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.58.1120">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.920.20">
+    <property type="match status" value="2"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.920.30">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.920.60">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.10.490.20">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="6.10.140.1060">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.140.100">
+    <property type="entry name" value="Dynein heavy chain, N-terminal domain 2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.20.180.20">
+    <property type="entry name" value="Dynein heavy chain, N-terminal domain 2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.40.50.300">
+    <property type="entry name" value="P-loop containing nucleotide triphosphate hydrolases"/>
+    <property type="match status" value="5"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.8.720">
+    <property type="entry name" value="Region D6 of dynein motor"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR003593">
+    <property type="entry name" value="AAA+_ATPase"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR035699">
+    <property type="entry name" value="AAA_6"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR035706">
+    <property type="entry name" value="AAA_9"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041658">
+    <property type="entry name" value="AAA_lid_11"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR042219">
+    <property type="entry name" value="AAA_lid_11_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR026983">
+    <property type="entry name" value="DHC_fam"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR054354">
+    <property type="entry name" value="DYNC2H1-like_lid"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR042222">
+    <property type="entry name" value="Dynein_2_N"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR043157">
+    <property type="entry name" value="Dynein_AAA1S"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041466">
+    <property type="entry name" value="Dynein_AAA5_ext"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041228">
+    <property type="entry name" value="Dynein_C"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR043160">
+    <property type="entry name" value="Dynein_C_barrel"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR024743">
+    <property type="entry name" value="Dynein_HC_stalk"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR024317">
+    <property type="entry name" value="Dynein_heavy_chain_D4_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR004273">
+    <property type="entry name" value="Dynein_heavy_D6_P-loop"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR013602">
+    <property type="entry name" value="Dynein_heavy_linker"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR013594">
+    <property type="entry name" value="Dynein_heavy_tail"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR042228">
+    <property type="entry name" value="Dynein_linker_3"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR027417">
+    <property type="entry name" value="P-loop_NTPase"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR46532:SF13">
+    <property type="entry name" value="DYNEIN CYTOPLASMIC 1 HEAVY CHAIN 1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR46532">
+    <property type="entry name" value="MALE FERTILITY FACTOR KL5"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12774">
+    <property type="entry name" value="AAA_6"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12775">
+    <property type="entry name" value="AAA_7"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12780">
+    <property type="entry name" value="AAA_8"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12781">
+    <property type="entry name" value="AAA_9"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF18198">
+    <property type="entry name" value="AAA_lid_11"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF08385">
+    <property type="entry name" value="DHC_N1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF08393">
+    <property type="entry name" value="DHC_N2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF22597">
+    <property type="entry name" value="DYN_lid"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF17852">
+    <property type="entry name" value="Dynein_AAA_lid"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF18199">
+    <property type="entry name" value="Dynein_C"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF03028">
+    <property type="entry name" value="Dynein_heavy"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12777">
+    <property type="entry name" value="MT"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00382">
+    <property type="entry name" value="AAA"/>
+    <property type="match status" value="4"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF52540">
+    <property type="entry name" value="P-loop containing nucleoside triphosphate hydrolases"/>
+    <property type="match status" value="4"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0067">ATP-binding</keyword>
+  <keyword id="KW-0131">Cell cycle</keyword>
+  <keyword id="KW-0132">Cell division</keyword>
+  <keyword id="KW-0144">Charcot-Marie-Tooth disease</keyword>
+  <keyword id="KW-0175">Coiled coil</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0206">Cytoskeleton</keyword>
+  <keyword id="KW-0225">Disease variant</keyword>
+  <keyword id="KW-0243">Dynein</keyword>
+  <keyword id="KW-0991">Intellectual disability</keyword>
+  <keyword id="KW-0493">Microtubule</keyword>
+  <keyword id="KW-0498">Mitosis</keyword>
+  <keyword id="KW-0505">Motor protein</keyword>
+  <keyword id="KW-0523">Neurodegeneration</keyword>
+  <keyword id="KW-0622">Neuropathy</keyword>
+  <keyword id="KW-0547">Nucleotide-binding</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0677">Repeat</keyword>
+  <keyword id="KW-0813">Transport</keyword>
+  <feature type="initiator methionine" description="Removed" evidence="43">
+    <location>
+      <position position="1"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000114627" description="Cytoplasmic dynein 1 heavy chain 1">
+    <location>
+      <begin position="2"/>
+      <end position="4646"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Stem" evidence="1">
+    <location>
+      <begin position="53"/>
+      <end position="1867"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Interaction with DYNC1I2" evidence="1">
+    <location>
+      <begin position="448"/>
+      <end position="703"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Interaction with DYNC1LI2" evidence="1">
+    <location>
+      <begin position="651"/>
+      <end position="802"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="AAA 1" evidence="1">
+    <location>
+      <begin position="1868"/>
+      <end position="2099"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="AAA 2" evidence="1">
+    <location>
+      <begin position="2180"/>
+      <end position="2452"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="5">
+    <location>
+      <begin position="2390"/>
+      <end position="2411"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="AAA 3" evidence="1">
+    <location>
+      <begin position="2556"/>
+      <end position="2805"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="AAA 4" evidence="1">
+    <location>
+      <begin position="2899"/>
+      <end position="3168"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Stalk" evidence="1">
+    <location>
+      <begin position="3189"/>
+      <end position="3500"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="AAA 5" evidence="1">
+    <location>
+      <begin position="3553"/>
+      <end position="3782"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="AAA 6" evidence="1">
+    <location>
+      <begin position="4005"/>
+      <end position="4221"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="4">
+    <location>
+      <begin position="181"/>
+      <end position="202"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="4">
+    <location>
+      <begin position="455"/>
+      <end position="478"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="4">
+    <location>
+      <begin position="543"/>
+      <end position="566"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="4">
+    <location>
+      <begin position="1171"/>
+      <end position="1252"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="4">
+    <location>
+      <begin position="1357"/>
+      <end position="1373"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="4">
+    <location>
+      <begin position="3189"/>
+      <end position="3275"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="4">
+    <location>
+      <begin position="3396"/>
+      <end position="3500"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="4">
+    <location>
+      <begin position="3737"/>
+      <end position="3800"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="5">
+    <location>
+      <begin position="2390"/>
+      <end position="2408"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="4">
+    <location>
+      <begin position="1906"/>
+      <end position="1913"/>
+    </location>
+    <ligand>
+      <name>ATP</name>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="4">
+    <location>
+      <begin position="2224"/>
+      <end position="2231"/>
+    </location>
+    <ligand>
+      <name>ATP</name>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="4">
+    <location>
+      <begin position="2595"/>
+      <end position="2602"/>
+    </location>
+    <ligand>
+      <name>ATP</name>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="4">
+    <location>
+      <begin position="2937"/>
+      <end position="2944"/>
+    </location>
+    <ligand>
+      <name>ATP</name>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+    </ligand>
+  </feature>
+  <feature type="modified residue" description="N-acetylserine" evidence="43">
+    <location>
+      <position position="2"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="44">
+    <location>
+      <position position="70"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="42">
+    <location>
+      <position position="1125"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="3">
+    <location>
+      <position position="1230"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="42">
+    <location>
+      <position position="3480"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="44">
+    <location>
+      <position position="4162"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="42">
+    <location>
+      <position position="4283"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphothreonine" evidence="44">
+    <location>
+      <position position="4366"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="41 44">
+    <location>
+      <position position="4368"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_073155" description="Found in a patient with spinal muscular atrophy; uncertain significance." evidence="15">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="94"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_070580" description="In CDCBM13; dbSNP:rs1555407885." evidence="12">
+    <original>K</original>
+    <variation>I</variation>
+    <location>
+      <position position="129"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_069437" evidence="11">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="142"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_073156" description="In SMALED1; slight increased BICD2-binding; dbSNP:rs713993043." evidence="15">
+    <original>R</original>
+    <variation>L</variation>
+    <location>
+      <position position="264"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_066651" description="In CMT2O and SMALED1; dbSNP:rs387906738." evidence="7 10">
+    <original>H</original>
+    <variation>R</variation>
+    <location>
+      <position position="306"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_067820" description="In SMALED1; disrupts dynein complex stability and function; dbSNP:rs387906741." evidence="9">
+    <original>I</original>
+    <variation>L</variation>
+    <location>
+      <position position="584"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_073157" description="In CMT2O and SMALED1; slight increased BICD2-binding; dbSNP:rs587780564." evidence="14 15">
+    <original>R</original>
+    <variation>C</variation>
+    <location>
+      <position position="598"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_070581" description="In CDCBM13." evidence="12">
+    <location>
+      <begin position="659"/>
+      <end position="662"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_067821" description="In SMALED1; dbSNP:rs387906742." evidence="9">
+    <original>K</original>
+    <variation>E</variation>
+    <location>
+      <position position="671"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_078241" description="In SMALED1; dbSNP:rs1057518083." evidence="16">
+    <original>P</original>
+    <variation>L</variation>
+    <location>
+      <position position="776"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_067822" description="In SMALED1; dbSNP:rs387906743." evidence="9">
+    <original>Y</original>
+    <variation>C</variation>
+    <location>
+      <position position="970"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_078242" description="In SMALED1; dbSNP:rs2141280974." evidence="18">
+    <original>G</original>
+    <variation>E</variation>
+    <location>
+      <position position="1132"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_072092" description="In CMT2O; impairs function; dbSNP:rs1555408964." evidence="13">
+    <original>Q</original>
+    <variation>R</variation>
+    <location>
+      <position position="1194"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_069438" description="In dbSNP:rs369914512." evidence="11">
+    <original>V</original>
+    <variation>L</variation>
+    <location>
+      <position position="1250"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_067823" description="In CDCBM13; dbSNP:rs387906740." evidence="8 11">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="1518"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_070582" description="In CDCBM13; dbSNP:rs797044901." evidence="12">
+    <original>R</original>
+    <variation>Q</variation>
+    <location>
+      <position position="1567"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_070583" description="In CDCBM13; dbSNP:rs879253881." evidence="12">
+    <original>R</original>
+    <variation>C</variation>
+    <location>
+      <position position="1962"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_069439" description="In dbSNP:rs1064796963." evidence="11">
+    <original>V</original>
+    <variation>M</variation>
+    <location>
+      <position position="2247"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_072093" description="In CMT2O; impairs function; dbSNP:rs1555410941." evidence="13">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="3048"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_070584" description="In CDCBM13; dbSNP:rs1555411145." evidence="12">
+    <original>K</original>
+    <variation>T</variation>
+    <location>
+      <position position="3241"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_070585" description="In CDCBM13; shows a substantial reduction in the microtubule binding affinity compared to the wild-type control protein; dbSNP:rs397509410." evidence="12">
+    <original>K</original>
+    <variation>N</variation>
+    <location>
+      <position position="3336"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_070586" description="In CDCBM13; dbSNP:rs397509412." evidence="12">
+    <original>R</original>
+    <variation>Q</variation>
+    <location>
+      <position position="3344"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_070587" description="In CDCBM13; shows a substantial reduction in the microtubule binding affinity compared to the wild-type control protein; dbSNP:rs397509411." evidence="12 18">
+    <original>R</original>
+    <variation>Q</variation>
+    <location>
+      <position position="3384"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_065085" description="In CDCBM13; dbSNP:rs387906739." evidence="6">
+    <original>H</original>
+    <variation>P</variation>
+    <location>
+      <position position="3822"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020889" description="In dbSNP:rs17512818." evidence="23">
+    <original>D</original>
+    <variation>N</variation>
+    <location>
+      <position position="3902"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020890" description="In dbSNP:rs10129889." evidence="22 23">
+    <original>H</original>
+    <variation>Q</variation>
+    <location>
+      <position position="4029"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_069440" description="In dbSNP:rs1316357429." evidence="11">
+    <original>R</original>
+    <variation>C</variation>
+    <location>
+      <position position="4143"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_069441" description="In dbSNP:rs749486351." evidence="11">
+    <original>A</original>
+    <variation>S</variation>
+    <location>
+      <position position="4285"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_069442" description="In dbSNP:rs376492799." evidence="11">
+    <original>A</original>
+    <variation>T</variation>
+    <location>
+      <position position="4421"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_069443" evidence="11">
+    <original>I</original>
+    <variation>S</variation>
+    <location>
+      <position position="4507"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_069444" evidence="11">
+    <original>S</original>
+    <variation>G</variation>
+    <location>
+      <position position="4603"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 5; AAB09727." evidence="24" ref="5">
+    <original>LH</original>
+    <variation>SD</variation>
+    <location>
+      <begin position="1778"/>
+      <end position="1779"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 5; AAB09727." evidence="24" ref="5">
+    <original>M</original>
+    <variation>R</variation>
+    <location>
+      <position position="1941"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 5; AAB09727." evidence="24" ref="5">
+    <original>R</original>
+    <variation>N</variation>
+    <location>
+      <position position="2025"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="45">
+    <location>
+      <begin position="27"/>
+      <end position="41"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="45">
+    <location>
+      <begin position="42"/>
+      <end position="47"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="45">
+    <location>
+      <begin position="50"/>
+      <end position="57"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="45">
+    <location>
+      <begin position="59"/>
+      <end position="70"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="46">
+    <location>
+      <begin position="71"/>
+      <end position="73"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="45">
+    <location>
+      <begin position="76"/>
+      <end position="85"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="45">
+    <location>
+      <begin position="97"/>
+      <end position="105"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="45">
+    <location>
+      <begin position="113"/>
+      <end position="124"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="45">
+    <location>
+      <begin position="132"/>
+      <end position="134"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="45">
+    <location>
+      <begin position="135"/>
+      <end position="140"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="45">
+    <location>
+      <begin position="145"/>
+      <end position="155"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="45">
+    <location>
+      <begin position="157"/>
+      <end position="165"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="45">
+    <location>
+      <begin position="178"/>
+      <end position="199"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="211"/>
+      <end position="222"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="229"/>
+      <end position="237"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="239"/>
+      <end position="260"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="50">
+    <location>
+      <begin position="266"/>
+      <end position="269"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="271"/>
+      <end position="292"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="295"/>
+      <end position="306"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="310"/>
+      <end position="318"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="322"/>
+      <end position="332"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="333"/>
+      <end position="335"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="341"/>
+      <end position="345"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="350"/>
+      <end position="364"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="365"/>
+      <end position="368"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="374"/>
+      <end position="399"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="401"/>
+      <end position="403"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="406"/>
+      <end position="440"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="50">
+    <location>
+      <begin position="442"/>
+      <end position="444"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="456"/>
+      <end position="484"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="514"/>
+      <end position="532"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="47">
+    <location>
+      <begin position="534"/>
+      <end position="537"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="540"/>
+      <end position="574"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="578"/>
+      <end position="587"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="590"/>
+      <end position="592"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="597"/>
+      <end position="603"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="605"/>
+      <end position="624"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="50">
+    <location>
+      <begin position="627"/>
+      <end position="629"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="631"/>
+      <end position="638"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="643"/>
+      <end position="669"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="673"/>
+      <end position="675"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="677"/>
+      <end position="692"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="696"/>
+      <end position="709"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="46">
+    <location>
+      <begin position="711"/>
+      <end position="714"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="50">
+    <location>
+      <begin position="715"/>
+      <end position="723"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="46">
+    <location>
+      <begin position="729"/>
+      <end position="731"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="50">
+    <location>
+      <begin position="732"/>
+      <end position="738"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="741"/>
+      <end position="753"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="754"/>
+      <end position="756"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="762"/>
+      <end position="797"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="799"/>
+      <end position="805"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="806"/>
+      <end position="820"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="826"/>
+      <end position="828"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="829"/>
+      <end position="865"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="871"/>
+      <end position="890"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="896"/>
+      <end position="913"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="50">
+    <location>
+      <begin position="992"/>
+      <end position="995"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="46">
+    <location>
+      <begin position="999"/>
+      <end position="1002"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="46">
+    <location>
+      <begin position="1009"/>
+      <end position="1011"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="1014"/>
+      <end position="1017"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="50">
+    <location>
+      <begin position="1020"/>
+      <end position="1024"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="46">
+    <location>
+      <begin position="1033"/>
+      <end position="1050"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="51">
+    <location>
+      <begin position="1464"/>
+      <end position="1470"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="51">
+    <location>
+      <begin position="1477"/>
+      <end position="1479"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="51">
+    <location>
+      <begin position="1485"/>
+      <end position="1487"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="51">
+    <location>
+      <begin position="1492"/>
+      <end position="1494"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="51">
+    <location>
+      <begin position="1495"/>
+      <end position="1509"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="51">
+    <location>
+      <begin position="1514"/>
+      <end position="1516"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1544"/>
+      <end position="1551"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1556"/>
+      <end position="1559"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1563"/>
+      <end position="1568"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="51">
+    <location>
+      <begin position="1590"/>
+      <end position="1592"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1608"/>
+      <end position="1625"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1627"/>
+      <end position="1631"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1634"/>
+      <end position="1642"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1647"/>
+      <end position="1652"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1654"/>
+      <end position="1657"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="1658"/>
+      <end position="1666"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="1672"/>
+      <end position="1678"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="51">
+    <location>
+      <begin position="1679"/>
+      <end position="1681"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="1683"/>
+      <end position="1691"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="1692"/>
+      <end position="1694"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1698"/>
+      <end position="1728"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1735"/>
+      <end position="1744"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1747"/>
+      <end position="1768"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="1771"/>
+      <end position="1773"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1778"/>
+      <end position="1797"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1802"/>
+      <end position="1828"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1836"/>
+      <end position="1839"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="1843"/>
+      <end position="1846"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="53">
+    <location>
+      <begin position="1852"/>
+      <end position="1854"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="1856"/>
+      <end position="1860"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="51">
+    <location>
+      <begin position="1865"/>
+      <end position="1867"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1883"/>
+      <end position="1896"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1897"/>
+      <end position="1899"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="1901"/>
+      <end position="1905"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="1907"/>
+      <end position="1911"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1912"/>
+      <end position="1922"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="1927"/>
+      <end position="1931"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="51">
+    <location>
+      <begin position="1933"/>
+      <end position="1935"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1938"/>
+      <end position="1951"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="1954"/>
+      <end position="1959"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1960"/>
+      <end position="1962"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="1965"/>
+      <end position="1982"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="51">
+    <location>
+      <begin position="1983"/>
+      <end position="1986"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="49">
+    <location>
+      <begin position="1988"/>
+      <end position="1990"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="49">
+    <location>
+      <begin position="1992"/>
+      <end position="1994"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="1998"/>
+      <end position="2007"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2013"/>
+      <end position="2018"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2030"/>
+      <end position="2033"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2036"/>
+      <end position="2040"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2046"/>
+      <end position="2057"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2062"/>
+      <end position="2079"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2090"/>
+      <end position="2113"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="49">
+    <location>
+      <begin position="2124"/>
+      <end position="2129"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2133"/>
+      <end position="2144"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="53">
+    <location>
+      <begin position="2146"/>
+      <end position="2148"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2151"/>
+      <end position="2153"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2154"/>
+      <end position="2164"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2176"/>
+      <end position="2188"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="51">
+    <location>
+      <begin position="2195"/>
+      <end position="2198"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2201"/>
+      <end position="2216"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2218"/>
+      <end position="2223"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2226"/>
+      <end position="2229"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2230"/>
+      <end position="2245"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2249"/>
+      <end position="2254"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="53">
+    <location>
+      <begin position="2256"/>
+      <end position="2258"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2261"/>
+      <end position="2265"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2266"/>
+      <end position="2268"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="2270"/>
+      <end position="2272"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2275"/>
+      <end position="2277"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2279"/>
+      <end position="2288"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="49">
+    <location>
+      <begin position="2290"/>
+      <end position="2292"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2294"/>
+      <end position="2296"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2297"/>
+      <end position="2305"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="2309"/>
+      <end position="2311"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2313"/>
+      <end position="2315"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="2316"/>
+      <end position="2318"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2324"/>
+      <end position="2326"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="51">
+    <location>
+      <begin position="2328"/>
+      <end position="2330"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2332"/>
+      <end position="2334"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2339"/>
+      <end position="2346"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2353"/>
+      <end position="2358"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2359"/>
+      <end position="2363"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="2366"/>
+      <end position="2368"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2371"/>
+      <end position="2383"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="49">
+    <location>
+      <begin position="2387"/>
+      <end position="2395"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="49">
+    <location>
+      <begin position="2396"/>
+      <end position="2399"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2411"/>
+      <end position="2423"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2424"/>
+      <end position="2426"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="51">
+    <location>
+      <begin position="2428"/>
+      <end position="2430"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2432"/>
+      <end position="2440"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2451"/>
+      <end position="2475"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2477"/>
+      <end position="2479"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2483"/>
+      <end position="2503"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2508"/>
+      <end position="2521"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="53">
+    <location>
+      <begin position="2530"/>
+      <end position="2532"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2534"/>
+      <end position="2536"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2537"/>
+      <end position="2539"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="51">
+    <location>
+      <begin position="2541"/>
+      <end position="2543"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2545"/>
+      <end position="2547"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2548"/>
+      <end position="2551"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2559"/>
+      <end position="2561"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2572"/>
+      <end position="2586"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2591"/>
+      <end position="2594"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2601"/>
+      <end position="2611"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="49">
+    <location>
+      <begin position="2612"/>
+      <end position="2614"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2615"/>
+      <end position="2621"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2628"/>
+      <end position="2638"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2641"/>
+      <end position="2643"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2645"/>
+      <end position="2651"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2658"/>
+      <end position="2665"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="54">
+    <location>
+      <begin position="2673"/>
+      <end position="2675"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2678"/>
+      <end position="2688"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2689"/>
+      <end position="2693"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="2695"/>
+      <end position="2697"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2700"/>
+      <end position="2712"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2725"/>
+      <end position="2728"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2733"/>
+      <end position="2735"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2741"/>
+      <end position="2755"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="53">
+    <location>
+      <begin position="2756"/>
+      <end position="2758"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="51">
+    <location>
+      <begin position="2760"/>
+      <end position="2762"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2763"/>
+      <end position="2765"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2766"/>
+      <end position="2783"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="2786"/>
+      <end position="2788"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2796"/>
+      <end position="2810"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2818"/>
+      <end position="2833"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="53">
+    <location>
+      <begin position="2834"/>
+      <end position="2836"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2840"/>
+      <end position="2857"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2859"/>
+      <end position="2861"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2863"/>
+      <end position="2866"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="51">
+    <location>
+      <begin position="2868"/>
+      <end position="2870"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2873"/>
+      <end position="2880"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2886"/>
+      <end position="2903"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2913"/>
+      <end position="2927"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2932"/>
+      <end position="2937"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2943"/>
+      <end position="2954"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2957"/>
+      <end position="2960"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="2969"/>
+      <end position="2984"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="51">
+    <location>
+      <begin position="2985"/>
+      <end position="2987"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="2990"/>
+      <end position="2995"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="2996"/>
+      <end position="2998"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3002"/>
+      <end position="3014"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3024"/>
+      <end position="3040"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3047"/>
+      <end position="3060"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3063"/>
+      <end position="3068"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="3072"/>
+      <end position="3074"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3075"/>
+      <end position="3081"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3083"/>
+      <end position="3085"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3088"/>
+      <end position="3096"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3099"/>
+      <end position="3110"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3139"/>
+      <end position="3163"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3173"/>
+      <end position="3219"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3473"/>
+      <end position="3501"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3503"/>
+      <end position="3516"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3517"/>
+      <end position="3520"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3522"/>
+      <end position="3538"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3549"/>
+      <end position="3552"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3556"/>
+      <end position="3564"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3571"/>
+      <end position="3581"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3587"/>
+      <end position="3590"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3592"/>
+      <end position="3594"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3595"/>
+      <end position="3603"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="3604"/>
+      <end position="3608"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3610"/>
+      <end position="3616"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3619"/>
+      <end position="3629"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3633"/>
+      <end position="3636"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3638"/>
+      <end position="3640"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3643"/>
+      <end position="3645"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3646"/>
+      <end position="3650"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3654"/>
+      <end position="3656"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3659"/>
+      <end position="3664"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3667"/>
+      <end position="3670"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3677"/>
+      <end position="3682"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3690"/>
+      <end position="3693"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3696"/>
+      <end position="3700"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3705"/>
+      <end position="3720"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3722"/>
+      <end position="3755"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3759"/>
+      <end position="3761"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3763"/>
+      <end position="3786"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3789"/>
+      <end position="3798"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3802"/>
+      <end position="3817"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="3818"/>
+      <end position="3821"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3829"/>
+      <end position="3841"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3844"/>
+      <end position="3846"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3852"/>
+      <end position="3872"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3877"/>
+      <end position="3879"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3880"/>
+      <end position="3893"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="3895"/>
+      <end position="3898"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3902"/>
+      <end position="3910"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="51">
+    <location>
+      <begin position="3911"/>
+      <end position="3913"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3929"/>
+      <end position="3938"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="3943"/>
+      <end position="3946"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3947"/>
+      <end position="3952"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3956"/>
+      <end position="3961"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3966"/>
+      <end position="3968"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3982"/>
+      <end position="3996"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="3998"/>
+      <end position="4000"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4001"/>
+      <end position="4012"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="4018"/>
+      <end position="4022"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4027"/>
+      <end position="4033"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4037"/>
+      <end position="4039"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4041"/>
+      <end position="4045"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4052"/>
+      <end position="4061"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4066"/>
+      <end position="4070"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="4073"/>
+      <end position="4075"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4076"/>
+      <end position="4088"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4093"/>
+      <end position="4097"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="4098"/>
+      <end position="4100"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4103"/>
+      <end position="4113"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4123"/>
+      <end position="4129"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4136"/>
+      <end position="4141"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4142"/>
+      <end position="4147"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4152"/>
+      <end position="4163"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="4166"/>
+      <end position="4170"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="53">
+    <location>
+      <begin position="4171"/>
+      <end position="4173"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4175"/>
+      <end position="4192"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4194"/>
+      <end position="4196"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="4197"/>
+      <end position="4199"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4200"/>
+      <end position="4203"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4209"/>
+      <end position="4226"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4227"/>
+      <end position="4229"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="4235"/>
+      <end position="4237"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4240"/>
+      <end position="4244"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4246"/>
+      <end position="4249"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4252"/>
+      <end position="4255"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4259"/>
+      <end position="4272"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4275"/>
+      <end position="4277"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4278"/>
+      <end position="4281"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4283"/>
+      <end position="4287"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="53">
+    <location>
+      <begin position="4288"/>
+      <end position="4291"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4302"/>
+      <end position="4310"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4318"/>
+      <end position="4321"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4325"/>
+      <end position="4327"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4329"/>
+      <end position="4346"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4376"/>
+      <end position="4390"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="4402"/>
+      <end position="4406"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4408"/>
+      <end position="4438"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4446"/>
+      <end position="4456"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="52">
+    <location>
+      <begin position="4462"/>
+      <end position="4464"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4475"/>
+      <end position="4498"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4500"/>
+      <end position="4507"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4509"/>
+      <end position="4511"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4517"/>
+      <end position="4531"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4536"/>
+      <end position="4538"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4540"/>
+      <end position="4545"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4557"/>
+      <end position="4561"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4563"/>
+      <end position="4568"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4571"/>
+      <end position="4575"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4579"/>
+      <end position="4581"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4583"/>
+      <end position="4585"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4588"/>
+      <end position="4593"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4604"/>
+      <end position="4614"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="4618"/>
+      <end position="4626"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="52">
+    <location>
+      <begin position="4632"/>
+      <end position="4637"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="51">
+    <location>
+      <begin position="4641"/>
+      <end position="4643"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1"/>
+  <evidence type="ECO:0000250" key="2">
+    <source>
+      <dbReference type="UniProtKB" id="P38650"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000250" key="3">
+    <source>
+      <dbReference type="UniProtKB" id="Q9JHU4"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="4"/>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="21076407"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="21820100"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="22368300"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="22459677"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="22847149"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="23033978"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="23603762"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="24307404"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="14">
+    <source>
+      <dbReference type="PubMed" id="25484024"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="15">
+    <source>
+      <dbReference type="PubMed" id="25512093"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="16">
+    <source>
+      <dbReference type="PubMed" id="26846447"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="17">
+    <source>
+      <dbReference type="PubMed" id="27462074"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="18">
+    <source>
+      <dbReference type="PubMed" id="28193117"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="19">
+    <source>
+      <dbReference type="PubMed" id="29420470"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="20">
+    <source>
+      <dbReference type="PubMed" id="31092558"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="21">
+    <source>
+      <dbReference type="PubMed" id="36071160"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="22">
+    <source>
+      <dbReference type="PubMed" id="9205841"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="23">
+    <source ref="4"/>
+  </evidence>
+  <evidence type="ECO:0000305" key="24"/>
+  <evidence type="ECO:0000305" key="25">
+    <source>
+      <dbReference type="PubMed" id="36071160"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="26">
+    <source>
+      <dbReference type="HGNC" id="HGNC:2961"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="27">
+    <source>
+      <dbReference type="PDB" id="5OWO"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="28">
+    <source>
+      <dbReference type="PDB" id="6F1T"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="29">
+    <source>
+      <dbReference type="PDB" id="6F1U"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="30">
+    <source>
+      <dbReference type="PDB" id="6F1V"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="31">
+    <source>
+      <dbReference type="PDB" id="6F1Y"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="32">
+    <source>
+      <dbReference type="PDB" id="6F38"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="33">
+    <source>
+      <dbReference type="PDB" id="6F3A"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="34">
+    <source>
+      <dbReference type="PDB" id="7Z8F"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="35">
+    <source>
+      <dbReference type="PDB" id="7Z8G"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="36">
+    <source>
+      <dbReference type="PDB" id="7Z8H"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="37">
+    <source>
+      <dbReference type="PDB" id="7Z8I"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="38">
+    <source>
+      <dbReference type="PDB" id="7Z8J"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="39">
+    <source>
+      <dbReference type="PDB" id="7Z8K"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="40">
+    <source>
+      <dbReference type="PDB" id="7Z8L"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="41">
+    <source>
+      <dbReference type="PubMed" id="18669648"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="42">
+    <source>
+      <dbReference type="PubMed" id="19608861"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="43">
+    <source>
+      <dbReference type="PubMed" id="22223895"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="44">
+    <source>
+      <dbReference type="PubMed" id="23186163"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="45">
+    <source>
+      <dbReference type="PDB" id="5OWO"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="46">
+    <source>
+      <dbReference type="PDB" id="6F1T"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="47">
+    <source>
+      <dbReference type="PDB" id="6F1U"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="48">
+    <source>
+      <dbReference type="PDB" id="6F1V"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="49">
+    <source>
+      <dbReference type="PDB" id="7Z8H"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="50">
+    <source>
+      <dbReference type="PDB" id="7Z8I"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="51">
+    <source>
+      <dbReference type="PDB" id="8FCY"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="52">
+    <source>
+      <dbReference type="PDB" id="8FD6"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="53">
+    <source>
+      <dbReference type="PDB" id="8FDT"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="54">
+    <source>
+      <dbReference type="PDB" id="8FDU"/>
+    </source>
+  </evidence>
+  <sequence length="4646" mass="532408" checksum="D4D4E15DFBDE4797" modified="2005-01-04" version="5">MSEPGGGGGEDGSAGLEVSAVQNVADVSVLQKHLRKLVPLLLEDGGEAPAALEAALEEKSALEQMRKFLSDPQVHTVLVERSTLKEDVGDEGEEEKEFISYNINIDIHYGVKSNSLAFIKRTPVIDADKPVSSQLRVLTLSEDSPYETLHSFISNAVAPFFKSYIRESGKADRDGDKMAPSVEKKIAELEMGLLHLQQNIEIPEISLPIHPMITNVAKQCYERGEKPKVTDFGDKVEDPTFLNQLQSGVNRWIREIQKVTKLDRDPASGTALQEISFWLNLERALYRIQEKRESPEVLLTLDILKHGKRFHATVSFDTDTGLKQALETVNDYNPLMKDFPLNDLLSATELDKIRQALVAIFTHLRKIRNTKYPIQRALRLVEAISRDLSSQLLKVLGTRKLMHVAYEEFEKVMVACFEVFQTWDDEYEKLQVLLRDIVKRKREENLKMVWRINPAHRKLQARLDQMRKFRRQHEQLRAVIVRVLRPQVTAVAQQNQGEVPEPQDMKVAEVLFDAADANAIEEVNLAYENVKEVDGLDVSKEGTEAWEAAMKRYDERIDRVETRITARLRDQLGTAKNANEMFRIFSRFNALFVRPHIRGAIREYQTQLIQRVKDDIESLHDKFKVQYPQSQACKMSHVRDLPPVSGSIIWAKQIDRQLTAYMKRVEDVLGKGWENHVEGQKLKQDGDSFRMKLNTQEIFDDWARKVQQRNLGVSGRIFTIESTRVRGRTGNVLKLKVNFLPEIITLSKEVRNLKWLGFRVPLAIVNKAHQANQLYPFAISLIESVRTYERTCEKVEERNTISLLVAGLKKEVQALIAEGIALVWESYKLDPYVQRLAETVFNFQEKVDDLLIIEEKIDLEVRSLETCMYDHKTFSEILNRVQKAVDDLNLHSYSNLPIWVNKLDMEIERILGVRLQAGLRAWTQVLLGQAEDKAEVDMDTDAPQVSHKPGGEPKIKNVVHELRITNQVIYLNPPIEECRYKLYQEMFAWKMVVLSLPRIQSQRYQVGVHYELTEEEKFYRNALTRMPDGPVALEESYSAVMGIVSEVEQYVKVWLQYQCLWDMQAENIYNRLGEDLNKWQALLVQIRKARGTFDNAETKKEFGPVVIDYGKVQSKVNLKYDSWHKEVLSKFGQMLGSNMTEFHSQISKSRQELEQHSVDTASTSDAVTFITYVQSLKRKIKQFEKQVELYRNGQRLLEKQRFQFPPSWLYIDNIEGEWGAFNDIMRRKDSAIQQQVANLQMKIVQEDRAVESRTTDLLTDWEKTKPVTGNLRPEEALQALTIYEGKFGRLKDDREKCAKAKEALELTDTGLLSGSEERVQVALEELQDLKGVWSELSKVWEQIDQMKEQPWVSVQPRKLRQNLDALLNQLKSFPARLRQYASYEFVQRLLKGYMKINMLVIELKSEALKDRHWKQLMKRLHVNWVVSELTLGQIWDVDLQKNEAIVKDVLLVAQGEMALEEFLKQIREVWNTYELDLVNYQNKCRLIRGWDDLFNKVKEHINSVSAMKLSPYYKVFEEDALSWEDKLNRIMALFDVWIDVQRRWVYLEGIFTGSADIKHLLPVETQRFQSISTEFLALMKKVSKSPLVMDVLNIQGVQRSLERLADLLGKIQKALGEYLERERSSFPRFYFVGDEDLLEIIGNSKNVAKLQKHFKKMFAGVSSIILNEDNSVVLGISSREGEEVMFKTPVSITEHPKINEWLTLVEKEMRVTLAKLLAESVTEVEIFGKATSIDPNTYITWIDKYQAQLVVLSAQIAWSENVETALSSMGGGGDAAPLHSVLSNVEVTLNVLADSVLMEQPPLRRRKLEHLITELVHQRDVTRSLIKSKIDNAKSFEWLSQMRFYFDPKQTDVLQQLSIQMANAKFNYGFEYLGVQDKLVQTPLTDRCYLTMTQALEARLGGSPFGPAGTGKTESVKALGHQLGRFVLVFNCDETFDFQAMGRIFVGLCQVGAWGCFDEFNRLEERMLSAVSQQVQCIQEALREHSNPNYDKTSAPITCELLNKQVKVSPDMAIFITMNPGYAGRSNLPDNLKKLFRSLAMTKPDRQLIAQVMLYSQGFRTAEVLANKIVPFFKLCDEQLSSQSHYDFGLRALKSVLVSAGNVKRERIQKIKREKEERGEAVDEGEIAENLPEQEILIQSVCETMVPKLVAEDIPLLFSLLSDVFPGVQYHRGEMTALREELKKVCQEMYLTYGDGEEVGGMWVEKVLQLYQITQINHGLMMVGPSGSGKSMAWRVLLKALERLEGVEGVAHIIDPKAISKDHLYGTLDPNTREWTDGLFTHVLRKIIDSVRGELQKRQWIVFDGDVDPEWVENLNSVLDDNKLLTLPNGERLSLPPNVRIMFEVQDLKYATLATVSRCGMVWFSEDVLSTDMIFNNFLARLRSIPLDEGEDEAQRRRKGKEDEGEEAASPMLQIQRDAATIMQPYFTSNGLVTKALEHAFQLEHIMDLTRLRCLGSLFSMLHQACRNVAQYNANHPDFPMQIEQLERYIQRYLVYAILWSLSGDSRLKMRAELGEYIRRITTVPLPTAPNIPIIDYEVSISGEWSPWQAKVPQIEVETHKVAAPDVVVPTLDTVRHEALLYTWLAEHKPLVLCGPPGSGKTMTLFSALRALPDMEVVGLNFSSATTPELLLKTFDHYCEYRRTPNGVVLAPVQLGKWLVLFCDEINLPDMDKYGTQRVISFIRQMVEHGGFYRTSDQTWVKLERIQFVGACNPPTDPGRKPLSHRFLRHVPVVYVDYPGPASLTQIYGTFNRAMLRLIPSLRTYAEPLTAAMVEFYTMSQERFTQDTQPHYIYSPREMTRWVRGIFEALRPLETLPVEGLIRIWAHEALRLFQDRLVEDEERRWTDENIDTVALKHFPNIDREKAMSRPILYSNWLSKDYIPVDQEELRDYVKARLKVFYEEELDVPLVLFNEVLDHVLRIDRIFRQPQGHLLLIGVSGAGKTTLSRFVAWMNGLSVYQIKVHRKYTGEDFDEDLRTVLRRSGCKNEKIAFIMDESNVLDSGFLERMNTLLANGEVPGLFEGDEYATLMTQCKEGAQKEGLMLDSHEELYKWFTSQVIRNLHVVFTMNPSSEGLKDRAATSPALFNRCVLNWFGDWSTEALYQVGKEFTSKMDLEKPNYIVPDYMPVVYDKLPQPPSHREAIVNSCVFVHQTLHQANARLAKRGGRTMAITPRHYLDFINHYANLFHEKRSELEEQQMHLNVGLRKIKETVDQVEELRRDLRIKSQELEVKNAAANDKLKKMVKDQQEAEKKKVMSQEIQEQLHKQQEVIADKQMSVKEDLDKVEPAVIEAQNAVKSIKKQHLVEVRSMANPPAAVKLALESICLLLGESTTDWKQIRSIIMRENFIPTIVNFSAEEISDAIREKMKKNYMSNPSYNYEIVNRASLACGPMVKWAIAQLNYADMLKRVEPLRNELQKLEDDAKDNQQKANEVEQMIRDLEASIARYKEEYAVLISEAQAIKADLAAVEAKVNRSTALLKSLSAERERWEKTSETFKNQMSTIAGDCLLSAAFIAYAGYFDQQMRQNLFTTWSHHLQQANIQFRTDIARTEYLSNADERLRWQASSLPADDLCTENAIMLKRFNRYPLIIDPSGQATEFIMNEYKDRKITRTSFLDDAFRKNLESALRFGNPLLVQDVESYDPVLNPVLNREVRRTGGRVLITLGDQDIDLSPSFVIFLSTRDPTVEFPPDLCSRVTFVNFTVTRSSLQSQCLNEVLKAERPDVDEKRSDLLKLQGEFQLRLRQLEKSLLQALNEVKGRILDDDTIITTLENLKREAAEVTRKVEETDIVMQEVETVSQQYLPLSTACSSIYFTMESLKQIHFLYQYSLQFFLDIYHNVLYENPNLKGVTDHTQRLSIITKDLFQVAFNRVARGMLHQDHITFAMLLARIKLKGTVGEPTYDAEFQHFLRGNEIVLSAGSTPRIQGLTVEQAEAVVRLSCLPAFKDLIAKVQADEQFGIWLDSSSPEQTVPYLWSEETPATPIGQAIHRLLLIQAFRPDRLLAMAHMFVSTNLGESFMSIMEQPLDLTHIVGTEVKPNTPVLMCSVPGYDASGHVEDLAAEQNTQITSIAIGSAEGFNQADKAINTAVKSGRWVMLKNVHLAPGWLMQLEKKLHSLQPHACFRLFLTMEINPKVPVNLLRAGRIFVFEPPPGVKANMLRTFSSIPVSRICKSPNERARLYFLLAWFHAIIQERLRYAPLGWSKKYEFGESDLRSACDTVDTWLDDTAKGRQNISPDKIPWSALKTLMAQSIYGGRVDNEFDQRLLNTFLERLFTTRSFDSEFKLACKVDGHKDIQMPDGIRREEFVQWVELLPDTQTPSWLGLPNNAERVLLTTQGVDMISKMLKMQMLEDEDDLAYAETEKKTRTDSTSDGRPAWMRTLHTTASNWLHLIPQTLSHLKRTVENIKDPLFRFFEREVKMGAKLLQDVRQDLADVVQVCEGKKKQTNYLRTLINELVKGILPRSWSHYTVPAGMTVIQWVSDFSERIKQLQNISLAAASGGAKELKNIHVCLGGLFVPEAYITATRQYVAQANSWSLEELCLEVNVTTSQGATLDACSFGVTGLKLQGATCNNNKLSLSNAISTALPLTQLRWVKQTNTEKKASVVTLPVYLNFTRADLIFTVDFEIATKEDPRSFYERGVAVLCTE</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

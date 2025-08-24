@@ -1,0 +1,577 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.8924	
+2	S	0.8981	
+3	G	0.9015	
+4	R	0.9027	
+5	S	0.9015	
+6	K	0.8985	
+7	R	0.8939	
+8	E	0.8885	
+9	S	0.8826	
+10	R	0.8770	
+11	G	0.8729	
+12	S	0.8710	
+13	T	0.8665	
+14	R	0.8637	
+15	G	0.8591	
+16	K	0.8553	
+17	R	0.8495	
+18	E	0.8438	
+19	S	0.8388	
+20	E	0.8294	
+21	S	0.8157	
+22	R	0.8047	
+23	G	0.7965	
+24	S	0.7938	
+25	S	0.7913	
+26	G	0.7907	
+27	R	0.7903	
+28	V	0.7937	
+29	K	0.7927	
+30	R	0.7963	
+31	E	0.7928	
+32	R	0.7913	
+33	D	0.7881	
+34	R	0.7854	
+35	E	0.7743	
+36	R	0.7746	
+37	E	0.7812	
+38	P	0.7800	
+39	E	0.7726	
+40	A	0.7581	
+41	A	0.7452	
+42	S	0.7328	
+43	S	0.7150	
+44	R	0.6986	
+45	G	0.6785	
+46	S	0.6629	
+47	P	0.6436	
+48	V	0.6355	
+49	R	0.6334	
+50	V	0.6364	
+51	K	0.6402	
+52	R	0.6438	
+53	E	0.6289	
+54	F	0.6175	
+55	E	0.6019	
+56	P	0.5811	
+57	A	0.5470	
+58	S	0.5027	
+59	A	0.4657	
+60	R	0.4422	
+61	E	0.4317	
+62	A	0.4335	
+63	P	0.4398	
+64	A	0.4522	
+65	S	0.4588	
+66	V	0.4654	
+67	V	0.4710	
+68	P	0.4732	
+69	F	0.4696	
+70	V	0.4667	
+71	R	0.4667	
+72	V	0.4702	
+73	K	0.4747	
+74	R	0.4902	
+75	E	0.4996	
+76	R	0.5071	
+77	E	0.5253	
+78	V	0.5536	
+79	D	0.5878	
+80	E	0.6250	
+81	D	0.6542	
+82	S	0.6777	
+83	E	0.6940	
+84	P	0.7062	
+85	E	0.7129	
+86	R	0.7104	
+87	E	0.7143	
+88	V	0.7126	
+89	R	0.7212	
+90	A	0.7371	
+91	K	0.7439	
+92	N	0.7379	
+93	G	0.7176	
+94	R	0.6804	
+95	V	0.6397	
+96	D	0.5942	
+97	S	0.5557	
+98	E	0.5301	
+99	D	0.5038	
+100	R	0.4917	
+101	R	0.4826	
+102	S	0.4842	
+103	R	0.4817	
+104	H	0.4585	
+105	C	0.4367	
+106	P	0.4029	
+107	Y	0.3653	
+108	L	0.3303	
+109	D	0.2904	
+110	T	0.2479	
+111	I	0.2085	
+112	N	0.1691	
+113	R	0.1413	
+114	S	0.1150	
+115	V	0.0986	
+116	L	0.0917	
+117	D	0.0854	
+118	F	0.0880	
+119	D	0.0865	
+120	F	0.0924	
+121	E	0.0946	
+122	K	0.0889	
+123	L	0.0760	
+124	C	0.0638	
+125	S	0.0531	
+126	I	0.0421	
+127	S	0.0332	
+128	L	0.0299	
+129	S	0.0239	
+130	H	0.0212	
+131	I	0.0249	
+132	N	0.0259	
+133	A	0.0281	
+134	Y	0.0293	
+135	A	0.0329	
+136	C	0.0402	
+137	L	0.0465	
+138	V	0.0524	
+139	C	0.0577	
+140	G	0.0569	
+141	K	0.0557	
+142	Y	0.0510	
+143	F	0.0479	
+144	Q	0.0485	
+145	G	0.0517	
+146	R	0.0575	
+147	G	0.0697	
+148	L	0.0867	
+149	K	0.1062	
+150	S	0.1260	
+151	H	0.1358	
+152	A	0.1362	
+153	Y	0.1298	
+154	I	0.1222	
+155	H	0.1115	
+156	S	0.0997	
+157	V	0.0883	
+158	Q	0.0732	
+159	F	0.0649	
+160	S	0.0536	
+161	H	0.0470	
+162	H	0.0402	
+163	V	0.0337	
+164	F	0.0267	
+165	L	0.0253	
+166	N	0.0242	
+167	L	0.0257	
+168	H	0.0301	
+169	T	0.0318	
+170	L	0.0304	
+171	K	0.0287	
+172	F	0.0297	
+173	Y	0.0318	
+174	C	0.0364	
+175	L	0.0428	
+176	P	0.0500	
+177	D	0.0543	
+178	N	0.0446	
+179	Y	0.0434	
+180	E	0.0434	
+181	I	0.0497	
+182	I	0.0555	
+183	D	0.0624	
+184	S	0.0739	
+185	S	0.0828	
+186	L	0.0882	
+187	E	0.0999	
+188	D	0.1102	
+189	I	0.1150	
+190	T	0.1139	
+191	Y	0.1170	
+192	V	0.1139	
+193	L	0.1238	
+194	K	0.1394	
+195	P	0.1493	
+196	T	0.1375	
+197	F	0.1370	
+198	T	0.1459	
+199	K	0.1709	
+200	Q	0.1867	
+201	Q	0.1960	
+202	I	0.2104	
+203	A	0.2310	
+204	N	0.2501	
+205	L	0.2604	
+206	D	0.2661	
+207	K	0.2689	
+208	Q	0.2561	
+209	A	0.2473	
+210	K	0.2273	
+211	L	0.2139	
+212	S	0.2041	
+213	R	0.1925	
+214	A	0.1680	
+215	Y	0.1464	
+216	D	0.1300	
+217	G	0.1317	
+218	T	0.1262	
+219	T	0.1117	
+220	Y	0.0991	
+221	L	0.1005	
+222	P	0.1156	
+223	G	0.1218	
+224	I	0.1196	
+225	V	0.1251	domain USP
+226	G	0.1229	domain USP
+227	L	0.1175	domain USP
+228	N	0.1078	domain USP
+229	N	0.0974	domain USP
+230	I	0.0781	domain USP
+231	K	0.0707	domain USP
+232	A	0.0768	domain USP
+233	N	0.0778	domain USP
+234	D	0.0853	domain USP
+235	Y	0.1076	domain USP
+236	A	0.1364	domain USP
+237	N	0.1642	domain USP
+238	A	0.1795	domain USP
+239	V	0.1827	domain USP
+240	L	0.1783	domain USP
+241	Q	0.1698	domain USP
+242	A	0.1517	domain USP
+243	L	0.1233	domain USP
+244	S	0.1075	domain USP
+245	N	0.1007	domain USP
+246	V	0.1007	domain USP
+247	P	0.1092	domain USP
+248	P	0.1155	domain USP
+249	L	0.1302	domain USP
+250	R	0.1520	domain USP
+251	N	0.1778	domain USP
+252	Y	0.1992	domain USP
+253	F	0.2255	domain USP
+254	L	0.2624	domain USP
+255	E	0.3001	domain USP
+256	E	0.3248	domain USP
+257	D	0.3220	domain USP
+258	N	0.2949	domain USP
+259	Y	0.2712	domain USP
+260	K	0.2457	domain USP
+261	N	0.2082	domain USP
+262	I	0.1791	domain USP
+263	K	0.1632	domain USP
+264	R	0.1573	domain USP
+265	P	0.1513	domain USP
+266	P	0.1536	domain USP
+267	G	0.1556	domain USP
+268	D	0.1521	domain USP
+269	I	0.1527	domain USP
+270	M	0.1362	domain USP
+271	F	0.1169	domain USP
+272	L	0.1044	domain USP
+273	L	0.0991	domain USP
+274	V	0.0986	domain USP
+275	Q	0.0852	domain USP
+276	R	0.0660	domain USP
+277	F	0.0523	domain USP
+278	G	0.0437	domain USP
+279	E	0.0515	domain USP
+280	L	0.0576	domain USP
+281	M	0.0736	domain USP
+282	R	0.1160	domain USP
+283	K	0.1528	domain USP
+284	L	0.1855	domain USP
+285	W	0.2216	domain USP
+286	N	0.2609	domain USP
+287	P	0.2964	domain USP
+288	R	0.3167	domain USP
+289	N	0.3224	domain USP
+290	F	0.3206	domain USP
+291	K	0.3128	domain USP
+292	A	0.3009	domain USP
+293	H	0.2829	domain USP
+294	V	0.2625	domain USP
+295	S	0.2442	domain USP
+296	P	0.2324	domain USP
+297	H	0.2269	domain USP
+298	E	0.2084	domain USP
+299	M	0.1919	domain USP
+300	L	0.1905	domain USP
+301	Q	0.1862	domain USP
+302	A	0.1839	domain USP
+303	V	0.1724	domain USP
+304	V	0.1726	domain USP
+305	L	0.1842	domain USP
+306	C	0.1888	domain USP
+307	S	0.1903	domain USP
+308	K	0.1907	domain USP
+309	K	0.1878	domain USP
+310	T	0.1794	domain USP
+311	F	0.1649	domain USP
+312	Q	0.1459	domain USP
+313	I	0.1325	domain USP
+314	T	0.1190	domain USP
+315	K	0.1044	domain USP
+316	Q	0.0889	domain USP
+317	G	0.0783	domain USP
+318	D	0.0700	domain USP
+319	G	0.0662	domain USP
+320	V	0.0701	domain USP
+321	D	0.0641	domain USP
+322	F	0.0655	domain USP
+323	L	0.0694	domain USP
+324	S	0.0727	domain USP
+325	W	0.0699	domain USP
+326	F	0.0646	domain USP
+327	L	0.0694	domain USP
+328	N	0.0749	domain USP
+329	A	0.0722	domain USP
+330	L	0.0663	domain USP
+331	H	0.0821	domain USP
+332	S	0.1073	domain USP
+333	A	0.1333	domain USP
+334	L	0.1590	domain USP
+335	G	0.1902	domain USP
+336	G	0.2183	domain USP
+337	T	0.2383	domain USP
+338	K	0.2622	domain USP
+339	K	0.2835	domain USP
+340	K	0.3001	domain USP
+341	K	0.3029	domain USP
+342	K	0.3065	domain USP
+343	T	0.2947	domain USP
+344	I	0.2745	domain USP
+345	V	0.2584	domain USP
+346	T	0.2415	domain USP
+347	D	0.2182	domain USP
+348	V	0.1780	domain USP
+349	F	0.1555	domain USP
+350	Q	0.1504	domain USP
+351	G	0.1498	domain USP
+352	S	0.1472	domain USP
+353	M	0.1553	domain USP
+354	R	0.1642	domain USP
+355	I	0.1804	domain USP
+356	F	0.2169	domain USP
+357	T	0.2644	domain USP
+358	K	0.3078	domain USP
+359	K	0.3290	domain USP
+360	L	0.3392	domain USP
+361	P	0.3521	domain USP
+362	H	0.3715	domain USP
+363	P	0.3792	domain USP
+364	D	0.3850	domain USP
+365	L	0.3961	domain USP
+366	P	0.4125	domain USP
+367	A	0.4416	domain USP
+368	E	0.4712	domain USP
+369	E	0.4957	domain USP
+370	K	0.5095	domain USP
+371	E	0.5111	domain USP
+372	Q	0.4989	domain USP
+373	L	0.4847	domain USP
+374	L	0.4664	domain USP
+375	H	0.4570	domain USP
+376	N	0.4376	domain USP
+377	D	0.3983	domain USP
+378	E	0.3409	domain USP
+379	Y	0.2882	domain USP
+380	Q	0.2474	domain USP
+381	E	0.2030	domain USP
+382	T	0.1587	domain USP
+383	M	0.1269	domain USP
+384	V	0.1200	domain USP
+385	E	0.1321	domain USP
+386	S	0.1432	domain USP
+387	T	0.1452	domain USP
+388	F	0.1426	domain USP
+389	M	0.1274	domain USP
+390	Y	0.1167	domain USP
+391	L	0.1082	domain USP
+392	T	0.1067	domain USP
+393	L	0.1144	domain USP
+394	D	0.1105	domain USP
+395	L	0.1183	domain USP
+396	P	0.1163	domain USP
+397	T	0.1207	domain USP
+398	A	0.1355	domain USP
+399	P	0.1506	domain USP
+400	L	0.1656	domain USP
+401	Y	0.1852	domain USP
+402	K	0.2074	domain USP
+403	D	0.2229	domain USP
+404	E	0.2310	domain USP
+405	K	0.2239	domain USP
+406	E	0.2020	domain USP
+407	Q	0.1695	domain USP
+408	L	0.1379	domain USP
+409	I	0.1063	domain USP
+410	I	0.0910	domain USP
+411	P	0.0803	domain USP
+412	Q	0.0703	domain USP
+413	V	0.0703	domain USP
+414	P	0.0605	domain USP
+415	L	0.0626	domain USP
+416	F	0.0659	domain USP
+417	N	0.0693	domain USP
+418	I	0.0704	domain USP
+419	L	0.0694	domain USP
+420	A	0.0820	domain USP
+421	K	0.0949	domain USP
+422	F	0.0996	domain USP
+423	N	0.1060	domain USP
+424	G	0.1113	domain USP
+425	I	0.1161	domain USP
+426	T	0.1213	domain USP
+427	E	0.1289	domain USP
+428	K	0.1418	domain USP
+429	E	0.1527	domain USP
+430	Y	0.1604	domain USP
+431	K	0.1633	domain USP
+432	T	0.1681	domain USP
+433	Y	0.1758	domain USP
+434	K	0.1817	domain USP
+435	E	0.1885	domain USP
+436	N	0.1839	domain USP
+437	F	0.1680	domain USP
+438	L	0.1535	domain USP
+439	K	0.1357	domain USP
+440	R	0.1058	domain USP
+441	F	0.0789	domain USP
+442	Q	0.0548	domain USP
+443	L	0.0326	domain USP
+444	T	0.0167	domain USP
+445	K	0.0119	domain USP
+446	L	0.0165	domain USP
+447	P	0.0239	domain USP
+448	P	0.0275	domain USP
+449	Y	0.0291	domain USP
+450	L	0.0314	domain USP
+451	I	0.0306	domain USP
+452	F	0.0307	domain USP
+453	C	0.0330	domain USP
+454	I	0.0319	domain USP
+455	K	0.0322	domain USP
+456	R	0.0287	domain USP
+457	F	0.0279	domain USP
+458	T	0.0312	domain USP
+459	K	0.0395	domain USP
+460	N	0.0493	domain USP
+461	N	0.0582	domain USP
+462	F	0.0740	domain USP
+463	F	0.0966	domain USP
+464	V	0.1216	domain USP
+465	E	0.1444	domain USP
+466	K	0.1645	domain USP
+467	N	0.1714	domain USP
+468	P	0.1708	domain USP
+469	T	0.1604	domain USP
+470	I	0.1544	domain USP
+471	V	0.1547	domain USP
+472	N	0.1593	domain USP
+473	F	0.1713	domain USP
+474	P	0.1750	domain USP
+475	I	0.1836	domain USP
+476	T	0.1821	domain USP
+477	N	0.1833	domain USP
+478	V	0.1699	domain USP
+479	D	0.1571	domain USP
+480	L	0.1544	domain USP
+481	R	0.1582	domain USP
+482	E	0.1813	domain USP
+483	Y	0.2109	domain USP
+484	L	0.2387	domain USP
+485	S	0.2655	domain USP
+486	E	0.2875	domain USP
+487	E	0.2842	domain USP
+488	V	0.2664	domain USP
+489	Q	0.2391	domain USP
+490	A	0.2175	domain USP
+491	V	0.1935	domain USP
+492	H	0.1751	domain USP
+493	K	0.1757	domain USP
+494	N	0.1751	domain USP
+495	T	0.1850	domain USP
+496	T	0.1987	domain USP
+497	Y	0.2224	domain USP
+498	D	0.2560	domain USP
+499	L	0.2879	domain USP
+500	I	0.3172	domain USP
+501	A	0.3417	domain USP
+502	N	0.3465	domain USP
+503	I	0.3377	domain USP
+504	V	0.3170	domain USP
+505	H	0.2889	domain USP
+506	D	0.2541	domain USP
+507	G	0.2147	domain USP
+508	K	0.1984	domain USP
+509	P	0.2048	domain USP
+510	S	0.2319	domain USP
+511	E	0.2783	domain USP
+512	G	0.3245	domain USP
+513	S	0.3536	domain USP
+514	Y	0.3750	domain USP
+515	R	0.3727	domain USP
+516	I	0.3617	domain USP
+517	H	0.3294	domain USP
+518	V	0.2779	domain USP
+519	L	0.2293	domain USP
+520	H	0.1928	domain USP
+521	H	0.1616	domain USP
+522	G	0.1316	domain USP
+523	T	0.1190	domain USP
+524	G	0.1218	domain USP
+525	K	0.1206	domain USP
+526	W	0.1299	domain USP
+527	Y	0.1480	domain USP
+528	E	0.1612	domain USP
+529	L	0.1684	domain USP
+530	Q	0.1651	domain USP
+531	D	0.1570	domain USP
+532	L	0.1432	domain USP
+533	Q	0.1273	domain USP
+534	V	0.1232	domain USP
+535	T	0.1158	domain USP
+536	D	0.1090	domain USP
+537	I	0.0994	domain USP
+538	L	0.1003	domain USP
+539	P	0.1070	domain USP
+540	Q	0.1036	domain USP
+541	M	0.0869	domain USP
+542	I	0.0741	domain USP
+543	T	0.0661	domain USP
+544	L	0.0719	domain USP
+545	S	0.0832	domain USP
+546	E	0.1096	domain USP
+547	A	0.1364	domain USP
+548	Y	0.1672	domain USP
+549	I	0.2136	domain USP
+550	Q	0.2595	domain USP
+551	I	0.3038	domain USP
+552	W	0.3357	domain USP
+553	K	0.3677	domain USP
+554	R	0.3951	domain USP
+555	R	0.4059	domain USP
+556	D	0.4175	
+557	N	0.4366	
+558	D	0.4685	
+559	E	0.5174	
+560	T	0.5847	
+561	N	0.6682	
+562	Q	0.7610	
+563	Q	0.8506	
+564	G	0.9178	
+565	A	0.9357	

@@ -1,0 +1,2362 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-07-11" modified="2024-10-02" version="183" xmlns="http://uniprot.org/uniprot">
+  <accession>Q8N5A5</accession>
+  <accession>E1P5K1</accession>
+  <accession>Q4VXN9</accession>
+  <accession>Q5JWI9</accession>
+  <accession>Q5JWJ0</accession>
+  <accession>Q8NC55</accession>
+  <accession>Q8WUV4</accession>
+  <accession>Q96JI0</accession>
+  <accession>Q96JU4</accession>
+  <accession>Q9H401</accession>
+  <name>ZGPAT_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName>Zinc finger CCCH-type with G patch domain-containing protein</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>G patch domain-containing protein 6</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Zinc finger CCCH domain-containing protein 9</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Zinc finger and G patch domain-containing protein</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">ZGPAT</name>
+    <name type="synonym">GPATC6</name>
+    <name type="synonym">GPATCH6</name>
+    <name type="synonym">KIAA1847</name>
+    <name type="synonym">ZC3H9</name>
+    <name type="synonym">ZC3HDC9</name>
+    <name type="synonym">ZIP</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2001" name="DNA Res." volume="8" first="85" last="95">
+      <title>Prediction of the coding sequences of unidentified human genes. XX. The complete sequences of 100 new cDNA clones from brain which code for large proteins in vitro.</title>
+      <authorList>
+        <person name="Nagase T."/>
+        <person name="Nakayama M."/>
+        <person name="Nakajima D."/>
+        <person name="Kikuno R."/>
+        <person name="Ohara O."/>
+      </authorList>
+      <dbReference type="PubMed" id="11347906"/>
+      <dbReference type="DOI" id="10.1093/dnares/8.2.85"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)</scope>
+    <scope>VARIANT ARG-61</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="submission" date="2009-06" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Ohara O."/>
+        <person name="Nagase T."/>
+        <person name="Kikuno R."/>
+      </authorList>
+    </citation>
+    <scope>SEQUENCE REVISION</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+      <title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+      <authorList>
+        <person name="Ota T."/>
+        <person name="Suzuki Y."/>
+        <person name="Nishikawa T."/>
+        <person name="Otsuki T."/>
+        <person name="Sugiyama T."/>
+        <person name="Irie R."/>
+        <person name="Wakamatsu A."/>
+        <person name="Hayashi K."/>
+        <person name="Sato H."/>
+        <person name="Nagai K."/>
+        <person name="Kimura K."/>
+        <person name="Makita H."/>
+        <person name="Sekine M."/>
+        <person name="Obayashi M."/>
+        <person name="Nishi T."/>
+        <person name="Shibahara T."/>
+        <person name="Tanaka T."/>
+        <person name="Ishii S."/>
+        <person name="Yamamoto J."/>
+        <person name="Saito K."/>
+        <person name="Kawai Y."/>
+        <person name="Isono Y."/>
+        <person name="Nakamura Y."/>
+        <person name="Nagahari K."/>
+        <person name="Murakami K."/>
+        <person name="Yasuda T."/>
+        <person name="Iwayanagi T."/>
+        <person name="Wagatsuma M."/>
+        <person name="Shiratori A."/>
+        <person name="Sudo H."/>
+        <person name="Hosoiri T."/>
+        <person name="Kaku Y."/>
+        <person name="Kodaira H."/>
+        <person name="Kondo H."/>
+        <person name="Sugawara M."/>
+        <person name="Takahashi M."/>
+        <person name="Kanda K."/>
+        <person name="Yokoi T."/>
+        <person name="Furuya T."/>
+        <person name="Kikkawa E."/>
+        <person name="Omura Y."/>
+        <person name="Abe K."/>
+        <person name="Kamihara K."/>
+        <person name="Katsuta N."/>
+        <person name="Sato K."/>
+        <person name="Tanikawa M."/>
+        <person name="Yamazaki M."/>
+        <person name="Ninomiya K."/>
+        <person name="Ishibashi T."/>
+        <person name="Yamashita H."/>
+        <person name="Murakawa K."/>
+        <person name="Fujimori K."/>
+        <person name="Tanai H."/>
+        <person name="Kimata M."/>
+        <person name="Watanabe M."/>
+        <person name="Hiraoka S."/>
+        <person name="Chiba Y."/>
+        <person name="Ishida S."/>
+        <person name="Ono Y."/>
+        <person name="Takiguchi S."/>
+        <person name="Watanabe S."/>
+        <person name="Yosida M."/>
+        <person name="Hotuta T."/>
+        <person name="Kusano J."/>
+        <person name="Kanehori K."/>
+        <person name="Takahashi-Fujii A."/>
+        <person name="Hara H."/>
+        <person name="Tanase T.-O."/>
+        <person name="Nomura Y."/>
+        <person name="Togiya S."/>
+        <person name="Komai F."/>
+        <person name="Hara R."/>
+        <person name="Takeuchi K."/>
+        <person name="Arita M."/>
+        <person name="Imose N."/>
+        <person name="Musashino K."/>
+        <person name="Yuuki H."/>
+        <person name="Oshima A."/>
+        <person name="Sasaki N."/>
+        <person name="Aotsuka S."/>
+        <person name="Yoshikawa Y."/>
+        <person name="Matsunawa H."/>
+        <person name="Ichihara T."/>
+        <person name="Shiohata N."/>
+        <person name="Sano S."/>
+        <person name="Moriya S."/>
+        <person name="Momiyama H."/>
+        <person name="Satoh N."/>
+        <person name="Takami S."/>
+        <person name="Terashima Y."/>
+        <person name="Suzuki O."/>
+        <person name="Nakagawa S."/>
+        <person name="Senoh A."/>
+        <person name="Mizoguchi H."/>
+        <person name="Goto Y."/>
+        <person name="Shimizu F."/>
+        <person name="Wakebe H."/>
+        <person name="Hishigaki H."/>
+        <person name="Watanabe T."/>
+        <person name="Sugiyama A."/>
+        <person name="Takemoto M."/>
+        <person name="Kawakami B."/>
+        <person name="Yamazaki M."/>
+        <person name="Watanabe K."/>
+        <person name="Kumagai A."/>
+        <person name="Itakura S."/>
+        <person name="Fukuzumi Y."/>
+        <person name="Fujimori Y."/>
+        <person name="Komiyama M."/>
+        <person name="Tashiro H."/>
+        <person name="Tanigami A."/>
+        <person name="Fujiwara T."/>
+        <person name="Ono T."/>
+        <person name="Yamada K."/>
+        <person name="Fujii Y."/>
+        <person name="Ozaki K."/>
+        <person name="Hirao M."/>
+        <person name="Ohmori Y."/>
+        <person name="Kawabata A."/>
+        <person name="Hikiji T."/>
+        <person name="Kobatake N."/>
+        <person name="Inagaki H."/>
+        <person name="Ikema Y."/>
+        <person name="Okamoto S."/>
+        <person name="Okitani R."/>
+        <person name="Kawakami T."/>
+        <person name="Noguchi S."/>
+        <person name="Itoh T."/>
+        <person name="Shigeta K."/>
+        <person name="Senba T."/>
+        <person name="Matsumura K."/>
+        <person name="Nakajima Y."/>
+        <person name="Mizuno T."/>
+        <person name="Morinaga M."/>
+        <person name="Sasaki M."/>
+        <person name="Togashi T."/>
+        <person name="Oyama M."/>
+        <person name="Hata H."/>
+        <person name="Watanabe M."/>
+        <person name="Komatsu T."/>
+        <person name="Mizushima-Sugano J."/>
+        <person name="Satoh T."/>
+        <person name="Shirai Y."/>
+        <person name="Takahashi Y."/>
+        <person name="Nakagawa K."/>
+        <person name="Okumura K."/>
+        <person name="Nagase T."/>
+        <person name="Nomura N."/>
+        <person name="Kikuchi H."/>
+        <person name="Masuho Y."/>
+        <person name="Yamashita R."/>
+        <person name="Nakai K."/>
+        <person name="Yada T."/>
+        <person name="Nakamura Y."/>
+        <person name="Ohara O."/>
+        <person name="Isogai T."/>
+        <person name="Sugano S."/>
+      </authorList>
+      <dbReference type="PubMed" id="14702039"/>
+      <dbReference type="DOI" id="10.1038/ng1285"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope>
+    <scope>VARIANT ARG-61</scope>
+    <source>
+      <tissue>Thyroid</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2001" name="Nature" volume="414" first="865" last="871">
+      <title>The DNA sequence and comparative analysis of human chromosome 20.</title>
+      <authorList>
+        <person name="Deloukas P."/>
+        <person name="Matthews L.H."/>
+        <person name="Ashurst J.L."/>
+        <person name="Burton J."/>
+        <person name="Gilbert J.G.R."/>
+        <person name="Jones M."/>
+        <person name="Stavrides G."/>
+        <person name="Almeida J.P."/>
+        <person name="Babbage A.K."/>
+        <person name="Bagguley C.L."/>
+        <person name="Bailey J."/>
+        <person name="Barlow K.F."/>
+        <person name="Bates K.N."/>
+        <person name="Beard L.M."/>
+        <person name="Beare D.M."/>
+        <person name="Beasley O.P."/>
+        <person name="Bird C.P."/>
+        <person name="Blakey S.E."/>
+        <person name="Bridgeman A.M."/>
+        <person name="Brown A.J."/>
+        <person name="Buck D."/>
+        <person name="Burrill W.D."/>
+        <person name="Butler A.P."/>
+        <person name="Carder C."/>
+        <person name="Carter N.P."/>
+        <person name="Chapman J.C."/>
+        <person name="Clamp M."/>
+        <person name="Clark G."/>
+        <person name="Clark L.N."/>
+        <person name="Clark S.Y."/>
+        <person name="Clee C.M."/>
+        <person name="Clegg S."/>
+        <person name="Cobley V.E."/>
+        <person name="Collier R.E."/>
+        <person name="Connor R.E."/>
+        <person name="Corby N.R."/>
+        <person name="Coulson A."/>
+        <person name="Coville G.J."/>
+        <person name="Deadman R."/>
+        <person name="Dhami P.D."/>
+        <person name="Dunn M."/>
+        <person name="Ellington A.G."/>
+        <person name="Frankland J.A."/>
+        <person name="Fraser A."/>
+        <person name="French L."/>
+        <person name="Garner P."/>
+        <person name="Grafham D.V."/>
+        <person name="Griffiths C."/>
+        <person name="Griffiths M.N.D."/>
+        <person name="Gwilliam R."/>
+        <person name="Hall R.E."/>
+        <person name="Hammond S."/>
+        <person name="Harley J.L."/>
+        <person name="Heath P.D."/>
+        <person name="Ho S."/>
+        <person name="Holden J.L."/>
+        <person name="Howden P.J."/>
+        <person name="Huckle E."/>
+        <person name="Hunt A.R."/>
+        <person name="Hunt S.E."/>
+        <person name="Jekosch K."/>
+        <person name="Johnson C.M."/>
+        <person name="Johnson D."/>
+        <person name="Kay M.P."/>
+        <person name="Kimberley A.M."/>
+        <person name="King A."/>
+        <person name="Knights A."/>
+        <person name="Laird G.K."/>
+        <person name="Lawlor S."/>
+        <person name="Lehvaeslaiho M.H."/>
+        <person name="Leversha M.A."/>
+        <person name="Lloyd C."/>
+        <person name="Lloyd D.M."/>
+        <person name="Lovell J.D."/>
+        <person name="Marsh V.L."/>
+        <person name="Martin S.L."/>
+        <person name="McConnachie L.J."/>
+        <person name="McLay K."/>
+        <person name="McMurray A.A."/>
+        <person name="Milne S.A."/>
+        <person name="Mistry D."/>
+        <person name="Moore M.J.F."/>
+        <person name="Mullikin J.C."/>
+        <person name="Nickerson T."/>
+        <person name="Oliver K."/>
+        <person name="Parker A."/>
+        <person name="Patel R."/>
+        <person name="Pearce T.A.V."/>
+        <person name="Peck A.I."/>
+        <person name="Phillimore B.J.C.T."/>
+        <person name="Prathalingam S.R."/>
+        <person name="Plumb R.W."/>
+        <person name="Ramsay H."/>
+        <person name="Rice C.M."/>
+        <person name="Ross M.T."/>
+        <person name="Scott C.E."/>
+        <person name="Sehra H.K."/>
+        <person name="Shownkeen R."/>
+        <person name="Sims S."/>
+        <person name="Skuce C.D."/>
+        <person name="Smith M.L."/>
+        <person name="Soderlund C."/>
+        <person name="Steward C.A."/>
+        <person name="Sulston J.E."/>
+        <person name="Swann R.M."/>
+        <person name="Sycamore N."/>
+        <person name="Taylor R."/>
+        <person name="Tee L."/>
+        <person name="Thomas D.W."/>
+        <person name="Thorpe A."/>
+        <person name="Tracey A."/>
+        <person name="Tromans A.C."/>
+        <person name="Vaudin M."/>
+        <person name="Wall M."/>
+        <person name="Wallis J.M."/>
+        <person name="Whitehead S.L."/>
+        <person name="Whittaker P."/>
+        <person name="Willey D.L."/>
+        <person name="Williams L."/>
+        <person name="Williams S.A."/>
+        <person name="Wilming L."/>
+        <person name="Wray P.W."/>
+        <person name="Hubbard T."/>
+        <person name="Durbin R.M."/>
+        <person name="Bentley D.R."/>
+        <person name="Beck S."/>
+        <person name="Rogers J."/>
+      </authorList>
+      <dbReference type="PubMed" id="11780052"/>
+      <dbReference type="DOI" id="10.1038/414865a"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="5">
+    <citation type="submission" date="2005-09" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Mural R.J."/>
+        <person name="Istrail S."/>
+        <person name="Sutton G.G."/>
+        <person name="Florea L."/>
+        <person name="Halpern A.L."/>
+        <person name="Mobarry C.M."/>
+        <person name="Lippert R."/>
+        <person name="Walenz B."/>
+        <person name="Shatkay H."/>
+        <person name="Dew I."/>
+        <person name="Miller J.R."/>
+        <person name="Flanigan M.J."/>
+        <person name="Edwards N.J."/>
+        <person name="Bolanos R."/>
+        <person name="Fasulo D."/>
+        <person name="Halldorsson B.V."/>
+        <person name="Hannenhalli S."/>
+        <person name="Turner R."/>
+        <person name="Yooseph S."/>
+        <person name="Lu F."/>
+        <person name="Nusskern D.R."/>
+        <person name="Shue B.C."/>
+        <person name="Zheng X.H."/>
+        <person name="Zhong F."/>
+        <person name="Delcher A.L."/>
+        <person name="Huson D.H."/>
+        <person name="Kravitz S.A."/>
+        <person name="Mouchard L."/>
+        <person name="Reinert K."/>
+        <person name="Remington K.A."/>
+        <person name="Clark A.G."/>
+        <person name="Waterman M.S."/>
+        <person name="Eichler E.E."/>
+        <person name="Adams M.D."/>
+        <person name="Hunkapiller M.W."/>
+        <person name="Myers E.W."/>
+        <person name="Venter J.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <scope>VARIANT ARG-61</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 2 AND 3)</scope>
+    <scope>VARIANT ARG-61</scope>
+    <source>
+      <tissue>Placenta</tissue>
+      <tissue>Uterus</tissue>
+    </source>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2009" name="EMBO J." volume="28" first="2763" last="2776">
+      <title>ZIP: a novel transcription repressor, represses EGFR oncogene and suppresses breast carcinogenesis.</title>
+      <authorList>
+        <person name="Li R."/>
+        <person name="Zhang H."/>
+        <person name="Yu W."/>
+        <person name="Chen Y."/>
+        <person name="Gui B."/>
+        <person name="Liang J."/>
+        <person name="Wang Y."/>
+        <person name="Sun L."/>
+        <person name="Yang X."/>
+        <person name="Zhang Y."/>
+        <person name="Shi L."/>
+        <person name="Li Y."/>
+        <person name="Shang Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="19644445"/>
+      <dbReference type="DOI" id="10.1038/emboj.2009.211"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>DNA-BINDING</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <scope>INTERACTION WITH CHD4</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2010" name="J. Biol. Chem." volume="285" first="14301" last="14307">
+      <title>sZIP, an alternative splice variant of ZIP, antagonizes transcription repression and growth inhibition by ZIP.</title>
+      <authorList>
+        <person name="Yu W."/>
+        <person name="Li R."/>
+        <person name="Gui B."/>
+        <person name="Shang Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="20233718"/>
+      <dbReference type="DOI" id="10.1074/jbc.m110.107508"/>
+    </citation>
+    <scope>ALTERNATIVE SPLICING (ISOFORM 4)</scope>
+    <scope>FUNCTION (ISOFORM 4)</scope>
+    <scope>SUBCELLULAR LOCATION (ISOFORM 4)</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2012" name="Proc. Natl. Acad. Sci. U.S.A." volume="109" first="12449" last="12454">
+      <title>N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.</title>
+      <authorList>
+        <person name="Van Damme P."/>
+        <person name="Lasa M."/>
+        <person name="Polevoda B."/>
+        <person name="Gazquez C."/>
+        <person name="Elosegui-Artola A."/>
+        <person name="Kim D.S."/>
+        <person name="De Juan-Pardo E."/>
+        <person name="Demeyer K."/>
+        <person name="Hole K."/>
+        <person name="Larrea E."/>
+        <person name="Timmerman E."/>
+        <person name="Prieto J."/>
+        <person name="Arnesen T."/>
+        <person name="Sherman F."/>
+        <person name="Gevaert K."/>
+        <person name="Aldabe R."/>
+      </authorList>
+      <dbReference type="PubMed" id="22814378"/>
+      <dbReference type="DOI" id="10.1073/pnas.1210303109"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT MET-1</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2013" name="PLoS ONE" volume="8" first="E77320" last="E77320">
+      <title>HIV-1 Vpr Induces the Degradation of ZIP and sZIP, Adaptors of the NuRD Chromatin Remodeling Complex, by Hijacking DCAF1/VprBP.</title>
+      <authorList>
+        <person name="Maudet C."/>
+        <person name="Sourisce A."/>
+        <person name="Dragin L."/>
+        <person name="Lahouassa H."/>
+        <person name="Rain J.C."/>
+        <person name="Bouaziz S."/>
+        <person name="Ramirez B.C."/>
+        <person name="Margottin-Goguet F."/>
+      </authorList>
+      <dbReference type="PubMed" id="24116224"/>
+      <dbReference type="DOI" id="10.1371/journal.pone.0077320"/>
+    </citation>
+    <scope>UBIQUITINATION</scope>
+  </reference>
+  <reference key="12">
+    <citation type="submission" date="2013-02" db="PDB data bank">
+      <title>Crystal structure of the zinc finger of ZGPAT.</title>
+      <authorList>
+        <consortium name="Structural genomics consortium (SGC)"/>
+      </authorList>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.65 ANGSTROMS) OF 120-268 IN COMPLEX WITH ZINC IONS</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="8">Transcription repressor that specifically binds the 5'-GGAG[GA]A[GA]A-3' consensus sequence. Represses transcription by recruiting the chromatin multiprotein complex NuRD to target promoters. Negatively regulates expression of EGFR, a gene involved in cell proliferation, survival and migration. Its ability to repress genes of the EGFR pathway suggest it may act as a tumor suppressor. Able to suppress breast carcinogenesis.</text>
+  </comment>
+  <comment type="function">
+    <molecule>Isoform 4</molecule>
+    <text evidence="8">Antagonizes the transcription repression by isoform 1 by competing for the binding of the NuRD complex. Does not bind DNA.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="8 11">Interacts with CHD4/Mi-2; the interaction is direct.</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-745226">
+      <id>Q13155</id>
+      <label>AIMP2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-10187270">
+      <id>Q9Y2J4-4</id>
+      <label>AMOTL2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-724373">
+      <id>Q7L4P6</id>
+      <label>BEND5</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-2548012">
+      <id>Q9H2G9</id>
+      <label>BLZF1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-2808286">
+      <id>Q2TAC2</id>
+      <label>CCDC57</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-748961">
+      <id>O95273</id>
+      <label>CCNDBP1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-739624">
+      <id>Q8NHQ1</id>
+      <label>CEP70</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+      <label>DHX15</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-740680">
+      <id>Q8WWB3</id>
+      <label>DYDC1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-10175124">
+      <id>Q8IZU0</id>
+      <label>FAM9B</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-618309">
+      <id>Q08379</id>
+      <label>GOLGA2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-747204">
+      <id>Q9UKT9</id>
+      <label>IKZF3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-2125614">
+      <id>Q9BVG8</id>
+      <label>KIFC3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-739566">
+      <id>P19012</id>
+      <label>KRT15</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-10171697">
+      <id>Q6A162</id>
+      <label>KRT40</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-740738">
+      <id>O95751</id>
+      <label>LDOC1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>5</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-741037">
+      <id>Q9BRK4</id>
+      <label>LZTS2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-10172526">
+      <id>Q9UJV3-2</id>
+      <label>MID2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-2548751">
+      <id>Q8TD10</id>
+      <label>MIPOL1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-713786">
+      <id>Q8IXK0</id>
+      <label>PHC2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-2212028">
+      <id>Q9Y2D8</id>
+      <label>SSX2IP</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-745680">
+      <id>Q96MF2</id>
+      <label>STAC3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-1105213">
+      <id>Q9UBB9</id>
+      <label>TFIP11</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>5</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-717810">
+      <id>Q08117</id>
+      <label>TLE5</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-10175039">
+      <id>Q13625-3</id>
+      <label>TP53BP2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-719493">
+      <id>P14373</id>
+      <label>TRIM27</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-2130429">
+      <id>Q9BYV2</id>
+      <label>TRIM54</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+    </interactant>
+    <interactant intactId="EBI-742740">
+      <id>Q96BR9</id>
+      <label>ZBTB8A</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-745226">
+      <id>Q13155</id>
+      <label>AIMP2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>12</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-746752">
+      <id>Q9Y2J4</id>
+      <label>AMOTL2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-10187270">
+      <id>Q9Y2J4-4</id>
+      <label>AMOTL2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-2548012">
+      <id>Q9H2G9</id>
+      <label>BLZF1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-3844053">
+      <id>Q13901</id>
+      <label>C1D</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-11530605">
+      <id>Q9H257-2</id>
+      <label>CARD9</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-12836558">
+      <id>Q5BKX8</id>
+      <label>CAVIN4</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-10961312">
+      <id>Q8IYE1</id>
+      <label>CCDC13</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-10181422">
+      <id>A0A1B0GWI1</id>
+      <label>CCDC196</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-10961624">
+      <id>Q2TAC2-2</id>
+      <label>CCDC57</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-10175300">
+      <id>Q8TD31-3</id>
+      <label>CCHCR1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-5278764">
+      <id>Q96GN5</id>
+      <label>CDCA7L</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>9</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-1181367">
+      <id>Q01850</id>
+      <label>CDR2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-739624">
+      <id>Q8NHQ1</id>
+      <label>CEP70</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>9</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-741671">
+      <id>Q969H4</id>
+      <label>CNKSR1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-11962928">
+      <id>Q9UI47-2</id>
+      <label>CTNNA3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+      <label>DHX15</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>12</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-12089140">
+      <id>A0A0A0MR80</id>
+      <label>EP400</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-10175124">
+      <id>Q8IZU0</id>
+      <label>FAM9B</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-923440">
+      <id>Q8WXI9</id>
+      <label>GATAD2B</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-618309">
+      <id>Q08379</id>
+      <label>GOLGA2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>12</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-5916454">
+      <id>A6NEM1</id>
+      <label>GOLGA6L9</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-10961706">
+      <id>Q96ED9-2</id>
+      <label>HOOK2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-7116203">
+      <id>O75031</id>
+      <label>HSF2BP</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-747204">
+      <id>Q9UKT9</id>
+      <label>IKZF3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-3437878">
+      <id>Q86T90</id>
+      <label>KIAA1328</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>5</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-2125614">
+      <id>Q9BVG8</id>
+      <label>KIFC3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-14069005">
+      <id>Q9BVG8-5</id>
+      <label>KIFC3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-739566">
+      <id>P19012</id>
+      <label>KRT15</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-948001">
+      <id>Q15323</id>
+      <label>KRT31</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-10171697">
+      <id>Q6A162</id>
+      <label>KRT40</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-8473670">
+      <id>O95447</id>
+      <label>LCA5L</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-740738">
+      <id>O95751</id>
+      <label>LDOC1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-739832">
+      <id>Q8TBB1</id>
+      <label>LNX1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-1216080">
+      <id>Q9Y250</id>
+      <label>LZTS1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-741037">
+      <id>Q9BRK4</id>
+      <label>LZTS2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>9</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-10172526">
+      <id>Q9UJV3-2</id>
+      <label>MID2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>9</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-2548751">
+      <id>Q8TD10</id>
+      <label>MIPOL1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-743811">
+      <id>Q8NEH6</id>
+      <label>MNS1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-2880203">
+      <id>O76041</id>
+      <label>NEBL</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-748974">
+      <id>Q96CV9</id>
+      <label>OPTN</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-713786">
+      <id>Q8IXK0</id>
+      <label>PHC2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-1105153">
+      <id>Q96KQ4</id>
+      <label>PPP1R13B</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-717048">
+      <id>P60903</id>
+      <label>S100A10</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-748391">
+      <id>Q9BWG6</id>
+      <label>SCNM1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-748621">
+      <id>Q9UJW9</id>
+      <label>SERTAD3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-876439">
+      <id>P09661</id>
+      <label>SNRPA1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-2212028">
+      <id>Q9Y2D8</id>
+      <label>SSX2IP</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-745680">
+      <id>Q96MF2</id>
+      <label>STAC3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-18173581">
+      <id>Q86TJ2-3</id>
+      <label>TADA2B</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-7413767">
+      <id>Q9Y242</id>
+      <label>TCF19</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-1105213">
+      <id>Q9UBB9</id>
+      <label>TFIP11</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>9</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-741515">
+      <id>Q9NVV9</id>
+      <label>THAP1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-3925505">
+      <id>Q8TBB0</id>
+      <label>THAP6</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-717810">
+      <id>Q08117</id>
+      <label>TLE5</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-11741437">
+      <id>Q08117-2</id>
+      <label>TLE5</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>9</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-11952721">
+      <id>Q05BL1</id>
+      <label>TP53BP2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-10175039">
+      <id>Q13625-3</id>
+      <label>TP53BP2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-2820256">
+      <id>Q14142</id>
+      <label>TRIM14</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-719493">
+      <id>P14373</id>
+      <label>TRIM27</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>9</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-11524408">
+      <id>Q5T124-6</id>
+      <label>UBXN11</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-12275374">
+      <id>Q5TFG8</id>
+      <label>ZC2HC1B</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-12272076">
+      <id>Q13360-2</id>
+      <label>ZNF177</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-707773">
+      <id>P17028</id>
+      <label>ZNF24</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-7233259">
+      <id>Q86UD4</id>
+      <label>ZNF329</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-11041653">
+      <id>P13682</id>
+      <label>ZNF35</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-743265">
+      <id>Q9BUY5</id>
+      <label>ZNF426</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-6427977">
+      <id>Q96SQ5</id>
+      <label>ZNF587</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-4395732">
+      <id>P0C7X2</id>
+      <label>ZNF688</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-7138235">
+      <id>Q9NQZ8</id>
+      <label>ZNF71</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-10178224">
+      <id>P10073</id>
+      <label>ZSCAN22</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+    </interactant>
+    <interactant intactId="EBI-17493569">
+      <id>P98169</id>
+      <label>ZXDB</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="8">Nucleus</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="subcellular location">
+    <molecule>Isoform 4</molecule>
+    <subcellularLocation>
+      <location evidence="9">Nucleus</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="alternative products">
+    <event type="alternative splicing"/>
+    <isoform>
+      <id>Q8N5A5-1</id>
+      <name>1</name>
+      <sequence type="displayed"/>
+    </isoform>
+    <isoform>
+      <id>Q8N5A5-2</id>
+      <name>2</name>
+      <sequence type="described" ref="VSP_007754"/>
+    </isoform>
+    <isoform>
+      <id>Q8N5A5-3</id>
+      <name>3</name>
+      <sequence type="described" ref="VSP_038121"/>
+    </isoform>
+    <isoform>
+      <id>Q8N5A5-4</id>
+      <name>4</name>
+      <name>sZIP</name>
+      <sequence type="described" ref="VSP_053599"/>
+    </isoform>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="8">Widely expressed.</text>
+  </comment>
+  <comment type="induction">
+    <text>Down-regulated in breast carcinomas.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="10">Ubiquitinated in case of infection by HIV-1, leading to its degradation. Ubiquitination is mediated by the CUL4A-RBX1-DDB1-DCAF1/VPRBP complex that is hijacked by HIV-1 via interaction between HIV-1 Vpr and DCAF1/VPRBP.</text>
+  </comment>
+  <comment type="sequence caution" evidence="15">
+    <conflict type="erroneous initiation">
+      <sequence resource="EMBL-CDS" id="BAB47476" version="3"/>
+    </conflict>
+    <text>Extended N-terminus.</text>
+  </comment>
+  <comment type="sequence caution" evidence="15">
+    <conflict type="frameshift">
+      <sequence resource="EMBL-CDS" id="BAC11317" version="1"/>
+    </conflict>
+  </comment>
+  <dbReference type="EMBL" id="AB058750">
+    <property type="protein sequence ID" value="BAB47476.3"/>
+    <property type="status" value="ALT_INIT"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AK027878">
+    <property type="protein sequence ID" value="BAB55426.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AK074961">
+    <property type="protein sequence ID" value="BAC11317.1"/>
+    <property type="status" value="ALT_FRAME"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AL121845">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CH471077">
+    <property type="protein sequence ID" value="EAW75223.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CH471077">
+    <property type="protein sequence ID" value="EAW75226.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC019338">
+    <property type="protein sequence ID" value="AAH19338.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC032612">
+    <property type="protein sequence ID" value="AAH32612.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS13534.1">
+    <molecule id="Q8N5A5-1"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS13535.1">
+    <molecule id="Q8N5A5-2"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS56203.1">
+    <molecule id="Q8N5A5-3"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001076582.1">
+    <molecule id="Q8N5A5-2"/>
+    <property type="nucleotide sequence ID" value="NM_001083113.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001182582.1">
+    <molecule id="Q8N5A5-2"/>
+    <property type="nucleotide sequence ID" value="NM_001195653.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001182583.1">
+    <molecule id="Q8N5A5-3"/>
+    <property type="nucleotide sequence ID" value="NM_001195654.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_115916.3">
+    <molecule id="Q8N5A5-1"/>
+    <property type="nucleotide sequence ID" value="NM_032527.4"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_852150.2">
+    <molecule id="Q8N5A5-2"/>
+    <property type="nucleotide sequence ID" value="NM_181485.2"/>
+  </dbReference>
+  <dbReference type="PDB" id="4II1">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.65 A"/>
+    <property type="chains" value="A/B/C/D=120-268"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="4II1"/>
+  <dbReference type="AlphaFoldDB" id="Q8N5A5"/>
+  <dbReference type="SMR" id="Q8N5A5"/>
+  <dbReference type="BioGRID" id="124150">
+    <property type="interactions" value="196"/>
+  </dbReference>
+  <dbReference type="IntAct" id="Q8N5A5">
+    <property type="interactions" value="141"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q8N5A5"/>
+  <dbReference type="STRING" id="9606.ENSP00000332013"/>
+  <dbReference type="GlyGen" id="Q8N5A5">
+    <property type="glycosylation" value="1 site, 1 O-linked glycan (1 site)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="Q8N5A5"/>
+  <dbReference type="PhosphoSitePlus" id="Q8N5A5"/>
+  <dbReference type="BioMuta" id="ZGPAT"/>
+  <dbReference type="DMDM" id="147744602"/>
+  <dbReference type="jPOST" id="Q8N5A5"/>
+  <dbReference type="MassIVE" id="Q8N5A5"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000332013"/>
+  <dbReference type="PeptideAtlas" id="Q8N5A5"/>
+  <dbReference type="ProteomicsDB" id="72025">
+    <molecule id="Q8N5A5-1"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="72026">
+    <molecule id="Q8N5A5-2"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="72027">
+    <molecule id="Q8N5A5-3"/>
+  </dbReference>
+  <dbReference type="Pumba" id="Q8N5A5"/>
+  <dbReference type="ABCD" id="Q8N5A5">
+    <property type="antibodies" value="4 sequenced antibodies"/>
+  </dbReference>
+  <dbReference type="Antibodypedia" id="29857">
+    <property type="antibodies" value="150 antibodies from 26 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="84619"/>
+  <dbReference type="Ensembl" id="ENST00000328969.5">
+    <molecule id="Q8N5A5-1"/>
+    <property type="protein sequence ID" value="ENSP00000332013.5"/>
+    <property type="gene ID" value="ENSG00000197114.12"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000355969.11">
+    <molecule id="Q8N5A5-2"/>
+    <property type="protein sequence ID" value="ENSP00000348242.6"/>
+    <property type="gene ID" value="ENSG00000197114.12"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000357119.8">
+    <molecule id="Q8N5A5-3"/>
+    <property type="protein sequence ID" value="ENSP00000349634.4"/>
+    <property type="gene ID" value="ENSG00000197114.12"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000369967.7">
+    <molecule id="Q8N5A5-2"/>
+    <property type="protein sequence ID" value="ENSP00000358984.3"/>
+    <property type="gene ID" value="ENSG00000197114.12"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000448100.6">
+    <molecule id="Q8N5A5-2"/>
+    <property type="protein sequence ID" value="ENSP00000391176.1"/>
+    <property type="gene ID" value="ENSG00000197114.12"/>
+  </dbReference>
+  <dbReference type="GeneID" id="84619"/>
+  <dbReference type="KEGG" id="hsa:84619"/>
+  <dbReference type="MANE-Select" id="ENST00000355969.11">
+    <molecule id="Q8N5A5-2"/>
+    <property type="protein sequence ID" value="ENSP00000348242.6"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_181485.3"/>
+    <property type="RefSeq protein sequence ID" value="NP_852150.2"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc002ygi.3">
+    <molecule id="Q8N5A5-1"/>
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:15948"/>
+  <dbReference type="CTD" id="84619"/>
+  <dbReference type="DisGeNET" id="84619"/>
+  <dbReference type="GeneCards" id="ZGPAT"/>
+  <dbReference type="HGNC" id="HGNC:15948">
+    <property type="gene designation" value="ZGPAT"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000197114">
+    <property type="expression patterns" value="Tissue enriched (liver)"/>
+  </dbReference>
+  <dbReference type="MIM" id="619577">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q8N5A5"/>
+  <dbReference type="OpenTargets" id="ENSG00000197114"/>
+  <dbReference type="PharmGKB" id="PA134881248"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000197114"/>
+  <dbReference type="eggNOG" id="KOG2185">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00390000000732"/>
+  <dbReference type="HOGENOM" id="CLU_040504_1_0_1"/>
+  <dbReference type="InParanoid" id="Q8N5A5"/>
+  <dbReference type="OMA" id="SVDACMN"/>
+  <dbReference type="OrthoDB" id="3060898at2759"/>
+  <dbReference type="PhylomeDB" id="Q8N5A5"/>
+  <dbReference type="TreeFam" id="TF105970"/>
+  <dbReference type="PathwayCommons" id="Q8N5A5"/>
+  <dbReference type="SignaLink" id="Q8N5A5"/>
+  <dbReference type="BioGRID-ORCS" id="84619">
+    <property type="hits" value="25 hits in 1166 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="ZGPAT">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q8N5A5"/>
+  <dbReference type="GeneWiki" id="ZGPAT"/>
+  <dbReference type="GenomeRNAi" id="84619"/>
+  <dbReference type="Pharos" id="Q8N5A5">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q8N5A5"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 20"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q8N5A5">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000197114">
+    <property type="expression patterns" value="Expressed in right lobe of liver and 98 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q8N5A5">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000785">
+    <property type="term" value="C:chromatin"/>
+    <property type="evidence" value="ECO:0000247"/>
+    <property type="project" value="NTNU_SB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005886">
+    <property type="term" value="C:plasma membrane"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003700">
+    <property type="term" value="F:DNA-binding transcription factor activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000981">
+    <property type="term" value="F:DNA-binding transcription factor activity, RNA polymerase II-specific"/>
+    <property type="evidence" value="ECO:0000247"/>
+    <property type="project" value="NTNU_SB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001227">
+    <property type="term" value="F:DNA-binding transcription repressor activity, RNA polymerase II-specific"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="NTNU_SB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000978">
+    <property type="term" value="F:RNA polymerase II cis-regulatory region sequence-specific DNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="NTNU_SB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043565">
+    <property type="term" value="F:sequence-specific DNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045892">
+    <property type="term" value="P:negative regulation of DNA-templated transcription"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0007175">
+    <property type="term" value="P:negative regulation of epidermal growth factor-activated receptor activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000122">
+    <property type="term" value="P:negative regulation of transcription by RNA polymerase II"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="NTNU_SB"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd20384">
+    <property type="entry name" value="Tudor_ZGPAT"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.30.30.1190">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.30.30.140">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000467">
+    <property type="entry name" value="G_patch_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041367">
+    <property type="entry name" value="Znf-CCCH_4"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000571">
+    <property type="entry name" value="Znf_CCCH"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036855">
+    <property type="entry name" value="Znf_CCCH_sf"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR46297">
+    <property type="entry name" value="ZINC FINGER CCCH-TYPE WITH G PATCH DOMAIN-CONTAINING PROTEIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR46297:SF1">
+    <property type="entry name" value="ZINC FINGER CCCH-TYPE WITH G PATCH DOMAIN-CONTAINING PROTEIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01585">
+    <property type="entry name" value="G-patch"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF18044">
+    <property type="entry name" value="zf-CCCH_4"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00443">
+    <property type="entry name" value="G_patch"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00356">
+    <property type="entry name" value="ZnF_C3H1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF90229">
+    <property type="entry name" value="CCCH zinc finger"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF63748">
+    <property type="entry name" value="Tudor/PWWP/MBT"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50174">
+    <property type="entry name" value="G_PATCH"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50103">
+    <property type="entry name" value="ZF_C3H1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0025">Alternative splicing</keyword>
+  <keyword id="KW-0238">DNA-binding</keyword>
+  <keyword id="KW-0479">Metal-binding</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0678">Repressor</keyword>
+  <keyword id="KW-0804">Transcription</keyword>
+  <keyword id="KW-0805">Transcription regulation</keyword>
+  <keyword id="KW-0832">Ubl conjugation</keyword>
+  <keyword id="KW-0862">Zinc</keyword>
+  <keyword id="KW-0863">Zinc-finger</keyword>
+  <feature type="chain" id="PRO_0000213894" description="Zinc finger CCCH-type with G patch domain-containing protein">
+    <location>
+      <begin position="1"/>
+      <end position="531"/>
+    </location>
+  </feature>
+  <feature type="domain" description="G-patch" evidence="2">
+    <location>
+      <begin position="333"/>
+      <end position="379"/>
+    </location>
+  </feature>
+  <feature type="zinc finger region" description="C3H1-type" evidence="3">
+    <location>
+      <begin position="175"/>
+      <end position="201"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="91"/>
+      <end position="133"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="267"/>
+      <end position="289"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="385"/>
+      <end position="409"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="426"/>
+      <end position="446"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="509"/>
+      <end position="531"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="4">
+    <location>
+      <begin position="516"/>
+      <end position="531"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N-acetylmethionine" evidence="16">
+    <location>
+      <position position="1"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="1">
+    <location>
+      <position position="373"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_053599" description="In isoform 4." evidence="15">
+    <location>
+      <begin position="1"/>
+      <end position="343"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_038121" description="In isoform 3." evidence="14">
+    <location>
+      <begin position="282"/>
+      <end position="310"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_007754" description="In isoform 2." evidence="13 14">
+    <location>
+      <begin position="291"/>
+      <end position="310"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_025539" description="In dbSNP:rs1291212." evidence="5 6 7 12">
+    <original>S</original>
+    <variation>R</variation>
+    <location>
+      <position position="61"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 3; BAB55426." evidence="15" ref="3">
+    <original>L</original>
+    <variation>Q</variation>
+    <location>
+      <position position="184"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 3; BAC11317." evidence="15" ref="3">
+    <original>C</original>
+    <variation>R</variation>
+    <location>
+      <position position="188"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 3; BAB55426." evidence="15" ref="3">
+    <original>M</original>
+    <variation>V</variation>
+    <location>
+      <position position="344"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 6; AAH19338." evidence="15" ref="6">
+    <original>G</original>
+    <variation>R</variation>
+    <location>
+      <position position="433"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 3; BAB55426." evidence="15" ref="3">
+    <original>Q</original>
+    <variation>R</variation>
+    <location>
+      <position position="519"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="17">
+    <location>
+      <begin position="133"/>
+      <end position="138"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="17">
+    <location>
+      <begin position="146"/>
+      <end position="157"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="17">
+    <location>
+      <begin position="163"/>
+      <end position="171"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="17">
+    <location>
+      <begin position="175"/>
+      <end position="177"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="17">
+    <location>
+      <begin position="183"/>
+      <end position="185"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="17">
+    <location>
+      <begin position="195"/>
+      <end position="197"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="17">
+    <location>
+      <begin position="200"/>
+      <end position="203"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="17">
+    <location>
+      <begin position="204"/>
+      <end position="206"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="17">
+    <location>
+      <begin position="223"/>
+      <end position="227"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="17">
+    <location>
+      <begin position="233"/>
+      <end position="244"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="17">
+    <location>
+      <begin position="246"/>
+      <end position="252"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="17">
+    <location>
+      <begin position="258"/>
+      <end position="260"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="17">
+    <location>
+      <begin position="262"/>
+      <end position="264"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q8VDM1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="2">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00092"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="3">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00723"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="11347906"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="14702039"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="15489334"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="19644445"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="20233718"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="24116224"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source ref="12"/>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source ref="5"/>
+  </evidence>
+  <evidence type="ECO:0000303" key="13">
+    <source>
+      <dbReference type="PubMed" id="11347906"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="14">
+    <source>
+      <dbReference type="PubMed" id="15489334"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="15"/>
+  <evidence type="ECO:0007744" key="16">
+    <source>
+      <dbReference type="PubMed" id="22814378"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="17">
+    <source>
+      <dbReference type="PDB" id="4II1"/>
+    </source>
+  </evidence>
+  <sequence length="531" mass="57359" checksum="36572156BABDA876" modified="2007-05-15" version="3">MDEESLESALQTYRAQLQQVELALGAGLDSSEQADLRQLQGDLKELIELTEASLVSVRKSSLLAALDEERPGRQEDAEYQAFREAITEAVEAPAAARGSGSETVPKAEAGPESAAGGQEEEEGEDEEELSGTKVSAPYYSSWGTLEYHNAMVVGTEEAEDGSAGVRVLYLYPTHKSLKPCPFFLEGKCRFKENCRFSHGQVVSLDELRPFQDPDLSSLQAGSACLAKHQDGLWHAARITDVDNGYYTVKFDSLLLREAVVEGDGILPPLRTEATESDSDSDGTGDSSYARVVGSDAVDSAQSSALCPSLAVVGSDAVDSGTCSSAFAGWEVHTRGIGSRLLTKMGYEFGKGLGRHAEGRVEPIHAVVLPRGKSLDQCVETLQKQTRVGKAGTNKPPRCRGRGARPGGRPAPRNVFDFLNEKLQGQAPGALEAGAAPAGRRSKDMYHASKSAKRALSLRLFQTEEKIERTQRDIRSIQEALARNAGRHSVASAQLQEKLAGAQRQLGQLRAQEAGLQQEQRKADTHKKMTEF</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

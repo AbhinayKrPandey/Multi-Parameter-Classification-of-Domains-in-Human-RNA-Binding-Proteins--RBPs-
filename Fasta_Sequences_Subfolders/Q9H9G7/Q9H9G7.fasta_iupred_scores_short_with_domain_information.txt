@@ -1,0 +1,872 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9096	
+2	E	0.9093	
+3	I	0.8605	
+4	G	0.7863	
+5	S	0.7040	
+6	A	0.6252	
+7	G	0.5574	
+8	P	0.5040	
+9	A	0.4657	
+10	G	0.4405	
+11	A	0.4196	
+12	Q	0.4110	
+13	P	0.4029	
+14	L	0.3942	
+15	L	0.3906	
+16	M	0.3905	
+17	V	0.3865	
+18	P	0.3722	
+19	R	0.3569	
+20	R	0.3291	
+21	P	0.3025	
+22	G	0.2657	
+23	Y	0.2435	
+24	G	0.2212	
+25	T	0.1991	
+26	M	0.1845	
+27	G	0.1686	
+28	K	0.1566	
+29	P	0.1431	
+30	I	0.1325	
+31	K	0.1184	
+32	L	0.0995	
+33	L	0.0842	
+34	A	0.0768	
+35	N	0.0671	
+36	C	0.0578	
+37	F	0.0539	
+38	Q	0.0418	
+39	V	0.0313	
+40	E	0.0194	
+41	I	0.0154	
+42	P	0.0146	
+43	K	0.0197	
+44	I	0.0285	
+45	D	0.0385	
+46	V	0.0544	
+47	Y	0.0643	
+48	L	0.0766	
+49	Y	0.0917	
+50	E	0.1042	
+51	V	0.1092	
+52	D	0.1049	
+53	I	0.1096	
+54	K	0.1123	
+55	P	0.1186	
+56	D	0.1314	
+57	K	0.1447	
+58	C	0.1701	
+59	P	0.2009	
+60	R	0.2328	
+61	R	0.2594	
+62	V	0.2776	
+63	N	0.2845	
+64	R	0.2818	
+65	E	0.2579	
+66	V	0.2245	
+67	V	0.1957	
+68	D	0.1809	
+69	S	0.1706	
+70	M	0.1565	
+71	V	0.1581	
+72	Q	0.1652	
+73	H	0.1763	
+74	F	0.1849	
+75	K	0.1948	
+76	V	0.2120	
+77	T	0.2212	
+78	I	0.2314	
+79	F	0.2273	
+80	G	0.2313	
+81	D	0.2327	
+82	R	0.2342	
+83	R	0.2365	
+84	P	0.2365	
+85	V	0.2432	
+86	Y	0.2597	
+87	D	0.2907	
+88	G	0.3159	
+89	K	0.3375	
+90	R	0.3519	
+91	S	0.3584	
+92	L	0.3492	
+93	Y	0.3451	
+94	T	0.3431	
+95	A	0.3337	
+96	N	0.3184	
+97	P	0.2941	
+98	L	0.2801	
+99	P	0.2676	
+100	V	0.2650	
+101	A	0.2677	
+102	T	0.2757	
+103	T	0.2947	
+104	G	0.3123	
+105	V	0.3476	
+106	D	0.3777	
+107	L	0.4095	
+108	D	0.4209	
+109	V	0.4279	
+110	T	0.4195	
+111	L	0.4107	
+112	P	0.3927	
+113	G	0.3774	
+114	E	0.3457	
+115	G	0.3211	
+116	G	0.2956	
+117	K	0.2776	
+118	D	0.2750	
+119	R	0.2723	
+120	P	0.2653	
+121	F	0.2587	
+122	K	0.2444	
+123	V	0.2295	
+124	S	0.2013	
+125	I	0.1753	
+126	K	0.1342	
+127	F	0.1063	
+128	V	0.0828	
+129	S	0.0729	
+130	R	0.0595	
+131	V	0.0611	
+132	S	0.0573	
+133	W	0.0723	
+134	H	0.0858	
+135	L	0.1058	
+136	L	0.1177	
+137	H	0.1362	
+138	E	0.1504	
+139	V	0.1570	
+140	L	0.1640	
+141	T	0.1729	
+142	G	0.1869	
+143	R	0.1995	
+144	T	0.2090	
+145	L	0.2367	
+146	P	0.2650	
+147	E	0.3043	
+148	P	0.3275	
+149	L	0.3474	
+150	E	0.3561	
+151	L	0.3645	
+152	D	0.3612	
+153	K	0.3546	
+154	P	0.3210	
+155	I	0.2958	
+156	S	0.2710	
+157	T	0.2598	
+158	N	0.2528	
+159	P	0.2462	
+160	V	0.2543	
+161	H	0.2597	
+162	A	0.2681	
+163	V	0.2709	
+164	D	0.2688	
+165	V	0.2742	
+166	V	0.2637	
+167	L	0.2553	
+168	R	0.2409	
+169	H	0.2248	
+170	L	0.2001	
+171	P	0.1894	
+172	S	0.1805	
+173	M	0.1753	
+174	K	0.1689	
+175	Y	0.1885	
+176	T	0.2081	
+177	P	0.2277	
+178	V	0.2436	
+179	G	0.2543	
+180	R	0.2653	
+181	S	0.2586	
+182	F	0.2554	
+183	F	0.2666	
+184	S	0.2773	
+185	A	0.2976	
+186	P	0.3100	
+187	E	0.3107	
+188	G	0.2856	
+189	Y	0.2673	
+190	D	0.2534	
+191	H	0.2363	
+192	P	0.2080	
+193	L	0.1913	
+194	G	0.1868	
+195	G	0.1988	
+196	G	0.2084	
+197	R	0.2162	
+198	E	0.2207	
+199	V	0.2091	
+200	W	0.1907	
+201	F	0.1715	
+202	G	0.1514	
+203	F	0.1352	
+204	H	0.1140	
+205	Q	0.0927	
+206	S	0.0619	
+207	V	0.0423	
+208	R	0.0368	
+209	P	0.0418	
+210	A	0.0431	
+211	M	0.0454	
+212	W	0.0507	
+213	K	0.0572	
+214	M	0.0593	
+215	M	0.0545	
+216	L	0.0504	
+217	N	0.0434	
+218	I	0.0384	
+219	D	0.0319	
+220	V	0.0300	
+221	S	0.0310	
+222	A	0.0331	
+223	T	0.0372	
+224	A	0.0366	
+225	F	0.0341	
+226	Y	0.0349	
+227	K	0.0376	
+228	A	0.0401	
+229	Q	0.0376	
+230	P	0.0330	domain PAZ
+231	V	0.0297	domain PAZ
+232	I	0.0264	domain PAZ
+233	Q	0.0340	domain PAZ
+234	F	0.0514	domain PAZ
+235	M	0.0677	domain PAZ
+236	C	0.0914	domain PAZ
+237	E	0.1084	domain PAZ
+238	V	0.1226	domain PAZ
+239	L	0.1370	domain PAZ
+240	D	0.1538	domain PAZ
+241	I	0.1790	domain PAZ
+242	H	0.2008	domain PAZ
+243	N	0.2246	domain PAZ
+244	I	0.2432	domain PAZ
+245	D	0.2706	domain PAZ
+246	E	0.3076	domain PAZ
+247	Q	0.3335	domain PAZ
+248	P	0.3596	domain PAZ
+249	R	0.3774	domain PAZ
+250	P	0.3872	domain PAZ
+251	L	0.4027	domain PAZ
+252	T	0.4197	domain PAZ
+253	D	0.4363	domain PAZ
+254	S	0.4420	domain PAZ
+255	H	0.4391	domain PAZ
+256	R	0.4239	domain PAZ
+257	V	0.3993	domain PAZ
+258	K	0.3722	domain PAZ
+259	F	0.3521	domain PAZ
+260	T	0.3239	domain PAZ
+261	K	0.3003	domain PAZ
+262	E	0.2726	domain PAZ
+263	I	0.2546	domain PAZ
+264	K	0.2513	domain PAZ
+265	G	0.2601	domain PAZ
+266	L	0.2719	domain PAZ
+267	K	0.2838	domain PAZ
+268	V	0.2979	domain PAZ
+269	E	0.3021	domain PAZ
+270	V	0.3052	domain PAZ
+271	T	0.3024	domain PAZ
+272	H	0.2865	domain PAZ
+273	C	0.2690	domain PAZ
+274	G	0.2503	domain PAZ
+275	T	0.2423	domain PAZ
+276	M	0.2367	domain PAZ
+277	R	0.2534	domain PAZ
+278	R	0.2757	domain PAZ
+279	K	0.3082	domain PAZ
+280	Y	0.3391	domain PAZ
+281	R	0.3654	domain PAZ
+282	V	0.3883	domain PAZ
+283	C	0.4036	domain PAZ
+284	N	0.4005	domain PAZ
+285	V	0.3908	domain PAZ
+286	T	0.3675	domain PAZ
+287	R	0.3468	domain PAZ
+288	R	0.3328	domain PAZ
+289	P	0.3208	domain PAZ
+290	A	0.3211	domain PAZ
+291	S	0.3336	domain PAZ
+292	H	0.3639	domain PAZ
+293	Q	0.4011	domain PAZ
+294	T	0.4280	domain PAZ
+295	F	0.4609	domain PAZ
+296	P	0.4781	domain PAZ
+297	L	0.4810	domain PAZ
+298	Q	0.4512	domain PAZ
+299	L	0.4214	domain PAZ
+300	E	0.3848	domain PAZ
+301	N	0.3523	domain PAZ
+302	G	0.3235	domain PAZ
+303	Q	0.3062	domain PAZ
+304	T	0.2876	domain PAZ
+305	V	0.2911	domain PAZ
+306	E	0.2968	domain PAZ
+307	R	0.2989	domain PAZ
+308	T	0.2946	domain PAZ
+309	V	0.2796	domain PAZ
+310	A	0.2680	domain PAZ
+311	Q	0.2516	domain PAZ
+312	Y	0.2288	domain PAZ
+313	F	0.2103	domain PAZ
+314	R	0.1953	domain PAZ
+315	E	0.1827	domain PAZ
+316	K	0.1556	domain PAZ
+317	Y	0.1366	domain PAZ
+318	T	0.1146	domain PAZ
+319	L	0.1059	domain PAZ
+320	Q	0.0889	domain PAZ
+321	L	0.0806	domain PAZ
+322	K	0.0775	domain PAZ
+323	Y	0.0841	domain PAZ
+324	P	0.0953	domain PAZ
+325	H	0.1081	domain PAZ
+326	L	0.1161	domain PAZ
+327	P	0.1189	domain PAZ
+328	C	0.1238	domain PAZ
+329	L	0.1278	domain PAZ
+330	Q	0.1279	domain PAZ
+331	V	0.1256	domain PAZ
+332	G	0.1186	domain PAZ
+333	Q	0.1110	domain PAZ
+334	E	0.0907	domain PAZ
+335	Q	0.0743	domain PAZ
+336	K	0.0668	domain PAZ
+337	H	0.0678	domain PAZ
+338	T	0.0676	domain PAZ
+339	Y	0.0750	domain PAZ
+340	L	0.0858	domain PAZ
+341	P	0.0956	domain PAZ
+342	L	0.1024	domain PAZ
+343	E	0.0979	domain PAZ
+344	V	0.0854	domain PAZ
+345	C	0.0704	domain PAZ
+346	N	0.0573	domain PAZ
+347	I	0.0470	domain PAZ
+348	V	0.0432	domain PAZ
+349	A	0.0516	domain PAZ
+350	G	0.0675	
+351	Q	0.0884	
+352	R	0.1051	
+353	C	0.1278	
+354	I	0.1535	
+355	K	0.1910	
+356	K	0.2190	
+357	L	0.2372	
+358	T	0.2524	
+359	D	0.2731	
+360	N	0.2937	
+361	Q	0.3120	
+362	T	0.3447	
+363	S	0.3813	
+364	T	0.4231	
+365	M	0.4667	
+366	I	0.5083	
+367	K	0.5471	
+368	A	0.5731	
+369	T	0.5758	
+370	A	0.5575	
+371	R	0.5306	
+372	S	0.5010	
+373	A	0.4849	
+374	P	0.4698	
+375	D	0.4534	
+376	R	0.4455	
+377	Q	0.4581	
+378	E	0.4746	
+379	E	0.4829	
+380	I	0.4976	
+381	S	0.5010	
+382	R	0.4994	
+383	L	0.4807	
+384	V	0.4601	
+385	R	0.4390	
+386	S	0.4121	
+387	A	0.3715	
+388	N	0.3282	
+389	Y	0.2999	
+390	E	0.2802	
+391	T	0.2794	
+392	D	0.2833	
+393	P	0.2849	
+394	F	0.2849	
+395	V	0.2950	
+396	Q	0.3177	
+397	E	0.3273	
+398	F	0.3300	
+399	Q	0.3158	
+400	F	0.3073	
+401	K	0.2904	
+402	V	0.2796	
+403	R	0.2777	
+404	D	0.2812	
+405	E	0.2754	
+406	M	0.2691	
+407	A	0.2686	
+408	H	0.2717	
+409	V	0.2840	
+410	T	0.2949	
+411	G	0.3102	
+412	R	0.3165	
+413	V	0.3205	
+414	L	0.3372	
+415	P	0.3546	
+416	A	0.3651	
+417	P	0.3643	
+418	M	0.3747	
+419	L	0.3819	
+420	Q	0.3959	
+421	Y	0.4118	
+422	G	0.4221	
+423	G	0.4271	
+424	R	0.4155	
+425	N	0.4070	
+426	R	0.4025	
+427	T	0.3959	
+428	V	0.3900	
+429	A	0.3985	
+430	T	0.4084	
+431	P	0.4192	
+432	S	0.4251	
+433	H	0.4269	
+434	G	0.4221	
+435	V	0.4043	
+436	W	0.3882	
+437	D	0.3632	
+438	M	0.3429	
+439	R	0.3219	
+440	G	0.2977	
+441	K	0.2744	
+442	Q	0.2378	
+443	F	0.2054	
+444	H	0.1726	
+445	T	0.1494	
+446	G	0.1261	
+447	V	0.1130	
+448	E	0.1054	
+449	I	0.1081	
+450	K	0.1120	
+451	M	0.1148	
+452	W	0.1144	
+453	A	0.1137	
+454	I	0.1149	
+455	A	0.1121	
+456	C	0.1056	
+457	F	0.0990	
+458	A	0.0976	
+459	T	0.0932	
+460	Q	0.0900	
+461	R	0.0875	
+462	Q	0.0886	
+463	C	0.1020	
+464	R	0.1223	
+465	E	0.1501	
+466	E	0.1731	
+467	I	0.1899	
+468	L	0.2103	
+469	K	0.2340	
+470	G	0.2493	
+471	F	0.2578	
+472	T	0.2561	
+473	D	0.2584	
+474	Q	0.2606	
+475	L	0.2765	
+476	R	0.2985	
+477	K	0.3275	
+478	I	0.3523	
+479	S	0.3652	
+480	K	0.3662	
+481	D	0.3520	
+482	A	0.3309	
+483	G	0.3039	
+484	M	0.2793	
+485	P	0.2505	
+486	I	0.2294	
+487	Q	0.2186	
+488	G	0.2318	
+489	Q	0.2455	
+490	P	0.2481	
+491	C	0.2548	
+492	F	0.2510	
+493	C	0.2475	
+494	K	0.2292	
+495	Y	0.2157	
+496	A	0.1915	
+497	Q	0.1671	
+498	G	0.1515	
+499	A	0.1353	
+500	D	0.1293	
+501	S	0.1333	
+502	V	0.1558	
+503	E	0.1837	
+504	P	0.2068	
+505	M	0.2169	
+506	F	0.2238	
+507	R	0.2129	
+508	H	0.1851	
+509	L	0.1481	
+510	K	0.1049	
+511	N	0.0710	
+512	T	0.0437	
+513	Y	0.0336	
+514	S	0.0286	
+515	G	0.0347	
+516	L	0.0467	
+517	Q	0.0495	
+518	L	0.0522	domain Piwi
+519	I	0.0521	domain Piwi
+520	I	0.0492	domain Piwi
+521	V	0.0426	domain Piwi
+522	I	0.0362	domain Piwi
+523	L	0.0331	domain Piwi
+524	P	0.0311	domain Piwi
+525	G	0.0326	domain Piwi
+526	K	0.0349	domain Piwi
+527	T	0.0412	domain Piwi
+528	P	0.0478	domain Piwi
+529	V	0.0622	domain Piwi
+530	Y	0.0811	domain Piwi
+531	A	0.1015	domain Piwi
+532	E	0.1194	domain Piwi
+533	V	0.1307	domain Piwi
+534	K	0.1287	domain Piwi
+535	R	0.1206	domain Piwi
+536	V	0.1117	domain Piwi
+537	G	0.0995	domain Piwi
+538	D	0.0901	domain Piwi
+539	T	0.0776	domain Piwi
+540	L	0.0653	domain Piwi
+541	L	0.0609	domain Piwi
+542	G	0.0633	domain Piwi
+543	M	0.0737	domain Piwi
+544	A	0.0775	domain Piwi
+545	T	0.0781	domain Piwi
+546	Q	0.0775	domain Piwi
+547	C	0.0814	domain Piwi
+548	V	0.0937	domain Piwi
+549	Q	0.1097	domain Piwi
+550	V	0.1290	domain Piwi
+551	K	0.1376	domain Piwi
+552	N	0.1391	domain Piwi
+553	V	0.1308	domain Piwi
+554	I	0.1212	domain Piwi
+555	K	0.1110	domain Piwi
+556	T	0.1007	domain Piwi
+557	S	0.0881	domain Piwi
+558	P	0.0750	domain Piwi
+559	Q	0.0636	domain Piwi
+560	T	0.0609	domain Piwi
+561	L	0.0703	domain Piwi
+562	S	0.0794	domain Piwi
+563	N	0.0837	domain Piwi
+564	L	0.0824	domain Piwi
+565	C	0.0761	domain Piwi
+566	L	0.0718	domain Piwi
+567	K	0.0658	domain Piwi
+568	I	0.0555	domain Piwi
+569	N	0.0366	domain Piwi
+570	V	0.0332	domain Piwi
+571	K	0.0279	domain Piwi
+572	L	0.0363	domain Piwi
+573	G	0.0433	domain Piwi
+574	G	0.0608	domain Piwi
+575	I	0.0818	domain Piwi
+576	N	0.1099	domain Piwi
+577	N	0.1449	domain Piwi
+578	I	0.1715	domain Piwi
+579	L	0.1931	domain Piwi
+580	V	0.2078	domain Piwi
+581	P	0.2160	domain Piwi
+582	H	0.2126	domain Piwi
+583	Q	0.1964	domain Piwi
+584	R	0.1824	domain Piwi
+585	P	0.1701	domain Piwi
+586	S	0.1634	domain Piwi
+587	V	0.1648	domain Piwi
+588	F	0.1879	domain Piwi
+589	Q	0.2232	domain Piwi
+590	Q	0.2670	domain Piwi
+591	P	0.2913	domain Piwi
+592	V	0.3100	domain Piwi
+593	I	0.3125	domain Piwi
+594	F	0.3227	domain Piwi
+595	L	0.3400	domain Piwi
+596	G	0.3465	domain Piwi
+597	A	0.3522	domain Piwi
+598	D	0.3601	domain Piwi
+599	V	0.3790	domain Piwi
+600	T	0.3977	domain Piwi
+601	H	0.4191	domain Piwi
+602	P	0.4342	domain Piwi
+603	P	0.4422	domain Piwi
+604	A	0.4497	domain Piwi
+605	G	0.4552	domain Piwi
+606	D	0.4667	domain Piwi
+607	G	0.4809	domain Piwi
+608	K	0.4986	domain Piwi
+609	K	0.5143	domain Piwi
+610	P	0.5251	domain Piwi
+611	S	0.5210	domain Piwi
+612	I	0.5222	domain Piwi
+613	A	0.5158	domain Piwi
+614	A	0.5082	domain Piwi
+615	V	0.4874	domain Piwi
+616	V	0.4552	domain Piwi
+617	G	0.4152	domain Piwi
+618	S	0.3663	domain Piwi
+619	M	0.3222	domain Piwi
+620	D	0.2783	domain Piwi
+621	A	0.2564	domain Piwi
+622	H	0.2597	domain Piwi
+623	P	0.2834	domain Piwi
+624	S	0.3142	domain Piwi
+625	R	0.3455	domain Piwi
+626	Y	0.3799	domain Piwi
+627	C	0.4082	domain Piwi
+628	A	0.4251	domain Piwi
+629	T	0.4209	domain Piwi
+630	V	0.3967	domain Piwi
+631	R	0.3481	domain Piwi
+632	V	0.3055	domain Piwi
+633	Q	0.2624	domain Piwi
+634	R	0.2366	domain Piwi
+635	P	0.2160	domain Piwi
+636	R	0.2053	domain Piwi
+637	Q	0.1981	domain Piwi
+638	E	0.1890	domain Piwi
+639	I	0.1826	domain Piwi
+640	I	0.1770	domain Piwi
+641	Q	0.1683	domain Piwi
+642	D	0.1468	domain Piwi
+643	L	0.1217	domain Piwi
+644	A	0.0960	domain Piwi
+645	S	0.0728	domain Piwi
+646	M	0.0531	domain Piwi
+647	V	0.0451	domain Piwi
+648	R	0.0453	domain Piwi
+649	E	0.0468	domain Piwi
+650	L	0.0553	domain Piwi
+651	L	0.0632	domain Piwi
+652	I	0.0759	domain Piwi
+653	Q	0.0758	domain Piwi
+654	F	0.0724	domain Piwi
+655	Y	0.0649	domain Piwi
+656	K	0.0568	domain Piwi
+657	S	0.0468	domain Piwi
+658	T	0.0299	domain Piwi
+659	R	0.0209	domain Piwi
+660	F	0.0231	domain Piwi
+661	K	0.0313	domain Piwi
+662	P	0.0476	domain Piwi
+663	T	0.0683	domain Piwi
+664	R	0.0825	domain Piwi
+665	I	0.0941	domain Piwi
+666	I	0.1010	domain Piwi
+667	F	0.1022	domain Piwi
+668	Y	0.0968	domain Piwi
+669	R	0.0853	domain Piwi
+670	D	0.0704	domain Piwi
+671	G	0.0517	domain Piwi
+672	V	0.0344	domain Piwi
+673	S	0.0204	domain Piwi
+674	E	0.0159	domain Piwi
+675	G	0.0163	domain Piwi
+676	Q	0.0124	domain Piwi
+677	F	0.0144	domain Piwi
+678	R	0.0183	domain Piwi
+679	Q	0.0205	domain Piwi
+680	V	0.0227	domain Piwi
+681	L	0.0217	domain Piwi
+682	Y	0.0193	domain Piwi
+683	Y	0.0170	domain Piwi
+684	E	0.0123	domain Piwi
+685	L	0.0092	domain Piwi
+686	L	0.0053	domain Piwi
+687	A	0.0049	domain Piwi
+688	I	0.0082	domain Piwi
+689	R	0.0118	domain Piwi
+690	E	0.0174	domain Piwi
+691	A	0.0210	domain Piwi
+692	C	0.0246	domain Piwi
+693	I	0.0290	domain Piwi
+694	S	0.0337	domain Piwi
+695	L	0.0382	domain Piwi
+696	E	0.0368	domain Piwi
+697	K	0.0371	domain Piwi
+698	D	0.0349	domain Piwi
+699	Y	0.0416	domain Piwi
+700	Q	0.0597	domain Piwi
+701	P	0.0880	domain Piwi
+702	G	0.1139	domain Piwi
+703	I	0.1344	domain Piwi
+704	T	0.1492	domain Piwi
+705	Y	0.1620	domain Piwi
+706	I	0.1600	domain Piwi
+707	V	0.1561	domain Piwi
+708	V	0.1498	domain Piwi
+709	Q	0.1360	domain Piwi
+710	K	0.1210	domain Piwi
+711	R	0.1096	domain Piwi
+712	H	0.1102	domain Piwi
+713	H	0.1349	domain Piwi
+714	T	0.1677	domain Piwi
+715	R	0.2115	domain Piwi
+716	L	0.2518	domain Piwi
+717	F	0.2912	domain Piwi
+718	C	0.3288	domain Piwi
+719	A	0.3651	domain Piwi
+720	D	0.3848	domain Piwi
+721	R	0.3850	domain Piwi
+722	T	0.3731	domain Piwi
+723	E	0.3649	domain Piwi
+724	R	0.3555	domain Piwi
+725	V	0.3627	domain Piwi
+726	G	0.3762	domain Piwi
+727	R	0.4065	domain Piwi
+728	S	0.4322	domain Piwi
+729	G	0.4560	domain Piwi
+730	N	0.4678	domain Piwi
+731	I	0.4791	domain Piwi
+732	P	0.4815	domain Piwi
+733	A	0.4802	domain Piwi
+734	G	0.4689	domain Piwi
+735	T	0.4490	domain Piwi
+736	T	0.4213	domain Piwi
+737	V	0.3926	domain Piwi
+738	D	0.3564	domain Piwi
+739	T	0.3164	domain Piwi
+740	D	0.2655	domain Piwi
+741	I	0.2174	domain Piwi
+742	T	0.1759	domain Piwi
+743	H	0.1454	domain Piwi
+744	P	0.1205	domain Piwi
+745	Y	0.1119	domain Piwi
+746	E	0.1010	domain Piwi
+747	F	0.1056	domain Piwi
+748	D	0.1098	domain Piwi
+749	F	0.1186	domain Piwi
+750	Y	0.1253	domain Piwi
+751	L	0.1358	domain Piwi
+752	C	0.1467	domain Piwi
+753	S	0.1539	domain Piwi
+754	H	0.1531	domain Piwi
+755	A	0.1350	domain Piwi
+756	G	0.1159	domain Piwi
+757	I	0.1074	domain Piwi
+758	Q	0.0990	domain Piwi
+759	G	0.0950	domain Piwi
+760	T	0.0926	domain Piwi
+761	S	0.0933	domain Piwi
+762	R	0.0985	domain Piwi
+763	P	0.1007	domain Piwi
+764	S	0.0980	domain Piwi
+765	H	0.0951	domain Piwi
+766	Y	0.0876	domain Piwi
+767	H	0.0786	domain Piwi
+768	V	0.0636	domain Piwi
+769	L	0.0509	domain Piwi
+770	W	0.0447	domain Piwi
+771	D	0.0430	domain Piwi
+772	D	0.0423	domain Piwi
+773	N	0.0282	domain Piwi
+774	C	0.0172	domain Piwi
+775	F	0.0104	domain Piwi
+776	T	0.0065	domain Piwi
+777	A	0.0081	domain Piwi
+778	D	0.0086	domain Piwi
+779	E	0.0074	domain Piwi
+780	L	0.0086	domain Piwi
+781	Q	0.0084	domain Piwi
+782	L	0.0094	domain Piwi
+783	L	0.0099	domain Piwi
+784	T	0.0111	domain Piwi
+785	Y	0.0120	domain Piwi
+786	Q	0.0111	domain Piwi
+787	L	0.0108	domain Piwi
+788	C	0.0115	domain Piwi
+789	H	0.0139	domain Piwi
+790	T	0.0157	domain Piwi
+791	Y	0.0151	domain Piwi
+792	V	0.0149	domain Piwi
+793	R	0.0153	domain Piwi
+794	C	0.0181	domain Piwi
+795	T	0.0204	domain Piwi
+796	R	0.0244	domain Piwi
+797	S	0.0231	domain Piwi
+798	V	0.0231	domain Piwi
+799	S	0.0229	domain Piwi
+800	I	0.0267	domain Piwi
+801	P	0.0316	domain Piwi
+802	A	0.0404	domain Piwi
+803	P	0.0442	domain Piwi
+804	A	0.0469	domain Piwi
+805	Y	0.0471	domain Piwi
+806	Y	0.0493	domain Piwi
+807	A	0.0548	domain Piwi
+808	H	0.0621	domain Piwi
+809	L	0.0641	domain Piwi
+810	V	0.0648	domain Piwi
+811	A	0.0742	domain Piwi
+812	F	0.0860	domain Piwi
+813	R	0.1061	domain Piwi
+814	A	0.1396	domain Piwi
+815	R	0.1683	domain Piwi
+816	Y	0.2026	domain Piwi
+817	H	0.2384	domain Piwi
+818	L	0.2831	domain Piwi
+819	V	0.3264	domain Piwi
+820	D	0.3752	
+821	K	0.4194	
+822	E	0.4563	
+823	H	0.4852	
+824	D	0.5154	
+825	S	0.5537	
+826	A	0.5991	
+827	E	0.6401	
+828	G	0.6741	
+829	S	0.7049	
+830	H	0.7165	
+831	V	0.7241	
+832	S	0.7242	
+833	G	0.7110	
+834	Q	0.6833	
+835	S	0.6453	
+836	N	0.6168	
+837	G	0.5927	
+838	R	0.5822	
+839	D	0.5809	
+840	P	0.5821	
+841	Q	0.5863	
+842	A	0.5890	
+843	L	0.5876	
+844	A	0.5782	
+845	K	0.5571	
+846	A	0.5205	
+847	V	0.4754	
+848	Q	0.4270	
+849	I	0.3933	
+850	H	0.3739	
+851	Q	0.3827	
+852	D	0.4051	
+853	T	0.4443	
+854	L	0.4980	
+855	R	0.5624	
+856	T	0.6330	
+857	M	0.7039	
+858	Y	0.7686	
+859	F	0.8196	
+860	A	0.8488	

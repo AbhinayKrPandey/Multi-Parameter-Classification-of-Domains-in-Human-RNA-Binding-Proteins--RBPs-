@@ -1,0 +1,962 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-10-02" modified="2024-10-02" version="185" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9NX07</accession>
+  <accession>Q86SU7</accession>
+  <name>TSAP1_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName>tRNA selenocysteine 1-associated protein 1</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>SECp43</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>tRNA selenocysteine-associated protein 1</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">TRNAU1AP</name>
+    <name type="synonym">SECP43</name>
+    <name type="synonym">TRSPAP1</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+      <title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+      <authorList>
+        <person name="Ota T."/>
+        <person name="Suzuki Y."/>
+        <person name="Nishikawa T."/>
+        <person name="Otsuki T."/>
+        <person name="Sugiyama T."/>
+        <person name="Irie R."/>
+        <person name="Wakamatsu A."/>
+        <person name="Hayashi K."/>
+        <person name="Sato H."/>
+        <person name="Nagai K."/>
+        <person name="Kimura K."/>
+        <person name="Makita H."/>
+        <person name="Sekine M."/>
+        <person name="Obayashi M."/>
+        <person name="Nishi T."/>
+        <person name="Shibahara T."/>
+        <person name="Tanaka T."/>
+        <person name="Ishii S."/>
+        <person name="Yamamoto J."/>
+        <person name="Saito K."/>
+        <person name="Kawai Y."/>
+        <person name="Isono Y."/>
+        <person name="Nakamura Y."/>
+        <person name="Nagahari K."/>
+        <person name="Murakami K."/>
+        <person name="Yasuda T."/>
+        <person name="Iwayanagi T."/>
+        <person name="Wagatsuma M."/>
+        <person name="Shiratori A."/>
+        <person name="Sudo H."/>
+        <person name="Hosoiri T."/>
+        <person name="Kaku Y."/>
+        <person name="Kodaira H."/>
+        <person name="Kondo H."/>
+        <person name="Sugawara M."/>
+        <person name="Takahashi M."/>
+        <person name="Kanda K."/>
+        <person name="Yokoi T."/>
+        <person name="Furuya T."/>
+        <person name="Kikkawa E."/>
+        <person name="Omura Y."/>
+        <person name="Abe K."/>
+        <person name="Kamihara K."/>
+        <person name="Katsuta N."/>
+        <person name="Sato K."/>
+        <person name="Tanikawa M."/>
+        <person name="Yamazaki M."/>
+        <person name="Ninomiya K."/>
+        <person name="Ishibashi T."/>
+        <person name="Yamashita H."/>
+        <person name="Murakawa K."/>
+        <person name="Fujimori K."/>
+        <person name="Tanai H."/>
+        <person name="Kimata M."/>
+        <person name="Watanabe M."/>
+        <person name="Hiraoka S."/>
+        <person name="Chiba Y."/>
+        <person name="Ishida S."/>
+        <person name="Ono Y."/>
+        <person name="Takiguchi S."/>
+        <person name="Watanabe S."/>
+        <person name="Yosida M."/>
+        <person name="Hotuta T."/>
+        <person name="Kusano J."/>
+        <person name="Kanehori K."/>
+        <person name="Takahashi-Fujii A."/>
+        <person name="Hara H."/>
+        <person name="Tanase T.-O."/>
+        <person name="Nomura Y."/>
+        <person name="Togiya S."/>
+        <person name="Komai F."/>
+        <person name="Hara R."/>
+        <person name="Takeuchi K."/>
+        <person name="Arita M."/>
+        <person name="Imose N."/>
+        <person name="Musashino K."/>
+        <person name="Yuuki H."/>
+        <person name="Oshima A."/>
+        <person name="Sasaki N."/>
+        <person name="Aotsuka S."/>
+        <person name="Yoshikawa Y."/>
+        <person name="Matsunawa H."/>
+        <person name="Ichihara T."/>
+        <person name="Shiohata N."/>
+        <person name="Sano S."/>
+        <person name="Moriya S."/>
+        <person name="Momiyama H."/>
+        <person name="Satoh N."/>
+        <person name="Takami S."/>
+        <person name="Terashima Y."/>
+        <person name="Suzuki O."/>
+        <person name="Nakagawa S."/>
+        <person name="Senoh A."/>
+        <person name="Mizoguchi H."/>
+        <person name="Goto Y."/>
+        <person name="Shimizu F."/>
+        <person name="Wakebe H."/>
+        <person name="Hishigaki H."/>
+        <person name="Watanabe T."/>
+        <person name="Sugiyama A."/>
+        <person name="Takemoto M."/>
+        <person name="Kawakami B."/>
+        <person name="Yamazaki M."/>
+        <person name="Watanabe K."/>
+        <person name="Kumagai A."/>
+        <person name="Itakura S."/>
+        <person name="Fukuzumi Y."/>
+        <person name="Fujimori Y."/>
+        <person name="Komiyama M."/>
+        <person name="Tashiro H."/>
+        <person name="Tanigami A."/>
+        <person name="Fujiwara T."/>
+        <person name="Ono T."/>
+        <person name="Yamada K."/>
+        <person name="Fujii Y."/>
+        <person name="Ozaki K."/>
+        <person name="Hirao M."/>
+        <person name="Ohmori Y."/>
+        <person name="Kawabata A."/>
+        <person name="Hikiji T."/>
+        <person name="Kobatake N."/>
+        <person name="Inagaki H."/>
+        <person name="Ikema Y."/>
+        <person name="Okamoto S."/>
+        <person name="Okitani R."/>
+        <person name="Kawakami T."/>
+        <person name="Noguchi S."/>
+        <person name="Itoh T."/>
+        <person name="Shigeta K."/>
+        <person name="Senba T."/>
+        <person name="Matsumura K."/>
+        <person name="Nakajima Y."/>
+        <person name="Mizuno T."/>
+        <person name="Morinaga M."/>
+        <person name="Sasaki M."/>
+        <person name="Togashi T."/>
+        <person name="Oyama M."/>
+        <person name="Hata H."/>
+        <person name="Watanabe M."/>
+        <person name="Komatsu T."/>
+        <person name="Mizushima-Sugano J."/>
+        <person name="Satoh T."/>
+        <person name="Shirai Y."/>
+        <person name="Takahashi Y."/>
+        <person name="Nakagawa K."/>
+        <person name="Okumura K."/>
+        <person name="Nagase T."/>
+        <person name="Nomura N."/>
+        <person name="Kikuchi H."/>
+        <person name="Masuho Y."/>
+        <person name="Yamashita R."/>
+        <person name="Nakai K."/>
+        <person name="Yada T."/>
+        <person name="Nakamura Y."/>
+        <person name="Ohara O."/>
+        <person name="Isogai T."/>
+        <person name="Sugano S."/>
+      </authorList>
+      <dbReference type="PubMed" id="14702039"/>
+      <dbReference type="DOI" id="10.1038/ng1285"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2006" name="Nature" volume="441" first="315" last="321">
+      <title>The DNA sequence and biological annotation of human chromosome 1.</title>
+      <authorList>
+        <person name="Gregory S.G."/>
+        <person name="Barlow K.F."/>
+        <person name="McLay K.E."/>
+        <person name="Kaul R."/>
+        <person name="Swarbreck D."/>
+        <person name="Dunham A."/>
+        <person name="Scott C.E."/>
+        <person name="Howe K.L."/>
+        <person name="Woodfine K."/>
+        <person name="Spencer C.C.A."/>
+        <person name="Jones M.C."/>
+        <person name="Gillson C."/>
+        <person name="Searle S."/>
+        <person name="Zhou Y."/>
+        <person name="Kokocinski F."/>
+        <person name="McDonald L."/>
+        <person name="Evans R."/>
+        <person name="Phillips K."/>
+        <person name="Atkinson A."/>
+        <person name="Cooper R."/>
+        <person name="Jones C."/>
+        <person name="Hall R.E."/>
+        <person name="Andrews T.D."/>
+        <person name="Lloyd C."/>
+        <person name="Ainscough R."/>
+        <person name="Almeida J.P."/>
+        <person name="Ambrose K.D."/>
+        <person name="Anderson F."/>
+        <person name="Andrew R.W."/>
+        <person name="Ashwell R.I.S."/>
+        <person name="Aubin K."/>
+        <person name="Babbage A.K."/>
+        <person name="Bagguley C.L."/>
+        <person name="Bailey J."/>
+        <person name="Beasley H."/>
+        <person name="Bethel G."/>
+        <person name="Bird C.P."/>
+        <person name="Bray-Allen S."/>
+        <person name="Brown J.Y."/>
+        <person name="Brown A.J."/>
+        <person name="Buckley D."/>
+        <person name="Burton J."/>
+        <person name="Bye J."/>
+        <person name="Carder C."/>
+        <person name="Chapman J.C."/>
+        <person name="Clark S.Y."/>
+        <person name="Clarke G."/>
+        <person name="Clee C."/>
+        <person name="Cobley V."/>
+        <person name="Collier R.E."/>
+        <person name="Corby N."/>
+        <person name="Coville G.J."/>
+        <person name="Davies J."/>
+        <person name="Deadman R."/>
+        <person name="Dunn M."/>
+        <person name="Earthrowl M."/>
+        <person name="Ellington A.G."/>
+        <person name="Errington H."/>
+        <person name="Frankish A."/>
+        <person name="Frankland J."/>
+        <person name="French L."/>
+        <person name="Garner P."/>
+        <person name="Garnett J."/>
+        <person name="Gay L."/>
+        <person name="Ghori M.R.J."/>
+        <person name="Gibson R."/>
+        <person name="Gilby L.M."/>
+        <person name="Gillett W."/>
+        <person name="Glithero R.J."/>
+        <person name="Grafham D.V."/>
+        <person name="Griffiths C."/>
+        <person name="Griffiths-Jones S."/>
+        <person name="Grocock R."/>
+        <person name="Hammond S."/>
+        <person name="Harrison E.S.I."/>
+        <person name="Hart E."/>
+        <person name="Haugen E."/>
+        <person name="Heath P.D."/>
+        <person name="Holmes S."/>
+        <person name="Holt K."/>
+        <person name="Howden P.J."/>
+        <person name="Hunt A.R."/>
+        <person name="Hunt S.E."/>
+        <person name="Hunter G."/>
+        <person name="Isherwood J."/>
+        <person name="James R."/>
+        <person name="Johnson C."/>
+        <person name="Johnson D."/>
+        <person name="Joy A."/>
+        <person name="Kay M."/>
+        <person name="Kershaw J.K."/>
+        <person name="Kibukawa M."/>
+        <person name="Kimberley A.M."/>
+        <person name="King A."/>
+        <person name="Knights A.J."/>
+        <person name="Lad H."/>
+        <person name="Laird G."/>
+        <person name="Lawlor S."/>
+        <person name="Leongamornlert D.A."/>
+        <person name="Lloyd D.M."/>
+        <person name="Loveland J."/>
+        <person name="Lovell J."/>
+        <person name="Lush M.J."/>
+        <person name="Lyne R."/>
+        <person name="Martin S."/>
+        <person name="Mashreghi-Mohammadi M."/>
+        <person name="Matthews L."/>
+        <person name="Matthews N.S.W."/>
+        <person name="McLaren S."/>
+        <person name="Milne S."/>
+        <person name="Mistry S."/>
+        <person name="Moore M.J.F."/>
+        <person name="Nickerson T."/>
+        <person name="O'Dell C.N."/>
+        <person name="Oliver K."/>
+        <person name="Palmeiri A."/>
+        <person name="Palmer S.A."/>
+        <person name="Parker A."/>
+        <person name="Patel D."/>
+        <person name="Pearce A.V."/>
+        <person name="Peck A.I."/>
+        <person name="Pelan S."/>
+        <person name="Phelps K."/>
+        <person name="Phillimore B.J."/>
+        <person name="Plumb R."/>
+        <person name="Rajan J."/>
+        <person name="Raymond C."/>
+        <person name="Rouse G."/>
+        <person name="Saenphimmachak C."/>
+        <person name="Sehra H.K."/>
+        <person name="Sheridan E."/>
+        <person name="Shownkeen R."/>
+        <person name="Sims S."/>
+        <person name="Skuce C.D."/>
+        <person name="Smith M."/>
+        <person name="Steward C."/>
+        <person name="Subramanian S."/>
+        <person name="Sycamore N."/>
+        <person name="Tracey A."/>
+        <person name="Tromans A."/>
+        <person name="Van Helmond Z."/>
+        <person name="Wall M."/>
+        <person name="Wallis J.M."/>
+        <person name="White S."/>
+        <person name="Whitehead S.L."/>
+        <person name="Wilkinson J.E."/>
+        <person name="Willey D.L."/>
+        <person name="Williams H."/>
+        <person name="Wilming L."/>
+        <person name="Wray P.W."/>
+        <person name="Wu Z."/>
+        <person name="Coulson A."/>
+        <person name="Vaudin M."/>
+        <person name="Sulston J.E."/>
+        <person name="Durbin R.M."/>
+        <person name="Hubbard T."/>
+        <person name="Wooster R."/>
+        <person name="Dunham I."/>
+        <person name="Carter N.P."/>
+        <person name="McVean G."/>
+        <person name="Ross M.T."/>
+        <person name="Harrow J."/>
+        <person name="Olson M.V."/>
+        <person name="Beck S."/>
+        <person name="Rogers J."/>
+        <person name="Bentley D.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="16710414"/>
+      <dbReference type="DOI" id="10.1038/nature04727"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="3">
+    <citation type="submission" date="2005-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Mural R.J."/>
+        <person name="Istrail S."/>
+        <person name="Sutton G.G."/>
+        <person name="Florea L."/>
+        <person name="Halpern A.L."/>
+        <person name="Mobarry C.M."/>
+        <person name="Lippert R."/>
+        <person name="Walenz B."/>
+        <person name="Shatkay H."/>
+        <person name="Dew I."/>
+        <person name="Miller J.R."/>
+        <person name="Flanigan M.J."/>
+        <person name="Edwards N.J."/>
+        <person name="Bolanos R."/>
+        <person name="Fasulo D."/>
+        <person name="Halldorsson B.V."/>
+        <person name="Hannenhalli S."/>
+        <person name="Turner R."/>
+        <person name="Yooseph S."/>
+        <person name="Lu F."/>
+        <person name="Nusskern D.R."/>
+        <person name="Shue B.C."/>
+        <person name="Zheng X.H."/>
+        <person name="Zhong F."/>
+        <person name="Delcher A.L."/>
+        <person name="Huson D.H."/>
+        <person name="Kravitz S.A."/>
+        <person name="Mouchard L."/>
+        <person name="Reinert K."/>
+        <person name="Remington K.A."/>
+        <person name="Clark A.G."/>
+        <person name="Waterman M.S."/>
+        <person name="Eichler E.E."/>
+        <person name="Adams M.D."/>
+        <person name="Hunkapiller M.W."/>
+        <person name="Myers E.W."/>
+        <person name="Venter J.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2)</scope>
+    <source>
+      <tissue>Brain</tissue>
+      <tissue>Colon</tissue>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2006" name="Mol. Cell. Biol." volume="26" first="2337" last="2346">
+      <title>Supramolecular complexes mediate selenocysteine incorporation in vivo.</title>
+      <authorList>
+        <person name="Small-Howard A."/>
+        <person name="Morozova N."/>
+        <person name="Stoytcheva Z."/>
+        <person name="Forry E.P."/>
+        <person name="Mansell J.B."/>
+        <person name="Harney J.W."/>
+        <person name="Carlson B.A."/>
+        <person name="Xu X.M."/>
+        <person name="Hatfield D.L."/>
+        <person name="Berry M.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="16508009"/>
+      <dbReference type="DOI" id="10.1128/mcb.26.6.2337-2346.2006"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>IDENTIFICATION IN A COMPLEX WITH EEFSEC; SECISBP2 AND TRNA(SEC)</scope>
+  </reference>
+  <reference key="6">
+    <citation type="submission" date="2006-09" db="PDB data bank">
+      <title>Solution structure of the RRM domain and of the C-terminal RNA recognition motif of tRNA selenocysteine associated protein.</title>
+      <authorList>
+        <consortium name="RIKEN structural genomics initiative (RSGI)"/>
+      </authorList>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 1-184</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1 3">Involved in the early steps of selenocysteine biosynthesis and tRNA(Sec) charging to the later steps resulting in the cotranslational incorporation of selenocysteine into selenoproteins. Stabilizes the SECISBP2, EEFSEC and tRNA(Sec) complex. May be involved in the methylation of tRNA(Sec). Enhances efficiency of selenoproteins synthesis (By similarity).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="1 3">Component of the tRNA(Sec) complex composed at least of EEFSEC, SECISBP2, SEPHS1, SEPSECS, TRNAU1AP and tRNA(Sec). Found in a complex with tRNA(Sec). Interacts with SEPSECS. Associates with mRNP and/or polysomes (By similarity). Found in a complex with EEFSEC, SECISBP2, TRNAU1AP and tRNA(Sec).</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-12581310">
+      <id>Q9NX07</id>
+    </interactant>
+    <interactant intactId="EBI-1049597">
+      <id>P27797</id>
+      <label>CALR</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-12581310">
+      <id>Q9NX07</id>
+    </interactant>
+    <interactant intactId="EBI-351007">
+      <id>P36957</id>
+      <label>DLST</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-12581310">
+      <id>Q9NX07</id>
+    </interactant>
+    <interactant intactId="EBI-2432309">
+      <id>Q92876</id>
+      <label>KLK6</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-12581310">
+      <id>Q9NX07</id>
+    </interactant>
+    <interactant intactId="EBI-1055945">
+      <id>Q8TDX7</id>
+      <label>NEK7</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-21894090">
+      <id>Q9NX07-2</id>
+    </interactant>
+    <interactant intactId="EBI-10968534">
+      <id>P50570-2</id>
+      <label>DNM2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-21894090">
+      <id>Q9NX07-2</id>
+    </interactant>
+    <interactant intactId="EBI-395421">
+      <id>Q16637</id>
+      <label>SMN2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-21894090">
+      <id>Q9NX07-2</id>
+    </interactant>
+    <interactant intactId="EBI-25847109">
+      <id>O14656-2</id>
+      <label>TOR1A</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="1">Nucleus</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="1">Cytoplasm</location>
+    </subcellularLocation>
+    <text evidence="1">Abundant in the nucleus.</text>
+  </comment>
+  <comment type="alternative products">
+    <event type="alternative splicing"/>
+    <isoform>
+      <id>Q9NX07-1</id>
+      <name>1</name>
+      <sequence type="displayed"/>
+    </isoform>
+    <isoform>
+      <id>Q9NX07-2</id>
+      <name>2</name>
+      <sequence type="described" ref="VSP_028130"/>
+    </isoform>
+  </comment>
+  <comment type="similarity">
+    <text evidence="5">Belongs to the RRM TRSPAP family.</text>
+  </comment>
+  <dbReference type="EMBL" id="AK000510">
+    <property type="protein sequence ID" value="BAA91217.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AL513497">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CH471059">
+    <property type="protein sequence ID" value="EAX07689.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC000680">
+    <property type="protein sequence ID" value="AAH00680.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC039879">
+    <property type="protein sequence ID" value="AAH39879.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS324.1">
+    <molecule id="Q9NX07-1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_060316.1">
+    <molecule id="Q9NX07-1"/>
+    <property type="nucleotide sequence ID" value="NM_017846.4"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="XP_016857031.1">
+    <property type="nucleotide sequence ID" value="XM_017001542.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="2DHG">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=94-184"/>
+  </dbReference>
+  <dbReference type="PDB" id="2DIV">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=1-86"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2DHG"/>
+  <dbReference type="PDBsum" id="2DIV"/>
+  <dbReference type="AlphaFoldDB" id="Q9NX07"/>
+  <dbReference type="SMR" id="Q9NX07"/>
+  <dbReference type="BioGRID" id="120290">
+    <property type="interactions" value="44"/>
+  </dbReference>
+  <dbReference type="IntAct" id="Q9NX07">
+    <property type="interactions" value="22"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q9NX07"/>
+  <dbReference type="STRING" id="9606.ENSP00000362936"/>
+  <dbReference type="iPTMnet" id="Q9NX07"/>
+  <dbReference type="PhosphoSitePlus" id="Q9NX07"/>
+  <dbReference type="BioMuta" id="TRNAU1AP"/>
+  <dbReference type="DMDM" id="74761781"/>
+  <dbReference type="jPOST" id="Q9NX07"/>
+  <dbReference type="MassIVE" id="Q9NX07"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000362936"/>
+  <dbReference type="PeptideAtlas" id="Q9NX07"/>
+  <dbReference type="ProteomicsDB" id="83017">
+    <molecule id="Q9NX07-1"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="83018">
+    <molecule id="Q9NX07-2"/>
+  </dbReference>
+  <dbReference type="Pumba" id="Q9NX07"/>
+  <dbReference type="Antibodypedia" id="30961">
+    <property type="antibodies" value="174 antibodies from 24 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="54952"/>
+  <dbReference type="Ensembl" id="ENST00000373830.4">
+    <molecule id="Q9NX07-1"/>
+    <property type="protein sequence ID" value="ENSP00000362936.3"/>
+    <property type="gene ID" value="ENSG00000180098.9"/>
+  </dbReference>
+  <dbReference type="GeneID" id="54952"/>
+  <dbReference type="KEGG" id="hsa:54952"/>
+  <dbReference type="MANE-Select" id="ENST00000373830.4">
+    <property type="protein sequence ID" value="ENSP00000362936.3"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_017846.5"/>
+    <property type="RefSeq protein sequence ID" value="NP_060316.1"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc001bqi.4">
+    <molecule id="Q9NX07-1"/>
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:30813"/>
+  <dbReference type="CTD" id="54952"/>
+  <dbReference type="GeneCards" id="TRNAU1AP"/>
+  <dbReference type="HGNC" id="HGNC:30813">
+    <property type="gene designation" value="TRNAU1AP"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000180098">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MIM" id="619597">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q9NX07"/>
+  <dbReference type="OpenTargets" id="ENSG00000180098"/>
+  <dbReference type="PharmGKB" id="PA164727240"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000180098"/>
+  <dbReference type="eggNOG" id="KOG0118">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00940000156139"/>
+  <dbReference type="HOGENOM" id="CLU_016304_3_0_1"/>
+  <dbReference type="InParanoid" id="Q9NX07"/>
+  <dbReference type="OMA" id="SSKWIPC"/>
+  <dbReference type="OrthoDB" id="129910at2759"/>
+  <dbReference type="PhylomeDB" id="Q9NX07"/>
+  <dbReference type="TreeFam" id="TF313275"/>
+  <dbReference type="PathwayCommons" id="Q9NX07"/>
+  <dbReference type="SignaLink" id="Q9NX07"/>
+  <dbReference type="BioGRID-ORCS" id="54952">
+    <property type="hits" value="235 hits in 1169 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="TRNAU1AP">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q9NX07"/>
+  <dbReference type="GenomeRNAi" id="54952"/>
+  <dbReference type="Pharos" id="Q9NX07">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q9NX07"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 1"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q9NX07">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000180098">
+    <property type="expression patterns" value="Expressed in granulocyte and 167 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="HGNC-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003723">
+    <property type="term" value="F:RNA binding"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000049">
+    <property type="term" value="F:tRNA binding"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001514">
+    <property type="term" value="P:selenocysteine incorporation"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="HGNC-UCL"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd12610">
+    <property type="entry name" value="RRM1_SECp43"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd12612">
+    <property type="entry name" value="RRM2_SECp43"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.70.330">
+    <property type="match status" value="2"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012677">
+    <property type="entry name" value="Nucleotide-bd_a/b_plait_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR035979">
+    <property type="entry name" value="RBD_domain_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000504">
+    <property type="entry name" value="RRM_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR034510">
+    <property type="entry name" value="SECp43_RRM2"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR040434">
+    <property type="entry name" value="TSAP1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR041085">
+    <property type="entry name" value="TSAP1_C"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR37457:SF2">
+    <property type="entry name" value="TRNA SELENOCYSTEINE 1-ASSOCIATED PROTEIN 1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR37457">
+    <property type="entry name" value="TRNA SELENOCYSTEINE 1-ASSOCIATED PROTEIN 1-RELATED"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00076">
+    <property type="entry name" value="RRM_1"/>
+    <property type="match status" value="2"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF17654">
+    <property type="entry name" value="Trnau1ap"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00360">
+    <property type="entry name" value="RRM"/>
+    <property type="match status" value="2"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF54928">
+    <property type="entry name" value="RNA-binding domain, RBD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50102">
+    <property type="entry name" value="RRM"/>
+    <property type="match status" value="2"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0025">Alternative splicing</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-0648">Protein biosynthesis</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0677">Repeat</keyword>
+  <keyword id="KW-0694">RNA-binding</keyword>
+  <feature type="chain" id="PRO_0000304917" description="tRNA selenocysteine 1-associated protein 1">
+    <location>
+      <begin position="1"/>
+      <end position="287"/>
+    </location>
+  </feature>
+  <feature type="domain" description="RRM 1" evidence="2">
+    <location>
+      <begin position="3"/>
+      <end position="86"/>
+    </location>
+  </feature>
+  <feature type="domain" description="RRM 2" evidence="2">
+    <location>
+      <begin position="96"/>
+      <end position="175"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_028130" description="In isoform 2." evidence="4">
+    <location>
+      <begin position="1"/>
+      <end position="110"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="7">
+    <location>
+      <begin position="1"/>
+      <end position="7"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="7">
+    <location>
+      <begin position="16"/>
+      <end position="25"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="7">
+    <location>
+      <begin position="32"/>
+      <end position="37"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="7">
+    <location>
+      <begin position="39"/>
+      <end position="41"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="7">
+    <location>
+      <begin position="44"/>
+      <end position="51"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="7">
+    <location>
+      <begin position="55"/>
+      <end position="63"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="7">
+    <location>
+      <begin position="64"/>
+      <end position="67"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="7">
+    <location>
+      <begin position="68"/>
+      <end position="72"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="7">
+    <location>
+      <begin position="81"/>
+      <end position="83"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="6">
+    <location>
+      <begin position="98"/>
+      <end position="101"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="6">
+    <location>
+      <begin position="109"/>
+      <end position="119"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="6">
+    <location>
+      <begin position="123"/>
+      <end position="130"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="6">
+    <location>
+      <begin position="136"/>
+      <end position="145"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="6">
+    <location>
+      <begin position="147"/>
+      <end position="156"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="6">
+    <location>
+      <begin position="157"/>
+      <end position="159"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="6">
+    <location>
+      <begin position="162"/>
+      <end position="166"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1"/>
+  <evidence type="ECO:0000255" key="2">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00176"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="16508009"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="4">
+    <source>
+      <dbReference type="PubMed" id="15489334"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="5"/>
+  <evidence type="ECO:0007829" key="6">
+    <source>
+      <dbReference type="PDB" id="2DHG"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="7">
+    <source>
+      <dbReference type="PDB" id="2DIV"/>
+    </source>
+  </evidence>
+  <sequence length="287" mass="32499" checksum="4F85AA839FF256F5" modified="2000-10-01" version="1">MAASLWMGDLEPYMDENFISRAFATMGETVMSVKIIRNRLTGIPAGYCFVEFADLATAEKCLHKINGKPLPGATPAKRFKLNYATYGKQPDNSPEYSLFVGDLTPDVDDGMLYEFFVKVYPSCRGGKVVLDQTGVSKGYGFVKFTDELEQKRALTECQGAVGLGSKPVRLSVAIPKASRVKPVEYSQMYSYSYNQYYQQYQNYYAQWGYDQNTGSYSYSYPQYGYTQSTMQTYEEVGDDALEDPMPQLDVTEANKEFMEQSEELYDALMDCHWQPLDTVSSEIPAMM</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

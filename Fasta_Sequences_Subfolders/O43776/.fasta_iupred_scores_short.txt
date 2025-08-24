@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\91630\Desktop\BTP\iupred3\iupred3\iupred3.py", line 25, in <module>
+    iupred2_result = iupred3_lib.iupred(sequence, args.iupred_type, smoothing=args.smoothing)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91630\Desktop\BTP\iupred3\iupred3\iupred3_lib.py", line 179, in iupred
+    iupred_score = list(savgol_filter(iupred_score, 19, 5))
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\91630\AppData\Roaming\Python\Python312\site-packages\scipy\signal\_savitzky_golay.py", line 345, in savgol_filter
+    raise ValueError("If mode is 'interp', window_length must be less "
+ValueError: If mode is 'interp', window_length must be less than or equal to the size of x.

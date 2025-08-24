@@ -1,0 +1,676 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.5189	
+2	D	0.5659	
+3	S	0.5988	
+4	N	0.6168	
+5	H	0.6203	
+6	Q	0.6109	
+7	S	0.5911	
+8	N	0.5641	
+9	Y	0.5330	
+10	K	0.5012	
+11	L	0.4726	
+12	S	0.4497	
+13	K	0.4355	
+14	T	0.4207	
+15	E	0.4029	
+16	K	0.3775	
+17	K	0.3495	
+18	F	0.3331	
+19	L	0.3273	
+20	R	0.3371	
+21	K	0.3428	
+22	Q	0.3356	
+23	I	0.3339	
+24	K	0.3280	
+25	A	0.3267	
+26	K	0.3151	
+27	H	0.3029	
+28	T	0.2867	
+29	L	0.2850	
+30	L	0.2947	
+31	R	0.3150	
+32	H	0.3264	
+33	E	0.3170	
+34	G	0.2982	
+35	I	0.2835	
+36	E	0.2677	
+37	T	0.2525	
+38	V	0.2482	
+39	S	0.2415	
+40	Y	0.2418	
+41	A	0.2446	
+42	T	0.2515	
+43	Q	0.2629	domain RRM
+44	S	0.2695	domain RRM
+45	L	0.2726	domain RRM
+46	V	0.2735	domain RRM
+47	V	0.2880	domain RRM
+48	A	0.3052	domain RRM
+49	N	0.3196	domain RRM
+50	G	0.3287	domain RRM
+51	G	0.3165	domain RRM
+52	L	0.3078	domain RRM
+53	G	0.3069	domain RRM
+54	N	0.3090	domain RRM
+55	G	0.3047	domain RRM
+56	V	0.2984	domain RRM
+57	S	0.3003	domain RRM
+58	R	0.3146	domain RRM
+59	N	0.3173	domain RRM
+60	Q	0.3085	domain RRM
+61	L	0.2857	domain RRM
+62	L	0.2617	domain RRM
+63	P	0.2285	domain RRM
+64	V	0.2034	domain RRM
+65	L	0.1875	domain RRM
+66	E	0.1925	domain RRM
+67	K	0.2087	domain RRM
+68	C	0.2211	domain RRM
+69	G	0.2324	domain RRM
+70	L	0.2504	domain RRM
+71	V	0.2665	domain RRM
+72	D	0.2801	domain RRM
+73	A	0.2753	domain RRM
+74	L	0.2563	domain RRM
+75	L	0.2427	domain RRM
+76	M	0.2451	domain RRM
+77	P	0.2517	domain RRM
+78	P	0.2590	domain RRM
+79	N	0.2752	domain RRM
+80	K	0.3126	domain RRM
+81	P	0.3585	domain RRM
+82	Y	0.4160	domain RRM
+83	S	0.4548	domain RRM
+84	F	0.4955	domain RRM
+85	A	0.5143	domain RRM
+86	R	0.5020	domain RRM
+87	Y	0.4730	domain RRM
+88	R	0.4399	domain RRM
+89	T	0.4062	domain RRM
+90	T	0.3714	domain RRM
+91	E	0.3492	domain RRM
+92	E	0.3377	domain RRM
+93	S	0.3446	domain RRM
+94	K	0.3659	domain RRM
+95	R	0.4007	domain RRM
+96	A	0.4248	domain RRM
+97	Y	0.4395	domain RRM
+98	V	0.4491	domain RRM
+99	T	0.4498	domain RRM
+100	L	0.4344	domain RRM
+101	N	0.4035	domain RRM
+102	G	0.3760	domain RRM
+103	K	0.3348	domain RRM
+104	E	0.2896	domain RRM
+105	V	0.2455	domain RRM
+106	V	0.2085	domain RRM
+107	D	0.1899	domain RRM
+108	D	0.1712	domain RRM
+109	L	0.1568	domain RRM
+110	G	0.1504	domain RRM
+111	Q	0.1495	domain RRM
+112	K	0.1401	domain RRM
+113	I	0.1317	domain RRM
+114	T	0.1160	domain RRM
+115	L	0.1070	domain RRM
+116	Y	0.1002	domain RRM
+117	L	0.1036	domain RRM
+118	N	0.0977	domain RRM
+119	F	0.0967	domain RRM
+120	V	0.1013	domain RRM
+121	E	0.1141	
+122	K	0.1314	
+123	V	0.1483	
+124	Q	0.1589	
+125	W	0.1834	
+126	K	0.2139	
+127	E	0.2442	
+128	L	0.2674	
+129	R	0.2846	
+130	P	0.2939	
+131	Q	0.2878	
+132	A	0.2746	
+133	L	0.2733	
+134	P	0.2828	
+135	P	0.3115	
+136	G	0.3334	
+137	L	0.3498	
+138	M	0.3634	
+139	V	0.3796	
+140	V	0.3931	
+141	E	0.3894	
+142	E	0.3631	
+143	I	0.3224	
+144	I	0.2814	
+145	S	0.2594	
+146	S	0.2432	
+147	E	0.2337	
+148	E	0.2420	
+149	E	0.2594	
+150	K	0.2846	
+151	M	0.3219	
+152	L	0.3705	
+153	L	0.4379	
+154	E	0.4971	
+155	S	0.5368	
+156	V	0.5554	
+157	D	0.5531	
+158	W	0.5575	
+159	T	0.5568	
+160	E	0.5537	
+161	D	0.5462	
+162	T	0.5395	
+163	D	0.5578	
+164	N	0.5821	
+165	Q	0.6114	
+166	N	0.6326	
+167	S	0.6484	
+168	Q	0.6457	
+169	K	0.6226	
+170	S	0.5775	
+171	L	0.5251	
+172	K	0.4790	
+173	H	0.4365	
+174	R	0.3849	
+175	R	0.3335	
+176	V	0.3051	
+177	K	0.2818	
+178	H	0.2823	
+179	F	0.2910	
+180	G	0.2978	
+181	Y	0.3144	
+182	E	0.3243	
+183	F	0.3397	
+184	H	0.3362	
+185	Y	0.3458	
+186	E	0.3578	
+187	N	0.3749	
+188	N	0.3779	
+189	N	0.3822	
+190	V	0.4052	
+191	D	0.4363	
+192	K	0.4619	
+193	D	0.4774	
+194	K	0.4894	
+195	P	0.4831	
+196	L	0.4712	
+197	S	0.4387	
+198	G	0.4012	
+199	G	0.3608	
+200	L	0.3195	
+201	P	0.2807	
+202	D	0.2367	
+203	I	0.2002	
+204	C	0.1719	
+205	E	0.1565	
+206	S	0.1341	
+207	F	0.1102	
+208	L	0.1066	
+209	E	0.1180	
+210	K	0.1253	
+211	W	0.1333	
+212	L	0.1530	
+213	R	0.1787	
+214	K	0.2009	
+215	G	0.2081	
+216	Y	0.2147	
+217	I	0.2340	
+218	K	0.2646	
+219	H	0.3030	
+220	K	0.3367	domain Fe2OG dioxygenase
+221	P	0.3735	domain Fe2OG dioxygenase
+222	D	0.4156	domain Fe2OG dioxygenase
+223	Q	0.4593	domain Fe2OG dioxygenase
+224	M	0.5016	domain Fe2OG dioxygenase
+225	T	0.5280	domain Fe2OG dioxygenase
+226	I	0.5530	domain Fe2OG dioxygenase
+227	N	0.5820	domain Fe2OG dioxygenase
+228	Q	0.5982	domain Fe2OG dioxygenase
+229	Y	0.5960	domain Fe2OG dioxygenase
+230	E	0.5813	domain Fe2OG dioxygenase
+231	P	0.5750	domain Fe2OG dioxygenase
+232	G	0.5632	domain Fe2OG dioxygenase
+233	Q	0.5368	domain Fe2OG dioxygenase
+234	G	0.5110	domain Fe2OG dioxygenase
+235	I	0.4945	domain Fe2OG dioxygenase
+236	P	0.4928	domain Fe2OG dioxygenase
+237	A	0.4983	domain Fe2OG dioxygenase
+238	H	0.4816	domain Fe2OG dioxygenase
+239	I	0.4625	domain Fe2OG dioxygenase
+240	D	0.4382	domain Fe2OG dioxygenase
+241	T	0.4135	domain Fe2OG dioxygenase
+242	H	0.3828	domain Fe2OG dioxygenase
+243	S	0.3419	domain Fe2OG dioxygenase
+244	A	0.3081	domain Fe2OG dioxygenase
+245	F	0.2899	domain Fe2OG dioxygenase
+246	E	0.2863	domain Fe2OG dioxygenase
+247	D	0.2815	domain Fe2OG dioxygenase
+248	E	0.2625	domain Fe2OG dioxygenase
+249	I	0.2452	domain Fe2OG dioxygenase
+250	V	0.2300	domain Fe2OG dioxygenase
+251	S	0.2171	domain Fe2OG dioxygenase
+252	L	0.2160	domain Fe2OG dioxygenase
+253	S	0.2058	domain Fe2OG dioxygenase
+254	L	0.2107	domain Fe2OG dioxygenase
+255	G	0.2193	domain Fe2OG dioxygenase
+256	S	0.2337	domain Fe2OG dioxygenase
+257	E	0.2400	domain Fe2OG dioxygenase
+258	I	0.2444	domain Fe2OG dioxygenase
+259	V	0.2526	domain Fe2OG dioxygenase
+260	M	0.2556	domain Fe2OG dioxygenase
+261	D	0.2506	domain Fe2OG dioxygenase
+262	F	0.2524	domain Fe2OG dioxygenase
+263	K	0.2602	domain Fe2OG dioxygenase
+264	H	0.2841	domain Fe2OG dioxygenase
+265	P	0.3056	domain Fe2OG dioxygenase
+266	D	0.3115	domain Fe2OG dioxygenase
+267	G	0.3027	domain Fe2OG dioxygenase
+268	I	0.2943	domain Fe2OG dioxygenase
+269	A	0.2875	domain Fe2OG dioxygenase
+270	V	0.2928	domain Fe2OG dioxygenase
+271	P	0.2906	domain Fe2OG dioxygenase
+272	V	0.3014	domain Fe2OG dioxygenase
+273	M	0.3023	domain Fe2OG dioxygenase
+274	L	0.3133	domain Fe2OG dioxygenase
+275	P	0.3079	domain Fe2OG dioxygenase
+276	R	0.3018	domain Fe2OG dioxygenase
+277	R	0.2789	domain Fe2OG dioxygenase
+278	S	0.2584	domain Fe2OG dioxygenase
+279	L	0.2374	domain Fe2OG dioxygenase
+280	L	0.2141	domain Fe2OG dioxygenase
+281	V	0.2035	domain Fe2OG dioxygenase
+282	M	0.2072	domain Fe2OG dioxygenase
+283	T	0.2035	domain Fe2OG dioxygenase
+284	G	0.2006	domain Fe2OG dioxygenase
+285	E	0.1904	domain Fe2OG dioxygenase
+286	S	0.1804	domain Fe2OG dioxygenase
+287	R	0.1672	domain Fe2OG dioxygenase
+288	Y	0.1602	domain Fe2OG dioxygenase
+289	L	0.1512	domain Fe2OG dioxygenase
+290	W	0.1626	domain Fe2OG dioxygenase
+291	T	0.1754	domain Fe2OG dioxygenase
+292	H	0.1936	domain Fe2OG dioxygenase
+293	G	0.1933	domain Fe2OG dioxygenase
+294	I	0.1971	domain Fe2OG dioxygenase
+295	T	0.1974	domain Fe2OG dioxygenase
+296	C	0.2094	domain Fe2OG dioxygenase
+297	R	0.2164	domain Fe2OG dioxygenase
+298	K	0.2201	domain Fe2OG dioxygenase
+299	F	0.2316	domain Fe2OG dioxygenase
+300	D	0.2467	domain Fe2OG dioxygenase
+301	T	0.2602	domain Fe2OG dioxygenase
+302	V	0.2736	domain Fe2OG dioxygenase
+303	Q	0.2787	domain Fe2OG dioxygenase
+304	A	0.2926	domain Fe2OG dioxygenase
+305	S	0.3025	domain Fe2OG dioxygenase
+306	E	0.3111	domain Fe2OG dioxygenase
+307	S	0.3151	domain Fe2OG dioxygenase
+308	L	0.3243	domain Fe2OG dioxygenase
+309	K	0.3439	domain Fe2OG dioxygenase
+310	S	0.3683	domain Fe2OG dioxygenase
+311	G	0.3673	domain Fe2OG dioxygenase
+312	I	0.3510	domain Fe2OG dioxygenase
+313	I	0.3432	domain Fe2OG dioxygenase
+314	T	0.3404	domain Fe2OG dioxygenase
+315	S	0.3409	domain Fe2OG dioxygenase
+316	D	0.3362	domain Fe2OG dioxygenase
+317	V	0.3255	domain Fe2OG dioxygenase
+318	G	0.3189	domain Fe2OG dioxygenase
+319	D	0.3172	domain Fe2OG dioxygenase
+320	L	0.3061	domain Fe2OG dioxygenase
+321	T	0.2886	domain Fe2OG dioxygenase
+322	L	0.2776	domain Fe2OG dioxygenase
+323	S	0.2673	domain Fe2OG dioxygenase
+324	K	0.2620	domain Fe2OG dioxygenase
+325	R	0.2598	domain Fe2OG dioxygenase
+326	G	0.2527	domain Fe2OG dioxygenase
+327	L	0.2638	domain Fe2OG dioxygenase
+328	R	0.2790	domain Fe2OG dioxygenase
+329	T	0.2913	domain Fe2OG dioxygenase
+330	S	0.2885	domain Fe2OG dioxygenase
+331	F	0.2892	domain Fe2OG dioxygenase
+332	T	0.2834	domain Fe2OG dioxygenase
+333	F	0.2797	domain Fe2OG dioxygenase
+334	R	0.2546	domain Fe2OG dioxygenase
+335	K	0.2216	domain Fe2OG dioxygenase
+336	V	0.1840	domain Fe2OG dioxygenase
+337	R	0.1529	domain Fe2OG dioxygenase
+338	Q	0.1303	
+339	T	0.1154	
+340	P	0.1093	
+341	C	0.1154	
+342	N	0.1440	
+343	C	0.1926	
+344	S	0.2333	
+345	Y	0.2808	
+346	P	0.3066	
+347	L	0.3288	
+348	V	0.3260	
+349	C	0.3297	
+350	D	0.3341	
+351	S	0.3420	
+352	Q	0.3512	
+353	R	0.3778	
+354	K	0.4123	
+355	E	0.4538	
+356	T	0.5139	
+357	P	0.5783	
+358	P	0.6336	
+359	S	0.6630	
+360	F	0.6832	
+361	P	0.7033	
+362	E	0.7055	
+363	S	0.6808	
+364	D	0.6344	
+365	K	0.5858	
+366	E	0.5236	
+367	A	0.4697	
+368	S	0.4309	
+369	R	0.4029	
+370	L	0.3818	
+371	E	0.3649	
+372	Q	0.3511	
+373	E	0.3218	
+374	Y	0.2943	
+375	V	0.2663	
+376	H	0.2550	
+377	Q	0.2378	
+378	V	0.2158	
+379	Y	0.2144	
+380	E	0.2389	
+381	E	0.2524	
+382	I	0.2663	
+383	A	0.2880	
+384	G	0.3073	
+385	H	0.3076	
+386	F	0.3077	
+387	S	0.3015	
+388	S	0.2932	
+389	T	0.2731	
+390	R	0.2500	
+391	H	0.2254	
+392	T	0.2109	
+393	P	0.2019	
+394	W	0.2113	
+395	P	0.2240	
+396	H	0.2282	
+397	I	0.2300	
+398	V	0.2344	
+399	E	0.2245	
+400	F	0.1982	
+401	L	0.1630	
+402	K	0.1319	
+403	A	0.1013	
+404	L	0.0763	
+405	P	0.0663	
+406	S	0.0755	
+407	G	0.0794	
+408	S	0.0784	
+409	I	0.0827	
+410	V	0.0964	
+411	A	0.1137	
+412	D	0.1257	
+413	I	0.1302	
+414	G	0.1309	
+415	C	0.1287	
+416	G	0.1212	
+417	N	0.1161	
+418	G	0.1013	
+419	K	0.0752	
+420	Y	0.0605	
+421	L	0.0596	
+422	G	0.0627	
+423	I	0.0770	
+424	N	0.0984	
+425	K	0.1168	
+426	E	0.1223	
+427	L	0.1212	
+428	Y	0.1143	
+429	M	0.1128	
+430	I	0.1105	
+431	G	0.0972	
+432	C	0.0908	
+433	D	0.0890	
+434	R	0.0991	
+435	S	0.1119	
+436	Q	0.1172	
+437	N	0.1180	
+438	L	0.1182	
+439	V	0.1205	
+440	D	0.1197	
+441	I	0.1151	
+442	C	0.1077	
+443	R	0.1034	
+444	E	0.0949	
+445	R	0.0746	
+446	Q	0.0566	
+447	F	0.0530	
+448	Q	0.0553	
+449	A	0.0625	
+450	F	0.0768	
+451	V	0.0899	
+452	C	0.1113	
+453	D	0.1197	
+454	A	0.1189	
+455	L	0.1113	
+456	A	0.0979	
+457	V	0.0815	
+458	P	0.0662	
+459	V	0.0571	
+460	R	0.0485	
+461	S	0.0541	
+462	G	0.0642	
+463	S	0.0669	
+464	C	0.0718	
+465	D	0.0779	
+466	A	0.0862	
+467	C	0.0922	
+468	I	0.0998	
+469	S	0.1082	
+470	I	0.1110	
+471	A	0.1066	
+472	V	0.1072	
+473	I	0.1021	
+474	H	0.1005	
+475	H	0.1045	
+476	F	0.1088	
+477	A	0.1139	
+478	T	0.1225	
+479	A	0.1326	
+480	E	0.1372	
+481	R	0.1431	
+482	R	0.1506	
+483	V	0.1686	
+484	A	0.1966	
+485	A	0.2218	
+486	L	0.2482	
+487	Q	0.2681	
+488	E	0.2708	
+489	I	0.2526	
+490	V	0.2244	
+491	R	0.1798	
+492	L	0.1366	
+493	L	0.0989	
+494	R	0.0709	
+495	P	0.0546	
+496	G	0.0530	
+497	G	0.0587	
+498	K	0.0704	
+499	A	0.0922	
+500	L	0.1221	
+501	I	0.1552	
+502	Y	0.1874	
+503	V	0.2100	
+504	W	0.2197	
+505	A	0.2150	
+506	M	0.2057	
+507	E	0.1857	
+508	Q	0.1684	
+509	E	0.1617	
+510	Y	0.1789	
+511	N	0.2190	
+512	K	0.2913	
+513	Q	0.3741	
+514	K	0.4532	
+515	S	0.5227	
+516	K	0.5756	
+517	Y	0.6127	
+518	L	0.6346	
+519	R	0.6587	
+520	G	0.6754	
+521	N	0.6787	
+522	R	0.6758	
+523	N	0.6772	
+524	S	0.6963	
+525	Q	0.7164	
+526	G	0.7337	
+527	K	0.7455	
+528	K	0.7542	
+529	E	0.7538	
+530	E	0.7539	
+531	M	0.7428	
+532	N	0.7251	
+533	S	0.7047	
+534	D	0.6755	
+535	T	0.6433	
+536	S	0.6153	
+537	V	0.6122	
+538	Q	0.6147	
+539	R	0.6240	
+540	S	0.6193	
+541	L	0.6053	
+542	V	0.6028	
+543	E	0.6048	
+544	Q	0.5986	
+545	M	0.5840	
+546	R	0.5688	
+547	D	0.5551	
+548	M	0.5483	
+549	G	0.5446	
+550	S	0.5656	
+551	R	0.5976	
+552	D	0.6286	
+553	S	0.6567	
+554	A	0.6745	
+555	S	0.6921	
+556	S	0.7051	
+557	V	0.7140	
+558	P	0.7021	
+559	R	0.6747	
+560	I	0.6540	
+561	N	0.6401	
+562	D	0.6402	
+563	S	0.6293	
+564	Q	0.6260	
+565	E	0.6280	
+566	G	0.6256	
+567	G	0.6150	
+568	C	0.6104	
+569	N	0.6067	
+570	S	0.6134	
+571	R	0.6096	
+572	Q	0.5910	
+573	V	0.5690	
+574	S	0.5480	
+575	N	0.5297	
+576	S	0.5131	
+577	K	0.4862	
+578	L	0.4666	
+579	P	0.4423	
+580	V	0.4361	
+581	H	0.4126	
+582	V	0.3959	
+583	N	0.3744	
+584	R	0.3505	
+585	T	0.3176	
+586	S	0.2802	
+587	F	0.2541	
+588	Y	0.2540	
+589	S	0.2639	
+590	Q	0.2848	
+591	D	0.3016	
+592	V	0.3127	
+593	L	0.3411	
+594	V	0.3810	
+595	P	0.4048	
+596	W	0.4317	
+597	H	0.4429	
+598	L	0.4671	
+599	K	0.4760	
+600	G	0.4928	
+601	N	0.5021	
+602	P	0.5171	
+603	D	0.5285	
+604	K	0.5459	
+605	G	0.5855	
+606	K	0.6410	
+607	P	0.6970	
+608	V	0.7527	
+609	E	0.7936	
+610	P	0.8057	
+611	F	0.7946	
+612	G	0.7722	
+613	P	0.7323	
+614	I	0.6720	
+615	G	0.5939	
+616	S	0.5287	
+617	Q	0.4678	
+618	D	0.4281	
+619	P	0.3967	
+620	S	0.3776	
+621	P	0.3695	
+622	V	0.3696	
+623	F	0.3793	
+624	H	0.3954	
+625	R	0.4001	
+626	Y	0.3829	
+627	Y	0.3598	
+628	H	0.3300	
+629	V	0.2907	
+630	F	0.2597	
+631	R	0.2453	
+632	E	0.2312	
+633	G	0.2191	
+634	E	0.2238	
+635	L	0.2402	
+636	E	0.2606	
+637	G	0.2805	
+638	A	0.2797	
+639	C	0.2797	
+640	R	0.2846	
+641	T	0.2873	
+642	V	0.2927	
+643	S	0.2978	
+644	D	0.2869	
+645	V	0.2666	
+646	R	0.2386	
+647	I	0.2101	
+648	L	0.1809	
+649	Q	0.1583	
+650	S	0.1358	
+651	Y	0.1073	
+652	Y	0.0909	
+653	D	0.0871	
+654	Q	0.0923	
+655	G	0.0978	
+656	N	0.0922	
+657	W	0.0867	
+658	C	0.0829	
+659	V	0.0824	
+660	I	0.0857	
+661	L	0.0921	
+662	Q	0.0994	
+663	K	0.1030	
+664	A	0.0957	

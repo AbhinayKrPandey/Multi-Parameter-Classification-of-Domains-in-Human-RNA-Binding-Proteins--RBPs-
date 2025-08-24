@@ -1,0 +1,674 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.4471	
+2	S	0.4399	
+3	H	0.4516	
+4	V	0.4680	
+5	A	0.4802	
+6	V	0.4836	
+7	E	0.4770	
+8	N	0.4621	
+9	A	0.4424	
+10	L	0.4226	
+11	G	0.4083	
+12	L	0.4134	
+13	D	0.4261	
+14	Q	0.4471	
+15	Q	0.4584	
+16	F	0.4782	
+17	A	0.5060	
+18	G	0.5403	
+19	L	0.5661	
+20	D	0.5837	
+21	L	0.6136	
+22	N	0.6306	
+23	S	0.6382	
+24	S	0.6349	
+25	D	0.6352	
+26	N	0.6423	
+27	Q	0.6455	
+28	S	0.6537	
+29	G	0.6683	
+30	G	0.6940	
+31	S	0.7182	
+32	T	0.7445	
+33	A	0.7544	
+34	S	0.7578	
+35	K	0.7651	
+36	G	0.7696	
+37	R	0.7508	
+38	Y	0.7213	
+39	I	0.7003	
+40	P	0.6776	
+41	P	0.6433	
+42	H	0.6008	
+43	L	0.5710	
+44	R	0.5556	
+45	N	0.5516	
+46	R	0.5504	
+47	E	0.5477	
+48	A	0.5519	
+49	T	0.5542	
+50	K	0.5522	
+51	G	0.5424	
+52	F	0.5326	
+53	Y	0.5233	
+54	D	0.5225	
+55	K	0.5200	
+56	D	0.5067	
+57	S	0.4935	
+58	S	0.4856	
+59	G	0.4676	
+60	W	0.4505	
+61	S	0.4384	
+62	S	0.4417	
+63	S	0.4490	
+64	K	0.4581	
+65	D	0.4666	
+66	K	0.4842	
+67	D	0.5090	
+68	A	0.5339	
+69	Y	0.5532	
+70	S	0.5630	
+71	S	0.5597	
+72	F	0.5543	
+73	G	0.5392	
+74	S	0.5186	
+75	R	0.4892	
+76	S	0.4608	
+77	D	0.4363	
+78	S	0.4353	
+79	R	0.4545	
+80	G	0.4939	
+81	K	0.5334	
+82	S	0.5665	
+83	S	0.5837	
+84	F	0.5896	
+85	F	0.5846	
+86	S	0.5834	
+87	D	0.5745	
+88	R	0.5512	
+89	G	0.5339	
+90	S	0.5223	
+91	G	0.5218	
+92	S	0.5402	
+93	R	0.5594	
+94	G	0.5785	
+95	R	0.5912	
+96	F	0.6095	
+97	D	0.6207	
+98	D	0.6419	
+99	R	0.6508	
+100	G	0.6454	
+101	R	0.6447	
+102	S	0.6403	
+103	D	0.6307	
+104	Y	0.6326	
+105	D	0.6319	
+106	G	0.6200	
+107	I	0.6001	
+108	G	0.5737	
+109	S	0.5572	
+110	R	0.5539	
+111	G	0.5569	
+112	D	0.5626	
+113	R	0.5678	
+114	S	0.5689	
+115	G	0.5624	
+116	F	0.5639	
+117	G	0.5452	
+118	K	0.5264	
+119	F	0.5087	
+120	E	0.4920	
+121	R	0.4770	
+122	G	0.4667	
+123	G	0.4642	
+124	N	0.4688	
+125	S	0.4700	
+126	R	0.4667	
+127	W	0.4697	
+128	C	0.4871	
+129	D	0.5162	
+130	K	0.5408	
+131	S	0.5467	
+132	D	0.5493	
+133	E	0.5620	
+134	D	0.5776	
+135	D	0.5876	
+136	W	0.6076	
+137	S	0.6200	
+138	K	0.6384	
+139	P	0.6384	
+140	L	0.6387	
+141	P	0.6300	
+142	P	0.6309	
+143	S	0.6240	
+144	E	0.6083	
+145	R	0.5991	
+146	L	0.6031	
+147	E	0.6176	
+148	Q	0.6348	
+149	E	0.6172	
+150	L	0.5867	
+151	F	0.5532	
+152	S	0.5218	
+153	G	0.4898	
+154	G	0.4539	
+155	N	0.4245	
+156	T	0.4091	
+157	G	0.4025	
+158	I	0.4126	
+159	N	0.4208	
+160	F	0.4469	
+161	E	0.4655	
+162	K	0.4826	
+163	Y	0.4901	
+164	D	0.5009	
+165	D	0.5148	
+166	I	0.5227	
+167	P	0.5197	
+168	V	0.5188	
+169	E	0.5141	
+170	A	0.5262	
+171	T	0.5343	
+172	G	0.5416	
+173	N	0.5501	
+174	N	0.5552	
+175	C	0.5650	
+176	P	0.5670	
+177	P	0.5710	
+178	H	0.5579	
+179	I	0.5453	
+180	E	0.5341	
+181	S	0.5044	
+182	F	0.4806	
+183	S	0.4604	
+184	D	0.4346	
+185	V	0.4065	
+186	E	0.3813	
+187	M	0.3571	
+188	G	0.3459	
+189	E	0.3324	
+190	I	0.3281	
+191	I	0.3324	
+192	M	0.3505	
+193	G	0.3804	
+194	N	0.3999	
+195	I	0.4241	
+196	E	0.4378	
+197	L	0.4565	
+198	T	0.4615	
+199	R	0.4605	
+200	Y	0.4495	
+201	T	0.4335	
+202	R	0.4352	
+203	P	0.4314	
+204	T	0.4296	
+205	P	0.4349	
+206	V	0.4493	
+207	Q	0.4643	
+208	K	0.4770	
+209	H	0.4748	
+210	A	0.4678	
+211	I	0.4570	domain Helicase ATP-binding
+212	P	0.4298	domain Helicase ATP-binding
+213	I	0.3949	domain Helicase ATP-binding
+214	I	0.3591	domain Helicase ATP-binding
+215	K	0.3383	domain Helicase ATP-binding
+216	E	0.3265	domain Helicase ATP-binding
+217	K	0.3290	domain Helicase ATP-binding
+218	R	0.3419	domain Helicase ATP-binding
+219	D	0.3525	domain Helicase ATP-binding
+220	L	0.3725	domain Helicase ATP-binding
+221	M	0.3859	domain Helicase ATP-binding
+222	A	0.3903	domain Helicase ATP-binding
+223	C	0.3761	domain Helicase ATP-binding
+224	A	0.3526	domain Helicase ATP-binding
+225	Q	0.3276	domain Helicase ATP-binding
+226	T	0.2993	domain Helicase ATP-binding
+227	G	0.2594	domain Helicase ATP-binding
+228	S	0.2232	domain Helicase ATP-binding
+229	G	0.1922	domain Helicase ATP-binding
+230	K	0.1756	domain Helicase ATP-binding
+231	T	0.1680	domain Helicase ATP-binding
+232	A	0.1648	domain Helicase ATP-binding
+233	A	0.1777	domain Helicase ATP-binding
+234	F	0.1988	domain Helicase ATP-binding
+235	L	0.2170	domain Helicase ATP-binding
+236	L	0.2381	domain Helicase ATP-binding
+237	P	0.2427	domain Helicase ATP-binding
+238	I	0.2335	domain Helicase ATP-binding
+239	L	0.2122	domain Helicase ATP-binding
+240	S	0.1974	domain Helicase ATP-binding
+241	Q	0.1732	domain Helicase ATP-binding
+242	I	0.1589	domain Helicase ATP-binding
+243	Y	0.1674	domain Helicase ATP-binding
+244	S	0.1952	domain Helicase ATP-binding
+245	D	0.2319	domain Helicase ATP-binding
+246	G	0.2722	domain Helicase ATP-binding
+247	P	0.3077	domain Helicase ATP-binding
+248	G	0.3550	domain Helicase ATP-binding
+249	E	0.3910	domain Helicase ATP-binding
+250	A	0.4272	domain Helicase ATP-binding
+251	L	0.4556	domain Helicase ATP-binding
+252	R	0.4793	domain Helicase ATP-binding
+253	A	0.4975	domain Helicase ATP-binding
+254	M	0.5097	domain Helicase ATP-binding
+255	K	0.5160	domain Helicase ATP-binding
+256	E	0.5053	domain Helicase ATP-binding
+257	N	0.4696	domain Helicase ATP-binding
+258	G	0.4271	domain Helicase ATP-binding
+259	R	0.3700	domain Helicase ATP-binding
+260	Y	0.3224	domain Helicase ATP-binding
+261	G	0.2891	domain Helicase ATP-binding
+262	R	0.2885	domain Helicase ATP-binding
+263	R	0.2920	domain Helicase ATP-binding
+264	K	0.2967	domain Helicase ATP-binding
+265	Q	0.3023	domain Helicase ATP-binding
+266	Y	0.3132	domain Helicase ATP-binding
+267	P	0.3050	domain Helicase ATP-binding
+268	I	0.2965	domain Helicase ATP-binding
+269	S	0.2652	domain Helicase ATP-binding
+270	L	0.2295	domain Helicase ATP-binding
+271	V	0.1956	domain Helicase ATP-binding
+272	L	0.1650	domain Helicase ATP-binding
+273	A	0.1520	domain Helicase ATP-binding
+274	P	0.1472	domain Helicase ATP-binding
+275	T	0.1410	domain Helicase ATP-binding
+276	R	0.1295	domain Helicase ATP-binding
+277	E	0.1235	domain Helicase ATP-binding
+278	L	0.1315	domain Helicase ATP-binding
+279	A	0.1410	domain Helicase ATP-binding
+280	V	0.1685	domain Helicase ATP-binding
+281	Q	0.1842	domain Helicase ATP-binding
+282	I	0.1974	domain Helicase ATP-binding
+283	Y	0.2117	domain Helicase ATP-binding
+284	E	0.2230	domain Helicase ATP-binding
+285	E	0.2225	domain Helicase ATP-binding
+286	A	0.2137	domain Helicase ATP-binding
+287	R	0.1865	domain Helicase ATP-binding
+288	K	0.1636	domain Helicase ATP-binding
+289	F	0.1442	domain Helicase ATP-binding
+290	S	0.1312	domain Helicase ATP-binding
+291	Y	0.1308	domain Helicase ATP-binding
+292	R	0.1387	domain Helicase ATP-binding
+293	S	0.1509	domain Helicase ATP-binding
+294	R	0.1457	domain Helicase ATP-binding
+295	V	0.1511	domain Helicase ATP-binding
+296	R	0.1595	domain Helicase ATP-binding
+297	P	0.1643	domain Helicase ATP-binding
+298	C	0.1644	domain Helicase ATP-binding
+299	V	0.1652	domain Helicase ATP-binding
+300	V	0.1704	domain Helicase ATP-binding
+301	Y	0.1802	domain Helicase ATP-binding
+302	G	0.1969	domain Helicase ATP-binding
+303	G	0.2134	domain Helicase ATP-binding
+304	A	0.2158	domain Helicase ATP-binding
+305	D	0.2054	domain Helicase ATP-binding
+306	I	0.1947	domain Helicase ATP-binding
+307	G	0.1779	domain Helicase ATP-binding
+308	Q	0.1636	domain Helicase ATP-binding
+309	Q	0.1515	domain Helicase ATP-binding
+310	I	0.1521	domain Helicase ATP-binding
+311	R	0.1644	domain Helicase ATP-binding
+312	D	0.1762	domain Helicase ATP-binding
+313	L	0.1937	domain Helicase ATP-binding
+314	E	0.2091	domain Helicase ATP-binding
+315	R	0.2268	domain Helicase ATP-binding
+316	G	0.2220	domain Helicase ATP-binding
+317	C	0.2089	domain Helicase ATP-binding
+318	H	0.1994	domain Helicase ATP-binding
+319	L	0.1907	domain Helicase ATP-binding
+320	L	0.1860	domain Helicase ATP-binding
+321	V	0.1856	domain Helicase ATP-binding
+322	A	0.1874	domain Helicase ATP-binding
+323	T	0.1950	domain Helicase ATP-binding
+324	P	0.1958	domain Helicase ATP-binding
+325	G	0.1916	domain Helicase ATP-binding
+326	R	0.1880	domain Helicase ATP-binding
+327	L	0.1809	domain Helicase ATP-binding
+328	V	0.1762	domain Helicase ATP-binding
+329	D	0.1687	domain Helicase ATP-binding
+330	M	0.1616	domain Helicase ATP-binding
+331	M	0.1486	domain Helicase ATP-binding
+332	E	0.1350	domain Helicase ATP-binding
+333	R	0.1241	domain Helicase ATP-binding
+334	G	0.1026	domain Helicase ATP-binding
+335	K	0.0805	domain Helicase ATP-binding
+336	I	0.0664	domain Helicase ATP-binding
+337	G	0.0581	domain Helicase ATP-binding
+338	L	0.0556	domain Helicase ATP-binding
+339	D	0.0578	domain Helicase ATP-binding
+340	F	0.0682	domain Helicase ATP-binding
+341	C	0.0781	domain Helicase ATP-binding
+342	K	0.0772	domain Helicase ATP-binding
+343	Y	0.0713	domain Helicase ATP-binding
+344	L	0.0595	domain Helicase ATP-binding
+345	V	0.0484	domain Helicase ATP-binding
+346	L	0.0436	domain Helicase ATP-binding
+347	D	0.0498	domain Helicase ATP-binding
+348	E	0.0607	domain Helicase ATP-binding
+349	A	0.0679	domain Helicase ATP-binding
+350	D	0.0789	domain Helicase ATP-binding
+351	R	0.0936	domain Helicase ATP-binding
+352	M	0.1130	domain Helicase ATP-binding
+353	L	0.1396	domain Helicase ATP-binding
+354	D	0.1670	domain Helicase ATP-binding
+355	M	0.1970	domain Helicase ATP-binding
+356	G	0.2163	domain Helicase ATP-binding
+357	F	0.2425	domain Helicase ATP-binding
+358	E	0.2714	domain Helicase ATP-binding
+359	P	0.3033	domain Helicase ATP-binding
+360	Q	0.3216	domain Helicase ATP-binding
+361	I	0.3377	domain Helicase ATP-binding
+362	R	0.3505	domain Helicase ATP-binding
+363	R	0.3782	domain Helicase ATP-binding
+364	I	0.4024	domain Helicase ATP-binding
+365	V	0.4292	domain Helicase ATP-binding
+366	E	0.4498	domain Helicase ATP-binding
+367	Q	0.4611	domain Helicase ATP-binding
+368	D	0.4519	domain Helicase ATP-binding
+369	T	0.4333	domain Helicase ATP-binding
+370	M	0.4084	domain Helicase ATP-binding
+371	P	0.3936	domain Helicase ATP-binding
+372	P	0.3869	domain Helicase ATP-binding
+373	K	0.3818	domain Helicase ATP-binding
+374	G	0.3772	domain Helicase ATP-binding
+375	V	0.3897	domain Helicase ATP-binding
+376	R	0.4054	domain Helicase ATP-binding
+377	H	0.4205	domain Helicase ATP-binding
+378	T	0.4108	domain Helicase ATP-binding
+379	M	0.3886	domain Helicase ATP-binding
+380	M	0.3527	domain Helicase ATP-binding
+381	F	0.3178	domain Helicase ATP-binding
+382	S	0.2730	domain Helicase ATP-binding
+383	A	0.2319	domain Helicase ATP-binding
+384	T	0.1944	domain Helicase ATP-binding
+385	F	0.1733	domain Helicase ATP-binding
+386	P	0.1510	domain Helicase ATP-binding
+387	K	0.1356	domain Helicase ATP-binding
+388	E	0.1151	domain Helicase ATP-binding
+389	I	0.1024	domain Helicase ATP-binding
+390	Q	0.0906	domain Helicase ATP-binding
+391	M	0.0730	domain Helicase ATP-binding
+392	L	0.0584	domain Helicase ATP-binding
+393	A	0.0505	domain Helicase ATP-binding
+394	R	0.0464	domain Helicase ATP-binding
+395	D	0.0388	domain Helicase ATP-binding
+396	F	0.0273	domain Helicase ATP-binding
+397	L	0.0268	domain Helicase ATP-binding
+398	D	0.0353	domain Helicase ATP-binding
+399	E	0.0421	domain Helicase ATP-binding
+400	Y	0.0416	domain Helicase ATP-binding
+401	I	0.0453	domain Helicase ATP-binding
+402	F	0.0560	domain Helicase ATP-binding
+403	L	0.0744	domain Helicase ATP-binding
+404	A	0.0973	
+405	V	0.1174	
+406	G	0.1224	
+407	R	0.1219	
+408	V	0.1147	
+409	G	0.1115	
+410	S	0.1188	
+411	T	0.1278	
+412	S	0.1544	
+413	E	0.1937	
+414	N	0.2432	domain Helicase C-terminal
+415	I	0.2948	domain Helicase C-terminal
+416	T	0.3469	domain Helicase C-terminal
+417	Q	0.3869	domain Helicase C-terminal
+418	K	0.3885	domain Helicase C-terminal
+419	V	0.3622	domain Helicase C-terminal
+420	V	0.3167	domain Helicase C-terminal
+421	W	0.2615	domain Helicase C-terminal
+422	V	0.2082	domain Helicase C-terminal
+423	E	0.1594	domain Helicase C-terminal
+424	E	0.1079	domain Helicase C-terminal
+425	S	0.0735	domain Helicase C-terminal
+426	D	0.0525	domain Helicase C-terminal
+427	K	0.0603	domain Helicase C-terminal
+428	R	0.0915	domain Helicase C-terminal
+429	S	0.1245	domain Helicase C-terminal
+430	F	0.1612	domain Helicase C-terminal
+431	L	0.1909	domain Helicase C-terminal
+432	L	0.2135	domain Helicase C-terminal
+433	D	0.2138	domain Helicase C-terminal
+434	L	0.1985	domain Helicase C-terminal
+435	L	0.1674	domain Helicase C-terminal
+436	N	0.1299	domain Helicase C-terminal
+437	A	0.0918	domain Helicase C-terminal
+438	T	0.0514	domain Helicase C-terminal
+439	G	0.0391	domain Helicase C-terminal
+440	K	0.0518	domain Helicase C-terminal
+441	D	0.0826	domain Helicase C-terminal
+442	S	0.1260	domain Helicase C-terminal
+443	L	0.1786	domain Helicase C-terminal
+444	T	0.2275	domain Helicase C-terminal
+445	L	0.2692	domain Helicase C-terminal
+446	V	0.2862	domain Helicase C-terminal
+447	F	0.2831	domain Helicase C-terminal
+448	V	0.2637	domain Helicase C-terminal
+449	E	0.2310	domain Helicase C-terminal
+450	T	0.1942	domain Helicase C-terminal
+451	K	0.1521	domain Helicase C-terminal
+452	K	0.1139	domain Helicase C-terminal
+453	G	0.0923	domain Helicase C-terminal
+454	A	0.0982	domain Helicase C-terminal
+455	D	0.1185	domain Helicase C-terminal
+456	S	0.1388	domain Helicase C-terminal
+457	L	0.1683	domain Helicase C-terminal
+458	E	0.1920	domain Helicase C-terminal
+459	D	0.2028	domain Helicase C-terminal
+460	F	0.1993	domain Helicase C-terminal
+461	L	0.1879	domain Helicase C-terminal
+462	Y	0.1849	domain Helicase C-terminal
+463	H	0.1822	domain Helicase C-terminal
+464	E	0.1717	domain Helicase C-terminal
+465	G	0.1579	domain Helicase C-terminal
+466	Y	0.1657	domain Helicase C-terminal
+467	A	0.1964	domain Helicase C-terminal
+468	C	0.2416	domain Helicase C-terminal
+469	T	0.2906	domain Helicase C-terminal
+470	S	0.3372	domain Helicase C-terminal
+471	I	0.3795	domain Helicase C-terminal
+472	H	0.4131	domain Helicase C-terminal
+473	G	0.4428	domain Helicase C-terminal
+474	D	0.4574	domain Helicase C-terminal
+475	R	0.4505	domain Helicase C-terminal
+476	S	0.4444	domain Helicase C-terminal
+477	Q	0.4496	domain Helicase C-terminal
+478	R	0.4586	domain Helicase C-terminal
+479	D	0.4761	domain Helicase C-terminal
+480	R	0.5054	domain Helicase C-terminal
+481	E	0.5297	domain Helicase C-terminal
+482	E	0.5435	domain Helicase C-terminal
+483	A	0.5322	domain Helicase C-terminal
+484	L	0.5107	domain Helicase C-terminal
+485	H	0.4774	domain Helicase C-terminal
+486	Q	0.4290	domain Helicase C-terminal
+487	F	0.3767	domain Helicase C-terminal
+488	R	0.3222	domain Helicase C-terminal
+489	S	0.2799	domain Helicase C-terminal
+490	G	0.2455	domain Helicase C-terminal
+491	K	0.2246	domain Helicase C-terminal
+492	S	0.2114	domain Helicase C-terminal
+493	P	0.1964	domain Helicase C-terminal
+494	I	0.1845	domain Helicase C-terminal
+495	L	0.1799	domain Helicase C-terminal
+496	V	0.1916	domain Helicase C-terminal
+497	A	0.2023	domain Helicase C-terminal
+498	T	0.2104	domain Helicase C-terminal
+499	A	0.2040	domain Helicase C-terminal
+500	V	0.1958	domain Helicase C-terminal
+501	A	0.1819	domain Helicase C-terminal
+502	A	0.1685	domain Helicase C-terminal
+503	R	0.1508	domain Helicase C-terminal
+504	G	0.1379	domain Helicase C-terminal
+505	L	0.1278	domain Helicase C-terminal
+506	D	0.1167	domain Helicase C-terminal
+507	I	0.1311	domain Helicase C-terminal
+508	S	0.1482	domain Helicase C-terminal
+509	N	0.1675	domain Helicase C-terminal
+510	V	0.1801	domain Helicase C-terminal
+511	K	0.1929	domain Helicase C-terminal
+512	H	0.2019	domain Helicase C-terminal
+513	V	0.2029	domain Helicase C-terminal
+514	I	0.2060	domain Helicase C-terminal
+515	N	0.2063	domain Helicase C-terminal
+516	F	0.2053	domain Helicase C-terminal
+517	D	0.1966	domain Helicase C-terminal
+518	L	0.2005	domain Helicase C-terminal
+519	P	0.1988	domain Helicase C-terminal
+520	S	0.2125	domain Helicase C-terminal
+521	D	0.2182	domain Helicase C-terminal
+522	I	0.2407	domain Helicase C-terminal
+523	E	0.2700	domain Helicase C-terminal
+524	E	0.2998	domain Helicase C-terminal
+525	Y	0.3227	domain Helicase C-terminal
+526	V	0.3430	domain Helicase C-terminal
+527	H	0.3741	domain Helicase C-terminal
+528	R	0.3860	domain Helicase C-terminal
+529	I	0.3819	domain Helicase C-terminal
+530	G	0.3684	domain Helicase C-terminal
+531	R	0.3438	domain Helicase C-terminal
+532	T	0.3157	domain Helicase C-terminal
+533	G	0.2904	domain Helicase C-terminal
+534	R	0.2753	domain Helicase C-terminal
+535	V	0.2706	domain Helicase C-terminal
+536	G	0.2822	domain Helicase C-terminal
+537	N	0.2875	domain Helicase C-terminal
+538	L	0.2997	domain Helicase C-terminal
+539	G	0.3051	domain Helicase C-terminal
+540	L	0.3142	domain Helicase C-terminal
+541	A	0.3181	domain Helicase C-terminal
+542	T	0.3208	domain Helicase C-terminal
+543	S	0.3017	domain Helicase C-terminal
+544	F	0.2713	domain Helicase C-terminal
+545	F	0.2514	domain Helicase C-terminal
+546	N	0.2370	domain Helicase C-terminal
+547	E	0.2169	domain Helicase C-terminal
+548	R	0.1859	domain Helicase C-terminal
+549	N	0.1635	domain Helicase C-terminal
+550	I	0.1498	domain Helicase C-terminal
+551	N	0.1393	domain Helicase C-terminal
+552	I	0.1558	domain Helicase C-terminal
+553	T	0.1872	domain Helicase C-terminal
+554	K	0.2286	domain Helicase C-terminal
+555	D	0.2581	domain Helicase C-terminal
+556	L	0.2767	domain Helicase C-terminal
+557	L	0.2890	domain Helicase C-terminal
+558	D	0.3007	domain Helicase C-terminal
+559	L	0.2982	domain Helicase C-terminal
+560	L	0.2830	domain Helicase C-terminal
+561	V	0.2591	domain Helicase C-terminal
+562	E	0.2347	domain Helicase C-terminal
+563	A	0.2177	domain Helicase C-terminal
+564	K	0.2140	domain Helicase C-terminal
+565	Q	0.2237	domain Helicase C-terminal
+566	E	0.2330	domain Helicase C-terminal
+567	V	0.2529	domain Helicase C-terminal
+568	P	0.2762	domain Helicase C-terminal
+569	S	0.3002	domain Helicase C-terminal
+570	W	0.3280	domain Helicase C-terminal
+571	L	0.3599	domain Helicase C-terminal
+572	E	0.3986	domain Helicase C-terminal
+573	N	0.4195	domain Helicase C-terminal
+574	M	0.4145	domain Helicase C-terminal
+575	A	0.4094	domain Helicase C-terminal
+576	Y	0.4206	
+577	E	0.4342	
+578	H	0.4409	
+579	H	0.4501	
+580	Y	0.4662	
+581	K	0.4849	
+582	G	0.5031	
+583	S	0.5074	
+584	S	0.5088	
+585	R	0.5051	
+586	G	0.4968	
+587	R	0.4878	
+588	S	0.4748	
+589	K	0.4676	
+590	S	0.4745	
+591	S	0.4815	
+592	R	0.4738	
+593	F	0.4720	
+594	S	0.4689	
+595	G	0.4761	
+596	G	0.4727	
+597	F	0.4632	
+598	G	0.4498	
+599	A	0.4425	
+600	R	0.4351	
+601	D	0.4187	
+602	Y	0.4090	
+603	R	0.4070	
+604	Q	0.4161	
+605	S	0.4240	
+606	S	0.4349	
+607	G	0.4514	
+608	A	0.4739	
+609	S	0.4984	
+610	S	0.5234	
+611	S	0.5406	
+612	S	0.5491	
+613	F	0.5671	
+614	S	0.5770	
+615	S	0.5842	
+616	S	0.5917	
+617	R	0.6028	
+618	A	0.6090	
+619	S	0.6156	
+620	S	0.6166	
+621	S	0.6260	
+622	R	0.6432	
+623	S	0.6472	
+624	G	0.6496	
+625	G	0.6586	
+626	G	0.6620	
+627	G	0.6579	
+628	H	0.6445	
+629	G	0.6145	
+630	S	0.5828	
+631	S	0.5498	
+632	R	0.5156	
+633	G	0.4780	
+634	F	0.4495	
+635	G	0.4273	
+636	G	0.4159	
+637	G	0.3981	
+638	G	0.3744	
+639	Y	0.3626	
+640	G	0.3488	
+641	G	0.3377	
+642	F	0.3357	
+643	Y	0.3447	
+644	N	0.3570	
+645	S	0.3656	
+646	D	0.3593	
+647	G	0.3432	
+648	Y	0.3301	
+649	G	0.3205	
+650	G	0.3187	
+651	N	0.3073	
+652	Y	0.3032	
+653	N	0.3073	
+654	S	0.3298	
+655	Q	0.3513	
+656	G	0.3659	
+657	V	0.3688	
+658	D	0.3576	
+659	W	0.3333	
+660	W	0.3015	
+661	G	0.2732	
+662	N	0.2659	

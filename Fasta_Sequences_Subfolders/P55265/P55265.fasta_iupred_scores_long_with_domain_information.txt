@@ -1,0 +1,1238 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.6166	
+2	N	0.5017	
+3	P	0.4424	
+4	R	0.4211	
+5	Q	0.4235	
+6	G	0.4383	
+7	Y	0.4569	
+8	S	0.4730	
+9	L	0.4825	
+10	S	0.4836	
+11	G	0.4733	
+12	Y	0.4489	
+13	Y	0.4296	
+14	T	0.4166	
+15	H	0.4037	
+16	P	0.3774	
+17	F	0.3713	
+18	Q	0.3783	
+19	G	0.4069	
+20	Y	0.4474	
+21	E	0.5062	
+22	H	0.5802	
+23	R	0.6511	
+24	Q	0.7049	
+25	L	0.7366	
+26	R	0.7516	
+27	Y	0.7585	
+28	Q	0.7430	
+29	Q	0.7269	
+30	P	0.6875	
+31	G	0.6412	
+32	P	0.5959	
+33	G	0.5629	
+34	S	0.5282	
+35	S	0.5014	
+36	P	0.4827	
+37	S	0.4698	
+38	S	0.4426	
+39	F	0.4268	
+40	L	0.4224	
+41	L	0.4202	
+42	K	0.4058	
+43	Q	0.3741	
+44	I	0.3338	
+45	E	0.2878	
+46	F	0.2633	
+47	L	0.2604	
+48	K	0.2705	
+49	G	0.2835	
+50	Q	0.3032	
+51	L	0.3409	
+52	P	0.3832	
+53	E	0.4467	
+54	A	0.5085	
+55	P	0.5545	
+56	V	0.5830	
+57	I	0.6160	
+58	G	0.6465	
+59	K	0.6785	
+60	Q	0.6958	
+61	T	0.7081	
+62	P	0.7033	
+63	S	0.6847	
+64	L	0.6701	
+65	P	0.6502	
+66	P	0.6372	
+67	S	0.6066	
+68	L	0.5743	
+69	P	0.5386	
+70	G	0.5132	
+71	L	0.4977	
+72	R	0.4908	
+73	P	0.4928	
+74	R	0.4834	
+75	F	0.4842	
+76	P	0.4869	
+77	V	0.4911	
+78	L	0.4711	
+79	L	0.4588	
+80	A	0.4428	
+81	S	0.4313	
+82	S	0.4180	
+83	T	0.4114	
+84	R	0.4172	
+85	G	0.4193	
+86	R	0.4368	
+87	Q	0.4623	
+88	V	0.4986	
+89	D	0.5161	
+90	I	0.5483	
+91	R	0.5734	
+92	G	0.5828	
+93	V	0.5729	
+94	P	0.5537	
+95	R	0.5349	
+96	G	0.4970	
+97	V	0.4769	
+98	H	0.4689	
+99	L	0.4849	
+100	R	0.5162	
+101	S	0.5591	
+102	Q	0.5956	
+103	G	0.6220	
+104	L	0.6466	
+105	Q	0.6733	
+106	R	0.6930	
+107	G	0.6961	
+108	F	0.7129	
+109	Q	0.7273	
+110	H	0.7525	
+111	P	0.7469	
+112	S	0.7440	
+113	P	0.7378	
+114	R	0.7177	
+115	G	0.6987	
+116	R	0.6767	
+117	S	0.6582	
+118	L	0.6525	
+119	P	0.6520	
+120	Q	0.6415	
+121	R	0.6117	
+122	G	0.5661	
+123	V	0.5186	
+124	D	0.4634	
+125	C	0.4123	
+126	L	0.3783	
+127	S	0.3618	
+128	S	0.3663	
+129	H	0.3635	
+130	F	0.3701	
+131	Q	0.3678	
+132	E	0.3678	
+133	L	0.3564	domain Z-binding 1
+134	S	0.3321	domain Z-binding 1
+135	I	0.3070	domain Z-binding 1
+136	Y	0.2841	domain Z-binding 1
+137	Q	0.2743	domain Z-binding 1
+138	D	0.2761	domain Z-binding 1
+139	Q	0.2711	domain Z-binding 1
+140	E	0.2766	domain Z-binding 1
+141	Q	0.2905	domain Z-binding 1
+142	R	0.3048	domain Z-binding 1
+143	I	0.3363	domain Z-binding 1
+144	L	0.3748	domain Z-binding 1
+145	K	0.4176	domain Z-binding 1
+146	F	0.4505	domain Z-binding 1
+147	L	0.4734	domain Z-binding 1
+148	E	0.4891	domain Z-binding 1
+149	E	0.4878	domain Z-binding 1
+150	L	0.4772	domain Z-binding 1
+151	G	0.4566	domain Z-binding 1
+152	E	0.4483	domain Z-binding 1
+153	G	0.4465	domain Z-binding 1
+154	K	0.4637	domain Z-binding 1
+155	A	0.5079	domain Z-binding 1
+156	T	0.5642	domain Z-binding 1
+157	T	0.6213	domain Z-binding 1
+158	A	0.6788	domain Z-binding 1
+159	H	0.7325	domain Z-binding 1
+160	D	0.7628	domain Z-binding 1
+161	L	0.7757	domain Z-binding 1
+162	S	0.7680	domain Z-binding 1
+163	G	0.7466	domain Z-binding 1
+164	K	0.6972	domain Z-binding 1
+165	L	0.6361	domain Z-binding 1
+166	G	0.5790	domain Z-binding 1
+167	T	0.5370	domain Z-binding 1
+168	P	0.4910	domain Z-binding 1
+169	K	0.4570	domain Z-binding 1
+170	K	0.4390	domain Z-binding 1
+171	E	0.4286	domain Z-binding 1
+172	I	0.4360	domain Z-binding 1
+173	N	0.4508	domain Z-binding 1
+174	R	0.4667	domain Z-binding 1
+175	V	0.4645	domain Z-binding 1
+176	L	0.4563	domain Z-binding 1
+177	Y	0.4635	domain Z-binding 1
+178	S	0.4671	domain Z-binding 1
+179	L	0.4738	domain Z-binding 1
+180	A	0.4739	domain Z-binding 1
+181	K	0.4845	domain Z-binding 1
+182	K	0.4874	domain Z-binding 1
+183	G	0.4847	domain Z-binding 1
+184	K	0.4764	domain Z-binding 1
+185	L	0.4745	domain Z-binding 1
+186	Q	0.4800	domain Z-binding 1
+187	K	0.4930	domain Z-binding 1
+188	E	0.4964	domain Z-binding 1
+189	A	0.5010	domain Z-binding 1
+190	G	0.5066	domain Z-binding 1
+191	T	0.5153	domain Z-binding 1
+192	P	0.5279	domain Z-binding 1
+193	P	0.5273	domain Z-binding 1
+194	L	0.5227	domain Z-binding 1
+195	W	0.5222	domain Z-binding 1
+196	K	0.5199	domain Z-binding 1
+197	I	0.5178	domain Z-binding 1
+198	A	0.4957	domain Z-binding 1
+199	V	0.4824	domain Z-binding 1
+200	S	0.4619	
+201	T	0.4439	
+202	Q	0.4280	
+203	A	0.4168	
+204	W	0.4304	
+205	N	0.4720	
+206	Q	0.5284	
+207	H	0.5849	
+208	S	0.6375	
+209	G	0.6894	
+210	V	0.7357	
+211	V	0.7735	
+212	R	0.8008	
+213	P	0.8165	
+214	D	0.8297	
+215	G	0.8410	
+216	H	0.8474	
+217	S	0.8625	
+218	Q	0.8736	
+219	G	0.8898	
+220	A	0.9058	
+221	P	0.9174	
+222	N	0.9227	
+223	S	0.9281	
+224	D	0.9438	
+225	P	0.9484	
+226	S	0.9317	
+227	L	0.9134	
+228	E	0.9043	
+229	P	0.8960	
+230	E	0.8812	
+231	D	0.8543	
+232	R	0.8202	
+233	N	0.7751	
+234	S	0.7226	
+235	T	0.6734	
+236	S	0.6248	
+237	V	0.5801	
+238	S	0.5389	
+239	E	0.5047	
+240	D	0.4649	
+241	L	0.4273	
+242	L	0.4112	
+243	E	0.4099	
+244	P	0.3959	
+245	F	0.3717	
+246	I	0.3571	
+247	A	0.3588	
+248	V	0.3633	
+249	S	0.3617	
+250	A	0.3663	
+251	Q	0.3707	
+252	A	0.3784	
+253	W	0.4004	
+254	N	0.4400	
+255	Q	0.4949	
+256	H	0.5510	
+257	S	0.6081	
+258	G	0.6602	
+259	V	0.7087	
+260	V	0.7547	
+261	R	0.8025	
+262	P	0.8370	
+263	D	0.8513	
+264	S	0.8562	
+265	H	0.8674	
+266	S	0.8810	
+267	Q	0.8906	
+268	G	0.9022	
+269	S	0.9158	
+270	P	0.9283	
+271	N	0.9374	
+272	S	0.9438	
+273	D	0.9556	
+274	P	0.9520	
+275	G	0.9413	
+276	L	0.9379	
+277	E	0.9340	
+278	P	0.9297	
+279	E	0.9159	
+280	D	0.8851	
+281	S	0.8546	
+282	N	0.8226	
+283	S	0.7882	
+284	T	0.7474	
+285	S	0.7073	
+286	A	0.6753	
+287	L	0.6461	
+288	E	0.6237	
+289	D	0.6046	
+290	P	0.5793	
+291	L	0.5479	
+292	E	0.5049	
+293	F	0.4613	domain Z-binding 2
+294	L	0.4134	domain Z-binding 2
+295	D	0.3706	domain Z-binding 2
+296	M	0.3329	domain Z-binding 2
+297	A	0.2858	domain Z-binding 2
+298	E	0.2440	domain Z-binding 2
+299	I	0.2202	domain Z-binding 2
+300	K	0.2141	domain Z-binding 2
+301	E	0.2262	domain Z-binding 2
+302	K	0.2381	domain Z-binding 2
+303	I	0.2489	domain Z-binding 2
+304	C	0.2716	domain Z-binding 2
+305	D	0.2886	domain Z-binding 2
+306	Y	0.3050	domain Z-binding 2
+307	L	0.3072	domain Z-binding 2
+308	F	0.3023	domain Z-binding 2
+309	N	0.2861	domain Z-binding 2
+310	V	0.2707	domain Z-binding 2
+311	S	0.2527	domain Z-binding 2
+312	D	0.2471	domain Z-binding 2
+313	S	0.2576	domain Z-binding 2
+314	S	0.2742	domain Z-binding 2
+315	A	0.2959	domain Z-binding 2
+316	L	0.3327	domain Z-binding 2
+317	N	0.3758	domain Z-binding 2
+318	L	0.4175	domain Z-binding 2
+319	A	0.4514	domain Z-binding 2
+320	K	0.4667	domain Z-binding 2
+321	N	0.4558	domain Z-binding 2
+322	I	0.4332	domain Z-binding 2
+323	G	0.4024	domain Z-binding 2
+324	L	0.3755	domain Z-binding 2
+325	T	0.3448	domain Z-binding 2
+326	K	0.3400	domain Z-binding 2
+327	A	0.3495	domain Z-binding 2
+328	R	0.3719	domain Z-binding 2
+329	D	0.3924	domain Z-binding 2
+330	I	0.4230	domain Z-binding 2
+331	N	0.4462	domain Z-binding 2
+332	A	0.4635	domain Z-binding 2
+333	V	0.4582	domain Z-binding 2
+334	L	0.4509	domain Z-binding 2
+335	I	0.4626	domain Z-binding 2
+336	D	0.4765	domain Z-binding 2
+337	M	0.4950	domain Z-binding 2
+338	E	0.5111	domain Z-binding 2
+339	R	0.5251	domain Z-binding 2
+340	Q	0.5341	domain Z-binding 2
+341	G	0.5443	domain Z-binding 2
+342	D	0.5543	domain Z-binding 2
+343	V	0.5583	domain Z-binding 2
+344	Y	0.5696	domain Z-binding 2
+345	R	0.5870	domain Z-binding 2
+346	Q	0.5995	domain Z-binding 2
+347	G	0.6081	domain Z-binding 2
+348	T	0.6153	domain Z-binding 2
+349	T	0.6268	domain Z-binding 2
+350	P	0.6404	domain Z-binding 2
+351	P	0.6346	domain Z-binding 2
+352	I	0.6241	domain Z-binding 2
+353	W	0.6210	domain Z-binding 2
+354	H	0.6330	domain Z-binding 2
+355	L	0.6517	domain Z-binding 2
+356	T	0.6502	domain Z-binding 2
+357	D	0.6444	domain Z-binding 2
+358	K	0.6317	
+359	K	0.6189	
+360	R	0.6141	
+361	E	0.6155	
+362	R	0.6350	
+363	M	0.6712	
+364	Q	0.7075	
+365	I	0.7401	
+366	K	0.7630	
+367	R	0.7848	
+368	N	0.7887	
+369	T	0.7808	
+370	N	0.7537	
+371	S	0.7280	
+372	V	0.7340	
+373	P	0.7484	
+374	E	0.7696	
+375	T	0.7818	
+376	A	0.7907	
+377	P	0.7832	
+378	A	0.7604	
+379	A	0.7172	
+380	I	0.6714	
+381	P	0.6209	
+382	E	0.5756	
+383	T	0.5292	
+384	K	0.4911	
+385	R	0.4778	
+386	N	0.4816	
+387	A	0.4975	
+388	E	0.5077	
+389	F	0.5181	
+390	L	0.5243	
+391	T	0.5319	
+392	C	0.5403	
+393	N	0.5214	
+394	I	0.5093	
+395	P	0.4894	
+396	T	0.4791	
+397	S	0.4665	
+398	N	0.4725	
+399	A	0.5098	
+400	S	0.5658	
+401	N	0.6311	
+402	N	0.6892	
+403	M	0.7317	
+404	V	0.7624	
+405	T	0.7756	
+406	T	0.7669	
+407	E	0.7372	
+408	K	0.6956	
+409	V	0.6652	
+410	E	0.6449	
+411	N	0.6322	
+412	G	0.6396	
+413	Q	0.6530	
+414	E	0.6881	
+415	P	0.7183	
+416	V	0.7450	
+417	I	0.7620	
+418	K	0.7761	
+419	L	0.7862	
+420	E	0.7853	
+421	N	0.7764	
+422	R	0.7583	
+423	Q	0.7380	
+424	E	0.7198	
+425	A	0.7042	
+426	R	0.7027	
+427	P	0.7088	
+428	E	0.7289	
+429	P	0.7587	
+430	A	0.7794	
+431	R	0.7948	
+432	L	0.8069	
+433	K	0.8018	
+434	P	0.7795	
+435	P	0.7220	
+436	V	0.6679	
+437	H	0.6131	
+438	Y	0.5731	
+439	N	0.5423	
+440	G	0.5164	
+441	P	0.4977	
+442	S	0.4878	
+443	K	0.4829	
+444	A	0.4826	
+445	G	0.4875	
+446	Y	0.4948	
+447	V	0.4975	
+448	D	0.5015	
+449	F	0.5077	
+450	E	0.5103	
+451	N	0.5208	
+452	G	0.5218	
+453	Q	0.5051	
+454	W	0.4850	
+455	A	0.4831	
+456	T	0.5037	
+457	D	0.5206	
+458	D	0.5425	
+459	I	0.5691	
+460	P	0.5901	
+461	D	0.6082	
+462	D	0.6033	
+463	L	0.5867	
+464	N	0.5648	
+465	S	0.5470	
+466	I	0.5361	
+467	R	0.5205	
+468	A	0.5016	
+469	A	0.4947	
+470	P	0.4767	
+471	G	0.4496	
+472	E	0.4178	
+473	F	0.4020	
+474	R	0.3907	
+475	A	0.3847	
+476	I	0.3781	
+477	M	0.3733	
+478	E	0.3756	
+479	M	0.3831	
+480	P	0.3684	
+481	S	0.3507	
+482	F	0.3290	
+483	Y	0.3255	
+484	S	0.3302	
+485	H	0.3368	
+486	G	0.3320	
+487	L	0.3311	
+488	P	0.3337	
+489	R	0.3329	
+490	C	0.3325	
+491	S	0.3428	
+492	P	0.3505	
+493	Y	0.3680	
+494	K	0.3803	
+495	K	0.3906	
+496	L	0.4041	
+497	T	0.4086	
+498	E	0.3987	
+499	C	0.3809	
+500	Q	0.3446	
+501	L	0.3287	
+502	K	0.3186	
+503	N	0.3255	domain DRBM 1
+504	P	0.3235	domain DRBM 1
+505	I	0.3236	domain DRBM 1
+506	S	0.3312	domain DRBM 1
+507	G	0.3433	domain DRBM 1
+508	L	0.3417	domain DRBM 1
+509	L	0.3398	domain DRBM 1
+510	E	0.3376	domain DRBM 1
+511	Y	0.3280	domain DRBM 1
+512	A	0.3084	domain DRBM 1
+513	Q	0.2952	domain DRBM 1
+514	F	0.2840	domain DRBM 1
+515	A	0.2786	domain DRBM 1
+516	S	0.2915	domain DRBM 1
+517	Q	0.3160	domain DRBM 1
+518	T	0.3440	domain DRBM 1
+519	C	0.4020	domain DRBM 1
+520	E	0.4555	domain DRBM 1
+521	F	0.5228	domain DRBM 1
+522	N	0.5682	domain DRBM 1
+523	M	0.6023	domain DRBM 1
+524	I	0.6143	domain DRBM 1
+525	E	0.6114	domain DRBM 1
+526	Q	0.5891	domain DRBM 1
+527	S	0.5423	domain DRBM 1
+528	G	0.5087	domain DRBM 1
+529	P	0.4856	domain DRBM 1
+530	P	0.4660	domain DRBM 1
+531	H	0.4691	domain DRBM 1
+532	E	0.4800	domain DRBM 1
+533	P	0.4973	domain DRBM 1
+534	R	0.5180	domain DRBM 1
+535	F	0.5351	domain DRBM 1
+536	K	0.5387	domain DRBM 1
+537	F	0.5408	domain DRBM 1
+538	Q	0.5258	domain DRBM 1
+539	V	0.5101	domain DRBM 1
+540	V	0.4771	domain DRBM 1
+541	I	0.4558	domain DRBM 1
+542	N	0.4296	domain DRBM 1
+543	G	0.4136	domain DRBM 1
+544	R	0.4025	domain DRBM 1
+545	E	0.3914	domain DRBM 1
+546	F	0.4047	domain DRBM 1
+547	P	0.4348	domain DRBM 1
+548	P	0.4807	domain DRBM 1
+549	A	0.5163	domain DRBM 1
+550	E	0.5477	domain DRBM 1
+551	A	0.5817	domain DRBM 1
+552	G	0.6082	domain DRBM 1
+553	S	0.6212	domain DRBM 1
+554	K	0.6146	domain DRBM 1
+555	K	0.5957	domain DRBM 1
+556	V	0.5627	domain DRBM 1
+557	A	0.5302	domain DRBM 1
+558	K	0.4960	domain DRBM 1
+559	Q	0.4650	domain DRBM 1
+560	D	0.4360	domain DRBM 1
+561	A	0.4126	domain DRBM 1
+562	A	0.3920	domain DRBM 1
+563	M	0.3870	domain DRBM 1
+564	K	0.3910	domain DRBM 1
+565	A	0.4024	domain DRBM 1
+566	M	0.4254	domain DRBM 1
+567	T	0.4353	domain DRBM 1
+568	I	0.4376	domain DRBM 1
+569	L	0.4495	domain DRBM 1
+570	L	0.4734	domain DRBM 1
+571	E	0.4985	domain DRBM 1
+572	E	0.5104	
+573	A	0.5126	
+574	K	0.5120	
+575	A	0.5230	
+576	K	0.5437	
+577	D	0.5695	
+578	S	0.5965	
+579	G	0.6257	
+580	K	0.6591	
+581	S	0.6992	
+582	E	0.7389	
+583	E	0.7732	
+584	S	0.7953	
+585	S	0.8086	
+586	H	0.8044	
+587	Y	0.8005	
+588	S	0.8064	
+589	T	0.8217	
+590	E	0.8289	
+591	K	0.8304	
+592	E	0.8394	
+593	S	0.8572	
+594	E	0.8681	
+595	K	0.8750	
+596	T	0.8712	
+597	A	0.8544	
+598	E	0.8343	
+599	S	0.8122	
+600	Q	0.7806	
+601	T	0.7535	
+602	P	0.7335	
+603	T	0.7147	
+604	P	0.7012	
+605	S	0.6938	
+606	A	0.6847	
+607	T	0.6723	
+608	S	0.6458	
+609	F	0.6052	
+610	F	0.5603	
+611	S	0.5127	
+612	G	0.4678	
+613	K	0.4169	
+614	S	0.3799	domain DRBM 2
+615	P	0.3506	domain DRBM 2
+616	V	0.3421	domain DRBM 2
+617	T	0.3501	domain DRBM 2
+618	T	0.3619	domain DRBM 2
+619	L	0.3743	domain DRBM 2
+620	L	0.3831	domain DRBM 2
+621	E	0.3817	domain DRBM 2
+622	C	0.3698	domain DRBM 2
+623	M	0.3499	domain DRBM 2
+624	H	0.3274	domain DRBM 2
+625	K	0.3011	domain DRBM 2
+626	L	0.2788	domain DRBM 2
+627	G	0.2651	domain DRBM 2
+628	N	0.2808	domain DRBM 2
+629	S	0.3091	domain DRBM 2
+630	C	0.3569	domain DRBM 2
+631	E	0.4050	domain DRBM 2
+632	F	0.4625	domain DRBM 2
+633	R	0.4961	domain DRBM 2
+634	L	0.5173	domain DRBM 2
+635	L	0.5124	domain DRBM 2
+636	S	0.4966	domain DRBM 2
+637	K	0.4621	domain DRBM 2
+638	E	0.4089	domain DRBM 2
+639	G	0.3693	domain DRBM 2
+640	P	0.3353	domain DRBM 2
+641	A	0.3141	domain DRBM 2
+642	H	0.3206	domain DRBM 2
+643	E	0.3428	domain DRBM 2
+644	P	0.3680	domain DRBM 2
+645	K	0.3886	domain DRBM 2
+646	F	0.4119	domain DRBM 2
+647	Q	0.4160	domain DRBM 2
+648	Y	0.4091	domain DRBM 2
+649	C	0.3900	domain DRBM 2
+650	V	0.3745	domain DRBM 2
+651	A	0.3486	domain DRBM 2
+652	V	0.3242	domain DRBM 2
+653	G	0.2958	domain DRBM 2
+654	A	0.2859	domain DRBM 2
+655	Q	0.2866	domain DRBM 2
+656	T	0.2923	domain DRBM 2
+657	F	0.3118	domain DRBM 2
+658	P	0.3390	domain DRBM 2
+659	S	0.3803	domain DRBM 2
+660	V	0.4169	domain DRBM 2
+661	S	0.4555	domain DRBM 2
+662	A	0.5006	domain DRBM 2
+663	P	0.5317	domain DRBM 2
+664	S	0.5511	domain DRBM 2
+665	K	0.5539	domain DRBM 2
+666	K	0.5536	domain DRBM 2
+667	V	0.5474	domain DRBM 2
+668	A	0.5473	domain DRBM 2
+669	K	0.5510	domain DRBM 2
+670	Q	0.5489	domain DRBM 2
+671	M	0.5466	domain DRBM 2
+672	A	0.5491	domain DRBM 2
+673	A	0.5573	domain DRBM 2
+674	E	0.5675	domain DRBM 2
+675	E	0.5721	domain DRBM 2
+676	A	0.5744	domain DRBM 2
+677	M	0.5853	domain DRBM 2
+678	K	0.5897	domain DRBM 2
+679	A	0.5982	domain DRBM 2
+680	L	0.6269	domain DRBM 2
+681	H	0.6602	domain DRBM 2
+682	G	0.6942	domain DRBM 2
+683	E	0.7056	
+684	A	0.7209	
+685	T	0.7331	
+686	N	0.7370	
+687	S	0.7429	
+688	M	0.7404	
+689	A	0.7330	
+690	S	0.7257	
+691	D	0.7259	
+692	N	0.7217	
+693	Q	0.7125	
+694	P	0.6932	
+695	E	0.6787	
+696	G	0.6652	
+697	M	0.6486	
+698	I	0.6472	
+699	S	0.6554	
+700	E	0.6581	
+701	S	0.6393	
+702	L	0.6215	
+703	D	0.5928	
+704	N	0.5625	
+705	L	0.5350	
+706	E	0.5021	
+707	S	0.4722	
+708	M	0.4424	
+709	M	0.4176	
+710	P	0.4003	
+711	N	0.3843	
+712	K	0.3607	
+713	V	0.3486	
+714	R	0.3477	
+715	K	0.3471	
+716	I	0.3569	
+717	G	0.3732	
+718	E	0.3854	
+719	L	0.3775	
+720	V	0.3556	
+721	R	0.3192	
+722	Y	0.2898	
+723	L	0.2611	
+724	N	0.2476	
+725	T	0.2403	
+726	N	0.2376	domain DRBM 3
+727	P	0.2389	domain DRBM 3
+728	V	0.2571	domain DRBM 3
+729	G	0.2849	domain DRBM 3
+730	G	0.3078	domain DRBM 3
+731	L	0.3191	domain DRBM 3
+732	L	0.3234	domain DRBM 3
+733	E	0.3186	domain DRBM 3
+734	Y	0.3033	domain DRBM 3
+735	A	0.2776	domain DRBM 3
+736	R	0.2610	domain DRBM 3
+737	S	0.2400	domain DRBM 3
+738	H	0.2189	domain DRBM 3
+739	G	0.2062	domain DRBM 3
+740	F	0.2247	domain DRBM 3
+741	A	0.2686	domain DRBM 3
+742	A	0.3510	domain DRBM 3
+743	E	0.4221	domain DRBM 3
+744	F	0.4810	domain DRBM 3
+745	K	0.5101	domain DRBM 3
+746	L	0.5272	domain DRBM 3
+747	V	0.5228	domain DRBM 3
+748	D	0.5084	domain DRBM 3
+749	Q	0.4701	domain DRBM 3
+750	S	0.4269	domain DRBM 3
+751	G	0.4102	domain DRBM 3
+752	P	0.4082	domain DRBM 3
+753	P	0.4160	domain DRBM 3
+754	H	0.4436	domain DRBM 3
+755	E	0.4793	domain DRBM 3
+756	P	0.5080	domain DRBM 3
+757	K	0.5126	domain DRBM 3
+758	F	0.4977	domain DRBM 3
+759	V	0.4667	domain DRBM 3
+760	Y	0.4379	domain DRBM 3
+761	Q	0.3860	domain DRBM 3
+762	A	0.3250	domain DRBM 3
+763	K	0.2532	domain DRBM 3
+764	V	0.2045	domain DRBM 3
+765	G	0.1685	domain DRBM 3
+766	G	0.1636	domain DRBM 3
+767	R	0.1708	domain DRBM 3
+768	W	0.1913	domain DRBM 3
+769	F	0.2365	domain DRBM 3
+770	P	0.2915	domain DRBM 3
+771	A	0.3473	domain DRBM 3
+772	V	0.3781	domain DRBM 3
+773	C	0.4033	domain DRBM 3
+774	A	0.4240	domain DRBM 3
+775	H	0.4384	domain DRBM 3
+776	S	0.4375	domain DRBM 3
+777	K	0.4267	domain DRBM 3
+778	K	0.4189	domain DRBM 3
+779	Q	0.4100	domain DRBM 3
+780	G	0.4052	domain DRBM 3
+781	K	0.4027	domain DRBM 3
+782	Q	0.4081	domain DRBM 3
+783	E	0.4126	domain DRBM 3
+784	A	0.4252	domain DRBM 3
+785	A	0.4332	domain DRBM 3
+786	D	0.4488	domain DRBM 3
+787	A	0.4645	domain DRBM 3
+788	A	0.4729	domain DRBM 3
+789	L	0.4809	domain DRBM 3
+790	R	0.4653	domain DRBM 3
+791	V	0.4367	domain DRBM 3
+792	L	0.4028	domain DRBM 3
+793	I	0.3786	domain DRBM 3
+794	G	0.3553	domain DRBM 3
+795	E	0.3376	
+796	N	0.3180	
+797	E	0.3144	
+798	K	0.3265	
+799	A	0.3549	
+800	E	0.3920	
+801	R	0.4291	
+802	M	0.4614	
+803	G	0.4836	
+804	F	0.5132	
+805	T	0.5272	
+806	E	0.5200	
+807	V	0.4941	
+808	T	0.4518	
+809	P	0.3999	
+810	V	0.3481	
+811	T	0.3103	
+812	G	0.2918	
+813	A	0.2873	
+814	S	0.2819	
+815	L	0.3047	
+816	R	0.3342	
+817	R	0.3777	
+818	T	0.4128	
+819	M	0.4349	
+820	L	0.4417	
+821	L	0.4357	
+822	L	0.4409	
+823	S	0.4437	
+824	R	0.4473	
+825	S	0.4296	
+826	P	0.4165	
+827	E	0.4157	
+828	A	0.4217	
+829	Q	0.4450	
+830	P	0.4818	
+831	K	0.5084	
+832	T	0.5155	
+833	L	0.5231	
+834	P	0.5234	
+835	L	0.5260	
+836	T	0.4976	
+837	G	0.4620	
+838	S	0.4106	
+839	T	0.3499	
+840	F	0.3018	
+841	H	0.2754	
+842	D	0.2682	
+843	Q	0.2443	
+844	I	0.2216	
+845	A	0.2065	
+846	M	0.2045	
+847	L	0.2139	
+848	S	0.2274	
+849	H	0.2312	
+850	R	0.2179	
+851	C	0.2063	
+852	F	0.2054	
+853	N	0.2119	
+854	T	0.2094	
+855	L	0.2128	
+856	T	0.2099	
+857	N	0.2029	
+858	S	0.1832	
+859	F	0.1685	
+860	Q	0.1638	
+861	P	0.1538	
+862	S	0.1279	
+863	L	0.1069	
+864	L	0.1054	
+865	G	0.1193	
+866	R	0.1419	
+867	K	0.1631	
+868	I	0.1742	
+869	L	0.1873	
+870	A	0.1999	
+871	A	0.2065	
+872	I	0.2011	
+873	I	0.1837	
+874	M	0.1630	
+875	K	0.1506	
+876	K	0.1434	
+877	D	0.1450	
+878	S	0.1618	
+879	E	0.1939	
+880	D	0.2209	
+881	M	0.2543	
+882	G	0.2855	
+883	V	0.3233	
+884	V	0.3516	
+885	V	0.3656	
+886	S	0.3563	domain A to I editase
+887	L	0.3328	domain A to I editase
+888	G	0.3065	domain A to I editase
+889	T	0.2850	domain A to I editase
+890	G	0.2566	domain A to I editase
+891	N	0.2416	domain A to I editase
+892	R	0.2374	domain A to I editase
+893	C	0.2514	domain A to I editase
+894	V	0.2745	domain A to I editase
+895	K	0.3104	domain A to I editase
+896	G	0.3494	domain A to I editase
+897	D	0.3755	domain A to I editase
+898	S	0.3823	domain A to I editase
+899	L	0.3750	domain A to I editase
+900	S	0.3491	domain A to I editase
+901	L	0.3312	domain A to I editase
+902	K	0.3168	domain A to I editase
+903	G	0.3091	domain A to I editase
+904	E	0.3024	domain A to I editase
+905	T	0.2977	domain A to I editase
+906	V	0.3009	domain A to I editase
+907	N	0.3076	domain A to I editase
+908	D	0.2965	domain A to I editase
+909	C	0.2807	domain A to I editase
+910	H	0.2553	domain A to I editase
+911	A	0.2238	domain A to I editase
+912	E	0.1840	domain A to I editase
+913	I	0.1523	domain A to I editase
+914	I	0.1270	domain A to I editase
+915	S	0.1082	domain A to I editase
+916	R	0.0930	domain A to I editase
+917	R	0.0774	domain A to I editase
+918	G	0.0620	domain A to I editase
+919	F	0.0601	domain A to I editase
+920	I	0.0658	domain A to I editase
+921	R	0.0795	domain A to I editase
+922	F	0.0971	domain A to I editase
+923	L	0.1114	domain A to I editase
+924	Y	0.1271	domain A to I editase
+925	S	0.1385	domain A to I editase
+926	E	0.1432	domain A to I editase
+927	L	0.1382	domain A to I editase
+928	M	0.1340	domain A to I editase
+929	K	0.1403	domain A to I editase
+930	Y	0.1487	domain A to I editase
+931	N	0.1724	domain A to I editase
+932	S	0.2084	domain A to I editase
+933	Q	0.2563	domain A to I editase
+934	T	0.3091	domain A to I editase
+935	A	0.3587	domain A to I editase
+936	K	0.3982	domain A to I editase
+937	D	0.4303	domain A to I editase
+938	S	0.4411	domain A to I editase
+939	I	0.4494	domain A to I editase
+940	F	0.4498	domain A to I editase
+941	E	0.4448	domain A to I editase
+942	P	0.4391	domain A to I editase
+943	A	0.4254	domain A to I editase
+944	K	0.4051	domain A to I editase
+945	G	0.3753	domain A to I editase
+946	G	0.3437	domain A to I editase
+947	E	0.3084	domain A to I editase
+948	K	0.2718	domain A to I editase
+949	L	0.2444	domain A to I editase
+950	Q	0.2227	domain A to I editase
+951	I	0.2069	domain A to I editase
+952	K	0.1911	domain A to I editase
+953	K	0.1818	domain A to I editase
+954	T	0.1756	domain A to I editase
+955	V	0.1745	domain A to I editase
+956	S	0.1646	domain A to I editase
+957	F	0.1561	domain A to I editase
+958	H	0.1430	domain A to I editase
+959	L	0.1366	domain A to I editase
+960	Y	0.1271	domain A to I editase
+961	I	0.1159	domain A to I editase
+962	S	0.1050	domain A to I editase
+963	T	0.0985	domain A to I editase
+964	A	0.0895	domain A to I editase
+965	P	0.0787	domain A to I editase
+966	C	0.0838	domain A to I editase
+967	G	0.0967	domain A to I editase
+968	D	0.1278	domain A to I editase
+969	G	0.1630	domain A to I editase
+970	A	0.1908	domain A to I editase
+971	L	0.2320	domain A to I editase
+972	F	0.2732	domain A to I editase
+973	D	0.3102	domain A to I editase
+974	K	0.3463	domain A to I editase
+975	S	0.3623	domain A to I editase
+976	C	0.3678	domain A to I editase
+977	S	0.3658	domain A to I editase
+978	D	0.3603	domain A to I editase
+979	R	0.3502	domain A to I editase
+980	A	0.3433	domain A to I editase
+981	M	0.3437	domain A to I editase
+982	E	0.3580	domain A to I editase
+983	S	0.3840	domain A to I editase
+984	T	0.4151	domain A to I editase
+985	E	0.4436	domain A to I editase
+986	S	0.4841	domain A to I editase
+987	R	0.5130	domain A to I editase
+988	H	0.5260	domain A to I editase
+989	Y	0.5334	domain A to I editase
+990	P	0.5251	domain A to I editase
+991	V	0.5150	domain A to I editase
+992	F	0.4963	domain A to I editase
+993	E	0.4831	domain A to I editase
+994	N	0.4735	domain A to I editase
+995	P	0.4640	domain A to I editase
+996	K	0.4659	domain A to I editase
+997	Q	0.4678	domain A to I editase
+998	G	0.4773	domain A to I editase
+999	K	0.4836	domain A to I editase
+1000	L	0.5070	domain A to I editase
+1001	R	0.5404	domain A to I editase
+1002	T	0.5677	domain A to I editase
+1003	K	0.5689	domain A to I editase
+1004	V	0.5680	domain A to I editase
+1005	E	0.5586	domain A to I editase
+1006	N	0.5398	domain A to I editase
+1007	G	0.5155	domain A to I editase
+1008	E	0.4855	domain A to I editase
+1009	G	0.4658	domain A to I editase
+1010	T	0.4385	domain A to I editase
+1011	I	0.4295	domain A to I editase
+1012	P	0.4185	domain A to I editase
+1013	V	0.4153	domain A to I editase
+1014	E	0.4033	domain A to I editase
+1015	S	0.3879	domain A to I editase
+1016	S	0.3668	domain A to I editase
+1017	D	0.3317	domain A to I editase
+1018	I	0.3088	domain A to I editase
+1019	V	0.3012	domain A to I editase
+1020	P	0.3041	domain A to I editase
+1021	T	0.2912	domain A to I editase
+1022	W	0.2799	domain A to I editase
+1023	D	0.2788	domain A to I editase
+1024	G	0.2800	domain A to I editase
+1025	I	0.2784	domain A to I editase
+1026	R	0.2662	domain A to I editase
+1027	L	0.2590	domain A to I editase
+1028	G	0.2501	domain A to I editase
+1029	E	0.2379	domain A to I editase
+1030	R	0.2207	domain A to I editase
+1031	L	0.2122	domain A to I editase
+1032	R	0.1980	domain A to I editase
+1033	T	0.1881	domain A to I editase
+1034	M	0.1715	domain A to I editase
+1035	S	0.1530	domain A to I editase
+1036	C	0.1439	domain A to I editase
+1037	S	0.1372	domain A to I editase
+1038	D	0.1396	domain A to I editase
+1039	K	0.1351	domain A to I editase
+1040	I	0.1227	domain A to I editase
+1041	L	0.1124	domain A to I editase
+1042	R	0.1036	domain A to I editase
+1043	W	0.0939	domain A to I editase
+1044	N	0.0808	domain A to I editase
+1045	V	0.0728	domain A to I editase
+1046	L	0.0626	domain A to I editase
+1047	G	0.0572	domain A to I editase
+1048	L	0.0538	domain A to I editase
+1049	Q	0.0515	domain A to I editase
+1050	G	0.0499	domain A to I editase
+1051	A	0.0495	domain A to I editase
+1052	L	0.0493	domain A to I editase
+1053	L	0.0555	domain A to I editase
+1054	T	0.0633	domain A to I editase
+1055	H	0.0667	domain A to I editase
+1056	F	0.0680	domain A to I editase
+1057	L	0.0654	domain A to I editase
+1058	Q	0.0640	domain A to I editase
+1059	P	0.0588	domain A to I editase
+1060	I	0.0493	domain A to I editase
+1061	Y	0.0396	domain A to I editase
+1062	L	0.0376	domain A to I editase
+1063	K	0.0435	domain A to I editase
+1064	S	0.0511	domain A to I editase
+1065	V	0.0603	domain A to I editase
+1066	T	0.0694	domain A to I editase
+1067	L	0.0778	domain A to I editase
+1068	G	0.0800	domain A to I editase
+1069	Y	0.0773	domain A to I editase
+1070	L	0.0687	domain A to I editase
+1071	F	0.0619	domain A to I editase
+1072	S	0.0541	domain A to I editase
+1073	Q	0.0553	domain A to I editase
+1074	G	0.0527	domain A to I editase
+1075	H	0.0522	domain A to I editase
+1076	L	0.0606	domain A to I editase
+1077	T	0.0819	domain A to I editase
+1078	R	0.1078	domain A to I editase
+1079	A	0.1284	domain A to I editase
+1080	I	0.1420	domain A to I editase
+1081	C	0.1583	domain A to I editase
+1082	C	0.1787	domain A to I editase
+1083	R	0.1947	domain A to I editase
+1084	V	0.2027	domain A to I editase
+1085	T	0.1980	domain A to I editase
+1086	R	0.1852	domain A to I editase
+1087	D	0.1658	domain A to I editase
+1088	G	0.1522	domain A to I editase
+1089	S	0.1513	domain A to I editase
+1090	A	0.1578	domain A to I editase
+1091	F	0.1865	domain A to I editase
+1092	E	0.2151	domain A to I editase
+1093	D	0.2471	domain A to I editase
+1094	G	0.2710	domain A to I editase
+1095	L	0.2928	domain A to I editase
+1096	R	0.3092	domain A to I editase
+1097	H	0.3109	domain A to I editase
+1098	P	0.2843	domain A to I editase
+1099	F	0.2479	domain A to I editase
+1100	I	0.2135	domain A to I editase
+1101	V	0.1987	domain A to I editase
+1102	N	0.1923	domain A to I editase
+1103	H	0.1891	domain A to I editase
+1104	P	0.1895	domain A to I editase
+1105	K	0.1925	domain A to I editase
+1106	V	0.2089	domain A to I editase
+1107	G	0.2359	domain A to I editase
+1108	R	0.2768	domain A to I editase
+1109	V	0.3152	domain A to I editase
+1110	S	0.3520	domain A to I editase
+1111	I	0.3971	domain A to I editase
+1112	Y	0.4344	domain A to I editase
+1113	D	0.4635	domain A to I editase
+1114	S	0.4732	domain A to I editase
+1115	K	0.4547	domain A to I editase
+1116	R	0.4191	domain A to I editase
+1117	Q	0.3687	domain A to I editase
+1118	S	0.3240	domain A to I editase
+1119	G	0.2938	domain A to I editase
+1120	K	0.2778	domain A to I editase
+1121	T	0.2749	domain A to I editase
+1122	K	0.2742	domain A to I editase
+1123	E	0.2731	domain A to I editase
+1124	T	0.2655	domain A to I editase
+1125	S	0.2510	domain A to I editase
+1126	V	0.2352	domain A to I editase
+1127	N	0.1973	domain A to I editase
+1128	W	0.1561	domain A to I editase
+1129	C	0.1180	domain A to I editase
+1130	L	0.0925	domain A to I editase
+1131	A	0.0833	domain A to I editase
+1132	D	0.0779	domain A to I editase
+1133	G	0.0629	domain A to I editase
+1134	Y	0.0526	domain A to I editase
+1135	D	0.0544	domain A to I editase
+1136	L	0.0800	domain A to I editase
+1137	E	0.1025	domain A to I editase
+1138	I	0.1420	domain A to I editase
+1139	L	0.1859	domain A to I editase
+1140	D	0.2356	domain A to I editase
+1141	G	0.2829	domain A to I editase
+1142	T	0.3098	domain A to I editase
+1143	R	0.3298	domain A to I editase
+1144	G	0.3518	domain A to I editase
+1145	T	0.3741	domain A to I editase
+1146	V	0.3986	domain A to I editase
+1147	D	0.4264	domain A to I editase
+1148	G	0.4586	domain A to I editase
+1149	P	0.4740	domain A to I editase
+1150	R	0.4726	domain A to I editase
+1151	N	0.4512	domain A to I editase
+1152	E	0.4039	domain A to I editase
+1153	L	0.3497	domain A to I editase
+1154	S	0.2917	domain A to I editase
+1155	R	0.2248	domain A to I editase
+1156	V	0.1706	domain A to I editase
+1157	S	0.1242	domain A to I editase
+1158	K	0.0999	domain A to I editase
+1159	K	0.0885	domain A to I editase
+1160	N	0.0710	domain A to I editase
+1161	I	0.0546	domain A to I editase
+1162	F	0.0414	domain A to I editase
+1163	L	0.0293	domain A to I editase
+1164	L	0.0200	domain A to I editase
+1165	F	0.0213	domain A to I editase
+1166	K	0.0276	domain A to I editase
+1167	K	0.0273	domain A to I editase
+1168	L	0.0218	domain A to I editase
+1169	C	0.0167	domain A to I editase
+1170	S	0.0143	domain A to I editase
+1171	F	0.0184	domain A to I editase
+1172	R	0.0198	domain A to I editase
+1173	Y	0.0257	domain A to I editase
+1174	R	0.0343	domain A to I editase
+1175	R	0.0507	domain A to I editase
+1176	D	0.0639	domain A to I editase
+1177	L	0.0810	domain A to I editase
+1178	L	0.1036	domain A to I editase
+1179	R	0.1274	domain A to I editase
+1180	L	0.1513	domain A to I editase
+1181	S	0.1775	domain A to I editase
+1182	Y	0.2068	domain A to I editase
+1183	G	0.2271	domain A to I editase
+1184	E	0.2408	domain A to I editase
+1185	A	0.2496	domain A to I editase
+1186	K	0.2501	domain A to I editase
+1187	K	0.2475	domain A to I editase
+1188	A	0.2491	domain A to I editase
+1189	A	0.2521	domain A to I editase
+1190	R	0.2597	domain A to I editase
+1191	D	0.2716	domain A to I editase
+1192	Y	0.2751	domain A to I editase
+1193	E	0.2852	domain A to I editase
+1194	T	0.2945	domain A to I editase
+1195	A	0.2967	domain A to I editase
+1196	K	0.2918	domain A to I editase
+1197	N	0.2767	domain A to I editase
+1198	Y	0.2505	domain A to I editase
+1199	F	0.2240	domain A to I editase
+1200	K	0.2090	domain A to I editase
+1201	K	0.1950	domain A to I editase
+1202	G	0.1729	domain A to I editase
+1203	L	0.1615	domain A to I editase
+1204	K	0.1668	domain A to I editase
+1205	D	0.1901	domain A to I editase
+1206	M	0.2242	domain A to I editase
+1207	G	0.2513	domain A to I editase
+1208	Y	0.2820	domain A to I editase
+1209	G	0.3010	domain A to I editase
+1210	N	0.2983	domain A to I editase
+1211	W	0.2804	domain A to I editase
+1212	I	0.2566	domain A to I editase
+1213	S	0.2290	domain A to I editase
+1214	K	0.1986	domain A to I editase
+1215	P	0.1625	domain A to I editase
+1216	Q	0.1298	domain A to I editase
+1217	E	0.1102	domain A to I editase
+1218	E	0.1142	domain A to I editase
+1219	K	0.1283	domain A to I editase
+1220	N	0.1485	domain A to I editase
+1221	F	0.1698	domain A to I editase
+1222	Y	0.1868	
+1223	L	0.1941	
+1224	C	0.1866	
+1225	P	0.1603	
+1226	V	0.1122	

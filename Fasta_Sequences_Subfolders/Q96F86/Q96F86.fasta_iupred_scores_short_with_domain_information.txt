@@ -1,0 +1,520 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.7269	domain Sm
+2	A	0.6430	domain Sm
+3	T	0.5783	domain Sm
+4	D	0.5213	domain Sm
+5	W	0.4648	domain Sm
+6	L	0.4052	domain Sm
+7	G	0.3424	domain Sm
+8	S	0.2780	domain Sm
+9	I	0.2156	domain Sm
+10	V	0.1594	domain Sm
+11	S	0.1193	domain Sm
+12	I	0.0915	domain Sm
+13	N	0.0742	domain Sm
+14	C	0.0763	domain Sm
+15	G	0.0827	domain Sm
+16	D	0.0905	domain Sm
+17	S	0.0979	domain Sm
+18	L	0.1082	domain Sm
+19	G	0.1202	domain Sm
+20	V	0.1378	domain Sm
+21	Y	0.1565	domain Sm
+22	Q	0.1678	domain Sm
+23	G	0.1763	domain Sm
+24	R	0.1723	domain Sm
+25	V	0.1685	domain Sm
+26	S	0.1591	domain Sm
+27	A	0.1548	domain Sm
+28	V	0.1520	domain Sm
+29	D	0.1593	domain Sm
+30	Q	0.1713	domain Sm
+31	V	0.1903	domain Sm
+32	S	0.2133	domain Sm
+33	Q	0.2251	domain Sm
+34	T	0.2274	domain Sm
+35	I	0.2187	domain Sm
+36	S	0.2048	domain Sm
+37	L	0.1957	domain Sm
+38	T	0.1877	domain Sm
+39	R	0.1809	domain Sm
+40	P	0.1650	domain Sm
+41	F	0.1619	domain Sm
+42	H	0.1600	domain Sm
+43	N	0.1634	domain Sm
+44	G	0.1645	domain Sm
+45	V	0.1709	domain Sm
+46	K	0.1729	domain Sm
+47	C	0.1841	domain Sm
+48	L	0.1904	domain Sm
+49	V	0.2010	domain Sm
+50	P	0.2055	domain Sm
+51	E	0.2007	domain Sm
+52	V	0.1790	domain Sm
+53	T	0.1533	domain Sm
+54	F	0.1415	domain Sm
+55	R	0.1402	domain Sm
+56	A	0.1522	domain Sm
+57	G	0.1712	domain Sm
+58	D	0.1965	domain Sm
+59	I	0.2334	domain Sm
+60	T	0.2724	domain Sm
+61	E	0.3243	domain Sm
+62	L	0.3662	domain Sm
+63	K	0.3922	domain Sm
+64	I	0.4139	domain Sm
+65	L	0.4240	domain Sm
+66	E	0.4277	domain Sm
+67	I	0.4381	domain Sm
+68	P	0.4411	domain Sm
+69	G	0.4478	
+70	P	0.4437	
+71	G	0.4515	
+72	D	0.4689	
+73	N	0.5030	
+74	Q	0.5432	
+75	H	0.5787	
+76	F	0.6096	
+77	G	0.6308	
+78	D	0.6388	
+79	L	0.6360	
+80	H	0.6140	
+81	Q	0.5841	
+82	T	0.5517	
+83	E	0.5127	
+84	L	0.4897	
+85	G	0.4834	
+86	P	0.4928	
+87	S	0.5119	
+88	G	0.5273	
+89	A	0.5417	
+90	G	0.5482	
+91	C	0.5569	
+92	Q	0.5525	
+93	V	0.5468	
+94	G	0.5252	
+95	I	0.5135	
+96	N	0.5057	
+97	Q	0.5005	
+98	N	0.4972	
+99	G	0.5091	
+100	T	0.5249	
+101	G	0.5440	
+102	K	0.5613	
+103	F	0.5790	
+104	V	0.6003	
+105	K	0.6198	
+106	K	0.6321	
+107	P	0.6339	
+108	A	0.6322	
+109	S	0.6259	
+110	S	0.6249	
+111	S	0.6296	
+112	S	0.6342	
+113	A	0.6504	
+114	P	0.6618	
+115	Q	0.6727	
+116	N	0.6697	
+117	I	0.6659	
+118	P	0.6554	
+119	K	0.6512	
+120	R	0.6434	
+121	T	0.6374	
+122	D	0.6297	
+123	V	0.6357	
+124	K	0.6487	
+125	S	0.6638	
+126	Q	0.6706	
+127	D	0.6630	
+128	V	0.6504	
+129	A	0.6307	
+130	V	0.6138	
+131	S	0.6009	
+132	P	0.5919	
+133	Q	0.5835	
+134	Q	0.5750	
+135	Q	0.5723	
+136	Q	0.5695	
+137	C	0.5843	
+138	S	0.5993	
+139	K	0.6163	
+140	S	0.6187	
+141	Y	0.6147	
+142	V	0.6086	
+143	D	0.6032	
+144	R	0.6010	
+145	H	0.5955	
+146	M	0.5889	
+147	E	0.5851	
+148	S	0.5887	
+149	L	0.5983	
+150	S	0.6139	
+151	Q	0.6256	
+152	S	0.6316	
+153	K	0.6289	
+154	S	0.6214	
+155	F	0.6219	
+156	R	0.6270	
+157	R	0.6436	
+158	R	0.6559	
+159	H	0.6684	
+160	N	0.6793	
+161	S	0.6920	
+162	W	0.7113	
+163	S	0.7266	
+164	S	0.7406	
+165	S	0.7393	
+166	S	0.7320	
+167	R	0.7239	
+168	H	0.7189	
+169	P	0.7185	
+170	N	0.7200	
+171	Q	0.7199	
+172	A	0.7215	
+173	T	0.7295	
+174	P	0.7470	
+175	K	0.7672	
+176	K	0.7747	
+177	S	0.7692	
+178	G	0.7548	
+179	L	0.7333	
+180	K	0.7020	
+181	N	0.6788	
+182	G	0.6584	
+183	Q	0.6294	
+184	M	0.6028	
+185	K	0.5781	
+186	N	0.5698	
+187	K	0.5689	
+188	D	0.5774	
+189	D	0.5853	
+190	E	0.5836	
+191	C	0.5748	
+192	F	0.5715	domain DFDF
+193	G	0.5687	domain DFDF
+194	D	0.5583	domain DFDF
+195	D	0.5411	domain DFDF
+196	I	0.5212	domain DFDF
+197	E	0.4991	domain DFDF
+198	E	0.4786	domain DFDF
+199	I	0.4632	domain DFDF
+200	P	0.4480	domain DFDF
+201	D	0.4431	domain DFDF
+202	T	0.4314	domain DFDF
+203	D	0.4097	domain DFDF
+204	F	0.3982	domain DFDF
+205	D	0.3826	domain DFDF
+206	F	0.3718	domain DFDF
+207	E	0.3582	domain DFDF
+208	G	0.3402	domain DFDF
+209	N	0.3102	domain DFDF
+210	L	0.2845	domain DFDF
+211	A	0.2671	domain DFDF
+212	L	0.2577	domain DFDF
+213	F	0.2502	domain DFDF
+214	D	0.2463	domain DFDF
+215	K	0.2461	domain DFDF
+216	A	0.2495	domain DFDF
+217	A	0.2486	domain DFDF
+218	V	0.2607	domain DFDF
+219	F	0.2853	domain DFDF
+220	E	0.3074	domain DFDF
+221	E	0.3268	domain DFDF
+222	I	0.3473	domain DFDF
+223	D	0.3658	domain DFDF
+224	T	0.3898	domain DFDF
+225	Y	0.4090	domain DFDF
+226	E	0.4340	domain DFDF
+227	R	0.4583	domain DFDF
+228	R	0.4788	domain DFDF
+229	S	0.4992	
+230	G	0.5211	
+231	T	0.5343	
+232	R	0.5493	
+233	S	0.5638	
+234	R	0.5715	
+235	G	0.5703	
+236	I	0.5710	
+237	P	0.5611	
+238	N	0.5573	
+239	E	0.5486	
+240	R	0.5437	
+241	P	0.5392	
+242	T	0.5321	
+243	R	0.5151	
+244	Y	0.5039	
+245	R	0.5022	
+246	H	0.4924	
+247	D	0.4707	
+248	E	0.4334	
+249	N	0.3880	
+250	I	0.3414	
+251	L	0.3011	
+252	E	0.2669	
+253	S	0.2439	
+254	E	0.2328	
+255	P	0.2239	
+256	I	0.2223	
+257	V	0.2160	
+258	Y	0.2149	
+259	R	0.2124	
+260	R	0.2024	
+261	I	0.1879	
+262	I	0.1730	
+263	V	0.1645	
+264	P	0.1638	
+265	H	0.1572	
+266	N	0.1463	
+267	V	0.1408	
+268	S	0.1442	
+269	K	0.1533	
+270	E	0.1565	
+271	F	0.1581	
+272	C	0.1601	
+273	T	0.1667	
+274	D	0.1658	
+275	S	0.1571	
+276	G	0.1449	
+277	L	0.1312	
+278	V	0.1177	
+279	V	0.1102	
+280	P	0.0999	
+281	S	0.0937	
+282	I	0.0876	
+283	S	0.0849	domain YjeF N-terminal
+284	Y	0.0882	domain YjeF N-terminal
+285	E	0.0868	domain YjeF N-terminal
+286	L	0.0902	domain YjeF N-terminal
+287	H	0.0976	domain YjeF N-terminal
+288	K	0.1051	domain YjeF N-terminal
+289	K	0.1070	domain YjeF N-terminal
+290	L	0.1100	domain YjeF N-terminal
+291	L	0.1176	domain YjeF N-terminal
+292	S	0.1275	domain YjeF N-terminal
+293	V	0.1412	domain YjeF N-terminal
+294	A	0.1540	domain YjeF N-terminal
+295	E	0.1682	domain YjeF N-terminal
+296	K	0.1768	domain YjeF N-terminal
+297	H	0.1832	domain YjeF N-terminal
+298	G	0.1863	domain YjeF N-terminal
+299	L	0.1978	domain YjeF N-terminal
+300	T	0.2006	domain YjeF N-terminal
+301	L	0.2125	domain YjeF N-terminal
+302	E	0.2272	domain YjeF N-terminal
+303	R	0.2383	domain YjeF N-terminal
+304	R	0.2397	domain YjeF N-terminal
+305	L	0.2327	domain YjeF N-terminal
+306	E	0.2250	domain YjeF N-terminal
+307	M	0.2131	domain YjeF N-terminal
+308	T	0.2003	domain YjeF N-terminal
+309	G	0.1886	domain YjeF N-terminal
+310	V	0.1816	domain YjeF N-terminal
+311	C	0.1839	domain YjeF N-terminal
+312	A	0.1948	domain YjeF N-terminal
+313	S	0.2207	domain YjeF N-terminal
+314	Q	0.2419	domain YjeF N-terminal
+315	M	0.2553	domain YjeF N-terminal
+316	A	0.2652	domain YjeF N-terminal
+317	L	0.2775	domain YjeF N-terminal
+318	T	0.2839	domain YjeF N-terminal
+319	L	0.3002	domain YjeF N-terminal
+320	L	0.3160	domain YjeF N-terminal
+321	G	0.3448	domain YjeF N-terminal
+322	G	0.3726	domain YjeF N-terminal
+323	P	0.4011	domain YjeF N-terminal
+324	N	0.4272	domain YjeF N-terminal
+325	R	0.4424	domain YjeF N-terminal
+326	L	0.4470	domain YjeF N-terminal
+327	N	0.4513	domain YjeF N-terminal
+328	P	0.4484	domain YjeF N-terminal
+329	K	0.4299	domain YjeF N-terminal
+330	N	0.4076	domain YjeF N-terminal
+331	V	0.3896	domain YjeF N-terminal
+332	H	0.3677	domain YjeF N-terminal
+333	Q	0.3579	domain YjeF N-terminal
+334	R	0.3461	domain YjeF N-terminal
+335	P	0.3437	domain YjeF N-terminal
+336	T	0.3417	domain YjeF N-terminal
+337	V	0.3411	domain YjeF N-terminal
+338	A	0.3274	domain YjeF N-terminal
+339	L	0.3157	domain YjeF N-terminal
+340	L	0.2976	domain YjeF N-terminal
+341	C	0.2782	domain YjeF N-terminal
+342	G	0.2547	domain YjeF N-terminal
+343	P	0.2190	domain YjeF N-terminal
+344	H	0.1779	domain YjeF N-terminal
+345	V	0.1439	domain YjeF N-terminal
+346	K	0.1309	domain YjeF N-terminal
+347	G	0.1321	domain YjeF N-terminal
+348	A	0.1455	domain YjeF N-terminal
+349	Q	0.1675	domain YjeF N-terminal
+350	G	0.1897	domain YjeF N-terminal
+351	I	0.2131	domain YjeF N-terminal
+352	S	0.2157	domain YjeF N-terminal
+353	C	0.2129	domain YjeF N-terminal
+354	G	0.1965	domain YjeF N-terminal
+355	R	0.1678	domain YjeF N-terminal
+356	H	0.1256	domain YjeF N-terminal
+357	L	0.0872	domain YjeF N-terminal
+358	A	0.0557	domain YjeF N-terminal
+359	N	0.0375	domain YjeF N-terminal
+360	H	0.0333	domain YjeF N-terminal
+361	D	0.0358	domain YjeF N-terminal
+362	V	0.0400	domain YjeF N-terminal
+363	Q	0.0364	domain YjeF N-terminal
+364	V	0.0366	domain YjeF N-terminal
+365	I	0.0371	domain YjeF N-terminal
+366	L	0.0353	domain YjeF N-terminal
+367	F	0.0364	domain YjeF N-terminal
+368	L	0.0399	domain YjeF N-terminal
+369	P	0.0408	domain YjeF N-terminal
+370	N	0.0389	domain YjeF N-terminal
+371	F	0.0327	domain YjeF N-terminal
+372	V	0.0284	domain YjeF N-terminal
+373	K	0.0316	domain YjeF N-terminal
+374	M	0.0304	domain YjeF N-terminal
+375	L	0.0332	domain YjeF N-terminal
+376	E	0.0424	domain YjeF N-terminal
+377	S	0.0557	domain YjeF N-terminal
+378	I	0.0733	domain YjeF N-terminal
+379	T	0.0965	domain YjeF N-terminal
+380	N	0.1215	domain YjeF N-terminal
+381	E	0.1457	domain YjeF N-terminal
+382	L	0.1659	domain YjeF N-terminal
+383	S	0.1794	domain YjeF N-terminal
+384	L	0.1974	domain YjeF N-terminal
+385	F	0.2017	domain YjeF N-terminal
+386	S	0.2116	domain YjeF N-terminal
+387	K	0.2172	domain YjeF N-terminal
+388	T	0.2181	domain YjeF N-terminal
+389	Q	0.2184	domain YjeF N-terminal
+390	G	0.2343	domain YjeF N-terminal
+391	Q	0.2570	domain YjeF N-terminal
+392	Q	0.2813	domain YjeF N-terminal
+393	V	0.3107	domain YjeF N-terminal
+394	S	0.3328	domain YjeF N-terminal
+395	S	0.3489	domain YjeF N-terminal
+396	L	0.3457	domain YjeF N-terminal
+397	K	0.3267	domain YjeF N-terminal
+398	D	0.2942	domain YjeF N-terminal
+399	L	0.2507	domain YjeF N-terminal
+400	P	0.2038	domain YjeF N-terminal
+401	T	0.1694	domain YjeF N-terminal
+402	S	0.1496	domain YjeF N-terminal
+403	P	0.1311	domain YjeF N-terminal
+404	V	0.1318	domain YjeF N-terminal
+405	D	0.1296	domain YjeF N-terminal
+406	L	0.1279	domain YjeF N-terminal
+407	V	0.1271	domain YjeF N-terminal
+408	I	0.1296	domain YjeF N-terminal
+409	N	0.1208	domain YjeF N-terminal
+410	C	0.1074	domain YjeF N-terminal
+411	L	0.0931	domain YjeF N-terminal
+412	D	0.0782	domain YjeF N-terminal
+413	C	0.0760	domain YjeF N-terminal
+414	P	0.0731	domain YjeF N-terminal
+415	E	0.0763	domain YjeF N-terminal
+416	N	0.0745	domain YjeF N-terminal
+417	V	0.0683	domain YjeF N-terminal
+418	F	0.0663	domain YjeF N-terminal
+419	L	0.0785	domain YjeF N-terminal
+420	R	0.0885	domain YjeF N-terminal
+421	D	0.0978	domain YjeF N-terminal
+422	Q	0.1062	domain YjeF N-terminal
+423	P	0.1059	domain YjeF N-terminal
+424	W	0.1149	domain YjeF N-terminal
+425	Y	0.1267	domain YjeF N-terminal
+426	K	0.1432	domain YjeF N-terminal
+427	A	0.1518	domain YjeF N-terminal
+428	A	0.1527	domain YjeF N-terminal
+429	V	0.1493	domain YjeF N-terminal
+430	A	0.1414	domain YjeF N-terminal
+431	W	0.1412	domain YjeF N-terminal
+432	A	0.1400	domain YjeF N-terminal
+433	N	0.1451	domain YjeF N-terminal
+434	Q	0.1386	domain YjeF N-terminal
+435	N	0.1415	domain YjeF N-terminal
+436	R	0.1522	domain YjeF N-terminal
+437	A	0.1811	domain YjeF N-terminal
+438	P	0.2121	domain YjeF N-terminal
+439	V	0.2500	domain YjeF N-terminal
+440	L	0.2776	domain YjeF N-terminal
+441	S	0.3002	domain YjeF N-terminal
+442	I	0.3169	domain YjeF N-terminal
+443	D	0.3243	domain YjeF N-terminal
+444	P	0.3244	domain YjeF N-terminal
+445	P	0.3102	domain YjeF N-terminal
+446	V	0.2810	domain YjeF N-terminal
+447	H	0.2548	domain YjeF N-terminal
+448	E	0.2261	domain YjeF N-terminal
+449	V	0.2097	domain YjeF N-terminal
+450	E	0.1979	domain YjeF N-terminal
+451	Q	0.1925	domain YjeF N-terminal
+452	G	0.1760	domain YjeF N-terminal
+453	I	0.1653	domain YjeF N-terminal
+454	D	0.1531	domain YjeF N-terminal
+455	A	0.1434	domain YjeF N-terminal
+456	K	0.1284	domain YjeF N-terminal
+457	W	0.1219	domain YjeF N-terminal
+458	S	0.1112	domain YjeF N-terminal
+459	L	0.1123	domain YjeF N-terminal
+460	A	0.1107	domain YjeF N-terminal
+461	L	0.1109	domain YjeF N-terminal
+462	G	0.1075	domain YjeF N-terminal
+463	L	0.1013	domain YjeF N-terminal
+464	P	0.0822	domain YjeF N-terminal
+465	L	0.0672	domain YjeF N-terminal
+466	P	0.0459	domain YjeF N-terminal
+467	L	0.0317	domain YjeF N-terminal
+468	G	0.0248	domain YjeF N-terminal
+469	E	0.0286	domain YjeF N-terminal
+470	H	0.0283	domain YjeF N-terminal
+471	A	0.0342	domain YjeF N-terminal
+472	G	0.0428	domain YjeF N-terminal
+473	R	0.0527	domain YjeF N-terminal
+474	I	0.0567	domain YjeF N-terminal
+475	Y	0.0602	domain YjeF N-terminal
+476	L	0.0617	domain YjeF N-terminal
+477	C	0.0621	domain YjeF N-terminal
+478	D	0.0541	domain YjeF N-terminal
+479	I	0.0476	domain YjeF N-terminal
+480	G	0.0339	domain YjeF N-terminal
+481	I	0.0298	domain YjeF N-terminal
+482	P	0.0257	domain YjeF N-terminal
+483	Q	0.0301	domain YjeF N-terminal
+484	Q	0.0310	domain YjeF N-terminal
+485	V	0.0390	domain YjeF N-terminal
+486	F	0.0487	domain YjeF N-terminal
+487	Q	0.0624	domain YjeF N-terminal
+488	E	0.0693	
+489	V	0.0699	
+490	G	0.0659	
+491	I	0.0609	
+492	N	0.0495	
+493	Y	0.0403	
+494	H	0.0292	
+495	S	0.0249	
+496	P	0.0183	
+497	F	0.0209	
+498	G	0.0285	
+499	C	0.0624	
+500	K	0.0997	
+501	F	0.1482	
+502	V	0.2073	
+503	I	0.2752	
+504	P	0.3490	
+505	L	0.4251	
+506	H	0.4981	
+507	S	0.5618	
+508	A	0.6082	

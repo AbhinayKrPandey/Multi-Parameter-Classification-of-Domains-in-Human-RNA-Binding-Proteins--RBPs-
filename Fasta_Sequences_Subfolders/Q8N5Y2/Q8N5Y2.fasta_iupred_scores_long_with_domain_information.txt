@@ -1,0 +1,533 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.2347	
+2	S	0.3115	
+3	A	0.3605	
+4	S	0.3838	
+5	E	0.3853	
+6	G	0.3699	
+7	M	0.3434	
+8	K	0.3118	
+9	F	0.2810	
+10	K	0.2562	
+11	F	0.2473	
+12	H	0.2447	
+13	S	0.2633	domain Tudor-knot
+14	G	0.2826	domain Tudor-knot
+15	E	0.3024	domain Tudor-knot
+16	K	0.3100	domain Tudor-knot
+17	V	0.3118	domain Tudor-knot
+18	L	0.3105	domain Tudor-knot
+19	C	0.3035	domain Tudor-knot
+20	F	0.2988	domain Tudor-knot
+21	E	0.2933	domain Tudor-knot
+22	P	0.2853	domain Tudor-knot
+23	D	0.2704	domain Tudor-knot
+24	P	0.2496	domain Tudor-knot
+25	T	0.2328	domain Tudor-knot
+26	K	0.2189	domain Tudor-knot
+27	A	0.2158	domain Tudor-knot
+28	R	0.2171	domain Tudor-knot
+29	V	0.2303	domain Tudor-knot
+30	L	0.2404	domain Tudor-knot
+31	Y	0.2720	domain Tudor-knot
+32	D	0.2938	domain Tudor-knot
+33	A	0.3025	domain Tudor-knot
+34	K	0.2932	domain Tudor-knot
+35	I	0.2819	domain Tudor-knot
+36	V	0.2764	domain Tudor-knot
+37	D	0.2733	domain Tudor-knot
+38	V	0.2789	domain Tudor-knot
+39	I	0.2870	domain Tudor-knot
+40	V	0.2992	domain Tudor-knot
+41	G	0.3115	domain Tudor-knot
+42	K	0.3174	domain Tudor-knot
+43	D	0.3172	domain Tudor-knot
+44	E	0.3075	domain Tudor-knot
+45	K	0.3054	domain Tudor-knot
+46	G	0.3057	domain Tudor-knot
+47	R	0.3058	domain Tudor-knot
+48	K	0.3119	domain Tudor-knot
+49	I	0.3328	domain Tudor-knot
+50	P	0.3533	domain Tudor-knot
+51	E	0.3637	domain Tudor-knot
+52	Y	0.3514	domain Tudor-knot
+53	L	0.3267	domain Tudor-knot
+54	I	0.3022	domain Tudor-knot
+55	H	0.2774	domain Tudor-knot
+56	F	0.2576	domain Tudor-knot
+57	N	0.2323	domain Tudor-knot
+58	G	0.2154	domain Tudor-knot
+59	W	0.2092	domain Tudor-knot
+60	N	0.2112	domain Tudor-knot
+61	R	0.2237	domain Tudor-knot
+62	S	0.2336	domain Tudor-knot
+63	W	0.2536	domain Tudor-knot
+64	D	0.2821	domain Tudor-knot
+65	R	0.3139	domain Tudor-knot
+66	W	0.3445	domain Tudor-knot
+67	A	0.3723	domain Tudor-knot
+68	A	0.4083	domain Tudor-knot
+69	E	0.4379	domain Tudor-knot
+70	D	0.4522	domain Tudor-knot
+71	H	0.4558	domain Tudor-knot
+72	V	0.4583	
+73	L	0.4658	
+74	R	0.4793	
+75	D	0.4878	
+76	T	0.4991	
+77	D	0.5014	
+78	E	0.5020	
+79	N	0.5029	
+80	R	0.4917	
+81	R	0.4764	
+82	L	0.4673	
+83	Q	0.4634	
+84	R	0.4565	
+85	K	0.4416	
+86	L	0.4438	
+87	A	0.4434	
+88	R	0.4504	
+89	K	0.4479	
+90	A	0.4337	
+91	V	0.4220	
+92	A	0.4144	
+93	R	0.4052	
+94	L	0.3956	
+95	R	0.3924	
+96	S	0.3958	
+97	T	0.3936	
+98	G	0.3950	
+99	R	0.3965	
+100	K	0.4002	
+101	K	0.4055	
+102	K	0.4093	
+103	R	0.4024	
+104	C	0.3982	
+105	R	0.3937	
+106	L	0.4026	
+107	P	0.4035	
+108	G	0.4051	
+109	V	0.4043	
+110	D	0.4062	
+111	S	0.4259	
+112	V	0.4487	
+113	L	0.4806	
+114	K	0.5211	
+115	G	0.5531	
+116	L	0.5748	
+117	P	0.5942	
+118	T	0.6159	
+119	E	0.6275	
+120	E	0.6335	
+121	K	0.6398	
+122	D	0.6476	
+123	E	0.6626	
+124	N	0.6809	
+125	D	0.7049	
+126	E	0.7329	
+127	N	0.7453	
+128	S	0.7450	
+129	L	0.7454	
+130	S	0.7317	
+131	S	0.7261	
+132	S	0.7168	
+133	S	0.7014	
+134	D	0.6742	
+135	C	0.6532	
+136	S	0.6389	
+137	E	0.6337	
+138	N	0.6296	
+139	K	0.6284	
+140	D	0.6317	
+141	E	0.6375	
+142	E	0.6346	
+143	I	0.6454	
+144	S	0.6600	
+145	E	0.6786	
+146	E	0.6878	
+147	S	0.6903	
+148	D	0.6850	
+149	I	0.6931	
+150	E	0.6963	
+151	E	0.7010	
+152	K	0.6993	
+153	T	0.6901	
+154	E	0.6878	
+155	V	0.6971	
+156	K	0.7138	
+157	E	0.7312	
+158	E	0.7499	
+159	P	0.7556	
+160	E	0.7395	
+161	L	0.7207	
+162	Q	0.7063	
+163	T	0.6977	
+164	R	0.6747	
+165	R	0.6410	
+166	E	0.6079	
+167	M	0.5790	
+168	E	0.5532	domain MRG
+169	E	0.5317	domain MRG
+170	R	0.5094	domain MRG
+171	T	0.4876	domain MRG
+172	I	0.4760	domain MRG
+173	T	0.4641	domain MRG
+174	I	0.4594	domain MRG
+175	E	0.4439	domain MRG
+176	I	0.4280	domain MRG
+177	P	0.3951	domain MRG
+178	E	0.3475	domain MRG
+179	V	0.2925	domain MRG
+180	L	0.2549	domain MRG
+181	K	0.2338	domain MRG
+182	K	0.2250	domain MRG
+183	Q	0.2122	domain MRG
+184	L	0.2178	domain MRG
+185	E	0.2305	domain MRG
+186	D	0.2460	domain MRG
+187	D	0.2426	domain MRG
+188	C	0.2314	domain MRG
+189	Y	0.2199	domain MRG
+190	Y	0.2094	domain MRG
+191	I	0.2032	domain MRG
+192	N	0.2041	domain MRG
+193	R	0.2006	domain MRG
+194	R	0.1907	domain MRG
+195	K	0.1794	domain MRG
+196	R	0.1735	domain MRG
+197	L	0.1670	domain MRG
+198	V	0.1634	domain MRG
+199	K	0.1702	domain MRG
+200	L	0.1820	domain MRG
+201	P	0.1848	domain MRG
+202	C	0.1911	domain MRG
+203	Q	0.1900	domain MRG
+204	T	0.1897	domain MRG
+205	N	0.1750	domain MRG
+206	I	0.1568	domain MRG
+207	I	0.1432	domain MRG
+208	T	0.1373	domain MRG
+209	I	0.1349	domain MRG
+210	L	0.1370	domain MRG
+211	E	0.1413	domain MRG
+212	S	0.1360	domain MRG
+213	Y	0.1284	domain MRG
+214	V	0.1292	domain MRG
+215	K	0.1395	domain MRG
+216	H	0.1568	domain MRG
+217	F	0.1888	domain MRG
+218	A	0.2244	domain MRG
+219	I	0.2705	domain MRG
+220	N	0.3150	domain MRG
+221	A	0.3508	domain MRG
+222	A	0.3784	domain MRG
+223	F	0.3977	domain MRG
+224	S	0.4208	domain MRG
+225	A	0.4471	domain MRG
+226	N	0.4744	domain MRG
+227	E	0.5144	domain MRG
+228	R	0.5497	domain MRG
+229	P	0.5892	domain MRG
+230	R	0.6248	domain MRG
+231	H	0.6457	domain MRG
+232	H	0.6544	domain MRG
+233	H	0.6588	domain MRG
+234	V	0.6528	domain MRG
+235	M	0.6410	domain MRG
+236	P	0.6336	domain MRG
+237	H	0.6275	domain MRG
+238	A	0.6097	domain MRG
+239	N	0.5875	domain MRG
+240	M	0.5635	domain MRG
+241	N	0.5329	domain MRG
+242	V	0.5048	domain MRG
+243	H	0.4778	domain MRG
+244	Y	0.4466	domain MRG
+245	I	0.4286	domain MRG
+246	P	0.4076	domain MRG
+247	A	0.3976	domain MRG
+248	E	0.3799	domain MRG
+249	K	0.3686	domain MRG
+250	N	0.3510	domain MRG
+251	V	0.3430	domain MRG
+252	D	0.3248	domain MRG
+253	L	0.3113	domain MRG
+254	C	0.3059	domain MRG
+255	K	0.3024	domain MRG
+256	E	0.2912	domain MRG
+257	M	0.2753	domain MRG
+258	V	0.2557	domain MRG
+259	D	0.2336	domain MRG
+260	G	0.2080	domain MRG
+261	L	0.1785	domain MRG
+262	R	0.1514	domain MRG
+263	I	0.1296	domain MRG
+264	T	0.1153	domain MRG
+265	F	0.1161	domain MRG
+266	D	0.1063	domain MRG
+267	Y	0.1129	domain MRG
+268	T	0.1113	domain MRG
+269	L	0.1200	domain MRG
+270	P	0.1191	domain MRG
+271	L	0.1212	domain MRG
+272	V	0.1213	domain MRG
+273	L	0.1383	domain MRG
+274	L	0.1652	domain MRG
+275	Y	0.1869	domain MRG
+276	P	0.2030	domain MRG
+277	Y	0.2183	domain MRG
+278	E	0.2201	domain MRG
+279	Q	0.2161	domain MRG
+280	A	0.2077	domain MRG
+281	Q	0.1993	domain MRG
+282	Y	0.1999	domain MRG
+283	K	0.2102	domain MRG
+284	K	0.2280	domain MRG
+285	V	0.2550	domain MRG
+286	T	0.2833	domain MRG
+287	S	0.3222	domain MRG
+288	S	0.3493	domain MRG
+289	K	0.3638	domain MRG
+290	F	0.3746	domain MRG
+291	F	0.3950	domain MRG
+292	L	0.4241	domain MRG
+293	P	0.4476	domain MRG
+294	I	0.4663	domain MRG
+295	K	0.4740	domain MRG
+296	E	0.4848	domain MRG
+297	S	0.5094	domain MRG
+298	A	0.5383	domain MRG
+299	T	0.5732	domain MRG
+300	S	0.6177	domain MRG
+301	T	0.6661	domain MRG
+302	N	0.7195	domain MRG
+303	R	0.7644	domain MRG
+304	S	0.8051	domain MRG
+305	Q	0.8410	domain MRG
+306	E	0.8598	domain MRG
+307	E	0.8611	domain MRG
+308	L	0.8581	domain MRG
+309	S	0.8565	domain MRG
+310	P	0.8677	domain MRG
+311	S	0.8827	domain MRG
+312	P	0.8911	domain MRG
+313	P	0.8889	domain MRG
+314	L	0.8889	domain MRG
+315	L	0.8908	domain MRG
+316	N	0.8974	domain MRG
+317	P	0.9028	domain MRG
+318	S	0.9085	domain MRG
+319	T	0.9143	domain MRG
+320	P	0.9207	domain MRG
+321	Q	0.9261	domain MRG
+322	S	0.9315	domain MRG
+323	T	0.9382	domain MRG
+324	E	0.9440	domain MRG
+325	S	0.9475	domain MRG
+326	Q	0.9493	domain MRG
+327	P	0.9538	domain MRG
+328	T	0.9596	domain MRG
+329	T	0.9591	domain MRG
+330	G	0.9593	domain MRG
+331	E	0.9580	domain MRG
+332	P	0.9503	domain MRG
+333	A	0.9405	domain MRG
+334	T	0.9315	domain MRG
+335	P	0.9219	domain MRG
+336	K	0.9066	domain MRG
+337	R	0.8869	domain MRG
+338	R	0.8714	domain MRG
+339	K	0.8516	domain MRG
+340	A	0.8413	domain MRG
+341	E	0.8361	domain MRG
+342	P	0.8285	domain MRG
+343	E	0.8216	domain MRG
+344	A	0.8130	domain MRG
+345	L	0.8049	domain MRG
+346	Q	0.7939	domain MRG
+347	S	0.7763	domain MRG
+348	L	0.7528	domain MRG
+349	R	0.7299	domain MRG
+350	R	0.7085	domain MRG
+351	S	0.6850	domain MRG
+352	T	0.6631	domain MRG
+353	R	0.6537	domain MRG
+354	H	0.6526	domain MRG
+355	S	0.6607	domain MRG
+356	A	0.6805	domain MRG
+357	N	0.7009	domain MRG
+358	C	0.7310	domain MRG
+359	D	0.7593	domain MRG
+360	R	0.7841	domain MRG
+361	L	0.8025	domain MRG
+362	S	0.8149	domain MRG
+363	E	0.8271	domain MRG
+364	S	0.8358	domain MRG
+365	S	0.8404	domain MRG
+366	A	0.8410	domain MRG
+367	S	0.8527	domain MRG
+368	P	0.8773	domain MRG
+369	Q	0.8928	domain MRG
+370	P	0.9036	domain MRG
+371	K	0.9079	domain MRG
+372	R	0.9017	domain MRG
+373	R	0.8888	domain MRG
+374	Q	0.8677	domain MRG
+375	Q	0.8327	domain MRG
+376	D	0.7967	domain MRG
+377	T	0.7593	domain MRG
+378	S	0.7287	domain MRG
+379	A	0.7005	domain MRG
+380	S	0.6798	domain MRG
+381	M	0.6696	domain MRG
+382	P	0.6594	domain MRG
+383	K	0.6381	domain MRG
+384	L	0.6178	domain MRG
+385	F	0.5988	domain MRG
+386	L	0.5947	domain MRG
+387	H	0.5892	domain MRG
+388	L	0.5764	domain MRG
+389	E	0.5544	domain MRG
+390	K	0.5401	domain MRG
+391	K	0.5322	domain MRG
+392	T	0.5348	domain MRG
+393	P	0.5424	domain MRG
+394	V	0.5641	domain MRG
+395	H	0.5940	domain MRG
+396	S	0.6486	domain MRG
+397	R	0.7061	domain MRG
+398	S	0.7515	domain MRG
+399	S	0.7917	domain MRG
+400	S	0.8120	domain MRG
+401	P	0.7979	domain MRG
+402	I	0.7597	domain MRG
+403	P	0.6987	domain MRG
+404	L	0.6466	domain MRG
+405	T	0.5948	domain MRG
+406	P	0.5445	domain MRG
+407	S	0.5058	domain MRG
+408	K	0.4894	domain MRG
+409	E	0.4835	domain MRG
+410	G	0.4923	domain MRG
+411	S	0.5129	domain MRG
+412	A	0.5261	domain MRG
+413	V	0.5397	domain MRG
+414	F	0.5574	domain MRG
+415	A	0.5613	domain MRG
+416	G	0.5487	domain MRG
+417	F	0.5182	domain MRG
+418	E	0.4695	domain MRG
+419	G	0.4124	domain MRG
+420	R	0.3563	domain MRG
+421	R	0.3098	domain MRG
+422	T	0.2851	domain MRG
+423	N	0.2722	domain MRG
+424	E	0.2777	domain MRG
+425	I	0.3006	domain MRG
+426	N	0.3318	domain MRG
+427	E	0.3678	domain MRG
+428	V	0.3929	domain MRG
+429	L	0.4092	domain MRG
+430	S	0.4133	domain MRG
+431	W	0.4239	domain MRG
+432	K	0.4303	domain MRG
+433	L	0.4574	domain MRG
+434	V	0.4863	domain MRG
+435	P	0.5126	domain MRG
+436	D	0.5282	domain MRG
+437	N	0.5242	domain MRG
+438	Y	0.5214	domain MRG
+439	P	0.5289	domain MRG
+440	P	0.5410	domain MRG
+441	G	0.5460	domain MRG
+442	D	0.5552	domain MRG
+443	Q	0.5710	domain MRG
+444	P	0.5826	domain MRG
+445	P	0.5967	domain MRG
+446	P	0.5890	domain MRG
+447	P	0.5541	domain MRG
+448	S	0.5011	domain MRG
+449	Y	0.4380	domain MRG
+450	I	0.3662	domain MRG
+451	Y	0.3084	domain MRG
+452	G	0.2505	domain MRG
+453	A	0.2071	domain MRG
+454	Q	0.1697	domain MRG
+455	H	0.1284	domain MRG
+456	L	0.0964	domain MRG
+457	L	0.0811	domain MRG
+458	R	0.0745	domain MRG
+459	L	0.0667	domain MRG
+460	F	0.0627	domain MRG
+461	V	0.0683	domain MRG
+462	K	0.0764	domain MRG
+463	L	0.0926	domain MRG
+464	P	0.1022	domain MRG
+465	E	0.1010	domain MRG
+466	I	0.1022	domain MRG
+467	L	0.1059	domain MRG
+468	G	0.1160	domain MRG
+469	K	0.1308	domain MRG
+470	M	0.1454	domain MRG
+471	S	0.1507	domain MRG
+472	F	0.1527	domain MRG
+473	S	0.1506	domain MRG
+474	E	0.1414	domain MRG
+475	K	0.1243	domain MRG
+476	N	0.1035	domain MRG
+477	L	0.0841	domain MRG
+478	K	0.0612	domain MRG
+479	A	0.0428	domain MRG
+480	L	0.0325	domain MRG
+481	L	0.0309	domain MRG
+482	K	0.0306	domain MRG
+483	H	0.0292	domain MRG
+484	F	0.0274	domain MRG
+485	D	0.0223	domain MRG
+486	L	0.0215	domain MRG
+487	F	0.0220	domain MRG
+488	L	0.0227	domain MRG
+489	R	0.0214	domain MRG
+490	F	0.0221	domain MRG
+491	L	0.0212	domain MRG
+492	A	0.0247	domain MRG
+493	E	0.0224	domain MRG
+494	Y	0.0223	domain MRG
+495	H	0.0233	domain MRG
+496	D	0.0287	domain MRG
+497	D	0.0319	domain MRG
+498	F	0.0354	domain MRG
+499	F	0.0412	domain MRG
+500	P	0.0559	domain MRG
+501	E	0.0695	domain MRG
+502	S	0.0753	domain MRG
+503	A	0.0886	domain MRG
+504	Y	0.1096	domain MRG
+505	V	0.1331	domain MRG
+506	A	0.1576	domain MRG
+507	A	0.1747	domain MRG
+508	C	0.1810	domain MRG
+509	E	0.1763	domain MRG
+510	A	0.1717	domain MRG
+511	H	0.1513	domain MRG
+512	Y	0.1369	domain MRG
+513	S	0.1207	domain MRG
+514	T	0.1139	domain MRG
+515	K	0.1201	domain MRG
+516	N	0.1401	domain MRG
+517	P	0.1714	domain MRG
+518	R	0.2071	
+519	A	0.2350	
+520	I	0.2366	
+521	Y	0.1862	

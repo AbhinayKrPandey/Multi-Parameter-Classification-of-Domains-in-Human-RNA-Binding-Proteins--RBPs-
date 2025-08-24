@@ -1,0 +1,2691 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-05-01" modified="2024-10-02" version="159" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9C0B1</accession>
+  <accession>A2RUH1</accession>
+  <accession>B2RNS0</accession>
+  <accession>Q0P676</accession>
+  <accession>Q7Z785</accession>
+  <name>FTO_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="24">Alpha-ketoglutarate-dependent dioxygenase FTO</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="23">Fat mass and obesity-associated protein</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="24">U6 small nuclear RNA (2'-O-methyladenosine-N(6)-)-demethylase FTO</fullName>
+      <ecNumber evidence="20">1.14.11.-</ecNumber>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="24">U6 small nuclear RNA N(6)-methyladenosine-demethylase FTO</fullName>
+      <ecNumber evidence="20">1.14.11.-</ecNumber>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="24">mRNA (2'-O-methyladenosine-N(6)-)-demethylase FTO</fullName>
+      <shortName evidence="24">m6A(m)-demethylase FTO</shortName>
+      <ecNumber evidence="17 20">1.14.11.-</ecNumber>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="24">mRNA N(6)-methyladenosine demethylase FTO</fullName>
+      <ecNumber evidence="10 13 20 25">1.14.11.53</ecNumber>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="24">tRNA N1-methyl adenine demethylase FTO</fullName>
+      <ecNumber evidence="20">1.14.11.-</ecNumber>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="23 30" type="primary">FTO</name>
+    <name evidence="21" type="synonym">KIAA1752</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2000" name="DNA Res." volume="7" first="347" last="355">
+      <title>Prediction of the coding sequences of unidentified human genes. XIX. The complete sequences of 100 new cDNA clones from brain which code for large proteins in vitro.</title>
+      <authorList>
+        <person name="Nagase T."/>
+        <person name="Kikuno R."/>
+        <person name="Hattori A."/>
+        <person name="Kondo Y."/>
+        <person name="Okumura K."/>
+        <person name="Ohara O."/>
+      </authorList>
+      <dbReference type="PubMed" id="11214970"/>
+      <dbReference type="DOI" id="10.1093/dnares/7.6.347"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2004" name="Nature" volume="432" first="988" last="994">
+      <title>The sequence and analysis of duplication-rich human chromosome 16.</title>
+      <authorList>
+        <person name="Martin J."/>
+        <person name="Han C."/>
+        <person name="Gordon L.A."/>
+        <person name="Terry A."/>
+        <person name="Prabhakar S."/>
+        <person name="She X."/>
+        <person name="Xie G."/>
+        <person name="Hellsten U."/>
+        <person name="Chan Y.M."/>
+        <person name="Altherr M."/>
+        <person name="Couronne O."/>
+        <person name="Aerts A."/>
+        <person name="Bajorek E."/>
+        <person name="Black S."/>
+        <person name="Blumer H."/>
+        <person name="Branscomb E."/>
+        <person name="Brown N.C."/>
+        <person name="Bruno W.J."/>
+        <person name="Buckingham J.M."/>
+        <person name="Callen D.F."/>
+        <person name="Campbell C.S."/>
+        <person name="Campbell M.L."/>
+        <person name="Campbell E.W."/>
+        <person name="Caoile C."/>
+        <person name="Challacombe J.F."/>
+        <person name="Chasteen L.A."/>
+        <person name="Chertkov O."/>
+        <person name="Chi H.C."/>
+        <person name="Christensen M."/>
+        <person name="Clark L.M."/>
+        <person name="Cohn J.D."/>
+        <person name="Denys M."/>
+        <person name="Detter J.C."/>
+        <person name="Dickson M."/>
+        <person name="Dimitrijevic-Bussod M."/>
+        <person name="Escobar J."/>
+        <person name="Fawcett J.J."/>
+        <person name="Flowers D."/>
+        <person name="Fotopulos D."/>
+        <person name="Glavina T."/>
+        <person name="Gomez M."/>
+        <person name="Gonzales E."/>
+        <person name="Goodstein D."/>
+        <person name="Goodwin L.A."/>
+        <person name="Grady D.L."/>
+        <person name="Grigoriev I."/>
+        <person name="Groza M."/>
+        <person name="Hammon N."/>
+        <person name="Hawkins T."/>
+        <person name="Haydu L."/>
+        <person name="Hildebrand C.E."/>
+        <person name="Huang W."/>
+        <person name="Israni S."/>
+        <person name="Jett J."/>
+        <person name="Jewett P.B."/>
+        <person name="Kadner K."/>
+        <person name="Kimball H."/>
+        <person name="Kobayashi A."/>
+        <person name="Krawczyk M.-C."/>
+        <person name="Leyba T."/>
+        <person name="Longmire J.L."/>
+        <person name="Lopez F."/>
+        <person name="Lou Y."/>
+        <person name="Lowry S."/>
+        <person name="Ludeman T."/>
+        <person name="Manohar C.F."/>
+        <person name="Mark G.A."/>
+        <person name="McMurray K.L."/>
+        <person name="Meincke L.J."/>
+        <person name="Morgan J."/>
+        <person name="Moyzis R.K."/>
+        <person name="Mundt M.O."/>
+        <person name="Munk A.C."/>
+        <person name="Nandkeshwar R.D."/>
+        <person name="Pitluck S."/>
+        <person name="Pollard M."/>
+        <person name="Predki P."/>
+        <person name="Parson-Quintana B."/>
+        <person name="Ramirez L."/>
+        <person name="Rash S."/>
+        <person name="Retterer J."/>
+        <person name="Ricke D.O."/>
+        <person name="Robinson D.L."/>
+        <person name="Rodriguez A."/>
+        <person name="Salamov A."/>
+        <person name="Saunders E.H."/>
+        <person name="Scott D."/>
+        <person name="Shough T."/>
+        <person name="Stallings R.L."/>
+        <person name="Stalvey M."/>
+        <person name="Sutherland R.D."/>
+        <person name="Tapia R."/>
+        <person name="Tesmer J.G."/>
+        <person name="Thayer N."/>
+        <person name="Thompson L.S."/>
+        <person name="Tice H."/>
+        <person name="Torney D.C."/>
+        <person name="Tran-Gyamfi M."/>
+        <person name="Tsai M."/>
+        <person name="Ulanovsky L.E."/>
+        <person name="Ustaszewska A."/>
+        <person name="Vo N."/>
+        <person name="White P.S."/>
+        <person name="Williams A.L."/>
+        <person name="Wills P.L."/>
+        <person name="Wu J.-R."/>
+        <person name="Wu K."/>
+        <person name="Yang J."/>
+        <person name="DeJong P."/>
+        <person name="Bruce D."/>
+        <person name="Doggett N.A."/>
+        <person name="Deaven L."/>
+        <person name="Schmutz J."/>
+        <person name="Grimwood J."/>
+        <person name="Richardson P."/>
+        <person name="Rokhsar D.S."/>
+        <person name="Eichler E.E."/>
+        <person name="Gilna P."/>
+        <person name="Lucas S.M."/>
+        <person name="Myers R.M."/>
+        <person name="Rubin E.M."/>
+        <person name="Pennacchio L.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="15616553"/>
+      <dbReference type="DOI" id="10.1038/nature03187"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 2; 3 AND 4)</scope>
+    <source>
+      <tissue>Cervix</tissue>
+      <tissue>Eye</tissue>
+      <tissue>Lung</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2007" name="Nat. Genet." volume="39" first="724" last="726">
+      <title>Variation in FTO contributes to childhood obesity and severe adult obesity.</title>
+      <authorList>
+        <person name="Dina C."/>
+        <person name="Meyre D."/>
+        <person name="Gallina S."/>
+        <person name="Durand E."/>
+        <person name="Korner A."/>
+        <person name="Jacobson P."/>
+        <person name="Carlsson L.M.S."/>
+        <person name="Kiess W."/>
+        <person name="Vatin V."/>
+        <person name="Lecoeur C."/>
+        <person name="Delplanque J."/>
+        <person name="Vaillant E."/>
+        <person name="Pattou F."/>
+        <person name="Ruiz J."/>
+        <person name="Weill J."/>
+        <person name="Levy-Marchal C."/>
+        <person name="Horber F."/>
+        <person name="Potoczna N."/>
+        <person name="Hercberg S."/>
+        <person name="Le Stunff C."/>
+        <person name="Bougneres P."/>
+        <person name="Kovacs P."/>
+        <person name="Marre M."/>
+        <person name="Balkau B."/>
+        <person name="Cauchi S."/>
+        <person name="Chevre J.-C."/>
+        <person name="Froguel P."/>
+      </authorList>
+      <dbReference type="PubMed" id="17496892"/>
+      <dbReference type="DOI" id="10.1038/ng2048"/>
+    </citation>
+    <scope>POLYMORPHISM</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2007" name="Science" volume="316" first="889" last="894">
+      <title>A common variant in the FTO gene is associated with body mass index and predisposes to childhood and adult obesity.</title>
+      <authorList>
+        <person name="Frayling T.M."/>
+        <person name="Timpson N.J."/>
+        <person name="Weedon M.N."/>
+        <person name="Zeggini E."/>
+        <person name="Freathy R.M."/>
+        <person name="Lindgren C.M."/>
+        <person name="Perry J.R."/>
+        <person name="Elliott K.S."/>
+        <person name="Lango H."/>
+        <person name="Rayner N.W."/>
+        <person name="Shields B."/>
+        <person name="Harries L.W."/>
+        <person name="Barrett J.C."/>
+        <person name="Ellard S."/>
+        <person name="Groves C.J."/>
+        <person name="Knight B."/>
+        <person name="Patch A.M."/>
+        <person name="Ness A.R."/>
+        <person name="Ebrahim S."/>
+        <person name="Lawlor D.A."/>
+        <person name="Ring S.M."/>
+        <person name="Ben-Shlomo Y."/>
+        <person name="Jarvelin M.-R."/>
+        <person name="Sovio U."/>
+        <person name="Bennett A.J."/>
+        <person name="Melzer D."/>
+        <person name="Ferrucci L."/>
+        <person name="Loos R.J."/>
+        <person name="Barroso I."/>
+        <person name="Wareham N.J."/>
+        <person name="Karpe F."/>
+        <person name="Owen K.R."/>
+        <person name="Cardon L.R."/>
+        <person name="Walker M."/>
+        <person name="Hitman G.A."/>
+        <person name="Palmer C.N."/>
+        <person name="Doney A.S."/>
+        <person name="Morris A.D."/>
+        <person name="Davey-Smith G."/>
+        <person name="Hattersley A.T."/>
+        <person name="McCarthy M.I."/>
+      </authorList>
+      <dbReference type="PubMed" id="17434869"/>
+      <dbReference type="DOI" id="10.1126/science.1141634"/>
+    </citation>
+    <scope>POLYMORPHISM</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2008" name="FEBS Lett." volume="582" first="3313" last="3319">
+      <title>Oxidative demethylation of 3-methylthymine and 3-methyluracil in single-stranded DNA and RNA by mouse and human FTO.</title>
+      <authorList>
+        <person name="Jia G."/>
+        <person name="Yang C.G."/>
+        <person name="Yang S."/>
+        <person name="Jian X."/>
+        <person name="Yi C."/>
+        <person name="Zhou Z."/>
+        <person name="He C."/>
+      </authorList>
+      <dbReference type="PubMed" id="18775698"/>
+      <dbReference type="DOI" id="10.1016/j.febslet.2008.08.019"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2009" name="Science" volume="325" first="834" last="840">
+      <title>Lysine acetylation targets protein complexes and co-regulates major cellular functions.</title>
+      <authorList>
+        <person name="Choudhary C."/>
+        <person name="Kumar C."/>
+        <person name="Gnad F."/>
+        <person name="Nielsen M.L."/>
+        <person name="Rehman M."/>
+        <person name="Walther T.C."/>
+        <person name="Olsen J.V."/>
+        <person name="Mann M."/>
+      </authorList>
+      <dbReference type="PubMed" id="19608861"/>
+      <dbReference type="DOI" id="10.1126/science.1175371"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-216</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2011" name="Nat. Chem. Biol." volume="7" first="885" last="887">
+      <title>N6-methyladenosine in nuclear RNA is a major substrate of the obesity-associated FTO.</title>
+      <authorList>
+        <person name="Jia G."/>
+        <person name="Fu Y."/>
+        <person name="Zhao X."/>
+        <person name="Dai Q."/>
+        <person name="Zheng G."/>
+        <person name="Yang Y."/>
+        <person name="Yi C."/>
+        <person name="Lindahl T."/>
+        <person name="Pan T."/>
+        <person name="Yang Y.G."/>
+        <person name="He C."/>
+      </authorList>
+      <dbReference type="PubMed" id="22002720"/>
+      <dbReference type="DOI" id="10.1038/nchembio.687"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MUTAGENESIS OF 231-HIS--ASP-233</scope>
+    <scope>CHARACTERIZATION OF VARIANT GDFD GLN-316</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2012" name="Nature" volume="490" first="267" last="272">
+      <title>FTO genotype is associated with phenotypic variability of body mass index.</title>
+      <authorList>
+        <person name="Yang J."/>
+        <person name="Loos R.J."/>
+        <person name="Powell J.E."/>
+        <person name="Medland S.E."/>
+        <person name="Speliotes E.K."/>
+        <person name="Chasman D.I."/>
+        <person name="Rose L.M."/>
+        <person name="Thorleifsson G."/>
+        <person name="Steinthorsdottir V."/>
+        <person name="Maegi R."/>
+        <person name="Waite L."/>
+        <person name="Smith A.V."/>
+        <person name="Yerges-Armstrong L.M."/>
+        <person name="Monda K.L."/>
+        <person name="Hadley D."/>
+        <person name="Mahajan A."/>
+        <person name="Li G."/>
+        <person name="Kapur K."/>
+        <person name="Vitart V."/>
+        <person name="Huffman J.E."/>
+        <person name="Wang S.R."/>
+        <person name="Palmer C."/>
+        <person name="Esko T."/>
+        <person name="Fischer K."/>
+        <person name="Zhao J.H."/>
+        <person name="Demirkan A."/>
+        <person name="Isaacs A."/>
+        <person name="Feitosa M.F."/>
+        <person name="Luan J."/>
+        <person name="Heard-Costa N.L."/>
+        <person name="White C."/>
+        <person name="Jackson A.U."/>
+        <person name="Preuss M."/>
+        <person name="Ziegler A."/>
+        <person name="Eriksson J."/>
+        <person name="Kutalik Z."/>
+        <person name="Frau F."/>
+        <person name="Nolte I.M."/>
+        <person name="Van Vliet-Ostaptchouk J.V."/>
+        <person name="Hottenga J.J."/>
+        <person name="Jacobs K.B."/>
+        <person name="Verweij N."/>
+        <person name="Goel A."/>
+        <person name="Medina-Gomez C."/>
+        <person name="Estrada K."/>
+        <person name="Bragg-Gresham J.L."/>
+        <person name="Sanna S."/>
+        <person name="Sidore C."/>
+        <person name="Tyrer J."/>
+        <person name="Teumer A."/>
+        <person name="Prokopenko I."/>
+        <person name="Mangino M."/>
+        <person name="Lindgren C.M."/>
+        <person name="Assimes T.L."/>
+        <person name="Shuldiner A.R."/>
+        <person name="Hui J."/>
+        <person name="Beilby J.P."/>
+        <person name="McArdle W.L."/>
+        <person name="Hall P."/>
+        <person name="Haritunians T."/>
+        <person name="Zgaga L."/>
+        <person name="Kolcic I."/>
+        <person name="Polasek O."/>
+        <person name="Zemunik T."/>
+        <person name="Oostra B.A."/>
+        <person name="Junttila M.J."/>
+        <person name="Groenberg H."/>
+        <person name="Schreiber S."/>
+        <person name="Peters A."/>
+        <person name="Hicks A.A."/>
+        <person name="Stephens J."/>
+        <person name="Foad N.S."/>
+        <person name="Laitinen J."/>
+        <person name="Pouta A."/>
+        <person name="Kaakinen M."/>
+        <person name="Willemsen G."/>
+        <person name="Vink J.M."/>
+        <person name="Wild S.H."/>
+        <person name="Navis G."/>
+        <person name="Asselbergs F.W."/>
+        <person name="Homuth G."/>
+        <person name="John U."/>
+        <person name="Iribarren C."/>
+        <person name="Harris T."/>
+        <person name="Launer L."/>
+        <person name="Gudnason V."/>
+        <person name="O'Connell J.R."/>
+        <person name="Boerwinkle E."/>
+        <person name="Cadby G."/>
+        <person name="Palmer L.J."/>
+        <person name="James A.L."/>
+        <person name="Musk A.W."/>
+        <person name="Ingelsson E."/>
+        <person name="Psaty B.M."/>
+        <person name="Beckmann J.S."/>
+        <person name="Waeber G."/>
+        <person name="Vollenweider P."/>
+        <person name="Hayward C."/>
+        <person name="Wright A.F."/>
+        <person name="Rudan I."/>
+        <person name="Groop L.C."/>
+        <person name="Metspalu A."/>
+        <person name="Khaw K.T."/>
+        <person name="van Duijn C.M."/>
+        <person name="Borecki I.B."/>
+        <person name="Province M.A."/>
+        <person name="Wareham N.J."/>
+        <person name="Tardif J.C."/>
+        <person name="Huikuri H.V."/>
+        <person name="Cupples L.A."/>
+        <person name="Atwood L.D."/>
+        <person name="Fox C.S."/>
+        <person name="Boehnke M."/>
+        <person name="Collins F.S."/>
+        <person name="Mohlke K.L."/>
+        <person name="Erdmann J."/>
+        <person name="Schunkert H."/>
+        <person name="Hengstenberg C."/>
+        <person name="Stark K."/>
+        <person name="Lorentzon M."/>
+        <person name="Ohlsson C."/>
+        <person name="Cusi D."/>
+        <person name="Staessen J.A."/>
+        <person name="Van der Klauw M.M."/>
+        <person name="Pramstaller P.P."/>
+        <person name="Kathiresan S."/>
+        <person name="Jolley J.D."/>
+        <person name="Ripatti S."/>
+        <person name="Jarvelin M.R."/>
+        <person name="de Geus E.J."/>
+        <person name="Boomsma D.I."/>
+        <person name="Penninx B."/>
+        <person name="Wilson J.F."/>
+        <person name="Campbell H."/>
+        <person name="Chanock S.J."/>
+        <person name="van der Harst P."/>
+        <person name="Hamsten A."/>
+        <person name="Watkins H."/>
+        <person name="Hofman A."/>
+        <person name="Witteman J.C."/>
+        <person name="Zillikens M.C."/>
+        <person name="Uitterlinden A.G."/>
+        <person name="Rivadeneira F."/>
+        <person name="Zillikens M.C."/>
+        <person name="Kiemeney L.A."/>
+        <person name="Vermeulen S.H."/>
+        <person name="Abecasis G.R."/>
+        <person name="Schlessinger D."/>
+        <person name="Schipf S."/>
+        <person name="Stumvoll M."/>
+        <person name="Toenjes A."/>
+        <person name="Spector T.D."/>
+        <person name="North K.E."/>
+        <person name="Lettre G."/>
+        <person name="McCarthy M.I."/>
+        <person name="Berndt S.I."/>
+        <person name="Heath A.C."/>
+        <person name="Madden P.A."/>
+        <person name="Nyholt D.R."/>
+        <person name="Montgomery G.W."/>
+        <person name="Martin N.G."/>
+        <person name="McKnight B."/>
+        <person name="Strachan D.P."/>
+        <person name="Hill W.G."/>
+        <person name="Snieder H."/>
+        <person name="Ridker P.M."/>
+        <person name="Thorsteinsdottir U."/>
+        <person name="Stefansson K."/>
+        <person name="Frayling T.M."/>
+        <person name="Hirschhorn J.N."/>
+        <person name="Goddard M.E."/>
+        <person name="Visscher P.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="22982992"/>
+      <dbReference type="DOI" id="10.1038/nature11401"/>
+    </citation>
+    <scope>POLYMORPHISM</scope>
+    <scope>INVOLVEMENT IN BMIQ14</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2013" name="J. Proteome Res." volume="12" first="260" last="271">
+      <title>Toward a comprehensive characterization of a human cancer cell phosphoproteome.</title>
+      <authorList>
+        <person name="Zhou H."/>
+        <person name="Di Palma S."/>
+        <person name="Preisinger C."/>
+        <person name="Peng M."/>
+        <person name="Polat A.N."/>
+        <person name="Heck A.J."/>
+        <person name="Mohammed S."/>
+      </authorList>
+      <dbReference type="PubMed" id="23186163"/>
+      <dbReference type="DOI" id="10.1021/pr300630k"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-4</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+      <tissue>Erythroleukemia</tissue>
+    </source>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2014" name="Nature" volume="507" first="371" last="375">
+      <title>Obesity-associated variants within FTO form long-range functional connections with IRX3.</title>
+      <authorList>
+        <person name="Smemo S."/>
+        <person name="Tena J.J."/>
+        <person name="Kim K.H."/>
+        <person name="Gamazon E.R."/>
+        <person name="Sakabe N.J."/>
+        <person name="Gomez-Marin C."/>
+        <person name="Aneas I."/>
+        <person name="Credidio F.L."/>
+        <person name="Sobreira D.R."/>
+        <person name="Wasserman N.F."/>
+        <person name="Lee J.H."/>
+        <person name="Puviindran V."/>
+        <person name="Tam D."/>
+        <person name="Shen M."/>
+        <person name="Son J.E."/>
+        <person name="Vakili N.A."/>
+        <person name="Sung H.K."/>
+        <person name="Naranjo S."/>
+        <person name="Acemel R.D."/>
+        <person name="Manzanares M."/>
+        <person name="Nagy A."/>
+        <person name="Cox N.J."/>
+        <person name="Hui C.C."/>
+        <person name="Gomez-Skarmeta J.L."/>
+        <person name="Nobrega M.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="24646999"/>
+      <dbReference type="DOI" id="10.1038/nature13138"/>
+    </citation>
+    <scope>INVOLVEMENT IN OBESITY</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2015" name="N. Engl. J. Med." volume="373" first="895" last="907">
+      <title>FTO obesity variant circuitry and adipocyte browning in humans.</title>
+      <authorList>
+        <person name="Claussnitzer M."/>
+        <person name="Dankel S.N."/>
+        <person name="Kim K.H."/>
+        <person name="Quon G."/>
+        <person name="Meuleman W."/>
+        <person name="Haugen C."/>
+        <person name="Glunk V."/>
+        <person name="Sousa I.S."/>
+        <person name="Beaudry J.L."/>
+        <person name="Puviindran V."/>
+        <person name="Abdennur N.A."/>
+        <person name="Liu J."/>
+        <person name="Svensson P.A."/>
+        <person name="Hsu Y.H."/>
+        <person name="Drucker D.J."/>
+        <person name="Mellgren G."/>
+        <person name="Hui C.C."/>
+        <person name="Hauner H."/>
+        <person name="Kellis M."/>
+      </authorList>
+      <dbReference type="PubMed" id="26287746"/>
+      <dbReference type="DOI" id="10.1056/nejmoa1502214"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INVOLVEMENT IN OBESITY</scope>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2015" name="Nature" volume="526" first="591" last="594">
+      <title>Dynamic m(6)A mRNA methylation directs translational control of heat shock response.</title>
+      <authorList>
+        <person name="Zhou J."/>
+        <person name="Wan J."/>
+        <person name="Gao X."/>
+        <person name="Zhang X."/>
+        <person name="Jaffrey S.R."/>
+        <person name="Qian S.B."/>
+      </authorList>
+      <dbReference type="PubMed" id="26458103"/>
+      <dbReference type="DOI" id="10.1038/nature15377"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2017" name="Cancer Cell" volume="31" first="127" last="141">
+      <title>FTO plays an oncogenic role in acute myeloid leukemia as a N6-methyladenosine RNA demethylase.</title>
+      <authorList>
+        <person name="Li Z."/>
+        <person name="Weng H."/>
+        <person name="Su R."/>
+        <person name="Weng X."/>
+        <person name="Zuo Z."/>
+        <person name="Li C."/>
+        <person name="Huang H."/>
+        <person name="Nachtergaele S."/>
+        <person name="Dong L."/>
+        <person name="Hu C."/>
+        <person name="Qin X."/>
+        <person name="Tang L."/>
+        <person name="Wang Y."/>
+        <person name="Hong G.M."/>
+        <person name="Huang H."/>
+        <person name="Wang X."/>
+        <person name="Chen P."/>
+        <person name="Gurbuxani S."/>
+        <person name="Arnovitz S."/>
+        <person name="Li Y."/>
+        <person name="Li S."/>
+        <person name="Strong J."/>
+        <person name="Neilly M.B."/>
+        <person name="Larson R.A."/>
+        <person name="Jiang X."/>
+        <person name="Zhang P."/>
+        <person name="Jin J."/>
+        <person name="He C."/>
+        <person name="Chen J."/>
+      </authorList>
+      <dbReference type="PubMed" id="28017614"/>
+      <dbReference type="DOI" id="10.1016/j.ccell.2016.11.017"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="2017" name="Nature" volume="541" first="371" last="375">
+      <title>Reversible methylation of m6Am in the 5' cap controls mRNA stability.</title>
+      <authorList>
+        <person name="Mauer J."/>
+        <person name="Luo X."/>
+        <person name="Blanjoie A."/>
+        <person name="Jiao X."/>
+        <person name="Grozhik A.V."/>
+        <person name="Patil D.P."/>
+        <person name="Linder B."/>
+        <person name="Pickering B.F."/>
+        <person name="Vasseur J.J."/>
+        <person name="Chen Q."/>
+        <person name="Gross S.S."/>
+        <person name="Elemento O."/>
+        <person name="Debart F."/>
+        <person name="Kiledjian M."/>
+        <person name="Jaffrey S.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="28002401"/>
+      <dbReference type="DOI" id="10.1038/nature21022"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="17">
+    <citation type="journal article" date="2018" name="Cell" volume="172" first="90" last="105">
+      <title>R-2HG exhibits anti-tumor activity by targeting FTO/m6A/MYC/CEBPA signaling.</title>
+      <authorList>
+        <person name="Su R."/>
+        <person name="Dong L."/>
+        <person name="Li C."/>
+        <person name="Nachtergaele S."/>
+        <person name="Wunderlich M."/>
+        <person name="Qing Y."/>
+        <person name="Deng X."/>
+        <person name="Wang Y."/>
+        <person name="Weng X."/>
+        <person name="Hu C."/>
+        <person name="Yu M."/>
+        <person name="Skibbe J."/>
+        <person name="Dai Q."/>
+        <person name="Zou D."/>
+        <person name="Wu T."/>
+        <person name="Yu K."/>
+        <person name="Weng H."/>
+        <person name="Huang H."/>
+        <person name="Ferchen K."/>
+        <person name="Qin X."/>
+        <person name="Zhang B."/>
+        <person name="Qi J."/>
+        <person name="Sasaki A.T."/>
+        <person name="Plas D.R."/>
+        <person name="Bradner J.E."/>
+        <person name="Wei M."/>
+        <person name="Marcucci G."/>
+        <person name="Jiang X."/>
+        <person name="Mulloy J.C."/>
+        <person name="Jin J."/>
+        <person name="He C."/>
+        <person name="Chen J."/>
+      </authorList>
+      <dbReference type="PubMed" id="29249359"/>
+      <dbReference type="DOI" id="10.1016/j.cell.2017.11.031"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>ACTIVITY REGULATION</scope>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="2018" name="Mol. Cell" volume="71" first="973" last="985">
+      <title>Differential m6A, m6Am, and m1A demethylation mediated by FTO in the cell nucleus and cytoplasm.</title>
+      <authorList>
+        <person name="Wei J."/>
+        <person name="Liu F."/>
+        <person name="Lu Z."/>
+        <person name="Fei Q."/>
+        <person name="Ai Y."/>
+        <person name="He P.C."/>
+        <person name="Shi H."/>
+        <person name="Cui X."/>
+        <person name="Su R."/>
+        <person name="Klungland A."/>
+        <person name="Jia G."/>
+        <person name="Chen J."/>
+        <person name="He C."/>
+      </authorList>
+      <dbReference type="PubMed" id="30197295"/>
+      <dbReference type="DOI" id="10.1016/j.molcel.2018.08.011"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="19">
+    <citation type="journal article" date="2010" name="Nature" volume="464" first="1205" last="1209">
+      <title>Crystal structure of the FTO protein reveals basis for its substrate specificity.</title>
+      <authorList>
+        <person name="Han Z."/>
+        <person name="Niu T."/>
+        <person name="Chang J."/>
+        <person name="Lei X."/>
+        <person name="Zhao M."/>
+        <person name="Wang Q."/>
+        <person name="Cheng W."/>
+        <person name="Wang J."/>
+        <person name="Feng Y."/>
+        <person name="Chai J."/>
+      </authorList>
+      <dbReference type="PubMed" id="20376003"/>
+      <dbReference type="DOI" id="10.1038/nature08921"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS) OF 32-505 IN COMPLEX WITH IRON IONS; N-OXALYLGLYCINE AND 3-METHYLTHYMIDINE</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>FUNCTION</scope>
+    <scope>COFACTOR</scope>
+    <scope>ACTIVITY REGULATION</scope>
+    <scope>MUTAGENESIS OF ARG-96; TYR-108; PHE-114; GLU-234 AND CYS-392</scope>
+    <scope>CIRCULAR DICHROISM</scope>
+    <scope>DOMAIN</scope>
+  </reference>
+  <reference evidence="35 36 37 38 39 40" key="20">
+    <citation type="journal article" date="2013" name="J. Med. Chem." volume="56" first="3680" last="3688">
+      <title>Structural basis for inhibition of the fat mass and obesity associated protein (FTO).</title>
+      <authorList>
+        <person name="Aik W."/>
+        <person name="Demetriades M."/>
+        <person name="Hamdan M.K."/>
+        <person name="Bagg E.A."/>
+        <person name="Yeoh K.K."/>
+        <person name="Lejeune C."/>
+        <person name="Zhang Z."/>
+        <person name="McDonough M.A."/>
+        <person name="Schofield C.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="23547775"/>
+      <dbReference type="DOI" id="10.1021/jm400193d"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS) OF 32-505 IN COMPLEX WITH ZINC</scope>
+  </reference>
+  <reference evidence="32 33 34" key="21">
+    <citation type="journal article" date="2015" name="Chem. Sci." volume="6" first="112" last="122">
+      <title>A strategy based on nucleotide specificity leads to a subfamily-selective and cell-active inhibitor of N6-methyladenosine demethylase FTO.</title>
+      <authorList>
+        <person name="Toh J.D.W."/>
+        <person name="Sun L."/>
+        <person name="Lau L.Z.M."/>
+        <person name="Tan J."/>
+        <person name="Low J.J.A."/>
+        <person name="Tang C.W.Q."/>
+        <person name="Cheong E.J.Y."/>
+        <person name="Tan M.J.H."/>
+        <person name="Chen Y."/>
+        <person name="Hong W."/>
+        <person name="Gao Y.G."/>
+        <person name="Woon E.C.Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="28553460"/>
+      <dbReference type="DOI" id="10.1039/c4sc02554g"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.65 ANGSTROMS) OF 32-505 IN COMPLEX WITH ZINC</scope>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>ACTIVITY REGULATION</scope>
+  </reference>
+  <reference evidence="42 43" key="22">
+    <citation type="journal article" date="2015" name="J. Am. Chem. Soc." volume="137" first="13736" last="13739">
+      <title>Fluorescein derivatives as bifunctional molecules for the simultaneous inhibiting and labeling of FTO protein.</title>
+      <authorList>
+        <person name="Wang T."/>
+        <person name="Hong T."/>
+        <person name="Huang Y."/>
+        <person name="Su H."/>
+        <person name="Wu F."/>
+        <person name="Chen Y."/>
+        <person name="Wei L."/>
+        <person name="Huang W."/>
+        <person name="Hua X."/>
+        <person name="Xia Y."/>
+        <person name="Xu J."/>
+        <person name="Gan J."/>
+        <person name="Yuan B."/>
+        <person name="Feng Y."/>
+        <person name="Zhang X."/>
+        <person name="Yang C.G."/>
+        <person name="Zhou X."/>
+      </authorList>
+      <dbReference type="PubMed" id="26457839"/>
+      <dbReference type="DOI" id="10.1021/jacs.5b06690"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.16 ANGSTROMS) OF 32-505 IN COMPLEX WITH 2-OXOGLUTARATE AND MANGANESE</scope>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>ACTIVITY REGULATION</scope>
+  </reference>
+  <reference evidence="41" key="23">
+    <citation type="journal article" date="2015" name="Nucleic Acids Res." volume="43" first="373" last="384">
+      <title>Meclofenamic acid selectively inhibits FTO demethylation of m6A over ALKBH5.</title>
+      <authorList>
+        <person name="Huang Y."/>
+        <person name="Yan J."/>
+        <person name="Li Q."/>
+        <person name="Li J."/>
+        <person name="Gong S."/>
+        <person name="Zhou H."/>
+        <person name="Gan J."/>
+        <person name="Jiang H."/>
+        <person name="Jia G.F."/>
+        <person name="Luo C."/>
+        <person name="Yang C.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="25452335"/>
+      <dbReference type="DOI" id="10.1093/nar/gku1276"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.20 ANGSTROMS) OF 32-503 IN COMPLEX WITH MANGANESE AND N-OXALYLGLYCINE</scope>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>ACTIVITY REGULATION</scope>
+  </reference>
+  <reference key="24">
+    <citation type="journal article" date="2009" name="Am. J. Hum. Genet." volume="85" first="106" last="111">
+      <title>Loss-of-function mutation in the dioxygenase-encoding FTO gene causes severe growth retardation and multiple malformations.</title>
+      <authorList>
+        <person name="Boissel S."/>
+        <person name="Reish O."/>
+        <person name="Proulx K."/>
+        <person name="Kawagoe-Takaki H."/>
+        <person name="Sedgwick B."/>
+        <person name="Yeo G.S."/>
+        <person name="Meyre D."/>
+        <person name="Golzio C."/>
+        <person name="Molinari F."/>
+        <person name="Kadhom N."/>
+        <person name="Etchevers H.C."/>
+        <person name="Saudek V."/>
+        <person name="Farooqi I.S."/>
+        <person name="Froguel P."/>
+        <person name="Lindahl T."/>
+        <person name="O'Rahilly S."/>
+        <person name="Munnich A."/>
+        <person name="Colleaux L."/>
+      </authorList>
+      <dbReference type="PubMed" id="19559399"/>
+      <dbReference type="DOI" id="10.1016/j.ajhg.2009.06.002"/>
+    </citation>
+    <scope>VARIANT GDFD GLN-316</scope>
+    <scope>CHARACTERIZATION OF VARIANT GDFD GLN-316</scope>
+  </reference>
+  <reference key="25">
+    <citation type="journal article" date="2016" name="Am. J. Med. Genet. A" volume="170" first="1023" last="1028">
+      <title>FTO variant associated with malformation syndrome.</title>
+      <authorList>
+        <person name="Rohena L."/>
+        <person name="Lawson M."/>
+        <person name="Guzman E."/>
+        <person name="Ganapathi M."/>
+        <person name="Cho M.T."/>
+        <person name="Haverfield E."/>
+        <person name="Anyane-Yeboa K."/>
+      </authorList>
+      <dbReference type="PubMed" id="26697951"/>
+      <dbReference type="DOI" id="10.1002/ajmg.a.37515"/>
+    </citation>
+    <scope>VARIANT GDFD GLN-322</scope>
+  </reference>
+  <reference key="26">
+    <citation type="journal article" date="2016" name="J. Hum. Genet." volume="61" first="395" last="403">
+      <title>A patient with a novel homozygous missense mutation in FTO and concomitant nonsense mutation in CETP.</title>
+      <authorList>
+        <person name="Caglayan A.O."/>
+        <person name="Tueysuez B."/>
+        <person name="Coskun S."/>
+        <person name="Quon J."/>
+        <person name="Harmanci A.S."/>
+        <person name="Baranoski J.F."/>
+        <person name="Baran B."/>
+        <person name="Erson-Omay E.Z."/>
+        <person name="Henegariu O."/>
+        <person name="Mane S.M."/>
+        <person name="Bilguevar K."/>
+        <person name="Yasuno K."/>
+        <person name="Guenel M."/>
+      </authorList>
+      <dbReference type="PubMed" id="26740239"/>
+      <dbReference type="DOI" id="10.1038/jhg.2015.160"/>
+    </citation>
+    <scope>VARIANT PRO-271</scope>
+  </reference>
+  <reference key="27">
+    <citation type="journal article" date="2016" name="J. Med. Genet." volume="53" first="200" last="207">
+      <title>Identification of a pathogenic FTO mutation by next-generation sequencing in a newborn with growth retardation and developmental delay.</title>
+      <authorList>
+        <person name="Daoud H."/>
+        <person name="Zhang D."/>
+        <person name="McMurray F."/>
+        <person name="Yu A."/>
+        <person name="Luco S.M."/>
+        <person name="Vanstone J."/>
+        <person name="Jarinova O."/>
+        <person name="Carson N."/>
+        <person name="Wickens J."/>
+        <person name="Shishodia S."/>
+        <person name="Choi H."/>
+        <person name="McDonough M.A."/>
+        <person name="Schofield C.J."/>
+        <person name="Harper M.E."/>
+        <person name="Dyment D.A."/>
+        <person name="Armour C.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="26378117"/>
+      <dbReference type="DOI" id="10.1136/jmedgenet-2015-103399"/>
+    </citation>
+    <scope>VARIANT GDFD PHE-319</scope>
+    <scope>CHARACTERIZATION OF VARIANT GDFD PHE-319</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1 4 6 7 10 11 13 14 17 18 19 20">RNA demethylase that mediates oxidative demethylation of different RNA species, such as mRNAs, tRNAs and snRNAs, and acts as a regulator of fat mass, adipogenesis and energy homeostasis (PubMed:22002720, PubMed:25452335, PubMed:26457839, PubMed:26458103, PubMed:28002401, PubMed:30197295). Specifically demethylates N(6)-methyladenosine (m6A) RNA, the most prevalent internal modification of messenger RNA (mRNA) in higher eukaryotes (PubMed:22002720, PubMed:25452335, PubMed:26457839, PubMed:26458103, PubMed:30197295). M6A demethylation by FTO affects mRNA expression and stability (PubMed:30197295). Also able to demethylate m6A in U6 small nuclear RNA (snRNA) (PubMed:30197295). Mediates demethylation of N(6),2'-O-dimethyladenosine cap (m6A(m)), by demethylating the N(6)-methyladenosine at the second transcribed position of mRNAs and U6 snRNA (PubMed:28002401, PubMed:30197295). Demethylation of m6A(m) in the 5'-cap by FTO affects mRNA stability by promoting susceptibility to decapping (PubMed:28002401). Also acts as a tRNA demethylase by removing N(1)-methyladenine from various tRNAs (PubMed:30197295). Has no activity towards 1-methylguanine (PubMed:20376003). Has no detectable activity towards double-stranded DNA (PubMed:20376003). Also able to repair alkylated DNA and RNA by oxidative demethylation: demethylates single-stranded RNA containing 3-methyluracil, single-stranded DNA containing 3-methylthymine and has low demethylase activity towards single-stranded DNA containing 1-methyladenine or 3-methylcytosine (PubMed:18775698, PubMed:20376003). Ability to repair alkylated DNA and RNA is however unsure in vivo (PubMed:18775698, PubMed:20376003). Involved in the regulation of fat mass, adipogenesis and body weight, thereby contributing to the regulation of body size and body fat accumulation (PubMed:18775698, PubMed:20376003). Involved in the regulation of thermogenesis and the control of adipocyte differentiation into brown or white fat cells (PubMed:26287746). Regulates activity of the dopaminergic midbrain circuitry via its ability to demethylate m6A in mRNAs (By similarity). Plays an oncogenic role in a number of acute myeloid leukemias by enhancing leukemic oncogene-mediated cell transformation: acts by mediating m6A demethylation of target transcripts such as MYC, CEBPA, ASB2 and RARA, leading to promote their expression (PubMed:28017614, PubMed:29249359).</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="17 20">
+      <text>2-oxoglutarate + a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-(N(6),2'-O-dimethyladenosine) in mRNA + O2 = a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyladenosine) in mRNA + CO2 + formaldehyde + succinate</text>
+      <dbReference type="Rhea" id="RHEA:57896"/>
+      <dbReference type="Rhea" id="RHEA-COMP:11518"/>
+      <dbReference type="Rhea" id="RHEA-COMP:11519"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:16526"/>
+      <dbReference type="ChEBI" id="CHEBI:16810"/>
+      <dbReference type="ChEBI" id="CHEBI:16842"/>
+      <dbReference type="ChEBI" id="CHEBI:30031"/>
+      <dbReference type="ChEBI" id="CHEBI:85958"/>
+      <dbReference type="ChEBI" id="CHEBI:85959"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="10 13 20 25">
+      <text>2-oxoglutarate + an N(6)-methyladenosine in mRNA + O2 = an adenosine in mRNA + CO2 + formaldehyde + succinate</text>
+      <dbReference type="Rhea" id="RHEA:49520"/>
+      <dbReference type="Rhea" id="RHEA-COMP:12414"/>
+      <dbReference type="Rhea" id="RHEA-COMP:12417"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:16526"/>
+      <dbReference type="ChEBI" id="CHEBI:16810"/>
+      <dbReference type="ChEBI" id="CHEBI:16842"/>
+      <dbReference type="ChEBI" id="CHEBI:30031"/>
+      <dbReference type="ChEBI" id="CHEBI:74411"/>
+      <dbReference type="ChEBI" id="CHEBI:74449"/>
+      <dbReference type="EC" id="1.14.11.53"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="20">
+      <text>2-oxoglutarate + N(6)-methyladenosine in U6 snRNA + O2 = adenosine in U6 snRNA + CO2 + formaldehyde + succinate</text>
+      <dbReference type="Rhea" id="RHEA:57900"/>
+      <dbReference type="Rhea" id="RHEA-COMP:13573"/>
+      <dbReference type="Rhea" id="RHEA-COMP:13574"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:16526"/>
+      <dbReference type="ChEBI" id="CHEBI:16810"/>
+      <dbReference type="ChEBI" id="CHEBI:16842"/>
+      <dbReference type="ChEBI" id="CHEBI:30031"/>
+      <dbReference type="ChEBI" id="CHEBI:74411"/>
+      <dbReference type="ChEBI" id="CHEBI:74449"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="20">
+      <text>2-oxoglutarate + a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-(N(6),2'-O-dimethyladenosine) in U6 snRNA + O2 = a 5'-end (N(7)-methyl 5'-triphosphoguanosine)-(2'-O-methyladenosine) in U6 snRNA + CO2 + formaldehyde + succinate</text>
+      <dbReference type="Rhea" id="RHEA:57904"/>
+      <dbReference type="Rhea" id="RHEA-COMP:15030"/>
+      <dbReference type="Rhea" id="RHEA-COMP:15031"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:16526"/>
+      <dbReference type="ChEBI" id="CHEBI:16810"/>
+      <dbReference type="ChEBI" id="CHEBI:16842"/>
+      <dbReference type="ChEBI" id="CHEBI:30031"/>
+      <dbReference type="ChEBI" id="CHEBI:85958"/>
+      <dbReference type="ChEBI" id="CHEBI:85959"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="20">
+      <text>2-oxoglutarate + an N(1)-methyladenosine in tRNA + O2 = an adenosine in tRNA + CO2 + formaldehyde + succinate</text>
+      <dbReference type="Rhea" id="RHEA:54576"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10242"/>
+      <dbReference type="Rhea" id="RHEA-COMP:12312"/>
+      <dbReference type="ChEBI" id="CHEBI:15379"/>
+      <dbReference type="ChEBI" id="CHEBI:16526"/>
+      <dbReference type="ChEBI" id="CHEBI:16810"/>
+      <dbReference type="ChEBI" id="CHEBI:16842"/>
+      <dbReference type="ChEBI" id="CHEBI:30031"/>
+      <dbReference type="ChEBI" id="CHEBI:74411"/>
+      <dbReference type="ChEBI" id="CHEBI:74491"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <cofactor evidence="6">
+      <name>Fe(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29033"/>
+    </cofactor>
+    <text evidence="6">Binds 1 Fe(2+) ion per subunit.</text>
+  </comment>
+  <comment type="activity regulation">
+    <text evidence="1 10 13 19">Activated by ascorbate (By similarity). Inhibited by N-oxalylglycine, fumarate and succinate (By similarity). RNA N(6)-methyladenosine demethylase activity is inhibited by fluorescein derivatives (PubMed:26457839). RNA N(6)-methyladenosine demethylase activity is selectively inhibited by meclofenamic acid; inhibition is specific to FTO and meclofenamic acid does not inhibit ALKBH5 (PubMed:25452335). Specifically inhibited by R-2-hydroxyglutarate (R-2HG), an oncometabolite that also exerts a broad antileukemic activity (PubMed:29249359). Inhibition by R-2HG leads to increased level of N(6)-methyladenosine-containing transcripts, leading to down-regulate expression of MYC and CEBPA transcripts (PubMed:29249359).</text>
+  </comment>
+  <comment type="biophysicochemical properties">
+    <kinetics>
+      <KM evidence="17">1.34 uM for m(7)Gppp(m6A(m))CA mRNA</KM>
+      <KM evidence="17">16.09 uM for m(7)Gppp(m6A)CA mRNA</KM>
+      <KM evidence="17">9.29 uM for GG(m6A)CU mRNA</KM>
+      <KM evidence="17">6.4 uM for m(7)GpppAC(m6) mRNA</KM>
+      <text evidence="17">kcat is 8.78 min(-1) for m(7)Gppp(m6A(m))CA mRNA. kcat is 7.77 min(-1) for m(7)Gppp(m6A)CA mRNA. kcat is 0.54 min(-1) for GG(m6A)CU mRNA. kcat is 0.46 min(-1) for m(7)GpppAC(m6) mRNA.</text>
+    </kinetics>
+    <phDependence>
+      <text evidence="4">Optimum pH is 5.5-6.</text>
+    </phDependence>
+  </comment>
+  <comment type="subunit">
+    <text evidence="1">Monomer (By similarity). May also exist as homodimer (By similarity).</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-8643161">
+      <id>Q9NX04</id>
+      <label>AIRIM</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-17183751">
+      <id>X5D778</id>
+      <label>ANKRD11</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-10961624">
+      <id>Q2TAC2-2</id>
+      <label>CCDC57</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-2559831">
+      <id>Q92989</id>
+      <label>CLP1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-740376">
+      <id>Q86UW9</id>
+      <label>DTX2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-743414">
+      <id>O95967</id>
+      <label>EFEMP2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-11427343">
+      <id>Q9P2W3</id>
+      <label>GNG13</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-751540">
+      <id>O95872</id>
+      <label>GPANK1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-17178971">
+      <id>Q14005-2</id>
+      <label>IL16</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-6426443">
+      <id>Q2WGJ6</id>
+      <label>KLHL38</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-77889">
+      <id>Q9UI95</id>
+      <label>MAD2L2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-9675802">
+      <id>Q6PF18</id>
+      <label>MORN3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-398874">
+      <id>Q9UBU9</id>
+      <label>NXF1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-11320284">
+      <id>Q9NQX0</id>
+      <label>PRDM6</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-79084">
+      <id>Q92529</id>
+      <label>SHC3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-12076664">
+      <id>O14787-2</id>
+      <label>TNPO2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-948354">
+      <id>Q6DKK2</id>
+      <label>TTC19</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-2511991">
+      <id>Q9Y2K6</id>
+      <label>USP20</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-18138793">
+      <id>Q9C0B1-2</id>
+    </interactant>
+    <interactant intactId="EBI-12840750">
+      <id>Q15935</id>
+      <label>ZNF77</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="7 14 17 20">Nucleus</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="7">Nucleus speckle</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="20">Cytoplasm</location>
+    </subcellularLocation>
+    <text evidence="20">Localizes mainly in the nucleus, where it is able to demethylate N(6)-methyladenosine (m6A) and N(6),2'-O-dimethyladenosine cap (m6A(m)) in U6 small nuclear RNA (snRNA), N(1)-methyladenine from tRNAs and internal m6A in mRNAs (PubMed:30197295). In the cytoplasm, mediates demethylation of m6A and m6A(m) in mRNAs and N(1)-methyladenine from tRNAs (PubMed:30197295).</text>
+  </comment>
+  <comment type="alternative products">
+    <event type="alternative splicing"/>
+    <isoform>
+      <id>Q9C0B1-1</id>
+      <name>1</name>
+      <sequence type="displayed"/>
+    </isoform>
+    <isoform>
+      <id>Q9C0B1-2</id>
+      <name>2</name>
+      <sequence type="described" ref="VSP_025004 VSP_025005"/>
+    </isoform>
+    <isoform>
+      <id>Q9C0B1-3</id>
+      <name>3</name>
+      <sequence type="described" ref="VSP_025002 VSP_025006"/>
+    </isoform>
+    <isoform>
+      <id>Q9C0B1-4</id>
+      <name>4</name>
+      <sequence type="described" ref="VSP_025003"/>
+    </isoform>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="2 3 18">Ubiquitously expressed, with relatively high expression in adrenal glands and brain; especially in hypothalamus and pituitary (PubMed:17434869, PubMed:17496892). Highly expressed in highly expressed in acute myeloid leukemias (AML) with t(11;11)(q23;23) with KMT2A/MLL1 rearrangements, t(15;17)(q21;q21)/PML-RARA, FLT3-ITD, and/or NPM1 mutations (PubMed:28017614).</text>
+  </comment>
+  <comment type="domain">
+    <text evidence="6">The 3D-structure of the Fe2OG dioxygenase domain is similar to that of the Fe2OG dioxygenase domain found in the bacterial DNA repair dioxygenase alkB and its mammalian orthologs, but sequence similarity is very low. As a consequence, the domain is not detected by protein signature databases.</text>
+  </comment>
+  <comment type="polymorphism">
+    <text evidence="2 3 8">Genetic variations at the FTO locus define the body mass index quantitative trait locus 14 (BMIQ14) [MIM:612460]. Variance in body mass index is a susceptibility factor for obesity.</text>
+  </comment>
+  <comment type="disease" evidence="5 7 12 15">
+    <disease id="DI-02561">
+      <name>Growth retardation, developmental delay, and facial dysmorphism</name>
+      <acronym>GDFD</acronym>
+      <description>A severe polymalformation syndrome characterized by postnatal growth retardation, microcephaly, severe psychomotor delay, functional brain deficits and characteristic facial dysmorphism. In some patients, structural brain malformations, cardiac defects, genital anomalies, and cleft palate are observed. Early death occurs by the age of 3 years.</description>
+      <dbReference type="MIM" id="612938"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="disease" evidence="9 11">
+    <disease id="DI-01221">
+      <name>Obesity</name>
+      <acronym>OBESITY</acronym>
+      <description>A condition characterized by an increase of body weight beyond the limitation of skeletal and physical requirements, as the result of excessive accumulation of body fat.</description>
+      <dbReference type="MIM" id="601665"/>
+    </disease>
+    <text evidence="9 11">Disease susceptibility is associated with variants affecting the gene represented in this entry. It is unclear whether variations associated with obesity directly affect FTO function or alter the expression of adjacent genes such as IRX3, rather than FTO itself (PubMed:24646999, PubMed:26287746). A pathogenic intronic FTO variation (rs1421085) disrupts an evolutionarily conserved motif for ARID5B binding (PubMed:26287746). Loss of ARID5B binding results in overexpression of two genes distal to FTO, IRX3 and IRX5. IRX3 and IRX5 overexpression shifts pre-adipocytes differentiation from brown to white fat cells, resulting in increased lipid storage and loss of mitochondrial thermogenesis (PubMed:26287746).</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="24">Belongs to the fto family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="17 20">According to a report, mainly mediates demethylation of N(6),2'-O-dimethyladenosine cap (m6A(m)), by demethylating the N(6)-methyladenosine adjacent to mRNA cap, whereas it has low activity toward internal N(6)-methyladenosine (m6A) in mRNAs (PubMed:28002401). According to a second report, has strong activity toward internal N(6)-methyladenosine (m6A) in mRNAs and is able to demethylate different RNA species, such as tRNA, mRNA or small nuclear RNA (snRNA), depending on the context and subcellular location (PubMed:30197295).</text>
+  </comment>
+  <comment type="sequence caution" evidence="24">
+    <conflict type="erroneous initiation">
+      <sequence resource="EMBL-CDS" id="BAB21843" version="1"/>
+    </conflict>
+    <text>Extended N-terminus.</text>
+  </comment>
+  <dbReference type="EC" id="1.14.11.-" evidence="20 17"/>
+  <dbReference type="EC" id="1.14.11.53" evidence="10 13 20 25"/>
+  <dbReference type="EMBL" id="AB051539">
+    <property type="protein sequence ID" value="BAB21843.1"/>
+    <property type="status" value="ALT_INIT"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AC007347">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AC007496">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AC007909">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC003583">
+    <property type="protein sequence ID" value="AAH03583.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC030798">
+    <property type="protein sequence ID" value="AAH30798.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC132892">
+    <property type="protein sequence ID" value="AAI32893.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC137091">
+    <property type="protein sequence ID" value="AAI37092.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS32448.1">
+    <molecule id="Q9C0B1-1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001073901.1">
+    <molecule id="Q9C0B1-1"/>
+    <property type="nucleotide sequence ID" value="NM_001080432.2"/>
+  </dbReference>
+  <dbReference type="PDB" id="3LFM">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4CXW">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.10 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4CXX">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.76 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4CXY">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.65 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4IDZ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.46 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4IE0">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.53 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4IE4">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4IE5">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.95 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4IE6">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4IE7">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.60 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4QHO">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.37 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4QKN">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.20 A"/>
+    <property type="chains" value="A=32-503"/>
+  </dbReference>
+  <dbReference type="PDB" id="4ZS2">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.16 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="4ZS3">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.45 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="5DAB">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.10 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="5F8P">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.20 A"/>
+    <property type="chains" value="A=32-502"/>
+  </dbReference>
+  <dbReference type="PDB" id="5ZMD">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.30 A"/>
+    <property type="chains" value="A/C/E/G=37-499"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AEJ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.80 A"/>
+    <property type="chains" value="A=32-159, A=186-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AK4">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.80 A"/>
+    <property type="chains" value="A=32-159, A=186-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AKW">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.20 A"/>
+    <property type="chains" value="A=32-502"/>
+  </dbReference>
+  <dbReference type="PDB" id="7CKK">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.35 A"/>
+    <property type="chains" value="A=32-500"/>
+  </dbReference>
+  <dbReference type="PDB" id="7E8Z">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.55 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="7WCV">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.30 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDB" id="8IT9">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.14 A"/>
+    <property type="chains" value="A=32-505"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="3LFM"/>
+  <dbReference type="PDBsum" id="4CXW"/>
+  <dbReference type="PDBsum" id="4CXX"/>
+  <dbReference type="PDBsum" id="4CXY"/>
+  <dbReference type="PDBsum" id="4IDZ"/>
+  <dbReference type="PDBsum" id="4IE0"/>
+  <dbReference type="PDBsum" id="4IE4"/>
+  <dbReference type="PDBsum" id="4IE5"/>
+  <dbReference type="PDBsum" id="4IE6"/>
+  <dbReference type="PDBsum" id="4IE7"/>
+  <dbReference type="PDBsum" id="4QHO"/>
+  <dbReference type="PDBsum" id="4QKN"/>
+  <dbReference type="PDBsum" id="4ZS2"/>
+  <dbReference type="PDBsum" id="4ZS3"/>
+  <dbReference type="PDBsum" id="5DAB"/>
+  <dbReference type="PDBsum" id="5F8P"/>
+  <dbReference type="PDBsum" id="5ZMD"/>
+  <dbReference type="PDBsum" id="6AEJ"/>
+  <dbReference type="PDBsum" id="6AK4"/>
+  <dbReference type="PDBsum" id="6AKW"/>
+  <dbReference type="PDBsum" id="7CKK"/>
+  <dbReference type="PDBsum" id="7E8Z"/>
+  <dbReference type="PDBsum" id="7WCV"/>
+  <dbReference type="PDBsum" id="8IT9"/>
+  <dbReference type="AlphaFoldDB" id="Q9C0B1"/>
+  <dbReference type="SMR" id="Q9C0B1"/>
+  <dbReference type="BioGRID" id="122520">
+    <property type="interactions" value="91"/>
+  </dbReference>
+  <dbReference type="IntAct" id="Q9C0B1">
+    <property type="interactions" value="55"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q9C0B1"/>
+  <dbReference type="STRING" id="9606.ENSP00000418823"/>
+  <dbReference type="BindingDB" id="Q9C0B1"/>
+  <dbReference type="ChEMBL" id="CHEMBL2331065"/>
+  <dbReference type="DrugBank" id="DB11638">
+    <property type="generic name" value="Artenimol"/>
+  </dbReference>
+  <dbReference type="DrugCentral" id="Q9C0B1"/>
+  <dbReference type="GlyCosmos" id="Q9C0B1">
+    <property type="glycosylation" value="2 sites, 1 glycan"/>
+  </dbReference>
+  <dbReference type="GlyGen" id="Q9C0B1">
+    <property type="glycosylation" value="2 sites, 1 O-linked glycan (2 sites)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="Q9C0B1"/>
+  <dbReference type="PhosphoSitePlus" id="Q9C0B1"/>
+  <dbReference type="SwissPalm" id="Q9C0B1"/>
+  <dbReference type="BioMuta" id="FTO"/>
+  <dbReference type="DMDM" id="148841515"/>
+  <dbReference type="jPOST" id="Q9C0B1"/>
+  <dbReference type="MassIVE" id="Q9C0B1"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000418823"/>
+  <dbReference type="PeptideAtlas" id="Q9C0B1"/>
+  <dbReference type="ProteomicsDB" id="79982">
+    <molecule id="Q9C0B1-1"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="79983">
+    <molecule id="Q9C0B1-2"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="79984">
+    <molecule id="Q9C0B1-3"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="79985">
+    <molecule id="Q9C0B1-4"/>
+  </dbReference>
+  <dbReference type="Pumba" id="Q9C0B1"/>
+  <dbReference type="Antibodypedia" id="28448">
+    <property type="antibodies" value="520 antibodies from 44 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="79068"/>
+  <dbReference type="Ensembl" id="ENST00000431610.6">
+    <molecule id="Q9C0B1-4"/>
+    <property type="protein sequence ID" value="ENSP00000415636.2"/>
+    <property type="gene ID" value="ENSG00000140718.22"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000460382.5">
+    <molecule id="Q9C0B1-4"/>
+    <property type="protein sequence ID" value="ENSP00000417422.1"/>
+    <property type="gene ID" value="ENSG00000140718.22"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000463855.1">
+    <molecule id="Q9C0B1-2"/>
+    <property type="protein sequence ID" value="ENSP00000417843.1"/>
+    <property type="gene ID" value="ENSG00000140718.22"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000471389.6">
+    <molecule id="Q9C0B1-1"/>
+    <property type="protein sequence ID" value="ENSP00000418823.1"/>
+    <property type="gene ID" value="ENSG00000140718.22"/>
+  </dbReference>
+  <dbReference type="GeneID" id="79068"/>
+  <dbReference type="KEGG" id="hsa:79068"/>
+  <dbReference type="MANE-Select" id="ENST00000471389.6">
+    <property type="protein sequence ID" value="ENSP00000418823.1"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_001080432.3"/>
+    <property type="RefSeq protein sequence ID" value="NP_001073901.1"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc002ehr.4">
+    <molecule id="Q9C0B1-1"/>
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:24678"/>
+  <dbReference type="CTD" id="79068"/>
+  <dbReference type="DisGeNET" id="79068"/>
+  <dbReference type="GeneCards" id="FTO"/>
+  <dbReference type="HGNC" id="HGNC:24678">
+    <property type="gene designation" value="FTO"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000140718">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MalaCards" id="FTO"/>
+  <dbReference type="MIM" id="601665">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="MIM" id="610966">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="MIM" id="612460">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="MIM" id="612938">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q9C0B1"/>
+  <dbReference type="OpenTargets" id="ENSG00000140718"/>
+  <dbReference type="Orphanet" id="210144">
+    <property type="disease" value="Lethal polymalformative syndrome, Boissel type"/>
+  </dbReference>
+  <dbReference type="PharmGKB" id="PA152208656"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000140718"/>
+  <dbReference type="eggNOG" id="ENOG502QR31">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00390000017730"/>
+  <dbReference type="HOGENOM" id="CLU_041676_0_0_1"/>
+  <dbReference type="InParanoid" id="Q9C0B1"/>
+  <dbReference type="OMA" id="NYSCEGS"/>
+  <dbReference type="OrthoDB" id="5396564at2759"/>
+  <dbReference type="PhylomeDB" id="Q9C0B1"/>
+  <dbReference type="TreeFam" id="TF333296"/>
+  <dbReference type="BRENDA" id="1.14.11.53">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="Q9C0B1"/>
+  <dbReference type="Reactome" id="R-HSA-73943">
+    <property type="pathway name" value="Reversal of alkylation damage by DNA dioxygenases"/>
+  </dbReference>
+  <dbReference type="SABIO-RK" id="Q9C0B1"/>
+  <dbReference type="SignaLink" id="Q9C0B1"/>
+  <dbReference type="SIGNOR" id="Q9C0B1"/>
+  <dbReference type="BioGRID-ORCS" id="79068">
+    <property type="hits" value="24 hits in 1155 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="FTO">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q9C0B1"/>
+  <dbReference type="GeneWiki" id="FTO_gene"/>
+  <dbReference type="GenomeRNAi" id="79068"/>
+  <dbReference type="Pharos" id="Q9C0B1">
+    <property type="development level" value="Tchem"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q9C0B1"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 16"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q9C0B1">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000140718">
+    <property type="expression patterns" value="Expressed in cortical plate and 215 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q9C0B1">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005829">
+    <property type="term" value="C:cytosol"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043231">
+    <property type="term" value="C:intracellular membrane-bounded organelle"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016607">
+    <property type="term" value="C:nuclear speck"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005886">
+    <property type="term" value="C:plasma membrane"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0035516">
+    <property type="term" value="F:broad specificity oxidative DNA demethylase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008198">
+    <property type="term" value="F:ferrous iron binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1990931">
+    <property type="term" value="F:mRNA N6-methyladenosine dioxygenase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0035515">
+    <property type="term" value="F:oxidative RNA demethylase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016740">
+    <property type="term" value="F:transferase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1990984">
+    <property type="term" value="F:tRNA demethylase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0060612">
+    <property type="term" value="P:adipose tissue development"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006307">
+    <property type="term" value="P:DNA alkylation repair"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0061157">
+    <property type="term" value="P:mRNA destabilization"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0090335">
+    <property type="term" value="P:regulation of brown fat cell differentiation"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010883">
+    <property type="term" value="P:regulation of lipid storage"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0040014">
+    <property type="term" value="P:regulation of multicellular organism growth"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0044065">
+    <property type="term" value="P:regulation of respiratory system process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070350">
+    <property type="term" value="P:regulation of white fat cell proliferation"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042245">
+    <property type="term" value="P:RNA repair"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016180">
+    <property type="term" value="P:snRNA processing"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001659">
+    <property type="term" value="P:temperature homeostasis"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.60.120.590">
+    <property type="entry name" value="Alpha-ketoglutarate-dependent dioxygenase AlkB-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.58.1470">
+    <property type="entry name" value="FTO C-terminal domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR037151">
+    <property type="entry name" value="AlkB-like_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR032868">
+    <property type="entry name" value="FTO"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR024366">
+    <property type="entry name" value="FTO_C"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR038413">
+    <property type="entry name" value="FTO_C_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR024367">
+    <property type="entry name" value="FTO_cat_dom"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR31291">
+    <property type="entry name" value="ALPHA-KETOGLUTARATE-DEPENDENT DIOXYGENASE FTO"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR31291:SF2">
+    <property type="entry name" value="ALPHA-KETOGLUTARATE-DEPENDENT DIOXYGENASE FTO"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12934">
+    <property type="entry name" value="FTO_CTD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF12933">
+    <property type="entry name" value="FTO_NTD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM01223">
+    <property type="entry name" value="FTO_NTD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0025">Alternative splicing</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0223">Dioxygenase</keyword>
+  <keyword id="KW-0225">Disease variant</keyword>
+  <keyword id="KW-0408">Iron</keyword>
+  <keyword id="KW-0479">Metal-binding</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-0550">Obesity</keyword>
+  <keyword id="KW-0560">Oxidoreductase</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0808">Transferase</keyword>
+  <feature type="chain" id="PRO_0000286163" description="Alpha-ketoglutarate-dependent dioxygenase FTO">
+    <location>
+      <begin position="1"/>
+      <end position="505"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Fe2OG dioxygenase domain" evidence="6">
+    <location>
+      <begin position="32"/>
+      <end position="327"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Loop L1; predicted to block binding of double-stranded DNA or RNA" evidence="6">
+    <location>
+      <begin position="213"/>
+      <end position="224"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="6 31">
+    <location>
+      <position position="96"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6 31">
+    <location>
+      <position position="108"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6 10 31 41">
+    <location>
+      <position position="205"/>
+    </location>
+    <ligand>
+      <name>2-oxoglutarate</name>
+      <dbReference type="ChEBI" id="CHEBI:16810"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6 31">
+    <location>
+      <begin position="231"/>
+      <end position="234"/>
+    </location>
+    <ligand>
+      <name>substrate</name>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6 10 26 27 28 29 31 32 33 34 35 36 37 38 39 40 41 42 43">
+    <location>
+      <position position="231"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <note>catalytic</note>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6 26 27 28 29 31 32 33 34 35 36 37 38 39 40 41 42 43">
+    <location>
+      <position position="233"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <note>catalytic</note>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6 10 13 31 41 42 43">
+    <location>
+      <position position="295"/>
+    </location>
+    <ligand>
+      <name>2-oxoglutarate</name>
+      <dbReference type="ChEBI" id="CHEBI:16810"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6 26 27 28 29 31 32 33 34 35 36 37 38 39 40 41 42 43">
+    <location>
+      <position position="307"/>
+    </location>
+    <ligand>
+      <name>Fe cation</name>
+      <dbReference type="ChEBI" id="CHEBI:24875"/>
+      <note>catalytic</note>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6 10 13 31 41 42 43">
+    <location>
+      <begin position="316"/>
+      <end position="318"/>
+    </location>
+    <ligand>
+      <name>2-oxoglutarate</name>
+      <dbReference type="ChEBI" id="CHEBI:16810"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6 31">
+    <location>
+      <position position="320"/>
+    </location>
+    <ligand>
+      <name>2-oxoglutarate</name>
+      <dbReference type="ChEBI" id="CHEBI:16810"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="6 10 13 31 41 42">
+    <location>
+      <position position="322"/>
+    </location>
+    <ligand>
+      <name>2-oxoglutarate</name>
+      <dbReference type="ChEBI" id="CHEBI:16810"/>
+    </ligand>
+  </feature>
+  <feature type="modified residue" description="Phosphothreonine" evidence="45">
+    <location>
+      <position position="4"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="44">
+    <location>
+      <position position="216"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_025002" description="In isoform 3." evidence="22">
+    <location>
+      <begin position="1"/>
+      <end position="445"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_025003" description="In isoform 4." evidence="22">
+    <location>
+      <begin position="1"/>
+      <end position="399"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_025004" description="In isoform 2." evidence="22">
+    <location>
+      <begin position="1"/>
+      <end position="378"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_025005" description="In isoform 2." evidence="22">
+    <original>LRQFWFQGNRYRKCTDWWCQPMAQLEALWKKMEGV</original>
+    <variation>MEWRKVSECNSVEPCREVKKWPYRCIHHGKNFSRM</variation>
+    <location>
+      <begin position="379"/>
+      <end position="413"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_025006" description="In isoform 3." evidence="22">
+    <original>QNLRREWHAR</original>
+    <variation>MACQGREECW</variation>
+    <location>
+      <begin position="446"/>
+      <end position="455"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_076423" description="Found in a patient with microcephaly, developmental delay, behavioral abnormalities, dysmorphic facial features, hypotonia and other various phenotypic abnormalities; uncertain significance." evidence="16">
+    <original>H</original>
+    <variation>P</variation>
+    <location>
+      <position position="271"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_063252" description="In GDFD; has no residual normal activity, impaired ability to demethylate N(6)-methyladenosine RNAs (m6A) RNAs; dbSNP:rs121918214." evidence="5 7">
+    <original>R</original>
+    <variation>Q</variation>
+    <location>
+      <position position="316"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_075468" description="In GDFD; reduced enzyme activity; dbSNP:rs781028867." evidence="12">
+    <original>S</original>
+    <variation>F</variation>
+    <location>
+      <position position="319"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_075469" description="In GDFD; dbSNP:rs745616565." evidence="15">
+    <original>R</original>
+    <variation>Q</variation>
+    <location>
+      <position position="322"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_032078" description="In dbSNP:rs16952624.">
+    <original>A</original>
+    <variation>V</variation>
+    <location>
+      <position position="405"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Almost abolishes enzyme activity." evidence="6">
+    <original>R</original>
+    <variation>M</variation>
+    <variation>W</variation>
+    <location>
+      <position position="96"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolishes enzyme activity." evidence="6">
+    <original>Y</original>
+    <variation>A</variation>
+    <location>
+      <position position="108"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Perturbs interaction between N-terminal and C-terminal domains and strongly reduces enzyme activity." evidence="6">
+    <original>F</original>
+    <variation>D</variation>
+    <location>
+      <position position="114"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolishes ability to demethylate N(6)-methyladenosine RNAs (m6A) RNAs." evidence="7">
+    <original>HHD</original>
+    <variation>AHA</variation>
+    <location>
+      <begin position="231"/>
+      <end position="233"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolishes enzyme activity. Abolishes ability to demethylate N(6)-methyladenosine RNAs (m6A) RNAs; when associated with Q-322." evidence="6">
+    <original>E</original>
+    <variation>P</variation>
+    <location>
+      <position position="234"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Perturbs interaction between N-terminal and C-terminal domains and strongly reduces enzyme activity." evidence="6">
+    <original>C</original>
+    <variation>D</variation>
+    <location>
+      <position position="392"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; BAB21843 and 3; AAH03583/AAH30798/AAI32893." evidence="24" ref="1 3">
+    <original>R</original>
+    <variation>W</variation>
+    <location>
+      <position position="316"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="49">
+    <location>
+      <begin position="35"/>
+      <end position="37"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="38"/>
+      <end position="45"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="49"/>
+      <end position="52"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="54"/>
+      <end position="56"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="59"/>
+      <end position="74"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="79"/>
+      <end position="85"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="88"/>
+      <end position="101"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="104"/>
+      <end position="108"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="111"/>
+      <end position="114"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="52">
+    <location>
+      <begin position="127"/>
+      <end position="129"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="130"/>
+      <end position="162"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="190"/>
+      <end position="196"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="201"/>
+      <end position="207"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="48">
+    <location>
+      <begin position="209"/>
+      <end position="211"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="46">
+    <location>
+      <begin position="212"/>
+      <end position="214"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="219"/>
+      <end position="221"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="225"/>
+      <end position="231"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="242"/>
+      <end position="248"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="271"/>
+      <end position="276"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="280"/>
+      <end position="282"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="284"/>
+      <end position="288"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="293"/>
+      <end position="297"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="301"/>
+      <end position="304"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="305"/>
+      <end position="310"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="48">
+    <location>
+      <begin position="316"/>
+      <end position="322"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="51">
+    <location>
+      <begin position="327"/>
+      <end position="330"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="331"/>
+      <end position="342"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="361"/>
+      <end position="377"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="379"/>
+      <end position="384"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="48">
+    <location>
+      <begin position="385"/>
+      <end position="387"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="389"/>
+      <end position="391"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="397"/>
+      <end position="422"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="47">
+    <location>
+      <begin position="423"/>
+      <end position="426"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="428"/>
+      <end position="457"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="459"/>
+      <end position="463"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="466"/>
+      <end position="468"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="50">
+    <location>
+      <begin position="482"/>
+      <end position="485"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="48">
+    <location>
+      <begin position="490"/>
+      <end position="500"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q8BGW1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="17434869"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="17496892"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="18775698"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="19559399"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="20376003"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="22002720"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="22982992"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="24646999"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="25452335"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="26287746"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="26378117"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="26457839"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="14">
+    <source>
+      <dbReference type="PubMed" id="26458103"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="15">
+    <source>
+      <dbReference type="PubMed" id="26697951"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="16">
+    <source>
+      <dbReference type="PubMed" id="26740239"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="17">
+    <source>
+      <dbReference type="PubMed" id="28002401"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="18">
+    <source>
+      <dbReference type="PubMed" id="28017614"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="19">
+    <source>
+      <dbReference type="PubMed" id="29249359"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="20">
+    <source>
+      <dbReference type="PubMed" id="30197295"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="21">
+    <source>
+      <dbReference type="PubMed" id="11214970"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="22">
+    <source>
+      <dbReference type="PubMed" id="15489334"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="23">
+    <source>
+      <dbReference type="PubMed" id="17496892"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="24"/>
+  <evidence type="ECO:0000305" key="25">
+    <source>
+      <dbReference type="PubMed" id="22002720"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="26">
+    <source>
+      <dbReference type="PubMed" id="23547775"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="27">
+    <source>
+      <dbReference type="PubMed" id="25452335"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="28">
+    <source>
+      <dbReference type="PubMed" id="26457839"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="29">
+    <source>
+      <dbReference type="PubMed" id="28553460"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="30">
+    <source>
+      <dbReference type="HGNC" id="HGNC:24678"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="31">
+    <source>
+      <dbReference type="PDB" id="3LFM"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="32">
+    <source>
+      <dbReference type="PDB" id="4CXW"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="33">
+    <source>
+      <dbReference type="PDB" id="4CXX"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="34">
+    <source>
+      <dbReference type="PDB" id="4CXY"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="35">
+    <source>
+      <dbReference type="PDB" id="4IDZ"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="36">
+    <source>
+      <dbReference type="PDB" id="4IE0"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="37">
+    <source>
+      <dbReference type="PDB" id="4IE4"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="38">
+    <source>
+      <dbReference type="PDB" id="4IE5"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="39">
+    <source>
+      <dbReference type="PDB" id="4IE6"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="40">
+    <source>
+      <dbReference type="PDB" id="4IE7"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="41">
+    <source>
+      <dbReference type="PDB" id="4QKN"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="42">
+    <source>
+      <dbReference type="PDB" id="4ZS2"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="43">
+    <source>
+      <dbReference type="PDB" id="4ZS3"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="44">
+    <source>
+      <dbReference type="PubMed" id="19608861"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="45">
+    <source>
+      <dbReference type="PubMed" id="23186163"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="46">
+    <source>
+      <dbReference type="PDB" id="3LFM"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="47">
+    <source>
+      <dbReference type="PDB" id="4IDZ"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="48">
+    <source>
+      <dbReference type="PDB" id="4IE5"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="49">
+    <source>
+      <dbReference type="PDB" id="4QKN"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="50">
+    <source>
+      <dbReference type="PDB" id="5DAB"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="51">
+    <source>
+      <dbReference type="PDB" id="5F8P"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="52">
+    <source>
+      <dbReference type="PDB" id="5ZMD"/>
+    </source>
+  </evidence>
+  <sequence length="505" mass="58282" checksum="3498A92C6E6D81B1" modified="2007-05-29" version="3">MKRTPTAEEREREAKKLRLLEELEDTWLPYLTPKDDEFYQQWQLKYPKLILREASSVSEELHKEVQEAFLTLHKHGCLFRDLVRIQGKDLLTPVSRILIGNPGCTYKYLNTRLFTVPWPVKGSNIKHTEAEIAAACETFLKLNDYLQIETIQALEELAAKEKANEDAVPLCMSADFPRVGMGSSYNGQDEVDIKSRAAYNVTLLNFMDPQKMPYLKEEPYFGMGKMAVSWHHDENLVDRSAVAVYSYSCEGPEEESEDDSHLEGRDPDIWHVGFKISWDIETPGLAIPLHQGDCYFMLDDLNATHQHCVLAGSQPRFSSTHRVAECSTGTLDYILQRCQLALQNVCDDVDNDDVSLKSFEPAVLKQGEEIHNEVEFEWLRQFWFQGNRYRKCTDWWCQPMAQLEALWKKMEGVTNAVLHEVKREGLPVEQRNEILTAILASLTARQNLRREWHARCQSRIARTLPADQKPECRPYWEKDDASMPLPFDLTDIVSELRGQLLEAKP</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

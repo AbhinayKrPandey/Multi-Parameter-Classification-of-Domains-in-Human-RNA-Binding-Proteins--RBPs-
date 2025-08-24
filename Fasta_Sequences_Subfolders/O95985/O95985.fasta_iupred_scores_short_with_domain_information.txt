@@ -1,0 +1,874 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.8627	
+2	K	0.7998	
+3	T	0.7413	domain Toprim
+4	V	0.6808	domain Toprim
+5	L	0.6150	domain Toprim
+6	M	0.5434	domain Toprim
+7	V	0.4677	domain Toprim
+8	A	0.3912	domain Toprim
+9	E	0.3181	domain Toprim
+10	K	0.2533	domain Toprim
+11	P	0.2040	domain Toprim
+12	S	0.1678	domain Toprim
+13	L	0.1516	domain Toprim
+14	A	0.1663	domain Toprim
+15	Q	0.2005	domain Toprim
+16	S	0.2315	domain Toprim
+17	I	0.2562	domain Toprim
+18	A	0.2823	domain Toprim
+19	K	0.2957	domain Toprim
+20	I	0.3000	domain Toprim
+21	L	0.2982	domain Toprim
+22	S	0.2850	domain Toprim
+23	R	0.2705	domain Toprim
+24	G	0.2528	domain Toprim
+25	S	0.2318	domain Toprim
+26	L	0.2153	domain Toprim
+27	S	0.2177	domain Toprim
+28	S	0.2332	domain Toprim
+29	H	0.2454	domain Toprim
+30	K	0.2521	domain Toprim
+31	G	0.2446	domain Toprim
+32	L	0.2454	domain Toprim
+33	N	0.2461	domain Toprim
+34	G	0.2450	domain Toprim
+35	A	0.2285	domain Toprim
+36	C	0.2154	domain Toprim
+37	S	0.2048	domain Toprim
+38	V	0.1955	domain Toprim
+39	H	0.1799	domain Toprim
+40	E	0.1726	domain Toprim
+41	Y	0.1708	domain Toprim
+42	T	0.1636	domain Toprim
+43	G	0.1576	domain Toprim
+44	T	0.1443	domain Toprim
+45	F	0.1345	domain Toprim
+46	A	0.1357	domain Toprim
+47	G	0.1380	domain Toprim
+48	Q	0.1384	domain Toprim
+49	P	0.1329	domain Toprim
+50	V	0.1275	domain Toprim
+51	R	0.1150	domain Toprim
+52	F	0.1131	domain Toprim
+53	K	0.1063	domain Toprim
+54	M	0.1019	domain Toprim
+55	T	0.0994	domain Toprim
+56	S	0.0966	domain Toprim
+57	V	0.0852	domain Toprim
+58	C	0.0816	domain Toprim
+59	G	0.0786	domain Toprim
+60	H	0.0732	domain Toprim
+61	V	0.0693	domain Toprim
+62	M	0.0620	domain Toprim
+63	T	0.0586	domain Toprim
+64	L	0.0668	domain Toprim
+65	D	0.0792	domain Toprim
+66	F	0.0925	domain Toprim
+67	L	0.1058	domain Toprim
+68	G	0.1186	domain Toprim
+69	K	0.1257	domain Toprim
+70	Y	0.1294	domain Toprim
+71	N	0.1331	domain Toprim
+72	K	0.1461	domain Toprim
+73	W	0.1568	domain Toprim
+74	D	0.1753	domain Toprim
+75	K	0.2023	domain Toprim
+76	V	0.2295	domain Toprim
+77	D	0.2620	domain Toprim
+78	P	0.3061	domain Toprim
+79	A	0.3422	domain Toprim
+80	E	0.3680	domain Toprim
+81	L	0.3969	domain Toprim
+82	F	0.4182	domain Toprim
+83	S	0.4368	domain Toprim
+84	Q	0.4539	domain Toprim
+85	A	0.4524	domain Toprim
+86	P	0.4482	domain Toprim
+87	T	0.4384	domain Toprim
+88	E	0.4137	domain Toprim
+89	K	0.3897	domain Toprim
+90	K	0.3655	domain Toprim
+91	E	0.3464	domain Toprim
+92	A	0.3342	domain Toprim
+93	N	0.3334	domain Toprim
+94	P	0.3293	domain Toprim
+95	K	0.3211	domain Toprim
+96	L	0.3164	domain Toprim
+97	N	0.2982	domain Toprim
+98	M	0.2685	domain Toprim
+99	V	0.2325	domain Toprim
+100	K	0.1856	domain Toprim
+101	F	0.1440	domain Toprim
+102	L	0.1100	domain Toprim
+103	Q	0.0727	domain Toprim
+104	V	0.0472	domain Toprim
+105	E	0.0299	domain Toprim
+106	G	0.0168	domain Toprim
+107	R	0.0121	domain Toprim
+108	G	0.0093	domain Toprim
+109	C	0.0202	domain Toprim
+110	D	0.0287	domain Toprim
+111	Y	0.0373	domain Toprim
+112	I	0.0450	domain Toprim
+113	V	0.0481	domain Toprim
+114	L	0.0472	domain Toprim
+115	W	0.0429	domain Toprim
+116	L	0.0378	domain Toprim
+117	D	0.0279	domain Toprim
+118	C	0.0190	domain Toprim
+119	D	0.0107	domain Toprim
+120	K	0.0074	domain Toprim
+121	E	0.0058	domain Toprim
+122	G	0.0096	domain Toprim
+123	E	0.0152	domain Toprim
+124	N	0.0225	domain Toprim
+125	I	0.0291	domain Toprim
+126	C	0.0360	domain Toprim
+127	F	0.0443	domain Toprim
+128	E	0.0500	domain Toprim
+129	V	0.0513	domain Toprim
+130	L	0.0492	domain Toprim
+131	D	0.0483	domain Toprim
+132	A	0.0500	domain Toprim
+133	V	0.0460	domain Toprim
+134	L	0.0515	domain Toprim
+135	P	0.0624	domain Toprim
+136	V	0.0738	domain Toprim
+137	M	0.0837	domain Toprim
+138	N	0.1025	domain Toprim
+139	K	0.1156	domain Toprim
+140	A	0.1256	domain Toprim
+141	H	0.1314	domain Toprim
+142	G	0.1392	domain Toprim
+143	G	0.1556	domain Toprim
+144	E	0.1738	domain Toprim
+145	K	0.1952	domain Toprim
+146	T	0.2146	domain Toprim
+147	V	0.2275	domain Toprim
+148	F	0.2380	domain Toprim
+149	R	0.2476	domain Toprim
+150	A	0.2502	domain Toprim
+151	R	0.2311	domain Toprim
+152	F	0.2067	domain Toprim
+153	S	0.1758	domain Toprim
+154	S	0.1457	
+155	I	0.1149	
+156	T	0.0972	
+157	D	0.0935	
+158	T	0.1021	
+159	D	0.1145	
+160	I	0.1396	
+161	C	0.1734	
+162	N	0.2093	
+163	A	0.2389	
+164	M	0.2458	
+165	A	0.2309	
+166	C	0.2155	
+167	L	0.1990	
+168	G	0.1963	
+169	E	0.1906	
+170	P	0.1893	
+171	D	0.1892	domain Topo IA-type catalytic
+172	H	0.2083	domain Topo IA-type catalytic
+173	N	0.2330	domain Topo IA-type catalytic
+174	E	0.2617	domain Topo IA-type catalytic
+175	A	0.2875	domain Topo IA-type catalytic
+176	L	0.2987	domain Topo IA-type catalytic
+177	S	0.2951	domain Topo IA-type catalytic
+178	V	0.2815	domain Topo IA-type catalytic
+179	D	0.2510	domain Topo IA-type catalytic
+180	A	0.2188	domain Topo IA-type catalytic
+181	R	0.1859	domain Topo IA-type catalytic
+182	Q	0.1526	domain Topo IA-type catalytic
+183	E	0.1189	domain Topo IA-type catalytic
+184	L	0.0958	domain Topo IA-type catalytic
+185	D	0.0790	domain Topo IA-type catalytic
+186	L	0.0861	domain Topo IA-type catalytic
+187	R	0.0931	domain Topo IA-type catalytic
+188	I	0.0998	domain Topo IA-type catalytic
+189	G	0.0963	domain Topo IA-type catalytic
+190	C	0.0925	domain Topo IA-type catalytic
+191	A	0.0821	domain Topo IA-type catalytic
+192	F	0.0738	domain Topo IA-type catalytic
+193	T	0.0636	domain Topo IA-type catalytic
+194	R	0.0571	domain Topo IA-type catalytic
+195	F	0.0543	domain Topo IA-type catalytic
+196	Q	0.0608	domain Topo IA-type catalytic
+197	T	0.0731	domain Topo IA-type catalytic
+198	K	0.0767	domain Topo IA-type catalytic
+199	Y	0.0836	domain Topo IA-type catalytic
+200	F	0.0963	domain Topo IA-type catalytic
+201	Q	0.1118	domain Topo IA-type catalytic
+202	G	0.1213	domain Topo IA-type catalytic
+203	K	0.1151	domain Topo IA-type catalytic
+204	Y	0.1153	domain Topo IA-type catalytic
+205	G	0.1151	domain Topo IA-type catalytic
+206	D	0.1231	domain Topo IA-type catalytic
+207	L	0.1364	domain Topo IA-type catalytic
+208	D	0.1570	domain Topo IA-type catalytic
+209	S	0.1769	domain Topo IA-type catalytic
+210	S	0.1875	domain Topo IA-type catalytic
+211	L	0.1908	domain Topo IA-type catalytic
+212	I	0.1899	domain Topo IA-type catalytic
+213	S	0.1778	domain Topo IA-type catalytic
+214	F	0.1682	domain Topo IA-type catalytic
+215	G	0.1560	domain Topo IA-type catalytic
+216	P	0.1323	domain Topo IA-type catalytic
+217	C	0.1178	domain Topo IA-type catalytic
+218	Q	0.1135	domain Topo IA-type catalytic
+219	T	0.1304	domain Topo IA-type catalytic
+220	P	0.1452	domain Topo IA-type catalytic
+221	T	0.1495	domain Topo IA-type catalytic
+222	L	0.1587	domain Topo IA-type catalytic
+223	G	0.1713	domain Topo IA-type catalytic
+224	F	0.1896	domain Topo IA-type catalytic
+225	C	0.2041	domain Topo IA-type catalytic
+226	V	0.2172	domain Topo IA-type catalytic
+227	E	0.2252	domain Topo IA-type catalytic
+228	R	0.2134	domain Topo IA-type catalytic
+229	H	0.1929	domain Topo IA-type catalytic
+230	D	0.1687	domain Topo IA-type catalytic
+231	K	0.1484	domain Topo IA-type catalytic
+232	I	0.1347	domain Topo IA-type catalytic
+233	Q	0.1246	domain Topo IA-type catalytic
+234	S	0.1238	domain Topo IA-type catalytic
+235	F	0.1264	domain Topo IA-type catalytic
+236	K	0.1349	domain Topo IA-type catalytic
+237	P	0.1626	domain Topo IA-type catalytic
+238	E	0.1830	domain Topo IA-type catalytic
+239	T	0.1993	domain Topo IA-type catalytic
+240	Y	0.2066	domain Topo IA-type catalytic
+241	W	0.2140	domain Topo IA-type catalytic
+242	V	0.2179	domain Topo IA-type catalytic
+243	L	0.2133	domain Topo IA-type catalytic
+244	Q	0.2050	domain Topo IA-type catalytic
+245	A	0.1904	domain Topo IA-type catalytic
+246	K	0.1625	domain Topo IA-type catalytic
+247	V	0.1369	domain Topo IA-type catalytic
+248	N	0.1142	domain Topo IA-type catalytic
+249	T	0.0993	domain Topo IA-type catalytic
+250	D	0.0842	domain Topo IA-type catalytic
+251	K	0.0810	domain Topo IA-type catalytic
+252	D	0.0900	domain Topo IA-type catalytic
+253	R	0.0975	domain Topo IA-type catalytic
+254	S	0.1005	domain Topo IA-type catalytic
+255	L	0.1070	domain Topo IA-type catalytic
+256	L	0.1070	domain Topo IA-type catalytic
+257	L	0.1047	domain Topo IA-type catalytic
+258	D	0.0967	domain Topo IA-type catalytic
+259	W	0.0888	domain Topo IA-type catalytic
+260	D	0.0753	domain Topo IA-type catalytic
+261	R	0.0678	domain Topo IA-type catalytic
+262	V	0.0606	domain Topo IA-type catalytic
+263	R	0.0545	domain Topo IA-type catalytic
+264	V	0.0495	domain Topo IA-type catalytic
+265	F	0.0524	domain Topo IA-type catalytic
+266	D	0.0603	domain Topo IA-type catalytic
+267	R	0.0802	domain Topo IA-type catalytic
+268	E	0.0911	domain Topo IA-type catalytic
+269	I	0.1085	domain Topo IA-type catalytic
+270	A	0.1292	domain Topo IA-type catalytic
+271	Q	0.1541	domain Topo IA-type catalytic
+272	M	0.1726	domain Topo IA-type catalytic
+273	F	0.1882	domain Topo IA-type catalytic
+274	L	0.2051	domain Topo IA-type catalytic
+275	N	0.2261	domain Topo IA-type catalytic
+276	M	0.2508	domain Topo IA-type catalytic
+277	T	0.2705	domain Topo IA-type catalytic
+278	K	0.2856	domain Topo IA-type catalytic
+279	L	0.3073	domain Topo IA-type catalytic
+280	E	0.3235	domain Topo IA-type catalytic
+281	K	0.3506	domain Topo IA-type catalytic
+282	E	0.3769	domain Topo IA-type catalytic
+283	A	0.4074	domain Topo IA-type catalytic
+284	Q	0.4390	domain Topo IA-type catalytic
+285	V	0.4716	domain Topo IA-type catalytic
+286	E	0.4942	domain Topo IA-type catalytic
+287	A	0.5146	domain Topo IA-type catalytic
+288	T	0.5225	domain Topo IA-type catalytic
+289	S	0.5322	domain Topo IA-type catalytic
+290	R	0.5270	domain Topo IA-type catalytic
+291	K	0.5179	domain Topo IA-type catalytic
+292	E	0.5116	domain Topo IA-type catalytic
+293	K	0.5085	domain Topo IA-type catalytic
+294	A	0.5069	domain Topo IA-type catalytic
+295	K	0.4989	domain Topo IA-type catalytic
+296	Q	0.4980	domain Topo IA-type catalytic
+297	R	0.4922	domain Topo IA-type catalytic
+298	P	0.4821	domain Topo IA-type catalytic
+299	L	0.4768	domain Topo IA-type catalytic
+300	A	0.4603	domain Topo IA-type catalytic
+301	L	0.4492	domain Topo IA-type catalytic
+302	N	0.4322	domain Topo IA-type catalytic
+303	T	0.4137	domain Topo IA-type catalytic
+304	V	0.3999	domain Topo IA-type catalytic
+305	E	0.3928	domain Topo IA-type catalytic
+306	M	0.3874	domain Topo IA-type catalytic
+307	L	0.3895	domain Topo IA-type catalytic
+308	R	0.3894	domain Topo IA-type catalytic
+309	V	0.3917	domain Topo IA-type catalytic
+310	A	0.3965	domain Topo IA-type catalytic
+311	S	0.4145	domain Topo IA-type catalytic
+312	S	0.4324	domain Topo IA-type catalytic
+313	S	0.4425	domain Topo IA-type catalytic
+314	L	0.4507	domain Topo IA-type catalytic
+315	G	0.4549	domain Topo IA-type catalytic
+316	M	0.4684	domain Topo IA-type catalytic
+317	G	0.4744	domain Topo IA-type catalytic
+318	P	0.4812	domain Topo IA-type catalytic
+319	Q	0.4854	domain Topo IA-type catalytic
+320	H	0.4780	domain Topo IA-type catalytic
+321	A	0.4689	domain Topo IA-type catalytic
+322	M	0.4560	domain Topo IA-type catalytic
+323	Q	0.4436	domain Topo IA-type catalytic
+324	T	0.4341	domain Topo IA-type catalytic
+325	A	0.4189	domain Topo IA-type catalytic
+326	E	0.4139	domain Topo IA-type catalytic
+327	R	0.4099	domain Topo IA-type catalytic
+328	L	0.4020	domain Topo IA-type catalytic
+329	Y	0.4038	domain Topo IA-type catalytic
+330	T	0.4181	domain Topo IA-type catalytic
+331	Q	0.4269	domain Topo IA-type catalytic
+332	G	0.4258	domain Topo IA-type catalytic
+333	Y	0.4220	domain Topo IA-type catalytic
+334	I	0.4245	domain Topo IA-type catalytic
+335	S	0.4202	domain Topo IA-type catalytic
+336	Y	0.4252	domain Topo IA-type catalytic
+337	P	0.4215	domain Topo IA-type catalytic
+338	R	0.4162	domain Topo IA-type catalytic
+339	T	0.4045	domain Topo IA-type catalytic
+340	E	0.3982	domain Topo IA-type catalytic
+341	T	0.4020	domain Topo IA-type catalytic
+342	T	0.4127	domain Topo IA-type catalytic
+343	H	0.4194	domain Topo IA-type catalytic
+344	Y	0.4375	domain Topo IA-type catalytic
+345	P	0.4662	domain Topo IA-type catalytic
+346	E	0.4972	domain Topo IA-type catalytic
+347	N	0.5120	domain Topo IA-type catalytic
+348	F	0.5249	domain Topo IA-type catalytic
+349	D	0.5287	domain Topo IA-type catalytic
+350	L	0.5253	domain Topo IA-type catalytic
+351	K	0.5029	domain Topo IA-type catalytic
+352	G	0.4770	domain Topo IA-type catalytic
+353	S	0.4493	domain Topo IA-type catalytic
+354	L	0.4294	domain Topo IA-type catalytic
+355	R	0.4142	domain Topo IA-type catalytic
+356	Q	0.4093	domain Topo IA-type catalytic
+357	Q	0.4020	domain Topo IA-type catalytic
+358	A	0.4017	domain Topo IA-type catalytic
+359	N	0.4085	domain Topo IA-type catalytic
+360	H	0.4175	domain Topo IA-type catalytic
+361	P	0.4190	domain Topo IA-type catalytic
+362	Y	0.4155	domain Topo IA-type catalytic
+363	W	0.4159	domain Topo IA-type catalytic
+364	A	0.4271	domain Topo IA-type catalytic
+365	D	0.4298	domain Topo IA-type catalytic
+366	T	0.4235	domain Topo IA-type catalytic
+367	V	0.4199	domain Topo IA-type catalytic
+368	K	0.4230	domain Topo IA-type catalytic
+369	R	0.4273	domain Topo IA-type catalytic
+370	L	0.4360	domain Topo IA-type catalytic
+371	L	0.4426	domain Topo IA-type catalytic
+372	A	0.4621	domain Topo IA-type catalytic
+373	E	0.4886	domain Topo IA-type catalytic
+374	G	0.5124	domain Topo IA-type catalytic
+375	I	0.5364	domain Topo IA-type catalytic
+376	N	0.5599	domain Topo IA-type catalytic
+377	R	0.5861	domain Topo IA-type catalytic
+378	P	0.6081	domain Topo IA-type catalytic
+379	R	0.6252	domain Topo IA-type catalytic
+380	K	0.6353	domain Topo IA-type catalytic
+381	G	0.6461	domain Topo IA-type catalytic
+382	H	0.6607	domain Topo IA-type catalytic
+383	D	0.6791	domain Topo IA-type catalytic
+384	A	0.6916	domain Topo IA-type catalytic
+385	G	0.6986	domain Topo IA-type catalytic
+386	D	0.6995	domain Topo IA-type catalytic
+387	H	0.6956	domain Topo IA-type catalytic
+388	P	0.6883	domain Topo IA-type catalytic
+389	P	0.6711	domain Topo IA-type catalytic
+390	I	0.6573	domain Topo IA-type catalytic
+391	T	0.6505	domain Topo IA-type catalytic
+392	P	0.6364	domain Topo IA-type catalytic
+393	M	0.6147	domain Topo IA-type catalytic
+394	K	0.5902	domain Topo IA-type catalytic
+395	S	0.5643	domain Topo IA-type catalytic
+396	A	0.5264	domain Topo IA-type catalytic
+397	T	0.4767	domain Topo IA-type catalytic
+398	E	0.4219	domain Topo IA-type catalytic
+399	A	0.3701	domain Topo IA-type catalytic
+400	E	0.3183	domain Topo IA-type catalytic
+401	L	0.2742	domain Topo IA-type catalytic
+402	G	0.2382	domain Topo IA-type catalytic
+403	G	0.2105	domain Topo IA-type catalytic
+404	D	0.1853	domain Topo IA-type catalytic
+405	A	0.1572	domain Topo IA-type catalytic
+406	W	0.1378	domain Topo IA-type catalytic
+407	R	0.1156	domain Topo IA-type catalytic
+408	L	0.0933	domain Topo IA-type catalytic
+409	Y	0.0790	domain Topo IA-type catalytic
+410	E	0.0668	domain Topo IA-type catalytic
+411	Y	0.0542	domain Topo IA-type catalytic
+412	I	0.0447	domain Topo IA-type catalytic
+413	T	0.0446	domain Topo IA-type catalytic
+414	R	0.0425	domain Topo IA-type catalytic
+415	H	0.0368	domain Topo IA-type catalytic
+416	F	0.0332	domain Topo IA-type catalytic
+417	I	0.0326	domain Topo IA-type catalytic
+418	A	0.0354	domain Topo IA-type catalytic
+419	T	0.0382	domain Topo IA-type catalytic
+420	V	0.0376	domain Topo IA-type catalytic
+421	S	0.0379	domain Topo IA-type catalytic
+422	H	0.0422	domain Topo IA-type catalytic
+423	D	0.0430	domain Topo IA-type catalytic
+424	C	0.0472	domain Topo IA-type catalytic
+425	K	0.0513	domain Topo IA-type catalytic
+426	Y	0.0575	domain Topo IA-type catalytic
+427	L	0.0611	domain Topo IA-type catalytic
+428	Q	0.0649	domain Topo IA-type catalytic
+429	S	0.0668	domain Topo IA-type catalytic
+430	T	0.0638	domain Topo IA-type catalytic
+431	I	0.0647	domain Topo IA-type catalytic
+432	S	0.0631	domain Topo IA-type catalytic
+433	F	0.0623	domain Topo IA-type catalytic
+434	R	0.0628	domain Topo IA-type catalytic
+435	I	0.0738	domain Topo IA-type catalytic
+436	G	0.0805	domain Topo IA-type catalytic
+437	P	0.0948	domain Topo IA-type catalytic
+438	E	0.1061	domain Topo IA-type catalytic
+439	L	0.1116	domain Topo IA-type catalytic
+440	F	0.1277	domain Topo IA-type catalytic
+441	T	0.1471	domain Topo IA-type catalytic
+442	C	0.1645	domain Topo IA-type catalytic
+443	S	0.1778	domain Topo IA-type catalytic
+444	G	0.1892	domain Topo IA-type catalytic
+445	K	0.1964	domain Topo IA-type catalytic
+446	T	0.2023	domain Topo IA-type catalytic
+447	V	0.2075	domain Topo IA-type catalytic
+448	L	0.2102	domain Topo IA-type catalytic
+449	S	0.2239	domain Topo IA-type catalytic
+450	P	0.2375	domain Topo IA-type catalytic
+451	G	0.2447	domain Topo IA-type catalytic
+452	F	0.2591	domain Topo IA-type catalytic
+453	T	0.2849	domain Topo IA-type catalytic
+454	E	0.3094	domain Topo IA-type catalytic
+455	V	0.3340	domain Topo IA-type catalytic
+456	M	0.3467	domain Topo IA-type catalytic
+457	P	0.3503	domain Topo IA-type catalytic
+458	W	0.3627	domain Topo IA-type catalytic
+459	Q	0.3725	domain Topo IA-type catalytic
+460	S	0.3904	domain Topo IA-type catalytic
+461	V	0.4049	domain Topo IA-type catalytic
+462	P	0.4135	domain Topo IA-type catalytic
+463	L	0.4268	domain Topo IA-type catalytic
+464	E	0.4326	domain Topo IA-type catalytic
+465	E	0.4393	domain Topo IA-type catalytic
+466	S	0.4436	domain Topo IA-type catalytic
+467	L	0.4541	domain Topo IA-type catalytic
+468	P	0.4625	domain Topo IA-type catalytic
+469	T	0.4611	domain Topo IA-type catalytic
+470	C	0.4522	domain Topo IA-type catalytic
+471	Q	0.4450	domain Topo IA-type catalytic
+472	R	0.4469	domain Topo IA-type catalytic
+473	G	0.4396	domain Topo IA-type catalytic
+474	D	0.4247	domain Topo IA-type catalytic
+475	A	0.4187	domain Topo IA-type catalytic
+476	F	0.4281	domain Topo IA-type catalytic
+477	P	0.4417	domain Topo IA-type catalytic
+478	V	0.4683	domain Topo IA-type catalytic
+479	G	0.4848	domain Topo IA-type catalytic
+480	E	0.4922	domain Topo IA-type catalytic
+481	V	0.4961	domain Topo IA-type catalytic
+482	K	0.4936	domain Topo IA-type catalytic
+483	M	0.4911	domain Topo IA-type catalytic
+484	L	0.4838	domain Topo IA-type catalytic
+485	E	0.4735	domain Topo IA-type catalytic
+486	K	0.4615	domain Topo IA-type catalytic
+487	Q	0.4438	domain Topo IA-type catalytic
+488	T	0.4234	domain Topo IA-type catalytic
+489	N	0.4063	domain Topo IA-type catalytic
+490	P	0.4043	domain Topo IA-type catalytic
+491	P	0.4018	domain Topo IA-type catalytic
+492	D	0.3930	domain Topo IA-type catalytic
+493	Y	0.3818	domain Topo IA-type catalytic
+494	L	0.3795	domain Topo IA-type catalytic
+495	T	0.3851	domain Topo IA-type catalytic
+496	E	0.3949	domain Topo IA-type catalytic
+497	A	0.3873	domain Topo IA-type catalytic
+498	E	0.3728	domain Topo IA-type catalytic
+499	L	0.3466	domain Topo IA-type catalytic
+500	I	0.3244	domain Topo IA-type catalytic
+501	T	0.3085	domain Topo IA-type catalytic
+502	L	0.2902	domain Topo IA-type catalytic
+503	M	0.2778	domain Topo IA-type catalytic
+504	E	0.2781	domain Topo IA-type catalytic
+505	K	0.2736	domain Topo IA-type catalytic
+506	H	0.2646	domain Topo IA-type catalytic
+507	G	0.2464	domain Topo IA-type catalytic
+508	I	0.2379	domain Topo IA-type catalytic
+509	G	0.2373	domain Topo IA-type catalytic
+510	T	0.2367	domain Topo IA-type catalytic
+511	D	0.2325	domain Topo IA-type catalytic
+512	A	0.2301	domain Topo IA-type catalytic
+513	S	0.2279	domain Topo IA-type catalytic
+514	I	0.2302	domain Topo IA-type catalytic
+515	P	0.2181	domain Topo IA-type catalytic
+516	V	0.2022	domain Topo IA-type catalytic
+517	H	0.1808	domain Topo IA-type catalytic
+518	I	0.1685	domain Topo IA-type catalytic
+519	N	0.1591	domain Topo IA-type catalytic
+520	N	0.1497	domain Topo IA-type catalytic
+521	I	0.1338	domain Topo IA-type catalytic
+522	C	0.1384	domain Topo IA-type catalytic
+523	Q	0.1494	domain Topo IA-type catalytic
+524	R	0.1606	domain Topo IA-type catalytic
+525	N	0.1647	domain Topo IA-type catalytic
+526	Y	0.1722	domain Topo IA-type catalytic
+527	V	0.1868	domain Topo IA-type catalytic
+528	T	0.2027	domain Topo IA-type catalytic
+529	V	0.2082	domain Topo IA-type catalytic
+530	E	0.2036	domain Topo IA-type catalytic
+531	S	0.1956	domain Topo IA-type catalytic
+532	G	0.1791	domain Topo IA-type catalytic
+533	R	0.1597	domain Topo IA-type catalytic
+534	R	0.1376	domain Topo IA-type catalytic
+535	L	0.1177	domain Topo IA-type catalytic
+536	K	0.1062	domain Topo IA-type catalytic
+537	P	0.0980	domain Topo IA-type catalytic
+538	T	0.0957	domain Topo IA-type catalytic
+539	N	0.0856	domain Topo IA-type catalytic
+540	L	0.0808	domain Topo IA-type catalytic
+541	G	0.0750	domain Topo IA-type catalytic
+542	I	0.0676	domain Topo IA-type catalytic
+543	V	0.0528	domain Topo IA-type catalytic
+544	L	0.0390	domain Topo IA-type catalytic
+545	V	0.0297	domain Topo IA-type catalytic
+546	H	0.0267	domain Topo IA-type catalytic
+547	G	0.0222	domain Topo IA-type catalytic
+548	Y	0.0160	domain Topo IA-type catalytic
+549	Y	0.0135	domain Topo IA-type catalytic
+550	K	0.0118	domain Topo IA-type catalytic
+551	I	0.0150	domain Topo IA-type catalytic
+552	D	0.0190	domain Topo IA-type catalytic
+553	A	0.0275	domain Topo IA-type catalytic
+554	E	0.0348	domain Topo IA-type catalytic
+555	L	0.0429	domain Topo IA-type catalytic
+556	V	0.0473	domain Topo IA-type catalytic
+557	L	0.0513	domain Topo IA-type catalytic
+558	P	0.0532	domain Topo IA-type catalytic
+559	T	0.0498	domain Topo IA-type catalytic
+560	I	0.0447	domain Topo IA-type catalytic
+561	R	0.0423	domain Topo IA-type catalytic
+562	S	0.0439	domain Topo IA-type catalytic
+563	A	0.0447	domain Topo IA-type catalytic
+564	V	0.0544	domain Topo IA-type catalytic
+565	E	0.0692	domain Topo IA-type catalytic
+566	K	0.0834	domain Topo IA-type catalytic
+567	Q	0.0872	domain Topo IA-type catalytic
+568	L	0.0946	domain Topo IA-type catalytic
+569	N	0.0974	domain Topo IA-type catalytic
+570	L	0.0985	domain Topo IA-type catalytic
+571	I	0.0995	domain Topo IA-type catalytic
+572	A	0.0986	domain Topo IA-type catalytic
+573	Q	0.0957	domain Topo IA-type catalytic
+574	G	0.0839	domain Topo IA-type catalytic
+575	K	0.0757	domain Topo IA-type catalytic
+576	A	0.0700	domain Topo IA-type catalytic
+577	D	0.0666	domain Topo IA-type catalytic
+578	Y	0.0667	domain Topo IA-type catalytic
+579	R	0.0711	domain Topo IA-type catalytic
+580	Q	0.0761	domain Topo IA-type catalytic
+581	V	0.0731	domain Topo IA-type catalytic
+582	L	0.0724	domain Topo IA-type catalytic
+583	G	0.0740	domain Topo IA-type catalytic
+584	H	0.0739	domain Topo IA-type catalytic
+585	T	0.0626	domain Topo IA-type catalytic
+586	L	0.0511	domain Topo IA-type catalytic
+587	D	0.0360	domain Topo IA-type catalytic
+588	V	0.0260	domain Topo IA-type catalytic
+589	F	0.0203	domain Topo IA-type catalytic
+590	K	0.0225	domain Topo IA-type catalytic
+591	R	0.0308	domain Topo IA-type catalytic
+592	K	0.0310	domain Topo IA-type catalytic
+593	F	0.0344	domain Topo IA-type catalytic
+594	H	0.0356	
+595	Y	0.0367	
+596	F	0.0373	
+597	V	0.0395	
+598	D	0.0436	
+599	S	0.0432	
+600	I	0.0390	
+601	A	0.0381	
+602	G	0.0387	
+603	M	0.0435	
+604	D	0.0506	
+605	E	0.0569	
+606	L	0.0745	
+607	M	0.0974	
+608	E	0.1209	
+609	V	0.1464	
+610	S	0.1617	
+611	F	0.1699	
+612	S	0.1693	
+613	P	0.1650	
+614	L	0.1460	
+615	A	0.1266	
+616	A	0.1169	
+617	T	0.1077	
+618	G	0.0999	
+619	K	0.0967	
+620	P	0.0945	
+621	L	0.0972	
+622	S	0.0972	
+623	R	0.1008	
+624	C	0.1037	
+625	G	0.1144	
+626	K	0.1289	
+627	C	0.1360	
+628	H	0.1425	
+629	R	0.1484	
+630	F	0.1453	
+631	M	0.1370	
+632	K	0.1207	
+633	Y	0.0994	
+634	I	0.0866	
+635	Q	0.0776	
+636	A	0.0737	
+637	K	0.0706	
+638	P	0.0717	
+639	S	0.0726	
+640	R	0.0772	
+641	L	0.0901	
+642	H	0.0981	
+643	C	0.1160	
+644	S	0.1337	
+645	H	0.1386	
+646	C	0.1375	
+647	D	0.1305	
+648	E	0.1242	
+649	T	0.1044	
+650	Y	0.0897	
+651	T	0.0740	
+652	L	0.0659	
+653	P	0.0684	
+654	Q	0.0770	
+655	N	0.0840	
+656	G	0.0952	
+657	T	0.1027	
+658	I	0.1109	
+659	K	0.1135	
+660	L	0.1120	
+661	Y	0.1078	
+662	K	0.1007	
+663	E	0.0928	
+664	L	0.0756	
+665	R	0.0550	
+666	C	0.0461	
+667	P	0.0354	
+668	L	0.0362	
+669	D	0.0332	
+670	D	0.0443	
+671	F	0.0581	
+672	E	0.0740	
+673	L	0.0885	
+674	V	0.1003	
+675	L	0.1069	
+676	W	0.1080	
+677	S	0.1024	
+678	S	0.0900	
+679	G	0.0730	
+680	S	0.0568	
+681	R	0.0426	
+682	G	0.0314	
+683	K	0.0258	
+684	S	0.0264	
+685	Y	0.0345	
+686	P	0.0493	
+687	L	0.0542	
+688	C	0.0676	
+689	P	0.0733	
+690	Y	0.0725	
+691	C	0.0698	
+692	Y	0.0643	
+693	N	0.0596	
+694	H	0.0521	
+695	P	0.0361	
+696	P	0.0272	
+697	F	0.0232	
+698	R	0.0247	
+699	D	0.0305	
+700	M	0.0389	
+701	K	0.0484	
+702	K	0.0571	
+703	G	0.0636	
+704	M	0.0666	
+705	G	0.0648	
+706	C	0.0612	
+707	N	0.0541	
+708	E	0.0464	
+709	C	0.0387	
+710	T	0.0332	
+711	H	0.0366	
+712	P	0.0378	
+713	S	0.0295	
+714	C	0.0251	
+715	Q	0.0206	
+716	H	0.0205	
+717	S	0.0205	
+718	L	0.0216	
+719	S	0.0227	
+720	M	0.0241	
+721	L	0.0248	
+722	G	0.0250	
+723	I	0.0266	
+724	G	0.0265	
+725	Q	0.0244	
+726	C	0.0260	
+727	V	0.0271	
+728	E	0.0334	
+729	C	0.0347	
+730	E	0.0391	
+731	S	0.0507	
+732	G	0.0480	
+733	V	0.0516	
+734	L	0.0594	
+735	V	0.0662	
+736	L	0.0733	
+737	D	0.0775	
+738	P	0.0771	
+739	T	0.0735	
+740	S	0.0697	
+741	G	0.0656	
+742	P	0.0580	
+743	K	0.0485	
+744	W	0.0389	
+745	K	0.0300	
+746	V	0.0277	
+747	A	0.0182	
+748	C	0.0161	
+749	N	0.0202	
+750	K	0.0122	
+751	C	0.0081	
+752	N	0.0034	
+753	V	0.0041	
+754	V	0.0052	
+755	A	0.0068	
+756	H	0.0089	
+757	C	0.0113	
+758	F	0.0145	
+759	E	0.0187	
+760	N	0.0216	
+761	A	0.0226	
+762	H	0.0219	
+763	R	0.0225	
+764	V	0.0222	
+765	R	0.0233	
+766	V	0.0261	
+767	S	0.0289	
+768	A	0.0338	
+769	D	0.0361	
+770	T	0.0373	
+771	C	0.0382	
+772	S	0.0371	
+773	V	0.0384	
+774	C	0.0351	
+775	E	0.0320	
+776	A	0.0331	
+777	A	0.0280	
+778	L	0.0271	
+779	L	0.0328	
+780	D	0.0519	
+781	V	0.0754	
+782	D	0.1070	
+783	F	0.1521	
+784	N	0.1994	
+785	K	0.2568	
+786	A	0.3032	
+787	K	0.3278	
+788	S	0.3340	
+789	P	0.3240	
+790	L	0.3022	
+791	P	0.2720	
+792	G	0.2413	
+793	D	0.2168	
+794	E	0.2027	
+795	T	0.1898	
+796	Q	0.1848	
+797	H	0.1855	
+798	M	0.1910	
+799	G	0.1872	
+800	C	0.1737	
+801	V	0.1594	
+802	F	0.1442	
+803	C	0.1353	
+804	D	0.1229	
+805	P	0.1079	
+806	V	0.0860	
+807	F	0.0729	
+808	Q	0.0762	
+809	E	0.0904	
+810	L	0.1177	
+811	V	0.1549	
+812	E	0.2049	
+813	L	0.2609	
+814	K	0.3146	
+815	H	0.3681	
+816	A	0.4140	
+817	A	0.4537	
+818	S	0.4840	
+819	C	0.5127	
+820	H	0.5464	
+821	P	0.5829	
+822	M	0.6154	
+823	H	0.6465	
+824	R	0.6674	
+825	G	0.6873	
+826	G	0.7133	
+827	P	0.7404	
+828	G	0.7643	
+829	R	0.7900	
+830	R	0.8218	
+831	Q	0.8516	
+832	G	0.8768	
+833	R	0.8982	
+834	G	0.9133	
+835	R	0.9211	
+836	G	0.9256	
+837	R	0.9249	
+838	A	0.9262	
+839	R	0.9353	
+840	R	0.9391	
+841	P	0.9377	
+842	P	0.9359	
+843	G	0.9348	
+844	K	0.9353	
+845	P	0.9315	
+846	N	0.9184	
+847	P	0.8966	
+848	R	0.8694	
+849	R	0.8377	
+850	P	0.8064	
+851	K	0.7788	
+852	D	0.7609	
+853	K	0.7519	
+854	M	0.7557	
+855	S	0.7689	
+856	A	0.7897	
+857	L	0.8154	
+858	A	0.8430	
+859	A	0.8687	
+860	Y	0.8888	
+861	F	0.8991	
+862	V	0.8954	

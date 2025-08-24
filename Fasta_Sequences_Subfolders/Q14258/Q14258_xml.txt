@@ -1,0 +1,2079 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2001-01-24" modified="2024-10-02" version="229" xmlns="http://uniprot.org/uniprot">
+  <accession>Q14258</accession>
+  <name>TRI25_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName>E3 ubiquitin/ISG15 ligase TRIM25</fullName>
+      <ecNumber evidence="8">6.3.2.n3</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="29">Estrogen-responsive finger protein</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>RING finger protein 147</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>RING-type E3 ubiquitin transferase</fullName>
+      <ecNumber evidence="11 17 18 27">2.3.2.27</ecNumber>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="30">RING-type E3 ubiquitin transferase TRIM25</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Tripartite motif-containing protein 25</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Ubiquitin/ISG15-conjugating enzyme TRIM25</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>Zinc finger protein 147</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">TRIM25</name>
+    <name evidence="29" type="synonym">EFP</name>
+    <name type="synonym">RNF147</name>
+    <name type="synonym">ZNF147</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1993" name="Proc. Natl. Acad. Sci. U.S.A." volume="90" first="11117" last="11121">
+      <title>Genomic binding-site cloning reveals an estrogen-responsive gene that encodes a RING finger protein.</title>
+      <authorList>
+        <person name="Inoue S."/>
+        <person name="Orimo A."/>
+        <person name="Hosoi T."/>
+        <person name="Kondo S."/>
+        <person name="Toyoshima H."/>
+        <person name="Kondo T."/>
+        <person name="Ikegami A."/>
+        <person name="Ouchi Y."/>
+        <person name="Orimo H."/>
+        <person name="Muramatsu M."/>
+      </authorList>
+      <dbReference type="PubMed" id="8248217"/>
+      <dbReference type="DOI" id="10.1073/pnas.90.23.11117"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <scope>VARIANT LEU-358</scope>
+    <source>
+      <tissue>Placenta</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2006" name="Nature" volume="440" first="1045" last="1049">
+      <title>DNA sequence of human chromosome 17 and analysis of rearrangement in the human lineage.</title>
+      <authorList>
+        <person name="Zody M.C."/>
+        <person name="Garber M."/>
+        <person name="Adams D.J."/>
+        <person name="Sharpe T."/>
+        <person name="Harrow J."/>
+        <person name="Lupski J.R."/>
+        <person name="Nicholson C."/>
+        <person name="Searle S.M."/>
+        <person name="Wilming L."/>
+        <person name="Young S.K."/>
+        <person name="Abouelleil A."/>
+        <person name="Allen N.R."/>
+        <person name="Bi W."/>
+        <person name="Bloom T."/>
+        <person name="Borowsky M.L."/>
+        <person name="Bugalter B.E."/>
+        <person name="Butler J."/>
+        <person name="Chang J.L."/>
+        <person name="Chen C.-K."/>
+        <person name="Cook A."/>
+        <person name="Corum B."/>
+        <person name="Cuomo C.A."/>
+        <person name="de Jong P.J."/>
+        <person name="DeCaprio D."/>
+        <person name="Dewar K."/>
+        <person name="FitzGerald M."/>
+        <person name="Gilbert J."/>
+        <person name="Gibson R."/>
+        <person name="Gnerre S."/>
+        <person name="Goldstein S."/>
+        <person name="Grafham D.V."/>
+        <person name="Grocock R."/>
+        <person name="Hafez N."/>
+        <person name="Hagopian D.S."/>
+        <person name="Hart E."/>
+        <person name="Norman C.H."/>
+        <person name="Humphray S."/>
+        <person name="Jaffe D.B."/>
+        <person name="Jones M."/>
+        <person name="Kamal M."/>
+        <person name="Khodiyar V.K."/>
+        <person name="LaButti K."/>
+        <person name="Laird G."/>
+        <person name="Lehoczky J."/>
+        <person name="Liu X."/>
+        <person name="Lokyitsang T."/>
+        <person name="Loveland J."/>
+        <person name="Lui A."/>
+        <person name="Macdonald P."/>
+        <person name="Major J.E."/>
+        <person name="Matthews L."/>
+        <person name="Mauceli E."/>
+        <person name="McCarroll S.A."/>
+        <person name="Mihalev A.H."/>
+        <person name="Mudge J."/>
+        <person name="Nguyen C."/>
+        <person name="Nicol R."/>
+        <person name="O'Leary S.B."/>
+        <person name="Osoegawa K."/>
+        <person name="Schwartz D.C."/>
+        <person name="Shaw-Smith C."/>
+        <person name="Stankiewicz P."/>
+        <person name="Steward C."/>
+        <person name="Swarbreck D."/>
+        <person name="Venkataraman V."/>
+        <person name="Whittaker C.A."/>
+        <person name="Yang X."/>
+        <person name="Zimmer A.R."/>
+        <person name="Bradley A."/>
+        <person name="Hubbard T."/>
+        <person name="Birren B.W."/>
+        <person name="Rogers J."/>
+        <person name="Lander E.S."/>
+        <person name="Nusbaum C."/>
+      </authorList>
+      <dbReference type="PubMed" id="16625196"/>
+      <dbReference type="DOI" id="10.1038/nature04689"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <scope>VARIANT LEU-358</scope>
+    <source>
+      <tissue>Lymph</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2004" name="Mol. Cell. Endocrinol." volume="218" first="147" last="153">
+      <title>Systemic distribution of estrogen-responsive finger protein (Efp) in human tissues.</title>
+      <authorList>
+        <person name="Shimada N."/>
+        <person name="Suzuki T."/>
+        <person name="Inoue S."/>
+        <person name="Kato K."/>
+        <person name="Imatani A."/>
+        <person name="Sekine H."/>
+        <person name="Ohara S."/>
+        <person name="Shimosegawa T."/>
+        <person name="Sasano H."/>
+      </authorList>
+      <dbReference type="PubMed" id="15130519"/>
+      <dbReference type="DOI" id="10.1016/j.mce.2003.12.008"/>
+    </citation>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2005" name="Nat. Biotechnol." volume="23" first="94" last="101">
+      <title>Immunoaffinity profiling of tyrosine phosphorylation in cancer cells.</title>
+      <authorList>
+        <person name="Rush J."/>
+        <person name="Moritz A."/>
+        <person name="Lee K.A."/>
+        <person name="Guo A."/>
+        <person name="Goss V.L."/>
+        <person name="Spek E.J."/>
+        <person name="Zhang H."/>
+        <person name="Zha X.-M."/>
+        <person name="Polakiewicz R.D."/>
+        <person name="Comb M.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="15592455"/>
+      <dbReference type="DOI" id="10.1038/nbt1046"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2006" name="Biochem. Biophys. Res. Commun." volume="351" first="540" last="546">
+      <title>A ubiquitin E3 ligase Efp is up-regulated by interferons and conjugated with ISG15.</title>
+      <authorList>
+        <person name="Nakasato N."/>
+        <person name="Ikeda K."/>
+        <person name="Urano T."/>
+        <person name="Horie-Inoue K."/>
+        <person name="Takeda S."/>
+        <person name="Inoue S."/>
+      </authorList>
+      <dbReference type="PubMed" id="17069755"/>
+      <dbReference type="DOI" id="10.1016/j.bbrc.2006.10.061"/>
+    </citation>
+    <scope>INDUCTION</scope>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2006" name="J. Biol. Chem." volume="281" first="3989" last="3994">
+      <title>The interferon-inducible ubiquitin-protein isopeptide ligase (E3) EFP also functions as an ISG15 E3 ligase.</title>
+      <authorList>
+        <person name="Zou W."/>
+        <person name="Zhang D.-E."/>
+      </authorList>
+      <dbReference type="PubMed" id="16352599"/>
+      <dbReference type="DOI" id="10.1074/jbc.m510787200"/>
+    </citation>
+    <scope>FUNCTION AS A ISG15 E3 LIGASE</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>INDUCTION</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2007" name="Biochem. Biophys. Res. Commun." volume="354" first="321" last="327">
+      <title>Negative regulation of ISG15 E3 ligase EFP through its autoISGylation.</title>
+      <authorList>
+        <person name="Zou W."/>
+        <person name="Wang J."/>
+        <person name="Zhang D.-E."/>
+      </authorList>
+      <dbReference type="PubMed" id="17222803"/>
+      <dbReference type="DOI" id="10.1016/j.bbrc.2006.12.210"/>
+    </citation>
+    <scope>ISGYLATION AT LYS-117</scope>
+    <scope>MUTAGENESIS OF LYS-21; LYS-65; LYS-112 AND LYS-117</scope>
+    <scope>AUTOISGYLATION</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2007" name="Nature" volume="446" first="916" last="920">
+      <title>TRIM25 RING-finger E3 ubiquitin ligase is essential for RIG-I-mediated antiviral activity.</title>
+      <authorList>
+        <person name="Gack M.U."/>
+        <person name="Shin Y.C."/>
+        <person name="Joo C.H."/>
+        <person name="Urano T."/>
+        <person name="Liang C."/>
+        <person name="Sun L."/>
+        <person name="Takeuchi O."/>
+        <person name="Akira S."/>
+        <person name="Chen Z."/>
+        <person name="Inoue S."/>
+        <person name="Jung J.U."/>
+      </authorList>
+      <dbReference type="PubMed" id="17392790"/>
+      <dbReference type="DOI" id="10.1038/nature05732"/>
+    </citation>
+    <scope>FUNCTION AS AN UBIQUITIN LIGASE</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>INTERACTION WITH RIGI</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2008" name="Proc. Natl. Acad. Sci. U.S.A." volume="105" first="10762" last="10767">
+      <title>A quantitative atlas of mitotic phosphorylation.</title>
+      <authorList>
+        <person name="Dephoure N."/>
+        <person name="Zhou C."/>
+        <person name="Villen J."/>
+        <person name="Beausoleil S.A."/>
+        <person name="Bakalarski C.E."/>
+        <person name="Elledge S.J."/>
+        <person name="Gygi S.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="18669648"/>
+      <dbReference type="DOI" id="10.1073/pnas.0805139105"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-100</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+    </source>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2009" name="Cell Host Microbe" volume="5" first="439" last="449">
+      <title>Influenza A virus NS1 targets the ubiquitin ligase TRIM25 to evade recognition by the host viral RNA sensor RIG-I.</title>
+      <authorList>
+        <person name="Gack M.U."/>
+        <person name="Albrecht R.A."/>
+        <person name="Urano T."/>
+        <person name="Inn K.-S."/>
+        <person name="Huang I.-C."/>
+        <person name="Carnero E."/>
+        <person name="Farzan M."/>
+        <person name="Inoue S."/>
+        <person name="Jung J.U."/>
+        <person name="Garcia-Sastre A."/>
+      </authorList>
+      <dbReference type="PubMed" id="19454348"/>
+      <dbReference type="DOI" id="10.1016/j.chom.2009.04.006"/>
+    </citation>
+    <scope>INTERACTION WITH INFLUENZA VIRUS PROTEIN NS1 (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2009" name="Science" volume="325" first="834" last="840">
+      <title>Lysine acetylation targets protein complexes and co-regulates major cellular functions.</title>
+      <authorList>
+        <person name="Choudhary C."/>
+        <person name="Kumar C."/>
+        <person name="Gnad F."/>
+        <person name="Nielsen M.L."/>
+        <person name="Rehman M."/>
+        <person name="Walther T.C."/>
+        <person name="Olsen J.V."/>
+        <person name="Mann M."/>
+      </authorList>
+      <dbReference type="PubMed" id="19608861"/>
+      <dbReference type="DOI" id="10.1126/science.1175371"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-273 AND LYS-567</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2010" name="Sci. Signal." volume="3" first="RA3" last="RA3">
+      <title>Quantitative phosphoproteomics reveals widespread full phosphorylation site occupancy during mitosis.</title>
+      <authorList>
+        <person name="Olsen J.V."/>
+        <person name="Vermeulen M."/>
+        <person name="Santamaria A."/>
+        <person name="Kumar C."/>
+        <person name="Miller M.L."/>
+        <person name="Jensen L.J."/>
+        <person name="Gnad F."/>
+        <person name="Cox J."/>
+        <person name="Jensen T.S."/>
+        <person name="Nigg E.A."/>
+        <person name="Brunak S."/>
+        <person name="Mann M."/>
+      </authorList>
+      <dbReference type="PubMed" id="20068231"/>
+      <dbReference type="DOI" id="10.1126/scisignal.2000475"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+    </source>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2011" name="Sci. Signal." volume="4" first="RS3" last="RS3">
+      <title>System-wide temporal characterization of the proteome and phosphoproteome of human embryonic stem cell differentiation.</title>
+      <authorList>
+        <person name="Rigbolt K.T."/>
+        <person name="Prokhorova T.A."/>
+        <person name="Akimov V."/>
+        <person name="Henningsen J."/>
+        <person name="Johansen P.T."/>
+        <person name="Kratchmarova I."/>
+        <person name="Kassem M."/>
+        <person name="Mann M."/>
+        <person name="Olsen J.V."/>
+        <person name="Blagoev B."/>
+      </authorList>
+      <dbReference type="PubMed" id="21406692"/>
+      <dbReference type="DOI" id="10.1126/scisignal.2001570"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2012" name="Biochem. J." volume="444" first="581" last="590">
+      <title>Oestrogen causes ATBF1 protein degradation through the oestrogen-responsive E3 ubiquitin ligase EFP.</title>
+      <authorList>
+        <person name="Dong X.Y."/>
+        <person name="Fu X."/>
+        <person name="Fan S."/>
+        <person name="Guo P."/>
+        <person name="Su D."/>
+        <person name="Dong J.T."/>
+      </authorList>
+      <dbReference type="PubMed" id="22452784"/>
+      <dbReference type="DOI" id="10.1042/bj20111890"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH ZFHX3</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="2012" name="Cell Host Microbe" volume="11" first="528" last="537">
+      <title>The mitochondrial targeting chaperone 14-3-3epsilon regulates a RIG-I translocon that mediates membrane association and innate antiviral immunity.</title>
+      <authorList>
+        <person name="Liu H.M."/>
+        <person name="Loo Y.M."/>
+        <person name="Horner S.M."/>
+        <person name="Zornetzer G.A."/>
+        <person name="Katze M.G."/>
+        <person name="Gale M. Jr."/>
+      </authorList>
+      <dbReference type="PubMed" id="22607805"/>
+      <dbReference type="DOI" id="10.1016/j.chom.2012.04.006"/>
+    </citation>
+    <scope>INTERACTION WITH YWHAE</scope>
+  </reference>
+  <reference key="17">
+    <citation type="journal article" date="2013" name="J. Proteome Res." volume="12" first="260" last="271">
+      <title>Toward a comprehensive characterization of a human cancer cell phosphoproteome.</title>
+      <authorList>
+        <person name="Zhou H."/>
+        <person name="Di Palma S."/>
+        <person name="Preisinger C."/>
+        <person name="Peng M."/>
+        <person name="Polat A.N."/>
+        <person name="Heck A.J."/>
+        <person name="Mohammed S."/>
+      </authorList>
+      <dbReference type="PubMed" id="23186163"/>
+      <dbReference type="DOI" id="10.1021/pr300630k"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT THR-91 AND SER-100</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+      <tissue>Erythroleukemia</tissue>
+    </source>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="2013" name="PLoS Pathog." volume="9" first="E1003533" last="E1003533">
+      <title>A distinct role of Riplet-mediated K63-Linked polyubiquitination of the RIG-I repressor domain in human antiviral innate immune responses.</title>
+      <authorList>
+        <person name="Oshiumi H."/>
+        <person name="Miyashita M."/>
+        <person name="Matsumoto M."/>
+        <person name="Seya T."/>
+      </authorList>
+      <dbReference type="PubMed" id="23950712"/>
+      <dbReference type="DOI" id="10.1371/journal.ppat.1003533"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH RIGI</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="19">
+    <citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+      <title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+      <authorList>
+        <person name="Bian Y."/>
+        <person name="Song C."/>
+        <person name="Cheng K."/>
+        <person name="Dong M."/>
+        <person name="Wang F."/>
+        <person name="Huang J."/>
+        <person name="Sun D."/>
+        <person name="Wang L."/>
+        <person name="Ye M."/>
+        <person name="Zou H."/>
+      </authorList>
+      <dbReference type="PubMed" id="24275569"/>
+      <dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-278</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Liver</tissue>
+    </source>
+  </reference>
+  <reference key="20">
+    <citation type="journal article" date="2014" name="J. Virol." volume="88" first="4572" last="4585">
+      <title>Hijacking of RIG-I signaling proteins into virus-induced cytoplasmic structures correlates with the inhibition of type I interferon responses.</title>
+      <authorList>
+        <person name="Santiago F.W."/>
+        <person name="Covaleda L.M."/>
+        <person name="Sanchez-Aparicio M.T."/>
+        <person name="Silvas J.A."/>
+        <person name="Diaz-Vizarreta A.C."/>
+        <person name="Patel J.R."/>
+        <person name="Popov V."/>
+        <person name="Yu X.J."/>
+        <person name="Garcia-Sastre A."/>
+        <person name="Aguilar P.V."/>
+      </authorList>
+      <dbReference type="PubMed" id="24478431"/>
+      <dbReference type="DOI" id="10.1128/jvi.03021-13"/>
+    </citation>
+    <scope>INTERACTION WITH SFTSV NSS (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="21">
+    <citation type="journal article" date="2017" name="J. Virol." volume="91">
+      <title>TRIM25 Is Required for the Antiviral Activity of Zinc Finger Antiviral Protein.</title>
+      <authorList>
+        <person name="Zheng X."/>
+        <person name="Wang X."/>
+        <person name="Tu F."/>
+        <person name="Wang Q."/>
+        <person name="Fan Z."/>
+        <person name="Gao G."/>
+      </authorList>
+      <dbReference type="PubMed" id="28202764"/>
+      <dbReference type="DOI" id="10.1128/jvi.00088-17"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>MUTAGENESIS OF CYS-50 AND CYS-53</scope>
+  </reference>
+  <reference key="22">
+    <citation type="journal article" date="2017" name="PLoS Pathog." volume="13" first="e1006145" last="e1006145">
+      <title>TRIM25 Enhances the Antiviral Action of Zinc-Finger Antiviral Protein (ZAP).</title>
+      <authorList>
+        <person name="Li M.M."/>
+        <person name="Lau Z."/>
+        <person name="Cheung P."/>
+        <person name="Aguilar E.G."/>
+        <person name="Schneider W.M."/>
+        <person name="Bozzacco L."/>
+        <person name="Molina H."/>
+        <person name="Buehler E."/>
+        <person name="Takaoka A."/>
+        <person name="Rice C.M."/>
+        <person name="Felsenfeld D.P."/>
+        <person name="MacDonald M.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="28060952"/>
+      <dbReference type="DOI" id="10.1371/journal.ppat.1006145"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+  </reference>
+  <reference key="23">
+    <citation type="journal article" date="2018" name="Immunity" volume="49" first="438" last="448">
+      <title>The zinc-finger protein ZCCHC3 binds RNA and facilitates viral RNA sensing and activation of the RIG-I-like receptors.</title>
+      <authorList>
+        <person name="Lian H."/>
+        <person name="Zang R."/>
+        <person name="Wei J."/>
+        <person name="Ye W."/>
+        <person name="Hu M.M."/>
+        <person name="Chen Y.D."/>
+        <person name="Zhang X.N."/>
+        <person name="Guo Y."/>
+        <person name="Lei C.Q."/>
+        <person name="Yang Q."/>
+        <person name="Luo W.W."/>
+        <person name="Li S."/>
+        <person name="Shu H.B."/>
+      </authorList>
+      <dbReference type="PubMed" id="30193849"/>
+      <dbReference type="DOI" id="10.1016/j.immuni.2018.08.014"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="24">
+    <citation type="journal article" date="2018" name="Viruses" volume="10">
+      <title>Human Respiratory Syncytial Virus NS 1 Targets TRIM25 to Suppress RIG-I Ubiquitination and Subsequent RIG-I-Mediated Antiviral Signaling.</title>
+      <authorList>
+        <person name="Ban J."/>
+        <person name="Lee N.R."/>
+        <person name="Lee N.J."/>
+        <person name="Lee J.K."/>
+        <person name="Quan F.S."/>
+        <person name="Inn K.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="30558248"/>
+      <dbReference type="DOI" id="10.3390/v10120716"/>
+    </citation>
+    <scope>INTERACTION WITH HRSV NON-STRUCTURAL PROTEIN 1 (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="25">
+    <citation type="journal article" date="2018" name="PLoS Pathog." volume="14" first="e1006852" last="e1006852">
+      <title>Herpesvirus deconjugases inhibit the IFN response by promoting TRIM25 autoubiquitination and functional inactivation of the RIG-I signalosome.</title>
+      <authorList>
+        <person name="Gupta S."/>
+        <person name="Ylae-Anttila P."/>
+        <person name="Callegari S."/>
+        <person name="Tsai M.H."/>
+        <person name="Delecluse H.J."/>
+        <person name="Masucci M.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="29357390"/>
+      <dbReference type="DOI" id="10.1371/journal.ppat.1006852"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>AUTOUBIQUITINATION</scope>
+    <scope>INTERACTION WITH YWHAZ AND EPSTEIN-BARR VIRUS PROTEIN BPLF1 (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="26">
+    <citation type="journal article" date="2019" name="PLoS Pathog." volume="15" first="e1008146" last="e1008146">
+      <title>14-3-3 scaffold proteins mediate the inactivation of trim25 and inhibition of the type I interferon response by herpesvirus deconjugases.</title>
+      <authorList>
+        <person name="Gupta S."/>
+        <person name="Ylae-Anttila P."/>
+        <person name="Sandalova T."/>
+        <person name="Sun R."/>
+        <person name="Achour A."/>
+        <person name="Masucci M.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="31710640"/>
+      <dbReference type="DOI" id="10.1371/journal.ppat.1008146"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>AUTOUBIQUITINATION</scope>
+    <scope>INTERACTION WITH YWHAZ AND EPSTEIN-BARR VIRUS PROTEIN BPLF1 (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="27">
+    <citation type="journal article" date="2019" name="Cell Host Microbe">
+      <title>NLRP12 Regulates Anti-viral RIG-I Activation via Interaction with TRIM25.</title>
+      <authorList>
+        <person name="Chen S.T."/>
+        <person name="Chen L."/>
+        <person name="Lin D.S."/>
+        <person name="Chen S.Y."/>
+        <person name="Tsao Y.P."/>
+        <person name="Guo H."/>
+        <person name="Li F.J."/>
+        <person name="Tseng W.T."/>
+        <person name="Tam J.W."/>
+        <person name="Chao C.W."/>
+        <person name="Brickey W.J."/>
+        <person name="Dzhagalov I."/>
+        <person name="Song M.J."/>
+        <person name="Kang H.R."/>
+        <person name="Jung J.U."/>
+        <person name="Ting J.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="30902577"/>
+      <dbReference type="DOI" id="10.1016/j.chom.2019.02.013"/>
+    </citation>
+    <scope>INTERACTION WITH NLRP12</scope>
+  </reference>
+  <reference key="28">
+    <citation type="journal article" date="2021" name="MBio" volume="12">
+      <title>The Small t Antigen of JC Virus Antagonizes RIG-I-Mediated Innate Immunity by Inhibiting TRIM25's RNA Binding Ability.</title>
+      <authorList>
+        <person name="Chiang C."/>
+        <person name="Dvorkin S."/>
+        <person name="Chiang J.J."/>
+        <person name="Potter R.B."/>
+        <person name="Gack M.U."/>
+      </authorList>
+      <dbReference type="PubMed" id="33849980"/>
+      <dbReference type="DOI" id="10.1128/mbio.00620-21"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH JC VIRUS SMALL T ANTIGEN (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference key="29">
+    <citation type="journal article" date="2021" name="Elife" volume="10">
+      <title>RTN3 inhibits RIG-I-mediated antiviral responses by impairing TRIM25-mediated K63-linked polyubiquitination.</title>
+      <authorList>
+        <person name="Yang Z."/>
+        <person name="Wang J."/>
+        <person name="He B."/>
+        <person name="Zhang X."/>
+        <person name="Li X."/>
+        <person name="Kuang E."/>
+      </authorList>
+      <dbReference type="PubMed" id="34313226"/>
+      <dbReference type="DOI" id="10.7554/elife.68958"/>
+    </citation>
+    <scope>INTERACTION WITH RTN3</scope>
+  </reference>
+  <reference key="30">
+    <citation type="journal article" date="2022" name="PLoS Pathog." volume="18" first="e1010743" last="e1010743">
+      <title>Elucidation of TRIM25 ubiquitination targets involved in diverse cellular and antiviral processes.</title>
+      <authorList>
+        <person name="Yang E."/>
+        <person name="Huang S."/>
+        <person name="Jami-Alahmadi Y."/>
+        <person name="McInerney G.M."/>
+        <person name="Wohlschlegel J.A."/>
+        <person name="Li M.M.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="36067236"/>
+      <dbReference type="DOI" id="10.1371/journal.ppat.1010743"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>MUTAGENESIS OF ARG-54</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+  </reference>
+  <reference key="31">
+    <citation type="journal article" date="2022" name="Front. Immunol." volume="13" first="970750" last="970750">
+      <title>Human metapneumovirus M2-2 protein inhibits RIG-I signaling by preventing TRIM25-mediated RIG-I ubiquitination.</title>
+      <authorList>
+        <person name="Tanaka Y."/>
+        <person name="Morita N."/>
+        <person name="Kitagawa Y."/>
+        <person name="Gotoh B."/>
+        <person name="Komatsu T."/>
+      </authorList>
+      <dbReference type="PubMed" id="36045682"/>
+      <dbReference type="DOI" id="10.3389/fimmu.2022.970750"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH HUMAN METAPNEUMOVIRUS M2-2 (MICROBIAL INFECTION)</scope>
+  </reference>
+  <reference evidence="31" key="32">
+    <citation type="journal article" date="2016" name="Cell Rep." volume="16" first="1315" last="1325">
+      <title>Mechanism of TRIM25 Catalytic Activation in the Antiviral RIG-I Pathway.</title>
+      <authorList>
+        <person name="Sanchez J.G."/>
+        <person name="Chiang J.J."/>
+        <person name="Sparrer K.M.J."/>
+        <person name="Alam S.L."/>
+        <person name="Chi M."/>
+        <person name="Roganowicz M.D."/>
+        <person name="Sankaran B."/>
+        <person name="Gack M.U."/>
+        <person name="Pornillos O."/>
+      </authorList>
+      <dbReference type="PubMed" id="27425606"/>
+      <dbReference type="DOI" id="10.1016/j.celrep.2016.06.070"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.40 ANGSTROMS) OF 1-83 IN COMPLEX WITH ZN(2+)</scope>
+    <scope>ACTIVITY REGULATION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>MUTAGENESIS OF LYS-65 AND ASN-71</scope>
+  </reference>
+  <reference evidence="32" key="33">
+    <citation type="journal article" date="2016" name="EMBO J." volume="35" first="1204" last="1218">
+      <title>Functional role of TRIM E3 ligase oligomerization and regulation of catalytic activity.</title>
+      <authorList>
+        <person name="Koliopoulos M.G."/>
+        <person name="Esposito D."/>
+        <person name="Christodoulou E."/>
+        <person name="Taylor I.A."/>
+        <person name="Rittinger K."/>
+      </authorList>
+      <dbReference type="PubMed" id="27154206"/>
+      <dbReference type="DOI" id="10.15252/embj.201593741"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.34 ANGSTROMS) OF 1-82 IN COMPLEX WITH ZN(2+)</scope>
+    <scope>SUBUNIT</scope>
+  </reference>
+  <reference key="34">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>VARIANT [LARGE SCALE ANALYSIS] LEU-358</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1 8 9 11 13 15 19 20 23 24 26 27">Functions as a ubiquitin E3 ligase and as an ISG15 E3 ligase (PubMed:16352599). Involved in innate immune defense against viruses by mediating ubiquitination of RIGI and IFIH1 (PubMed:17392790, PubMed:29357390, PubMed:30193849, PubMed:31710640, PubMed:33849980, PubMed:36045682). Mediates 'Lys-63'-linked polyubiquitination of the RIGI N-terminal CARD-like region and may play a role in signal transduction that leads to the production of interferons in response to viral infection (PubMed:17392790, PubMed:23950712). Mediates 'Lys-63'-linked polyubiquitination of IFIH1 (PubMed:30193849). Promotes ISGylation of 14-3-3 sigma (SFN), an adapter protein implicated in the regulation of a large spectrum signaling pathway (PubMed:16352599, PubMed:17069755). Mediates estrogen action in various target organs (PubMed:22452784). Mediates the ubiquitination and subsequent proteasomal degradation of ZFHX3 (PubMed:22452784). Plays a role in promoting the restart of stalled replication forks via interaction with the KHDC3L-OOEP scaffold and subsequent ubiquitination of BLM, resulting in the recruitment and retainment of BLM at DNA replication forks (By similarity). Plays an essential role in the antiviral activity of ZAP/ZC3HAV1; an antiviral protein which inhibits the replication of certain viruses. Mechanistically, mediates 'Lys-63'-linked polyubiquitination of ZAP/ZC3HAV1 that is required for its optimal binding to target mRNA (PubMed:28060952, PubMed:28202764). Mediates also the ubiquitination of various substrates implicated in stress granule formation, nonsense-mediated mRNA decay, nucleoside synthesis and mRNA translation and stability (PubMed:36067236).</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="11 17 18 27">
+      <text>S-ubiquitinyl-[E2 ubiquitin-conjugating enzyme]-L-cysteine + [acceptor protein]-L-lysine = [E2 ubiquitin-conjugating enzyme]-L-cysteine + N(6)-ubiquitinyl-[acceptor protein]-L-lysine.</text>
+      <dbReference type="EC" id="2.3.2.27"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="8">
+      <text>ATP + [ISG15] + [protein]-lysine = AMP + diphosphate + [protein]-N-ISGyllysine.</text>
+      <dbReference type="EC" id="6.3.2.n3"/>
+    </reaction>
+  </comment>
+  <comment type="activity regulation">
+    <text evidence="17">RING domain dimerization is required for catalysis, TRIM25-mediated RIG-I ubiquitination, interferon induction, and antiviral activity.</text>
+  </comment>
+  <comment type="pathway">
+    <text>Protein modification; protein ubiquitination.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="1 11 13 14 15 17 19 22 23 25">Forms homodimers (PubMed:27154206, PubMed:27425606, PubMed:29357390, PubMed:31710640). Interacts (via SPRY domain) with RIGI (via CARD domain). Interacts with ZFHX3. Interacts with NLRP12; this interaction reduces the E3 ubiquitin ligase TRIM25-mediated 'Lys-63'-linked RIGI activation. Interacts with the KHDC3L/FILIA-OOEP/FLOPED scaffold complex and BLM at DNA replication forks (By similarity). Interacts with RTN3; this interaction prevents RIGI ubiquitination (PubMed:34313226). Interacts with YWHAE (PubMed:22607805).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="12">(Microbial infection) Interacts (via coiled coil) with influenza A virus NS1 protein; this interaction specifically inhibits TRIM25 multimerization and TRIM25-mediated RIGI CARD ubiquitination, thereby suppressing RIGI signal transduction.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="21">(Microbial infection) Interacts (via SPRY domain) with human respiratory syncytial virus (HRSV) non-structural protein 1; this interaction suppresses RIGI ubiquitination and results in decreased interaction between RIGI and MAVS.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="24">(Microbial infection) Interacts with JC virus small t antigen; this interaction suppresses RIGI ubiquitination thereby suppressing RIGI signal transduction.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="16">(Microbial infection) Interacts with Severe fever with thrombocytopenia virus (SFTSV) NSs; this interaction this interaction sequesters TRIM25 in NSs-induced cytoplasmic inclusion bodies thereby inhibiting the IFN responses.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="19 23">(Microbial infection) Interacts with Epstein-Barr virus protein BPLF1 and YWHAZ; leading to inhibition of the type-I IFN response.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="26">(Microbial infection) Interacts with human metapneumovirus protein M2-2; this interaction suppresses RIGI ubiquitination thereby suppressing RIGI signal transduction.</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2341129">
+      <id>Q14258</id>
+    </interactant>
+    <interactant intactId="EBI-1047359">
+      <id>Q13283</id>
+      <label>G3BP1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2341129">
+      <id>Q14258</id>
+    </interactant>
+    <interactant intactId="EBI-995350">
+      <id>O95786</id>
+      <label>RIGI</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>9</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2341129">
+      <id>Q14258</id>
+    </interactant>
+    <interactant intactId="EBI-25592177">
+      <id>K9N4V7</id>
+      <label>N</label>
+    </interactant>
+    <organismsDiffer>true</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2341129">
+      <id>Q14258</id>
+    </interactant>
+    <interactant intactId="EBI-25475856">
+      <id>P0DTC9</id>
+      <label>N</label>
+    </interactant>
+    <organismsDiffer>true</organismsDiffer>
+    <experiments>13</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2341129">
+      <id>Q14258</id>
+    </interactant>
+    <interactant intactId="EBI-2547442">
+      <id>P03496</id>
+      <label>NS</label>
+    </interactant>
+    <organismsDiffer>true</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2341129">
+      <id>Q14258</id>
+    </interactant>
+    <interactant intactId="EBI-9687469">
+      <id>A0A0B5AC19</id>
+      <label>NSS</label>
+    </interactant>
+    <organismsDiffer>true</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="11">Cytoplasm</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="15">Cytoplasm</location>
+      <location evidence="15">Stress granule</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="1">Nucleus</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="6 13">Expressed in breast tumors (at protein level). Ubiquitous.</text>
+  </comment>
+  <comment type="induction">
+    <text evidence="8 9">By interferons.</text>
+  </comment>
+  <comment type="domain">
+    <text>The RING-type zinc finger is important for ISG15 E3 ligase activity and autoISGylation. AutoISGylation negatively regulates ISG15 E3 ligase activity.</text>
+  </comment>
+  <comment type="domain">
+    <text>The C-terminal B30.2/SPRY domain interacts with the first N-terminal CARD domain of RIGI.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="10">Auto-ISGylated.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="19 23">(Microbial infection) Autoubiquitinated; promoted by Epstein-Barr virus protein BPLF1.</text>
+  </comment>
+  <comment type="online information" name="Wikipedia">
+    <link uri="https://en.wikipedia.org/wiki/TRIM25"/>
+    <text>TRIM25 entry</text>
+  </comment>
+  <dbReference type="EC" id="6.3.2.n3" evidence="8"/>
+  <dbReference type="EC" id="2.3.2.27" evidence="11 17 18 27"/>
+  <dbReference type="EMBL" id="D21205">
+    <property type="protein sequence ID" value="BAA04747.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AC015912">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC016924">
+    <property type="protein sequence ID" value="AAH16924.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC042541">
+    <property type="protein sequence ID" value="AAH42541.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS11591.1"/>
+  <dbReference type="PIR" id="A49656">
+    <property type="entry name" value="A49656"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_005073.2">
+    <property type="nucleotide sequence ID" value="NM_005082.4"/>
+  </dbReference>
+  <dbReference type="PDB" id="4CFG">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.80 A"/>
+    <property type="chains" value="A/B=1-630"/>
+  </dbReference>
+  <dbReference type="PDB" id="4LTB">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.59 A"/>
+    <property type="chains" value="A/B=189-379"/>
+  </dbReference>
+  <dbReference type="PDB" id="5EYA">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.40 A"/>
+    <property type="chains" value="F/G=1-83"/>
+  </dbReference>
+  <dbReference type="PDB" id="5FER">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.34 A"/>
+    <property type="chains" value="A/D=1-82"/>
+  </dbReference>
+  <dbReference type="PDB" id="5NT1">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.82 A"/>
+    <property type="chains" value="A/E/I=190-379"/>
+  </dbReference>
+  <dbReference type="PDB" id="5NT2">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="4.26 A"/>
+    <property type="chains" value="A/I/N/V=190-379"/>
+  </dbReference>
+  <dbReference type="PDB" id="6FLM">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.01 A"/>
+    <property type="chains" value="A/B/C=435-630"/>
+  </dbReference>
+  <dbReference type="PDB" id="6FLN">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.60 A"/>
+    <property type="chains" value="A/B/E=189-630"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="4CFG"/>
+  <dbReference type="PDBsum" id="4LTB"/>
+  <dbReference type="PDBsum" id="5EYA"/>
+  <dbReference type="PDBsum" id="5FER"/>
+  <dbReference type="PDBsum" id="5NT1"/>
+  <dbReference type="PDBsum" id="5NT2"/>
+  <dbReference type="PDBsum" id="6FLM"/>
+  <dbReference type="PDBsum" id="6FLN"/>
+  <dbReference type="AlphaFoldDB" id="Q14258"/>
+  <dbReference type="BMRB" id="Q14258"/>
+  <dbReference type="SASBDB" id="Q14258"/>
+  <dbReference type="SMR" id="Q14258"/>
+  <dbReference type="BioGRID" id="113500">
+    <property type="interactions" value="2521"/>
+  </dbReference>
+  <dbReference type="CORUM" id="Q14258"/>
+  <dbReference type="IntAct" id="Q14258">
+    <property type="interactions" value="76"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q14258"/>
+  <dbReference type="STRING" id="9606.ENSP00000323889"/>
+  <dbReference type="GlyGen" id="Q14258">
+    <property type="glycosylation" value="1 site, 1 O-linked glycan (1 site)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="Q14258"/>
+  <dbReference type="PhosphoSitePlus" id="Q14258"/>
+  <dbReference type="SwissPalm" id="Q14258"/>
+  <dbReference type="BioMuta" id="TRIM25"/>
+  <dbReference type="DMDM" id="313104033"/>
+  <dbReference type="jPOST" id="Q14258"/>
+  <dbReference type="MassIVE" id="Q14258"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000323889"/>
+  <dbReference type="PeptideAtlas" id="Q14258"/>
+  <dbReference type="ProteomicsDB" id="59953"/>
+  <dbReference type="Pumba" id="Q14258"/>
+  <dbReference type="Antibodypedia" id="1778">
+    <property type="antibodies" value="607 antibodies from 39 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="7706"/>
+  <dbReference type="Ensembl" id="ENST00000316881.9">
+    <property type="protein sequence ID" value="ENSP00000323889.4"/>
+    <property type="gene ID" value="ENSG00000121060.19"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000537230.3">
+    <property type="protein sequence ID" value="ENSP00000445961.1"/>
+    <property type="gene ID" value="ENSG00000121060.19"/>
+  </dbReference>
+  <dbReference type="GeneID" id="7706"/>
+  <dbReference type="KEGG" id="hsa:7706"/>
+  <dbReference type="MANE-Select" id="ENST00000316881.9">
+    <property type="protein sequence ID" value="ENSP00000323889.4"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_005082.5"/>
+    <property type="RefSeq protein sequence ID" value="NP_005073.2"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc002iut.4">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:12932"/>
+  <dbReference type="CTD" id="7706"/>
+  <dbReference type="DisGeNET" id="7706"/>
+  <dbReference type="GeneCards" id="TRIM25"/>
+  <dbReference type="HGNC" id="HGNC:12932">
+    <property type="gene designation" value="TRIM25"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000121060">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MIM" id="600453">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q14258"/>
+  <dbReference type="OpenTargets" id="ENSG00000121060"/>
+  <dbReference type="PharmGKB" id="PA37519"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000121060"/>
+  <dbReference type="eggNOG" id="KOG2177">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00940000160741"/>
+  <dbReference type="HOGENOM" id="CLU_013137_0_2_1"/>
+  <dbReference type="InParanoid" id="Q14258"/>
+  <dbReference type="OMA" id="KRGVHYW"/>
+  <dbReference type="OrthoDB" id="5359093at2759"/>
+  <dbReference type="PhylomeDB" id="Q14258"/>
+  <dbReference type="TreeFam" id="TF351086"/>
+  <dbReference type="BRENDA" id="2.3.2.27">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="Q14258"/>
+  <dbReference type="Reactome" id="R-HSA-1169408">
+    <property type="pathway name" value="ISG15 antiviral mechanism"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-168928">
+    <property type="pathway name" value="DDX58/IFIH1-mediated induction of interferon-alpha/beta"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-5656169">
+    <property type="pathway name" value="Termination of translesion DNA synthesis"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-5689896">
+    <property type="pathway name" value="Ovarian tumor domain proteases"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-877300">
+    <property type="pathway name" value="Interferon gamma signaling"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-918233">
+    <property type="pathway name" value="TRAF3-dependent IRF activation pathway"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-933541">
+    <property type="pathway name" value="TRAF6 mediated IRF7 activation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-933542">
+    <property type="pathway name" value="TRAF6 mediated NF-kB activation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-933543">
+    <property type="pathway name" value="NF-kB activation through FADD/RIP-1 pathway mediated by caspase-8 and -10"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-936440">
+    <property type="pathway name" value="Negative regulators of DDX58/IFIH1 signaling"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9692916">
+    <property type="pathway name" value="SARS-CoV-1 activates/modulates innate immune responses"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9705671">
+    <property type="pathway name" value="SARS-CoV-2 activates/modulates innate and adaptive immune responses"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9833109">
+    <property type="pathway name" value="Evasion by RSV of host interferon responses"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9833110">
+    <property type="pathway name" value="RSV-host interactions"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9833482">
+    <property type="pathway name" value="PKR-mediated signaling"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="Q14258"/>
+  <dbReference type="SIGNOR" id="Q14258"/>
+  <dbReference type="UniPathway" id="UPA00143"/>
+  <dbReference type="BioGRID-ORCS" id="7706">
+    <property type="hits" value="17 hits in 1213 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="TRIM25">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q14258"/>
+  <dbReference type="GeneWiki" id="TRIM25"/>
+  <dbReference type="GenomeRNAi" id="7706"/>
+  <dbReference type="Pharos" id="Q14258">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q14258"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 17"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q14258">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000121060">
+    <property type="expression patterns" value="Expressed in ileal mucosa and 183 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q14258">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProt"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010494">
+    <property type="term" value="C:cytoplasmic stress granule"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005829">
+    <property type="term" value="C:cytosol"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016604">
+    <property type="term" value="C:nuclear body"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045296">
+    <property type="term" value="F:cadherin binding"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016874">
+    <property type="term" value="F:ligase activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0039552">
+    <property type="term" value="F:RIG-I binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003723">
+    <property type="term" value="F:RNA binding"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003713">
+    <property type="term" value="F:transcription coactivator activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ARUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0061630">
+    <property type="term" value="F:ubiquitin protein ligase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProt"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004842">
+    <property type="term" value="F:ubiquitin-protein transferase activity"/>
+    <property type="evidence" value="ECO:0000269"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140374">
+    <property type="term" value="P:antiviral innate immune response"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProt"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1990830">
+    <property type="term" value="P:cellular response to leukemia inhibitory factor"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0002753">
+    <property type="term" value="P:cytoplasmic pattern recognition receptor signaling pathway"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProt"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036503">
+    <property type="term" value="P:ERAD pathway"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045087">
+    <property type="term" value="P:innate immune response"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046597">
+    <property type="term" value="P:negative regulation of viral entry into host cell"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043123">
+    <property type="term" value="P:positive regulation of canonical NF-kappaB signal transduction"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051091">
+    <property type="term" value="P:positive regulation of DNA-binding transcription factor activity"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051092">
+    <property type="term" value="P:positive regulation of NF-kappaB transcription factor activity"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070936">
+    <property type="term" value="P:protein K48-linked ubiquitination"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProt"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006513">
+    <property type="term" value="P:protein monoubiquitination"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0032880">
+    <property type="term" value="P:regulation of protein localization"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046596">
+    <property type="term" value="P:regulation of viral entry into host cell"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043627">
+    <property type="term" value="P:response to estrogen"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006979">
+    <property type="term" value="P:response to oxidative stress"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProt"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0033280">
+    <property type="term" value="P:response to vitamin D"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0044790">
+    <property type="term" value="P:suppression of viral release by host"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006511">
+    <property type="term" value="P:ubiquitin-dependent protein catabolic process"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0019076">
+    <property type="term" value="P:viral release from host cell"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd19842">
+    <property type="entry name" value="Bbox1_TRIM25-like_C-IV"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd19776">
+    <property type="entry name" value="Bbox2_TRIM25_C-IV"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd16597">
+    <property type="entry name" value="RING-HC_TRIM25_C-IV"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd13736">
+    <property type="entry name" value="SPRY_PRY_TRIM25"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.60.120.920">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="4.10.830.40">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.160.60">
+    <property type="entry name" value="Classic Zinc Finger"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.40.10">
+    <property type="entry name" value="Zinc/RING finger domain, C3HC4 (zinc finger)"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001870">
+    <property type="entry name" value="B30.2/SPRY"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR043136">
+    <property type="entry name" value="B30.2/SPRY_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR003879">
+    <property type="entry name" value="Butyrophylin_SPRY"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR013320">
+    <property type="entry name" value="ConA-like_dom_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR051051">
+    <property type="entry name" value="E3_ubiq-ligase_TRIM/RNF"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR006574">
+    <property type="entry name" value="PRY"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR003877">
+    <property type="entry name" value="SPRY_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR042753">
+    <property type="entry name" value="TRIM25_SPRY_PRY"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR027370">
+    <property type="entry name" value="Znf-RING_euk"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001841">
+    <property type="entry name" value="Znf_RING"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR013083">
+    <property type="entry name" value="Znf_RING/FYVE/PHD"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR017907">
+    <property type="entry name" value="Znf_RING_CS"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR25465">
+    <property type="entry name" value="B-BOX DOMAIN CONTAINING"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR25465:SF40">
+    <property type="entry name" value="E3 UBIQUITIN_ISG15 LIGASE TRIM25"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF13765">
+    <property type="entry name" value="PRY"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00622">
+    <property type="entry name" value="SPRY"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF13445">
+    <property type="entry name" value="zf-RING_UBOX"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PRINTS" id="PR01407">
+    <property type="entry name" value="BUTYPHLNCDUF"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00589">
+    <property type="entry name" value="PRY"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00184">
+    <property type="entry name" value="RING"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00449">
+    <property type="entry name" value="SPRY"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF57845">
+    <property type="entry name" value="B-box zinc-binding domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF49899">
+    <property type="entry name" value="Concanavalin A-like lectins/glucanases"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF57850">
+    <property type="entry name" value="RING/U-box"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50188">
+    <property type="entry name" value="B302_SPRY"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00518">
+    <property type="entry name" value="ZF_RING_1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50089">
+    <property type="entry name" value="ZF_RING_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0051">Antiviral defense</keyword>
+  <keyword id="KW-0175">Coiled coil</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0945">Host-virus interaction</keyword>
+  <keyword id="KW-0391">Immunity</keyword>
+  <keyword id="KW-0399">Innate immunity</keyword>
+  <keyword id="KW-1017">Isopeptide bond</keyword>
+  <keyword id="KW-0436">Ligase</keyword>
+  <keyword id="KW-0479">Metal-binding</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0808">Transferase</keyword>
+  <keyword id="KW-0832">Ubl conjugation</keyword>
+  <keyword id="KW-0833">Ubl conjugation pathway</keyword>
+  <keyword id="KW-0862">Zinc</keyword>
+  <keyword id="KW-0863">Zinc-finger</keyword>
+  <feature type="chain" id="PRO_0000056233" description="E3 ubiquitin/ISG15 ligase TRIM25">
+    <location>
+      <begin position="1"/>
+      <end position="630"/>
+    </location>
+  </feature>
+  <feature type="domain" description="B30.2/SPRY" evidence="4">
+    <location>
+      <begin position="439"/>
+      <end position="630"/>
+    </location>
+  </feature>
+  <feature type="zinc finger region" description="RING-type" evidence="3">
+    <location>
+      <begin position="13"/>
+      <end position="54"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Interaction with influenza A virus NS1">
+    <location>
+      <begin position="180"/>
+      <end position="450"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="5">
+    <location>
+      <begin position="355"/>
+      <end position="403"/>
+    </location>
+  </feature>
+  <feature type="coiled-coil region" evidence="2">
+    <location>
+      <begin position="217"/>
+      <end position="307"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="5">
+    <location>
+      <begin position="368"/>
+      <end position="393"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="31 32">
+    <location>
+      <position position="13"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="31 32">
+    <location>
+      <position position="16"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="31 32">
+    <location>
+      <position position="28"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="31 32">
+    <location>
+      <position position="30"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="31 32">
+    <location>
+      <position position="33"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="31 32">
+    <location>
+      <position position="36"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>1</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="31 32">
+    <location>
+      <position position="50"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="31 32">
+    <location>
+      <position position="53"/>
+    </location>
+    <ligand>
+      <name>Zn(2+)</name>
+      <dbReference type="ChEBI" id="CHEBI:29105"/>
+      <label>2</label>
+    </ligand>
+  </feature>
+  <feature type="modified residue" description="Phosphothreonine" evidence="36">
+    <location>
+      <position position="91"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="33 36">
+    <location>
+      <position position="100"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="34">
+    <location>
+      <position position="273"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphotyrosine" evidence="37">
+    <location>
+      <position position="278"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="34">
+    <location>
+      <position position="567"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ISG15)" evidence="10">
+    <location>
+      <position position="117"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_024614" description="In dbSNP:rs7212260.">
+    <original>V</original>
+    <variation>G</variation>
+    <location>
+      <position position="89"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_024615" description="In dbSNP:rs205498." evidence="7 28 35">
+    <original>P</original>
+    <variation>L</variation>
+    <location>
+      <position position="358"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on ISGylation." evidence="10">
+    <original>K</original>
+    <variation>R</variation>
+    <location>
+      <position position="21"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Almost complete loss of ZAP/ZC3HAV1 ubiquitination; when associated with S-53." evidence="18">
+    <original>C</original>
+    <variation>S</variation>
+    <location>
+      <position position="50"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Almost complete loss of ZAP/ZC3HAV1 ubiquitination; when associated with S-50." evidence="18">
+    <original>C</original>
+    <variation>S</variation>
+    <location>
+      <position position="53"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Complete loss of viral inhibition independently of the host interferon response." evidence="27">
+    <original>R</original>
+    <variation>P</variation>
+    <location>
+      <position position="54"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Almost complete loss of ubiquitination activity." evidence="17">
+    <original>K</original>
+    <variation>A</variation>
+    <location>
+      <position position="65"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on ISGylation." evidence="10">
+    <original>K</original>
+    <variation>R</variation>
+    <location>
+      <position position="65"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Almost complete loss of ubiquitination activity." evidence="17">
+    <original>N</original>
+    <variation>D</variation>
+    <location>
+      <position position="71"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on ISGylation." evidence="10">
+    <original>K</original>
+    <variation>R</variation>
+    <location>
+      <position position="112"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No ISGylation." evidence="10">
+    <original>K</original>
+    <variation>R</variation>
+    <location>
+      <position position="117"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="39">
+    <location>
+      <begin position="2"/>
+      <end position="5"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="40">
+    <location>
+      <begin position="7"/>
+      <end position="10"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="40">
+    <location>
+      <begin position="14"/>
+      <end position="16"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="40">
+    <location>
+      <begin position="17"/>
+      <end position="19"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="40">
+    <location>
+      <begin position="21"/>
+      <end position="25"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="40">
+    <location>
+      <begin position="31"/>
+      <end position="33"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="40">
+    <location>
+      <begin position="34"/>
+      <end position="43"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="40">
+    <location>
+      <begin position="46"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="40">
+    <location>
+      <begin position="51"/>
+      <end position="53"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="40">
+    <location>
+      <begin position="56"/>
+      <end position="59"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="40">
+    <location>
+      <begin position="67"/>
+      <end position="78"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="38">
+    <location>
+      <begin position="191"/>
+      <end position="300"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="38">
+    <location>
+      <begin position="307"/>
+      <end position="316"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="38">
+    <location>
+      <begin position="331"/>
+      <end position="358"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="41">
+    <location>
+      <begin position="435"/>
+      <end position="445"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="41">
+    <location>
+      <begin position="449"/>
+      <end position="453"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="41">
+    <location>
+      <begin position="463"/>
+      <end position="465"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="470"/>
+      <end position="473"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="41">
+    <location>
+      <begin position="474"/>
+      <end position="477"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="478"/>
+      <end position="481"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="496"/>
+      <end position="504"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="507"/>
+      <end position="520"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="522"/>
+      <end position="530"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="41">
+    <location>
+      <begin position="538"/>
+      <end position="540"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="548"/>
+      <end position="554"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="557"/>
+      <end position="562"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="565"/>
+      <end position="568"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="576"/>
+      <end position="582"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="41">
+    <location>
+      <begin position="583"/>
+      <end position="586"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="587"/>
+      <end position="604"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="611"/>
+      <end position="617"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="41">
+    <location>
+      <begin position="623"/>
+      <end position="626"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q61510"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="2"/>
+  <evidence type="ECO:0000255" key="3">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00175"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="4">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00548"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="5">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="15130519"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="15489334"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="16352599"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="17069755"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="17222803"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="17392790"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="19454348"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="22452784"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="14">
+    <source>
+      <dbReference type="PubMed" id="22607805"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="15">
+    <source>
+      <dbReference type="PubMed" id="23950712"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="16">
+    <source>
+      <dbReference type="PubMed" id="24478431"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="17">
+    <source>
+      <dbReference type="PubMed" id="27425606"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="18">
+    <source>
+      <dbReference type="PubMed" id="28202764"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="19">
+    <source>
+      <dbReference type="PubMed" id="29357390"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="20">
+    <source>
+      <dbReference type="PubMed" id="30193849"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="21">
+    <source>
+      <dbReference type="PubMed" id="30558248"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="22">
+    <source>
+      <dbReference type="PubMed" id="30902577"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="23">
+    <source>
+      <dbReference type="PubMed" id="31710640"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="24">
+    <source>
+      <dbReference type="PubMed" id="33849980"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="25">
+    <source>
+      <dbReference type="PubMed" id="34313226"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="26">
+    <source>
+      <dbReference type="PubMed" id="36045682"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="27">
+    <source>
+      <dbReference type="PubMed" id="36067236"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="28">
+    <source>
+      <dbReference type="PubMed" id="8248217"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="29">
+    <source>
+      <dbReference type="PubMed" id="8248217"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="30"/>
+  <evidence type="ECO:0007744" key="31">
+    <source>
+      <dbReference type="PDB" id="5EYA"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="32">
+    <source>
+      <dbReference type="PDB" id="5FER"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="33">
+    <source>
+      <dbReference type="PubMed" id="18669648"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="34">
+    <source>
+      <dbReference type="PubMed" id="19608861"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="35">
+    <source>
+      <dbReference type="PubMed" id="21269460"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="36">
+    <source>
+      <dbReference type="PubMed" id="23186163"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="37">
+    <source>
+      <dbReference type="PubMed" id="24275569"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="38">
+    <source>
+      <dbReference type="PDB" id="4LTB"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="39">
+    <source>
+      <dbReference type="PDB" id="5EYA"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="40">
+    <source>
+      <dbReference type="PDB" id="5FER"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="41">
+    <source>
+      <dbReference type="PDB" id="6FLM"/>
+    </source>
+  </evidence>
+  <sequence length="630" mass="70973" checksum="EB0AB353F0AD4C80" modified="2010-11-30" version="2">MAELCPLAEELSCSICLEPFKEPVTTPCGHNFCGSCLNETWAVQGSPYLCPQCRAVYQARPQLHKNTVLCNVVEQFLQADLAREPPADVWTPPARASAPSPNAQVACDHCLKEAAVKTCLVCMASFCQEHLQPHFDSPAFQDHPLQPPVRDLLRRKCSQHNRLREFFCPEHSECICHICLVEHKTCSPASLSQASADLEATLRHKLTVMYSQINGASRALDDVRNRQQDVRMTANRKVEQLQQEYTEMKALLDASETTSTRKIKEEEKRVNSKFDTIYQILLKKKSEIQTLKEEIEQSLTKRDEFEFLEKASKLRGISTKPVYIPEVELNHKLIKGIHQSTIDLKNELKQCIGRLQEPTPSSGDPGEHDPASTHKSTRPVKKVSKEEKKSKKPPPVPALPSKLPTFGAPEQLVDLKQAGLEAAAKATSSHPNSTSLKAKVLETFLAKSRPELLEYYIKVILDYNTAHNKVALSECYTVASVAEMPQNYRPHPQRFTYCSQVLGLHCYKKGIHYWEVELQKNNFCGVGICYGSMNRQGPESRLGRNSASWCVEWFNTKISAWHNNVEKTLPSTKATRVGVLLNCDHGFVIFFAVADKVHLMYKFRVDFTEALYPAFWVFSAGATLSICSPK</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

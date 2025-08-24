@@ -1,0 +1,253 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9458	
+2	N	0.9496	
+3	S	0.9040	
+4	G	0.8284	
+5	R	0.7381	
+6	P	0.6444	
+7	E	0.5553	
+8	T	0.4759	
+9	M	0.4087	
+10	E	0.3543	
+11	N	0.3103	
+12	L	0.2769	
+13	P	0.2480	
+14	A	0.2229	
+15	L	0.1990	
+16	Y	0.1773	domain S1 motif
+17	T	0.1505	domain S1 motif
+18	I	0.1212	domain S1 motif
+19	F	0.0929	domain S1 motif
+20	Q	0.0740	domain S1 motif
+21	G	0.0672	domain S1 motif
+22	E	0.0548	domain S1 motif
+23	V	0.0470	domain S1 motif
+24	A	0.0419	domain S1 motif
+25	M	0.0453	domain S1 motif
+26	V	0.0572	domain S1 motif
+27	T	0.0723	domain S1 motif
+28	D	0.0859	domain S1 motif
+29	Y	0.0987	domain S1 motif
+30	G	0.1027	domain S1 motif
+31	A	0.1091	domain S1 motif
+32	F	0.1108	domain S1 motif
+33	I	0.1072	domain S1 motif
+34	K	0.1104	domain S1 motif
+35	I	0.1142	domain S1 motif
+36	P	0.1190	domain S1 motif
+37	G	0.1262	domain S1 motif
+38	C	0.1376	domain S1 motif
+39	R	0.1530	domain S1 motif
+40	K	0.1719	domain S1 motif
+41	Q	0.1831	domain S1 motif
+42	G	0.1944	domain S1 motif
+43	L	0.2163	domain S1 motif
+44	V	0.2429	domain S1 motif
+45	H	0.2789	domain S1 motif
+46	R	0.3105	domain S1 motif
+47	T	0.3257	domain S1 motif
+48	H	0.3270	domain S1 motif
+49	M	0.3273	domain S1 motif
+50	S	0.3240	domain S1 motif
+51	S	0.3240	domain S1 motif
+52	C	0.3244	domain S1 motif
+53	R	0.3202	domain S1 motif
+54	V	0.3220	domain S1 motif
+55	D	0.3219	domain S1 motif
+56	K	0.3148	domain S1 motif
+57	P	0.2983	domain S1 motif
+58	S	0.2805	domain S1 motif
+59	E	0.2499	domain S1 motif
+60	I	0.2214	domain S1 motif
+61	V	0.1990	domain S1 motif
+62	D	0.1833	domain S1 motif
+63	V	0.1900	domain S1 motif
+64	G	0.1998	domain S1 motif
+65	D	0.2163	domain S1 motif
+66	K	0.2208	domain S1 motif
+67	V	0.2252	domain S1 motif
+68	W	0.2286	domain S1 motif
+69	V	0.2365	domain S1 motif
+70	K	0.2317	domain S1 motif
+71	L	0.2206	domain S1 motif
+72	I	0.2154	domain S1 motif
+73	G	0.2125	domain S1 motif
+74	R	0.2132	domain S1 motif
+75	E	0.2056	domain S1 motif
+76	M	0.2012	domain S1 motif
+77	K	0.2015	domain S1 motif
+78	N	0.2129	domain S1 motif
+79	D	0.2292	domain S1 motif
+80	R	0.2558	domain S1 motif
+81	I	0.2933	domain S1 motif
+82	K	0.3247	domain S1 motif
+83	V	0.3601	domain S1 motif
+84	S	0.3708	domain S1 motif
+85	L	0.3795	domain S1 motif
+86	S	0.3801	domain S1 motif
+87	M	0.3931	domain S1 motif
+88	K	0.3986	domain S1 motif
+89	V	0.3982	
+90	V	0.3967	
+91	N	0.4030	
+92	Q	0.4090	
+93	G	0.4066	
+94	T	0.4052	
+95	G	0.4077	
+96	K	0.4131	
+97	D	0.4225	
+98	L	0.4414	
+99	D	0.4642	
+100	P	0.4952	
+101	N	0.5239	
+102	N	0.5324	
+103	V	0.5320	
+104	I	0.5165	
+105	I	0.5104	
+106	E	0.4929	
+107	Q	0.4747	
+108	E	0.4476	
+109	E	0.4251	
+110	R	0.4105	
+111	R	0.4038	
+112	R	0.4024	
+113	R	0.4032	
+114	S	0.3939	
+115	F	0.3944	
+116	Q	0.3929	
+117	D	0.3805	
+118	Y	0.3703	
+119	T	0.3460	
+120	G	0.3136	
+121	Q	0.2731	
+122	K	0.2250	
+123	I	0.1836	
+124	T	0.1476	
+125	L	0.1228	
+126	E	0.0959	
+127	A	0.0706	
+128	V	0.0520	
+129	L	0.0446	
+130	N	0.0431	
+131	T	0.0429	
+132	T	0.0344	
+133	C	0.0334	
+134	K	0.0326	
+135	K	0.0321	
+136	C	0.0283	
+137	G	0.0242	
+138	C	0.0299	
+139	K	0.0316	
+140	G	0.0417	
+141	H	0.0434	
+142	F	0.0450	
+143	A	0.0524	
+144	K	0.0691	
+145	D	0.0898	
+146	C	0.1156	
+147	F	0.1483	
+148	M	0.1943	
+149	Q	0.2372	
+150	P	0.2739	
+151	G	0.3082	
+152	G	0.3412	
+153	T	0.3795	
+154	K	0.4121	
+155	Y	0.4481	
+156	S	0.4884	
+157	L	0.5254	
+158	I	0.5596	
+159	P	0.5791	
+160	D	0.5857	
+161	E	0.5831	
+162	E	0.5823	
+163	E	0.5811	
+164	E	0.5799	
+165	K	0.5855	
+166	E	0.6069	
+167	E	0.6313	
+168	A	0.6555	
+169	K	0.6767	
+170	S	0.6901	
+171	A	0.6977	
+172	E	0.6960	
+173	F	0.6918	
+174	E	0.6880	
+175	K	0.6885	
+176	P	0.6833	
+177	D	0.6799	
+178	P	0.6732	
+179	T	0.6707	
+180	R	0.6737	
+181	N	0.6840	
+182	P	0.6969	
+183	S	0.7096	
+184	R	0.7219	
+185	K	0.7352	
+186	R	0.7476	
+187	K	0.7562	
+188	K	0.7565	
+189	E	0.7514	
+190	K	0.7382	
+191	K	0.7248	
+192	K	0.7102	
+193	K	0.6990	
+194	K	0.6912	
+195	H	0.6828	
+196	R	0.6723	
+197	D	0.6622	
+198	R	0.6522	
+199	K	0.6462	
+200	S	0.6362	
+201	S	0.6260	
+202	D	0.6191	
+203	S	0.6150	
+204	D	0.6196	
+205	S	0.6284	
+206	S	0.6374	
+207	D	0.6457	
+208	S	0.6503	
+209	E	0.6560	
+210	S	0.6555	
+211	D	0.6555	
+212	T	0.6552	
+213	G	0.6584	
+214	K	0.6644	
+215	R	0.6712	
+216	A	0.6869	
+217	R	0.7076	
+218	H	0.7296	
+219	T	0.7548	
+220	S	0.7824	
+221	K	0.8083	
+222	D	0.8318	
+223	S	0.8550	
+224	K	0.8757	
+225	A	0.8887	
+226	A	0.8966	
+227	K	0.9027	
+228	K	0.9061	
+229	K	0.9121	
+230	K	0.9184	
+231	K	0.9289	
+232	K	0.9409	
+233	K	0.9541	
+234	K	0.9672	
+235	H	0.9791	
+236	K	0.9889	
+237	K	0.9958	
+238	K	0.9997	
+239	H	1.0007	
+240	K	1.0000	
+241	E	0.9992	

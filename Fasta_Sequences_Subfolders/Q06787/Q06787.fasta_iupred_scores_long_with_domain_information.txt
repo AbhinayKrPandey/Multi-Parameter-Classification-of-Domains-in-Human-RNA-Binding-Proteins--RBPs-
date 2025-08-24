@@ -1,0 +1,644 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.2213	
+2	E	0.2788	
+3	E	0.2869	
+4	L	0.2645	domain Agenet-like 1
+5	V	0.2263	domain Agenet-like 1
+6	V	0.1835	domain Agenet-like 1
+7	E	0.1437	domain Agenet-like 1
+8	V	0.1120	domain Agenet-like 1
+9	R	0.0910	domain Agenet-like 1
+10	G	0.0814	domain Agenet-like 1
+11	S	0.0809	domain Agenet-like 1
+12	N	0.0925	domain Agenet-like 1
+13	G	0.1067	domain Agenet-like 1
+14	A	0.1234	domain Agenet-like 1
+15	F	0.1460	domain Agenet-like 1
+16	Y	0.1719	domain Agenet-like 1
+17	K	0.1877	domain Agenet-like 1
+18	A	0.1920	domain Agenet-like 1
+19	F	0.1842	domain Agenet-like 1
+20	V	0.1689	domain Agenet-like 1
+21	K	0.1512	domain Agenet-like 1
+22	D	0.1246	domain Agenet-like 1
+23	V	0.0983	domain Agenet-like 1
+24	H	0.0968	domain Agenet-like 1
+25	E	0.1149	domain Agenet-like 1
+26	D	0.1533	domain Agenet-like 1
+27	S	0.1982	domain Agenet-like 1
+28	I	0.2539	domain Agenet-like 1
+29	T	0.3058	domain Agenet-like 1
+30	V	0.3485	domain Agenet-like 1
+31	A	0.3766	domain Agenet-like 1
+32	F	0.3944	domain Agenet-like 1
+33	E	0.3910	domain Agenet-like 1
+34	N	0.3703	domain Agenet-like 1
+35	N	0.3359	domain Agenet-like 1
+36	W	0.3008	domain Agenet-like 1
+37	Q	0.2796	domain Agenet-like 1
+38	P	0.2804	domain Agenet-like 1
+39	D	0.2932	domain Agenet-like 1
+40	R	0.3063	domain Agenet-like 1
+41	Q	0.3236	domain Agenet-like 1
+42	I	0.3503	domain Agenet-like 1
+43	P	0.3708	domain Agenet-like 1
+44	F	0.3922	domain Agenet-like 1
+45	H	0.3957	domain Agenet-like 1
+46	D	0.3852	domain Agenet-like 1
+47	V	0.3672	domain Agenet-like 1
+48	R	0.3413	domain Agenet-like 1
+49	F	0.3283	domain Agenet-like 1
+50	P	0.3337	domain Agenet-like 1
+51	P	0.3526	
+52	P	0.3655	
+53	V	0.3742	
+54	G	0.3780	
+55	Y	0.3928	
+56	N	0.4087	
+57	K	0.4168	
+58	D	0.3990	
+59	I	0.3862	
+60	N	0.3810	
+61	E	0.3920	
+62	S	0.4148	
+63	D	0.4392	domain Agenet-like 2
+64	E	0.4650	domain Agenet-like 2
+65	V	0.4732	domain Agenet-like 2
+66	E	0.4614	domain Agenet-like 2
+67	V	0.4369	domain Agenet-like 2
+68	Y	0.3977	domain Agenet-like 2
+69	S	0.3560	domain Agenet-like 2
+70	R	0.2985	domain Agenet-like 2
+71	A	0.2353	domain Agenet-like 2
+72	N	0.1724	domain Agenet-like 2
+73	E	0.1311	domain Agenet-like 2
+74	K	0.1104	domain Agenet-like 2
+75	E	0.1128	domain Agenet-like 2
+76	P	0.1127	domain Agenet-like 2
+77	C	0.1148	domain Agenet-like 2
+78	C	0.1143	domain Agenet-like 2
+79	W	0.1151	domain Agenet-like 2
+80	W	0.1064	domain Agenet-like 2
+81	L	0.0958	domain Agenet-like 2
+82	A	0.0815	domain Agenet-like 2
+83	K	0.0611	domain Agenet-like 2
+84	V	0.0392	domain Agenet-like 2
+85	R	0.0218	domain Agenet-like 2
+86	M	0.0082	domain Agenet-like 2
+87	I	0.0047	domain Agenet-like 2
+88	K	0.0126	domain Agenet-like 2
+89	G	0.0242	domain Agenet-like 2
+90	E	0.0285	domain Agenet-like 2
+91	F	0.0359	domain Agenet-like 2
+92	Y	0.0427	domain Agenet-like 2
+93	V	0.0492	domain Agenet-like 2
+94	I	0.0558	domain Agenet-like 2
+95	E	0.0575	domain Agenet-like 2
+96	Y	0.0542	domain Agenet-like 2
+97	A	0.0487	domain Agenet-like 2
+98	A	0.0487	domain Agenet-like 2
+99	C	0.0471	domain Agenet-like 2
+100	D	0.0467	domain Agenet-like 2
+101	A	0.0551	domain Agenet-like 2
+102	T	0.0590	domain Agenet-like 2
+103	Y	0.0765	domain Agenet-like 2
+104	N	0.1030	domain Agenet-like 2
+105	E	0.1405	domain Agenet-like 2
+106	I	0.1788	domain Agenet-like 2
+107	V	0.2156	domain Agenet-like 2
+108	T	0.2644	domain Agenet-like 2
+109	I	0.3130	domain Agenet-like 2
+110	E	0.3466	domain Agenet-like 2
+111	R	0.3831	domain Agenet-like 2
+112	L	0.4054	domain Agenet-like 2
+113	R	0.4256	domain Agenet-like 2
+114	S	0.4385	domain Agenet-like 2
+115	V	0.4453	domain Agenet-like 2
+116	N	0.4517	
+117	P	0.4526	
+118	N	0.4403	
+119	K	0.4369	
+120	P	0.4322	
+121	A	0.4345	
+122	T	0.4367	
+123	K	0.4546	
+124	D	0.4642	
+125	T	0.4633	
+126	F	0.4649	
+127	H	0.4563	
+128	K	0.4380	
+129	I	0.4105	
+130	K	0.3641	
+131	L	0.3210	
+132	D	0.2873	
+133	V	0.2708	
+134	P	0.2610	
+135	E	0.2658	
+136	D	0.2688	
+137	L	0.2835	
+138	R	0.3018	
+139	Q	0.3289	
+140	M	0.3403	
+141	C	0.3520	
+142	A	0.3535	
+143	K	0.3517	
+144	E	0.3334	
+145	A	0.3037	
+146	A	0.2764	
+147	H	0.2402	
+148	K	0.2164	
+149	D	0.1948	
+150	F	0.1910	
+151	K	0.2058	
+152	K	0.2269	
+153	A	0.2495	
+154	V	0.2610	
+155	G	0.2621	
+156	A	0.2484	
+157	F	0.2273	
+158	S	0.1912	
+159	V	0.1556	
+160	T	0.1152	
+161	Y	0.0918	
+162	D	0.0740	
+163	P	0.0722	
+164	E	0.0731	
+165	N	0.0783	
+166	Y	0.1027	
+167	Q	0.1317	
+168	L	0.1655	
+169	V	0.1913	
+170	I	0.2101	
+171	L	0.2192	
+172	S	0.2143	
+173	I	0.1967	
+174	N	0.1717	
+175	E	0.1441	
+176	V	0.1177	
+177	T	0.1002	
+178	S	0.1032	
+179	K	0.1179	
+180	R	0.1430	
+181	A	0.1857	
+182	H	0.2196	
+183	M	0.2399	
+184	L	0.2462	
+185	I	0.2432	
+186	D	0.2296	
+187	M	0.2039	
+188	H	0.1659	
+189	F	0.1367	
+190	R	0.1117	
+191	S	0.1094	
+192	L	0.1180	
+193	R	0.1442	
+194	T	0.1771	
+195	K	0.2064	
+196	L	0.2391	
+197	S	0.2669	
+198	L	0.3002	
+199	I	0.3264	
+200	M	0.3449	
+201	R	0.3657	
+202	N	0.3765	
+203	E	0.3816	
+204	E	0.3804	
+205	A	0.3892	
+206	S	0.4026	
+207	K	0.4285	
+208	Q	0.4455	
+209	L	0.4669	
+210	E	0.4662	
+211	S	0.4648	
+212	S	0.4545	
+213	R	0.4218	
+214	Q	0.3768	
+215	L	0.3328	
+216	A	0.3014	
+217	S	0.2743	
+218	R	0.2506	
+219	F	0.2380	
+220	H	0.2254	
+221	E	0.2164	
+222	Q	0.1838	domain KH 1
+223	F	0.1566	domain KH 1
+224	I	0.1387	domain KH 1
+225	V	0.1409	domain KH 1
+226	R	0.1491	domain KH 1
+227	E	0.1575	domain KH 1
+228	D	0.1556	domain KH 1
+229	L	0.1726	domain KH 1
+230	M	0.1905	domain KH 1
+231	G	0.2079	domain KH 1
+232	L	0.2291	domain KH 1
+233	A	0.2451	domain KH 1
+234	I	0.2679	domain KH 1
+235	G	0.2994	domain KH 1
+236	T	0.3271	domain KH 1
+237	H	0.3485	domain KH 1
+238	G	0.3642	domain KH 1
+239	A	0.3811	domain KH 1
+240	N	0.3797	domain KH 1
+241	I	0.3773	domain KH 1
+242	Q	0.3795	domain KH 1
+243	Q	0.3919	domain KH 1
+244	A	0.4104	domain KH 1
+245	R	0.4221	domain KH 1
+246	K	0.4267	domain KH 1
+247	V	0.4374	domain KH 1
+248	P	0.4429	domain KH 1
+249	G	0.4447	domain KH 1
+250	V	0.4306	domain KH 1
+251	T	0.4047	domain KH 1
+252	A	0.3777	
+253	I	0.3469	
+254	D	0.3239	
+255	L	0.3120	
+256	D	0.3005	
+257	E	0.3017	
+258	D	0.3051	
+259	T	0.3080	
+260	C	0.3242	
+261	T	0.3538	
+262	F	0.3825	
+263	H	0.3984	
+264	I	0.4131	
+265	Y	0.4120	
+266	G	0.4006	
+267	E	0.3823	
+268	D	0.3526	
+269	Q	0.3194	
+270	D	0.2962	
+271	A	0.2733	
+272	V	0.2667	
+273	K	0.2720	
+274	K	0.2845	
+275	A	0.3086	
+276	R	0.3228	
+277	S	0.3195	
+278	F	0.3075	
+279	L	0.2985	
+280	E	0.2867	
+281	F	0.2721	
+282	A	0.2555	
+283	E	0.2362	
+284	D	0.2126	
+285	V	0.1928	domain KH 2
+286	I	0.1894	domain KH 2
+287	Q	0.1981	domain KH 2
+288	V	0.2159	domain KH 2
+289	P	0.2330	domain KH 2
+290	R	0.2605	domain KH 2
+291	N	0.2792	domain KH 2
+292	L	0.2985	domain KH 2
+293	V	0.3123	domain KH 2
+294	G	0.3186	domain KH 2
+295	K	0.3118	domain KH 2
+296	V	0.2966	domain KH 2
+297	I	0.2823	domain KH 2
+298	G	0.2848	domain KH 2
+299	K	0.2887	domain KH 2
+300	N	0.2900	domain KH 2
+301	G	0.2935	domain KH 2
+302	K	0.2861	domain KH 2
+303	L	0.2748	domain KH 2
+304	I	0.2703	domain KH 2
+305	Q	0.2732	domain KH 2
+306	E	0.2708	domain KH 2
+307	I	0.2548	domain KH 2
+308	V	0.2547	domain KH 2
+309	D	0.2588	domain KH 2
+310	K	0.2684	domain KH 2
+311	S	0.2751	domain KH 2
+312	G	0.2892	domain KH 2
+313	V	0.3038	domain KH 2
+314	V	0.3313	domain KH 2
+315	R	0.3727	
+316	V	0.4237	
+317	R	0.4569	
+318	I	0.4833	
+319	E	0.4908	
+320	A	0.5089	
+321	E	0.5213	
+322	N	0.5403	
+323	E	0.5665	
+324	K	0.5972	
+325	N	0.6246	
+326	V	0.6628	
+327	P	0.7164	
+328	Q	0.7768	
+329	E	0.8134	
+330	E	0.8305	
+331	E	0.8270	
+332	I	0.8175	
+333	M	0.8142	
+334	P	0.8159	
+335	P	0.8065	
+336	N	0.7966	
+337	S	0.7779	
+338	L	0.7877	
+339	P	0.7962	
+340	S	0.8243	
+341	N	0.8433	
+342	N	0.8554	
+343	S	0.8545	
+344	R	0.8414	
+345	V	0.8290	
+346	G	0.8138	
+347	P	0.8007	
+348	N	0.7816	
+349	A	0.7633	
+350	P	0.7459	
+351	E	0.7372	
+352	E	0.7361	
+353	K	0.7361	
+354	K	0.7327	
+355	H	0.7323	
+356	L	0.7367	
+357	D	0.7307	
+358	I	0.7416	
+359	K	0.7407	
+360	E	0.7465	
+361	N	0.7388	
+362	S	0.7185	
+363	T	0.6851	
+364	H	0.6433	
+365	F	0.6189	
+366	S	0.5963	
+367	Q	0.5817	
+368	P	0.5617	
+369	N	0.5416	
+370	S	0.5157	
+371	T	0.4941	
+372	K	0.4723	
+373	V	0.4582	
+374	Q	0.4522	
+375	R	0.4481	
+376	V	0.4447	
+377	L	0.4475	
+378	V	0.4665	
+379	A	0.4781	
+380	S	0.4748	
+381	S	0.4585	
+382	V	0.4283	
+383	V	0.4050	
+384	A	0.3967	
+385	G	0.4088	
+386	E	0.4233	
+387	S	0.4380	
+388	Q	0.4479	
+389	K	0.4577	
+390	P	0.4596	
+391	E	0.4478	
+392	L	0.4377	
+393	K	0.4298	
+394	A	0.4136	
+395	W	0.4005	
+396	Q	0.3908	
+397	G	0.3873	
+398	M	0.3789	
+399	V	0.3772	
+400	P	0.3626	
+401	F	0.3548	
+402	V	0.3417	
+403	F	0.3417	
+404	V	0.3386	
+405	G	0.3366	
+406	T	0.3347	
+407	K	0.3304	
+408	D	0.3200	
+409	S	0.3114	
+410	I	0.3082	
+411	A	0.3123	
+412	N	0.3324	
+413	A	0.3481	
+414	T	0.3640	
+415	V	0.3811	
+416	L	0.3830	
+417	L	0.3889	
+418	D	0.3822	
+419	Y	0.3777	
+420	H	0.3578	
+421	L	0.3506	
+422	N	0.3316	
+423	Y	0.3276	
+424	L	0.3305	
+425	K	0.3367	
+426	E	0.3479	
+427	V	0.3629	
+428	D	0.3789	
+429	Q	0.3988	
+430	L	0.4220	
+431	R	0.4400	
+432	L	0.4625	
+433	E	0.4745	
+434	R	0.4787	
+435	L	0.4833	
+436	Q	0.4910	
+437	I	0.5154	
+438	D	0.5418	
+439	E	0.5835	
+440	Q	0.6195	
+441	L	0.6660	
+442	R	0.7094	
+443	Q	0.7590	
+444	I	0.8086	
+445	G	0.8437	
+446	A	0.8688	
+447	S	0.8801	
+448	S	0.8761	
+449	R	0.8683	
+450	P	0.8653	
+451	P	0.8611	
+452	P	0.8599	
+453	N	0.8570	
+454	R	0.8613	
+455	T	0.8753	
+456	D	0.8915	
+457	K	0.9038	
+458	E	0.9107	
+459	K	0.9121	
+460	S	0.8995	
+461	Y	0.8850	
+462	V	0.8658	
+463	T	0.8468	
+464	D	0.8280	
+465	D	0.8053	
+466	G	0.7888	
+467	Q	0.7806	
+468	G	0.7801	
+469	M	0.7857	
+470	G	0.8008	
+471	R	0.8224	
+472	G	0.8443	
+473	S	0.8660	
+474	R	0.8850	
+475	P	0.8895	
+476	Y	0.8900	
+477	R	0.8835	
+478	N	0.8776	
+479	R	0.8689	
+480	G	0.8601	
+481	H	0.8591	
+482	G	0.8601	
+483	R	0.8620	
+484	R	0.8672	
+485	G	0.8751	
+486	P	0.8804	
+487	G	0.8805	
+488	Y	0.8812	
+489	T	0.8848	
+490	S	0.8901	
+491	G	0.8904	
+492	T	0.8912	
+493	N	0.8908	
+494	S	0.8852	
+495	E	0.8848	
+496	A	0.8913	
+497	S	0.8974	
+498	N	0.9026	
+499	A	0.8976	
+500	S	0.8825	
+501	E	0.8622	
+502	T	0.8370	
+503	E	0.8111	
+504	S	0.7874	
+505	D	0.7681	
+506	H	0.7504	
+507	R	0.7457	
+508	D	0.7546	
+509	E	0.7667	
+510	L	0.7803	
+511	S	0.7852	
+512	D	0.7771	
+513	W	0.7577	
+514	S	0.7266	
+515	L	0.7023	
+516	A	0.6776	
+517	P	0.6553	
+518	T	0.6385	
+519	E	0.6332	
+520	E	0.6436	
+521	E	0.6695	
+522	R	0.7068	
+523	E	0.7459	
+524	S	0.7783	
+525	F	0.8053	
+526	L	0.8264	
+527	R	0.8436	
+528	R	0.8529	
+529	G	0.8545	
+530	D	0.8554	
+531	G	0.8495	
+532	R	0.8499	
+533	R	0.8631	
+534	R	0.8760	
+535	G	0.8930	
+536	G	0.9059	
+537	G	0.9128	
+538	G	0.9173	
+539	R	0.9194	
+540	G	0.9204	
+541	Q	0.9187	
+542	G	0.9154	
+543	G	0.9106	
+544	R	0.9093	
+545	G	0.9112	
+546	R	0.9144	
+547	G	0.9173	
+548	G	0.9177	
+549	G	0.9145	
+550	F	0.9128	
+551	K	0.9129	
+552	G	0.9167	
+553	N	0.9196	
+554	D	0.9227	
+555	D	0.9265	
+556	H	0.9303	
+557	S	0.9343	
+558	R	0.9381	
+559	T	0.9412	
+560	D	0.9456	
+561	N	0.9473	
+562	R	0.9512	
+563	P	0.9524	
+564	R	0.9549	
+565	N	0.9518	
+566	P	0.9532	
+567	R	0.9524	
+568	E	0.9452	
+569	A	0.9363	
+570	K	0.9261	
+571	G	0.9085	
+572	R	0.8897	
+573	T	0.8668	
+574	T	0.8430	
+575	D	0.8201	
+576	G	0.7972	
+577	S	0.7823	
+578	L	0.7743	
+579	Q	0.7685	
+580	I	0.7684	
+581	R	0.7644	
+582	V	0.7624	
+583	D	0.7524	
+584	C	0.7496	
+585	N	0.7454	
+586	N	0.7432	
+587	E	0.7443	
+588	R	0.7510	
+589	S	0.7623	
+590	V	0.7811	
+591	H	0.8011	
+592	T	0.8220	
+593	K	0.8381	
+594	T	0.8480	
+595	L	0.8571	
+596	Q	0.8617	
+597	N	0.8653	
+598	T	0.8672	
+599	S	0.8666	
+600	S	0.8680	
+601	E	0.8697	
+602	G	0.8730	
+603	S	0.8780	
+604	R	0.8865	
+605	L	0.8929	
+606	R	0.8984	
+607	T	0.9029	
+608	G	0.9011	
+609	K	0.8977	
+610	D	0.8967	
+611	R	0.8963	
+612	N	0.8973	
+613	Q	0.9015	
+614	K	0.9054	
+615	K	0.9114	
+616	E	0.9170	
+617	K	0.9244	
+618	P	0.9291	
+619	D	0.9316	
+620	S	0.9287	
+621	V	0.9277	
+622	D	0.9271	
+623	G	0.9296	
+624	Q	0.9346	
+625	Q	0.9378	
+626	P	0.9380	
+627	L	0.9345	
+628	V	0.9277	
+629	N	0.9197	
+630	G	0.9145	
+631	V	0.9182	
+632	P	0.9401	

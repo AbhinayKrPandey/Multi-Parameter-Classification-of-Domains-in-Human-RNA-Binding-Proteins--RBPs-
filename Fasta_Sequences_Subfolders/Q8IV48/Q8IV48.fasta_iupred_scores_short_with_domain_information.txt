@@ -1,0 +1,361 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9932	
+2	E	1.0019	
+3	D	0.9966	
+4	P	0.9809	
+5	Q	0.9585	
+6	S	0.9322	
+7	K	0.9045	
+8	E	0.8776	
+9	P	0.8531	
+10	A	0.8322	
+11	G	0.8156	
+12	E	0.8055	
+13	A	0.7973	
+14	V	0.7955	
+15	A	0.7971	
+16	L	0.8033	
+17	A	0.8060	
+18	L	0.8075	
+19	L	0.8094	
+20	E	0.8143	
+21	S	0.8256	
+22	P	0.8316	
+23	R	0.8430	
+24	P	0.8557	
+25	E	0.8748	
+26	G	0.8928	
+27	G	0.9097	
+28	E	0.9200	
+29	E	0.9253	
+30	P	0.9248	
+31	P	0.9171	
+32	R	0.9061	
+33	P	0.8935	
+34	S	0.8856	
+35	P	0.8766	
+36	E	0.8727	
+37	E	0.8666	
+38	T	0.8599	
+39	Q	0.8470	
+40	Q	0.8260	
+41	C	0.7984	
+42	K	0.7615	
+43	F	0.7345	
+44	D	0.7039	
+45	G	0.6756	
+46	Q	0.6389	
+47	E	0.6059	
+48	T	0.5848	
+49	K	0.5757	
+50	G	0.5681	
+51	S	0.5643	
+52	K	0.5571	
+53	F	0.5496	
+54	I	0.5422	
+55	T	0.5268	
+56	S	0.4985	
+57	S	0.4590	
+58	A	0.4231	
+59	S	0.3870	
+60	D	0.3530	
+61	F	0.3348	
+62	S	0.3252	
+63	D	0.3274	
+64	P	0.3174	
+65	V	0.3031	
+66	Y	0.2967	
+67	K	0.2981	
+68	E	0.2990	
+69	I	0.2909	
+70	A	0.2797	
+71	I	0.2767	
+72	T	0.2714	
+73	N	0.2750	
+74	G	0.2661	
+75	C	0.2561	
+76	I	0.2511	domain SAP
+77	N	0.2498	domain SAP
+78	R	0.2473	domain SAP
+79	M	0.2355	domain SAP
+80	S	0.2286	domain SAP
+81	K	0.2286	domain SAP
+82	E	0.2212	domain SAP
+83	E	0.2117	domain SAP
+84	L	0.2125	domain SAP
+85	R	0.2218	domain SAP
+86	A	0.2368	domain SAP
+87	K	0.2335	domain SAP
+88	L	0.2341	domain SAP
+89	S	0.2330	domain SAP
+90	E	0.2213	domain SAP
+91	F	0.2092	domain SAP
+92	K	0.1912	domain SAP
+93	L	0.1798	domain SAP
+94	E	0.1677	domain SAP
+95	T	0.1653	domain SAP
+96	R	0.1586	domain SAP
+97	G	0.1506	domain SAP
+98	V	0.1508	domain SAP
+99	K	0.1580	domain SAP
+100	D	0.1641	domain SAP
+101	V	0.1655	domain SAP
+102	L	0.1676	domain SAP
+103	K	0.1672	domain SAP
+104	K	0.1692	domain SAP
+105	R	0.1607	domain SAP
+106	L	0.1539	domain SAP
+107	K	0.1418	domain SAP
+108	N	0.1307	domain SAP
+109	Y	0.1191	domain SAP
+110	Y	0.1133	domain SAP
+111	K	0.1181	
+112	K	0.1238	
+113	Q	0.1312	
+114	K	0.1273	
+115	L	0.1202	
+116	M	0.1058	
+117	L	0.0934	
+118	K	0.0819	
+119	E	0.0680	
+120	S	0.0529	
+121	N	0.0398	
+122	F	0.0324	
+123	A	0.0273	
+124	D	0.0247	
+125	S	0.0212	
+126	Y	0.0206	
+127	Y	0.0213	
+128	D	0.0197	
+129	Y	0.0229	
+130	I	0.0276	domain Exonuclease
+131	C	0.0382	domain Exonuclease
+132	I	0.0458	domain Exonuclease
+133	I	0.0551	domain Exonuclease
+134	D	0.0681	domain Exonuclease
+135	F	0.0765	domain Exonuclease
+136	E	0.0847	domain Exonuclease
+137	A	0.0953	domain Exonuclease
+138	T	0.1004	domain Exonuclease
+139	C	0.1145	domain Exonuclease
+140	E	0.1340	domain Exonuclease
+141	E	0.1634	domain Exonuclease
+142	G	0.1886	domain Exonuclease
+143	N	0.2086	domain Exonuclease
+144	P	0.2234	domain Exonuclease
+145	P	0.2278	domain Exonuclease
+146	E	0.2250	domain Exonuclease
+147	F	0.2130	domain Exonuclease
+148	V	0.1969	domain Exonuclease
+149	H	0.1834	domain Exonuclease
+150	E	0.1624	domain Exonuclease
+151	I	0.1374	domain Exonuclease
+152	I	0.1208	domain Exonuclease
+153	E	0.1073	domain Exonuclease
+154	F	0.0962	domain Exonuclease
+155	P	0.0838	domain Exonuclease
+156	V	0.0726	domain Exonuclease
+157	V	0.0663	domain Exonuclease
+158	L	0.0666	domain Exonuclease
+159	L	0.0728	domain Exonuclease
+160	N	0.0796	domain Exonuclease
+161	T	0.0858	domain Exonuclease
+162	H	0.0887	domain Exonuclease
+163	T	0.0850	domain Exonuclease
+164	L	0.0946	domain Exonuclease
+165	E	0.1102	domain Exonuclease
+166	I	0.1345	domain Exonuclease
+167	E	0.1604	domain Exonuclease
+168	D	0.1931	domain Exonuclease
+169	T	0.2190	domain Exonuclease
+170	F	0.2388	domain Exonuclease
+171	Q	0.2583	domain Exonuclease
+172	Q	0.2674	domain Exonuclease
+173	Y	0.2537	domain Exonuclease
+174	V	0.2362	domain Exonuclease
+175	R	0.2140	domain Exonuclease
+176	P	0.1917	domain Exonuclease
+177	E	0.1610	domain Exonuclease
+178	I	0.1340	domain Exonuclease
+179	N	0.1200	domain Exonuclease
+180	T	0.1154	domain Exonuclease
+181	Q	0.1077	domain Exonuclease
+182	L	0.1139	domain Exonuclease
+183	S	0.1257	domain Exonuclease
+184	D	0.1391	domain Exonuclease
+185	F	0.1484	domain Exonuclease
+186	C	0.1574	domain Exonuclease
+187	I	0.1608	domain Exonuclease
+188	S	0.1553	domain Exonuclease
+189	L	0.1552	domain Exonuclease
+190	T	0.1526	domain Exonuclease
+191	G	0.1437	domain Exonuclease
+192	I	0.1364	domain Exonuclease
+193	T	0.1419	domain Exonuclease
+194	Q	0.1544	domain Exonuclease
+195	D	0.1630	domain Exonuclease
+196	Q	0.1653	domain Exonuclease
+197	V	0.1692	domain Exonuclease
+198	D	0.1793	domain Exonuclease
+199	R	0.1839	domain Exonuclease
+200	A	0.1795	domain Exonuclease
+201	D	0.1708	domain Exonuclease
+202	T	0.1589	domain Exonuclease
+203	F	0.1450	domain Exonuclease
+204	P	0.1254	domain Exonuclease
+205	Q	0.1105	domain Exonuclease
+206	V	0.0932	domain Exonuclease
+207	L	0.0861	domain Exonuclease
+208	K	0.0797	domain Exonuclease
+209	K	0.0770	domain Exonuclease
+210	V	0.0709	domain Exonuclease
+211	I	0.0682	domain Exonuclease
+212	D	0.0659	domain Exonuclease
+213	W	0.0619	domain Exonuclease
+214	M	0.0524	domain Exonuclease
+215	K	0.0433	domain Exonuclease
+216	L	0.0378	domain Exonuclease
+217	K	0.0372	domain Exonuclease
+218	E	0.0362	domain Exonuclease
+219	L	0.0345	domain Exonuclease
+220	G	0.0378	domain Exonuclease
+221	T	0.0477	domain Exonuclease
+222	K	0.0556	domain Exonuclease
+223	Y	0.0682	domain Exonuclease
+224	K	0.0733	domain Exonuclease
+225	Y	0.0798	domain Exonuclease
+226	S	0.0790	domain Exonuclease
+227	L	0.0773	domain Exonuclease
+228	L	0.0716	domain Exonuclease
+229	T	0.0642	domain Exonuclease
+230	D	0.0603	domain Exonuclease
+231	G	0.0515	domain Exonuclease
+232	S	0.0442	domain Exonuclease
+233	W	0.0444	domain Exonuclease
+234	D	0.0435	domain Exonuclease
+235	M	0.0520	domain Exonuclease
+236	S	0.0642	domain Exonuclease
+237	K	0.0708	domain Exonuclease
+238	F	0.0725	domain Exonuclease
+239	L	0.0783	domain Exonuclease
+240	N	0.0851	domain Exonuclease
+241	I	0.0902	domain Exonuclease
+242	Q	0.0916	domain Exonuclease
+243	C	0.0951	domain Exonuclease
+244	Q	0.0889	domain Exonuclease
+245	L	0.0831	domain Exonuclease
+246	S	0.0781	domain Exonuclease
+247	R	0.0798	domain Exonuclease
+248	L	0.0799	domain Exonuclease
+249	K	0.0771	domain Exonuclease
+250	Y	0.0870	domain Exonuclease
+251	P	0.0938	domain Exonuclease
+252	P	0.1029	domain Exonuclease
+253	F	0.1102	domain Exonuclease
+254	A	0.1139	domain Exonuclease
+255	K	0.1206	domain Exonuclease
+256	K	0.1139	domain Exonuclease
+257	W	0.1035	domain Exonuclease
+258	I	0.0947	domain Exonuclease
+259	N	0.0971	domain Exonuclease
+260	I	0.1031	domain Exonuclease
+261	R	0.1135	domain Exonuclease
+262	K	0.1268	domain Exonuclease
+263	S	0.1417	domain Exonuclease
+264	Y	0.1602	domain Exonuclease
+265	G	0.1787	domain Exonuclease
+266	N	0.1943	domain Exonuclease
+267	F	0.2004	domain Exonuclease
+268	Y	0.2070	domain Exonuclease
+269	K	0.2057	domain Exonuclease
+270	V	0.2102	domain Exonuclease
+271	P	0.2002	domain Exonuclease
+272	R	0.1923	domain Exonuclease
+273	S	0.1884	domain Exonuclease
+274	Q	0.1826	domain Exonuclease
+275	T	0.1755	domain Exonuclease
+276	K	0.1778	domain Exonuclease
+277	L	0.1976	domain Exonuclease
+278	T	0.2235	domain Exonuclease
+279	I	0.2514	domain Exonuclease
+280	M	0.2732	domain Exonuclease
+281	L	0.2852	domain Exonuclease
+282	E	0.2816	domain Exonuclease
+283	K	0.2637	domain Exonuclease
+284	L	0.2469	domain Exonuclease
+285	G	0.2268	domain Exonuclease
+286	M	0.2148	domain Exonuclease
+287	D	0.2127	domain Exonuclease
+288	Y	0.2259	domain Exonuclease
+289	D	0.2459	domain Exonuclease
+290	G	0.2785	domain Exonuclease
+291	R	0.2999	domain Exonuclease
+292	P	0.3171	domain Exonuclease
+293	H	0.3202	domain Exonuclease
+294	C	0.3126	domain Exonuclease
+295	G	0.2943	domain Exonuclease
+296	L	0.2859	domain Exonuclease
+297	D	0.2749	domain Exonuclease
+298	D	0.2703	domain Exonuclease
+299	S	0.2641	domain Exonuclease
+300	K	0.2589	domain Exonuclease
+301	N	0.2531	domain Exonuclease
+302	I	0.2441	domain Exonuclease
+303	A	0.2340	domain Exonuclease
+304	R	0.2283	domain Exonuclease
+305	I	0.2158	domain Exonuclease
+306	A	0.2031	domain Exonuclease
+307	V	0.1992	
+308	R	0.1940	
+309	M	0.1893	
+310	L	0.1947	
+311	Q	0.2036	
+312	D	0.2198	
+313	G	0.2353	
+314	C	0.2610	
+315	E	0.2783	
+316	L	0.3115	
+317	R	0.3252	
+318	I	0.3434	
+319	N	0.3537	
+320	E	0.3613	
+321	K	0.3628	
+322	M	0.3685	
+323	H	0.3732	
+324	A	0.3858	
+325	G	0.4041	
+326	Q	0.4236	
+327	L	0.4484	
+328	M	0.4702	
+329	S	0.5030	
+330	V	0.5397	
+331	S	0.5676	
+332	S	0.5904	
+333	S	0.5989	
+334	L	0.6099	
+335	P	0.6109	
+336	I	0.6240	
+337	E	0.6369	
+338	G	0.6615	
+339	T	0.6901	
+340	P	0.7252	
+341	P	0.7702	
+342	P	0.8166	
+343	Q	0.8609	
+344	M	0.8998	
+345	P	0.9311	
+346	H	0.9541	
+347	F	0.9698	
+348	R	0.9817	
+349	K	0.9964	

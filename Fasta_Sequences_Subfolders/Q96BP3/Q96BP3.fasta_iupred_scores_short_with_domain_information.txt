@@ -1,0 +1,658 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9857	
+2	A	0.9863	
+3	A	0.9673	
+4	E	0.9368	
+5	S	0.9012	
+6	G	0.8651	
+7	S	0.8320	
+8	D	0.8038	
+9	F	0.7816	
+10	Q	0.7655	
+11	Q	0.7560	
+12	R	0.7484	
+13	R	0.7406	
+14	R	0.7380	
+15	R	0.7332	
+16	R	0.7284	
+17	R	0.7210	
+18	D	0.7134	
+19	P	0.6998	
+20	E	0.6866	
+21	E	0.6769	
+22	P	0.6687	
+23	E	0.6607	
+24	K	0.6528	
+25	T	0.6432	
+26	E	0.6308	
+27	L	0.6192	
+28	S	0.6087	
+29	E	0.6028	
+30	R	0.5906	
+31	E	0.5747	
+32	L	0.5706	
+33	A	0.5741	
+34	V	0.5850	
+35	A	0.5860	
+36	V	0.5915	
+37	A	0.5837	
+38	V	0.5766	
+39	S	0.5615	
+40	Q	0.5477	
+41	E	0.5274	
+42	N	0.5101	
+43	D	0.5012	
+44	E	0.5000	
+45	E	0.5015	
+46	N	0.5083	
+47	E	0.5149	
+48	E	0.5116	
+49	R	0.5009	
+50	W	0.4810	
+51	V	0.4634	
+52	G	0.4437	
+53	P	0.4041	
+54	L	0.3606	
+55	P	0.3118	
+56	V	0.2809	
+57	E	0.2499	
+58	A	0.2263	
+59	T	0.2010	
+60	L	0.1816	
+61	A	0.1650	
+62	K	0.1557	
+63	K	0.1447	
+64	R	0.1340	
+65	K	0.1251	
+66	V	0.1174	
+67	L	0.1133	
+68	E	0.1058	
+69	F	0.1109	
+70	E	0.1204	
+71	R	0.1272	
+72	V	0.1213	
+73	Y	0.1107	
+74	L	0.1101	
+75	D	0.1128	
+76	N	0.1172	
+77	L	0.1160	
+78	P	0.1182	
+79	S	0.1274	
+80	A	0.1432	
+81	S	0.1563	
+82	M	0.1665	
+83	Y	0.1747	
+84	E	0.1757	
+85	R	0.1746	
+86	S	0.1664	
+87	Y	0.1602	
+88	M	0.1528	
+89	H	0.1501	
+90	R	0.1389	
+91	D	0.1208	
+92	V	0.1069	
+93	I	0.1007	
+94	T	0.0978	
+95	H	0.0907	
+96	V	0.0797	
+97	V	0.0764	
+98	C	0.0801	
+99	T	0.0891	
+100	K	0.0976	
+101	T	0.1039	
+102	D	0.1046	
+103	F	0.1038	
+104	I	0.0946	
+105	I	0.0922	
+106	T	0.0865	
+107	A	0.0858	
+108	S	0.0866	
+109	H	0.0891	
+110	D	0.0901	
+111	G	0.0955	
+112	H	0.1036	
+113	V	0.1118	
+114	K	0.1090	
+115	F	0.1069	
+116	W	0.1038	
+117	K	0.1005	
+118	K	0.0945	
+119	I	0.0853	
+120	E	0.0726	
+121	E	0.0631	
+122	G	0.0526	
+123	I	0.0535	
+124	E	0.0541	
+125	F	0.0597	
+126	V	0.0633	
+127	K	0.0672	
+128	H	0.0626	
+129	F	0.0584	
+130	R	0.0573	
+131	S	0.0594	
+132	H	0.0584	
+133	L	0.0606	
+134	G	0.0610	
+135	V	0.0645	
+136	I	0.0671	
+137	E	0.0652	
+138	S	0.0591	
+139	I	0.0525	
+140	A	0.0429	
+141	V	0.0389	
+142	S	0.0415	
+143	S	0.0490	
+144	E	0.0556	
+145	G	0.0656	
+146	A	0.0699	
+147	L	0.0707	
+148	F	0.0701	
+149	C	0.0681	
+150	S	0.0610	
+151	V	0.0514	
+152	G	0.0402	
+153	D	0.0335	
+154	D	0.0263	
+155	K	0.0235	
+156	A	0.0231	
+157	M	0.0226	
+158	K	0.0223	
+159	V	0.0237	
+160	F	0.0266	
+161	D	0.0273	
+162	V	0.0260	
+163	V	0.0216	
+164	N	0.0157	
+165	F	0.0114	
+166	D	0.0081	
+167	M	0.0079	
+168	I	0.0095	
+169	N	0.0114	
+170	M	0.0123	
+171	L	0.0133	
+172	K	0.0137	
+173	L	0.0152	
+174	G	0.0135	
+175	Y	0.0135	
+176	F	0.0136	
+177	P	0.0168	
+178	G	0.0224	
+179	Q	0.0224	
+180	C	0.0250	
+181	E	0.0271	
+182	W	0.0361	
+183	I	0.0431	
+184	Y	0.0534	
+185	C	0.0658	
+186	P	0.0799	
+187	G	0.0937	
+188	D	0.1060	
+189	A	0.1187	
+190	I	0.1321	
+191	S	0.1464	
+192	S	0.1577	
+193	V	0.1607	
+194	A	0.1604	
+195	A	0.1682	
+196	S	0.1710	
+197	E	0.1754	
+198	K	0.1802	
+199	S	0.1919	
+200	T	0.2241	
+201	G	0.2582	
+202	K	0.2908	
+203	I	0.3211	
+204	F	0.3430	
+205	I	0.3518	
+206	Y	0.3438	
+207	D	0.3131	
+208	G	0.2773	
+209	R	0.2408	
+210	G	0.2103	
+211	D	0.1948	
+212	N	0.1986	
+213	Q	0.2301	
+214	P	0.2687	
+215	L	0.3092	
+216	H	0.3359	
+217	I	0.3623	
+218	F	0.3768	
+219	D	0.3741	
+220	K	0.3517	
+221	L	0.3173	
+222	H	0.2780	
+223	T	0.2496	
+224	S	0.2240	
+225	P	0.1998	
+226	L	0.1925	
+227	T	0.1877	
+228	Q	0.1931	
+229	I	0.2086	
+230	R	0.2193	
+231	L	0.2408	
+232	N	0.2632	
+233	P	0.2751	
+234	V	0.2740	
+235	Y	0.2703	
+236	K	0.2560	
+237	A	0.2405	
+238	V	0.2139	
+239	V	0.1936	
+240	S	0.1824	
+241	S	0.1923	
+242	D	0.2008	
+243	K	0.2143	
+244	S	0.2278	
+245	G	0.2450	
+246	M	0.2659	
+247	I	0.2870	
+248	E	0.2938	
+249	Y	0.2999	
+250	W	0.2957	
+251	T	0.2902	
+252	G	0.2747	
+253	P	0.2465	
+254	P	0.2167	
+255	H	0.1927	
+256	E	0.1761	
+257	Y	0.1771	
+258	K	0.1906	
+259	F	0.2220	
+260	P	0.2427	
+261	K	0.2618	
+262	N	0.2612	
+263	V	0.2504	
+264	N	0.2283	
+265	W	0.2034	
+266	E	0.1702	
+267	Y	0.1428	
+268	K	0.1165	
+269	T	0.1115	
+270	D	0.1200	
+271	T	0.1294	
+272	D	0.1306	
+273	L	0.1262	
+274	Y	0.1225	
+275	E	0.1172	
+276	F	0.1115	
+277	A	0.1076	
+278	K	0.1030	
+279	C	0.1013	
+280	K	0.0970	
+281	A	0.0976	
+282	Y	0.1003	
+283	P	0.1061	
+284	T	0.1128	
+285	S	0.1102	
+286	V	0.1102	
+287	C	0.1156	
+288	F	0.1290	
+289	S	0.1508	
+290	P	0.1660	
+291	D	0.1750	
+292	G	0.1822	
+293	K	0.1906	
+294	K	0.1919	
+295	I	0.1833	
+296	A	0.1746	
+297	T	0.1612	
+298	I	0.1457	
+299	G	0.1337	
+300	S	0.1261	
+301	D	0.1220	
+302	R	0.1192	
+303	K	0.1034	
+304	V	0.0952	
+305	R	0.0853	
+306	I	0.0816	
+307	F	0.0861	
+308	R	0.0881	
+309	F	0.0837	
+310	V	0.0788	
+311	T	0.0775	
+312	G	0.0719	
+313	K	0.0605	
+314	L	0.0538	
+315	M	0.0557	
+316	R	0.0592	
+317	V	0.0716	
+318	F	0.0904	
+319	D	0.1107	
+320	E	0.1332	
+321	S	0.1401	
+322	L	0.1547	
+323	S	0.1706	
+324	M	0.1927	
+325	F	0.2101	
+326	T	0.2290	
+327	E	0.2471	
+328	L	0.2637	
+329	Q	0.2804	
+330	Q	0.2966	
+331	M	0.2932	
+332	R	0.2913	
+333	Q	0.2913	
+334	Q	0.2869	
+335	L	0.2932	
+336	P	0.3004	
+337	D	0.3149	
+338	M	0.3289	
+339	E	0.3254	
+340	F	0.3256	
+341	G	0.3221	
+342	R	0.3163	
+343	R	0.2938	
+344	M	0.2655	
+345	A	0.2352	
+346	V	0.2021	
+347	E	0.1686	
+348	R	0.1419	
+349	E	0.1036	
+350	L	0.0753	
+351	E	0.0572	
+352	K	0.0436	
+353	V	0.0409	
+354	D	0.0424	
+355	A	0.0489	
+356	V	0.0505	
+357	R	0.0471	
+358	L	0.0442	
+359	I	0.0407	
+360	N	0.0358	
+361	I	0.0267	
+362	V	0.0170	
+363	F	0.0108	
+364	D	0.0074	
+365	E	0.0080	
+366	T	0.0108	
+367	G	0.0115	
+368	H	0.0103	
+369	F	0.0093	
+370	V	0.0099	
+371	L	0.0112	
+372	Y	0.0130	
+373	G	0.0150	
+374	T	0.0164	
+375	M	0.0165	
+376	L	0.0162	
+377	G	0.0154	
+378	I	0.0158	
+379	K	0.0128	
+380	V	0.0127	
+381	I	0.0113	
+382	N	0.0135	
+383	V	0.0203	
+384	E	0.0207	
+385	T	0.0261	
+386	N	0.0292	
+387	R	0.0351	
+388	C	0.0458	
+389	V	0.0583	
+390	R	0.0690	
+391	I	0.0776	
+392	L	0.0818	
+393	G	0.0828	
+394	K	0.0798	
+395	Q	0.0687	
+396	E	0.0540	
+397	N	0.0409	
+398	I	0.0394	
+399	R	0.0437	
+400	V	0.0598	
+401	M	0.0830	
+402	Q	0.1036	
+403	L	0.1247	
+404	A	0.1322	
+405	L	0.1397	
+406	F	0.1411	
+407	Q	0.1384	
+408	G	0.1330	
+409	I	0.1175	
+410	A	0.1101	
+411	K	0.1316	
+412	K	0.1659	
+413	H	0.1981	
+414	R	0.2358	
+415	A	0.2743	
+416	A	0.3137	
+417	T	0.3515	
+418	T	0.3775	
+419	I	0.3858	
+420	E	0.3864	
+421	M	0.3834	
+422	K	0.3724	
+423	A	0.3682	
+424	S	0.3598	
+425	E	0.3643	
+426	N	0.3700	
+427	P	0.3625	
+428	V	0.3549	
+429	L	0.3530	
+430	Q	0.3542	
+431	N	0.3503	
+432	I	0.3374	
+433	Q	0.3221	
+434	A	0.3125	
+435	D	0.3044	
+436	P	0.2954	
+437	T	0.2790	
+438	I	0.2597	
+439	V	0.2496	
+440	C	0.2460	
+441	T	0.2475	
+442	S	0.2478	
+443	F	0.2531	
+444	K	0.2628	
+445	K	0.2814	
+446	N	0.2988	
+447	R	0.3127	
+448	F	0.3367	
+449	Y	0.3636	
+450	M	0.3871	
+451	F	0.4176	
+452	T	0.4467	
+453	K	0.4699	
+454	R	0.4887	
+455	E	0.4997	
+456	P	0.5026	
+457	E	0.5092	
+458	D	0.5214	
+459	T	0.5378	
+460	K	0.5619	
+461	S	0.5849	
+462	A	0.6104	
+463	D	0.6367	
+464	S	0.6562	
+465	D	0.6625	
+466	R	0.6588	
+467	D	0.6442	
+468	V	0.6291	
+469	F	0.6151	
+470	N	0.6053	
+471	E	0.6014	
+472	K	0.6015	
+473	P	0.6061	
+474	S	0.6144	
+475	K	0.6233	
+476	E	0.6316	
+477	E	0.6402	
+478	V	0.6521	
+479	M	0.6615	
+480	A	0.6677	
+481	A	0.6637	
+482	T	0.6551	
+483	Q	0.6363	
+484	A	0.6110	
+485	E	0.5867	
+486	G	0.5687	
+487	P	0.5523	
+488	K	0.5410	
+489	R	0.5322	
+490	V	0.5381	domain PPIase cyclophilin-type
+491	S	0.5426	domain PPIase cyclophilin-type
+492	D	0.5479	domain PPIase cyclophilin-type
+493	S	0.5326	domain PPIase cyclophilin-type
+494	A	0.5133	domain PPIase cyclophilin-type
+495	I	0.4866	domain PPIase cyclophilin-type
+496	I	0.4560	domain PPIase cyclophilin-type
+497	H	0.4206	domain PPIase cyclophilin-type
+498	T	0.3909	domain PPIase cyclophilin-type
+499	S	0.3569	domain PPIase cyclophilin-type
+500	M	0.3245	domain PPIase cyclophilin-type
+501	G	0.3018	domain PPIase cyclophilin-type
+502	D	0.2908	domain PPIase cyclophilin-type
+503	I	0.2936	domain PPIase cyclophilin-type
+504	H	0.3023	domain PPIase cyclophilin-type
+505	T	0.3081	domain PPIase cyclophilin-type
+506	K	0.2971	domain PPIase cyclophilin-type
+507	L	0.2735	domain PPIase cyclophilin-type
+508	F	0.2485	domain PPIase cyclophilin-type
+509	P	0.2193	domain PPIase cyclophilin-type
+510	V	0.1978	domain PPIase cyclophilin-type
+511	E	0.1644	domain PPIase cyclophilin-type
+512	C	0.1420	domain PPIase cyclophilin-type
+513	P	0.1235	domain PPIase cyclophilin-type
+514	K	0.1147	domain PPIase cyclophilin-type
+515	T	0.1118	domain PPIase cyclophilin-type
+516	V	0.1218	domain PPIase cyclophilin-type
+517	E	0.1287	domain PPIase cyclophilin-type
+518	N	0.1298	domain PPIase cyclophilin-type
+519	F	0.1270	domain PPIase cyclophilin-type
+520	C	0.1262	domain PPIase cyclophilin-type
+521	V	0.1267	domain PPIase cyclophilin-type
+522	H	0.1291	domain PPIase cyclophilin-type
+523	S	0.1306	domain PPIase cyclophilin-type
+524	R	0.1272	domain PPIase cyclophilin-type
+525	N	0.1194	domain PPIase cyclophilin-type
+526	G	0.1073	domain PPIase cyclophilin-type
+527	Y	0.1024	domain PPIase cyclophilin-type
+528	Y	0.1080	domain PPIase cyclophilin-type
+529	N	0.1178	domain PPIase cyclophilin-type
+530	G	0.1324	domain PPIase cyclophilin-type
+531	H	0.1411	domain PPIase cyclophilin-type
+532	T	0.1525	domain PPIase cyclophilin-type
+533	F	0.1637	domain PPIase cyclophilin-type
+534	H	0.1841	domain PPIase cyclophilin-type
+535	R	0.2121	domain PPIase cyclophilin-type
+536	I	0.2404	domain PPIase cyclophilin-type
+537	I	0.2651	domain PPIase cyclophilin-type
+538	K	0.2910	domain PPIase cyclophilin-type
+539	G	0.3198	domain PPIase cyclophilin-type
+540	F	0.3554	domain PPIase cyclophilin-type
+541	M	0.3879	domain PPIase cyclophilin-type
+542	I	0.4202	domain PPIase cyclophilin-type
+543	Q	0.4350	domain PPIase cyclophilin-type
+544	T	0.4450	domain PPIase cyclophilin-type
+545	G	0.4463	domain PPIase cyclophilin-type
+546	D	0.4512	domain PPIase cyclophilin-type
+547	P	0.4589	domain PPIase cyclophilin-type
+548	T	0.4743	domain PPIase cyclophilin-type
+549	G	0.4871	domain PPIase cyclophilin-type
+550	T	0.5026	domain PPIase cyclophilin-type
+551	G	0.5131	domain PPIase cyclophilin-type
+552	M	0.5306	domain PPIase cyclophilin-type
+553	G	0.5521	domain PPIase cyclophilin-type
+554	G	0.5693	domain PPIase cyclophilin-type
+555	E	0.5704	domain PPIase cyclophilin-type
+556	S	0.5596	domain PPIase cyclophilin-type
+557	I	0.5323	domain PPIase cyclophilin-type
+558	W	0.5117	domain PPIase cyclophilin-type
+559	G	0.4947	domain PPIase cyclophilin-type
+560	G	0.4903	domain PPIase cyclophilin-type
+561	E	0.4756	domain PPIase cyclophilin-type
+562	F	0.4689	domain PPIase cyclophilin-type
+563	E	0.4616	domain PPIase cyclophilin-type
+564	D	0.4619	domain PPIase cyclophilin-type
+565	E	0.4539	domain PPIase cyclophilin-type
+566	F	0.4474	domain PPIase cyclophilin-type
+567	H	0.4388	domain PPIase cyclophilin-type
+568	S	0.4348	domain PPIase cyclophilin-type
+569	T	0.4244	domain PPIase cyclophilin-type
+570	L	0.4163	domain PPIase cyclophilin-type
+571	R	0.4110	domain PPIase cyclophilin-type
+572	H	0.4177	domain PPIase cyclophilin-type
+573	D	0.4148	domain PPIase cyclophilin-type
+574	R	0.4144	domain PPIase cyclophilin-type
+575	P	0.4115	domain PPIase cyclophilin-type
+576	Y	0.4255	domain PPIase cyclophilin-type
+577	T	0.4394	domain PPIase cyclophilin-type
+578	L	0.4626	domain PPIase cyclophilin-type
+579	S	0.4703	domain PPIase cyclophilin-type
+580	M	0.4664	domain PPIase cyclophilin-type
+581	A	0.4462	domain PPIase cyclophilin-type
+582	N	0.4133	domain PPIase cyclophilin-type
+583	A	0.3699	domain PPIase cyclophilin-type
+584	G	0.3311	domain PPIase cyclophilin-type
+585	S	0.3005	domain PPIase cyclophilin-type
+586	N	0.2812	domain PPIase cyclophilin-type
+587	T	0.2710	domain PPIase cyclophilin-type
+588	N	0.2706	domain PPIase cyclophilin-type
+589	G	0.2788	domain PPIase cyclophilin-type
+590	S	0.2969	domain PPIase cyclophilin-type
+591	Q	0.3115	domain PPIase cyclophilin-type
+592	F	0.3217	domain PPIase cyclophilin-type
+593	F	0.3187	domain PPIase cyclophilin-type
+594	I	0.3163	domain PPIase cyclophilin-type
+595	T	0.3008	domain PPIase cyclophilin-type
+596	V	0.2833	domain PPIase cyclophilin-type
+597	V	0.2550	domain PPIase cyclophilin-type
+598	P	0.2340	domain PPIase cyclophilin-type
+599	T	0.2113	domain PPIase cyclophilin-type
+600	P	0.1870	domain PPIase cyclophilin-type
+601	W	0.1793	domain PPIase cyclophilin-type
+602	L	0.1888	domain PPIase cyclophilin-type
+603	D	0.2139	domain PPIase cyclophilin-type
+604	N	0.2488	domain PPIase cyclophilin-type
+605	K	0.2805	domain PPIase cyclophilin-type
+606	H	0.3008	domain PPIase cyclophilin-type
+607	T	0.3135	domain PPIase cyclophilin-type
+608	V	0.3134	domain PPIase cyclophilin-type
+609	F	0.3145	domain PPIase cyclophilin-type
+610	G	0.3113	domain PPIase cyclophilin-type
+611	R	0.2968	domain PPIase cyclophilin-type
+612	V	0.2805	domain PPIase cyclophilin-type
+613	T	0.2675	domain PPIase cyclophilin-type
+614	K	0.2618	domain PPIase cyclophilin-type
+615	G	0.2542	domain PPIase cyclophilin-type
+616	M	0.2513	domain PPIase cyclophilin-type
+617	E	0.2541	domain PPIase cyclophilin-type
+618	V	0.2632	domain PPIase cyclophilin-type
+619	V	0.2783	domain PPIase cyclophilin-type
+620	Q	0.3036	domain PPIase cyclophilin-type
+621	R	0.3303	domain PPIase cyclophilin-type
+622	I	0.3568	domain PPIase cyclophilin-type
+623	S	0.3796	domain PPIase cyclophilin-type
+624	N	0.3905	domain PPIase cyclophilin-type
+625	V	0.3938	domain PPIase cyclophilin-type
+626	K	0.3818	domain PPIase cyclophilin-type
+627	V	0.3768	domain PPIase cyclophilin-type
+628	N	0.3719	domain PPIase cyclophilin-type
+629	P	0.3644	domain PPIase cyclophilin-type
+630	K	0.3423	domain PPIase cyclophilin-type
+631	T	0.3179	domain PPIase cyclophilin-type
+632	D	0.3016	domain PPIase cyclophilin-type
+633	K	0.2899	domain PPIase cyclophilin-type
+634	P	0.2804	domain PPIase cyclophilin-type
+635	Y	0.2864	domain PPIase cyclophilin-type
+636	E	0.3075	domain PPIase cyclophilin-type
+637	D	0.3414	domain PPIase cyclophilin-type
+638	V	0.3927	domain PPIase cyclophilin-type
+639	S	0.4465	domain PPIase cyclophilin-type
+640	I	0.4970	domain PPIase cyclophilin-type
+641	I	0.5398	domain PPIase cyclophilin-type
+642	N	0.5735	domain PPIase cyclophilin-type
+643	I	0.6008	domain PPIase cyclophilin-type
+644	T	0.6292	domain PPIase cyclophilin-type
+645	V	0.6724	domain PPIase cyclophilin-type
+646	K	0.7515	

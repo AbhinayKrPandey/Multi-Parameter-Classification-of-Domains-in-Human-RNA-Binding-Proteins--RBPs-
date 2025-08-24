@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1988-11-01" modified="2024-10-02" version="232" xmlns="http://uniprot.org/uniprot">
+  <accession>P05386</accession>
+  <accession>A6NIB2</accession>
+  <name>RLA1_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="6">Large ribosomal subunit protein P1</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>60S acidic ribosomal protein P1</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">RPLP1</name>
+    <name type="synonym">RRP1</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1987" name="Mol. Cell. Biol." volume="7" first="4065" last="4074">
+      <title>Human acidic ribosomal phosphoproteins P0, P1, and P2: analysis of cDNA clones, in vitro synthesis, and assembly.</title>
+      <authorList>
+        <person name="Rich B.E."/>
+        <person name="Steitz J.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="3323886"/>
+      <dbReference type="DOI" id="10.1128/mcb.7.11.4065-4074.1987"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2002" name="Genome Res." volume="12" first="379" last="390">
+      <title>The human ribosomal protein genes: sequencing and comparative analysis of 73 genes.</title>
+      <authorList>
+        <person name="Yoshihama M."/>
+        <person name="Uechi T."/>
+        <person name="Asakawa S."/>
+        <person name="Kawasaki K."/>
+        <person name="Kato S."/>
+        <person name="Higa S."/>
+        <person name="Maeda N."/>
+        <person name="Minoshima S."/>
+        <person name="Tanaka T."/>
+        <person name="Shimizu N."/>
+        <person name="Kenmochi N."/>
+      </authorList>
+      <dbReference type="PubMed" id="11875025"/>
+      <dbReference type="DOI" id="10.1101/gr.214202"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2006" name="Nature" volume="440" first="671" last="675">
+      <title>Analysis of the DNA sequence and duplication history of human chromosome 15.</title>
+      <authorList>
+        <person name="Zody M.C."/>
+        <person name="Garber M."/>
+        <person name="Sharpe T."/>
+        <person name="Young S.K."/>
+        <person name="Rowen L."/>
+        <person name="O'Neill K."/>
+        <person name="Whittaker C.A."/>
+        <person name="Kamal M."/>
+        <person name="Chang J.L."/>
+        <person name="Cuomo C.A."/>
+        <person name="Dewar K."/>
+        <person name="FitzGerald M.G."/>
+        <person name="Kodira C.D."/>
+        <person name="Madan A."/>
+        <person name="Qin S."/>
+        <person name="Yang X."/>
+        <person name="Abbasi N."/>
+        <person name="Abouelleil A."/>
+        <person name="Arachchi H.M."/>
+        <person name="Baradarani L."/>
+        <person name="Birditt B."/>
+        <person name="Bloom S."/>
+        <person name="Bloom T."/>
+        <person name="Borowsky M.L."/>
+        <person name="Burke J."/>
+        <person name="Butler J."/>
+        <person name="Cook A."/>
+        <person name="DeArellano K."/>
+        <person name="DeCaprio D."/>
+        <person name="Dorris L. III"/>
+        <person name="Dors M."/>
+        <person name="Eichler E.E."/>
+        <person name="Engels R."/>
+        <person name="Fahey J."/>
+        <person name="Fleetwood P."/>
+        <person name="Friedman C."/>
+        <person name="Gearin G."/>
+        <person name="Hall J.L."/>
+        <person name="Hensley G."/>
+        <person name="Johnson E."/>
+        <person name="Jones C."/>
+        <person name="Kamat A."/>
+        <person name="Kaur A."/>
+        <person name="Locke D.P."/>
+        <person name="Madan A."/>
+        <person name="Munson G."/>
+        <person name="Jaffe D.B."/>
+        <person name="Lui A."/>
+        <person name="Macdonald P."/>
+        <person name="Mauceli E."/>
+        <person name="Naylor J.W."/>
+        <person name="Nesbitt R."/>
+        <person name="Nicol R."/>
+        <person name="O'Leary S.B."/>
+        <person name="Ratcliffe A."/>
+        <person name="Rounsley S."/>
+        <person name="She X."/>
+        <person name="Sneddon K.M.B."/>
+        <person name="Stewart S."/>
+        <person name="Sougnez C."/>
+        <person name="Stone S.M."/>
+        <person name="Topham K."/>
+        <person name="Vincent D."/>
+        <person name="Wang S."/>
+        <person name="Zimmer A.R."/>
+        <person name="Birren B.W."/>
+        <person name="Hood L."/>
+        <person name="Lander E.S."/>
+        <person name="Nusbaum C."/>
+      </authorList>
+      <dbReference type="PubMed" id="16572171"/>
+      <dbReference type="DOI" id="10.1038/nature04601"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="4">
+    <citation type="submission" date="2005-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Mural R.J."/>
+        <person name="Istrail S."/>
+        <person name="Sutton G."/>
+        <person name="Florea L."/>
+        <person name="Halpern A.L."/>
+        <person name="Mobarry C.M."/>
+        <person name="Lippert R."/>
+        <person name="Walenz B."/>
+        <person name="Shatkay H."/>
+        <person name="Dew I."/>
+        <person name="Miller J.R."/>
+        <person name="Flanigan M.J."/>
+        <person name="Edwards N.J."/>
+        <person name="Bolanos R."/>
+        <person name="Fasulo D."/>
+        <person name="Halldorsson B.V."/>
+        <person name="Hannenhalli S."/>
+        <person name="Turner R."/>
+        <person name="Yooseph S."/>
+        <person name="Lu F."/>
+        <person name="Nusskern D.R."/>
+        <person name="Shue B.C."/>
+        <person name="Zheng X.H."/>
+        <person name="Zhong F."/>
+        <person name="Delcher A.L."/>
+        <person name="Huson D.H."/>
+        <person name="Kravitz S.A."/>
+        <person name="Mouchard L."/>
+        <person name="Reinert K."/>
+        <person name="Remington K.A."/>
+        <person name="Clark A.G."/>
+        <person name="Waterman M.S."/>
+        <person name="Eichler E.E."/>
+        <person name="Adams M.D."/>
+        <person name="Hunkapiller M.W."/>
+        <person name="Myers E.W."/>
+        <person name="Venter J.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2)</scope>
+    <source>
+      <tissue>Eye</tissue>
+      <tissue>Placenta</tissue>
+      <tissue>Trophoblast</tissue>
+    </source>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2004" name="Proteomics" volume="4" first="587" last="598">
+      <title>Identification and characterization of phosphorylated proteins in the human pituitary.</title>
+      <authorList>
+        <person name="Giorgianni F."/>
+        <person name="Beranova-Giorgianni S."/>
+        <person name="Desiderio D.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="14997482"/>
+      <dbReference type="DOI" id="10.1002/pmic.200300584"/>
+    </citation>
+    <scope>PHOSPHORYLATION AT SER-101</scope>
+    <source>
+      <tissue>Pituitary</tissue>
+    </source>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2006" name="Pituitary" volume="9" first="109" last="120">
+      <title>Phosphoproteomic analysis of the human pituitary.</title>
+      <authorList>
+        <person name="Beranova-Giorgianni S."/>
+        <person name="Zhao Y."/>
+        <person name="Desiderio D.M."/>
+        <person name="Giorgianni F."/>
+      </authorList>
+      <dbReference type="PubMed" id="16807684"/>
+      <dbReference type="DOI" id="10.1007/s11102-006-8916-x"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-101</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Pituitary</tissue>
+    </source>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2009" name="Anal. Chem." volume="81" first="4493" last="4501">
+      <title>Lys-N and trypsin cover complementary parts of the phosphoproteome in a refined SCX-based approach.</title>
+      <authorList>
+        <person name="Gauci S."/>
+        <person name="Helbig A.O."/>
+        <person name="Slijper M."/>
+        <person name="Krijgsveld J."/>
+        <person name="Heck A.J."/>
+        <person name="Mohammed S."/>
+      </authorList>
+      <dbReference type="PubMed" id="19413330"/>
+      <dbReference type="DOI" id="10.1021/ac9004309"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2012" name="Mol. Cell. Proteomics" volume="11" first="M111.015131" last="M111.015131">
+      <title>Comparative large-scale characterisation of plant vs. mammal proteins reveals similar and idiosyncratic N-alpha acetylation features.</title>
+      <authorList>
+        <person name="Bienvenut W.V."/>
+        <person name="Sumpton D."/>
+        <person name="Martinez A."/>
+        <person name="Lilla S."/>
+        <person name="Espagne C."/>
+        <person name="Meinnel T."/>
+        <person name="Giglione C."/>
+      </authorList>
+      <dbReference type="PubMed" id="22223895"/>
+      <dbReference type="DOI" id="10.1074/mcp.m111.015131"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2014" name="Curr. Opin. Struct. Biol." volume="24" first="165" last="169">
+      <title>A new system for naming ribosomal proteins.</title>
+      <authorList>
+        <person name="Ban N."/>
+        <person name="Beckmann R."/>
+        <person name="Cate J.H.D."/>
+        <person name="Dinman J.D."/>
+        <person name="Dragon F."/>
+        <person name="Ellis S.R."/>
+        <person name="Lafontaine D.L.J."/>
+        <person name="Lindahl L."/>
+        <person name="Liljas A."/>
+        <person name="Lipton J.M."/>
+        <person name="McAlear M.A."/>
+        <person name="Moore P.B."/>
+        <person name="Noller H.F."/>
+        <person name="Ortega J."/>
+        <person name="Panse V.G."/>
+        <person name="Ramakrishnan V."/>
+        <person name="Spahn C.M.T."/>
+        <person name="Steitz T.A."/>
+        <person name="Tchorzewski M."/>
+        <person name="Tollervey D."/>
+        <person name="Warren A.J."/>
+        <person name="Williamson J.R."/>
+        <person name="Wilson D."/>
+        <person name="Yonath A."/>
+        <person name="Yusupov M."/>
+      </authorList>
+      <dbReference type="PubMed" id="24524803"/>
+      <dbReference type="DOI" id="10.1016/j.sbi.2014.01.002"/>
+    </citation>
+    <scope>NOMENCLATURE</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2015" name="Proteomics" volume="15" first="2519" last="2524">
+      <title>N-terminome analysis of the human mitochondrial proteome.</title>
+      <authorList>
+        <person name="Vaca Jacome A.S."/>
+        <person name="Rabilloud T."/>
+        <person name="Schaeffer-Reiss C."/>
+        <person name="Rompais M."/>
+        <person name="Ayoub D."/>
+        <person name="Lane L."/>
+        <person name="Bairoch A."/>
+        <person name="Van Dorsselaer A."/>
+        <person name="Carapito C."/>
+      </authorList>
+      <dbReference type="PubMed" id="25944712"/>
+      <dbReference type="DOI" id="10.1002/pmic.201400617"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2023" name="Cell">
+      <title>An E3 ligase network engages GCN1 to promote the degradation of translation factors on stalled ribosomes.</title>
+      <authorList>
+        <person name="Oltion K."/>
+        <person name="Carelli J.D."/>
+        <person name="Yang T."/>
+        <person name="See S.K."/>
+        <person name="Wang H.Y."/>
+        <person name="Kampmann M."/>
+        <person name="Taunton J."/>
+      </authorList>
+      <dbReference type="PubMed" id="36638793"/>
+      <dbReference type="DOI" id="10.1016/j.cell.2022.12.025"/>
+    </citation>
+    <scope>UBIQUITINATION AT LYS-92 AND LYS-93</scope>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2012" name="Nucleic Acids Res." volume="40" first="3172" last="3182">
+      <title>Solution structure of the dimerization domain of the eukaryotic stalk P1/P2 complex reveals the structural organization of eukaryotic stalk complex.</title>
+      <authorList>
+        <person name="Lee K.M."/>
+        <person name="Yu C.W."/>
+        <person name="Chiu T.Y."/>
+        <person name="Sze K.H."/>
+        <person name="Shaw P.C."/>
+        <person name="Wong K.B."/>
+      </authorList>
+      <dbReference type="PubMed" id="22135285"/>
+      <dbReference type="DOI" id="10.1093/nar/gkr1143"/>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 1-69</scope>
+    <scope>SUBUNIT</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2013" name="Nature" volume="497" first="80" last="85">
+      <title>Structures of the human and Drosophila 80S ribosome.</title>
+      <authorList>
+        <person name="Anger A.M."/>
+        <person name="Armache J.P."/>
+        <person name="Berninghausen O."/>
+        <person name="Habeck M."/>
+        <person name="Subklewe M."/>
+        <person name="Wilson D.N."/>
+        <person name="Beckmann R."/>
+      </authorList>
+      <dbReference type="PubMed" id="23636399"/>
+      <dbReference type="DOI" id="10.1038/nature12104"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (5.0 ANGSTROMS) OF 80S RIBOSOME</scope>
+  </reference>
+  <comment type="function">
+    <text>Plays an important role in the elongation step of protein synthesis.</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="3">Heterodimer with RPLP2 at the lateral ribosomal stalk of the large ribosomal subunit.</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-354582">
+      <id>P05386</id>
+    </interactant>
+    <interactant intactId="EBI-347804">
+      <id>P68400</id>
+      <label>CSNK2A1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-354582">
+      <id>P05386</id>
+    </interactant>
+    <interactant intactId="EBI-352813">
+      <id>P05387</id>
+      <label>RPLP2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-354582">
+      <id>P05386</id>
+    </interactant>
+    <interactant intactId="EBI-3921347">
+      <id>P51687</id>
+      <label>SUOX</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="alternative products">
+    <event type="alternative splicing"/>
+    <isoform>
+      <id>P05386-1</id>
+      <name>1</name>
+      <sequence type="displayed"/>
+    </isoform>
+    <isoform>
+      <id>P05386-2</id>
+      <name>2</name>
+      <sequence type="described" ref="VSP_045244"/>
+    </isoform>
+  </comment>
+  <comment type="PTM">
+    <text evidence="4">Ubiquitinated at Lys-92 and Lys-93 by RNF14 and RNF25 in response to ribosome collisions (ribosome stalling).</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="7">Belongs to the eukaryotic ribosomal protein P1/P2 family.</text>
+  </comment>
+  <dbReference type="EMBL" id="M17886">
+    <property type="protein sequence ID" value="AAA36471.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB061836">
+    <property type="protein sequence ID" value="BAB79474.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AC027237">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CH471082">
+    <property type="protein sequence ID" value="EAW77845.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC003369">
+    <property type="protein sequence ID" value="AAH03369.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC007590">
+    <property type="protein sequence ID" value="AAH07590.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CD388103">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS10233.1">
+    <molecule id="P05386-1"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS10234.1">
+    <molecule id="P05386-2"/>
+  </dbReference>
+  <dbReference type="PIR" id="B27125">
+    <property type="entry name" value="R6HUP1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_000994.1">
+    <molecule id="P05386-1"/>
+    <property type="nucleotide sequence ID" value="NM_001003.2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_998890.1">
+    <molecule id="P05386-2"/>
+    <property type="nucleotide sequence ID" value="NM_213725.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="2LBF">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=1-69"/>
+  </dbReference>
+  <dbReference type="PDB" id="4BEH">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=1-114"/>
+  </dbReference>
+  <dbReference type="PDB" id="4V6X">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="5.00 A"/>
+    <property type="chains" value="Cs/Ct=1-114"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2LBF"/>
+  <dbReference type="PDBsum" id="4BEH"/>
+  <dbReference type="PDBsum" id="4V6X"/>
+  <dbReference type="AlphaFoldDB" id="P05386"/>
+  <dbReference type="BMRB" id="P05386"/>
+  <dbReference type="SMR" id="P05386"/>
+  <dbReference type="BioGRID" id="112095">
+    <property type="interactions" value="310"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-5183">
+    <property type="entry name" value="60S cytosolic large ribosomal subunit"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-7664">
+    <property type="entry name" value="60S cytosolic large ribosomal subunit, testis-specific variant"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-7665">
+    <property type="entry name" value="60S cytosolic large ribosomal subunit, striated muscle variant"/>
+  </dbReference>
+  <dbReference type="CORUM" id="P05386"/>
+  <dbReference type="IntAct" id="P05386">
+    <property type="interactions" value="169"/>
+  </dbReference>
+  <dbReference type="MINT" id="P05386"/>
+  <dbReference type="STRING" id="9606.ENSP00000346037"/>
+  <dbReference type="GlyGen" id="P05386">
+    <property type="glycosylation" value="1 site, 1 O-linked glycan (1 site)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="P05386"/>
+  <dbReference type="MetOSite" id="P05386"/>
+  <dbReference type="PhosphoSitePlus" id="P05386"/>
+  <dbReference type="SwissPalm" id="P05386"/>
+  <dbReference type="BioMuta" id="RPLP1"/>
+  <dbReference type="jPOST" id="P05386"/>
+  <dbReference type="MassIVE" id="P05386"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000346037"/>
+  <dbReference type="PeptideAtlas" id="P05386"/>
+  <dbReference type="PRIDE" id="P05386"/>
+  <dbReference type="ProteomicsDB" id="1259"/>
+  <dbReference type="ProteomicsDB" id="51831">
+    <molecule id="P05386-1"/>
+  </dbReference>
+  <dbReference type="Pumba" id="P05386"/>
+  <dbReference type="TopDownProteomics" id="P05386-1">
+    <molecule id="P05386-1"/>
+  </dbReference>
+  <dbReference type="TopDownProteomics" id="P05386-2">
+    <molecule id="P05386-2"/>
+  </dbReference>
+  <dbReference type="Antibodypedia" id="1247">
+    <property type="antibodies" value="182 antibodies from 28 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="6176"/>
+  <dbReference type="Ensembl" id="ENST00000260379.11">
+    <molecule id="P05386-1"/>
+    <property type="protein sequence ID" value="ENSP00000346037.5"/>
+    <property type="gene ID" value="ENSG00000137818.12"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000357790.5">
+    <molecule id="P05386-2"/>
+    <property type="protein sequence ID" value="ENSP00000350437.5"/>
+    <property type="gene ID" value="ENSG00000137818.12"/>
+  </dbReference>
+  <dbReference type="GeneID" id="6176"/>
+  <dbReference type="KEGG" id="hsa:6176"/>
+  <dbReference type="MANE-Select" id="ENST00000260379.11">
+    <property type="protein sequence ID" value="ENSP00000346037.5"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_001003.3"/>
+    <property type="RefSeq protein sequence ID" value="NP_000994.1"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc002asd.2">
+    <molecule id="P05386-1"/>
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:10372"/>
+  <dbReference type="CTD" id="6176"/>
+  <dbReference type="DisGeNET" id="6176"/>
+  <dbReference type="GeneCards" id="RPLP1"/>
+  <dbReference type="HGNC" id="HGNC:10372">
+    <property type="gene designation" value="RPLP1"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000137818">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MIM" id="180520">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_P05386"/>
+  <dbReference type="OpenTargets" id="ENSG00000137818"/>
+  <dbReference type="PharmGKB" id="PA34775"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000137818"/>
+  <dbReference type="eggNOG" id="KOG1762">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00550000074698"/>
+  <dbReference type="HOGENOM" id="CLU_114656_1_2_1"/>
+  <dbReference type="InParanoid" id="P05386"/>
+  <dbReference type="OMA" id="REELMCV"/>
+  <dbReference type="OrthoDB" id="26483at2759"/>
+  <dbReference type="PhylomeDB" id="P05386"/>
+  <dbReference type="TreeFam" id="TF312932"/>
+  <dbReference type="PathwayCommons" id="P05386"/>
+  <dbReference type="Reactome" id="R-HSA-156827">
+    <property type="pathway name" value="L13a-mediated translational silencing of Ceruloplasmin expression"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-156902">
+    <property type="pathway name" value="Peptide chain elongation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-1799339">
+    <property type="pathway name" value="SRP-dependent cotranslational protein targeting to membrane"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-192823">
+    <property type="pathway name" value="Viral mRNA Translation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-2408557">
+    <property type="pathway name" value="Selenocysteine synthesis"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-6791226">
+    <property type="pathway name" value="Major pathway of rRNA processing in the nucleolus and cytosol"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-72689">
+    <property type="pathway name" value="Formation of a pool of free 40S subunits"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-72706">
+    <property type="pathway name" value="GTP hydrolysis and joining of the 60S ribosomal subunit"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-72764">
+    <property type="pathway name" value="Eukaryotic Translation Termination"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9010553">
+    <property type="pathway name" value="Regulation of expression of SLITs and ROBOs"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9633012">
+    <property type="pathway name" value="Response of EIF2AK4 (GCN2) to amino acid deficiency"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-975956">
+    <property type="pathway name" value="Nonsense Mediated Decay (NMD) independent of the Exon Junction Complex (EJC)"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-975957">
+    <property type="pathway name" value="Nonsense Mediated Decay (NMD) enhanced by the Exon Junction Complex (EJC)"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="P05386"/>
+  <dbReference type="SIGNOR" id="P05386"/>
+  <dbReference type="BioGRID-ORCS" id="6176">
+    <property type="hits" value="826 hits in 1137 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="RPLP1">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="P05386"/>
+  <dbReference type="GeneWiki" id="RPLP1"/>
+  <dbReference type="GenomeRNAi" id="6176"/>
+  <dbReference type="Pharos" id="P05386">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:P05386"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 15"/>
+  </dbReference>
+  <dbReference type="RNAct" id="P05386">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000137818">
+    <property type="expression patterns" value="Expressed in epithelium of bronchus and 114 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="P05386">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000303"/>
+    <property type="project" value="ComplexPortal"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005829">
+    <property type="term" value="C:cytosol"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0022625">
+    <property type="term" value="C:cytosolic large ribosomal subunit"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0022626">
+    <property type="term" value="C:cytosolic ribosome"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="FlyBase"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005925">
+    <property type="term" value="C:focal adhesion"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030295">
+    <property type="term" value="F:protein kinase activator activity"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043021">
+    <property type="term" value="F:ribonucleoprotein complex binding"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003735">
+    <property type="term" value="F:structural constituent of ribosome"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="FlyBase"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0002181">
+    <property type="term" value="P:cytoplasmic translation"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006412">
+    <property type="term" value="P:translation"/>
+    <property type="evidence" value="ECO:0000303"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006414">
+    <property type="term" value="P:translational elongation"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="InterPro"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd05831">
+    <property type="entry name" value="Ribosomal_P1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="DisProt" id="DP01253"/>
+  <dbReference type="Gene3D" id="1.10.10.1410">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="HAMAP" id="MF_01478">
+    <property type="entry name" value="Ribosomal_L12_arch"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR038716">
+    <property type="entry name" value="P1/P2_N_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR027534">
+    <property type="entry name" value="Ribosomal_P1/P2"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR45696">
+    <property type="entry name" value="60S ACIDIC RIBOSOMAL PROTEIN P1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR45696:SF10">
+    <property type="entry name" value="60S ACIDIC RIBOSOMAL PROTEIN P1-RELATED"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00428">
+    <property type="entry name" value="Ribosomal_60s"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0025">Alternative splicing</keyword>
+  <keyword id="KW-1017">Isopeptide bond</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0687">Ribonucleoprotein</keyword>
+  <keyword id="KW-0689">Ribosomal protein</keyword>
+  <keyword id="KW-0832">Ubl conjugation</keyword>
+  <feature type="initiator methionine" description="Removed" evidence="9 10 11">
+    <location>
+      <position position="1"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000157686" description="Large ribosomal subunit protein P1">
+    <location>
+      <begin position="2"/>
+      <end position="114"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="1">
+    <location>
+      <begin position="69"/>
+      <end position="114"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="1">
+    <location>
+      <begin position="90"/>
+      <end position="104"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N-acetylalanine" evidence="9 10 11">
+    <location>
+      <position position="2"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="2 8">
+    <location>
+      <position position="101"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="4">
+    <location>
+      <position position="92"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in ubiquitin)" evidence="4">
+    <location>
+      <position position="93"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_045244" description="In isoform 2." evidence="5">
+    <location>
+      <begin position="25"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="12">
+    <location>
+      <begin position="4"/>
+      <end position="19"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="12">
+    <location>
+      <begin position="25"/>
+      <end position="35"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="12">
+    <location>
+      <begin position="42"/>
+      <end position="50"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="12">
+    <location>
+      <begin position="51"/>
+      <end position="53"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="12">
+    <location>
+      <begin position="56"/>
+      <end position="60"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="12">
+    <location>
+      <begin position="61"/>
+      <end position="64"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000256" key="1">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="2">
+    <source>
+      <dbReference type="PubMed" id="14997482"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="22135285"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="36638793"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="5">
+    <source>
+      <dbReference type="PubMed" id="15489334"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="6">
+    <source>
+      <dbReference type="PubMed" id="24524803"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="7"/>
+  <evidence type="ECO:0007744" key="8">
+    <source>
+      <dbReference type="PubMed" id="16807684"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="9">
+    <source>
+      <dbReference type="PubMed" id="19413330"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="10">
+    <source>
+      <dbReference type="PubMed" id="22223895"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="11">
+    <source>
+      <dbReference type="PubMed" id="25944712"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="12">
+    <source>
+      <dbReference type="PDB" id="2LBF"/>
+    </source>
+  </evidence>
+  <sequence length="114" mass="11514" checksum="4C282AB8DCA079C8" modified="1988-11-01" version="1">MASVSELACIYSALILHDDEVTVTEDKINALIKAAGVNVEPFWPGLFAKALANVNIGSLICNVGAGGPAPAAGAAPAGGPAPSTAAAPAEEKKVEAKKEESEESDDDMGFGLFD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

@@ -1,0 +1,488 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9347	
+2	A	0.8868	
+3	N	0.8482	
+4	S	0.8109	
+5	A	0.7707	
+6	K	0.7257	
+7	A	0.6765	
+8	E	0.6252	
+9	E	0.5749	
+10	Y	0.5295	
+11	E	0.4936	
+12	K	0.4773	
+13	M	0.4667	
+14	S	0.4694	
+15	L	0.4843	
+16	E	0.5002	
+17	Q	0.5121	
+18	A	0.5154	
+19	K	0.5111	
+20	A	0.5073	
+21	S	0.5033	
+22	V	0.5011	
+23	N	0.4966	
+24	S	0.4953	
+25	E	0.4989	
+26	T	0.5078	
+27	E	0.5165	
+28	S	0.5235	
+29	S	0.5267	
+30	F	0.5346	
+31	N	0.5327	
+32	I	0.5439	
+33	N	0.5514	
+34	E	0.5526	
+35	N	0.5470	
+36	T	0.5295	
+37	T	0.5104	
+38	A	0.4973	
+39	S	0.4860	
+40	G	0.4777	
+41	T	0.4680	
+42	G	0.4588	
+43	L	0.4493	
+44	S	0.4463	
+45	E	0.4457	
+46	K	0.4421	
+47	T	0.4305	
+48	S	0.4166	
+49	V	0.4036	
+50	C	0.4022	
+51	R	0.4024	
+52	Q	0.4026	
+53	V	0.3920	
+54	D	0.3689	
+55	I	0.3585	
+56	A	0.3531	
+57	R	0.3563	
+58	K	0.3629	
+59	R	0.3705	
+60	K	0.3775	
+61	E	0.3810	
+62	F	0.3915	
+63	E	0.4087	
+64	D	0.4261	
+65	D	0.4337	
+66	L	0.4408	
+67	V	0.4495	
+68	K	0.4602	
+69	E	0.4746	
+70	S	0.4884	
+71	S	0.4973	
+72	S	0.4955	
+73	C	0.5022	
+74	G	0.5098	
+75	K	0.5299	
+76	D	0.5416	
+77	T	0.5597	
+78	P	0.5758	
+79	S	0.5884	
+80	K	0.5975	
+81	K	0.6072	
+82	R	0.6179	
+83	K	0.6207	
+84	L	0.6200	
+85	D	0.6194	
+86	P	0.6192	
+87	E	0.6161	
+88	I	0.6109	
+89	V	0.6122	
+90	P	0.6127	
+91	E	0.6150	
+92	E	0.6177	
+93	K	0.6267	
+94	D	0.6302	
+95	C	0.6351	
+96	G	0.6355	
+97	D	0.6354	
+98	A	0.6283	
+99	E	0.6230	
+100	G	0.6209	
+101	N	0.6228	
+102	S	0.6271	
+103	K	0.6357	
+104	K	0.6473	
+105	R	0.6594	
+106	K	0.6691	
+107	R	0.6779	
+108	E	0.6867	
+109	T	0.6930	
+110	E	0.6933	
+111	D	0.6960	
+112	V	0.7008	
+113	P	0.7058	
+114	K	0.7128	
+115	D	0.7161	
+116	K	0.7198	
+117	S	0.7189	
+118	S	0.7131	
+119	T	0.7045	
+120	G	0.6920	
+121	D	0.6804	
+122	G	0.6686	
+123	T	0.6654	
+124	Q	0.6660	
+125	N	0.6684	
+126	K	0.6727	
+127	R	0.6744	
+128	K	0.6727	
+129	I	0.6697	
+130	A	0.6613	
+131	L	0.6578	
+132	E	0.6540	
+133	D	0.6482	
+134	V	0.6425	
+135	P	0.6402	
+136	E	0.6423	
+137	K	0.6369	
+138	Q	0.6352	
+139	K	0.6342	
+140	N	0.6230	
+141	L	0.6169	
+142	E	0.6042	
+143	E	0.5964	
+144	G	0.5825	
+145	H	0.5636	
+146	S	0.5418	
+147	S	0.5163	
+148	T	0.4884	
+149	V	0.4651	
+150	A	0.4409	
+151	A	0.4278	
+152	H	0.4136	
+153	Y	0.4088	
+154	N	0.4086	
+155	E	0.4007	
+156	L	0.3832	
+157	Q	0.3609	
+158	E	0.3295	
+159	V	0.2887	
+160	G	0.2453	
+161	L	0.2162	
+162	E	0.1871	
+163	K	0.1631	
+164	R	0.1435	
+165	S	0.1335	
+166	Q	0.1329	
+167	S	0.1339	domain mRNA cap 0 methyltransferase
+168	R	0.1283	domain mRNA cap 0 methyltransferase
+169	I	0.1223	domain mRNA cap 0 methyltransferase
+170	F	0.1125	domain mRNA cap 0 methyltransferase
+171	Y	0.1013	domain mRNA cap 0 methyltransferase
+172	L	0.0901	domain mRNA cap 0 methyltransferase
+173	R	0.0816	domain mRNA cap 0 methyltransferase
+174	N	0.0647	domain mRNA cap 0 methyltransferase
+175	F	0.0503	domain mRNA cap 0 methyltransferase
+176	N	0.0389	domain mRNA cap 0 methyltransferase
+177	N	0.0249	domain mRNA cap 0 methyltransferase
+178	W	0.0166	domain mRNA cap 0 methyltransferase
+179	M	0.0173	domain mRNA cap 0 methyltransferase
+180	K	0.0245	domain mRNA cap 0 methyltransferase
+181	S	0.0369	domain mRNA cap 0 methyltransferase
+182	V	0.0468	domain mRNA cap 0 methyltransferase
+183	L	0.0607	domain mRNA cap 0 methyltransferase
+184	I	0.0826	domain mRNA cap 0 methyltransferase
+185	G	0.1012	domain mRNA cap 0 methyltransferase
+186	E	0.1159	domain mRNA cap 0 methyltransferase
+187	F	0.1189	domain mRNA cap 0 methyltransferase
+188	L	0.1193	domain mRNA cap 0 methyltransferase
+189	E	0.1188	domain mRNA cap 0 methyltransferase
+190	K	0.1141	domain mRNA cap 0 methyltransferase
+191	V	0.1024	domain mRNA cap 0 methyltransferase
+192	R	0.0896	domain mRNA cap 0 methyltransferase
+193	Q	0.0799	domain mRNA cap 0 methyltransferase
+194	K	0.0761	domain mRNA cap 0 methyltransferase
+195	K	0.0886	domain mRNA cap 0 methyltransferase
+196	K	0.1047	domain mRNA cap 0 methyltransferase
+197	R	0.1277	domain mRNA cap 0 methyltransferase
+198	D	0.1531	domain mRNA cap 0 methyltransferase
+199	I	0.1736	domain mRNA cap 0 methyltransferase
+200	T	0.1827	domain mRNA cap 0 methyltransferase
+201	V	0.1815	domain mRNA cap 0 methyltransferase
+202	L	0.1744	domain mRNA cap 0 methyltransferase
+203	D	0.1602	domain mRNA cap 0 methyltransferase
+204	L	0.1402	domain mRNA cap 0 methyltransferase
+205	G	0.1103	domain mRNA cap 0 methyltransferase
+206	C	0.0898	domain mRNA cap 0 methyltransferase
+207	G	0.0837	domain mRNA cap 0 methyltransferase
+208	K	0.0923	domain mRNA cap 0 methyltransferase
+209	G	0.0978	domain mRNA cap 0 methyltransferase
+210	G	0.1077	domain mRNA cap 0 methyltransferase
+211	D	0.1207	domain mRNA cap 0 methyltransferase
+212	L	0.1287	domain mRNA cap 0 methyltransferase
+213	L	0.1383	domain mRNA cap 0 methyltransferase
+214	K	0.1415	domain mRNA cap 0 methyltransferase
+215	W	0.1427	domain mRNA cap 0 methyltransferase
+216	K	0.1357	domain mRNA cap 0 methyltransferase
+217	K	0.1237	domain mRNA cap 0 methyltransferase
+218	G	0.1120	domain mRNA cap 0 methyltransferase
+219	R	0.1019	domain mRNA cap 0 methyltransferase
+220	I	0.0951	domain mRNA cap 0 methyltransferase
+221	N	0.0925	domain mRNA cap 0 methyltransferase
+222	K	0.0968	domain mRNA cap 0 methyltransferase
+223	L	0.0991	domain mRNA cap 0 methyltransferase
+224	V	0.1028	domain mRNA cap 0 methyltransferase
+225	C	0.1126	domain mRNA cap 0 methyltransferase
+226	T	0.1245	domain mRNA cap 0 methyltransferase
+227	D	0.1285	domain mRNA cap 0 methyltransferase
+228	I	0.1235	domain mRNA cap 0 methyltransferase
+229	A	0.1165	domain mRNA cap 0 methyltransferase
+230	D	0.1130	domain mRNA cap 0 methyltransferase
+231	V	0.1148	domain mRNA cap 0 methyltransferase
+232	S	0.1187	domain mRNA cap 0 methyltransferase
+233	V	0.1387	domain mRNA cap 0 methyltransferase
+234	K	0.1646	domain mRNA cap 0 methyltransferase
+235	Q	0.2068	domain mRNA cap 0 methyltransferase
+236	C	0.2489	domain mRNA cap 0 methyltransferase
+237	Q	0.2882	domain mRNA cap 0 methyltransferase
+238	Q	0.3183	domain mRNA cap 0 methyltransferase
+239	R	0.3334	domain mRNA cap 0 methyltransferase
+240	Y	0.3461	domain mRNA cap 0 methyltransferase
+241	E	0.3461	domain mRNA cap 0 methyltransferase
+242	D	0.3412	domain mRNA cap 0 methyltransferase
+243	M	0.3271	domain mRNA cap 0 methyltransferase
+244	K	0.3071	domain mRNA cap 0 methyltransferase
+245	N	0.2885	domain mRNA cap 0 methyltransferase
+246	R	0.2662	domain mRNA cap 0 methyltransferase
+247	R	0.2442	domain mRNA cap 0 methyltransferase
+248	D	0.2358	domain mRNA cap 0 methyltransferase
+249	S	0.2362	domain mRNA cap 0 methyltransferase
+250	E	0.2386	domain mRNA cap 0 methyltransferase
+251	Y	0.2451	domain mRNA cap 0 methyltransferase
+252	I	0.2447	domain mRNA cap 0 methyltransferase
+253	F	0.2545	domain mRNA cap 0 methyltransferase
+254	S	0.2554	domain mRNA cap 0 methyltransferase
+255	A	0.2484	domain mRNA cap 0 methyltransferase
+256	E	0.2219	domain mRNA cap 0 methyltransferase
+257	F	0.1815	domain mRNA cap 0 methyltransferase
+258	I	0.1391	domain mRNA cap 0 methyltransferase
+259	T	0.1120	domain mRNA cap 0 methyltransferase
+260	A	0.1087	domain mRNA cap 0 methyltransferase
+261	D	0.1084	domain mRNA cap 0 methyltransferase
+262	S	0.1168	domain mRNA cap 0 methyltransferase
+263	S	0.1363	domain mRNA cap 0 methyltransferase
+264	K	0.1554	domain mRNA cap 0 methyltransferase
+265	E	0.1637	domain mRNA cap 0 methyltransferase
+266	L	0.1628	domain mRNA cap 0 methyltransferase
+267	L	0.1526	domain mRNA cap 0 methyltransferase
+268	I	0.1347	domain mRNA cap 0 methyltransferase
+269	D	0.1077	domain mRNA cap 0 methyltransferase
+270	K	0.0745	domain mRNA cap 0 methyltransferase
+271	F	0.0484	domain mRNA cap 0 methyltransferase
+272	R	0.0314	domain mRNA cap 0 methyltransferase
+273	D	0.0246	domain mRNA cap 0 methyltransferase
+274	P	0.0174	domain mRNA cap 0 methyltransferase
+275	Q	0.0100	domain mRNA cap 0 methyltransferase
+276	M	0.0001	domain mRNA cap 0 methyltransferase
+277	C	-0.0010	domain mRNA cap 0 methyltransferase
+278	F	0.0037	domain mRNA cap 0 methyltransferase
+279	D	0.0040	domain mRNA cap 0 methyltransferase
+280	I	0.0029	domain mRNA cap 0 methyltransferase
+281	C	0.0031	domain mRNA cap 0 methyltransferase
+282	S	0.0018	domain mRNA cap 0 methyltransferase
+283	C	0.0024	domain mRNA cap 0 methyltransferase
+284	Q	0.0021	domain mRNA cap 0 methyltransferase
+285	F	0.0028	domain mRNA cap 0 methyltransferase
+286	V	0.0014	domain mRNA cap 0 methyltransferase
+287	C	0.0026	domain mRNA cap 0 methyltransferase
+288	H	0.0043	domain mRNA cap 0 methyltransferase
+289	Y	0.0065	domain mRNA cap 0 methyltransferase
+290	S	0.0079	domain mRNA cap 0 methyltransferase
+291	F	0.0118	domain mRNA cap 0 methyltransferase
+292	E	0.0113	domain mRNA cap 0 methyltransferase
+293	S	0.0148	domain mRNA cap 0 methyltransferase
+294	Y	0.0113	domain mRNA cap 0 methyltransferase
+295	E	0.0140	domain mRNA cap 0 methyltransferase
+296	Q	0.0288	domain mRNA cap 0 methyltransferase
+297	A	0.0496	domain mRNA cap 0 methyltransferase
+298	D	0.0738	domain mRNA cap 0 methyltransferase
+299	M	0.0993	domain mRNA cap 0 methyltransferase
+300	M	0.1203	domain mRNA cap 0 methyltransferase
+301	L	0.1366	domain mRNA cap 0 methyltransferase
+302	R	0.1453	domain mRNA cap 0 methyltransferase
+303	N	0.1444	domain mRNA cap 0 methyltransferase
+304	A	0.1364	domain mRNA cap 0 methyltransferase
+305	C	0.1256	domain mRNA cap 0 methyltransferase
+306	E	0.1198	domain mRNA cap 0 methyltransferase
+307	R	0.1286	domain mRNA cap 0 methyltransferase
+308	L	0.1350	domain mRNA cap 0 methyltransferase
+309	S	0.1466	domain mRNA cap 0 methyltransferase
+310	P	0.1690	domain mRNA cap 0 methyltransferase
+311	G	0.1908	domain mRNA cap 0 methyltransferase
+312	G	0.2005	domain mRNA cap 0 methyltransferase
+313	Y	0.2115	domain mRNA cap 0 methyltransferase
+314	F	0.2229	domain mRNA cap 0 methyltransferase
+315	I	0.2342	domain mRNA cap 0 methyltransferase
+316	G	0.2395	domain mRNA cap 0 methyltransferase
+317	T	0.2371	domain mRNA cap 0 methyltransferase
+318	T	0.2341	domain mRNA cap 0 methyltransferase
+319	P	0.2370	domain mRNA cap 0 methyltransferase
+320	N	0.2464	domain mRNA cap 0 methyltransferase
+321	S	0.2526	domain mRNA cap 0 methyltransferase
+322	F	0.2668	domain mRNA cap 0 methyltransferase
+323	E	0.2859	domain mRNA cap 0 methyltransferase
+324	L	0.3118	domain mRNA cap 0 methyltransferase
+325	I	0.3407	domain mRNA cap 0 methyltransferase
+326	R	0.3521	domain mRNA cap 0 methyltransferase
+327	R	0.3544	domain mRNA cap 0 methyltransferase
+328	L	0.3457	domain mRNA cap 0 methyltransferase
+329	E	0.3160	domain mRNA cap 0 methyltransferase
+330	A	0.2817	domain mRNA cap 0 methyltransferase
+331	S	0.2429	domain mRNA cap 0 methyltransferase
+332	E	0.2060	domain mRNA cap 0 methyltransferase
+333	T	0.1910	domain mRNA cap 0 methyltransferase
+334	E	0.1820	domain mRNA cap 0 methyltransferase
+335	S	0.1834	domain mRNA cap 0 methyltransferase
+336	F	0.2011	domain mRNA cap 0 methyltransferase
+337	G	0.2238	domain mRNA cap 0 methyltransferase
+338	N	0.2463	domain mRNA cap 0 methyltransferase
+339	E	0.2474	domain mRNA cap 0 methyltransferase
+340	I	0.2409	domain mRNA cap 0 methyltransferase
+341	Y	0.2252	domain mRNA cap 0 methyltransferase
+342	T	0.2042	domain mRNA cap 0 methyltransferase
+343	V	0.1731	domain mRNA cap 0 methyltransferase
+344	K	0.1398	domain mRNA cap 0 methyltransferase
+345	F	0.1124	domain mRNA cap 0 methyltransferase
+346	Q	0.0813	domain mRNA cap 0 methyltransferase
+347	K	0.0591	domain mRNA cap 0 methyltransferase
+348	K	0.0504	domain mRNA cap 0 methyltransferase
+349	G	0.0452	domain mRNA cap 0 methyltransferase
+350	D	0.0446	domain mRNA cap 0 methyltransferase
+351	Y	0.0496	domain mRNA cap 0 methyltransferase
+352	P	0.0451	domain mRNA cap 0 methyltransferase
+353	L	0.0425	domain mRNA cap 0 methyltransferase
+354	F	0.0428	domain mRNA cap 0 methyltransferase
+355	G	0.0427	domain mRNA cap 0 methyltransferase
+356	C	0.0451	domain mRNA cap 0 methyltransferase
+357	K	0.0417	domain mRNA cap 0 methyltransferase
+358	Y	0.0382	domain mRNA cap 0 methyltransferase
+359	D	0.0309	domain mRNA cap 0 methyltransferase
+360	F	0.0263	domain mRNA cap 0 methyltransferase
+361	N	0.0205	domain mRNA cap 0 methyltransferase
+362	L	0.0161	domain mRNA cap 0 methyltransferase
+363	E	0.0130	domain mRNA cap 0 methyltransferase
+364	G	0.0087	domain mRNA cap 0 methyltransferase
+365	V	0.0062	domain mRNA cap 0 methyltransferase
+366	V	0.0046	domain mRNA cap 0 methyltransferase
+367	D	0.0041	domain mRNA cap 0 methyltransferase
+368	V	0.0059	domain mRNA cap 0 methyltransferase
+369	P	0.0072	domain mRNA cap 0 methyltransferase
+370	E	0.0068	domain mRNA cap 0 methyltransferase
+371	F	0.0073	domain mRNA cap 0 methyltransferase
+372	L	0.0076	domain mRNA cap 0 methyltransferase
+373	V	0.0089	domain mRNA cap 0 methyltransferase
+374	Y	0.0099	domain mRNA cap 0 methyltransferase
+375	F	0.0107	domain mRNA cap 0 methyltransferase
+376	P	0.0100	domain mRNA cap 0 methyltransferase
+377	L	0.0090	domain mRNA cap 0 methyltransferase
+378	L	0.0080	domain mRNA cap 0 methyltransferase
+379	N	0.0073	domain mRNA cap 0 methyltransferase
+380	E	0.0077	domain mRNA cap 0 methyltransferase
+381	M	0.0085	domain mRNA cap 0 methyltransferase
+382	A	0.0101	domain mRNA cap 0 methyltransferase
+383	K	0.0124	domain mRNA cap 0 methyltransferase
+384	K	0.0138	domain mRNA cap 0 methyltransferase
+385	Y	0.0163	domain mRNA cap 0 methyltransferase
+386	N	0.0188	domain mRNA cap 0 methyltransferase
+387	M	0.0216	domain mRNA cap 0 methyltransferase
+388	K	0.0217	domain mRNA cap 0 methyltransferase
+389	L	0.0218	domain mRNA cap 0 methyltransferase
+390	V	0.0204	domain mRNA cap 0 methyltransferase
+391	Y	0.0212	domain mRNA cap 0 methyltransferase
+392	K	0.0220	domain mRNA cap 0 methyltransferase
+393	K	0.0247	domain mRNA cap 0 methyltransferase
+394	T	0.0282	domain mRNA cap 0 methyltransferase
+395	F	0.0350	domain mRNA cap 0 methyltransferase
+396	L	0.0439	domain mRNA cap 0 methyltransferase
+397	E	0.0609	domain mRNA cap 0 methyltransferase
+398	F	0.0768	domain mRNA cap 0 methyltransferase
+399	Y	0.0833	domain mRNA cap 0 methyltransferase
+400	E	0.0965	domain mRNA cap 0 methyltransferase
+401	E	0.1092	domain mRNA cap 0 methyltransferase
+402	K	0.1084	domain mRNA cap 0 methyltransferase
+403	I	0.1145	domain mRNA cap 0 methyltransferase
+404	K	0.1253	domain mRNA cap 0 methyltransferase
+405	N	0.1508	domain mRNA cap 0 methyltransferase
+406	N	0.1755	domain mRNA cap 0 methyltransferase
+407	E	0.2047	domain mRNA cap 0 methyltransferase
+408	N	0.2366	domain mRNA cap 0 methyltransferase
+409	K	0.2729	domain mRNA cap 0 methyltransferase
+410	M	0.3045	domain mRNA cap 0 methyltransferase
+411	L	0.3347	domain mRNA cap 0 methyltransferase
+412	L	0.3634	domain mRNA cap 0 methyltransferase
+413	K	0.3848	domain mRNA cap 0 methyltransferase
+414	R	0.3939	domain mRNA cap 0 methyltransferase
+415	M	0.3913	domain mRNA cap 0 methyltransferase
+416	Q	0.3843	domain mRNA cap 0 methyltransferase
+417	A	0.3725	domain mRNA cap 0 methyltransferase
+418	L	0.3663	domain mRNA cap 0 methyltransferase
+419	E	0.3714	domain mRNA cap 0 methyltransferase
+420	P	0.3735	domain mRNA cap 0 methyltransferase
+421	Y	0.3775	domain mRNA cap 0 methyltransferase
+422	P	0.3828	domain mRNA cap 0 methyltransferase
+423	A	0.4073	domain mRNA cap 0 methyltransferase
+424	N	0.4215	domain mRNA cap 0 methyltransferase
+425	E	0.4401	domain mRNA cap 0 methyltransferase
+426	S	0.4561	domain mRNA cap 0 methyltransferase
+427	S	0.4660	domain mRNA cap 0 methyltransferase
+428	K	0.4619	domain mRNA cap 0 methyltransferase
+429	L	0.4520	domain mRNA cap 0 methyltransferase
+430	V	0.4407	domain mRNA cap 0 methyltransferase
+431	S	0.4377	domain mRNA cap 0 methyltransferase
+432	E	0.4287	domain mRNA cap 0 methyltransferase
+433	K	0.4120	domain mRNA cap 0 methyltransferase
+434	V	0.3922	domain mRNA cap 0 methyltransferase
+435	D	0.3783	domain mRNA cap 0 methyltransferase
+436	D	0.3626	domain mRNA cap 0 methyltransferase
+437	Y	0.3492	domain mRNA cap 0 methyltransferase
+438	E	0.3452	domain mRNA cap 0 methyltransferase
+439	H	0.3413	domain mRNA cap 0 methyltransferase
+440	A	0.3310	domain mRNA cap 0 methyltransferase
+441	A	0.3236	domain mRNA cap 0 methyltransferase
+442	K	0.3004	domain mRNA cap 0 methyltransferase
+443	Y	0.2884	domain mRNA cap 0 methyltransferase
+444	M	0.2763	domain mRNA cap 0 methyltransferase
+445	K	0.2716	domain mRNA cap 0 methyltransferase
+446	N	0.2642	domain mRNA cap 0 methyltransferase
+447	S	0.2509	domain mRNA cap 0 methyltransferase
+448	Q	0.2384	domain mRNA cap 0 methyltransferase
+449	V	0.2411	domain mRNA cap 0 methyltransferase
+450	R	0.2464	domain mRNA cap 0 methyltransferase
+451	L	0.2561	domain mRNA cap 0 methyltransferase
+452	P	0.2557	domain mRNA cap 0 methyltransferase
+453	L	0.2538	domain mRNA cap 0 methyltransferase
+454	G	0.2455	domain mRNA cap 0 methyltransferase
+455	T	0.2214	domain mRNA cap 0 methyltransferase
+456	L	0.1939	domain mRNA cap 0 methyltransferase
+457	S	0.1667	domain mRNA cap 0 methyltransferase
+458	K	0.1361	domain mRNA cap 0 methyltransferase
+459	S	0.1021	domain mRNA cap 0 methyltransferase
+460	E	0.0658	domain mRNA cap 0 methyltransferase
+461	W	0.0425	domain mRNA cap 0 methyltransferase
+462	E	0.0295	domain mRNA cap 0 methyltransferase
+463	A	0.0417	domain mRNA cap 0 methyltransferase
+464	T	0.0560	domain mRNA cap 0 methyltransferase
+465	S	0.0719	domain mRNA cap 0 methyltransferase
+466	I	0.0936	domain mRNA cap 0 methyltransferase
+467	Y	0.1241	domain mRNA cap 0 methyltransferase
+468	L	0.1635	domain mRNA cap 0 methyltransferase
+469	V	0.2119	domain mRNA cap 0 methyltransferase
+470	F	0.2689	domain mRNA cap 0 methyltransferase
+471	A	0.3332	domain mRNA cap 0 methyltransferase
+472	F	0.4025	domain mRNA cap 0 methyltransferase
+473	E	0.4731	domain mRNA cap 0 methyltransferase
+474	K	0.5397	domain mRNA cap 0 methyltransferase
+475	Q	0.5955	domain mRNA cap 0 methyltransferase
+476	Q	0.6314	

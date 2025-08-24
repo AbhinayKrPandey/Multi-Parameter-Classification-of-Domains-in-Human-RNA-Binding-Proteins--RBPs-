@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="1998-12-15" modified="2024-10-02" version="225" xmlns="http://uniprot.org/uniprot">
+  <accession>O43143</accession>
+  <accession>Q9NQT7</accession>
+  <name>DHX15_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="18">ATP-dependent RNA helicase DHX15</fullName>
+      <ecNumber evidence="8 12">3.6.4.13</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName>ATP-dependent RNA helicase #46</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>DEAH box protein 15</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="15">Splicing factor Prp43</fullName>
+      <shortName evidence="15">hPrp43</shortName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="16 19" type="primary">DHX15</name>
+    <name evidence="17" type="synonym">DBP1</name>
+    <name type="synonym">DDX15</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1997" name="Biochem. Biophys. Res. Commun." volume="240" first="335" last="340">
+      <title>Cloning and characterization of a putative human RNA helicase gene of the DEAH-box protein family.</title>
+      <authorList>
+        <person name="Imamura O."/>
+        <person name="Sugawara M."/>
+        <person name="Furuichi Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="9388478"/>
+      <dbReference type="DOI" id="10.1006/bbrc.1997.7585"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2002" name="RNA" volume="8" first="1428" last="1443">
+      <title>The human La (SS-B) autoantigen interacts with DDX15/hPrp43, a putative DEAH-box RNA helicase.</title>
+      <authorList>
+        <person name="Fouraux M.A."/>
+        <person name="Kolkman M.J.M."/>
+        <person name="Van der Heijden A."/>
+        <person name="De Jong A.S."/>
+        <person name="Van Venrooij W.J."/>
+        <person name="Pruijn G.J.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="12458796"/>
+      <dbReference type="DOI" id="10.1017/s1355838202021076"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <scope>INTERACTION WITH SSB</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <source>
+      <tissue>Placenta</tissue>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Prostate</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2003" name="Nature" volume="426" first="570" last="574">
+      <title>Proteomic characterization of the human centrosome by protein correlation profiling.</title>
+      <authorList>
+        <person name="Andersen J.S."/>
+        <person name="Wilkinson C.J."/>
+        <person name="Mayor T."/>
+        <person name="Mortensen P."/>
+        <person name="Nigg E.A."/>
+        <person name="Mann M."/>
+      </authorList>
+      <dbReference type="PubMed" id="14654843"/>
+      <dbReference type="DOI" id="10.1038/nature02166"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <source>
+      <tissue>Lymphoblast</tissue>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2004" name="RNA" volume="10" first="929" last="941">
+      <title>The human 18S U11/U12 snRNP contains a set of novel proteins not found in the U2-dependent spliceosome.</title>
+      <authorList>
+        <person name="Will C.L."/>
+        <person name="Schneider C."/>
+        <person name="Hossbach M."/>
+        <person name="Urlaub H."/>
+        <person name="Rauhut R."/>
+        <person name="Elbashir S."/>
+        <person name="Tuschl T."/>
+        <person name="Luehrmann R."/>
+      </authorList>
+      <dbReference type="PubMed" id="15146077"/>
+      <dbReference type="DOI" id="10.1261/rna.7320604"/>
+    </citation>
+    <scope>IDENTIFICATION IN A COMPLEX WITH THE U11/U12 SPLICEOSOME</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2009" name="Cancer Sci." volume="100" first="1443" last="1450">
+      <title>Involvement of G-patch domain containing 2 overexpression in breast carcinogenesis.</title>
+      <authorList>
+        <person name="Lin M.L."/>
+        <person name="Fukukawa C."/>
+        <person name="Park J.H."/>
+        <person name="Naito K."/>
+        <person name="Kijima K."/>
+        <person name="Shimo A."/>
+        <person name="Ajiro M."/>
+        <person name="Nishidate T."/>
+        <person name="Nakamura Y."/>
+        <person name="Katagiri T."/>
+      </authorList>
+      <dbReference type="PubMed" id="19432882"/>
+      <dbReference type="DOI" id="10.1111/j.1349-7006.2009.01185.x"/>
+    </citation>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>INTERACTION WITH GPATCH2</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2009" name="Nucleic Acids Res." volume="37" first="891" last="902">
+      <title>Isolation and characterization of post-splicing lariat-intron complexes.</title>
+      <authorList>
+        <person name="Yoshimoto R."/>
+        <person name="Kataoka N."/>
+        <person name="Okawa K."/>
+        <person name="Ohno M."/>
+      </authorList>
+      <dbReference type="PubMed" id="19103666"/>
+      <dbReference type="DOI" id="10.1093/nar/gkn1002"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>IDENTIFICATION IN THE INTRON LARGE COMPLEX</scope>
+    <scope>INTERACTION WITH TFIP11</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2009" name="Science" volume="325" first="834" last="840">
+      <title>Lysine acetylation targets protein complexes and co-regulates major cellular functions.</title>
+      <authorList>
+        <person name="Choudhary C."/>
+        <person name="Kumar C."/>
+        <person name="Gnad F."/>
+        <person name="Nielsen M.L."/>
+        <person name="Rehman M."/>
+        <person name="Walther T.C."/>
+        <person name="Olsen J.V."/>
+        <person name="Mann M."/>
+      </authorList>
+      <dbReference type="PubMed" id="19608861"/>
+      <dbReference type="DOI" id="10.1126/science.1175371"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT LYS-488</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2012" name="Mol. Cell. Proteomics" volume="11" first="M111.013680.01" last="M111.013680.15">
+      <title>Systematic analysis of protein pools, isoforms, and modifications affecting turnover and subcellular localization.</title>
+      <authorList>
+        <person name="Ahmad Y."/>
+        <person name="Boisvert F.M."/>
+        <person name="Lundberg E."/>
+        <person name="Uhlen M."/>
+        <person name="Lamond A.I."/>
+      </authorList>
+      <dbReference type="PubMed" id="22002106"/>
+      <dbReference type="DOI" id="10.1074/mcp.m111.013680"/>
+    </citation>
+    <scope>SUBCELLULAR LOCATION [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2013" name="J. Proteome Res." volume="12" first="260" last="271">
+      <title>Toward a comprehensive characterization of a human cancer cell phosphoproteome.</title>
+      <authorList>
+        <person name="Zhou H."/>
+        <person name="Di Palma S."/>
+        <person name="Preisinger C."/>
+        <person name="Peng M."/>
+        <person name="Polat A.N."/>
+        <person name="Heck A.J."/>
+        <person name="Mohammed S."/>
+      </authorList>
+      <dbReference type="PubMed" id="23186163"/>
+      <dbReference type="DOI" id="10.1021/pr300630k"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-15</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+      <tissue>Erythroleukemia</tissue>
+    </source>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2014" name="J. Immunol." volume="193" first="1364" last="1372">
+      <title>DHX15 senses double-stranded RNA in myeloid dendritic cells.</title>
+      <authorList>
+        <person name="Lu H."/>
+        <person name="Lu N."/>
+        <person name="Weng L."/>
+        <person name="Yuan B."/>
+        <person name="Liu Y.J."/>
+        <person name="Zhang Z."/>
+      </authorList>
+      <dbReference type="PubMed" id="24990078"/>
+      <dbReference type="DOI" id="10.4049/jimmunol.1303322"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>RNA-BINDING</scope>
+    <scope>INTERACTION WITH MAVS</scope>
+    <scope>MUTAGENESIS OF LYS-166; THR-167; ASP-260 AND GLU-261</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+      <title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+      <authorList>
+        <person name="Bian Y."/>
+        <person name="Song C."/>
+        <person name="Cheng K."/>
+        <person name="Dong M."/>
+        <person name="Wang F."/>
+        <person name="Huang J."/>
+        <person name="Sun D."/>
+        <person name="Wang L."/>
+        <person name="Ye M."/>
+        <person name="Zou H."/>
+      </authorList>
+      <dbReference type="PubMed" id="24275569"/>
+      <dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Liver</tissue>
+    </source>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2014" name="Sci. Signal." volume="7" first="ra40" last="ra40">
+      <title>The DEAH-box RNA helicase DHX15 activates NF-kappaB and MAPK signaling downstream of MAVS during antiviral responses.</title>
+      <authorList>
+        <person name="Mosallanejad K."/>
+        <person name="Sekine Y."/>
+        <person name="Ishikura-Kinoshita S."/>
+        <person name="Kumagai K."/>
+        <person name="Nagano T."/>
+        <person name="Matsuzawa A."/>
+        <person name="Takeda K."/>
+        <person name="Naguro I."/>
+        <person name="Ichijo H."/>
+      </authorList>
+      <dbReference type="PubMed" id="24782566"/>
+      <dbReference type="DOI" id="10.1126/scisignal.2004841"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>MUTAGENESIS OF LYS-166; THR-167; ASP-260 AND GLU-261</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2017" name="Nat. Struct. Mol. Biol." volume="24" first="325" last="336">
+      <title>Site-specific mapping of the human SUMO proteome reveals co-modification with phosphorylation.</title>
+      <authorList>
+        <person name="Hendriks I.A."/>
+        <person name="Lyon D."/>
+        <person name="Young C."/>
+        <person name="Jensen L.J."/>
+        <person name="Vertegaal A.C."/>
+        <person name="Nielsen M.L."/>
+      </authorList>
+      <dbReference type="PubMed" id="28112733"/>
+      <dbReference type="DOI" id="10.1038/nsmb.3366"/>
+    </citation>
+    <scope>SUMOYLATION [LARGE SCALE ANALYSIS] AT LYS-786</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="2021" name="Cell Rep." volume="35" first="109205" last="109205">
+      <title>DHX15 is required to control RNA virus-induced intestinal inflammation.</title>
+      <authorList>
+        <person name="Xing J."/>
+        <person name="Zhou X."/>
+        <person name="Fang M."/>
+        <person name="Zhang E."/>
+        <person name="Minze L.J."/>
+        <person name="Zhang Z."/>
+      </authorList>
+      <dbReference type="PubMed" id="34161762"/>
+      <dbReference type="DOI" id="10.1016/j.celrep.2021.109205"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH NLRP6</scope>
+  </reference>
+  <reference evidence="20" key="17">
+    <citation type="journal article" date="2017" name="Acta Crystallogr. F Struct. Biol. Commun." volume="73" first="347" last="355">
+      <title>The crystal structure of human DEAH-box RNA helicase 15 reveals a domain organization of the mammalian DEAH/RHA family.</title>
+      <authorList>
+        <person name="Murakami K."/>
+        <person name="Nakano K."/>
+        <person name="Shimizu T."/>
+        <person name="Ohto U."/>
+      </authorList>
+      <dbReference type="PubMed" id="28580923"/>
+      <dbReference type="DOI" id="10.1107/s2053230x17007336"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.00 ANGSTROMS) OF 110-795</scope>
+  </reference>
+  <reference evidence="21" key="18">
+    <citation type="journal article" date="2019" name="Cell Res." volume="29" first="274" last="285">
+      <title>Structures of the human spliceosomes before and after release of the ligated exon.</title>
+      <authorList>
+        <person name="Zhang X."/>
+        <person name="Zhan X."/>
+        <person name="Yan C."/>
+        <person name="Zhang W."/>
+        <person name="Liu D."/>
+        <person name="Lei J."/>
+        <person name="Shi Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="30728453"/>
+      <dbReference type="DOI" id="10.1038/s41422-019-0143-x"/>
+    </citation>
+    <scope>STRUCTURE BY ELECTRON MICROSCOPY (2.86 ANGSTROMS) OF MUTANT ALA-429 IN COMPLEX WITH THE INTRON LARGE COMPLEX</scope>
+    <scope>IDENTIFICATION IN THE INTRON LARGE COMPLEX</scope>
+    <scope>MUTAGENESIS OF THR-429</scope>
+  </reference>
+  <reference evidence="22 23" key="19">
+    <citation type="journal article" date="2020" name="Proc. Natl. Acad. Sci. U.S.A." volume="117" first="7159" last="7170">
+      <title>Structural basis for DEAH-helicase activation by G-patch proteins.</title>
+      <authorList>
+        <person name="Studer M.K."/>
+        <person name="Ivanovic L."/>
+        <person name="Weber M.E."/>
+        <person name="Marti S."/>
+        <person name="Jonas S."/>
+      </authorList>
+      <dbReference type="PubMed" id="32179686"/>
+      <dbReference type="DOI" id="10.1073/pnas.1913880117"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.85 ANGSTROMS) OF 113-795 IN COMPLEX WITH NKRF</scope>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>ACTIVITY REGULATION</scope>
+    <scope>INTERACTION WITH NKRF</scope>
+    <scope>MUTAGENESIS OF PRO-327; TYR-485; ALA-489; VAL-523; PRO-533; LEU-536 AND LEU-540</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1 7 8 9 10 12 13">RNA helicase involved in mRNA processing and antiviral innate immunity (PubMed:19103666, PubMed:19432882, PubMed:24782566, PubMed:24990078, PubMed:32179686, PubMed:34161762). Pre-mRNA processing factor involved in disassembly of spliceosomes after the release of mature mRNA (PubMed:19103666). In cooperation with TFIP11 seem to be involved in the transition of the U2, U5 and U6 snRNP-containing IL complex to the snRNP-free IS complex leading to efficient debranching and turnover of excised introns (PubMed:19103666). Plays a key role in antiviral innate immunity by promoting both MAVS-dependent signaling and NLRP6 inflammasome (PubMed:24782566, PubMed:24990078, PubMed:34161762). Acts as an RNA virus sensor: recognizes and binds viral double stranded RNA (dsRNA) and activates the MAVS-dependent signaling to produce interferon-beta and interferon lambda-3 (IFNL3) (PubMed:24782566, PubMed:24990078, PubMed:34161762). Involved in intestinal antiviral innate immunity together with NLRP6: recognizes and binds viral dsRNA and promotes activation of the NLRP6 inflammasome in intestinal epithelial cells to restrict infection by enteric viruses (PubMed:34161762). The NLRP6 inflammasome acts by promoting maturation and secretion of IL18 in the extracellular milieu (PubMed:34161762). Also involved in antibacterial innate immunity by promoting Wnt-induced antimicrobial protein expression in Paneth cells (By similarity).</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="8 12">
+      <text>ATP + H2O = ADP + H(+) + phosphate</text>
+      <dbReference type="Rhea" id="RHEA:13065"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+      <dbReference type="ChEBI" id="CHEBI:43474"/>
+      <dbReference type="ChEBI" id="CHEBI:456216"/>
+      <dbReference type="EC" id="3.6.4.13"/>
+    </reaction>
+  </comment>
+  <comment type="activity regulation">
+    <text evidence="12">ATPase activity is enhanced upon binding to G-patch domain-containing proteins (PubMed:32179686). G-patch domain-containing proteins act like a brace that tethers mobile sections of DHX15 together, stabilizing a functional conformation with high RNA affinity, thereby promoting the ATPase activity (PubMed:32179686).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="5 6 7 8 11 12 13">Component of the U11/U12 snRNPs that are part of the U12-type spliceosome (PubMed:15146077). Identified in the Intron Large spliceosome complex (IL, also named intron lariat spliceosome), a post-mRNA release spliceosomal complex containing the excised intron, U2, U5 and U6 snRNPs, and splicing factors; the association may be transient (PubMed:19103666, PubMed:30728453). The IL complex exists in two distinct conformations, one with the DHX15 (ILS2) and one without (ILS1) (PubMed:30728453). Interacts with TFIP11 (via G-patch domain); indicative for a recruitment to the IL complex (PubMed:19103666). Interacts with SSB/La (PubMed:12458796). Interacts with GPATCH2 (via G-patch domain); promoting the RNA helicase activity (PubMed:19432882). Interacts with NKRF (via G-patch domain); promoting the RNA helicase activity (PubMed:32179686). Interacts with NLRP6 (PubMed:34161762).</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-747899">
+      <id>Q8N302</id>
+      <label>AGGF1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-18121830">
+      <id>Q9P1Y5-2</id>
+      <label>CAMSAP3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-11022345">
+      <id>P51114-2</id>
+      <label>FXR1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-751540">
+      <id>O95872</id>
+      <label>GPANK1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-2949715">
+      <id>O95678</id>
+      <label>KRT75</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-766011">
+      <id>O15226</id>
+      <label>NKRF</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-20724008">
+      <id>Q96RS6-1</id>
+      <label>NUDCD1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-721525">
+      <id>P98175</id>
+      <label>RBM10</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-740272">
+      <id>Q96I25</id>
+      <label>RBM17</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>12</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-714003">
+      <id>P52756</id>
+      <label>RBM5</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>15</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-2462271">
+      <id>Q15428</id>
+      <label>SF3A2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-2691671">
+      <id>Q8IWZ8</id>
+      <label>SUGP1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-16428984">
+      <id>A0A0S2Z6H0</id>
+      <label>ZGPAT</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-3439227">
+      <id>Q8N5A5</id>
+      <label>ZGPAT</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-10183064">
+      <id>Q8N5A5-2</id>
+      <label>ZGPAT</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>12</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1237044">
+      <id>O43143</id>
+    </interactant>
+    <interactant intactId="EBI-16182226">
+      <id>Q91WS2-1</id>
+      <label>Nlrp6</label>
+    </interactant>
+    <organismsDiffer>true</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="5">Nucleus</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="5">Nucleus</location>
+      <location evidence="5">Nucleolus</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="14">Ubiquitous.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="18">Belongs to the DEAD box helicase family. DEAH subfamily. DDX15/PRP43 sub-subfamily.</text>
+  </comment>
+  <dbReference type="EC" id="3.6.4.13" evidence="8 12"/>
+  <dbReference type="EMBL" id="AB001636">
+    <property type="protein sequence ID" value="BAA23987.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF279891">
+    <property type="protein sequence ID" value="AAF90182.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC035974">
+    <property type="protein sequence ID" value="AAH35974.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS33966.1"/>
+  <dbReference type="PIR" id="JC5785">
+    <property type="entry name" value="JC5785"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001349.2">
+    <property type="nucleotide sequence ID" value="NM_001358.2"/>
+  </dbReference>
+  <dbReference type="PDB" id="5XDR">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="A=110-795"/>
+  </dbReference>
+  <dbReference type="PDB" id="6ID1">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.86 A"/>
+    <property type="chains" value="V=1-795"/>
+  </dbReference>
+  <dbReference type="PDB" id="6SH6">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.85 A"/>
+    <property type="chains" value="A=113-795"/>
+  </dbReference>
+  <dbReference type="PDB" id="6SH7">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.21 A"/>
+    <property type="chains" value="A=113-795"/>
+  </dbReference>
+  <dbReference type="PDB" id="8EJM">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.80 A"/>
+    <property type="chains" value="A=113-795"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5XDR"/>
+  <dbReference type="PDBsum" id="6ID1"/>
+  <dbReference type="PDBsum" id="6SH6"/>
+  <dbReference type="PDBsum" id="6SH7"/>
+  <dbReference type="PDBsum" id="8EJM"/>
+  <dbReference type="AlphaFoldDB" id="O43143"/>
+  <dbReference type="EMDB" id="EMD-9647"/>
+  <dbReference type="SMR" id="O43143"/>
+  <dbReference type="BioGRID" id="108029">
+    <property type="interactions" value="493"/>
+  </dbReference>
+  <dbReference type="CORUM" id="O43143"/>
+  <dbReference type="DIP" id="DIP-38211N"/>
+  <dbReference type="IntAct" id="O43143">
+    <property type="interactions" value="146"/>
+  </dbReference>
+  <dbReference type="MINT" id="O43143"/>
+  <dbReference type="STRING" id="9606.ENSP00000336741"/>
+  <dbReference type="ChEMBL" id="CHEMBL4295661"/>
+  <dbReference type="GlyCosmos" id="O43143">
+    <property type="glycosylation" value="3 sites, 1 glycan"/>
+  </dbReference>
+  <dbReference type="GlyGen" id="O43143">
+    <property type="glycosylation" value="4 sites, 1 O-linked glycan (4 sites)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="O43143"/>
+  <dbReference type="MetOSite" id="O43143"/>
+  <dbReference type="PhosphoSitePlus" id="O43143"/>
+  <dbReference type="SwissPalm" id="O43143"/>
+  <dbReference type="BioMuta" id="DHX15"/>
+  <dbReference type="jPOST" id="O43143"/>
+  <dbReference type="MassIVE" id="O43143"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000336741"/>
+  <dbReference type="PeptideAtlas" id="O43143"/>
+  <dbReference type="ProteomicsDB" id="48760"/>
+  <dbReference type="Pumba" id="O43143"/>
+  <dbReference type="Antibodypedia" id="10152">
+    <property type="antibodies" value="203 antibodies from 22 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="1665"/>
+  <dbReference type="Ensembl" id="ENST00000336812.5">
+    <property type="protein sequence ID" value="ENSP00000336741.4"/>
+    <property type="gene ID" value="ENSG00000109606.13"/>
+  </dbReference>
+  <dbReference type="GeneID" id="1665"/>
+  <dbReference type="KEGG" id="hsa:1665"/>
+  <dbReference type="MANE-Select" id="ENST00000336812.5">
+    <property type="protein sequence ID" value="ENSP00000336741.4"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_001358.3"/>
+    <property type="RefSeq protein sequence ID" value="NP_001349.2"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc003gqx.4">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:2738"/>
+  <dbReference type="CTD" id="1665"/>
+  <dbReference type="DisGeNET" id="1665"/>
+  <dbReference type="GeneCards" id="DHX15"/>
+  <dbReference type="HGNC" id="HGNC:2738">
+    <property type="gene designation" value="DHX15"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000109606">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MIM" id="603403">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_O43143"/>
+  <dbReference type="OpenTargets" id="ENSG00000109606"/>
+  <dbReference type="PharmGKB" id="PA27204"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000109606"/>
+  <dbReference type="eggNOG" id="KOG0925">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00940000155800"/>
+  <dbReference type="HOGENOM" id="CLU_001832_5_11_1"/>
+  <dbReference type="InParanoid" id="O43143"/>
+  <dbReference type="OMA" id="MKVYPLY"/>
+  <dbReference type="OrthoDB" id="5488182at2759"/>
+  <dbReference type="PhylomeDB" id="O43143"/>
+  <dbReference type="TreeFam" id="TF105735"/>
+  <dbReference type="PathwayCommons" id="O43143"/>
+  <dbReference type="Reactome" id="R-HSA-72163">
+    <property type="pathway name" value="mRNA Splicing - Major Pathway"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="O43143"/>
+  <dbReference type="BioGRID-ORCS" id="1665">
+    <property type="hits" value="840 hits in 1166 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="DHX15">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="GeneWiki" id="DHX15"/>
+  <dbReference type="GenomeRNAi" id="1665"/>
+  <dbReference type="Pharos" id="O43143">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:O43143"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 4"/>
+  </dbReference>
+  <dbReference type="RNAct" id="O43143">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000109606">
+    <property type="expression patterns" value="Expressed in cartilage tissue and 203 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016607">
+    <property type="term" value="C:nuclear speck"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005730">
+    <property type="term" value="C:nucleolus"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="ProtInc"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005681">
+    <property type="term" value="C:spliceosomal complex"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005689">
+    <property type="term" value="C:U12-type spliceosomal complex"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HGNC-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005524">
+    <property type="term" value="F:ATP binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016887">
+    <property type="term" value="F:ATP hydrolysis activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="RHEA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008186">
+    <property type="term" value="F:ATP-dependent activity, acting on RNA"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003725">
+    <property type="term" value="F:double-stranded RNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004386">
+    <property type="term" value="F:helicase activity"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003723">
+    <property type="term" value="F:RNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003724">
+    <property type="term" value="F:RNA helicase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140374">
+    <property type="term" value="P:antiviral innate immune response"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042742">
+    <property type="term" value="P:defense response to bacterium"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051607">
+    <property type="term" value="P:defense response to virus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006397">
+    <property type="term" value="P:mRNA processing"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="ProtInc"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000398">
+    <property type="term" value="P:mRNA splicing, via spliceosome"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043123">
+    <property type="term" value="P:positive regulation of canonical NF-kappaB signal transduction"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043279">
+    <property type="term" value="P:response to alkaloid"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009636">
+    <property type="term" value="P:response to toxic substance"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008380">
+    <property type="term" value="P:RNA splicing"/>
+    <property type="evidence" value="ECO:0000305"/>
+    <property type="project" value="HGNC-UCL"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd17973">
+    <property type="entry name" value="DEXHc_DHX15"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd18791">
+    <property type="entry name" value="SF2_C_RHA"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.20.120.1080">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.40.50.300">
+    <property type="entry name" value="P-loop containing nucleotide triphosphate hydrolases"/>
+    <property type="match status" value="2"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011709">
+    <property type="entry name" value="DEAD-box_helicase_OB_fold"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR011545">
+    <property type="entry name" value="DEAD/DEAH_box_helicase_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR044756">
+    <property type="entry name" value="DHX15_DEXHc"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002464">
+    <property type="entry name" value="DNA/RNA_helicase_DEAH_CS"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR048333">
+    <property type="entry name" value="HA2_WH"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007502">
+    <property type="entry name" value="Helicase-assoc_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR014001">
+    <property type="entry name" value="Helicase_ATP-bd"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR001650">
+    <property type="entry name" value="Helicase_C-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR027417">
+    <property type="entry name" value="P-loop_NTPase"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR18934">
+    <property type="entry name" value="ATP-DEPENDENT RNA HELICASE"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR18934:SF95">
+    <property type="entry name" value="ATP-DEPENDENT RNA HELICASE DHX15"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00270">
+    <property type="entry name" value="DEAD"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF21010">
+    <property type="entry name" value="HA2_C"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF04408">
+    <property type="entry name" value="HA2_N"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00271">
+    <property type="entry name" value="Helicase_C"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF07717">
+    <property type="entry name" value="OB_NTP_bind"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00487">
+    <property type="entry name" value="DEXDc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00847">
+    <property type="entry name" value="HA2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00490">
+    <property type="entry name" value="HELICc"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF52540">
+    <property type="entry name" value="P-loop containing nucleoside triphosphate hydrolases"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS00690">
+    <property type="entry name" value="DEAH_ATP_HELICASE"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51192">
+    <property type="entry name" value="HELICASE_ATP_BIND_1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51194">
+    <property type="entry name" value="HELICASE_CTER"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0067">ATP-binding</keyword>
+  <keyword id="KW-0347">Helicase</keyword>
+  <keyword id="KW-0378">Hydrolase</keyword>
+  <keyword id="KW-0391">Immunity</keyword>
+  <keyword id="KW-0399">Innate immunity</keyword>
+  <keyword id="KW-1017">Isopeptide bond</keyword>
+  <keyword id="KW-0507">mRNA processing</keyword>
+  <keyword id="KW-0508">mRNA splicing</keyword>
+  <keyword id="KW-0547">Nucleotide-binding</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0694">RNA-binding</keyword>
+  <keyword id="KW-0832">Ubl conjugation</keyword>
+  <feature type="chain" id="PRO_0000055139" description="ATP-dependent RNA helicase DHX15">
+    <location>
+      <begin position="1"/>
+      <end position="795"/>
+    </location>
+  </feature>
+  <feature type="domain" description="Helicase ATP-binding" evidence="2">
+    <location>
+      <begin position="147"/>
+      <end position="313"/>
+    </location>
+  </feature>
+  <feature type="domain" description="Helicase C-terminal" evidence="3">
+    <location>
+      <begin position="338"/>
+      <end position="518"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="1"/>
+      <end position="108"/>
+    </location>
+  </feature>
+  <feature type="short sequence motif" description="DEAH box">
+    <location>
+      <begin position="260"/>
+      <end position="263"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="4">
+    <location>
+      <begin position="1"/>
+      <end position="63"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="4">
+    <location>
+      <begin position="81"/>
+      <end position="108"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="2">
+    <location>
+      <begin position="160"/>
+      <end position="167"/>
+    </location>
+    <ligand>
+      <name>ATP</name>
+      <dbReference type="ChEBI" id="CHEBI:30616"/>
+    </ligand>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="25">
+    <location>
+      <position position="15"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="24">
+    <location>
+      <position position="488"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO2)" evidence="26">
+    <location>
+      <position position="786"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished ATPase activity without affecting ability to activate the MAVS-dependent signaling to produce interferon-beta." evidence="9 10">
+    <original>K</original>
+    <variation>A</variation>
+    <location>
+      <position position="166"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished ATPase activity without affecting ability to activate the MAVS-dependent signaling to produce interferon-beta." evidence="9 10">
+    <original>T</original>
+    <variation>A</variation>
+    <location>
+      <position position="167"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished ATPase activity without affecting ability to activate the MAVS-dependent signaling to produce interferon-beta." evidence="9 10">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="260"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished ATPase activity without affecting ability to activate the MAVS-dependent signaling to produce interferon-beta." evidence="9 10">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="261"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished interaction with NKRF." evidence="12">
+    <original>P</original>
+    <variation>E</variation>
+    <location>
+      <position position="327"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished ATPase activity." evidence="11">
+    <original>T</original>
+    <variation>A</variation>
+    <location>
+      <position position="429"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished interaction with NKRF." evidence="12">
+    <original>Y</original>
+    <variation>E</variation>
+    <location>
+      <position position="485"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decreased, but not abolished interaction, with NKRF." evidence="12">
+    <original>A</original>
+    <variation>E</variation>
+    <location>
+      <position position="489"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished interaction with NKRF." evidence="12">
+    <original>V</original>
+    <variation>E</variation>
+    <location>
+      <position position="523"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished interaction with NKRF." evidence="12">
+    <original>P</original>
+    <variation>E</variation>
+    <location>
+      <position position="533"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished interaction with NKRF." evidence="12">
+    <original>L</original>
+    <variation>E</variation>
+    <location>
+      <position position="536"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolished interaction with NKRF." evidence="12">
+    <original>L</original>
+    <variation>E</variation>
+    <location>
+      <position position="540"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; BAA23987." evidence="18" ref="1">
+    <original>V</original>
+    <variation>G</variation>
+    <location>
+      <position position="151"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; BAA23987." evidence="18" ref="1">
+    <original>QW</original>
+    <variation>HR</variation>
+    <location>
+      <begin position="172"/>
+      <end position="173"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; BAA23987." evidence="18" ref="1">
+    <original>ILK</original>
+    <variation>FFM</variation>
+    <location>
+      <begin position="232"/>
+      <end position="234"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; BAA23987." evidence="18" ref="1">
+    <original>KLQSKEYSQY</original>
+    <variation>QTSIQGIFTVLNSVLRTEVIERTALKDE</variation>
+    <location>
+      <begin position="786"/>
+      <end position="795"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="114"/>
+      <end position="116"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="29">
+    <location>
+      <begin position="117"/>
+      <end position="119"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="120"/>
+      <end position="122"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="125"/>
+      <end position="134"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="138"/>
+      <end position="142"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="143"/>
+      <end position="150"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="154"/>
+      <end position="159"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="166"/>
+      <end position="179"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="181"/>
+      <end position="184"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="187"/>
+      <end position="193"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="195"/>
+      <end position="208"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="29">
+    <location>
+      <begin position="214"/>
+      <end position="216"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="217"/>
+      <end position="221"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="224"/>
+      <end position="226"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="232"/>
+      <end position="237"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="238"/>
+      <end position="247"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="254"/>
+      <end position="259"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="262"/>
+      <end position="264"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="267"/>
+      <end position="282"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="287"/>
+      <end position="294"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="296"/>
+      <end position="298"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="299"/>
+      <end position="303"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="309"/>
+      <end position="311"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="319"/>
+      <end position="322"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="331"/>
+      <end position="345"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="351"/>
+      <end position="355"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="359"/>
+      <end position="375"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="28">
+    <location>
+      <begin position="378"/>
+      <end position="380"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="383"/>
+      <end position="388"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="394"/>
+      <end position="397"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="398"/>
+      <end position="401"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="27">
+    <location>
+      <begin position="409"/>
+      <end position="412"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="415"/>
+      <end position="420"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="423"/>
+      <end position="426"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="433"/>
+      <end position="438"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="440"/>
+      <end position="448"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="29">
+    <location>
+      <begin position="449"/>
+      <end position="452"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="453"/>
+      <end position="460"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="463"/>
+      <end position="471"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="472"/>
+      <end position="474"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="475"/>
+      <end position="477"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="479"/>
+      <end position="485"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="487"/>
+      <end position="492"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="501"/>
+      <end position="504"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="508"/>
+      <end position="516"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="28">
+    <location>
+      <begin position="522"/>
+      <end position="524"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="533"/>
+      <end position="545"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="557"/>
+      <end position="563"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="565"/>
+      <end position="567"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="569"/>
+      <end position="578"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="579"/>
+      <end position="581"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="584"/>
+      <end position="594"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="27">
+    <location>
+      <begin position="604"/>
+      <end position="606"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="607"/>
+      <end position="615"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="623"/>
+      <end position="636"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="29">
+    <location>
+      <begin position="637"/>
+      <end position="639"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="641"/>
+      <end position="646"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="651"/>
+      <end position="670"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="684"/>
+      <end position="697"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="700"/>
+      <end position="704"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="710"/>
+      <end position="712"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="29">
+    <location>
+      <begin position="713"/>
+      <end position="715"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="718"/>
+      <end position="721"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="29">
+    <location>
+      <begin position="732"/>
+      <end position="752"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="755"/>
+      <end position="761"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="29">
+    <location>
+      <begin position="763"/>
+      <end position="765"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="29">
+    <location>
+      <begin position="768"/>
+      <end position="770"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="29">
+    <location>
+      <begin position="775"/>
+      <end position="788"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="O35286"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="2">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00541"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="3">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00542"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="12458796"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="15146077"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="19103666"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="19432882"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="24782566"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="24990078"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="30728453"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="32179686"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="34161762"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="14">
+    <source>
+      <dbReference type="PubMed" id="9388478"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="15">
+    <source>
+      <dbReference type="PubMed" id="12458796"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="16">
+    <source>
+      <dbReference type="PubMed" id="24990078"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="17">
+    <source>
+      <dbReference type="PubMed" id="9388478"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="18"/>
+  <evidence type="ECO:0000312" key="19">
+    <source>
+      <dbReference type="HGNC" id="HGNC:2738"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="20">
+    <source>
+      <dbReference type="PDB" id="5XDR"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="21">
+    <source>
+      <dbReference type="PDB" id="6ID1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="22">
+    <source>
+      <dbReference type="PDB" id="6SH6"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="23">
+    <source>
+      <dbReference type="PDB" id="6SH7"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="24">
+    <source>
+      <dbReference type="PubMed" id="19608861"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="25">
+    <source>
+      <dbReference type="PubMed" id="23186163"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="26">
+    <source>
+      <dbReference type="PubMed" id="28112733"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="27">
+    <source>
+      <dbReference type="PDB" id="5XDR"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="28">
+    <source>
+      <dbReference type="PDB" id="6SH6"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="29">
+    <source>
+      <dbReference type="PDB" id="8EJM"/>
+    </source>
+  </evidence>
+  <sequence length="795" mass="90933" checksum="9A21FBE0051CCAA9" modified="2001-02-21" version="2">MSKRHRLDLGEDYPSGKKRAGTDGKDRDRDRDREDRSKDRDRERDRGDREREREKEKEKELRASTNAMLISAGLPPLKASHSAHSTHSAHSTHSTHSAHSTHAGHAGHTSLPQCINPFTNLPHTPRYYDILKKRLQLPVWEYKDRFTDILVRHQSFVLVGETGSGKTTQIPQWCVEYMRSLPGPKRGVACTQPRRVAAMSVAQRVADEMDVMLGQEVGYSIRFEDCSSAKTILKYMTDGMLLREAMNDPLLERYGVIILDEAHERTLATDILMGVLKEVVRQRSDLKVIVMSATLDAGKFQIYFDNCPLLTIPGRTHPVEIFYTPEPERDYLEAAIRTVIQIHMCEEEEGDLLLFLTGQEEIDEACKRIKREVDDLGPEVGDIKIIPLYSTLPPQQQQRIFEPPPPKKQNGAIGRKVVVSTNIAETSLTIDGVVFVIDPGFAKQKVYNPRIRVESLLVTAISKASAQQRAGRAGRTRPGKCFRLYTEKAYKTEMQDNTYPEILRSNLGSVVLQLKKLGIDDLVHFDFMDPPAPETLMRALELLNYLAALNDDGDLTELGSMMAEFPLDPQLAKMVIASCDYNCSNEVLSITAMLSVPQCFVRPTEAKKAADEAKMRFAHIDGDHLTLLNVYHAFKQNHESVQWCYDNFINYRSLMSADNVRQQLSRIMDRFNLPRRSTDFTSRDYYINIRKALVTGYFMQVAHLERTGHYLTVKDNQVVQLHPSTVLDHKPEWVLYNEFVLTTKNYIRTCTDIKPEWLVKIAPQYYDMSNFPQCEAKRQLDRIIAKLQSKEYSQY</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

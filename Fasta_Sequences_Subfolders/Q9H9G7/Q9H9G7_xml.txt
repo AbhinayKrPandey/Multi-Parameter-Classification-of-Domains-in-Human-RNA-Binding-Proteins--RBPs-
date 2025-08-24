@@ -1,0 +1,1753 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2003-11-14" modified="2024-10-02" version="171" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9H9G7</accession>
+  <accession>B1ALI0</accession>
+  <accession>Q5TA55</accession>
+  <accession>Q9H1U6</accession>
+  <name>AGO3_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="2">Protein argonaute-3</fullName>
+      <shortName evidence="2">Argonaute3</shortName>
+      <shortName>hAgo3</shortName>
+      <ecNumber evidence="9">3.1.26.n2</ecNumber>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Argonaute RISC catalytic component 3</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="2">Eukaryotic translation initiation factor 2C 3</fullName>
+      <shortName evidence="2">eIF-2C 3</shortName>
+      <shortName evidence="2">eIF2C 3</shortName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">AGO3</name>
+    <name type="synonym">EIF2C3</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+      <title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+      <authorList>
+        <person name="Ota T."/>
+        <person name="Suzuki Y."/>
+        <person name="Nishikawa T."/>
+        <person name="Otsuki T."/>
+        <person name="Sugiyama T."/>
+        <person name="Irie R."/>
+        <person name="Wakamatsu A."/>
+        <person name="Hayashi K."/>
+        <person name="Sato H."/>
+        <person name="Nagai K."/>
+        <person name="Kimura K."/>
+        <person name="Makita H."/>
+        <person name="Sekine M."/>
+        <person name="Obayashi M."/>
+        <person name="Nishi T."/>
+        <person name="Shibahara T."/>
+        <person name="Tanaka T."/>
+        <person name="Ishii S."/>
+        <person name="Yamamoto J."/>
+        <person name="Saito K."/>
+        <person name="Kawai Y."/>
+        <person name="Isono Y."/>
+        <person name="Nakamura Y."/>
+        <person name="Nagahari K."/>
+        <person name="Murakami K."/>
+        <person name="Yasuda T."/>
+        <person name="Iwayanagi T."/>
+        <person name="Wagatsuma M."/>
+        <person name="Shiratori A."/>
+        <person name="Sudo H."/>
+        <person name="Hosoiri T."/>
+        <person name="Kaku Y."/>
+        <person name="Kodaira H."/>
+        <person name="Kondo H."/>
+        <person name="Sugawara M."/>
+        <person name="Takahashi M."/>
+        <person name="Kanda K."/>
+        <person name="Yokoi T."/>
+        <person name="Furuya T."/>
+        <person name="Kikkawa E."/>
+        <person name="Omura Y."/>
+        <person name="Abe K."/>
+        <person name="Kamihara K."/>
+        <person name="Katsuta N."/>
+        <person name="Sato K."/>
+        <person name="Tanikawa M."/>
+        <person name="Yamazaki M."/>
+        <person name="Ninomiya K."/>
+        <person name="Ishibashi T."/>
+        <person name="Yamashita H."/>
+        <person name="Murakawa K."/>
+        <person name="Fujimori K."/>
+        <person name="Tanai H."/>
+        <person name="Kimata M."/>
+        <person name="Watanabe M."/>
+        <person name="Hiraoka S."/>
+        <person name="Chiba Y."/>
+        <person name="Ishida S."/>
+        <person name="Ono Y."/>
+        <person name="Takiguchi S."/>
+        <person name="Watanabe S."/>
+        <person name="Yosida M."/>
+        <person name="Hotuta T."/>
+        <person name="Kusano J."/>
+        <person name="Kanehori K."/>
+        <person name="Takahashi-Fujii A."/>
+        <person name="Hara H."/>
+        <person name="Tanase T.-O."/>
+        <person name="Nomura Y."/>
+        <person name="Togiya S."/>
+        <person name="Komai F."/>
+        <person name="Hara R."/>
+        <person name="Takeuchi K."/>
+        <person name="Arita M."/>
+        <person name="Imose N."/>
+        <person name="Musashino K."/>
+        <person name="Yuuki H."/>
+        <person name="Oshima A."/>
+        <person name="Sasaki N."/>
+        <person name="Aotsuka S."/>
+        <person name="Yoshikawa Y."/>
+        <person name="Matsunawa H."/>
+        <person name="Ichihara T."/>
+        <person name="Shiohata N."/>
+        <person name="Sano S."/>
+        <person name="Moriya S."/>
+        <person name="Momiyama H."/>
+        <person name="Satoh N."/>
+        <person name="Takami S."/>
+        <person name="Terashima Y."/>
+        <person name="Suzuki O."/>
+        <person name="Nakagawa S."/>
+        <person name="Senoh A."/>
+        <person name="Mizoguchi H."/>
+        <person name="Goto Y."/>
+        <person name="Shimizu F."/>
+        <person name="Wakebe H."/>
+        <person name="Hishigaki H."/>
+        <person name="Watanabe T."/>
+        <person name="Sugiyama A."/>
+        <person name="Takemoto M."/>
+        <person name="Kawakami B."/>
+        <person name="Yamazaki M."/>
+        <person name="Watanabe K."/>
+        <person name="Kumagai A."/>
+        <person name="Itakura S."/>
+        <person name="Fukuzumi Y."/>
+        <person name="Fujimori Y."/>
+        <person name="Komiyama M."/>
+        <person name="Tashiro H."/>
+        <person name="Tanigami A."/>
+        <person name="Fujiwara T."/>
+        <person name="Ono T."/>
+        <person name="Yamada K."/>
+        <person name="Fujii Y."/>
+        <person name="Ozaki K."/>
+        <person name="Hirao M."/>
+        <person name="Ohmori Y."/>
+        <person name="Kawabata A."/>
+        <person name="Hikiji T."/>
+        <person name="Kobatake N."/>
+        <person name="Inagaki H."/>
+        <person name="Ikema Y."/>
+        <person name="Okamoto S."/>
+        <person name="Okitani R."/>
+        <person name="Kawakami T."/>
+        <person name="Noguchi S."/>
+        <person name="Itoh T."/>
+        <person name="Shigeta K."/>
+        <person name="Senba T."/>
+        <person name="Matsumura K."/>
+        <person name="Nakajima Y."/>
+        <person name="Mizuno T."/>
+        <person name="Morinaga M."/>
+        <person name="Sasaki M."/>
+        <person name="Togashi T."/>
+        <person name="Oyama M."/>
+        <person name="Hata H."/>
+        <person name="Watanabe M."/>
+        <person name="Komatsu T."/>
+        <person name="Mizushima-Sugano J."/>
+        <person name="Satoh T."/>
+        <person name="Shirai Y."/>
+        <person name="Takahashi Y."/>
+        <person name="Nakagawa K."/>
+        <person name="Okumura K."/>
+        <person name="Nagase T."/>
+        <person name="Nomura N."/>
+        <person name="Kikuchi H."/>
+        <person name="Masuho Y."/>
+        <person name="Yamashita R."/>
+        <person name="Nakai K."/>
+        <person name="Yada T."/>
+        <person name="Nakamura Y."/>
+        <person name="Ohara O."/>
+        <person name="Isogai T."/>
+        <person name="Sugano S."/>
+      </authorList>
+      <dbReference type="PubMed" id="14702039"/>
+      <dbReference type="DOI" id="10.1038/ng1285"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2006" name="Nature" volume="441" first="315" last="321">
+      <title>The DNA sequence and biological annotation of human chromosome 1.</title>
+      <authorList>
+        <person name="Gregory S.G."/>
+        <person name="Barlow K.F."/>
+        <person name="McLay K.E."/>
+        <person name="Kaul R."/>
+        <person name="Swarbreck D."/>
+        <person name="Dunham A."/>
+        <person name="Scott C.E."/>
+        <person name="Howe K.L."/>
+        <person name="Woodfine K."/>
+        <person name="Spencer C.C.A."/>
+        <person name="Jones M.C."/>
+        <person name="Gillson C."/>
+        <person name="Searle S."/>
+        <person name="Zhou Y."/>
+        <person name="Kokocinski F."/>
+        <person name="McDonald L."/>
+        <person name="Evans R."/>
+        <person name="Phillips K."/>
+        <person name="Atkinson A."/>
+        <person name="Cooper R."/>
+        <person name="Jones C."/>
+        <person name="Hall R.E."/>
+        <person name="Andrews T.D."/>
+        <person name="Lloyd C."/>
+        <person name="Ainscough R."/>
+        <person name="Almeida J.P."/>
+        <person name="Ambrose K.D."/>
+        <person name="Anderson F."/>
+        <person name="Andrew R.W."/>
+        <person name="Ashwell R.I.S."/>
+        <person name="Aubin K."/>
+        <person name="Babbage A.K."/>
+        <person name="Bagguley C.L."/>
+        <person name="Bailey J."/>
+        <person name="Beasley H."/>
+        <person name="Bethel G."/>
+        <person name="Bird C.P."/>
+        <person name="Bray-Allen S."/>
+        <person name="Brown J.Y."/>
+        <person name="Brown A.J."/>
+        <person name="Buckley D."/>
+        <person name="Burton J."/>
+        <person name="Bye J."/>
+        <person name="Carder C."/>
+        <person name="Chapman J.C."/>
+        <person name="Clark S.Y."/>
+        <person name="Clarke G."/>
+        <person name="Clee C."/>
+        <person name="Cobley V."/>
+        <person name="Collier R.E."/>
+        <person name="Corby N."/>
+        <person name="Coville G.J."/>
+        <person name="Davies J."/>
+        <person name="Deadman R."/>
+        <person name="Dunn M."/>
+        <person name="Earthrowl M."/>
+        <person name="Ellington A.G."/>
+        <person name="Errington H."/>
+        <person name="Frankish A."/>
+        <person name="Frankland J."/>
+        <person name="French L."/>
+        <person name="Garner P."/>
+        <person name="Garnett J."/>
+        <person name="Gay L."/>
+        <person name="Ghori M.R.J."/>
+        <person name="Gibson R."/>
+        <person name="Gilby L.M."/>
+        <person name="Gillett W."/>
+        <person name="Glithero R.J."/>
+        <person name="Grafham D.V."/>
+        <person name="Griffiths C."/>
+        <person name="Griffiths-Jones S."/>
+        <person name="Grocock R."/>
+        <person name="Hammond S."/>
+        <person name="Harrison E.S.I."/>
+        <person name="Hart E."/>
+        <person name="Haugen E."/>
+        <person name="Heath P.D."/>
+        <person name="Holmes S."/>
+        <person name="Holt K."/>
+        <person name="Howden P.J."/>
+        <person name="Hunt A.R."/>
+        <person name="Hunt S.E."/>
+        <person name="Hunter G."/>
+        <person name="Isherwood J."/>
+        <person name="James R."/>
+        <person name="Johnson C."/>
+        <person name="Johnson D."/>
+        <person name="Joy A."/>
+        <person name="Kay M."/>
+        <person name="Kershaw J.K."/>
+        <person name="Kibukawa M."/>
+        <person name="Kimberley A.M."/>
+        <person name="King A."/>
+        <person name="Knights A.J."/>
+        <person name="Lad H."/>
+        <person name="Laird G."/>
+        <person name="Lawlor S."/>
+        <person name="Leongamornlert D.A."/>
+        <person name="Lloyd D.M."/>
+        <person name="Loveland J."/>
+        <person name="Lovell J."/>
+        <person name="Lush M.J."/>
+        <person name="Lyne R."/>
+        <person name="Martin S."/>
+        <person name="Mashreghi-Mohammadi M."/>
+        <person name="Matthews L."/>
+        <person name="Matthews N.S.W."/>
+        <person name="McLaren S."/>
+        <person name="Milne S."/>
+        <person name="Mistry S."/>
+        <person name="Moore M.J.F."/>
+        <person name="Nickerson T."/>
+        <person name="O'Dell C.N."/>
+        <person name="Oliver K."/>
+        <person name="Palmeiri A."/>
+        <person name="Palmer S.A."/>
+        <person name="Parker A."/>
+        <person name="Patel D."/>
+        <person name="Pearce A.V."/>
+        <person name="Peck A.I."/>
+        <person name="Pelan S."/>
+        <person name="Phelps K."/>
+        <person name="Phillimore B.J."/>
+        <person name="Plumb R."/>
+        <person name="Rajan J."/>
+        <person name="Raymond C."/>
+        <person name="Rouse G."/>
+        <person name="Saenphimmachak C."/>
+        <person name="Sehra H.K."/>
+        <person name="Sheridan E."/>
+        <person name="Shownkeen R."/>
+        <person name="Sims S."/>
+        <person name="Skuce C.D."/>
+        <person name="Smith M."/>
+        <person name="Steward C."/>
+        <person name="Subramanian S."/>
+        <person name="Sycamore N."/>
+        <person name="Tracey A."/>
+        <person name="Tromans A."/>
+        <person name="Van Helmond Z."/>
+        <person name="Wall M."/>
+        <person name="Wallis J.M."/>
+        <person name="White S."/>
+        <person name="Whitehead S.L."/>
+        <person name="Wilkinson J.E."/>
+        <person name="Willey D.L."/>
+        <person name="Williams H."/>
+        <person name="Wilming L."/>
+        <person name="Wray P.W."/>
+        <person name="Wu Z."/>
+        <person name="Coulson A."/>
+        <person name="Vaudin M."/>
+        <person name="Sulston J.E."/>
+        <person name="Durbin R.M."/>
+        <person name="Hubbard T."/>
+        <person name="Wooster R."/>
+        <person name="Dunham I."/>
+        <person name="Carter N.P."/>
+        <person name="McVean G."/>
+        <person name="Ross M.T."/>
+        <person name="Harrow J."/>
+        <person name="Olson M.V."/>
+        <person name="Beck S."/>
+        <person name="Rogers J."/>
+        <person name="Bentley D.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="16710414"/>
+      <dbReference type="DOI" id="10.1038/nature04727"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)</scope>
+    <source>
+      <tissue>Leukocyte</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2004" name="Mol. Cell" volume="15" first="185" last="197">
+      <title>Human Argonaute2 mediates RNA cleavage targeted by miRNAs and siRNAs.</title>
+      <authorList>
+        <person name="Meister G."/>
+        <person name="Landthaler M."/>
+        <person name="Patkaniowska A."/>
+        <person name="Dorsett Y."/>
+        <person name="Teng G."/>
+        <person name="Tuschl T."/>
+      </authorList>
+      <dbReference type="PubMed" id="15260970"/>
+      <dbReference type="DOI" id="10.1016/j.molcel.2004.07.007"/>
+    </citation>
+    <scope>ASSOCIATION WITH MIRNA</scope>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2005" name="Science" volume="309" first="1573" last="1576">
+      <title>Inhibition of translational initiation by Let-7 MicroRNA in human cells.</title>
+      <authorList>
+        <person name="Pillai R.S."/>
+        <person name="Bhattacharyya S.N."/>
+        <person name="Artus C.G."/>
+        <person name="Zoller T."/>
+        <person name="Cougot N."/>
+        <person name="Basyuk E."/>
+        <person name="Bertrand E."/>
+        <person name="Filipowicz W."/>
+      </authorList>
+      <dbReference type="PubMed" id="16081698"/>
+      <dbReference type="DOI" id="10.1126/science.1115079"/>
+    </citation>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2008" name="Curr. Biol." volume="18" first="1327" last="1332">
+      <title>Importance of translation and nonnucleolytic ago proteins for on-target RNA interference.</title>
+      <authorList>
+        <person name="Wu L."/>
+        <person name="Fan J."/>
+        <person name="Belasco J.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="18771919"/>
+      <dbReference type="DOI" id="10.1016/j.cub.2008.07.072"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2009" name="Cell" volume="136" first="496" last="507">
+      <title>Importin 8 is a gene silencing factor that targets argonaute proteins to distinct mRNAs.</title>
+      <authorList>
+        <person name="Weinmann L."/>
+        <person name="Hoeck J."/>
+        <person name="Ivacevic T."/>
+        <person name="Ohrt T."/>
+        <person name="Muetze J."/>
+        <person name="Schwille P."/>
+        <person name="Kremmer E."/>
+        <person name="Benes V."/>
+        <person name="Urlaub H."/>
+        <person name="Meister G."/>
+      </authorList>
+      <dbReference type="PubMed" id="19167051"/>
+      <dbReference type="DOI" id="10.1016/j.cell.2008.12.023"/>
+    </citation>
+    <scope>INTERACTION WITH EIF4B; IMP8; PRMT5 AND TNRC6B</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2012" name="J. Virol." volume="86" first="11712" last="11724">
+      <title>HIV-1 replication and APOBEC3 antiviral activity are not regulated by P bodies.</title>
+      <authorList>
+        <person name="Phalora P.K."/>
+        <person name="Sherer N.M."/>
+        <person name="Wolinsky S.M."/>
+        <person name="Swanson C.M."/>
+        <person name="Malim M.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="22915799"/>
+      <dbReference type="DOI" id="10.1128/jvi.00595-12"/>
+    </citation>
+    <scope>INTERACTION WITH APOBEC3F; APOBEC3G AND APOBEC3H</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2012" name="Nat. Struct. Mol. Biol." volume="19" first="1168" last="1175">
+      <title>DICER- and AGO3-dependent generation of retinoic acid-induced DR2 Alu RNAs regulates human stem cell proliferation.</title>
+      <authorList>
+        <person name="Hu Q."/>
+        <person name="Tanasa B."/>
+        <person name="Trabucchi M."/>
+        <person name="Li W."/>
+        <person name="Zhang J."/>
+        <person name="Ohgi K.A."/>
+        <person name="Rose D.W."/>
+        <person name="Glass C.K."/>
+        <person name="Rosenfeld M.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="23064648"/>
+      <dbReference type="DOI" id="10.1038/nsmb.2400"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH EDC4</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2012" name="Proc. Natl. Acad. Sci. U.S.A." volume="109" first="12449" last="12454">
+      <title>N-terminal acetylome analyses and functional insights of the N-terminal acetyltransferase NatB.</title>
+      <authorList>
+        <person name="Van Damme P."/>
+        <person name="Lasa M."/>
+        <person name="Polevoda B."/>
+        <person name="Gazquez C."/>
+        <person name="Elosegui-Artola A."/>
+        <person name="Kim D.S."/>
+        <person name="De Juan-Pardo E."/>
+        <person name="Demeyer K."/>
+        <person name="Hole K."/>
+        <person name="Larrea E."/>
+        <person name="Timmerman E."/>
+        <person name="Prieto J."/>
+        <person name="Arnesen T."/>
+        <person name="Sherman F."/>
+        <person name="Gevaert K."/>
+        <person name="Aldabe R."/>
+      </authorList>
+      <dbReference type="PubMed" id="22814378"/>
+      <dbReference type="DOI" id="10.1073/pnas.1210303109"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT MET-1</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2013" name="J. Proteome Res." volume="12" first="260" last="271">
+      <title>Toward a comprehensive characterization of a human cancer cell phosphoproteome.</title>
+      <authorList>
+        <person name="Zhou H."/>
+        <person name="Di Palma S."/>
+        <person name="Preisinger C."/>
+        <person name="Peng M."/>
+        <person name="Polat A.N."/>
+        <person name="Heck A.J."/>
+        <person name="Mohammed S."/>
+      </authorList>
+      <dbReference type="PubMed" id="23186163"/>
+      <dbReference type="DOI" id="10.1021/pr300630k"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-825</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Erythroleukemia</tissue>
+    </source>
+  </reference>
+  <reference evidence="13" key="12">
+    <citation type="journal article" date="2017" name="Nucleic Acids Res." volume="45" first="11867" last="11877">
+      <title>Human Argonaute3 has slicer activity.</title>
+      <authorList>
+        <person name="Park M.S."/>
+        <person name="Phan H.D."/>
+        <person name="Busch F."/>
+        <person name="Hinckley S.H."/>
+        <person name="Brackbill J.A."/>
+        <person name="Wysocki V.H."/>
+        <person name="Nakanishi K."/>
+      </authorList>
+      <dbReference type="PubMed" id="29040713"/>
+      <dbReference type="DOI" id="10.1093/nar/gkx916"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (3.28 ANGSTROMS) IN COMPLEX WITH GUIDE RNA</scope>
+    <scope>GUIDE RNA-BINDING</scope>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>METAL-BINDING SITES</scope>
+    <scope>MUTAGENESIS OF GLU-638</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="2 5 8 9">Required for RNA-mediated gene silencing (RNAi). Binds to short RNAs such as microRNAs (miRNAs) and represses the translation of mRNAs which are complementary to them. Proposed to be involved in stabilization of small RNA derivates (siRNA) derived from processed RNA polymerase III-transcribed Alu repeats containing a DR2 retinoic acid response element (RARE) in stem cells and in the subsequent siRNA-dependent degradation of a subset of RNA polymerase II-transcribed coding mRNAs by recruiting a mRNA decapping complex involving EDC4. Possesses RNA slicer activity but only on select RNAs bearing 5'- and 3'-flanking sequences to the region of guide-target complementarity (PubMed:29040713).</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="9">
+      <text>Endonucleolytic cleavage to 5'-phosphomonoester.</text>
+      <dbReference type="EC" id="3.1.26.n2"/>
+    </reaction>
+  </comment>
+  <comment type="subunit">
+    <text evidence="2 6 7 8">Interacts with EIF4B, IMP8, PRMT5 and TNRC6B. Interacts with APOBEC3F, APOBEC3G and APOBEC3H. Interacts with EDC4.</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2267883">
+      <id>Q9H9G7</id>
+    </interactant>
+    <interactant intactId="EBI-1006038">
+      <id>Q6P2E9</id>
+      <label>EDC4</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2267883">
+      <id>Q9H9G7</id>
+    </interactant>
+    <interactant intactId="EBI-358808">
+      <id>O15397</id>
+      <label>IPO8</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>5</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2267883">
+      <id>Q9H9G7</id>
+    </interactant>
+    <interactant intactId="EBI-716663">
+      <id>P53041</id>
+      <label>PPP5C</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2267883">
+      <id>Q9H9G7</id>
+    </interactant>
+    <interactant intactId="EBI-2269715">
+      <id>Q8NDV7</id>
+      <label>TNRC6A</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>5</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-2267883">
+      <id>Q9H9G7</id>
+    </interactant>
+    <interactant intactId="EBI-20730502">
+      <id>A6NIX2</id>
+      <label>WTIP</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="2 4">Cytoplasm</location>
+      <location evidence="2 4">P-body</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="alternative products">
+    <event type="alternative splicing"/>
+    <isoform>
+      <id>Q9H9G7-1</id>
+      <name>1</name>
+      <sequence type="displayed"/>
+    </isoform>
+    <isoform>
+      <id>Q9H9G7-2</id>
+      <name>2</name>
+      <sequence type="described" ref="VSP_041084"/>
+    </isoform>
+  </comment>
+  <comment type="PTM">
+    <text evidence="1">Ubiquitinated on surface-exposed lysines by a SCF-like E3 ubiquitin-protein ligase complex containing ZSWIM8 during target-directed microRNA degradation (TDMD), a process that mediates degradation of microRNAs (miRNAs). Ubiquitination by the SCF-like E3 ubiquitin-protein ligase complex containing ZSWIM8 leads to its subsequent degradation, thereby exposing miRNAs for degradation. ZSWIM8 recognizes and binds AGO3 when it is engaged with a TDMD target.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the argonaute family. Ago subfamily.</text>
+  </comment>
+  <dbReference type="EC" id="3.1.26.n2" evidence="9"/>
+  <dbReference type="EMBL" id="AK022827">
+    <property type="protein sequence ID" value="BAB14262.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AL139286">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AL138787">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC025769">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS399.1">
+    <molecule id="Q9H9G7-1"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS400.1">
+    <molecule id="Q9H9G7-2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_079128.2">
+    <molecule id="Q9H9G7-1"/>
+    <property type="nucleotide sequence ID" value="NM_024852.3"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_803171.1">
+    <molecule id="Q9H9G7-2"/>
+    <property type="nucleotide sequence ID" value="NM_177422.2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="XP_005270632.1">
+    <molecule id="Q9H9G7-1"/>
+    <property type="nucleotide sequence ID" value="XM_005270575.3"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="XP_011539184.1">
+    <property type="nucleotide sequence ID" value="XM_011540882.2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="XP_016856012.1">
+    <molecule id="Q9H9G7-1"/>
+    <property type="nucleotide sequence ID" value="XM_017000523.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="XP_016856013.1">
+    <molecule id="Q9H9G7-2"/>
+    <property type="nucleotide sequence ID" value="XM_017000524.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="XP_016856014.1">
+    <property type="nucleotide sequence ID" value="XM_017000525.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="XP_016856015.1">
+    <molecule id="Q9H9G7-2"/>
+    <property type="nucleotide sequence ID" value="XM_017000526.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="XP_016856016.1">
+    <property type="nucleotide sequence ID" value="XM_017000527.1"/>
+  </dbReference>
+  <dbReference type="PDB" id="5VM9">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.28 A"/>
+    <property type="chains" value="A/C=1-860"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5VM9"/>
+  <dbReference type="AlphaFoldDB" id="Q9H9G7"/>
+  <dbReference type="SMR" id="Q9H9G7"/>
+  <dbReference type="BioGRID" id="128177">
+    <property type="interactions" value="150"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-8623">
+    <property type="entry name" value="miRNA RISC complex, TNRC6A variant"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-8624">
+    <property type="entry name" value="miRNA RISC complex, TNRC6B variant"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-8625">
+    <property type="entry name" value="miRNA RISC complex, TNRC6C variant"/>
+  </dbReference>
+  <dbReference type="DIP" id="DIP-54486N"/>
+  <dbReference type="IntAct" id="Q9H9G7">
+    <property type="interactions" value="93"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q9H9G7"/>
+  <dbReference type="STRING" id="9606.ENSP00000362287"/>
+  <dbReference type="GlyGen" id="Q9H9G7">
+    <property type="glycosylation" value="1 site, 1 O-linked glycan (1 site)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="Q9H9G7"/>
+  <dbReference type="PhosphoSitePlus" id="Q9H9G7"/>
+  <dbReference type="BioMuta" id="AGO3"/>
+  <dbReference type="DMDM" id="76803660"/>
+  <dbReference type="jPOST" id="Q9H9G7"/>
+  <dbReference type="MassIVE" id="Q9H9G7"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000362287"/>
+  <dbReference type="PeptideAtlas" id="Q9H9G7"/>
+  <dbReference type="ProteomicsDB" id="81320">
+    <molecule id="Q9H9G7-1"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="81321">
+    <molecule id="Q9H9G7-2"/>
+  </dbReference>
+  <dbReference type="Pumba" id="Q9H9G7"/>
+  <dbReference type="Antibodypedia" id="31609">
+    <property type="antibodies" value="215 antibodies from 31 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="192669"/>
+  <dbReference type="Ensembl" id="ENST00000246314.10">
+    <molecule id="Q9H9G7-2"/>
+    <property type="protein sequence ID" value="ENSP00000246314.6"/>
+    <property type="gene ID" value="ENSG00000126070.20"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000373191.9">
+    <molecule id="Q9H9G7-1"/>
+    <property type="protein sequence ID" value="ENSP00000362287.3"/>
+    <property type="gene ID" value="ENSG00000126070.20"/>
+  </dbReference>
+  <dbReference type="GeneID" id="192669"/>
+  <dbReference type="KEGG" id="hsa:192669"/>
+  <dbReference type="MANE-Select" id="ENST00000373191.9">
+    <property type="protein sequence ID" value="ENSP00000362287.3"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_024852.4"/>
+    <property type="RefSeq protein sequence ID" value="NP_079128.2"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc001bzp.4">
+    <molecule id="Q9H9G7-1"/>
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:18421"/>
+  <dbReference type="CTD" id="192669"/>
+  <dbReference type="DisGeNET" id="192669"/>
+  <dbReference type="GeneCards" id="AGO3"/>
+  <dbReference type="HGNC" id="HGNC:18421">
+    <property type="gene designation" value="AGO3"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000126070">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MIM" id="607355">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q9H9G7"/>
+  <dbReference type="OpenTargets" id="ENSG00000126070"/>
+  <dbReference type="PharmGKB" id="PA38329"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000126070"/>
+  <dbReference type="eggNOG" id="KOG1041">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00940000155256"/>
+  <dbReference type="HOGENOM" id="CLU_004544_4_3_1"/>
+  <dbReference type="InParanoid" id="Q9H9G7"/>
+  <dbReference type="OMA" id="RGRCYIH"/>
+  <dbReference type="OrthoDB" id="3060088at2759"/>
+  <dbReference type="PhylomeDB" id="Q9H9G7"/>
+  <dbReference type="TreeFam" id="TF101510"/>
+  <dbReference type="PathwayCommons" id="Q9H9G7"/>
+  <dbReference type="Reactome" id="R-HSA-1912408">
+    <property type="pathway name" value="Pre-NOTCH Transcription and Translation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-203927">
+    <property type="pathway name" value="MicroRNA (miRNA) biogenesis"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-2559580">
+    <property type="pathway name" value="Oxidative Stress Induced Senescence"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-2559585">
+    <property type="pathway name" value="Oncogene Induced Senescence"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-4086398">
+    <property type="pathway name" value="Ca2+ pathway"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-426486">
+    <property type="pathway name" value="Small interfering RNA (siRNA) biogenesis"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-426496">
+    <property type="pathway name" value="Post-transcriptional silencing by small RNAs"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-5628897">
+    <property type="pathway name" value="TP53 Regulates Metabolic Genes"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-5687128">
+    <property type="pathway name" value="MAPK6/MAPK4 signaling"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-8853884">
+    <property type="pathway name" value="Transcriptional Regulation by VENTX"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-8934593">
+    <property type="pathway name" value="Regulation of RUNX1 Expression and Activity"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-8936459">
+    <property type="pathway name" value="RUNX1 regulates genes involved in megakaryocyte differentiation and platelet function"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-8943723">
+    <property type="pathway name" value="Regulation of PTEN mRNA translation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-8948700">
+    <property type="pathway name" value="Competing endogenous RNAs (ceRNAs) regulate PTEN translation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-8986944">
+    <property type="pathway name" value="Transcriptional Regulation by MECP2"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9018519">
+    <property type="pathway name" value="Estrogen-dependent gene expression"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9022692">
+    <property type="pathway name" value="Regulation of MECP2 expression and activity"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9029569">
+    <property type="pathway name" value="NR1H3 &amp; NR1H2 regulate gene expression linked to cholesterol transport and efflux"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9725371">
+    <property type="pathway name" value="Nuclear events stimulated by ALK signaling in cancer"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9759811">
+    <property type="pathway name" value="Regulation of CDH11 mRNA translation by microRNAs"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9768778">
+    <property type="pathway name" value="Regulation of NPAS4 mRNA translation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9824594">
+    <property type="pathway name" value="Regulation of MITF-M-dependent genes involved in apoptosis"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9839394">
+    <property type="pathway name" value="TGFBR3 expression"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="Q9H9G7"/>
+  <dbReference type="BioGRID-ORCS" id="192669">
+    <property type="hits" value="11 hits in 1150 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="AGO3">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="GenomeRNAi" id="192669"/>
+  <dbReference type="Pharos" id="Q9H9G7">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q9H9G7"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 1"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q9H9G7">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000126070">
+    <property type="expression patterns" value="Expressed in buccal mucosa cell and 179 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q9H9G7">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000794">
+    <property type="term" value="C:condensed nuclear chromosome"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036464">
+    <property type="term" value="C:cytoplasmic ribonucleoprotein granule"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005829">
+    <property type="term" value="C:cytosol"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016020">
+    <property type="term" value="C:membrane"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000932">
+    <property type="term" value="C:P-body"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016442">
+    <property type="term" value="C:RISC complex"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070578">
+    <property type="term" value="C:RISC-loading complex"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003725">
+    <property type="term" value="F:double-stranded RNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0090624">
+    <property type="term" value="F:endoribonuclease activity, cleaving miRNA-paired mRNA"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046872">
+    <property type="term" value="F:metal ion binding"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0035198">
+    <property type="term" value="F:miRNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003723">
+    <property type="term" value="F:RNA binding"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0004521">
+    <property type="term" value="F:RNA endonuclease activity"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003727">
+    <property type="term" value="F:single-stranded RNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0035196">
+    <property type="term" value="P:miRNA processing"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0035278">
+    <property type="term" value="P:miRNA-mediated gene silencing by inhibition of translation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006402">
+    <property type="term" value="P:mRNA catabolic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010628">
+    <property type="term" value="P:positive regulation of gene expression"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1901224">
+    <property type="term" value="P:positive regulation of non-canonical NF-kappaB signal transduction"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031054">
+    <property type="term" value="P:pre-miRNA processing"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0072091">
+    <property type="term" value="P:regulation of stem cell proliferation"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0035194">
+    <property type="term" value="P:regulatory ncRNA-mediated post-transcriptional gene silencing"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070922">
+    <property type="term" value="P:RISC complex assembly"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010501">
+    <property type="term" value="P:RNA secondary structure unwinding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd02846">
+    <property type="entry name" value="PAZ_argonaute_like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd04657">
+    <property type="entry name" value="Piwi_ago-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.40.50.2300">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="2.170.260.10">
+    <property type="entry name" value="paz domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.420.10">
+    <property type="entry name" value="Ribonuclease H-like superfamily/Ribonuclease H"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="HAMAP" id="MF_03032">
+    <property type="entry name" value="AGO3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR028603">
+    <property type="entry name" value="AGO3"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR014811">
+    <property type="entry name" value="ArgoL1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR032472">
+    <property type="entry name" value="ArgoL2"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR032473">
+    <property type="entry name" value="Argonaute_Mid_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR032474">
+    <property type="entry name" value="Argonaute_N"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR003100">
+    <property type="entry name" value="PAZ_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036085">
+    <property type="entry name" value="PAZ_dom_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR003165">
+    <property type="entry name" value="Piwi"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR045246">
+    <property type="entry name" value="Piwi_ago-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012337">
+    <property type="entry name" value="RNaseH-like_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036397">
+    <property type="entry name" value="RNaseH_sf"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR22891">
+    <property type="entry name" value="EUKARYOTIC TRANSLATION INITIATION FACTOR 2C"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR22891:SF3">
+    <property type="entry name" value="PROTEIN ARGONAUTE-3"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF08699">
+    <property type="entry name" value="ArgoL1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF16488">
+    <property type="entry name" value="ArgoL2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF16487">
+    <property type="entry name" value="ArgoMid"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF16486">
+    <property type="entry name" value="ArgoN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF02170">
+    <property type="entry name" value="PAZ"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF02171">
+    <property type="entry name" value="Piwi"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM01163">
+    <property type="entry name" value="DUF1785"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00949">
+    <property type="entry name" value="PAZ"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00950">
+    <property type="entry name" value="Piwi"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF101690">
+    <property type="entry name" value="PAZ domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF53098">
+    <property type="entry name" value="Ribonuclease H-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50821">
+    <property type="entry name" value="PAZ"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50822">
+    <property type="entry name" value="PIWI"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0025">Alternative splicing</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0255">Endonuclease</keyword>
+  <keyword id="KW-0378">Hydrolase</keyword>
+  <keyword id="KW-0479">Metal-binding</keyword>
+  <keyword id="KW-0540">Nuclease</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0687">Ribonucleoprotein</keyword>
+  <keyword id="KW-0694">RNA-binding</keyword>
+  <keyword id="KW-0943">RNA-mediated gene silencing</keyword>
+  <keyword id="KW-0810">Translation regulation</keyword>
+  <keyword id="KW-0832">Ubl conjugation</keyword>
+  <feature type="chain" id="PRO_0000194061" description="Protein argonaute-3">
+    <location>
+      <begin position="1"/>
+      <end position="860"/>
+    </location>
+  </feature>
+  <feature type="domain" description="PAZ" evidence="3">
+    <location>
+      <begin position="230"/>
+      <end position="349"/>
+    </location>
+  </feature>
+  <feature type="domain" description="Piwi" evidence="2">
+    <location>
+      <begin position="518"/>
+      <end position="819"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Interaction with guide RNA" evidence="12">
+    <location>
+      <begin position="530"/>
+      <end position="567"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Interaction with guide RNA" evidence="12">
+    <location>
+      <begin position="758"/>
+      <end position="805"/>
+    </location>
+  </feature>
+  <feature type="binding site" evidence="12">
+    <location>
+      <position position="598"/>
+    </location>
+    <ligand>
+      <name>a divalent metal cation</name>
+      <dbReference type="ChEBI" id="CHEBI:60240"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="12">
+    <location>
+      <position position="638"/>
+    </location>
+    <ligand>
+      <name>a divalent metal cation</name>
+      <dbReference type="ChEBI" id="CHEBI:60240"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="12">
+    <location>
+      <position position="670"/>
+    </location>
+    <ligand>
+      <name>a divalent metal cation</name>
+      <dbReference type="ChEBI" id="CHEBI:60240"/>
+    </ligand>
+  </feature>
+  <feature type="binding site" evidence="12">
+    <location>
+      <position position="808"/>
+    </location>
+    <ligand>
+      <name>a divalent metal cation</name>
+      <dbReference type="ChEBI" id="CHEBI:60240"/>
+    </ligand>
+  </feature>
+  <feature type="modified residue" description="N-acetylmethionine" evidence="14">
+    <location>
+      <position position="1"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="15">
+    <location>
+      <position position="825"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_041084" description="In isoform 2." evidence="10">
+    <location>
+      <begin position="1"/>
+      <end position="234"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of RNA slicer activity." evidence="9">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="638"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 1; BAB14262." evidence="11" ref="1">
+    <original>T</original>
+    <variation>A</variation>
+    <location>
+      <position position="25"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="27"/>
+      <end position="40"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="47"/>
+      <end position="52"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="60"/>
+      <end position="73"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="16">
+    <location>
+      <begin position="76"/>
+      <end position="79"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="88"/>
+      <end position="96"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="122"/>
+      <end position="126"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="128"/>
+      <end position="132"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="136"/>
+      <end position="139"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="141"/>
+      <end position="143"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="159"/>
+      <end position="174"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="181"/>
+      <end position="184"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="192"/>
+      <end position="194"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="197"/>
+      <end position="210"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="213"/>
+      <end position="226"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="231"/>
+      <end position="238"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="253"/>
+      <end position="263"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="267"/>
+      <end position="271"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="279"/>
+      <end position="285"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="16">
+    <location>
+      <begin position="290"/>
+      <end position="292"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="309"/>
+      <end position="315"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="328"/>
+      <end position="332"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="16">
+    <location>
+      <begin position="334"/>
+      <end position="337"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="338"/>
+      <end position="342"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="345"/>
+      <end position="347"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="359"/>
+      <end position="369"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="373"/>
+      <end position="386"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="389"/>
+      <end position="391"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="393"/>
+      <end position="397"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="407"/>
+      <end position="413"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="16">
+    <location>
+      <begin position="423"/>
+      <end position="425"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="452"/>
+      <end position="456"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="16">
+    <location>
+      <begin position="460"/>
+      <end position="462"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="465"/>
+      <end position="481"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="491"/>
+      <end position="495"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="498"/>
+      <end position="501"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="502"/>
+      <end position="512"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="518"/>
+      <end position="523"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="529"/>
+      <end position="539"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="550"/>
+      <end position="554"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="558"/>
+      <end position="571"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="581"/>
+      <end position="583"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="586"/>
+      <end position="589"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="592"/>
+      <end position="600"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="611"/>
+      <end position="618"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="620"/>
+      <end position="623"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="626"/>
+      <end position="633"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="643"/>
+      <end position="657"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="658"/>
+      <end position="660"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="664"/>
+      <end position="669"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="677"/>
+      <end position="692"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="16">
+    <location>
+      <begin position="693"/>
+      <end position="695"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="702"/>
+      <end position="707"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="716"/>
+      <end position="719"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="16">
+    <location>
+      <begin position="721"/>
+      <end position="723"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="16">
+    <location>
+      <begin position="726"/>
+      <end position="729"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="735"/>
+      <end position="737"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="739"/>
+      <end position="742"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="744"/>
+      <end position="752"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="764"/>
+      <end position="771"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="777"/>
+      <end position="788"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="792"/>
+      <end position="796"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="802"/>
+      <end position="812"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="815"/>
+      <end position="818"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="839"/>
+      <end position="845"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="851"/>
+      <end position="853"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q9UKV8"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="2">
+    <source>
+      <dbReference type="HAMAP-Rule" id="MF_03032"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="3">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00142"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="16081698"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="18771919"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="19167051"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="22915799"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="23064648"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="29040713"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="10">
+    <source>
+      <dbReference type="PubMed" id="15489334"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="11"/>
+  <evidence type="ECO:0000305" key="12">
+    <source>
+      <dbReference type="PubMed" id="29040713"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="13">
+    <source>
+      <dbReference type="PDB" id="5VM9"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="14">
+    <source>
+      <dbReference type="PubMed" id="22814378"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="15">
+    <source>
+      <dbReference type="PubMed" id="23186163"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="16">
+    <source>
+      <dbReference type="PDB" id="5VM9"/>
+    </source>
+  </evidence>
+  <sequence length="860" mass="97360" checksum="6FF1277995E5322E" modified="2005-09-27" version="2">MEIGSAGPAGAQPLLMVPRRPGYGTMGKPIKLLANCFQVEIPKIDVYLYEVDIKPDKCPRRVNREVVDSMVQHFKVTIFGDRRPVYDGKRSLYTANPLPVATTGVDLDVTLPGEGGKDRPFKVSIKFVSRVSWHLLHEVLTGRTLPEPLELDKPISTNPVHAVDVVLRHLPSMKYTPVGRSFFSAPEGYDHPLGGGREVWFGFHQSVRPAMWKMMLNIDVSATAFYKAQPVIQFMCEVLDIHNIDEQPRPLTDSHRVKFTKEIKGLKVEVTHCGTMRRKYRVCNVTRRPASHQTFPLQLENGQTVERTVAQYFREKYTLQLKYPHLPCLQVGQEQKHTYLPLEVCNIVAGQRCIKKLTDNQTSTMIKATARSAPDRQEEISRLVRSANYETDPFVQEFQFKVRDEMAHVTGRVLPAPMLQYGGRNRTVATPSHGVWDMRGKQFHTGVEIKMWAIACFATQRQCREEILKGFTDQLRKISKDAGMPIQGQPCFCKYAQGADSVEPMFRHLKNTYSGLQLIIVILPGKTPVYAEVKRVGDTLLGMATQCVQVKNVIKTSPQTLSNLCLKINVKLGGINNILVPHQRPSVFQQPVIFLGADVTHPPAGDGKKPSIAAVVGSMDAHPSRYCATVRVQRPRQEIIQDLASMVRELLIQFYKSTRFKPTRIIFYRDGVSEGQFRQVLYYELLAIREACISLEKDYQPGITYIVVQKRHHTRLFCADRTERVGRSGNIPAGTTVDTDITHPYEFDFYLCSHAGIQGTSRPSHYHVLWDDNCFTADELQLLTYQLCHTYVRCTRSVSIPAPAYYAHLVAFRARYHLVDKEHDSAEGSHVSGQSNGRDPQALAKAVQIHQDTLRTMYFA</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

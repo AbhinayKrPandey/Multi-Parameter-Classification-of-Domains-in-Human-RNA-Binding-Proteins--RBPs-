@@ -1,0 +1,344 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.1390	
+2	A	0.2253	
+3	S	0.2462	
+4	G	0.2302	
+5	L	0.1980	
+6	V	0.1638	
+7	R	0.1364	
+8	L	0.1199	
+9	L	0.1151	
+10	Q	0.1199	
+11	Q	0.1263	
+12	G	0.1314	
+13	H	0.1429	
+14	R	0.1510	
+15	C	0.1629	
+16	L	0.1745	
+17	L	0.2028	
+18	A	0.2318	
+19	P	0.2491	
+20	V	0.2536	
+21	A	0.2582	
+22	P	0.2581	
+23	K	0.2529	
+24	L	0.2452	
+25	V	0.2477	
+26	P	0.2515	
+27	P	0.2517	
+28	V	0.2539	
+29	R	0.2541	
+30	G	0.2483	
+31	V	0.2368	
+32	K	0.2256	
+33	K	0.2224	
+34	G	0.2120	
+35	F	0.2234	
+36	R	0.2382	
+37	A	0.2537	
+38	A	0.2446	
+39	F	0.2237	
+40	R	0.2033	
+41	F	0.1936	
+42	Q	0.1794	
+43	K	0.1802	
+44	E	0.1842	
+45	L	0.2058	
+46	E	0.2320	
+47	R	0.2684	
+48	Q	0.3203	
+49	R	0.3630	
+50	L	0.4121	
+51	L	0.4626	
+52	R	0.5017	
+53	C	0.5276	
+54	P	0.5424	
+55	P	0.5549	
+56	P	0.5354	
+57	P	0.5121	
+58	V	0.4966	
+59	R	0.4905	
+60	R	0.4868	
+61	S	0.4949	
+62	E	0.4959	
+63	K	0.4952	
+64	P	0.4791	
+65	N	0.4612	
+66	W	0.4352	
+67	D	0.4061	
+68	Y	0.3828	
+69	H	0.3545	
+70	A	0.3410	
+71	E	0.3194	
+72	I	0.2982	
+73	Q	0.2732	
+74	A	0.2383	
+75	F	0.2110	
+76	G	0.1867	
+77	H	0.1649	
+78	R	0.1468	
+79	L	0.1396	
+80	Q	0.1435	
+81	E	0.1506	
+82	N	0.1450	
+83	F	0.1383	
+84	S	0.1202	
+85	L	0.1098	
+86	D	0.0970	domain RNase III
+87	L	0.0833	domain RNase III
+88	L	0.0758	domain RNase III
+89	K	0.0686	domain RNase III
+90	T	0.0680	domain RNase III
+91	A	0.0594	domain RNase III
+92	F	0.0673	domain RNase III
+93	V	0.0857	domain RNase III
+94	N	0.1139	domain RNase III
+95	S	0.1344	domain RNase III
+96	C	0.1383	domain RNase III
+97	Y	0.1437	domain RNase III
+98	I	0.1613	domain RNase III
+99	K	0.1879	domain RNase III
+100	S	0.2040	domain RNase III
+101	E	0.2124	domain RNase III
+102	E	0.2171	domain RNase III
+103	A	0.2253	domain RNase III
+104	K	0.2315	domain RNase III
+105	R	0.2438	domain RNase III
+106	Q	0.2458	domain RNase III
+107	Q	0.2535	domain RNase III
+108	L	0.2657	domain RNase III
+109	G	0.2675	domain RNase III
+110	I	0.2765	domain RNase III
+111	E	0.2826	domain RNase III
+112	K	0.2955	domain RNase III
+113	E	0.2882	domain RNase III
+114	A	0.2760	domain RNase III
+115	V	0.2678	domain RNase III
+116	L	0.2738	domain RNase III
+117	L	0.2877	domain RNase III
+118	N	0.2991	domain RNase III
+119	L	0.3150	domain RNase III
+120	K	0.3229	domain RNase III
+121	S	0.3265	domain RNase III
+122	N	0.3263	domain RNase III
+123	Q	0.3330	domain RNase III
+124	E	0.3312	domain RNase III
+125	L	0.3320	domain RNase III
+126	S	0.3268	domain RNase III
+127	E	0.3357	domain RNase III
+128	Q	0.3453	domain RNase III
+129	G	0.3439	domain RNase III
+130	T	0.3441	domain RNase III
+131	S	0.3268	domain RNase III
+132	F	0.3127	domain RNase III
+133	S	0.2994	domain RNase III
+134	Q	0.2921	domain RNase III
+135	T	0.2856	domain RNase III
+136	C	0.2881	domain RNase III
+137	L	0.2980	domain RNase III
+138	T	0.3133	domain RNase III
+139	Q	0.3320	domain RNase III
+140	F	0.3328	domain RNase III
+141	L	0.3382	domain RNase III
+142	E	0.3530	domain RNase III
+143	D	0.3601	domain RNase III
+144	E	0.3467	domain RNase III
+145	Y	0.3392	domain RNase III
+146	P	0.3204	domain RNase III
+147	D	0.3076	domain RNase III
+148	M	0.2991	domain RNase III
+149	P	0.3033	domain RNase III
+150	T	0.3139	domain RNase III
+151	E	0.3275	domain RNase III
+152	G	0.3436	domain RNase III
+153	I	0.3525	domain RNase III
+154	K	0.3476	domain RNase III
+155	N	0.3292	domain RNase III
+156	L	0.3038	domain RNase III
+157	V	0.2722	domain RNase III
+158	D	0.2217	domain RNase III
+159	F	0.1692	domain RNase III
+160	L	0.1360	domain RNase III
+161	T	0.1144	domain RNase III
+162	G	0.1001	domain RNase III
+163	E	0.0895	domain RNase III
+164	E	0.0800	domain RNase III
+165	V	0.0760	domain RNase III
+166	V	0.0786	domain RNase III
+167	C	0.0938	domain RNase III
+168	H	0.1136	domain RNase III
+169	V	0.1308	domain RNase III
+170	A	0.1356	domain RNase III
+171	R	0.1368	domain RNase III
+172	N	0.1329	domain RNase III
+173	L	0.1392	domain RNase III
+174	A	0.1456	domain RNase III
+175	V	0.1621	domain RNase III
+176	E	0.1728	domain RNase III
+177	Q	0.1833	domain RNase III
+178	L	0.1971	domain RNase III
+179	T	0.2152	domain RNase III
+180	L	0.2385	domain RNase III
+181	S	0.2534	domain RNase III
+182	E	0.2570	domain RNase III
+183	E	0.2357	domain RNase III
+184	F	0.2117	domain RNase III
+185	P	0.1888	domain RNase III
+186	V	0.1763	domain RNase III
+187	P	0.1621	domain RNase III
+188	P	0.1404	domain RNase III
+189	A	0.1166	domain RNase III
+190	V	0.0908	domain RNase III
+191	L	0.0753	domain RNase III
+192	Q	0.0699	domain RNase III
+193	Q	0.0739	domain RNase III
+194	T	0.0647	domain RNase III
+195	F	0.0622	domain RNase III
+196	F	0.0687	domain RNase III
+197	A	0.0854	domain RNase III
+198	V	0.1091	domain RNase III
+199	I	0.1230	domain RNase III
+200	G	0.1348	domain RNase III
+201	A	0.1360	domain RNase III
+202	L	0.1314	domain RNase III
+203	L	0.1256	domain RNase III
+204	Q	0.1194	domain RNase III
+205	S	0.1095	domain RNase III
+206	S	0.0961	domain RNase III
+207	G	0.0817	domain RNase III
+208	P	0.0758	domain RNase III
+209	E	0.0785	domain RNase III
+210	R	0.0961	domain RNase III
+211	T	0.1278	domain RNase III
+212	A	0.1542	domain RNase III
+213	L	0.1746	domain RNase III
+214	F	0.1929	domain RNase III
+215	I	0.2078	domain RNase III
+216	R	0.2125	domain RNase III
+217	D	0.1969	domain RNase III
+218	F	0.1687	domain RNase III
+219	L	0.1293	domain RNase III
+220	I	0.0928	domain RNase III
+221	T	0.0585	domain RNase III
+222	Q	0.0361	domain RNase III
+223	M	0.0278	domain RNase III
+224	T	0.0326	domain RNase III
+225	G	0.0503	domain RNase III
+226	K	0.0696	domain RNase III
+227	E	0.0855	domain RNase III
+228	L	0.0989	domain RNase III
+229	F	0.1132	
+230	E	0.1235	
+231	M	0.1234	
+232	W	0.1153	
+233	K	0.1036	
+234	I	0.0973	
+235	I	0.0880	
+236	N	0.0806	domain DRBM
+237	P	0.0751	domain DRBM
+238	M	0.0717	domain DRBM
+239	G	0.0809	domain DRBM
+240	L	0.1077	domain DRBM
+241	L	0.1410	domain DRBM
+242	V	0.1878	domain DRBM
+243	E	0.2346	domain DRBM
+244	E	0.2682	domain DRBM
+245	L	0.2908	domain DRBM
+246	K	0.3083	domain DRBM
+247	K	0.3291	domain DRBM
+248	R	0.3453	domain DRBM
+249	N	0.3704	domain DRBM
+250	V	0.3908	domain DRBM
+251	S	0.4192	domain DRBM
+252	A	0.4670	domain DRBM
+253	P	0.5139	domain DRBM
+254	E	0.5645	domain DRBM
+255	S	0.5893	domain DRBM
+256	R	0.5817	domain DRBM
+257	L	0.5607	domain DRBM
+258	T	0.5267	domain DRBM
+259	R	0.4782	domain DRBM
+260	Q	0.4199	domain DRBM
+261	S	0.3556	domain DRBM
+262	G	0.2939	domain DRBM
+263	G	0.2370	domain DRBM
+264	T	0.1928	domain DRBM
+265	T	0.1632	domain DRBM
+266	A	0.1347	domain DRBM
+267	L	0.1202	domain DRBM
+268	P	0.1027	domain DRBM
+269	L	0.0879	domain DRBM
+270	Y	0.0742	domain DRBM
+271	F	0.0658	domain DRBM
+272	V	0.0658	domain DRBM
+273	G	0.0584	domain DRBM
+274	L	0.0516	domain DRBM
+275	Y	0.0459	domain DRBM
+276	C	0.0510	domain DRBM
+277	D	0.0598	domain DRBM
+278	K	0.0637	domain DRBM
+279	K	0.0649	domain DRBM
+280	L	0.0715	domain DRBM
+281	I	0.0934	domain DRBM
+282	A	0.1289	domain DRBM
+283	E	0.1749	domain DRBM
+284	G	0.2171	domain DRBM
+285	P	0.2483	domain DRBM
+286	G	0.2776	domain DRBM
+287	E	0.3076	domain DRBM
+288	T	0.3219	domain DRBM
+289	V	0.3329	domain DRBM
+290	L	0.3344	domain DRBM
+291	V	0.3286	domain DRBM
+292	A	0.3113	domain DRBM
+293	E	0.2805	domain DRBM
+294	E	0.2481	domain DRBM
+295	E	0.2042	domain DRBM
+296	A	0.1721	domain DRBM
+297	A	0.1453	domain DRBM
+298	R	0.1367	domain DRBM
+299	V	0.1461	domain DRBM
+300	A	0.1706	domain DRBM
+301	L	0.2074	domain DRBM
+302	R	0.2350	domain DRBM
+303	K	0.2465	domain DRBM
+304	L	0.2364	domain DRBM
+305	Y	0.2247	domain DRBM
+306	G	0.2115	domain DRBM
+307	F	0.2070	
+308	T	0.2032	
+309	E	0.2196	
+310	N	0.2380	
+311	R	0.2752	
+312	R	0.3191	
+313	P	0.3569	
+314	W	0.3959	
+315	N	0.4216	
+316	Y	0.4538	
+317	S	0.4689	
+318	K	0.4809	
+319	P	0.4787	
+320	K	0.4682	
+321	E	0.4527	
+322	T	0.4320	
+323	L	0.4212	
+324	R	0.4259	
+325	A	0.4397	
+326	E	0.4598	
+327	K	0.4820	
+328	S	0.5000	
+329	I	0.5063	
+330	T	0.4914	
+331	A	0.4447	
+332	S	0.3538	

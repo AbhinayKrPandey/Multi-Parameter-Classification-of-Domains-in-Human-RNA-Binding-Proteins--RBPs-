@@ -1,0 +1,1967 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2000-05-30" modified="2024-10-02" version="223" xmlns="http://uniprot.org/uniprot">
+  <accession>Q99613</accession>
+  <accession>A8K7Z0</accession>
+  <accession>B2RXG3</accession>
+  <accession>B4E1D5</accession>
+  <accession>H3BRV0</accession>
+  <accession>O00215</accession>
+  <accession>Q9BW98</accession>
+  <name>EIF3C_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="2">Eukaryotic translation initiation factor 3 subunit C</fullName>
+      <shortName evidence="2">eIF3c</shortName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="2">Eukaryotic translation initiation factor 3 subunit 8</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="2">eIF3 p110</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="2" type="primary">EIF3C</name>
+    <name evidence="2" type="synonym">EIF3S8</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1997" name="J. Biol. Chem." volume="272" first="1101" last="1109">
+      <title>Conservation and diversity of eukaryotic translation initiation factor eIF3.</title>
+      <authorList>
+        <person name="Asano K."/>
+        <person name="Kinzy T.G."/>
+        <person name="Merrick W.C."/>
+        <person name="Hershey J.W.B."/>
+      </authorList>
+      <dbReference type="PubMed" id="8995409"/>
+      <dbReference type="DOI" id="10.1074/jbc.272.2.1101"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA]</scope>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="1999" name="Genomics" volume="60" first="295" last="308">
+      <title>Genome duplications and other features in 12 Mb of DNA sequence from human chromosome 16p and 16q.</title>
+      <authorList>
+        <person name="Loftus B.J."/>
+        <person name="Kim U.-J."/>
+        <person name="Sneddon V.P."/>
+        <person name="Kalush F."/>
+        <person name="Brandon R."/>
+        <person name="Fuhrmann J."/>
+        <person name="Mason T."/>
+        <person name="Crosby M.L."/>
+        <person name="Barnstead M."/>
+        <person name="Cronin L."/>
+        <person name="Mays A.D."/>
+        <person name="Cao Y."/>
+        <person name="Xu R.X."/>
+        <person name="Kang H.-L."/>
+        <person name="Mitchell S."/>
+        <person name="Eichler E.E."/>
+        <person name="Harris P.C."/>
+        <person name="Venter J.C."/>
+        <person name="Adams M.D."/>
+      </authorList>
+      <dbReference type="PubMed" id="10493829"/>
+      <dbReference type="DOI" id="10.1006/geno.1999.5927"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+      <title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+      <authorList>
+        <person name="Ota T."/>
+        <person name="Suzuki Y."/>
+        <person name="Nishikawa T."/>
+        <person name="Otsuki T."/>
+        <person name="Sugiyama T."/>
+        <person name="Irie R."/>
+        <person name="Wakamatsu A."/>
+        <person name="Hayashi K."/>
+        <person name="Sato H."/>
+        <person name="Nagai K."/>
+        <person name="Kimura K."/>
+        <person name="Makita H."/>
+        <person name="Sekine M."/>
+        <person name="Obayashi M."/>
+        <person name="Nishi T."/>
+        <person name="Shibahara T."/>
+        <person name="Tanaka T."/>
+        <person name="Ishii S."/>
+        <person name="Yamamoto J."/>
+        <person name="Saito K."/>
+        <person name="Kawai Y."/>
+        <person name="Isono Y."/>
+        <person name="Nakamura Y."/>
+        <person name="Nagahari K."/>
+        <person name="Murakami K."/>
+        <person name="Yasuda T."/>
+        <person name="Iwayanagi T."/>
+        <person name="Wagatsuma M."/>
+        <person name="Shiratori A."/>
+        <person name="Sudo H."/>
+        <person name="Hosoiri T."/>
+        <person name="Kaku Y."/>
+        <person name="Kodaira H."/>
+        <person name="Kondo H."/>
+        <person name="Sugawara M."/>
+        <person name="Takahashi M."/>
+        <person name="Kanda K."/>
+        <person name="Yokoi T."/>
+        <person name="Furuya T."/>
+        <person name="Kikkawa E."/>
+        <person name="Omura Y."/>
+        <person name="Abe K."/>
+        <person name="Kamihara K."/>
+        <person name="Katsuta N."/>
+        <person name="Sato K."/>
+        <person name="Tanikawa M."/>
+        <person name="Yamazaki M."/>
+        <person name="Ninomiya K."/>
+        <person name="Ishibashi T."/>
+        <person name="Yamashita H."/>
+        <person name="Murakawa K."/>
+        <person name="Fujimori K."/>
+        <person name="Tanai H."/>
+        <person name="Kimata M."/>
+        <person name="Watanabe M."/>
+        <person name="Hiraoka S."/>
+        <person name="Chiba Y."/>
+        <person name="Ishida S."/>
+        <person name="Ono Y."/>
+        <person name="Takiguchi S."/>
+        <person name="Watanabe S."/>
+        <person name="Yosida M."/>
+        <person name="Hotuta T."/>
+        <person name="Kusano J."/>
+        <person name="Kanehori K."/>
+        <person name="Takahashi-Fujii A."/>
+        <person name="Hara H."/>
+        <person name="Tanase T.-O."/>
+        <person name="Nomura Y."/>
+        <person name="Togiya S."/>
+        <person name="Komai F."/>
+        <person name="Hara R."/>
+        <person name="Takeuchi K."/>
+        <person name="Arita M."/>
+        <person name="Imose N."/>
+        <person name="Musashino K."/>
+        <person name="Yuuki H."/>
+        <person name="Oshima A."/>
+        <person name="Sasaki N."/>
+        <person name="Aotsuka S."/>
+        <person name="Yoshikawa Y."/>
+        <person name="Matsunawa H."/>
+        <person name="Ichihara T."/>
+        <person name="Shiohata N."/>
+        <person name="Sano S."/>
+        <person name="Moriya S."/>
+        <person name="Momiyama H."/>
+        <person name="Satoh N."/>
+        <person name="Takami S."/>
+        <person name="Terashima Y."/>
+        <person name="Suzuki O."/>
+        <person name="Nakagawa S."/>
+        <person name="Senoh A."/>
+        <person name="Mizoguchi H."/>
+        <person name="Goto Y."/>
+        <person name="Shimizu F."/>
+        <person name="Wakebe H."/>
+        <person name="Hishigaki H."/>
+        <person name="Watanabe T."/>
+        <person name="Sugiyama A."/>
+        <person name="Takemoto M."/>
+        <person name="Kawakami B."/>
+        <person name="Yamazaki M."/>
+        <person name="Watanabe K."/>
+        <person name="Kumagai A."/>
+        <person name="Itakura S."/>
+        <person name="Fukuzumi Y."/>
+        <person name="Fujimori Y."/>
+        <person name="Komiyama M."/>
+        <person name="Tashiro H."/>
+        <person name="Tanigami A."/>
+        <person name="Fujiwara T."/>
+        <person name="Ono T."/>
+        <person name="Yamada K."/>
+        <person name="Fujii Y."/>
+        <person name="Ozaki K."/>
+        <person name="Hirao M."/>
+        <person name="Ohmori Y."/>
+        <person name="Kawabata A."/>
+        <person name="Hikiji T."/>
+        <person name="Kobatake N."/>
+        <person name="Inagaki H."/>
+        <person name="Ikema Y."/>
+        <person name="Okamoto S."/>
+        <person name="Okitani R."/>
+        <person name="Kawakami T."/>
+        <person name="Noguchi S."/>
+        <person name="Itoh T."/>
+        <person name="Shigeta K."/>
+        <person name="Senba T."/>
+        <person name="Matsumura K."/>
+        <person name="Nakajima Y."/>
+        <person name="Mizuno T."/>
+        <person name="Morinaga M."/>
+        <person name="Sasaki M."/>
+        <person name="Togashi T."/>
+        <person name="Oyama M."/>
+        <person name="Hata H."/>
+        <person name="Watanabe M."/>
+        <person name="Komatsu T."/>
+        <person name="Mizushima-Sugano J."/>
+        <person name="Satoh T."/>
+        <person name="Shirai Y."/>
+        <person name="Takahashi Y."/>
+        <person name="Nakagawa K."/>
+        <person name="Okumura K."/>
+        <person name="Nagase T."/>
+        <person name="Nomura N."/>
+        <person name="Kikuchi H."/>
+        <person name="Masuho Y."/>
+        <person name="Yamashita R."/>
+        <person name="Nakai K."/>
+        <person name="Yada T."/>
+        <person name="Nakamura Y."/>
+        <person name="Ohara O."/>
+        <person name="Isogai T."/>
+        <person name="Sugano S."/>
+      </authorList>
+      <dbReference type="PubMed" id="14702039"/>
+      <dbReference type="DOI" id="10.1038/ng1285"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 1 AND 2)</scope>
+    <source>
+      <tissue>Liver</tissue>
+      <tissue>Synovium</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2004" name="Nature" volume="432" first="988" last="994">
+      <title>The sequence and analysis of duplication-rich human chromosome 16.</title>
+      <authorList>
+        <person name="Martin J."/>
+        <person name="Han C."/>
+        <person name="Gordon L.A."/>
+        <person name="Terry A."/>
+        <person name="Prabhakar S."/>
+        <person name="She X."/>
+        <person name="Xie G."/>
+        <person name="Hellsten U."/>
+        <person name="Chan Y.M."/>
+        <person name="Altherr M."/>
+        <person name="Couronne O."/>
+        <person name="Aerts A."/>
+        <person name="Bajorek E."/>
+        <person name="Black S."/>
+        <person name="Blumer H."/>
+        <person name="Branscomb E."/>
+        <person name="Brown N.C."/>
+        <person name="Bruno W.J."/>
+        <person name="Buckingham J.M."/>
+        <person name="Callen D.F."/>
+        <person name="Campbell C.S."/>
+        <person name="Campbell M.L."/>
+        <person name="Campbell E.W."/>
+        <person name="Caoile C."/>
+        <person name="Challacombe J.F."/>
+        <person name="Chasteen L.A."/>
+        <person name="Chertkov O."/>
+        <person name="Chi H.C."/>
+        <person name="Christensen M."/>
+        <person name="Clark L.M."/>
+        <person name="Cohn J.D."/>
+        <person name="Denys M."/>
+        <person name="Detter J.C."/>
+        <person name="Dickson M."/>
+        <person name="Dimitrijevic-Bussod M."/>
+        <person name="Escobar J."/>
+        <person name="Fawcett J.J."/>
+        <person name="Flowers D."/>
+        <person name="Fotopulos D."/>
+        <person name="Glavina T."/>
+        <person name="Gomez M."/>
+        <person name="Gonzales E."/>
+        <person name="Goodstein D."/>
+        <person name="Goodwin L.A."/>
+        <person name="Grady D.L."/>
+        <person name="Grigoriev I."/>
+        <person name="Groza M."/>
+        <person name="Hammon N."/>
+        <person name="Hawkins T."/>
+        <person name="Haydu L."/>
+        <person name="Hildebrand C.E."/>
+        <person name="Huang W."/>
+        <person name="Israni S."/>
+        <person name="Jett J."/>
+        <person name="Jewett P.B."/>
+        <person name="Kadner K."/>
+        <person name="Kimball H."/>
+        <person name="Kobayashi A."/>
+        <person name="Krawczyk M.-C."/>
+        <person name="Leyba T."/>
+        <person name="Longmire J.L."/>
+        <person name="Lopez F."/>
+        <person name="Lou Y."/>
+        <person name="Lowry S."/>
+        <person name="Ludeman T."/>
+        <person name="Manohar C.F."/>
+        <person name="Mark G.A."/>
+        <person name="McMurray K.L."/>
+        <person name="Meincke L.J."/>
+        <person name="Morgan J."/>
+        <person name="Moyzis R.K."/>
+        <person name="Mundt M.O."/>
+        <person name="Munk A.C."/>
+        <person name="Nandkeshwar R.D."/>
+        <person name="Pitluck S."/>
+        <person name="Pollard M."/>
+        <person name="Predki P."/>
+        <person name="Parson-Quintana B."/>
+        <person name="Ramirez L."/>
+        <person name="Rash S."/>
+        <person name="Retterer J."/>
+        <person name="Ricke D.O."/>
+        <person name="Robinson D.L."/>
+        <person name="Rodriguez A."/>
+        <person name="Salamov A."/>
+        <person name="Saunders E.H."/>
+        <person name="Scott D."/>
+        <person name="Shough T."/>
+        <person name="Stallings R.L."/>
+        <person name="Stalvey M."/>
+        <person name="Sutherland R.D."/>
+        <person name="Tapia R."/>
+        <person name="Tesmer J.G."/>
+        <person name="Thayer N."/>
+        <person name="Thompson L.S."/>
+        <person name="Tice H."/>
+        <person name="Torney D.C."/>
+        <person name="Tran-Gyamfi M."/>
+        <person name="Tsai M."/>
+        <person name="Ulanovsky L.E."/>
+        <person name="Ustaszewska A."/>
+        <person name="Vo N."/>
+        <person name="White P.S."/>
+        <person name="Williams A.L."/>
+        <person name="Wills P.L."/>
+        <person name="Wu J.-R."/>
+        <person name="Wu K."/>
+        <person name="Yang J."/>
+        <person name="DeJong P."/>
+        <person name="Bruce D."/>
+        <person name="Doggett N.A."/>
+        <person name="Deaven L."/>
+        <person name="Schmutz J."/>
+        <person name="Grimwood J."/>
+        <person name="Richardson P."/>
+        <person name="Rokhsar D.S."/>
+        <person name="Eichler E.E."/>
+        <person name="Gilna P."/>
+        <person name="Lucas S.M."/>
+        <person name="Myers R.M."/>
+        <person name="Rubin E.M."/>
+        <person name="Pennacchio L.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="15616553"/>
+      <dbReference type="DOI" id="10.1038/nature03187"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="5">
+    <citation type="submission" date="2005-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Mural R.J."/>
+        <person name="Istrail S."/>
+        <person name="Sutton G.G."/>
+        <person name="Florea L."/>
+        <person name="Halpern A.L."/>
+        <person name="Mobarry C.M."/>
+        <person name="Lippert R."/>
+        <person name="Walenz B."/>
+        <person name="Shatkay H."/>
+        <person name="Dew I."/>
+        <person name="Miller J.R."/>
+        <person name="Flanigan M.J."/>
+        <person name="Edwards N.J."/>
+        <person name="Bolanos R."/>
+        <person name="Fasulo D."/>
+        <person name="Halldorsson B.V."/>
+        <person name="Hannenhalli S."/>
+        <person name="Turner R."/>
+        <person name="Yooseph S."/>
+        <person name="Lu F."/>
+        <person name="Nusskern D.R."/>
+        <person name="Shue B.C."/>
+        <person name="Zheng X.H."/>
+        <person name="Zhong F."/>
+        <person name="Delcher A.L."/>
+        <person name="Huson D.H."/>
+        <person name="Kravitz S.A."/>
+        <person name="Mouchard L."/>
+        <person name="Reinert K."/>
+        <person name="Remington K.A."/>
+        <person name="Clark A.G."/>
+        <person name="Waterman M.S."/>
+        <person name="Eichler E.E."/>
+        <person name="Adams M.D."/>
+        <person name="Hunkapiller M.W."/>
+        <person name="Myers E.W."/>
+        <person name="Venter J.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1)</scope>
+    <source>
+      <tissue>Brain</tissue>
+      <tissue>Lymph</tissue>
+      <tissue>Placenta</tissue>
+    </source>
+  </reference>
+  <reference key="7">
+    <citation type="submission" date="2003-05" db="EMBL/GenBank/DDBJ databases">
+      <title>Cloning of human full-length CDSs in BD Creator(TM) system donor vector.</title>
+      <authorList>
+        <person name="Kalnine N."/>
+        <person name="Chen X."/>
+        <person name="Rolfs A."/>
+        <person name="Halleck A."/>
+        <person name="Hines L."/>
+        <person name="Eisenstein S."/>
+        <person name="Koundinya M."/>
+        <person name="Raphael J."/>
+        <person name="Moreira D."/>
+        <person name="Kelley T."/>
+        <person name="LaBaer J."/>
+        <person name="Lin Y."/>
+        <person name="Phelan M."/>
+        <person name="Farmer A."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 589-913 (ISOFORM 1)</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2003" name="Eur. J. Biochem." volume="270" first="4133" last="4139">
+      <title>Characterization of eIF3k: a newly discovered subunit of mammalian translation initiation factor eIF3.</title>
+      <authorList>
+        <person name="Mayeur G.L."/>
+        <person name="Fraser C.S."/>
+        <person name="Peiretti F."/>
+        <person name="Block K.L."/>
+        <person name="Hershey J.W.B."/>
+      </authorList>
+      <dbReference type="PubMed" id="14519125"/>
+      <dbReference type="DOI" id="10.1046/j.1432-1033.2003.03807.x"/>
+    </citation>
+    <scope>INTERACTION WITH EIF3B</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2005" name="Cell" volume="123" first="569" last="580">
+      <title>mTOR and S6K1 mediate assembly of the translation preinitiation complex through dynamic protein interchange and ordered phosphorylation events.</title>
+      <authorList>
+        <person name="Holz M.K."/>
+        <person name="Ballif B.A."/>
+        <person name="Gygi S.P."/>
+        <person name="Blenis J."/>
+      </authorList>
+      <dbReference type="PubMed" id="16286006"/>
+      <dbReference type="DOI" id="10.1016/j.cell.2005.10.024"/>
+    </citation>
+    <scope>INTERACTION WITH MTOR; RPTOR AND RPS6KB1</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2005" name="RNA" volume="11" first="470" last="486">
+      <title>Binding of eukaryotic initiation factor 3 to ribosomal 40S subunits and its role in ribosomal dissociation and anti-association.</title>
+      <authorList>
+        <person name="Kolupaeva V.G."/>
+        <person name="Unbehaun A."/>
+        <person name="Lomakin I.B."/>
+        <person name="Hellen C.U.T."/>
+        <person name="Pestova T.V."/>
+      </authorList>
+      <dbReference type="PubMed" id="15703437"/>
+      <dbReference type="DOI" id="10.1261/rna.7215305"/>
+    </citation>
+    <scope>CHARACTERIZATION OF THE EIF-3 COMPLEX</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2005" name="Virology" volume="340" first="116" last="124">
+      <title>Induction and mode of action of the viral stress-inducible murine proteins, P56 and P54.</title>
+      <authorList>
+        <person name="Terenzi F."/>
+        <person name="Pal S."/>
+        <person name="Sen G.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="16023166"/>
+      <dbReference type="DOI" id="10.1016/j.virol.2005.06.011"/>
+    </citation>
+    <scope>INTERACTION WITH IFIT1 AND IFIT2</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2006" name="J. Biol. Chem." volume="281" first="22917" last="22932">
+      <title>Translation initiation factor eIF4G-1 binds to eIF3 through the eIF3e subunit.</title>
+      <authorList>
+        <person name="LeFebvre A.K."/>
+        <person name="Korneeva N.L."/>
+        <person name="Trutschl M."/>
+        <person name="Cvek U."/>
+        <person name="Duzan R.D."/>
+        <person name="Bradley C.A."/>
+        <person name="Hershey J.W.B."/>
+        <person name="Rhoads R.E."/>
+      </authorList>
+      <dbReference type="PubMed" id="16766523"/>
+      <dbReference type="DOI" id="10.1074/jbc.m605418200"/>
+    </citation>
+    <scope>IDENTIFICATION IN THE EIF-3 COMPLEX</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2006" name="J. Biol. Chem." volume="281" first="34064" last="34071">
+      <title>Distinct induction patterns and functions of two closely related interferon-inducible human genes, ISG54 and ISG56.</title>
+      <authorList>
+        <person name="Terenzi F."/>
+        <person name="Hui D.J."/>
+        <person name="Merrick W.C."/>
+        <person name="Sen G.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="16973618"/>
+      <dbReference type="DOI" id="10.1074/jbc.m605771200"/>
+    </citation>
+    <scope>INTERACTION WITH IFIT2</scope>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2007" name="EMBO J." volume="26" first="3373" last="3383">
+      <title>Reconstitution reveals the functional core of mammalian eIF3.</title>
+      <authorList>
+        <person name="Masutani M."/>
+        <person name="Sonenberg N."/>
+        <person name="Yokoyama S."/>
+        <person name="Imataka H."/>
+      </authorList>
+      <dbReference type="PubMed" id="17581632"/>
+      <dbReference type="DOI" id="10.1038/sj.emboj.7601765"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CHARACTERIZATION OF THE EIF-3 COMPLEX</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2007" name="EMBO Rep." volume="8" first="596" last="602">
+      <title>Human INT6/eIF3e is required for nonsense-mediated mRNA decay.</title>
+      <authorList>
+        <person name="Morris C."/>
+        <person name="Wittmann J."/>
+        <person name="Jaeck H.-M."/>
+        <person name="Jalinot P."/>
+      </authorList>
+      <dbReference type="PubMed" id="17468741"/>
+      <dbReference type="DOI" id="10.1038/sj.embor.7400955"/>
+    </citation>
+    <scope>INTERACTION WITH EIF3E</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="2007" name="Mol. Cell. Proteomics" volume="6" first="1135" last="1146">
+      <title>Structural characterization of the human eukaryotic initiation factor 3 protein complex by mass spectrometry.</title>
+      <authorList>
+        <person name="Damoc E."/>
+        <person name="Fraser C.S."/>
+        <person name="Zhou M."/>
+        <person name="Videler H."/>
+        <person name="Mayeur G.L."/>
+        <person name="Hershey J.W.B."/>
+        <person name="Doudna J.A."/>
+        <person name="Robinson C.V."/>
+        <person name="Leary J.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="17322308"/>
+      <dbReference type="DOI" id="10.1074/mcp.m600399-mcp200"/>
+    </citation>
+    <scope>IDENTIFICATION IN THE EIF-3 COMPLEX</scope>
+    <scope>CHARACTERIZATION OF THE EIF-3 COMPLEX</scope>
+    <scope>PHOSPHORYLATION AT SER-9; SER-11; SER-13; SER-15; SER-16; SER-18; SER-39; SER-166; THR-524 AND SER-909</scope>
+    <scope>MASS SPECTROMETRY</scope>
+  </reference>
+  <reference key="17">
+    <citation type="journal article" date="2008" name="Proc. Natl. Acad. Sci. U.S.A." volume="105" first="18139" last="18144">
+      <title>Mass spectrometry reveals modularity and a complete subunit interaction map of the eukaryotic translation factor eIF3.</title>
+      <authorList>
+        <person name="Zhou M."/>
+        <person name="Sandercock A.M."/>
+        <person name="Fraser C.S."/>
+        <person name="Ridlova G."/>
+        <person name="Stephens E."/>
+        <person name="Schenauer M.R."/>
+        <person name="Yokoi-Fong T."/>
+        <person name="Barsky D."/>
+        <person name="Leary J.A."/>
+        <person name="Hershey J.W.B."/>
+        <person name="Doudna J.A."/>
+        <person name="Robinson C.V."/>
+      </authorList>
+      <dbReference type="PubMed" id="18599441"/>
+      <dbReference type="DOI" id="10.1073/pnas.0801313105"/>
+    </citation>
+    <scope>IDENTIFICATION IN THE EIF-3 COMPLEX</scope>
+    <scope>CHARACTERIZATION OF THE EIF-3 COMPLEX</scope>
+    <scope>MASS SPECTROMETRY</scope>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="2009" name="RNA" volume="15" first="1528" last="1542">
+      <title>IGF2BP1 enhances HCV IRES-mediated translation initiation via the 3'UTR.</title>
+      <authorList>
+        <person name="Weinlich S."/>
+        <person name="Huettelmaier S."/>
+        <person name="Schierhorn A."/>
+        <person name="Behrens S.-E."/>
+        <person name="Ostareck-Lederer A."/>
+        <person name="Ostareck D.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="19541769"/>
+      <dbReference type="DOI" id="10.1261/rna.1578409"/>
+    </citation>
+    <scope>IDENTIFICATION IN A HCV IRES-MEDIATED TRANSLATION COMPLEX</scope>
+  </reference>
+  <reference key="19">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="20">
+    <citation type="journal article" date="2012" name="PLoS ONE" volume="7" first="E49045" last="E49045">
+      <title>Human ALKBH4 interacts with proteins associated with transcription.</title>
+      <authorList>
+        <person name="Bjornstad L.G."/>
+        <person name="Meza T.J."/>
+        <person name="Otterlei M."/>
+        <person name="Olafsrud S.M."/>
+        <person name="Meza-Zepeda L.A."/>
+        <person name="Falnes P.O."/>
+      </authorList>
+      <dbReference type="PubMed" id="23145062"/>
+      <dbReference type="DOI" id="10.1371/journal.pone.0049045"/>
+    </citation>
+    <scope>INTERACTION WITH ALKBH4</scope>
+  </reference>
+  <reference key="21">
+    <citation type="journal article" date="2015" name="Nature" volume="522" first="111" last="114">
+      <title>eIF3 targets cell-proliferation messenger RNAs for translational activation or repression.</title>
+      <authorList>
+        <person name="Lee A.S."/>
+        <person name="Kranzusch P.J."/>
+        <person name="Cate J.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="25849773"/>
+      <dbReference type="DOI" id="10.1038/nature14267"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>IDENTIFICATION IN THE EIF-3 COMPLEX</scope>
+  </reference>
+  <reference key="22">
+    <citation type="journal article" date="2016" name="Nature" volume="536" first="96" last="99">
+      <title>eIF3d is an mRNA cap-binding protein that is required for specialized translation initiation.</title>
+      <authorList>
+        <person name="Lee A.S."/>
+        <person name="Kranzusch P.J."/>
+        <person name="Doudna J.A."/>
+        <person name="Cate J.H."/>
+      </authorList>
+      <dbReference type="PubMed" id="27462815"/>
+      <dbReference type="DOI" id="10.1038/nature18954"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="23">
+    <citation type="journal article" date="2021" name="Cell Rep." volume="36" first="109376" last="109376">
+      <title>Human oncoprotein 5MP suppresses general and repeat-associated non-AUG translation via eIF3 by a common mechanism.</title>
+      <authorList>
+        <person name="Singh C.R."/>
+        <person name="Glineburg M.R."/>
+        <person name="Moore C."/>
+        <person name="Tani N."/>
+        <person name="Jaiswal R."/>
+        <person name="Zou Y."/>
+        <person name="Aube E."/>
+        <person name="Gillaspie S."/>
+        <person name="Thornton M."/>
+        <person name="Cecil A."/>
+        <person name="Hilgers M."/>
+        <person name="Takasu A."/>
+        <person name="Asano I."/>
+        <person name="Asano M."/>
+        <person name="Escalante C.R."/>
+        <person name="Nakamura A."/>
+        <person name="Todd P.K."/>
+        <person name="Asano K."/>
+      </authorList>
+      <dbReference type="PubMed" id="34260931"/>
+      <dbReference type="DOI" id="10.1016/j.celrep.2021.109376"/>
+    </citation>
+    <scope>INTERACTION WITH BZW2/5MP1</scope>
+  </reference>
+  <reference key="24">
+    <citation type="journal article" date="2005" name="Science" volume="310" first="1513" last="1515">
+      <title>Structural roles for human translation factor eIF3 in initiation of protein synthesis.</title>
+      <authorList>
+        <person name="Siridechadilok B."/>
+        <person name="Fraser C.S."/>
+        <person name="Hall R.J."/>
+        <person name="Doudna J.A."/>
+        <person name="Nogales E."/>
+      </authorList>
+      <dbReference type="PubMed" id="16322461"/>
+      <dbReference type="DOI" id="10.1126/science.1118977"/>
+    </citation>
+    <scope>3D-STRUCTURE MODELING</scope>
+    <scope>ELECTRON MICROSCOPY</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="2 12 16 17">Component of the eukaryotic translation initiation factor 3 (eIF-3) complex, which is required for several steps in the initiation of protein synthesis (PubMed:17581632, PubMed:25849773, PubMed:27462815). The eIF-3 complex associates with the 40S ribosome and facilitates the recruitment of eIF-1, eIF-1A, eIF-2:GTP:methionyl-tRNAi and eIF-5 to form the 43S pre-initiation complex (43S PIC). The eIF-3 complex stimulates mRNA recruitment to the 43S PIC and scanning of the mRNA for AUG recognition. The eIF-3 complex is also required for disassembly and recycling of post-termination ribosomal complexes and subsequently prevents premature joining of the 40S and 60S ribosomal subunits prior to initiation (PubMed:17581632). The eIF-3 complex specifically targets and initiates translation of a subset of mRNAs involved in cell proliferation, including cell cycling, differentiation and apoptosis, and uses different modes of RNA stem-loop binding to exert either translational activation or repression (PubMed:25849773).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="2 5 6 7 8 9 10 11 13 14 15 16 18">Component of the eukaryotic translation initiation factor 3 (eIF-3) complex, which is composed of 13 subunits: EIF3A, EIF3B, EIF3C, EIF3D, EIF3E, EIF3F, EIF3G, EIF3H, EIF3I, EIF3J, EIF3K, EIF3L and EIF3M. The eIF-3 complex appears to include 3 stable modules: module A is composed of EIF3A, EIF3B, EIF3G and EIF3I; module B is composed of EIF3F, EIF3H, and EIF3M; and module C is composed of EIF3C, EIF3D, EIF3E, EIF3K and EIF3L. EIF3C of module C binds EIF3B of module A and EIF3H of module B, thereby linking the three modules. EIF3J is a labile subunit that binds to the eIF-3 complex via EIF3B. The eIF-3 complex interacts with RPS6KB1 under conditions of nutrient depletion. Mitogenic stimulation leads to binding and activation of a complex composed of MTOR and RPTOR, leading to phosphorylation and release of RPS6KB1 and binding of EIF4B to eIF-3. Identified in a HCV IRES-mediated translation complex, at least composed of EIF3C, IGF2BP1, RPS3 and HCV RNA-replicon. Interacts with ALKBH4, IFIT1 and IFIT2. Interacts with BZW2/5MP1 (PubMed:34260931).</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-353741">
+      <id>Q99613</id>
+    </interactant>
+    <interactant intactId="EBI-353779">
+      <id>O00571</id>
+      <label>DDX3X</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-353741">
+      <id>Q99613</id>
+    </interactant>
+    <interactant intactId="EBI-726200">
+      <id>P41567</id>
+      <label>EIF1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-353741">
+      <id>Q99613</id>
+    </interactant>
+    <interactant intactId="EBI-1045377">
+      <id>P47813</id>
+      <label>EIF1AX</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-353741">
+      <id>Q99613</id>
+    </interactant>
+    <interactant intactId="EBI-366617">
+      <id>Q14152</id>
+      <label>EIF3A</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>16</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-353741">
+      <id>Q99613</id>
+    </interactant>
+    <interactant intactId="EBI-347740">
+      <id>P60228</id>
+      <label>EIF3E</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>16</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-353741">
+      <id>Q99613</id>
+    </interactant>
+    <interactant intactId="EBI-742388">
+      <id>Q9H8W4</id>
+      <label>PLEKHF2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-353741">
+      <id>Q99613</id>
+    </interactant>
+    <interactant intactId="EBI-10175863">
+      <id>Q05086-2</id>
+      <label>UBE3A</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>2</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-353741">
+      <id>Q99613</id>
+    </interactant>
+    <interactant intactId="EBI-6248094">
+      <id>Q9Q2G4</id>
+      <label>ORF</label>
+    </interactant>
+    <organismsDiffer>true</organismsDiffer>
+    <experiments>5</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="2">Cytoplasm</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="alternative products">
+    <event type="alternative splicing"/>
+    <isoform>
+      <id>Q99613-1</id>
+      <name>1</name>
+      <sequence type="displayed"/>
+    </isoform>
+    <isoform>
+      <id>Q99613-2</id>
+      <name>2</name>
+      <sequence type="described" ref="VSP_055472"/>
+    </isoform>
+  </comment>
+  <comment type="PTM">
+    <text evidence="2 10">Phosphorylated. Phosphorylation is enhanced upon serum stimulation.</text>
+  </comment>
+  <comment type="mass spectrometry" mass="106143.8" method="Unknown" evidence="10"/>
+  <comment type="mass spectrometry" mass="106855.0" error="40.0" method="MALDI" evidence="13"/>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the eIF-3 subunit C family.</text>
+  </comment>
+  <comment type="online information" name="Atlas of Genetics and Cytogenetics in Oncology and Haematology">
+    <link uri="https://atlasgeneticsoncology.org/gene/44187/EIF3C"/>
+  </comment>
+  <dbReference type="EMBL" id="U46025">
+    <property type="protein sequence ID" value="AAD03462.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AC002544">
+    <property type="protein sequence ID" value="AAC27426.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="U91326">
+    <property type="protein sequence ID" value="AAC27674.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AK000739">
+    <property type="protein sequence ID" value="BAA91352.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AK292155">
+    <property type="protein sequence ID" value="BAF84844.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AK303790">
+    <property type="protein sequence ID" value="BAG64747.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AC145285">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC000533">
+    <property type="protein sequence ID" value="AAH00533.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC001571">
+    <property type="protein sequence ID" value="AAH01571.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC071705">
+    <property type="protein sequence ID" value="AAH71705.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC157842">
+    <property type="protein sequence ID" value="AAI57843.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC157849">
+    <property type="protein sequence ID" value="AAI57850.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CH878380">
+    <property type="protein sequence ID" value="EAW50492.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BT007335">
+    <property type="protein sequence ID" value="AAP35999.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS10638.1">
+    <molecule id="Q99613-1"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS66993.1">
+    <molecule id="Q99613-2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001032897.1">
+    <molecule id="Q99613-1"/>
+    <property type="nucleotide sequence ID" value="NM_001037808.2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001186071.1">
+    <molecule id="Q99613-1"/>
+    <property type="nucleotide sequence ID" value="NM_001199142.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001254503.1">
+    <molecule id="Q99613-1"/>
+    <property type="nucleotide sequence ID" value="NM_001267574.2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001273407.1">
+    <molecule id="Q99613-2"/>
+    <property type="nucleotide sequence ID" value="NM_001286478.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_003743.1">
+    <molecule id="Q99613-1"/>
+    <property type="nucleotide sequence ID" value="NM_003752.4"/>
+  </dbReference>
+  <dbReference type="PDB" id="3J8B">
+    <property type="method" value="EM"/>
+    <property type="chains" value="C=326-846"/>
+  </dbReference>
+  <dbReference type="PDB" id="3J8C">
+    <property type="method" value="EM"/>
+    <property type="chains" value="C=326-846"/>
+  </dbReference>
+  <dbReference type="PDB" id="6YBD">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.30 A"/>
+    <property type="chains" value="y=1-913"/>
+  </dbReference>
+  <dbReference type="PDB" id="6YBW">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.10 A"/>
+    <property type="chains" value="y=1-913"/>
+  </dbReference>
+  <dbReference type="PDB" id="6ZMW">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.70 A"/>
+    <property type="chains" value="y=1-913"/>
+  </dbReference>
+  <dbReference type="PDB" id="6ZON">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.00 A"/>
+    <property type="chains" value="C=1-913"/>
+  </dbReference>
+  <dbReference type="PDB" id="6ZP4">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.90 A"/>
+    <property type="chains" value="C=1-913"/>
+  </dbReference>
+  <dbReference type="PDB" id="7A09">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.50 A"/>
+    <property type="chains" value="C=1-913"/>
+  </dbReference>
+  <dbReference type="PDB" id="7QP6">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="4.70 A"/>
+    <property type="chains" value="y=1-913"/>
+  </dbReference>
+  <dbReference type="PDB" id="7QP7">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.70 A"/>
+    <property type="chains" value="y=1-913"/>
+  </dbReference>
+  <dbReference type="PDB" id="8OZ0">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.50 A"/>
+    <property type="chains" value="J=1-913"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PPL">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="2.65 A"/>
+    <property type="chains" value="Iy=1-913"/>
+  </dbReference>
+  <dbReference type="PDB" id="8XXN">
+    <property type="method" value="EM"/>
+    <property type="resolution" value="3.60 A"/>
+    <property type="chains" value="3C=1-913"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="3J8B"/>
+  <dbReference type="PDBsum" id="3J8C"/>
+  <dbReference type="PDBsum" id="6YBD"/>
+  <dbReference type="PDBsum" id="6YBW"/>
+  <dbReference type="PDBsum" id="6ZMW"/>
+  <dbReference type="PDBsum" id="6ZON"/>
+  <dbReference type="PDBsum" id="6ZP4"/>
+  <dbReference type="PDBsum" id="7A09"/>
+  <dbReference type="PDBsum" id="7QP6"/>
+  <dbReference type="PDBsum" id="7QP7"/>
+  <dbReference type="PDBsum" id="8OZ0"/>
+  <dbReference type="PDBsum" id="8PPL"/>
+  <dbReference type="PDBsum" id="8XXN"/>
+  <dbReference type="AlphaFoldDB" id="Q99613"/>
+  <dbReference type="EMDB" id="EMD-10769"/>
+  <dbReference type="EMDB" id="EMD-10775"/>
+  <dbReference type="EMDB" id="EMD-11302"/>
+  <dbReference type="EMDB" id="EMD-11325"/>
+  <dbReference type="EMDB" id="EMD-11335"/>
+  <dbReference type="EMDB" id="EMD-11602"/>
+  <dbReference type="EMDB" id="EMD-14113"/>
+  <dbReference type="EMDB" id="EMD-14114"/>
+  <dbReference type="EMDB" id="EMD-17297"/>
+  <dbReference type="EMDB" id="EMD-17805"/>
+  <dbReference type="EMDB" id="EMD-38754"/>
+  <dbReference type="SMR" id="Q99613"/>
+  <dbReference type="BioGRID" id="114212">
+    <property type="interactions" value="273"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-6036">
+    <property type="entry name" value="Eukaryotic translation initiation factor 3 complex"/>
+  </dbReference>
+  <dbReference type="CORUM" id="Q99613"/>
+  <dbReference type="DIP" id="DIP-32865N"/>
+  <dbReference type="IntAct" id="Q99613">
+    <property type="interactions" value="120"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q99613"/>
+  <dbReference type="STRING" id="9606.ENSP00000332604"/>
+  <dbReference type="GlyGen" id="Q99613">
+    <property type="glycosylation" value="1 site, 1 O-linked glycan (1 site)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="Q99613"/>
+  <dbReference type="PhosphoSitePlus" id="Q99613"/>
+  <dbReference type="SwissPalm" id="Q99613"/>
+  <dbReference type="BioMuta" id="EIF3C"/>
+  <dbReference type="DMDM" id="6685539"/>
+  <dbReference type="jPOST" id="Q99613"/>
+  <dbReference type="MassIVE" id="Q99613"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000332604"/>
+  <dbReference type="PeptideAtlas" id="Q99613"/>
+  <dbReference type="ProteomicsDB" id="42171"/>
+  <dbReference type="ProteomicsDB" id="78357">
+    <molecule id="Q99613-1"/>
+  </dbReference>
+  <dbReference type="Pumba" id="Q99613"/>
+  <dbReference type="Antibodypedia" id="26523">
+    <property type="antibodies" value="288 antibodies from 27 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="8663"/>
+  <dbReference type="Ensembl" id="ENST00000331666.11">
+    <molecule id="Q99613-1"/>
+    <property type="protein sequence ID" value="ENSP00000332604.7"/>
+    <property type="gene ID" value="ENSG00000184110.15"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000395587.5">
+    <molecule id="Q99613-1"/>
+    <property type="protein sequence ID" value="ENSP00000378953.1"/>
+    <property type="gene ID" value="ENSG00000184110.15"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000564243.5">
+    <molecule id="Q99613-2"/>
+    <property type="protein sequence ID" value="ENSP00000456416.1"/>
+    <property type="gene ID" value="ENSG00000184110.15"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000566501.5">
+    <molecule id="Q99613-1"/>
+    <property type="protein sequence ID" value="ENSP00000457963.1"/>
+    <property type="gene ID" value="ENSG00000184110.15"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000566866.5">
+    <molecule id="Q99613-1"/>
+    <property type="protein sequence ID" value="ENSP00000457418.1"/>
+    <property type="gene ID" value="ENSG00000184110.15"/>
+  </dbReference>
+  <dbReference type="GeneID" id="8663"/>
+  <dbReference type="KEGG" id="hsa:8663"/>
+  <dbReference type="MANE-Select" id="ENST00000331666.11">
+    <property type="protein sequence ID" value="ENSP00000332604.7"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_003752.5"/>
+    <property type="RefSeq protein sequence ID" value="NP_003743.1"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc002dqs.6">
+    <molecule id="Q99613-1"/>
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:3279"/>
+  <dbReference type="CTD" id="8663"/>
+  <dbReference type="DisGeNET" id="8663"/>
+  <dbReference type="GeneCards" id="EIF3C"/>
+  <dbReference type="HGNC" id="HGNC:3279">
+    <property type="gene designation" value="EIF3C"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000184110">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MIM" id="603916">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q99613"/>
+  <dbReference type="OpenTargets" id="ENSG00000184110"/>
+  <dbReference type="PharmGKB" id="PA162384646"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000184110"/>
+  <dbReference type="eggNOG" id="KOG1076">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00390000017900"/>
+  <dbReference type="HOGENOM" id="CLU_004304_0_0_1"/>
+  <dbReference type="InParanoid" id="Q99613"/>
+  <dbReference type="OMA" id="ETNERAM"/>
+  <dbReference type="OrthoDB" id="5482362at2759"/>
+  <dbReference type="PhylomeDB" id="Q99613"/>
+  <dbReference type="TreeFam" id="TF101520"/>
+  <dbReference type="PathwayCommons" id="Q99613"/>
+  <dbReference type="Reactome" id="R-HSA-156827">
+    <property type="pathway name" value="L13a-mediated translational silencing of Ceruloplasmin expression"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-72649">
+    <property type="pathway name" value="Translation initiation complex formation"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-72689">
+    <property type="pathway name" value="Formation of a pool of free 40S subunits"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-72695">
+    <property type="pathway name" value="Formation of the ternary complex, and subsequently, the 43S complex"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-72702">
+    <property type="pathway name" value="Ribosomal scanning and start codon recognition"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-72706">
+    <property type="pathway name" value="GTP hydrolysis and joining of the 60S ribosomal subunit"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="Q99613"/>
+  <dbReference type="SIGNOR" id="Q99613"/>
+  <dbReference type="BioGRID-ORCS" id="8663">
+    <property type="hits" value="334 hits in 988 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="EIF3C">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q99613"/>
+  <dbReference type="GeneWiki" id="EIF3C"/>
+  <dbReference type="GenomeRNAi" id="8663"/>
+  <dbReference type="Pharos" id="Q99613">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q99613"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 16"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q99613">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000184110">
+    <property type="expression patterns" value="Expressed in right uterine tube and 136 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q99613">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005829">
+    <property type="term" value="C:cytosol"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="Reactome"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016282">
+    <property type="term" value="C:eukaryotic 43S preinitiation complex"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0033290">
+    <property type="term" value="C:eukaryotic 48S preinitiation complex"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005852">
+    <property type="term" value="C:eukaryotic translation initiation factor 3 complex"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043022">
+    <property type="term" value="F:ribosome binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="MGI"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003723">
+    <property type="term" value="F:RNA binding"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003743">
+    <property type="term" value="F:translation initiation factor activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-UniRule"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031369">
+    <property type="term" value="F:translation initiation factor binding"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001732">
+    <property type="term" value="P:formation of cytoplasmic translation initiation complex"/>
+    <property type="evidence" value="ECO:0000303"/>
+    <property type="project" value="ComplexPortal"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1902416">
+    <property type="term" value="P:positive regulation of mRNA binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045727">
+    <property type="term" value="P:positive regulation of translation"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006413">
+    <property type="term" value="P:translational initiation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="1.10.10.10">
+    <property type="entry name" value="Winged helix-like DNA-binding domain superfamily/Winged helix DNA-binding domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="HAMAP" id="MF_03002">
+    <property type="entry name" value="eIF3c"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR027516">
+    <property type="entry name" value="EIF3C"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR008905">
+    <property type="entry name" value="EIF3C_N_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000717">
+    <property type="entry name" value="PCI_dom"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036388">
+    <property type="entry name" value="WH-like_DNA-bd_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR036390">
+    <property type="entry name" value="WH_DNA-bd_sf"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR13937">
+    <property type="entry name" value="EUKARYOTIC TRANSLATION INITATION FACTOR 3, SUBUNIT 8 EIF3S8 -RELATED"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR13937:SF0">
+    <property type="entry name" value="EUKARYOTIC TRANSLATION INITIATION FACTOR 3 SUBUNIT C-RELATED"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF05470">
+    <property type="entry name" value="eIF-3c_N"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01399">
+    <property type="entry name" value="PCI"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00088">
+    <property type="entry name" value="PINT"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF46785">
+    <property type="entry name" value="Winged helix' DNA-binding domain"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50250">
+    <property type="entry name" value="PCI"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0025">Alternative splicing</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0396">Initiation factor</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-0648">Protein biosynthesis</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <feature type="chain" id="PRO_0000123525" description="Eukaryotic translation initiation factor 3 subunit C">
+    <location>
+      <begin position="1"/>
+      <end position="913"/>
+    </location>
+  </feature>
+  <feature type="domain" description="PCI" evidence="3">
+    <location>
+      <begin position="673"/>
+      <end position="849"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="1"/>
+      <end position="44"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="157"/>
+      <end position="301"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="522"/>
+      <end position="542"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="4">
+    <location>
+      <begin position="885"/>
+      <end position="913"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Polar residues" evidence="4">
+    <location>
+      <begin position="1"/>
+      <end position="20"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Acidic residues" evidence="4">
+    <location>
+      <begin position="169"/>
+      <end position="190"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="4">
+    <location>
+      <begin position="202"/>
+      <end position="217"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Acidic residues" evidence="4">
+    <location>
+      <begin position="218"/>
+      <end position="240"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="4">
+    <location>
+      <begin position="259"/>
+      <end position="277"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="2 10">
+    <location>
+      <position position="9"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="2 10">
+    <location>
+      <position position="11"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="2 10">
+    <location>
+      <position position="13"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="2 10">
+    <location>
+      <position position="15"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="2 10">
+    <location>
+      <position position="16"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="2 10">
+    <location>
+      <position position="18"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="2 10">
+    <location>
+      <position position="39"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="1">
+    <location>
+      <position position="99"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="2 10">
+    <location>
+      <position position="166"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="1">
+    <location>
+      <position position="178"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="1">
+    <location>
+      <position position="181"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="1">
+    <location>
+      <position position="182"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphothreonine" evidence="2 10">
+    <location>
+      <position position="524"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="1">
+    <location>
+      <position position="643"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="2 10">
+    <location>
+      <position position="909"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_055472" description="In isoform 2." evidence="19">
+    <location>
+      <begin position="120"/>
+      <end position="129"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 2; AAC27674." evidence="20" ref="2">
+    <original>EK</original>
+    <variation>VR</variation>
+    <location>
+      <begin position="313"/>
+      <end position="314"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 3; BAG64747." evidence="20" ref="3">
+    <original>V</original>
+    <variation>A</variation>
+    <location>
+      <position position="737"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="52"/>
+      <end position="73"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="76"/>
+      <end position="93"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="22">
+    <location>
+      <begin position="94"/>
+      <end position="96"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="97"/>
+      <end position="100"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="104"/>
+      <end position="120"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="124"/>
+      <end position="127"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="131"/>
+      <end position="133"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="134"/>
+      <end position="149"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="150"/>
+      <end position="152"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="153"/>
+      <end position="159"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="265"/>
+      <end position="277"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="288"/>
+      <end position="295"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="303"/>
+      <end position="305"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="315"/>
+      <end position="318"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="321"/>
+      <end position="323"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="328"/>
+      <end position="337"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="347"/>
+      <end position="363"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="368"/>
+      <end position="383"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="385"/>
+      <end position="387"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="389"/>
+      <end position="391"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="395"/>
+      <end position="414"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="21">
+    <location>
+      <begin position="420"/>
+      <end position="423"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="426"/>
+      <end position="428"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="444"/>
+      <end position="460"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="467"/>
+      <end position="473"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="476"/>
+      <end position="492"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="496"/>
+      <end position="507"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="509"/>
+      <end position="512"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="516"/>
+      <end position="519"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="544"/>
+      <end position="557"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="564"/>
+      <end position="578"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="21">
+    <location>
+      <begin position="583"/>
+      <end position="585"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="586"/>
+      <end position="592"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="21">
+    <location>
+      <begin position="595"/>
+      <end position="597"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="598"/>
+      <end position="600"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="603"/>
+      <end position="621"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="21">
+    <location>
+      <begin position="622"/>
+      <end position="624"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="627"/>
+      <end position="632"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="634"/>
+      <end position="637"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="642"/>
+      <end position="645"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="652"/>
+      <end position="654"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="661"/>
+      <end position="666"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="679"/>
+      <end position="699"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="21">
+    <location>
+      <begin position="700"/>
+      <end position="702"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="703"/>
+      <end position="705"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="713"/>
+      <end position="722"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="733"/>
+      <end position="742"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="21">
+    <location>
+      <begin position="743"/>
+      <end position="746"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="750"/>
+      <end position="756"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="759"/>
+      <end position="764"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="766"/>
+      <end position="768"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="769"/>
+      <end position="771"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="772"/>
+      <end position="794"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="21">
+    <location>
+      <begin position="796"/>
+      <end position="798"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="799"/>
+      <end position="803"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="21">
+    <location>
+      <begin position="804"/>
+      <end position="812"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="815"/>
+      <end position="824"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="827"/>
+      <end position="830"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="832"/>
+      <end position="835"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="21">
+    <location>
+      <begin position="836"/>
+      <end position="839"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="21">
+    <location>
+      <begin position="840"/>
+      <end position="843"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="21">
+    <location>
+      <begin position="852"/>
+      <end position="859"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q8R1B4"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="2">
+    <source>
+      <dbReference type="HAMAP-Rule" id="MF_03002"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="3">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU01185"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="4">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="14519125"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="16023166"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="16286006"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="16766523"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="16973618"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="17322308"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="17468741"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="17581632"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="18599441"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="14">
+    <source>
+      <dbReference type="PubMed" id="19541769"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="15">
+    <source>
+      <dbReference type="PubMed" id="23145062"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="16">
+    <source>
+      <dbReference type="PubMed" id="25849773"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="17">
+    <source>
+      <dbReference type="PubMed" id="27462815"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="18">
+    <source>
+      <dbReference type="PubMed" id="34260931"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="19">
+    <source>
+      <dbReference type="PubMed" id="14702039"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="20"/>
+  <evidence type="ECO:0007829" key="21">
+    <source>
+      <dbReference type="PDB" id="6YBD"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="22">
+    <source>
+      <dbReference type="PDB" id="6YBW"/>
+    </source>
+  </evidence>
+  <sequence length="913" mass="105344" checksum="CE5029F4EB51C1AA" modified="1997-05-01" version="1">MSRFFTTGSDSESESSLSGEELVTKPVGGNYGKQPLLLSEDEEDTKRVVRSAKDKRFEELTNLIRTIRNAMKIRDVTKCLEEFELLGKAYGKAKSIVDKEGVPRFYIRILADLEDYLNELWEDKEGKKKMNKNNAKALSTLRQKIRKYNRDFESHITSYKQNPEQSADEDAEKNEEDSEGSSDEDEDEDGVSAATFLKKKSEAPSGESRKFLKKMDDEDEDSEDSEDDEDWDTGSTSSDSDSEEEEGKQTALASRFLKKAPTTDEDKKAAEKKREDKAKKKHDRKSKRLDEEEEDNEGGEWERVRGGVPLVKEKPKMFAKGTEITHAVVIKKLNEILQARGKKGTDRAAQIELLQLLVQIAAENNLGEGVIVKIKFNIIASLYDYNPNLATYMKPEMWGKCLDCINELMDILFANPNIFVGENILEESENLHNADQPLRVRGCILTLVERMDEEFTKIMQNTDPHSQEYVEHLKDEAQVCAIIERVQRYLEEKGTTEEVCRIYLLRILHTYYKFDYKAHQRQLTPPEGSSKSEQDQAENEGEDSAVLMERLCKYIYAKDRTDRIRTCAILCHIYHHALHSRWYQARDLMLMSHLQDNIQHADPPVQILYNRTMVQLGICAFRQGLTKDAHNALLDIQSSGRAKELLGQGLLLRSLQERNQEQEKVERRRQVPFHLHINLELLECVYLVSAMLLEIPYMAAHESDARRRMISKQFHHQLRVGERQPLLGPPESMREHVVAASKAMKMGDWKTCHSFIINEKMNGKVWDLFPEADKVRTMLVRKIQEESLRTYLFTYSSVYDSISMETLSDMFELDLPTVHSIISKMIINEELMASLDQPTQTVVMHRTEPTAQQNLALQLAEKLGSLVENNERVFDHKQGTYGGYFRDQKDGYRKNEGYMRRGGYRQQQSQTAY</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

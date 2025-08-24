@@ -1,0 +1,385 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: short
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.8840	
+2	K	0.8079	
+3	P	0.7448	
+4	H	0.6841	
+5	F	0.6195	
+6	R	0.5486	
+7	N	0.4720	
+8	T	0.3926	
+9	V	0.3146	
+10	E	0.2432	
+11	R	0.1908	
+12	M	0.1475	
+13	Y	0.1230	
+14	R	0.1120	
+15	D	0.1104	
+16	T	0.1109	
+17	F	0.1208	
+18	S	0.1271	
+19	Y	0.1364	
+20	N	0.1330	
+21	F	0.1320	
+22	Y	0.1251	
+23	N	0.1157	
+24	R	0.1042	
+25	P	0.0863	
+26	I	0.0628	
+27	L	0.0458	
+28	S	0.0441	
+29	R	0.0534	domain CMP/dCMP-type deaminase 1
+30	R	0.0619	domain CMP/dCMP-type deaminase 1
+31	N	0.0833	domain CMP/dCMP-type deaminase 1
+32	T	0.1101	domain CMP/dCMP-type deaminase 1
+33	V	0.1407	domain CMP/dCMP-type deaminase 1
+34	W	0.1676	domain CMP/dCMP-type deaminase 1
+35	L	0.1934	domain CMP/dCMP-type deaminase 1
+36	C	0.2196	domain CMP/dCMP-type deaminase 1
+37	Y	0.2350	domain CMP/dCMP-type deaminase 1
+38	E	0.2338	domain CMP/dCMP-type deaminase 1
+39	V	0.2207	domain CMP/dCMP-type deaminase 1
+40	K	0.1980	domain CMP/dCMP-type deaminase 1
+41	T	0.1911	domain CMP/dCMP-type deaminase 1
+42	K	0.1897	domain CMP/dCMP-type deaminase 1
+43	G	0.1941	domain CMP/dCMP-type deaminase 1
+44	P	0.2040	domain CMP/dCMP-type deaminase 1
+45	S	0.2214	domain CMP/dCMP-type deaminase 1
+46	R	0.2525	domain CMP/dCMP-type deaminase 1
+47	P	0.2874	domain CMP/dCMP-type deaminase 1
+48	R	0.3167	domain CMP/dCMP-type deaminase 1
+49	L	0.3398	domain CMP/dCMP-type deaminase 1
+50	D	0.3516	domain CMP/dCMP-type deaminase 1
+51	A	0.3583	domain CMP/dCMP-type deaminase 1
+52	K	0.3497	domain CMP/dCMP-type deaminase 1
+53	I	0.3373	domain CMP/dCMP-type deaminase 1
+54	F	0.3226	domain CMP/dCMP-type deaminase 1
+55	R	0.3010	domain CMP/dCMP-type deaminase 1
+56	G	0.2720	domain CMP/dCMP-type deaminase 1
+57	Q	0.2328	domain CMP/dCMP-type deaminase 1
+58	V	0.1851	domain CMP/dCMP-type deaminase 1
+59	Y	0.1462	domain CMP/dCMP-type deaminase 1
+60	S	0.1093	domain CMP/dCMP-type deaminase 1
+61	Q	0.0818	domain CMP/dCMP-type deaminase 1
+62	P	0.0587	domain CMP/dCMP-type deaminase 1
+63	E	0.0405	domain CMP/dCMP-type deaminase 1
+64	H	0.0290	domain CMP/dCMP-type deaminase 1
+65	H	0.0250	domain CMP/dCMP-type deaminase 1
+66	A	0.0275	domain CMP/dCMP-type deaminase 1
+67	E	0.0257	domain CMP/dCMP-type deaminase 1
+68	M	0.0225	domain CMP/dCMP-type deaminase 1
+69	C	0.0225	domain CMP/dCMP-type deaminase 1
+70	F	0.0201	domain CMP/dCMP-type deaminase 1
+71	L	0.0199	domain CMP/dCMP-type deaminase 1
+72	S	0.0162	domain CMP/dCMP-type deaminase 1
+73	W	0.0123	domain CMP/dCMP-type deaminase 1
+74	F	0.0075	domain CMP/dCMP-type deaminase 1
+75	C	0.0040	domain CMP/dCMP-type deaminase 1
+76	G	0.0012	domain CMP/dCMP-type deaminase 1
+77	N	-0.0009	domain CMP/dCMP-type deaminase 1
+78	Q	-0.0015	domain CMP/dCMP-type deaminase 1
+79	L	0.0003	domain CMP/dCMP-type deaminase 1
+80	P	0.0008	domain CMP/dCMP-type deaminase 1
+81	A	0.0012	domain CMP/dCMP-type deaminase 1
+82	Y	0.0024	domain CMP/dCMP-type deaminase 1
+83	K	0.0035	domain CMP/dCMP-type deaminase 1
+84	C	0.0047	domain CMP/dCMP-type deaminase 1
+85	F	0.0057	domain CMP/dCMP-type deaminase 1
+86	Q	0.0067	domain CMP/dCMP-type deaminase 1
+87	I	0.0067	domain CMP/dCMP-type deaminase 1
+88	T	0.0060	domain CMP/dCMP-type deaminase 1
+89	W	0.0054	domain CMP/dCMP-type deaminase 1
+90	F	0.0047	domain CMP/dCMP-type deaminase 1
+91	V	0.0041	domain CMP/dCMP-type deaminase 1
+92	S	0.0039	domain CMP/dCMP-type deaminase 1
+93	W	0.0042	domain CMP/dCMP-type deaminase 1
+94	T	0.0032	domain CMP/dCMP-type deaminase 1
+95	P	0.0039	domain CMP/dCMP-type deaminase 1
+96	C	0.0041	domain CMP/dCMP-type deaminase 1
+97	P	0.0057	domain CMP/dCMP-type deaminase 1
+98	D	0.0084	domain CMP/dCMP-type deaminase 1
+99	C	0.0112	domain CMP/dCMP-type deaminase 1
+100	V	0.0138	domain CMP/dCMP-type deaminase 1
+101	A	0.0173	domain CMP/dCMP-type deaminase 1
+102	K	0.0199	domain CMP/dCMP-type deaminase 1
+103	L	0.0198	domain CMP/dCMP-type deaminase 1
+104	A	0.0191	domain CMP/dCMP-type deaminase 1
+105	E	0.0192	domain CMP/dCMP-type deaminase 1
+106	F	0.0191	domain CMP/dCMP-type deaminase 1
+107	L	0.0195	domain CMP/dCMP-type deaminase 1
+108	A	0.0211	domain CMP/dCMP-type deaminase 1
+109	E	0.0233	domain CMP/dCMP-type deaminase 1
+110	H	0.0253	domain CMP/dCMP-type deaminase 1
+111	P	0.0248	domain CMP/dCMP-type deaminase 1
+112	N	0.0237	domain CMP/dCMP-type deaminase 1
+113	V	0.0231	domain CMP/dCMP-type deaminase 1
+114	T	0.0212	domain CMP/dCMP-type deaminase 1
+115	L	0.0202	domain CMP/dCMP-type deaminase 1
+116	T	0.0198	domain CMP/dCMP-type deaminase 1
+117	I	0.0197	domain CMP/dCMP-type deaminase 1
+118	S	0.0196	domain CMP/dCMP-type deaminase 1
+119	A	0.0219	domain CMP/dCMP-type deaminase 1
+120	A	0.0236	domain CMP/dCMP-type deaminase 1
+121	R	0.0222	domain CMP/dCMP-type deaminase 1
+122	L	0.0196	domain CMP/dCMP-type deaminase 1
+123	Y	0.0165	domain CMP/dCMP-type deaminase 1
+124	Y	0.0131	domain CMP/dCMP-type deaminase 1
+125	Y	0.0097	domain CMP/dCMP-type deaminase 1
+126	W	0.0089	domain CMP/dCMP-type deaminase 1
+127	E	0.0088	domain CMP/dCMP-type deaminase 1
+128	R	0.0097	domain CMP/dCMP-type deaminase 1
+129	D	0.0090	domain CMP/dCMP-type deaminase 1
+130	Y	0.0105	domain CMP/dCMP-type deaminase 1
+131	R	0.0122	domain CMP/dCMP-type deaminase 1
+132	R	0.0171	domain CMP/dCMP-type deaminase 1
+133	A	0.0186	domain CMP/dCMP-type deaminase 1
+134	L	0.0223	domain CMP/dCMP-type deaminase 1
+135	C	0.0281	domain CMP/dCMP-type deaminase 1
+136	R	0.0355	domain CMP/dCMP-type deaminase 1
+137	L	0.0438	domain CMP/dCMP-type deaminase 1
+138	S	0.0515	
+139	Q	0.0578	
+140	A	0.0578	
+141	G	0.0556	
+142	A	0.0535	
+143	R	0.0515	
+144	V	0.0499	
+145	K	0.0463	
+146	I	0.0433	
+147	M	0.0383	
+148	D	0.0331	
+149	D	0.0298	
+150	E	0.0306	
+151	E	0.0265	
+152	F	0.0266	
+153	A	0.0296	
+154	Y	0.0352	
+155	C	0.0417	
+156	W	0.0490	
+157	E	0.0546	
+158	N	0.0501	
+159	F	0.0417	
+160	V	0.0325	
+161	Y	0.0273	
+162	S	0.0260	
+163	E	0.0280	
+164	G	0.0317	
+165	Q	0.0343	
+166	P	0.0393	
+167	F	0.0455	
+168	M	0.0495	
+169	P	0.0495	
+170	W	0.0481	
+171	Y	0.0445	
+172	K	0.0411	
+173	F	0.0368	
+174	D	0.0335	domain CMP/dCMP-type deaminase 2
+175	D	0.0326	domain CMP/dCMP-type deaminase 2
+176	N	0.0268	domain CMP/dCMP-type deaminase 2
+177	Y	0.0215	domain CMP/dCMP-type deaminase 2
+178	A	0.0207	domain CMP/dCMP-type deaminase 2
+179	F	0.0262	domain CMP/dCMP-type deaminase 2
+180	L	0.0327	domain CMP/dCMP-type deaminase 2
+181	H	0.0418	domain CMP/dCMP-type deaminase 2
+182	R	0.0489	domain CMP/dCMP-type deaminase 2
+183	T	0.0516	domain CMP/dCMP-type deaminase 2
+184	L	0.0548	domain CMP/dCMP-type deaminase 2
+185	K	0.0548	domain CMP/dCMP-type deaminase 2
+186	E	0.0525	domain CMP/dCMP-type deaminase 2
+187	I	0.0484	domain CMP/dCMP-type deaminase 2
+188	L	0.0424	domain CMP/dCMP-type deaminase 2
+189	R	0.0368	domain CMP/dCMP-type deaminase 2
+190	N	0.0340	domain CMP/dCMP-type deaminase 2
+191	P	0.0298	domain CMP/dCMP-type deaminase 2
+192	M	0.0260	domain CMP/dCMP-type deaminase 2
+193	E	0.0247	domain CMP/dCMP-type deaminase 2
+194	A	0.0208	domain CMP/dCMP-type deaminase 2
+195	M	0.0174	domain CMP/dCMP-type deaminase 2
+196	Y	0.0173	domain CMP/dCMP-type deaminase 2
+197	P	0.0194	domain CMP/dCMP-type deaminase 2
+198	H	0.0189	domain CMP/dCMP-type deaminase 2
+199	I	0.0186	domain CMP/dCMP-type deaminase 2
+200	F	0.0193	domain CMP/dCMP-type deaminase 2
+201	Y	0.0196	domain CMP/dCMP-type deaminase 2
+202	F	0.0212	domain CMP/dCMP-type deaminase 2
+203	H	0.0215	domain CMP/dCMP-type deaminase 2
+204	F	0.0230	domain CMP/dCMP-type deaminase 2
+205	K	0.0202	domain CMP/dCMP-type deaminase 2
+206	N	0.0180	domain CMP/dCMP-type deaminase 2
+207	L	0.0172	domain CMP/dCMP-type deaminase 2
+208	R	0.0179	domain CMP/dCMP-type deaminase 2
+209	K	0.0197	domain CMP/dCMP-type deaminase 2
+210	A	0.0204	domain CMP/dCMP-type deaminase 2
+211	Y	0.0228	domain CMP/dCMP-type deaminase 2
+212	G	0.0262	domain CMP/dCMP-type deaminase 2
+213	R	0.0345	domain CMP/dCMP-type deaminase 2
+214	N	0.0388	domain CMP/dCMP-type deaminase 2
+215	E	0.0469	domain CMP/dCMP-type deaminase 2
+216	S	0.0545	domain CMP/dCMP-type deaminase 2
+217	W	0.0613	domain CMP/dCMP-type deaminase 2
+218	L	0.0668	domain CMP/dCMP-type deaminase 2
+219	C	0.0725	domain CMP/dCMP-type deaminase 2
+220	F	0.0784	domain CMP/dCMP-type deaminase 2
+221	T	0.0824	domain CMP/dCMP-type deaminase 2
+222	M	0.0846	domain CMP/dCMP-type deaminase 2
+223	E	0.0733	domain CMP/dCMP-type deaminase 2
+224	V	0.0656	domain CMP/dCMP-type deaminase 2
+225	V	0.0587	domain CMP/dCMP-type deaminase 2
+226	K	0.0583	domain CMP/dCMP-type deaminase 2
+227	H	0.0633	domain CMP/dCMP-type deaminase 2
+228	H	0.0677	domain CMP/dCMP-type deaminase 2
+229	S	0.0762	domain CMP/dCMP-type deaminase 2
+230	P	0.0999	domain CMP/dCMP-type deaminase 2
+231	V	0.1357	domain CMP/dCMP-type deaminase 2
+232	S	0.1698	domain CMP/dCMP-type deaminase 2
+233	W	0.2060	domain CMP/dCMP-type deaminase 2
+234	K	0.2282	domain CMP/dCMP-type deaminase 2
+235	R	0.2455	domain CMP/dCMP-type deaminase 2
+236	G	0.2496	domain CMP/dCMP-type deaminase 2
+237	V	0.2476	domain CMP/dCMP-type deaminase 2
+238	F	0.2366	domain CMP/dCMP-type deaminase 2
+239	R	0.2220	domain CMP/dCMP-type deaminase 2
+240	N	0.2039	domain CMP/dCMP-type deaminase 2
+241	Q	0.1761	domain CMP/dCMP-type deaminase 2
+242	V	0.1515	domain CMP/dCMP-type deaminase 2
+243	D	0.1284	domain CMP/dCMP-type deaminase 2
+244	P	0.1142	domain CMP/dCMP-type deaminase 2
+245	E	0.1029	domain CMP/dCMP-type deaminase 2
+246	T	0.0872	domain CMP/dCMP-type deaminase 2
+247	H	0.0674	domain CMP/dCMP-type deaminase 2
+248	C	0.0542	domain CMP/dCMP-type deaminase 2
+249	H	0.0440	domain CMP/dCMP-type deaminase 2
+250	A	0.0390	domain CMP/dCMP-type deaminase 2
+251	E	0.0384	domain CMP/dCMP-type deaminase 2
+252	R	0.0322	domain CMP/dCMP-type deaminase 2
+253	C	0.0318	domain CMP/dCMP-type deaminase 2
+254	F	0.0301	domain CMP/dCMP-type deaminase 2
+255	L	0.0320	domain CMP/dCMP-type deaminase 2
+256	S	0.0318	domain CMP/dCMP-type deaminase 2
+257	W	0.0323	domain CMP/dCMP-type deaminase 2
+258	F	0.0298	domain CMP/dCMP-type deaminase 2
+259	C	0.0307	domain CMP/dCMP-type deaminase 2
+260	D	0.0330	domain CMP/dCMP-type deaminase 2
+261	D	0.0320	domain CMP/dCMP-type deaminase 2
+262	I	0.0296	domain CMP/dCMP-type deaminase 2
+263	L	0.0276	domain CMP/dCMP-type deaminase 2
+264	S	0.0266	domain CMP/dCMP-type deaminase 2
+265	P	0.0343	domain CMP/dCMP-type deaminase 2
+266	N	0.0469	domain CMP/dCMP-type deaminase 2
+267	T	0.0631	domain CMP/dCMP-type deaminase 2
+268	N	0.0795	domain CMP/dCMP-type deaminase 2
+269	Y	0.0982	domain CMP/dCMP-type deaminase 2
+270	E	0.1159	domain CMP/dCMP-type deaminase 2
+271	V	0.1288	domain CMP/dCMP-type deaminase 2
+272	T	0.1329	domain CMP/dCMP-type deaminase 2
+273	W	0.1346	domain CMP/dCMP-type deaminase 2
+274	Y	0.1313	domain CMP/dCMP-type deaminase 2
+275	T	0.1233	domain CMP/dCMP-type deaminase 2
+276	S	0.1105	domain CMP/dCMP-type deaminase 2
+277	W	0.0961	domain CMP/dCMP-type deaminase 2
+278	S	0.0829	domain CMP/dCMP-type deaminase 2
+279	P	0.0764	domain CMP/dCMP-type deaminase 2
+280	C	0.0684	domain CMP/dCMP-type deaminase 2
+281	P	0.0644	domain CMP/dCMP-type deaminase 2
+282	E	0.0634	domain CMP/dCMP-type deaminase 2
+283	C	0.0669	domain CMP/dCMP-type deaminase 2
+284	A	0.0737	domain CMP/dCMP-type deaminase 2
+285	G	0.0817	domain CMP/dCMP-type deaminase 2
+286	E	0.0844	domain CMP/dCMP-type deaminase 2
+287	V	0.0836	domain CMP/dCMP-type deaminase 2
+288	A	0.0819	domain CMP/dCMP-type deaminase 2
+289	E	0.0780	domain CMP/dCMP-type deaminase 2
+290	F	0.0693	domain CMP/dCMP-type deaminase 2
+291	L	0.0617	domain CMP/dCMP-type deaminase 2
+292	A	0.0540	domain CMP/dCMP-type deaminase 2
+293	R	0.0485	domain CMP/dCMP-type deaminase 2
+294	H	0.0453	domain CMP/dCMP-type deaminase 2
+295	S	0.0385	domain CMP/dCMP-type deaminase 2
+296	N	0.0311	domain CMP/dCMP-type deaminase 2
+297	V	0.0281	domain CMP/dCMP-type deaminase 2
+298	N	0.0208	domain CMP/dCMP-type deaminase 2
+299	L	0.0158	domain CMP/dCMP-type deaminase 2
+300	T	0.0132	domain CMP/dCMP-type deaminase 2
+301	I	0.0102	domain CMP/dCMP-type deaminase 2
+302	F	0.0098	domain CMP/dCMP-type deaminase 2
+303	T	0.0144	domain CMP/dCMP-type deaminase 2
+304	A	0.0192	domain CMP/dCMP-type deaminase 2
+305	R	0.0200	domain CMP/dCMP-type deaminase 2
+306	L	0.0196	domain CMP/dCMP-type deaminase 2
+307	Y	0.0186	domain CMP/dCMP-type deaminase 2
+308	Y	0.0195	domain CMP/dCMP-type deaminase 2
+309	F	0.0197	domain CMP/dCMP-type deaminase 2
+310	W	0.0238	domain CMP/dCMP-type deaminase 2
+311	D	0.0253	domain CMP/dCMP-type deaminase 2
+312	T	0.0284	domain CMP/dCMP-type deaminase 2
+313	D	0.0298	domain CMP/dCMP-type deaminase 2
+314	Y	0.0339	domain CMP/dCMP-type deaminase 2
+315	Q	0.0487	domain CMP/dCMP-type deaminase 2
+316	E	0.0751	domain CMP/dCMP-type deaminase 2
+317	G	0.0952	domain CMP/dCMP-type deaminase 2
+318	L	0.1178	domain CMP/dCMP-type deaminase 2
+319	R	0.1390	domain CMP/dCMP-type deaminase 2
+320	S	0.1588	domain CMP/dCMP-type deaminase 2
+321	L	0.1723	domain CMP/dCMP-type deaminase 2
+322	S	0.1803	
+323	Q	0.1799	
+324	E	0.1641	
+325	G	0.1418	
+326	A	0.1204	
+327	S	0.1018	
+328	V	0.0910	
+329	E	0.0807	
+330	I	0.0741	
+331	M	0.0628	
+332	G	0.0480	
+333	Y	0.0414	
+334	K	0.0427	
+335	D	0.0354	
+336	F	0.0317	
+337	K	0.0283	
+338	Y	0.0305	
+339	C	0.0338	
+340	W	0.0422	
+341	E	0.0545	
+342	N	0.0576	
+343	F	0.0567	
+344	V	0.0552	
+345	Y	0.0564	
+346	N	0.0587	
+347	D	0.0600	
+348	D	0.0584	
+349	E	0.0533	
+350	P	0.0496	
+351	F	0.0485	
+352	K	0.0473	
+353	P	0.0463	
+354	W	0.0457	
+355	K	0.0439	
+356	G	0.0428	
+357	L	0.0401	
+358	K	0.0362	
+359	Y	0.0366	
+360	N	0.0300	
+361	F	0.0228	
+362	L	0.0126	
+363	F	0.0148	
+364	L	0.0274	
+365	D	0.0508	
+366	S	0.0874	
+367	K	0.1381	
+368	L	0.2033	
+369	Q	0.2826	
+370	E	0.3743	
+371	I	0.4760	
+372	L	0.5836	
+373	E	0.6922	

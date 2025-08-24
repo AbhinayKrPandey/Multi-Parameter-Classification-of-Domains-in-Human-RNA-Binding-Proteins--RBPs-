@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2007-07-10" modified="2024-10-02" version="182" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9BZC1</accession>
+  <accession>Q59EN7</accession>
+  <accession>Q86XB9</accession>
+  <accession>Q8N2M6</accession>
+  <accession>Q9BQ96</accession>
+  <accession>Q9NR84</accession>
+  <accession>Q9NR85</accession>
+  <name>CELF4_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName>CUGBP Elav-like family member 4</fullName>
+      <shortName>CELF-4</shortName>
+    </recommendedName>
+    <alternativeName>
+      <fullName>Bruno-like protein 4</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>CUG-BP- and ETR-3-like factor 4</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName>RNA-binding protein BRUNOL-4</fullName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name type="primary">CELF4</name>
+    <name type="synonym">BRUNOL4</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2001" name="Mol. Cell. Biol." volume="21" first="1285" last="1296">
+      <title>The CELF family of RNA binding proteins is implicated in cell-specific and developmentally regulated alternative splicing.</title>
+      <authorList>
+        <person name="Ladd A.N."/>
+        <person name="Charlet-B N."/>
+        <person name="Cooper T.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="11158314"/>
+      <dbReference type="DOI" id="10.1128/mcb.21.4.1285-1296.2001"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 1)</scope>
+    <scope>FUNCTION</scope>
+    <scope>RNA-BINDING</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+      <title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+      <authorList>
+        <person name="Ota T."/>
+        <person name="Suzuki Y."/>
+        <person name="Nishikawa T."/>
+        <person name="Otsuki T."/>
+        <person name="Sugiyama T."/>
+        <person name="Irie R."/>
+        <person name="Wakamatsu A."/>
+        <person name="Hayashi K."/>
+        <person name="Sato H."/>
+        <person name="Nagai K."/>
+        <person name="Kimura K."/>
+        <person name="Makita H."/>
+        <person name="Sekine M."/>
+        <person name="Obayashi M."/>
+        <person name="Nishi T."/>
+        <person name="Shibahara T."/>
+        <person name="Tanaka T."/>
+        <person name="Ishii S."/>
+        <person name="Yamamoto J."/>
+        <person name="Saito K."/>
+        <person name="Kawai Y."/>
+        <person name="Isono Y."/>
+        <person name="Nakamura Y."/>
+        <person name="Nagahari K."/>
+        <person name="Murakami K."/>
+        <person name="Yasuda T."/>
+        <person name="Iwayanagi T."/>
+        <person name="Wagatsuma M."/>
+        <person name="Shiratori A."/>
+        <person name="Sudo H."/>
+        <person name="Hosoiri T."/>
+        <person name="Kaku Y."/>
+        <person name="Kodaira H."/>
+        <person name="Kondo H."/>
+        <person name="Sugawara M."/>
+        <person name="Takahashi M."/>
+        <person name="Kanda K."/>
+        <person name="Yokoi T."/>
+        <person name="Furuya T."/>
+        <person name="Kikkawa E."/>
+        <person name="Omura Y."/>
+        <person name="Abe K."/>
+        <person name="Kamihara K."/>
+        <person name="Katsuta N."/>
+        <person name="Sato K."/>
+        <person name="Tanikawa M."/>
+        <person name="Yamazaki M."/>
+        <person name="Ninomiya K."/>
+        <person name="Ishibashi T."/>
+        <person name="Yamashita H."/>
+        <person name="Murakawa K."/>
+        <person name="Fujimori K."/>
+        <person name="Tanai H."/>
+        <person name="Kimata M."/>
+        <person name="Watanabe M."/>
+        <person name="Hiraoka S."/>
+        <person name="Chiba Y."/>
+        <person name="Ishida S."/>
+        <person name="Ono Y."/>
+        <person name="Takiguchi S."/>
+        <person name="Watanabe S."/>
+        <person name="Yosida M."/>
+        <person name="Hotuta T."/>
+        <person name="Kusano J."/>
+        <person name="Kanehori K."/>
+        <person name="Takahashi-Fujii A."/>
+        <person name="Hara H."/>
+        <person name="Tanase T.-O."/>
+        <person name="Nomura Y."/>
+        <person name="Togiya S."/>
+        <person name="Komai F."/>
+        <person name="Hara R."/>
+        <person name="Takeuchi K."/>
+        <person name="Arita M."/>
+        <person name="Imose N."/>
+        <person name="Musashino K."/>
+        <person name="Yuuki H."/>
+        <person name="Oshima A."/>
+        <person name="Sasaki N."/>
+        <person name="Aotsuka S."/>
+        <person name="Yoshikawa Y."/>
+        <person name="Matsunawa H."/>
+        <person name="Ichihara T."/>
+        <person name="Shiohata N."/>
+        <person name="Sano S."/>
+        <person name="Moriya S."/>
+        <person name="Momiyama H."/>
+        <person name="Satoh N."/>
+        <person name="Takami S."/>
+        <person name="Terashima Y."/>
+        <person name="Suzuki O."/>
+        <person name="Nakagawa S."/>
+        <person name="Senoh A."/>
+        <person name="Mizoguchi H."/>
+        <person name="Goto Y."/>
+        <person name="Shimizu F."/>
+        <person name="Wakebe H."/>
+        <person name="Hishigaki H."/>
+        <person name="Watanabe T."/>
+        <person name="Sugiyama A."/>
+        <person name="Takemoto M."/>
+        <person name="Kawakami B."/>
+        <person name="Yamazaki M."/>
+        <person name="Watanabe K."/>
+        <person name="Kumagai A."/>
+        <person name="Itakura S."/>
+        <person name="Fukuzumi Y."/>
+        <person name="Fujimori Y."/>
+        <person name="Komiyama M."/>
+        <person name="Tashiro H."/>
+        <person name="Tanigami A."/>
+        <person name="Fujiwara T."/>
+        <person name="Ono T."/>
+        <person name="Yamada K."/>
+        <person name="Fujii Y."/>
+        <person name="Ozaki K."/>
+        <person name="Hirao M."/>
+        <person name="Ohmori Y."/>
+        <person name="Kawabata A."/>
+        <person name="Hikiji T."/>
+        <person name="Kobatake N."/>
+        <person name="Inagaki H."/>
+        <person name="Ikema Y."/>
+        <person name="Okamoto S."/>
+        <person name="Okitani R."/>
+        <person name="Kawakami T."/>
+        <person name="Noguchi S."/>
+        <person name="Itoh T."/>
+        <person name="Shigeta K."/>
+        <person name="Senba T."/>
+        <person name="Matsumura K."/>
+        <person name="Nakajima Y."/>
+        <person name="Mizuno T."/>
+        <person name="Morinaga M."/>
+        <person name="Sasaki M."/>
+        <person name="Togashi T."/>
+        <person name="Oyama M."/>
+        <person name="Hata H."/>
+        <person name="Watanabe M."/>
+        <person name="Komatsu T."/>
+        <person name="Mizushima-Sugano J."/>
+        <person name="Satoh T."/>
+        <person name="Shirai Y."/>
+        <person name="Takahashi Y."/>
+        <person name="Nakagawa K."/>
+        <person name="Okumura K."/>
+        <person name="Nagase T."/>
+        <person name="Nomura N."/>
+        <person name="Kikuchi H."/>
+        <person name="Masuho Y."/>
+        <person name="Yamashita R."/>
+        <person name="Nakai K."/>
+        <person name="Yada T."/>
+        <person name="Nakamura Y."/>
+        <person name="Ohara O."/>
+        <person name="Isogai T."/>
+        <person name="Sugano S."/>
+      </authorList>
+      <dbReference type="PubMed" id="14702039"/>
+      <dbReference type="DOI" id="10.1038/ng1285"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 3)</scope>
+    <source>
+      <tissue>Embryo</tissue>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="submission" date="2005-03" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Totoki Y."/>
+        <person name="Toyoda A."/>
+        <person name="Takeda T."/>
+        <person name="Sakaki Y."/>
+        <person name="Tanaka A."/>
+        <person name="Yokoyama S."/>
+        <person name="Ohara O."/>
+        <person name="Nagase T."/>
+        <person name="Kikuno R.F."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 4)</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 2 AND 5)</scope>
+    <source>
+      <tissue>Brain</tissue>
+      <tissue>Lung</tissue>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2000" name="J. Biol. Chem." volume="275" first="28583" last="28592">
+      <title>A family of human RNA-binding proteins related to the Drosophila Bruno translational regulator.</title>
+      <authorList>
+        <person name="Good P.J."/>
+        <person name="Chen Q."/>
+        <person name="Warner S.J."/>
+        <person name="Herring D.C."/>
+      </authorList>
+      <dbReference type="PubMed" id="10893231"/>
+      <dbReference type="DOI" id="10.1074/jbc.m003083200"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 1-304 (ISOFORM 5)</scope>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA] OF 324-486 (ISOFORMS 1/3/4)</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2002" name="Cytogenet. Genome Res." volume="97" first="254" last="260">
+      <title>Identification and characterization of murine Brunol4, a new member of the elav/bruno family.</title>
+      <authorList>
+        <person name="Meins M."/>
+        <person name="Schlickum S."/>
+        <person name="Wilhelm C."/>
+        <person name="Missbach J."/>
+        <person name="Yadav S."/>
+        <person name="Glaeser B."/>
+        <person name="Grzmil M."/>
+        <person name="Burfeind P."/>
+        <person name="Laccone F."/>
+      </authorList>
+      <dbReference type="PubMed" id="12438720"/>
+      <dbReference type="DOI" id="10.1159/000066619"/>
+    </citation>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2003" name="RNA" volume="9" first="443" last="456">
+      <title>Antagonistic regulation of alpha-actinin alternative splicing by CELF proteins and polypyrimidine tract binding protein.</title>
+      <authorList>
+        <person name="Gromak N."/>
+        <person name="Matlin A.J."/>
+        <person name="Cooper T.A."/>
+        <person name="Smith C.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="12649496"/>
+      <dbReference type="DOI" id="10.1261/rna.2191903"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2004" name="J. Neurochem." volume="88" first="1078" last="1090">
+      <title>Tau exon 10, whose missplicing causes frontotemporal dementia, is regulated by an intricate interplay of cis elements and trans factors.</title>
+      <authorList>
+        <person name="Wang J."/>
+        <person name="Gao Q.S."/>
+        <person name="Wang Y."/>
+        <person name="Lafyatis R."/>
+        <person name="Stamm S."/>
+        <person name="Andreadis A."/>
+      </authorList>
+      <dbReference type="PubMed" id="15009664"/>
+      <dbReference type="DOI" id="10.1046/j.1471-4159.2003.02232.x"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2004" name="Nucleic Acids Res." volume="32" first="1232" last="1241">
+      <title>ETR-3 and CELF4 protein domains required for RNA binding and splicing activity in vivo.</title>
+      <authorList>
+        <person name="Singh G."/>
+        <person name="Charlet-B N."/>
+        <person name="Han J."/>
+        <person name="Cooper T.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="14973222"/>
+      <dbReference type="DOI" id="10.1093/nar/gkh275"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>RNA-BINDING</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2005" name="Nucleic Acids Res." volume="33" first="2769" last="2780">
+      <title>Identification of CELF splicing activation and repression domains in vivo.</title>
+      <authorList>
+        <person name="Han J."/>
+        <person name="Cooper T.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="15894795"/>
+      <dbReference type="DOI" id="10.1093/nar/gki561"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>RNA-BINDING</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2006" name="J. Neurosci. Res." volume="84" first="852" last="859">
+      <title>ETR-3 represses Tau exons 2/3 inclusion, a splicing event abnormally enhanced in myotonic dystrophy type I.</title>
+      <authorList>
+        <person name="Leroy O."/>
+        <person name="Dhaenens C.-M."/>
+        <person name="Schraen-Maschke S."/>
+        <person name="Belarbi K."/>
+        <person name="Delacourte A."/>
+        <person name="Andreadis A."/>
+        <person name="Sablonniere B."/>
+        <person name="Buee L."/>
+        <person name="Sergeant N."/>
+        <person name="Caillet-Boudin M.-L."/>
+      </authorList>
+      <dbReference type="PubMed" id="16862542"/>
+      <dbReference type="DOI" id="10.1002/jnr.20980"/>
+    </citation>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="12">
+    <citation type="submission" date="2006-10" db="PDB data bank">
+      <title>Solution structure of RNA-binding domain in Bruno-like 4 RNA-binding protein.</title>
+      <authorList>
+        <consortium name="RIKEN structural genomics initiative (RSGI)"/>
+      </authorList>
+    </citation>
+    <scope>STRUCTURE BY NMR OF 143-235</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="3 5 6 7 8">RNA-binding protein implicated in the regulation of pre-mRNA alternative splicing. Mediates exon inclusion and/or exclusion in pre-mRNA that are subject to tissue-specific and developmentally regulated alternative splicing. Specifically activates exon 5 inclusion of cardiac isoforms of TNNT2 during heart remodeling at the juvenile to adult transition. Promotes exclusion of both the smooth muscle (SM) and non-muscle (NM) exons in actinin pre-mRNAs. Activates the splicing of MAPT/Tau exon 10. Binds to muscle-specific splicing enhancer (MSE) intronic sites flanking the alternative exon 5 of TNNT2 pre-mRNA.</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-12818201">
+      <id>Q9BZC1-2</id>
+    </interactant>
+    <interactant intactId="EBI-11983983">
+      <id>P57721-2</id>
+      <label>PCBP3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-12818201">
+      <id>Q9BZC1-2</id>
+    </interactant>
+    <interactant intactId="EBI-12754095">
+      <id>P86480</id>
+      <label>PRR20D</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-12818201">
+      <id>Q9BZC1-2</id>
+    </interactant>
+    <interactant intactId="EBI-11987469">
+      <id>Q6ZRY4</id>
+      <label>RBPMS2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-12818201">
+      <id>Q9BZC1-2</id>
+    </interactant>
+    <interactant intactId="EBI-11064654">
+      <id>Q01085-2</id>
+      <label>TIAL1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="6">Nucleus</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="6">Cytoplasm</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="alternative products">
+    <event type="alternative splicing"/>
+    <isoform>
+      <id>Q9BZC1-1</id>
+      <name>1</name>
+      <sequence type="displayed"/>
+    </isoform>
+    <isoform>
+      <id>Q9BZC1-2</id>
+      <name>2</name>
+      <sequence type="described" ref="VSP_026829 VSP_026831"/>
+    </isoform>
+    <isoform>
+      <id>Q9BZC1-3</id>
+      <name>3</name>
+      <sequence type="described" ref="VSP_026829 VSP_026830"/>
+    </isoform>
+    <isoform>
+      <id>Q9BZC1-4</id>
+      <name>4</name>
+      <sequence type="described" ref="VSP_026830"/>
+    </isoform>
+    <isoform>
+      <id>Q9BZC1-5</id>
+      <name>5</name>
+      <sequence type="described" ref="VSP_026828 VSP_026832"/>
+    </isoform>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="3 4 9">Ubiquitous. Strongly expressed in the cerebellum, hippocampus, amygdala, temporal and frontal cortex and frontal lobes.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="14">Belongs to the CELF/BRUNOL family.</text>
+  </comment>
+  <comment type="sequence caution" evidence="14">
+    <conflict type="erroneous initiation">
+      <sequence resource="EMBL-CDS" id="BAD93011" version="1"/>
+    </conflict>
+  </comment>
+  <dbReference type="EMBL" id="AF329265">
+    <property type="protein sequence ID" value="AAK07475.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AK074596">
+    <property type="protein sequence ID" value="BAC11082.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB209774">
+    <property type="protein sequence ID" value="BAD93011.1"/>
+    <property type="status" value="ALT_INIT"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC001946">
+    <property type="protein sequence ID" value="AAH01946.2"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC004167">
+    <property type="protein sequence ID" value="AAH04167.2"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC045711">
+    <property type="protein sequence ID" value="AAH45711.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF248650">
+    <property type="protein sequence ID" value="AAF86232.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF248651">
+    <property type="protein sequence ID" value="AAF86233.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS32818.1">
+    <molecule id="Q9BZC1-1"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS45856.1">
+    <molecule id="Q9BZC1-4"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS45857.1">
+    <molecule id="Q9BZC1-3"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS45858.1">
+    <molecule id="Q9BZC1-5"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS82250.1">
+    <molecule id="Q9BZC1-2"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001020258.1">
+    <molecule id="Q9BZC1-4"/>
+    <property type="nucleotide sequence ID" value="NM_001025087.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001020259.1">
+    <molecule id="Q9BZC1-3"/>
+    <property type="nucleotide sequence ID" value="NM_001025088.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001020260.1">
+    <molecule id="Q9BZC1-5"/>
+    <property type="nucleotide sequence ID" value="NM_001025089.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001317532.1">
+    <molecule id="Q9BZC1-2"/>
+    <property type="nucleotide sequence ID" value="NM_001330603.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_064565.1">
+    <molecule id="Q9BZC1-1"/>
+    <property type="nucleotide sequence ID" value="NM_020180.3"/>
+  </dbReference>
+  <dbReference type="PDB" id="2DGP">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=48-141"/>
+  </dbReference>
+  <dbReference type="PDB" id="2DNK">
+    <property type="method" value="NMR"/>
+    <property type="chains" value="A=143-235"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="2DGP"/>
+  <dbReference type="PDBsum" id="2DNK"/>
+  <dbReference type="AlphaFoldDB" id="Q9BZC1"/>
+  <dbReference type="SMR" id="Q9BZC1"/>
+  <dbReference type="BioGRID" id="121213">
+    <property type="interactions" value="10"/>
+  </dbReference>
+  <dbReference type="IntAct" id="Q9BZC1">
+    <property type="interactions" value="4"/>
+  </dbReference>
+  <dbReference type="STRING" id="9606.ENSP00000410584"/>
+  <dbReference type="iPTMnet" id="Q9BZC1"/>
+  <dbReference type="PhosphoSitePlus" id="Q9BZC1"/>
+  <dbReference type="BioMuta" id="CELF4"/>
+  <dbReference type="DMDM" id="74761348"/>
+  <dbReference type="jPOST" id="Q9BZC1"/>
+  <dbReference type="MassIVE" id="Q9BZC1"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000410584"/>
+  <dbReference type="PeptideAtlas" id="Q9BZC1"/>
+  <dbReference type="ProteomicsDB" id="79804">
+    <molecule id="Q9BZC1-1"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="79805">
+    <molecule id="Q9BZC1-2"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="79806">
+    <molecule id="Q9BZC1-3"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="79807">
+    <molecule id="Q9BZC1-4"/>
+  </dbReference>
+  <dbReference type="ProteomicsDB" id="79808">
+    <molecule id="Q9BZC1-5"/>
+  </dbReference>
+  <dbReference type="ABCD" id="Q9BZC1">
+    <property type="antibodies" value="1 sequenced antibody"/>
+  </dbReference>
+  <dbReference type="Antibodypedia" id="22364">
+    <property type="antibodies" value="87 antibodies from 19 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="56853"/>
+  <dbReference type="Ensembl" id="ENST00000334919.9">
+    <molecule id="Q9BZC1-5"/>
+    <property type="protein sequence ID" value="ENSP00000335631.4"/>
+    <property type="gene ID" value="ENSG00000101489.20"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000361795.9">
+    <molecule id="Q9BZC1-3"/>
+    <property type="protein sequence ID" value="ENSP00000355089.4"/>
+    <property type="gene ID" value="ENSG00000101489.20"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000420428.7">
+    <molecule id="Q9BZC1-1"/>
+    <property type="protein sequence ID" value="ENSP00000410584.2"/>
+    <property type="gene ID" value="ENSG00000101489.20"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000591282.5">
+    <molecule id="Q9BZC1-1"/>
+    <property type="protein sequence ID" value="ENSP00000464794.1"/>
+    <property type="gene ID" value="ENSG00000101489.20"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000591287.5">
+    <molecule id="Q9BZC1-2"/>
+    <property type="protein sequence ID" value="ENSP00000464917.1"/>
+    <property type="gene ID" value="ENSG00000101489.20"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000603232.6">
+    <molecule id="Q9BZC1-4"/>
+    <property type="protein sequence ID" value="ENSP00000474788.2"/>
+    <property type="gene ID" value="ENSG00000101489.20"/>
+  </dbReference>
+  <dbReference type="GeneID" id="56853"/>
+  <dbReference type="KEGG" id="hsa:56853"/>
+  <dbReference type="MANE-Select" id="ENST00000420428.7">
+    <property type="protein sequence ID" value="ENSP00000410584.2"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_020180.4"/>
+    <property type="RefSeq protein sequence ID" value="NP_064565.1"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc002lae.3">
+    <molecule id="Q9BZC1-1"/>
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:14015"/>
+  <dbReference type="CTD" id="56853"/>
+  <dbReference type="DisGeNET" id="56853"/>
+  <dbReference type="GeneCards" id="CELF4"/>
+  <dbReference type="HGNC" id="HGNC:14015">
+    <property type="gene designation" value="CELF4"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000101489">
+    <property type="expression patterns" value="Tissue enhanced (brain, pituitary gland)"/>
+  </dbReference>
+  <dbReference type="MIM" id="612679">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q9BZC1"/>
+  <dbReference type="OpenTargets" id="ENSG00000101489"/>
+  <dbReference type="PharmGKB" id="PA25428"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000101489"/>
+  <dbReference type="eggNOG" id="KOG0146">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00940000158673"/>
+  <dbReference type="HOGENOM" id="CLU_015367_0_1_1"/>
+  <dbReference type="InParanoid" id="Q9BZC1"/>
+  <dbReference type="OMA" id="TSKGCVF"/>
+  <dbReference type="OrthoDB" id="406581at2759"/>
+  <dbReference type="PhylomeDB" id="Q9BZC1"/>
+  <dbReference type="TreeFam" id="TF314924"/>
+  <dbReference type="PathwayCommons" id="Q9BZC1"/>
+  <dbReference type="SignaLink" id="Q9BZC1"/>
+  <dbReference type="SIGNOR" id="Q9BZC1"/>
+  <dbReference type="BioGRID-ORCS" id="56853">
+    <property type="hits" value="9 hits in 1146 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="CELF4">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q9BZC1"/>
+  <dbReference type="GeneWiki" id="BRUNOL4"/>
+  <dbReference type="GenomeRNAi" id="56853"/>
+  <dbReference type="Pharos" id="Q9BZC1">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q9BZC1"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 18"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q9BZC1">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000101489">
+    <property type="expression patterns" value="Expressed in cerebellar cortex and 126 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q9BZC1">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0098794">
+    <property type="term" value="C:postsynapse"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="GOC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1990904">
+    <property type="term" value="C:ribonucleoprotein complex"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042835">
+    <property type="term" value="F:BRE binding"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003729">
+    <property type="term" value="F:mRNA binding"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000900">
+    <property type="term" value="F:mRNA regulatory element binding translation repressor activity"/>
+    <property type="evidence" value="ECO:0000303"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036002">
+    <property type="term" value="F:pre-mRNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000380">
+    <property type="term" value="P:alternative mRNA splicing, via spliceosome"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="MGI"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009792">
+    <property type="term" value="P:embryo development ending in birth or egg hatching"/>
+    <property type="evidence" value="ECO:0000303"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0060079">
+    <property type="term" value="P:excitatory postsynaptic potential"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0007281">
+    <property type="term" value="P:germ cell development"/>
+    <property type="evidence" value="ECO:0000303"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001701">
+    <property type="term" value="P:in utero embryonic development"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006376">
+    <property type="term" value="P:mRNA splice site recognition"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0090394">
+    <property type="term" value="P:negative regulation of excitatory postsynaptic potential"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0048025">
+    <property type="term" value="P:negative regulation of mRNA splicing, via spliceosome"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0048026">
+    <property type="term" value="P:positive regulation of mRNA splicing, via spliceosome"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000381">
+    <property type="term" value="P:regulation of alternative mRNA splicing, via spliceosome"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1902866">
+    <property type="term" value="P:regulation of retina development in camera-type eye"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd12632">
+    <property type="entry name" value="RRM1_CELF3_4_5_6"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd12635">
+    <property type="entry name" value="RRM2_CELF3_4_5_6"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.30.70.330">
+    <property type="match status" value="3"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR034648">
+    <property type="entry name" value="CELF3/4/5/6_RRM1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR012677">
+    <property type="entry name" value="Nucleotide-bd_a/b_plait_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR035979">
+    <property type="entry name" value="RBD_domain_sf"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR000504">
+    <property type="entry name" value="RRM_dom"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR24012:SF721">
+    <property type="entry name" value="CUGBP ELAV-LIKE FAMILY MEMBER 4"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR24012">
+    <property type="entry name" value="RNA BINDING PROTEIN"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF00076">
+    <property type="entry name" value="RRM_1"/>
+    <property type="match status" value="3"/>
+  </dbReference>
+  <dbReference type="SMART" id="SM00360">
+    <property type="entry name" value="RRM"/>
+    <property type="match status" value="3"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF54928">
+    <property type="entry name" value="RNA-binding domain, RBD"/>
+    <property type="match status" value="2"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS50102">
+    <property type="entry name" value="RRM"/>
+    <property type="match status" value="3"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0010">Activator</keyword>
+  <keyword id="KW-0025">Alternative splicing</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0507">mRNA processing</keyword>
+  <keyword id="KW-0508">mRNA splicing</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0677">Repeat</keyword>
+  <keyword id="KW-0694">RNA-binding</keyword>
+  <feature type="chain" id="PRO_0000295221" description="CUGBP Elav-like family member 4">
+    <location>
+      <begin position="1"/>
+      <end position="486"/>
+    </location>
+  </feature>
+  <feature type="domain" description="RRM 1" evidence="1">
+    <location>
+      <begin position="54"/>
+      <end position="135"/>
+    </location>
+  </feature>
+  <feature type="domain" description="RRM 2" evidence="1">
+    <location>
+      <begin position="152"/>
+      <end position="232"/>
+    </location>
+  </feature>
+  <feature type="domain" description="RRM 3" evidence="1">
+    <location>
+      <begin position="404"/>
+      <end position="479"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Sufficient for RNA-binding and MSE-dependent splicing activity">
+    <location>
+      <begin position="1"/>
+      <end position="298"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="2">
+    <location>
+      <begin position="18"/>
+      <end position="39"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="2">
+    <location>
+      <begin position="121"/>
+      <end position="149"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Necessary for TNNT2 exon 5 inclusion">
+    <location>
+      <begin position="239"/>
+      <end position="258"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_026828" description="In isoform 5." evidence="10 12">
+    <original>GSSCLRQPPSQ</original>
+    <variation>E</variation>
+    <location>
+      <begin position="140"/>
+      <end position="150"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_026829" description="In isoform 2 and isoform 3." evidence="11 12">
+    <original>QD</original>
+    <variation>H</variation>
+    <location>
+      <begin position="150"/>
+      <end position="151"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_026830" description="In isoform 3 and isoform 4." evidence="11 13">
+    <location>
+      <position position="268"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_026831" description="In isoform 2." evidence="12">
+    <original>GP</original>
+    <variation>A</variation>
+    <location>
+      <begin position="388"/>
+      <end position="389"/>
+    </location>
+  </feature>
+  <feature type="splice variant" id="VSP_026832" description="In isoform 5." evidence="10 12">
+    <location>
+      <begin position="417"/>
+      <end position="444"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_052203" description="In dbSNP:rs12458669.">
+    <original>G</original>
+    <variation>S</variation>
+    <location>
+      <position position="388"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 2; BAC11082." evidence="14" ref="2">
+    <original>Q</original>
+    <variation>R</variation>
+    <location>
+      <position position="60"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 2; BAC11082." evidence="14" ref="2">
+    <original>D</original>
+    <variation>E</variation>
+    <location>
+      <position position="166"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 2; BAC11082." evidence="14" ref="2">
+    <original>S</original>
+    <variation>G</variation>
+    <location>
+      <position position="215"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 2; BAC11082." evidence="14" ref="2">
+    <original>T</original>
+    <variation>M</variation>
+    <location>
+      <position position="237"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="15">
+    <location>
+      <begin position="54"/>
+      <end position="60"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="15">
+    <location>
+      <begin position="67"/>
+      <end position="77"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="15">
+    <location>
+      <begin position="82"/>
+      <end position="84"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="15">
+    <location>
+      <begin position="89"/>
+      <end position="91"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="15">
+    <location>
+      <begin position="96"/>
+      <end position="104"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="15">
+    <location>
+      <begin position="105"/>
+      <end position="115"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="15">
+    <location>
+      <begin position="116"/>
+      <end position="118"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="15">
+    <location>
+      <begin position="129"/>
+      <end position="132"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="153"/>
+      <end position="158"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="165"/>
+      <end position="173"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="178"/>
+      <end position="185"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="189"/>
+      <end position="201"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="16">
+    <location>
+      <begin position="202"/>
+      <end position="212"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="16">
+    <location>
+      <begin position="213"/>
+      <end position="215"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="16">
+    <location>
+      <begin position="226"/>
+      <end position="229"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000255" key="1">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00176"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="2">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="11158314"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="12438720"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="12649496"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="14973222"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="15009664"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="15894795"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="16862542"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="10">
+    <source>
+      <dbReference type="PubMed" id="10893231"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="11">
+    <source>
+      <dbReference type="PubMed" id="14702039"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="12">
+    <source>
+      <dbReference type="PubMed" id="15489334"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="13">
+    <source ref="3"/>
+  </evidence>
+  <evidence type="ECO:0000305" key="14"/>
+  <evidence type="ECO:0007829" key="15">
+    <source>
+      <dbReference type="PDB" id="2DGP"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="16">
+    <source>
+      <dbReference type="PDB" id="2DNK"/>
+    </source>
+  </evidence>
+  <sequence length="486" mass="51966" checksum="17EA8A6A6752C565" modified="2001-06-01" version="1">MYIKMATLANGQADNASLSTNGLGSSPGSAGHMNGLSHSPGNPSTIPMKDHDAIKLFIGQIPRNLDEKDLKPLFEEFGKIYELTVLKDRFTGMHKGCAFLTYCERESALKAQSALHEQKTLPGMNRPIQVKPADSESRGGSSCLRQPPSQDRKLFVGMLNKQQSEDDVRRLFEAFGNIEECTILRGPDGNSKGCAFVKYSSHAEAQAAINALHGSQTMPGASSSLVVKFADTDKERTMRRMQQMAGQMGMFNPMAIPFGAYGAYAQALMQQQAALMASVAQGGYLNPMAAFAAAQMQQMAALNMNGLAAAPMTPTSGGSTPPGITAPAVPSIPSPIGVNGFTGLPPQANGQPAAEAVFANGIHPYPAQSPTAADPLQQAYAGVQQYAGPAAYPAAYGQISQAFPQPPPMIPQQQREGPEGCNLFIYHLPQEFGDAELMQMFLPFGFVSFDNPASAQTAIQAMNGFQIGMKRLKVQLKRPKDANRPY</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

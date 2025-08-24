@@ -1,0 +1,4480 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2004-12-07" modified="2024-10-02" version="226" xmlns="http://uniprot.org/uniprot">
+  <accession>Q99497</accession>
+  <accession>B2R4Z1</accession>
+  <accession>O14805</accession>
+  <accession>Q6DR95</accession>
+  <accession>Q7LFU2</accession>
+  <name>PARK7_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="55">Parkinson disease protein 7</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="54">Maillard deglycase</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="55">Oncogene DJ1</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="59">Parkinsonism-associated deglycase</fullName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="55">Protein DJ-1</fullName>
+      <shortName>DJ-1</shortName>
+    </alternativeName>
+    <alternativeName>
+      <fullName evidence="57 58">Protein/nucleic acid deglycase DJ-1</fullName>
+      <ecNumber evidence="40">3.1.2.-</ecNumber>
+      <ecNumber evidence="45">3.5.1.-</ecNumber>
+      <ecNumber evidence="40">3.5.1.124</ecNumber>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="59" type="primary">PARK7</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="1997" name="Biochem. Biophys. Res. Commun." volume="231" first="509" last="513">
+      <title>DJ-1, a novel oncogene which transforms mouse NIH3T3 cells in cooperation with ras.</title>
+      <authorList>
+        <person name="Nagakubo D."/>
+        <person name="Taita T."/>
+        <person name="Kitaura H."/>
+        <person name="Ikeda M."/>
+        <person name="Tamai K."/>
+        <person name="Iguchi-Ariga S.M.M."/>
+        <person name="Ariga H."/>
+      </authorList>
+      <dbReference type="PubMed" id="9070310"/>
+      <dbReference type="DOI" id="10.1006/bbrc.1997.6132"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <source>
+      <tissue>Cervix carcinoma</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="submission" date="1997-08" db="EMBL/GenBank/DDBJ databases">
+      <title>Homo sapiens RNA-binding protein regulatory subunit mRNA.</title>
+      <authorList>
+        <person name="Beaudoin R."/>
+        <person name="Hod Y."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+    <source>
+      <tissue>Lung</tissue>
+    </source>
+  </reference>
+  <reference key="3">
+    <citation type="submission" date="2001-11" db="EMBL/GenBank/DDBJ databases">
+      <title>Human DJ-1 cDNA from PC3 cells.</title>
+      <authorList>
+        <person name="Ariga H."/>
+        <person name="Niki T."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [MRNA]</scope>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+      <title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+      <authorList>
+        <person name="Ota T."/>
+        <person name="Suzuki Y."/>
+        <person name="Nishikawa T."/>
+        <person name="Otsuki T."/>
+        <person name="Sugiyama T."/>
+        <person name="Irie R."/>
+        <person name="Wakamatsu A."/>
+        <person name="Hayashi K."/>
+        <person name="Sato H."/>
+        <person name="Nagai K."/>
+        <person name="Kimura K."/>
+        <person name="Makita H."/>
+        <person name="Sekine M."/>
+        <person name="Obayashi M."/>
+        <person name="Nishi T."/>
+        <person name="Shibahara T."/>
+        <person name="Tanaka T."/>
+        <person name="Ishii S."/>
+        <person name="Yamamoto J."/>
+        <person name="Saito K."/>
+        <person name="Kawai Y."/>
+        <person name="Isono Y."/>
+        <person name="Nakamura Y."/>
+        <person name="Nagahari K."/>
+        <person name="Murakami K."/>
+        <person name="Yasuda T."/>
+        <person name="Iwayanagi T."/>
+        <person name="Wagatsuma M."/>
+        <person name="Shiratori A."/>
+        <person name="Sudo H."/>
+        <person name="Hosoiri T."/>
+        <person name="Kaku Y."/>
+        <person name="Kodaira H."/>
+        <person name="Kondo H."/>
+        <person name="Sugawara M."/>
+        <person name="Takahashi M."/>
+        <person name="Kanda K."/>
+        <person name="Yokoi T."/>
+        <person name="Furuya T."/>
+        <person name="Kikkawa E."/>
+        <person name="Omura Y."/>
+        <person name="Abe K."/>
+        <person name="Kamihara K."/>
+        <person name="Katsuta N."/>
+        <person name="Sato K."/>
+        <person name="Tanikawa M."/>
+        <person name="Yamazaki M."/>
+        <person name="Ninomiya K."/>
+        <person name="Ishibashi T."/>
+        <person name="Yamashita H."/>
+        <person name="Murakawa K."/>
+        <person name="Fujimori K."/>
+        <person name="Tanai H."/>
+        <person name="Kimata M."/>
+        <person name="Watanabe M."/>
+        <person name="Hiraoka S."/>
+        <person name="Chiba Y."/>
+        <person name="Ishida S."/>
+        <person name="Ono Y."/>
+        <person name="Takiguchi S."/>
+        <person name="Watanabe S."/>
+        <person name="Yosida M."/>
+        <person name="Hotuta T."/>
+        <person name="Kusano J."/>
+        <person name="Kanehori K."/>
+        <person name="Takahashi-Fujii A."/>
+        <person name="Hara H."/>
+        <person name="Tanase T.-O."/>
+        <person name="Nomura Y."/>
+        <person name="Togiya S."/>
+        <person name="Komai F."/>
+        <person name="Hara R."/>
+        <person name="Takeuchi K."/>
+        <person name="Arita M."/>
+        <person name="Imose N."/>
+        <person name="Musashino K."/>
+        <person name="Yuuki H."/>
+        <person name="Oshima A."/>
+        <person name="Sasaki N."/>
+        <person name="Aotsuka S."/>
+        <person name="Yoshikawa Y."/>
+        <person name="Matsunawa H."/>
+        <person name="Ichihara T."/>
+        <person name="Shiohata N."/>
+        <person name="Sano S."/>
+        <person name="Moriya S."/>
+        <person name="Momiyama H."/>
+        <person name="Satoh N."/>
+        <person name="Takami S."/>
+        <person name="Terashima Y."/>
+        <person name="Suzuki O."/>
+        <person name="Nakagawa S."/>
+        <person name="Senoh A."/>
+        <person name="Mizoguchi H."/>
+        <person name="Goto Y."/>
+        <person name="Shimizu F."/>
+        <person name="Wakebe H."/>
+        <person name="Hishigaki H."/>
+        <person name="Watanabe T."/>
+        <person name="Sugiyama A."/>
+        <person name="Takemoto M."/>
+        <person name="Kawakami B."/>
+        <person name="Yamazaki M."/>
+        <person name="Watanabe K."/>
+        <person name="Kumagai A."/>
+        <person name="Itakura S."/>
+        <person name="Fukuzumi Y."/>
+        <person name="Fujimori Y."/>
+        <person name="Komiyama M."/>
+        <person name="Tashiro H."/>
+        <person name="Tanigami A."/>
+        <person name="Fujiwara T."/>
+        <person name="Ono T."/>
+        <person name="Yamada K."/>
+        <person name="Fujii Y."/>
+        <person name="Ozaki K."/>
+        <person name="Hirao M."/>
+        <person name="Ohmori Y."/>
+        <person name="Kawabata A."/>
+        <person name="Hikiji T."/>
+        <person name="Kobatake N."/>
+        <person name="Inagaki H."/>
+        <person name="Ikema Y."/>
+        <person name="Okamoto S."/>
+        <person name="Okitani R."/>
+        <person name="Kawakami T."/>
+        <person name="Noguchi S."/>
+        <person name="Itoh T."/>
+        <person name="Shigeta K."/>
+        <person name="Senba T."/>
+        <person name="Matsumura K."/>
+        <person name="Nakajima Y."/>
+        <person name="Mizuno T."/>
+        <person name="Morinaga M."/>
+        <person name="Sasaki M."/>
+        <person name="Togashi T."/>
+        <person name="Oyama M."/>
+        <person name="Hata H."/>
+        <person name="Watanabe M."/>
+        <person name="Komatsu T."/>
+        <person name="Mizushima-Sugano J."/>
+        <person name="Satoh T."/>
+        <person name="Shirai Y."/>
+        <person name="Takahashi Y."/>
+        <person name="Nakagawa K."/>
+        <person name="Okumura K."/>
+        <person name="Nagase T."/>
+        <person name="Nomura N."/>
+        <person name="Kikuchi H."/>
+        <person name="Masuho Y."/>
+        <person name="Yamashita R."/>
+        <person name="Nakai K."/>
+        <person name="Yada T."/>
+        <person name="Nakamura Y."/>
+        <person name="Ohara O."/>
+        <person name="Isogai T."/>
+        <person name="Sugano S."/>
+      </authorList>
+      <dbReference type="PubMed" id="14702039"/>
+      <dbReference type="DOI" id="10.1038/ng1285"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Thalamus</tissue>
+    </source>
+  </reference>
+  <reference key="5">
+    <citation type="journal article" date="2006" name="Nature" volume="441" first="315" last="321">
+      <title>The DNA sequence and biological annotation of human chromosome 1.</title>
+      <authorList>
+        <person name="Gregory S.G."/>
+        <person name="Barlow K.F."/>
+        <person name="McLay K.E."/>
+        <person name="Kaul R."/>
+        <person name="Swarbreck D."/>
+        <person name="Dunham A."/>
+        <person name="Scott C.E."/>
+        <person name="Howe K.L."/>
+        <person name="Woodfine K."/>
+        <person name="Spencer C.C.A."/>
+        <person name="Jones M.C."/>
+        <person name="Gillson C."/>
+        <person name="Searle S."/>
+        <person name="Zhou Y."/>
+        <person name="Kokocinski F."/>
+        <person name="McDonald L."/>
+        <person name="Evans R."/>
+        <person name="Phillips K."/>
+        <person name="Atkinson A."/>
+        <person name="Cooper R."/>
+        <person name="Jones C."/>
+        <person name="Hall R.E."/>
+        <person name="Andrews T.D."/>
+        <person name="Lloyd C."/>
+        <person name="Ainscough R."/>
+        <person name="Almeida J.P."/>
+        <person name="Ambrose K.D."/>
+        <person name="Anderson F."/>
+        <person name="Andrew R.W."/>
+        <person name="Ashwell R.I.S."/>
+        <person name="Aubin K."/>
+        <person name="Babbage A.K."/>
+        <person name="Bagguley C.L."/>
+        <person name="Bailey J."/>
+        <person name="Beasley H."/>
+        <person name="Bethel G."/>
+        <person name="Bird C.P."/>
+        <person name="Bray-Allen S."/>
+        <person name="Brown J.Y."/>
+        <person name="Brown A.J."/>
+        <person name="Buckley D."/>
+        <person name="Burton J."/>
+        <person name="Bye J."/>
+        <person name="Carder C."/>
+        <person name="Chapman J.C."/>
+        <person name="Clark S.Y."/>
+        <person name="Clarke G."/>
+        <person name="Clee C."/>
+        <person name="Cobley V."/>
+        <person name="Collier R.E."/>
+        <person name="Corby N."/>
+        <person name="Coville G.J."/>
+        <person name="Davies J."/>
+        <person name="Deadman R."/>
+        <person name="Dunn M."/>
+        <person name="Earthrowl M."/>
+        <person name="Ellington A.G."/>
+        <person name="Errington H."/>
+        <person name="Frankish A."/>
+        <person name="Frankland J."/>
+        <person name="French L."/>
+        <person name="Garner P."/>
+        <person name="Garnett J."/>
+        <person name="Gay L."/>
+        <person name="Ghori M.R.J."/>
+        <person name="Gibson R."/>
+        <person name="Gilby L.M."/>
+        <person name="Gillett W."/>
+        <person name="Glithero R.J."/>
+        <person name="Grafham D.V."/>
+        <person name="Griffiths C."/>
+        <person name="Griffiths-Jones S."/>
+        <person name="Grocock R."/>
+        <person name="Hammond S."/>
+        <person name="Harrison E.S.I."/>
+        <person name="Hart E."/>
+        <person name="Haugen E."/>
+        <person name="Heath P.D."/>
+        <person name="Holmes S."/>
+        <person name="Holt K."/>
+        <person name="Howden P.J."/>
+        <person name="Hunt A.R."/>
+        <person name="Hunt S.E."/>
+        <person name="Hunter G."/>
+        <person name="Isherwood J."/>
+        <person name="James R."/>
+        <person name="Johnson C."/>
+        <person name="Johnson D."/>
+        <person name="Joy A."/>
+        <person name="Kay M."/>
+        <person name="Kershaw J.K."/>
+        <person name="Kibukawa M."/>
+        <person name="Kimberley A.M."/>
+        <person name="King A."/>
+        <person name="Knights A.J."/>
+        <person name="Lad H."/>
+        <person name="Laird G."/>
+        <person name="Lawlor S."/>
+        <person name="Leongamornlert D.A."/>
+        <person name="Lloyd D.M."/>
+        <person name="Loveland J."/>
+        <person name="Lovell J."/>
+        <person name="Lush M.J."/>
+        <person name="Lyne R."/>
+        <person name="Martin S."/>
+        <person name="Mashreghi-Mohammadi M."/>
+        <person name="Matthews L."/>
+        <person name="Matthews N.S.W."/>
+        <person name="McLaren S."/>
+        <person name="Milne S."/>
+        <person name="Mistry S."/>
+        <person name="Moore M.J.F."/>
+        <person name="Nickerson T."/>
+        <person name="O'Dell C.N."/>
+        <person name="Oliver K."/>
+        <person name="Palmeiri A."/>
+        <person name="Palmer S.A."/>
+        <person name="Parker A."/>
+        <person name="Patel D."/>
+        <person name="Pearce A.V."/>
+        <person name="Peck A.I."/>
+        <person name="Pelan S."/>
+        <person name="Phelps K."/>
+        <person name="Phillimore B.J."/>
+        <person name="Plumb R."/>
+        <person name="Rajan J."/>
+        <person name="Raymond C."/>
+        <person name="Rouse G."/>
+        <person name="Saenphimmachak C."/>
+        <person name="Sehra H.K."/>
+        <person name="Sheridan E."/>
+        <person name="Shownkeen R."/>
+        <person name="Sims S."/>
+        <person name="Skuce C.D."/>
+        <person name="Smith M."/>
+        <person name="Steward C."/>
+        <person name="Subramanian S."/>
+        <person name="Sycamore N."/>
+        <person name="Tracey A."/>
+        <person name="Tromans A."/>
+        <person name="Van Helmond Z."/>
+        <person name="Wall M."/>
+        <person name="Wallis J.M."/>
+        <person name="White S."/>
+        <person name="Whitehead S.L."/>
+        <person name="Wilkinson J.E."/>
+        <person name="Willey D.L."/>
+        <person name="Williams H."/>
+        <person name="Wilming L."/>
+        <person name="Wray P.W."/>
+        <person name="Wu Z."/>
+        <person name="Coulson A."/>
+        <person name="Vaudin M."/>
+        <person name="Sulston J.E."/>
+        <person name="Durbin R.M."/>
+        <person name="Hubbard T."/>
+        <person name="Wooster R."/>
+        <person name="Dunham I."/>
+        <person name="Carter N.P."/>
+        <person name="McVean G."/>
+        <person name="Ross M.T."/>
+        <person name="Harrow J."/>
+        <person name="Olson M.V."/>
+        <person name="Beck S."/>
+        <person name="Rogers J."/>
+        <person name="Bentley D.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="16710414"/>
+      <dbReference type="DOI" id="10.1038/nature04727"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="6">
+    <citation type="submission" date="2005-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Mural R.J."/>
+        <person name="Istrail S."/>
+        <person name="Sutton G.G."/>
+        <person name="Florea L."/>
+        <person name="Halpern A.L."/>
+        <person name="Mobarry C.M."/>
+        <person name="Lippert R."/>
+        <person name="Walenz B."/>
+        <person name="Shatkay H."/>
+        <person name="Dew I."/>
+        <person name="Miller J.R."/>
+        <person name="Flanigan M.J."/>
+        <person name="Edwards N.J."/>
+        <person name="Bolanos R."/>
+        <person name="Fasulo D."/>
+        <person name="Halldorsson B.V."/>
+        <person name="Hannenhalli S."/>
+        <person name="Turner R."/>
+        <person name="Yooseph S."/>
+        <person name="Lu F."/>
+        <person name="Nusskern D.R."/>
+        <person name="Shue B.C."/>
+        <person name="Zheng X.H."/>
+        <person name="Zhong F."/>
+        <person name="Delcher A.L."/>
+        <person name="Huson D.H."/>
+        <person name="Kravitz S.A."/>
+        <person name="Mouchard L."/>
+        <person name="Reinert K."/>
+        <person name="Remington K.A."/>
+        <person name="Clark A.G."/>
+        <person name="Waterman M.S."/>
+        <person name="Eichler E.E."/>
+        <person name="Adams M.D."/>
+        <person name="Hunkapiller M.W."/>
+        <person name="Myers E.W."/>
+        <person name="Venter J.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Cervix</tissue>
+    </source>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2001" name="Gene" volume="263" first="285" last="292">
+      <title>Molecular cloning of human and mouse DJ-1 genes and identification of Sp1-dependent activation of the human DJ-1 promoter.</title>
+      <authorList>
+        <person name="Taira T."/>
+        <person name="Takahashi K."/>
+        <person name="Kitagawa R."/>
+        <person name="Iguchi-Ariga S.M.M."/>
+        <person name="Ariga H."/>
+      </authorList>
+      <dbReference type="PubMed" id="11223268"/>
+      <dbReference type="DOI" id="10.1016/s0378-1119(00)00590-4"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 1-6</scope>
+    <source>
+      <tissue>Kidney</tissue>
+    </source>
+  </reference>
+  <reference key="9">
+    <citation type="submission" date="2008-12" db="UniProtKB">
+      <authorList>
+        <person name="Lubec G."/>
+        <person name="Afjehi-Sadat L."/>
+        <person name="Chen W.-Q."/>
+        <person name="Sun Y."/>
+      </authorList>
+    </citation>
+    <scope>PROTEIN SEQUENCE OF 6-27; 33-89; 99-122 AND 149-175</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <source>
+      <tissue>Brain</tissue>
+      <tissue>Cajal-Retzius cell</tissue>
+      <tissue>Fetal brain cortex</tissue>
+    </source>
+  </reference>
+  <reference key="10">
+    <citation type="submission" date="2004-06" db="EMBL/GenBank/DDBJ databases">
+      <title>DJ-1 gene G150S mutation.</title>
+      <authorList>
+        <person name="Zou H.Q."/>
+        <person name="Chan P."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [GENOMIC DNA] OF 138-189</scope>
+    <scope>VARIANT SER-150</scope>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2001" name="J. Biol. Chem." volume="276" first="37556" last="37563">
+      <title>DJ-1 positively regulates the androgen receptor by impairing the binding of PIASx alpha to the receptor.</title>
+      <authorList>
+        <person name="Takahashi K."/>
+        <person name="Taira T."/>
+        <person name="Niki T."/>
+        <person name="Seino C."/>
+        <person name="Iguchi-Ariga S.M.M."/>
+        <person name="Ariga H."/>
+      </authorList>
+      <dbReference type="PubMed" id="11477070"/>
+      <dbReference type="DOI" id="10.1074/jbc.m101730200"/>
+    </citation>
+    <scope>INTERACTION WITH PIAS2</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2003" name="J. Biol. Chem." volume="278" first="36588" last="36595">
+      <title>L166P mutant DJ-1, causative for recessive Parkinson's disease, is degraded through the ubiquitin-proteasome system.</title>
+      <authorList>
+        <person name="Miller D.W."/>
+        <person name="Ahmad R."/>
+        <person name="Hague S."/>
+        <person name="Baptista M.J."/>
+        <person name="Canet-Aviles R."/>
+        <person name="McLendon C."/>
+        <person name="Carter D.M."/>
+        <person name="Zhu P.-P."/>
+        <person name="Stadler J."/>
+        <person name="Chandran J."/>
+        <person name="Klinefelter G.R."/>
+        <person name="Blackstone C."/>
+        <person name="Cookson M.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="12851414"/>
+      <dbReference type="DOI" id="10.1074/jbc.m304272200"/>
+    </citation>
+    <scope>DEGRADATION BY THE PROTEASOME</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>INTERACTION WITH PIAS2</scope>
+    <scope>HOMODIMERIZATION</scope>
+    <scope>MUTAGENESIS OF LYS-130</scope>
+    <scope>CHARACTERIZATION OF VARIANT PARK7 PRO-166</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2003" name="J. Neurochem." volume="87" first="1558" last="1567">
+      <title>A missense mutation (L166P) in DJ-1, linked to familial Parkinson's disease, confers reduced protein stability and impairs homo-oligomerization.</title>
+      <authorList>
+        <person name="Moore D.J."/>
+        <person name="Zhang L."/>
+        <person name="Dawson T.M."/>
+        <person name="Dawson V.L."/>
+      </authorList>
+      <dbReference type="PubMed" id="14713311"/>
+      <dbReference type="DOI" id="10.1111/j.1471-4159.2003.02265.x"/>
+    </citation>
+    <scope>DEGRADATION BY THE PROTEASOME</scope>
+    <scope>CHARACTERIZATION OF VARIANTS PARK7 ILE-26 AND PRO-166</scope>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2003" name="Mol. Cancer Res." volume="1" first="247" last="261">
+      <title>DJBP: a novel DJ-1-binding protein, negatively regulates the androgen receptor by recruiting histone deacetylase complex, and DJ-1 antagonizes this inhibition by abrogation of this complex.</title>
+      <authorList>
+        <person name="Niki T."/>
+        <person name="Takahashi-Niki K."/>
+        <person name="Taira T."/>
+        <person name="Iguchi-Ariga S.M.M."/>
+        <person name="Ariga H."/>
+      </authorList>
+      <dbReference type="PubMed" id="12612053"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH EFCAB6</scope>
+    <scope>COMPONENT OF A COMPLEX COMPOSED OF AR; EFCAB6 AND PARK7</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2003" name="Mol. Reprod. Dev." volume="66" first="391" last="397">
+      <title>Immunocytochemical localization of DJ-1 in human male reproductive tissue.</title>
+      <authorList>
+        <person name="Yoshida K."/>
+        <person name="Sato Y."/>
+        <person name="Yoshiike M."/>
+        <person name="Nozawa S."/>
+        <person name="Ariga H."/>
+        <person name="Iwamoto T."/>
+      </authorList>
+      <dbReference type="PubMed" id="14579415"/>
+      <dbReference type="DOI" id="10.1002/mrd.10360"/>
+    </citation>
+    <scope>TISSUE SPECIFICITY</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="2004" name="Ann. Neurol." volume="55" first="113" last="118">
+      <title>DJ-1 colocalizes with tau inclusions: a link between parkinsonism and dementia.</title>
+      <authorList>
+        <person name="Rizzu P."/>
+        <person name="Hinkle D.A."/>
+        <person name="Zhukareva V."/>
+        <person name="Bonifati V."/>
+        <person name="Severijnen L.-A."/>
+        <person name="Martinez D."/>
+        <person name="Ravid R."/>
+        <person name="Kamphorst W."/>
+        <person name="Eberwine J.H."/>
+        <person name="Lee V.M.-Y."/>
+        <person name="Trojanowski J.Q."/>
+        <person name="Heutink P."/>
+      </authorList>
+      <dbReference type="PubMed" id="14705119"/>
+      <dbReference type="DOI" id="10.1002/ana.10782"/>
+    </citation>
+    <scope>TISSUE SPECIFICITY</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="17">
+    <citation type="journal article" date="2004" name="Brain" volume="127" first="420" last="430">
+      <title>The expression of DJ-1 (PARK7) in normal human CNS and idiopathic Parkinson's disease.</title>
+      <authorList>
+        <person name="Bandopadhyay R."/>
+        <person name="Kingsbury A.E."/>
+        <person name="Cookson M.R."/>
+        <person name="Reid A.R."/>
+        <person name="Evans I.M."/>
+        <person name="Hope A.D."/>
+        <person name="Pittman A.M."/>
+        <person name="Lashley T."/>
+        <person name="Canet-Aviles R."/>
+        <person name="Miller D.W."/>
+        <person name="McLendon C."/>
+        <person name="Strand C."/>
+        <person name="Leonard A.J."/>
+        <person name="Abou-Sleiman P.M."/>
+        <person name="Healy D.G."/>
+        <person name="Ariga H."/>
+        <person name="Wood N.W."/>
+        <person name="de Silva R."/>
+        <person name="Revesz T."/>
+        <person name="Hardy J.A."/>
+        <person name="Lees A.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="14662519"/>
+      <dbReference type="DOI" id="10.1093/brain/awh054"/>
+    </citation>
+    <scope>TISSUE SPECIFICITY</scope>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="2004" name="EMBO Rep." volume="5" first="213" last="218">
+      <title>DJ-1 has a role in antioxidative stress to prevent cell death.</title>
+      <authorList>
+        <person name="Taira T."/>
+        <person name="Saito Y."/>
+        <person name="Niki T."/>
+        <person name="Iguchi-Ariga S.M."/>
+        <person name="Takahashi K."/>
+        <person name="Ariga H."/>
+      </authorList>
+      <dbReference type="PubMed" id="14749723"/>
+      <dbReference type="DOI" id="10.1038/sj.embor.7400074"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INDUCTION</scope>
+    <scope>MUTAGENESIS OF VAL-51 AND CYS-53</scope>
+  </reference>
+  <reference key="19">
+    <citation type="journal article" date="2004" name="PLoS Biol." volume="2" first="1" last="10">
+      <title>DJ-1 is a redox-dependent molecular chaperone that inhibits alpha-synuclein aggregate formation.</title>
+      <authorList>
+        <person name="Shendelman S."/>
+        <person name="Jonason A."/>
+        <person name="Martinat C."/>
+        <person name="Leete T."/>
+        <person name="Abeliovich A."/>
+      </authorList>
+      <dbReference type="PubMed" id="15502874"/>
+      <dbReference type="DOI" id="10.1371/journal.pbio.0020362"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>MUTAGENESIS OF CYS-46; CYS-53 AND CYS-106</scope>
+  </reference>
+  <reference key="20">
+    <citation type="journal article" date="2005" name="Nat. Biotechnol." volume="23" first="94" last="101">
+      <title>Immunoaffinity profiling of tyrosine phosphorylation in cancer cells.</title>
+      <authorList>
+        <person name="Rush J."/>
+        <person name="Moritz A."/>
+        <person name="Lee K.A."/>
+        <person name="Guo A."/>
+        <person name="Goss V.L."/>
+        <person name="Spek E.J."/>
+        <person name="Zhang H."/>
+        <person name="Zha X.-M."/>
+        <person name="Polakiewicz R.D."/>
+        <person name="Comb M.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="15592455"/>
+      <dbReference type="DOI" id="10.1038/nbt1046"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT TYR-67</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="21">
+    <citation type="journal article" date="2006" name="Cell Death Differ." volume="13" first="96" last="108">
+      <title>Proper SUMO-1 conjugation is essential to DJ-1 to exert its full activities.</title>
+      <authorList>
+        <person name="Shinbo Y."/>
+        <person name="Niki T."/>
+        <person name="Taira T."/>
+        <person name="Ooe H."/>
+        <person name="Takahashi-Niki K."/>
+        <person name="Maita C."/>
+        <person name="Seino C."/>
+        <person name="Iguchi-Ariga S.M.M."/>
+        <person name="Ariga H."/>
+      </authorList>
+      <dbReference type="PubMed" id="15976810"/>
+      <dbReference type="DOI" id="10.1038/sj.cdd.4401704"/>
+    </citation>
+    <scope>SUMOYLATION AT LYS-130</scope>
+    <scope>OXIDATION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>INDUCTION</scope>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="22">
+    <citation type="journal article" date="2006" name="Free Radic. Res." volume="40" first="155" last="165">
+      <title>DJ-1 interacts with HIPK1 and affects H2O2-induced cell death.</title>
+      <authorList>
+        <person name="Sekito A."/>
+        <person name="Koide-Yoshida S."/>
+        <person name="Niki T."/>
+        <person name="Taira T."/>
+        <person name="Iguchi-Ariga S.M.M."/>
+        <person name="Ariga H."/>
+      </authorList>
+      <dbReference type="PubMed" id="16390825"/>
+      <dbReference type="DOI" id="10.1080/10715760500456847"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH HIPK1</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MUTAGENESIS OF CYS-106</scope>
+  </reference>
+  <reference key="23">
+    <citation type="journal article" date="2006" name="Proc. Natl. Acad. Sci. U.S.A." volume="103" first="15091" last="15096">
+      <title>DJ-1, a cancer- and Parkinson's disease-associated protein, stabilizes the antioxidant transcriptional master regulator Nrf2.</title>
+      <authorList>
+        <person name="Clements C.M."/>
+        <person name="McNally R.S."/>
+        <person name="Conti B.J."/>
+        <person name="Mak T.W."/>
+        <person name="Ting J.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="17015834"/>
+      <dbReference type="DOI" id="10.1073/pnas.0607260103"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="24">
+    <citation type="journal article" date="2008" name="Proc. Natl. Acad. Sci. U.S.A." volume="105" first="10244" last="10249">
+      <title>RNA binding activity of the recessive parkinsonism protein DJ-1 supports involvement in multiple cellular pathways.</title>
+      <authorList>
+        <person name="van der Brug M.P."/>
+        <person name="Blackinton J."/>
+        <person name="Chandran J."/>
+        <person name="Hao L.Y."/>
+        <person name="Lal A."/>
+        <person name="Mazan-Mamczarz K."/>
+        <person name="Martindale J."/>
+        <person name="Xie C."/>
+        <person name="Ahmad R."/>
+        <person name="Thomas K.J."/>
+        <person name="Beilina A."/>
+        <person name="Gibbs J.R."/>
+        <person name="Ding J."/>
+        <person name="Myers A.J."/>
+        <person name="Zhan M."/>
+        <person name="Cai H."/>
+        <person name="Bonini N.M."/>
+        <person name="Gorospe M."/>
+        <person name="Cookson M.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="18626009"/>
+      <dbReference type="DOI" id="10.1073/pnas.0708518105"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="25">
+    <citation type="journal article" date="2009" name="J. Clin. Invest." volume="119" first="650" last="660">
+      <title>Parkin, PINK1, and DJ-1 form a ubiquitin E3 ligase complex promoting unfolded protein degradation.</title>
+      <authorList>
+        <person name="Xiong H."/>
+        <person name="Wang D."/>
+        <person name="Chen L."/>
+        <person name="Choo Y.S."/>
+        <person name="Ma H."/>
+        <person name="Tang C."/>
+        <person name="Xia K."/>
+        <person name="Jiang W."/>
+        <person name="Ronai Z."/>
+        <person name="Zhuang X."/>
+        <person name="Zhang Z."/>
+      </authorList>
+      <dbReference type="PubMed" id="19229105"/>
+      <dbReference type="DOI" id="10.1172/jci37617"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>COMPONENT OF A COMPLEX COMPOSED OF PRKN; PARK7 AND PINK1</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>CHARACTERIZATION OF VARIANT PARK7 PRO-166</scope>
+  </reference>
+  <reference key="26">
+    <citation type="journal article" date="2009" name="J. Neurosci. Res." volume="87" first="123" last="129">
+      <title>Mitochondrial localization of DJ-1 leads to enhanced neuroprotection.</title>
+      <authorList>
+        <person name="Junn E."/>
+        <person name="Jang W.H."/>
+        <person name="Zhao X."/>
+        <person name="Jeong B.S."/>
+        <person name="Mouradian M.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="18711745"/>
+      <dbReference type="DOI" id="10.1002/jnr.21831"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MUTAGENESIS OF CYS-46; CYS-53 AND CYS-106</scope>
+  </reference>
+  <reference key="27">
+    <citation type="journal article" date="2010" name="Hum. Mol. Genet." volume="19" first="2395" last="2408">
+      <title>Parkinson disease protein DJ-1 converts from a zymogen to a protease by carboxyl-terminal cleavage.</title>
+      <authorList>
+        <person name="Chen J."/>
+        <person name="Li L."/>
+        <person name="Chin L.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="20304780"/>
+      <dbReference type="DOI" id="10.1093/hmg/ddq113"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>ACTIVE SITES</scope>
+    <scope>MUTAGENESIS OF CYS-106 AND HIS-126</scope>
+  </reference>
+  <reference key="28">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="29">
+    <citation type="journal article" date="2011" name="J. Biol. Chem." volume="286" first="4098" last="4106">
+      <title>DJ-1 enhances cell survival through the binding of cezanne, a negative regulator of NF-{kappa}B.</title>
+      <authorList>
+        <person name="McNally R.S."/>
+        <person name="Davis B.K."/>
+        <person name="Clements C.M."/>
+        <person name="Accavitti-Loper M.A."/>
+        <person name="Mak T.W."/>
+        <person name="Ting J.P."/>
+      </authorList>
+      <dbReference type="PubMed" id="21097510"/>
+      <dbReference type="DOI" id="10.1074/jbc.m110.147371"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INTERACTION WITH BBS1; CLCF1; MTERF AND OTUD7B</scope>
+    <scope>MUTAGENESIS OF CYS-106</scope>
+  </reference>
+  <reference key="30">
+    <citation type="journal article" date="2012" name="Hum. Mol. Genet." volume="21" first="3215" last="3225">
+      <title>Human DJ-1 and its homologs are novel glyoxalases.</title>
+      <authorList>
+        <person name="Lee J.Y."/>
+        <person name="Song J."/>
+        <person name="Kwon K."/>
+        <person name="Jang S."/>
+        <person name="Kim C."/>
+        <person name="Baek K."/>
+        <person name="Kim J."/>
+        <person name="Park C."/>
+      </authorList>
+      <dbReference type="PubMed" id="22523093"/>
+      <dbReference type="DOI" id="10.1093/hmg/dds155"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CAUTION</scope>
+    <scope>MUTAGENESIS OF GLU-18; CYS-106 AND HIS-126</scope>
+    <scope>CHARACTERIZATION OF VARIANT PARK7 PRO-166</scope>
+  </reference>
+  <reference key="31">
+    <citation type="journal article" date="2012" name="J. Mol. Cell Biol." volume="4" first="221" last="230">
+      <title>Age- and diet-dependent requirement of DJ-1 for glucose homeostasis in mice with implications for human type 2 diabetes.</title>
+      <authorList>
+        <person name="Jain D."/>
+        <person name="Jain R."/>
+        <person name="Eberhard D."/>
+        <person name="Eglinger J."/>
+        <person name="Bugliani M."/>
+        <person name="Piemonti L."/>
+        <person name="Marchetti P."/>
+        <person name="Lammert E."/>
+      </authorList>
+      <dbReference type="PubMed" id="22611253"/>
+      <dbReference type="DOI" id="10.1093/jmcb/mjs025"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>DEVELOPMENTAL STAGE</scope>
+    <scope>INDUCTION BY HYPERGLYCEMIC CONDITIONS</scope>
+    <scope>TISSUE SPECIFICITY</scope>
+    <scope>INVOLVEMENT IN DISEASE</scope>
+  </reference>
+  <reference key="32">
+    <citation type="journal article" date="2013" name="Hum. Mol. Genet." volume="22" first="4805" last="4817">
+      <title>DJ-1 associates with lipid rafts by palmitoylation and regulates lipid rafts-dependent endocytosis in astrocytes.</title>
+      <authorList>
+        <person name="Kim K.S."/>
+        <person name="Kim J.S."/>
+        <person name="Park J.Y."/>
+        <person name="Suh Y.H."/>
+        <person name="Jou I."/>
+        <person name="Joe E.H."/>
+        <person name="Park S.M."/>
+      </authorList>
+      <dbReference type="PubMed" id="23847046"/>
+      <dbReference type="DOI" id="10.1093/hmg/ddt332"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>PALMITOYLATION AT CYS-46; CYS-53 AND CYS-106</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>MUTAGENESIS OF CYS-46 AND CYS-106</scope>
+    <scope>CHARACTERIZATION OF VARIANT PARK7 PRO-166</scope>
+  </reference>
+  <reference key="33">
+    <citation type="journal article" date="2013" name="J. Biol. Chem." volume="288" first="22809" last="22820">
+      <title>Parkinson disease protein DJ-1 binds metals and protects against metal-induced cytotoxicity.</title>
+      <authorList>
+        <person name="Bjorkblom B."/>
+        <person name="Adilbayeva A."/>
+        <person name="Maple-Grodem J."/>
+        <person name="Piston D."/>
+        <person name="Okvist M."/>
+        <person name="Xu X.M."/>
+        <person name="Brede C."/>
+        <person name="Larsen J.P."/>
+        <person name="Moller S.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="23792957"/>
+      <dbReference type="DOI" id="10.1074/jbc.m113.482091"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>COPPER-BINDING</scope>
+    <scope>CHARACTERIZATION OF VARIANTS PARK7 THR-104 AND ALA-149</scope>
+    <scope>MUTAGENESIS OF CYS-106</scope>
+  </reference>
+  <reference key="34">
+    <citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+      <title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+      <authorList>
+        <person name="Bian Y."/>
+        <person name="Song C."/>
+        <person name="Cheng K."/>
+        <person name="Dong M."/>
+        <person name="Wang F."/>
+        <person name="Huang J."/>
+        <person name="Sun D."/>
+        <person name="Wang L."/>
+        <person name="Ye M."/>
+        <person name="Zou H."/>
+      </authorList>
+      <dbReference type="PubMed" id="24275569"/>
+      <dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Liver</tissue>
+    </source>
+  </reference>
+  <reference key="35">
+    <citation type="journal article" date="2015" name="J. Biol. Chem." volume="290" first="1885" last="1897">
+      <title>Parkinsonism-associated protein DJ-1/Park7 is a major protein deglycase that repairs methylglyoxal- and glyoxal-glycated cysteine, arginine and lysine residues.</title>
+      <authorList>
+        <person name="Richarme G."/>
+        <person name="Mihoub M."/>
+        <person name="Dairou J."/>
+        <person name="Bui L.C."/>
+        <person name="Leger T."/>
+        <person name="Lamouri A."/>
+      </authorList>
+      <dbReference type="PubMed" id="25416785"/>
+      <dbReference type="DOI" id="10.1074/jbc.m114.597815"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>CAUTION</scope>
+    <scope>MUTAGENESIS OF CYS-46; CYS-53 AND CYS-106</scope>
+    <scope>COFACTOR</scope>
+  </reference>
+  <reference key="36">
+    <citation type="journal article" date="2015" name="Proteomics" volume="15" first="2519" last="2524">
+      <title>N-terminome analysis of the human mitochondrial proteome.</title>
+      <authorList>
+        <person name="Vaca Jacome A.S."/>
+        <person name="Rabilloud T."/>
+        <person name="Schaeffer-Reiss C."/>
+        <person name="Rompais M."/>
+        <person name="Ayoub D."/>
+        <person name="Lane L."/>
+        <person name="Bairoch A."/>
+        <person name="Van Dorsselaer A."/>
+        <person name="Carapito C."/>
+      </authorList>
+      <dbReference type="PubMed" id="25944712"/>
+      <dbReference type="DOI" id="10.1002/pmic.201400617"/>
+    </citation>
+    <scope>ACETYLATION [LARGE SCALE ANALYSIS] AT ALA-2</scope>
+    <scope>CLEAVAGE OF INITIATOR METHIONINE [LARGE SCALE ANALYSIS]</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="37">
+    <citation type="journal article" date="2017" name="J. Biol. Chem." volume="292" first="685" last="690">
+      <title>Evidence against a role for the Parkinsonism-associated protein DJ-1 in methylglyoxal detoxification.</title>
+      <authorList>
+        <person name="Pfaff D.H."/>
+        <person name="Fleming T."/>
+        <person name="Nawroth P."/>
+        <person name="Teleman A.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="27903648"/>
+      <dbReference type="DOI" id="10.1074/jbc.m116.743823"/>
+    </citation>
+    <scope>CAUTION</scope>
+  </reference>
+  <reference key="38">
+    <citation type="journal article" date="2017" name="Biochem. Biophys. Res. Commun." volume="483" first="387" last="391">
+      <title>Parkinsonism-associated protein DJ-1 is a bona fide deglycase.</title>
+      <authorList>
+        <person name="Richarme G."/>
+        <person name="Dairou J."/>
+      </authorList>
+      <dbReference type="PubMed" id="28013050"/>
+      <dbReference type="DOI" id="10.1016/j.bbrc.2016.12.134"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CAUTION</scope>
+  </reference>
+  <reference key="39">
+    <citation type="journal article" date="2016" name="Biochem. Biophys. Res. Commun." volume="473" first="87" last="91">
+      <title>The Parkinsonism-associated protein DJ-1/Park7 prevents glycation damage in human keratinocyte.</title>
+      <authorList>
+        <person name="Advedissian T."/>
+        <person name="Deshayes F."/>
+        <person name="Poirier F."/>
+        <person name="Viguier M."/>
+        <person name="Richarme G."/>
+      </authorList>
+      <dbReference type="PubMed" id="26995087"/>
+      <dbReference type="DOI" id="10.1016/j.bbrc.2016.03.056"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>INDUCTION BY SULFORAPHANE</scope>
+  </reference>
+  <reference key="40">
+    <citation type="journal article" date="2017" name="Science" volume="357" first="208" last="211">
+      <title>Guanine glycation repair by DJ-1/Park7 and its bacterial homologs.</title>
+      <authorList>
+        <person name="Richarme G."/>
+        <person name="Liu C."/>
+        <person name="Mihoub M."/>
+        <person name="Abdallah J."/>
+        <person name="Leger T."/>
+        <person name="Joly N."/>
+        <person name="Liebart J.C."/>
+        <person name="Jurkunas U.V."/>
+        <person name="Nadal M."/>
+        <person name="Bouloc P."/>
+        <person name="Dairou J."/>
+        <person name="Lamouri A."/>
+      </authorList>
+      <dbReference type="PubMed" id="28596309"/>
+      <dbReference type="DOI" id="10.1126/science.aag1095"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>MUTAGENESIS OF CYS-106</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>CAUTION</scope>
+  </reference>
+  <reference key="41">
+    <citation type="journal article" date="2017" name="Sci. Rep." volume="7" first="12816" last="12816">
+      <title>Parkinson's disease-related DJ-1 functions in thiol quality control against aldehyde attack in vitro.</title>
+      <authorList>
+        <person name="Matsuda N."/>
+        <person name="Kimura M."/>
+        <person name="Queliconi B.B."/>
+        <person name="Kojima W."/>
+        <person name="Mishima M."/>
+        <person name="Takagi K."/>
+        <person name="Koyano F."/>
+        <person name="Yamano K."/>
+        <person name="Mizushima T."/>
+        <person name="Ito Y."/>
+        <person name="Tanaka K."/>
+      </authorList>
+      <dbReference type="PubMed" id="28993701"/>
+      <dbReference type="DOI" id="10.1038/s41598-017-13146-0"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>MUTAGENESIS OF LEU-10; GLU-18; CYS-106 AND ALA-179</scope>
+    <scope>CHARACTERIZATION OF VARIANTS PARK7 ILE-26; ASP-64; THR-104; ALA-149; LYS-163 AND PRO-166</scope>
+    <scope>CHARACTERIZATION OF VARIANT SER-39</scope>
+  </reference>
+  <reference key="42">
+    <citation type="journal article" date="2018" name="Proc. Natl. Acad. Sci. U.S.A." volume="115" first="9228" last="9233">
+      <title>Methylglyoxal-derived posttranslational arginine modifications are abundant histone marks.</title>
+      <authorList>
+        <person name="Galligan J.J."/>
+        <person name="Wepy J.A."/>
+        <person name="Streeter M.D."/>
+        <person name="Kingsley P.J."/>
+        <person name="Mitchener M.M."/>
+        <person name="Wauchope O.R."/>
+        <person name="Beavers W.N."/>
+        <person name="Rose K.L."/>
+        <person name="Wang T."/>
+        <person name="Spiegel D.A."/>
+        <person name="Marnett L.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="30150385"/>
+      <dbReference type="DOI" id="10.1073/pnas.1802901115"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="43">
+    <citation type="journal article" date="2019" name="IScience" volume="19" first="1114" last="1132">
+      <title>Rewiring of the Human Mitochondrial Interactome during Neuronal Reprogramming Reveals Regulators of the Respirasome and Neurogenesis.</title>
+      <authorList>
+        <person name="Moutaoufik M.T."/>
+        <person name="Malty R."/>
+        <person name="Amin S."/>
+        <person name="Zhang Q."/>
+        <person name="Phanse S."/>
+        <person name="Gagarinova A."/>
+        <person name="Zilocchi M."/>
+        <person name="Hoell L."/>
+        <person name="Minic Z."/>
+        <person name="Gagarinova M."/>
+        <person name="Aoki H."/>
+        <person name="Stockwell J."/>
+        <person name="Jessulat M."/>
+        <person name="Goebels F."/>
+        <person name="Broderick K."/>
+        <person name="Scott N.E."/>
+        <person name="Vlasblom J."/>
+        <person name="Musso G."/>
+        <person name="Prasad B."/>
+        <person name="Lamantea E."/>
+        <person name="Garavaglia B."/>
+        <person name="Rajput A."/>
+        <person name="Murayama K."/>
+        <person name="Okazaki Y."/>
+        <person name="Foster L.J."/>
+        <person name="Bader G.D."/>
+        <person name="Cayabyab F.S."/>
+        <person name="Babu M."/>
+      </authorList>
+      <dbReference type="PubMed" id="31536960"/>
+      <dbReference type="DOI" id="10.1016/j.isci.2019.08.057"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY</scope>
+    <scope>INTERACTION WITH NENF</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="44">
+    <citation type="journal article" date="2019" name="J. Biol. Chem." volume="294" first="18863" last="18872">
+      <title>The apparent deglycase activity of DJ-1 results from the conversion of free methylglyoxal present in fast equilibrium with hemithioacetals and hemiaminals.</title>
+      <authorList>
+        <person name="Andreeva A."/>
+        <person name="Bekkhozhin Z."/>
+        <person name="Omertassova N."/>
+        <person name="Baizhumanov T."/>
+        <person name="Yeltay G."/>
+        <person name="Akhmetali M."/>
+        <person name="Toibazar D."/>
+        <person name="Utepbergenov D."/>
+      </authorList>
+      <dbReference type="PubMed" id="31653696"/>
+      <dbReference type="DOI" id="10.1074/jbc.ra119.011237"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>CATALYTIC ACTIVITY</scope>
+    <scope>CAUTION</scope>
+    <scope>BIOPHYSICOCHEMICAL PROPERTIES</scope>
+    <scope>SUBUNIT</scope>
+  </reference>
+  <reference key="45">
+    <citation type="journal article" date="2019" name="Nat. Commun." volume="10" first="1289" last="1289">
+      <title>Reversible histone glycation is associated with disease-related changes in chromatin architecture.</title>
+      <authorList>
+        <person name="Zheng Q."/>
+        <person name="Omans N.D."/>
+        <person name="Leicher R."/>
+        <person name="Osunsade A."/>
+        <person name="Agustinus A.S."/>
+        <person name="Finkin-Groner E."/>
+        <person name="D'Ambrosio H."/>
+        <person name="Liu B."/>
+        <person name="Chandarlapaty S."/>
+        <person name="Liu S."/>
+        <person name="David Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="30894531"/>
+      <dbReference type="DOI" id="10.1038/s41467-019-09192-z"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>MUTAGENESIS OF CYS-106</scope>
+  </reference>
+  <reference key="46">
+    <citation type="journal article" date="2003" name="FEBS Lett." volume="549" first="171" last="175">
+      <title>Crystal structure of DJ-1/RS and implication on familial Parkinson's disease.</title>
+      <authorList>
+        <person name="Huai Q."/>
+        <person name="Sun Y."/>
+        <person name="Wang H."/>
+        <person name="Chin L.-S."/>
+        <person name="Li L."/>
+        <person name="Robinson H."/>
+        <person name="Ke H."/>
+      </authorList>
+      <dbReference type="PubMed" id="12914946"/>
+      <dbReference type="DOI" id="10.1016/s0014-5793(03)00764-6"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.6 ANGSTROMS)</scope>
+    <scope>HOMODIMERIZATION</scope>
+  </reference>
+  <reference key="47">
+    <citation type="journal article" date="2003" name="J. Biol. Chem." volume="278" first="31372" last="31379">
+      <title>Crystal structure of human DJ-1, a protein associated with early onset Parkinson's disease.</title>
+      <authorList>
+        <person name="Tao X."/>
+        <person name="Tong L."/>
+      </authorList>
+      <dbReference type="PubMed" id="12761214"/>
+      <dbReference type="DOI" id="10.1074/jbc.m304221200"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS) OF WILD-TYPE AND MUTANT ARG-130</scope>
+    <scope>HOMODIMERIZATION</scope>
+  </reference>
+  <reference key="48">
+    <citation type="journal article" date="2003" name="J. Biol. Chem." volume="278" first="31380" last="31384">
+      <title>The crystal structure of DJ-1, a protein related to male fertility and Parkinson's disease.</title>
+      <authorList>
+        <person name="Honbou K."/>
+        <person name="Suzuki N.N."/>
+        <person name="Horiuchi M."/>
+        <person name="Niki T."/>
+        <person name="Taira T."/>
+        <person name="Ariga H."/>
+        <person name="Inagaki F."/>
+      </authorList>
+      <dbReference type="PubMed" id="12796482"/>
+      <dbReference type="DOI" id="10.1074/jbc.m305878200"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.95 ANGSTROMS)</scope>
+    <scope>HOMODIMERIZATION</scope>
+  </reference>
+  <reference key="49">
+    <citation type="journal article" date="2003" name="J. Biol. Chem." volume="278" first="44552" last="44559">
+      <title>Crystal structures of human DJ-1 and Escherichia coli Hsp31, which share an evolutionarily conserved domain.</title>
+      <authorList>
+        <person name="Lee S.-J."/>
+        <person name="Kim S.J."/>
+        <person name="Kim I.-K."/>
+        <person name="Ko J."/>
+        <person name="Jeong C.-S."/>
+        <person name="Kim G.-H."/>
+        <person name="Park C."/>
+        <person name="Kang S.-O."/>
+        <person name="Suh P.-G."/>
+        <person name="Lee H.-S."/>
+        <person name="Cha S.-S."/>
+      </authorList>
+      <dbReference type="PubMed" id="12939276"/>
+      <dbReference type="DOI" id="10.1074/jbc.m304517200"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (2.5 ANGSTROMS)</scope>
+    <scope>FUNCTION</scope>
+    <scope>OXIDATION AT CYS-106</scope>
+    <scope>HOMODIMERIZATION</scope>
+  </reference>
+  <reference key="50">
+    <citation type="journal article" date="2003" name="Proc. Natl. Acad. Sci. U.S.A." volume="100" first="9256" last="9261">
+      <title>The 1.1-A resolution crystal structure of DJ-1, the protein mutated in autosomal recessive early onset Parkinson's disease.</title>
+      <authorList>
+        <person name="Wilson M.A."/>
+        <person name="Collins J.L."/>
+        <person name="Hod Y."/>
+        <person name="Ringe D."/>
+        <person name="Petsko G.A."/>
+      </authorList>
+      <dbReference type="PubMed" id="12855764"/>
+      <dbReference type="DOI" id="10.1073/pnas.1133288100"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.1 ANGSTROMS)</scope>
+    <scope>HOMODIMERIZATION</scope>
+    <scope>OXIDATION</scope>
+    <scope>LACK OF PROTEOLYTIC ACTIVITY</scope>
+  </reference>
+  <reference key="51">
+    <citation type="journal article" date="2004" name="Proc. Natl. Acad. Sci. U.S.A." volume="101" first="9103" last="9108">
+      <title>The Parkinson's disease protein DJ-1 is neuroprotective due to cysteine-sulfinic acid-driven mitochondrial localization.</title>
+      <authorList>
+        <person name="Canet-Aviles R.M."/>
+        <person name="Wilson M.A."/>
+        <person name="Miller D.W."/>
+        <person name="Ahmad R."/>
+        <person name="McLendon C."/>
+        <person name="Bandyopadhyay S."/>
+        <person name="Baptista M.J."/>
+        <person name="Ringe D."/>
+        <person name="Petsko G.A."/>
+        <person name="Cookson M.R."/>
+      </authorList>
+      <dbReference type="PubMed" id="15181200"/>
+      <dbReference type="DOI" id="10.1073/pnas.0402959101"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.2 ANGSTROMS)</scope>
+    <scope>MUTAGENESIS OF CYS-46; CYS-53 AND CYS-106</scope>
+    <scope>OXIDATION</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="52">
+    <citation type="journal article" date="2003" name="Ann. Neurol." volume="54" first="283" last="286">
+      <title>The role of pathogenic DJ-1 mutations in Parkinson's disease.</title>
+      <authorList>
+        <person name="Abou-Sleiman P.M."/>
+        <person name="Healy D.G."/>
+        <person name="Quinn N."/>
+        <person name="Lees A.J."/>
+        <person name="Wood N.W."/>
+      </authorList>
+      <dbReference type="PubMed" id="12953260"/>
+      <dbReference type="DOI" id="10.1002/ana.10675"/>
+    </citation>
+    <scope>VARIANTS PARK7 ILE-26 AND ALA-149</scope>
+    <scope>VARIANT GLN-98</scope>
+  </reference>
+  <reference key="53">
+    <citation type="journal article" date="2003" name="Science" volume="299" first="256" last="259">
+      <title>Mutations in the DJ-1 gene associated with autosomal recessive early-onset Parkinsonism.</title>
+      <authorList>
+        <person name="Bonifati V."/>
+        <person name="Rizzu P."/>
+        <person name="van Baren M.J."/>
+        <person name="Schaap O."/>
+        <person name="Breedveld G.J."/>
+        <person name="Krieger E."/>
+        <person name="Dekker M.C.J."/>
+        <person name="Squitieri F."/>
+        <person name="Ibanez P."/>
+        <person name="Joosse M."/>
+        <person name="van Dongen J.W."/>
+        <person name="Vanacore N."/>
+        <person name="van Swieten J.C."/>
+        <person name="Brice A."/>
+        <person name="Meco G."/>
+        <person name="van Duijn C.M."/>
+        <person name="Oostra B.A."/>
+        <person name="Heutink P."/>
+      </authorList>
+      <dbReference type="PubMed" id="12446870"/>
+      <dbReference type="DOI" id="10.1126/science.1077209"/>
+    </citation>
+    <scope>VARIANT PARK7 PRO-166</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="54">
+    <citation type="journal article" date="2004" name="Ann. Neurol." volume="55" first="145" last="146">
+      <title>The R98Q variation in DJ-1 represents a rare polymorphism.</title>
+      <authorList>
+        <person name="Hedrich K."/>
+        <person name="Schaefer N."/>
+        <person name="Hering R."/>
+        <person name="Hagenah J."/>
+        <person name="Lanthaler A.J."/>
+        <person name="Schwinger E."/>
+        <person name="Kramer P.L."/>
+        <person name="Ozelius L.J."/>
+        <person name="Bressman S.B."/>
+        <person name="Abbruzzese G."/>
+        <person name="Martinelli P."/>
+        <person name="Kostic V."/>
+        <person name="Pramstaller P.P."/>
+        <person name="Vieregge P."/>
+        <person name="Riess O."/>
+        <person name="Klein C."/>
+      </authorList>
+      <dbReference type="PubMed" id="14705128"/>
+      <dbReference type="DOI" id="10.1002/ana.10816"/>
+    </citation>
+    <scope>VARIANT GLN-98</scope>
+  </reference>
+  <reference key="55">
+    <citation type="journal article" date="2004" name="Hum. Mutat." volume="24" first="321" last="329">
+      <title>Novel homozygous p.E64D mutation in DJ1 in early onset Parkinson disease (PARK7).</title>
+      <authorList>
+        <person name="Hering R."/>
+        <person name="Strauss K.M."/>
+        <person name="Tao X."/>
+        <person name="Bauer A."/>
+        <person name="Woitalla D."/>
+        <person name="Mietz E.M."/>
+        <person name="Petrovic S."/>
+        <person name="Bauer P."/>
+        <person name="Schaible W."/>
+        <person name="Mueller T."/>
+        <person name="Schoels L."/>
+        <person name="Klein C."/>
+        <person name="Berg D."/>
+        <person name="Meyer P.T."/>
+        <person name="Schulz J.B."/>
+        <person name="Wollnik B."/>
+        <person name="Tong L."/>
+        <person name="Krueger R."/>
+        <person name="Riess O."/>
+      </authorList>
+      <dbReference type="PubMed" id="15365989"/>
+      <dbReference type="DOI" id="10.1002/humu.20089"/>
+    </citation>
+    <scope>VARIANT PARK7 ASP-64</scope>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.8 ANGSTROMS)</scope>
+  </reference>
+  <reference key="56">
+    <citation type="journal article" date="2004" name="J. Biol. Chem." volume="279" first="6943" last="6951">
+      <title>Differential effects of Parkinson's disease-associated mutations on stability and folding of DJ-1.</title>
+      <authorList>
+        <person name="Goerner K."/>
+        <person name="Holtorf E."/>
+        <person name="Odoy S."/>
+        <person name="Nuscher B."/>
+        <person name="Yamamoto A."/>
+        <person name="Regula J.T."/>
+        <person name="Beyer K."/>
+        <person name="Haass C."/>
+        <person name="Kahle P.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="14607841"/>
+      <dbReference type="DOI" id="10.1074/jbc.m309204200"/>
+    </citation>
+    <scope>CHARACTERIZATION OF VARIANTS PARK7 ASP-64 AND PRO-166</scope>
+  </reference>
+  <reference key="57">
+    <citation type="journal article" date="2004" name="Mov. Disord." volume="19" first="796" last="800">
+      <title>Analysis of an early-onset Parkinson's disease cohort for DJ-1 mutations.</title>
+      <authorList>
+        <person name="Clark L.N."/>
+        <person name="Afridi S."/>
+        <person name="Mejia-Santana H."/>
+        <person name="Harris J."/>
+        <person name="Louis E.D."/>
+        <person name="Cote L.J."/>
+        <person name="Andrews H."/>
+        <person name="Singleton A."/>
+        <person name="Wavrant De-Vrieze F."/>
+        <person name="Hardy J."/>
+        <person name="Mayeux R."/>
+        <person name="Fahn S."/>
+        <person name="Waters C."/>
+        <person name="Ford B."/>
+        <person name="Frucht S."/>
+        <person name="Ottman R."/>
+        <person name="Marder K."/>
+      </authorList>
+      <dbReference type="PubMed" id="15254937"/>
+      <dbReference type="DOI" id="10.1002/mds.20131"/>
+    </citation>
+    <scope>VARIANT PARK7 THR-104</scope>
+    <scope>VARIANTS GLN-98 AND SER-171</scope>
+  </reference>
+  <reference key="58">
+    <citation type="journal article" date="2004" name="Neurology" volume="62" first="389" last="394">
+      <title>DJ-1 (PARK7) mutations are less frequent than Parkin (PARK2) mutations in early-onset Parkinson disease.</title>
+      <authorList>
+        <person name="Hedrich K."/>
+        <person name="Djarmati A."/>
+        <person name="Schafer N."/>
+        <person name="Hering R."/>
+        <person name="Wellenbrock C."/>
+        <person name="Weiss P.H."/>
+        <person name="Hilker R."/>
+        <person name="Vieregge P."/>
+        <person name="Ozelius L.J."/>
+        <person name="Heutink P."/>
+        <person name="Bonifati V."/>
+        <person name="Schwinger E."/>
+        <person name="Lang A.E."/>
+        <person name="Noth J."/>
+        <person name="Bressman S.B."/>
+        <person name="Pramstaller P.P."/>
+        <person name="Riess O."/>
+        <person name="Klein C."/>
+      </authorList>
+      <dbReference type="PubMed" id="14872018"/>
+      <dbReference type="DOI" id="10.1212/01.wnl.0000113022.51739.88"/>
+    </citation>
+    <scope>VARIANT GLN-98</scope>
+  </reference>
+  <reference key="59">
+    <citation type="journal article" date="2005" name="Ann. Neurol." volume="58" first="803" last="807">
+      <title>DJ-1 mutations and parkinsonism-dementia-amyotrophic lateral sclerosis complex.</title>
+      <authorList>
+        <person name="Annesi G."/>
+        <person name="Savettieri G."/>
+        <person name="Pugliese P."/>
+        <person name="D'Amelio M."/>
+        <person name="Tarantino P."/>
+        <person name="Ragonese P."/>
+        <person name="La Bella V."/>
+        <person name="Piccoli T."/>
+        <person name="Civitelli D."/>
+        <person name="Annesi F."/>
+        <person name="Fierro B."/>
+        <person name="Piccoli F."/>
+        <person name="Arabia G."/>
+        <person name="Caracciolo M."/>
+        <person name="Ciro Candiano I.C."/>
+        <person name="Quattrone A."/>
+      </authorList>
+      <dbReference type="PubMed" id="16240358"/>
+      <dbReference type="DOI" id="10.1002/ana.20666"/>
+    </citation>
+    <scope>VARIANT PARK7 LYS-163</scope>
+  </reference>
+  <reference key="60">
+    <citation type="journal article" date="2006" name="Hum. Mol. Genet." volume="15" first="1816" last="1825">
+      <title>Association of PINK1 and DJ-1 confers digenic inheritance of early-onset Parkinson's disease.</title>
+      <authorList>
+        <person name="Tang B."/>
+        <person name="Xiong H."/>
+        <person name="Sun P."/>
+        <person name="Zhang Y."/>
+        <person name="Wang D."/>
+        <person name="Hu Z."/>
+        <person name="Zhu Z."/>
+        <person name="Ma H."/>
+        <person name="Pan Q."/>
+        <person name="Xia J.-H."/>
+        <person name="Xia K."/>
+        <person name="Zhang Z."/>
+      </authorList>
+      <dbReference type="PubMed" id="16632486"/>
+      <dbReference type="DOI" id="10.1093/hmg/ddl104"/>
+    </citation>
+    <scope>VARIANT SER-39</scope>
+  </reference>
+  <reference key="61">
+    <citation type="journal article" date="2007" name="J. Cell Biol." volume="178" first="1025" last="1038">
+      <title>Parkin-mediated K63-linked polyubiquitination targets misfolded DJ-1 to aggresomes via binding to HDAC6.</title>
+      <authorList>
+        <person name="Olzmann J.A."/>
+        <person name="Li L."/>
+        <person name="Chudaev M.V."/>
+        <person name="Chen J."/>
+        <person name="Perez F.A."/>
+        <person name="Palmiter R.D."/>
+        <person name="Chin L.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="17846173"/>
+      <dbReference type="DOI" id="10.1083/jcb.200611128"/>
+    </citation>
+    <scope>CHARACTERIZATION OF VARIANT PARK7 PRO-166</scope>
+  </reference>
+  <reference key="62">
+    <citation type="journal article" date="2008" name="Mov. Disord." volume="23" first="2074" last="2079">
+      <title>Mutation analysis of Parkin, PINK1, DJ-1 and ATP13A2 genes in Chinese patients with autosomal recessive early-onset Parkinsonism.</title>
+      <authorList>
+        <person name="Guo J.F."/>
+        <person name="Xiao B."/>
+        <person name="Liao B."/>
+        <person name="Zhang X.W."/>
+        <person name="Nie L.L."/>
+        <person name="Zhang Y.H."/>
+        <person name="Shen L."/>
+        <person name="Jiang H."/>
+        <person name="Xia K."/>
+        <person name="Pan Q."/>
+        <person name="Yan X.X."/>
+        <person name="Tang B.S."/>
+      </authorList>
+      <dbReference type="PubMed" id="18785233"/>
+      <dbReference type="DOI" id="10.1002/mds.22156"/>
+    </citation>
+    <scope>VARIANT PARK7 PRO-10</scope>
+  </reference>
+  <reference key="63">
+    <citation type="journal article" date="2010" name="PLoS ONE" volume="5" first="E9367" last="E9367">
+      <title>Reduced basal autophagy and impaired mitochondrial dynamics due to loss of Parkinson's disease-associated protein DJ-1.</title>
+      <authorList>
+        <person name="Krebiehl G."/>
+        <person name="Ruckerbauer S."/>
+        <person name="Burbulla L.F."/>
+        <person name="Kieper N."/>
+        <person name="Maurer B."/>
+        <person name="Waak J."/>
+        <person name="Wolburg H."/>
+        <person name="Gizatullina Z."/>
+        <person name="Gellerich F.N."/>
+        <person name="Woitalla D."/>
+        <person name="Riess O."/>
+        <person name="Kahle P.J."/>
+        <person name="Proikas-Cezanne T."/>
+        <person name="Kruger R."/>
+      </authorList>
+      <dbReference type="PubMed" id="20186336"/>
+      <dbReference type="DOI" id="10.1371/journal.pone.0009367"/>
+    </citation>
+    <scope>VARIANT ASP-64</scope>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="64">
+    <citation type="journal article" date="2016" name="Parkinsonism Relat. Disord." volume="29" first="117" last="120">
+      <title>A novel homozygous DJ1 mutation causes parkinsonism and ALS in a Turkish family.</title>
+      <authorList>
+        <person name="Hanagasi H.A."/>
+        <person name="Giri A."/>
+        <person name="Kartal E."/>
+        <person name="Guven G."/>
+        <person name="Bilgic B."/>
+        <person name="Hauser A.K."/>
+        <person name="Emre M."/>
+        <person name="Heutink P."/>
+        <person name="Basak N."/>
+        <person name="Gasser T."/>
+        <person name="Simon-Sanchez J."/>
+        <person name="Lohmann E."/>
+      </authorList>
+      <dbReference type="PubMed" id="26972524"/>
+      <dbReference type="DOI" id="10.1016/j.parkreldis.2016.03.001"/>
+    </citation>
+    <scope>VARIANT PARK7 GLN-45 DEL</scope>
+  </reference>
+  <reference key="65">
+    <citation type="journal article" date="2019" name="Parkinsonism Relat. Disord." volume="64" first="308" last="311">
+      <title>Familial early onset Parkinson's disease caused by a homozygous frameshift variant in PARK7: Clinical features and literature update.</title>
+      <authorList>
+        <person name="Stephenson S.E."/>
+        <person name="Djaldetti R."/>
+        <person name="Rafehi H."/>
+        <person name="Wilson G.R."/>
+        <person name="Gillies G."/>
+        <person name="Bahlo M."/>
+        <person name="Lockhart P.J."/>
+      </authorList>
+      <dbReference type="PubMed" id="30928208"/>
+      <dbReference type="DOI" id="10.1016/j.parkreldis.2019.03.013"/>
+    </citation>
+    <scope>INVOLVEMENT IN PARK7</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="2 3 5 8 9 17 19 22 23 25 27 29 30 32 33 34 35 36 38 39 40 42 44 45 46 47 48 52">Multifunctional protein with controversial molecular function which plays an important role in cell protection against oxidative stress and cell death acting as oxidative stress sensor and redox-sensitive chaperone and protease (PubMed:12796482, PubMed:17015834, PubMed:18711745, PubMed:19229105, PubMed:20304780, PubMed:25416785, PubMed:26995087, PubMed:28993701). It is involved in neuroprotective mechanisms like the stabilization of NFE2L2 and PINK1 proteins, male fertility as a positive regulator of androgen signaling pathway as well as cell growth and transformation through, for instance, the modulation of NF-kappa-B signaling pathway (PubMed:12612053, PubMed:14749723, PubMed:15502874, PubMed:17015834, PubMed:18711745, PubMed:21097510). Has been described as a protein and nucleotide deglycase that catalyzes the deglycation of the Maillard adducts formed between amino groups of proteins or nucleotides and reactive carbonyl groups of glyoxals (PubMed:25416785, PubMed:28596309). But this function is rebuted by other works (PubMed:27903648, PubMed:31653696). As a protein deglycase, repairs methylglyoxal- and glyoxal-glycated proteins, and releases repaired proteins and lactate or glycolate, respectively. Deglycates cysteine, arginine and lysine residues in proteins, and thus reactivates these proteins by reversing glycation by glyoxals. Acts on early glycation intermediates (hemithioacetals and aminocarbinols), preventing the formation of advanced glycation endproducts (AGE) that cause irreversible damage (PubMed:25416785, PubMed:26995087, PubMed:28013050). Also functions as a nucleotide deglycase able to repair glycated guanine in the free nucleotide pool (GTP, GDP, GMP, dGTP) and in DNA and RNA. Is thus involved in a major nucleotide repair system named guanine glycation repair (GG repair), dedicated to reversing methylglyoxal and glyoxal damage via nucleotide sanitization and direct nucleic acid repair (PubMed:28596309). Protects histones from adduction by methylglyoxal, controls the levels of methylglyoxal-derived argininine modifications on chromatin (PubMed:30150385). Able to remove the glycations and restore histone 3, histone glycation disrupts both local and global chromatin architecture by altering histone-DNA interactions as well as histone acetylation and ubiquitination levels (PubMed:30150385, PubMed:30894531). Displays a very low glyoxalase activity that may reflect its deglycase activity (PubMed:22523093, PubMed:28993701, PubMed:31653696). Eliminates hydrogen peroxide and protects cells against hydrogen peroxide-induced cell death (PubMed:16390825). Required for correct mitochondrial morphology and function as well as for autophagy of dysfunctional mitochondria (PubMed:16632486, PubMed:19229105). Plays a role in regulating expression or stability of the mitochondrial uncoupling proteins SLC25A14 and SLC25A27 in dopaminergic neurons of the substantia nigra pars compacta and attenuates the oxidative stress induced by calcium entry into the neurons via L-type channels during pacemaking (PubMed:18711745). Regulates astrocyte inflammatory responses, may modulate lipid rafts-dependent endocytosis in astrocytes and neuronal cells (PubMed:23847046). In pancreatic islets, involved in the maintenance of mitochondrial reactive oxygen species (ROS) levels and glucose homeostasis in an age- and diet dependent manner. Protects pancreatic beta cells from cell death induced by inflammatory and cytotoxic setting (By similarity). Binds to a number of mRNAs containing multiple copies of GG or CC motifs and partially inhibits their translation but dissociates following oxidative stress (PubMed:18626009). Metal-binding protein able to bind copper as well as toxic mercury ions, enhances the cell protection mechanism against induced metal toxicity (PubMed:23792957). In macrophages, interacts with the NADPH oxidase subunit NCF1 to direct NADPH oxidase-dependent ROS production, and protects against sepsis (By similarity).</text>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="40">
+      <text>H2O + N(omega)-(1-hydroxy-2-oxopropyl)-L-arginyl-[protein] = H(+) + L-arginyl-[protein] + lactate</text>
+      <dbReference type="Rhea" id="RHEA:49548"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10532"/>
+      <dbReference type="Rhea" id="RHEA-COMP:12428"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:24996"/>
+      <dbReference type="ChEBI" id="CHEBI:29965"/>
+      <dbReference type="ChEBI" id="CHEBI:131708"/>
+      <dbReference type="EC" id="3.5.1.124"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="40">
+      <text>H2O + N(6)-(1-hydroxy-2-oxopropyl)-L-lysyl-[protein] = H(+) + L-lysyl-[protein] + lactate</text>
+      <dbReference type="Rhea" id="RHEA:49552"/>
+      <dbReference type="Rhea" id="RHEA-COMP:9752"/>
+      <dbReference type="Rhea" id="RHEA-COMP:12429"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:24996"/>
+      <dbReference type="ChEBI" id="CHEBI:29969"/>
+      <dbReference type="ChEBI" id="CHEBI:131709"/>
+      <dbReference type="EC" id="3.5.1.124"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="40">
+      <text>H2O + S-(1-hydroxy-2-oxopropyl)-L-cysteinyl-[protein] = H(+) + L-cysteinyl-[protein] + lactate</text>
+      <dbReference type="Rhea" id="RHEA:49556"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10131"/>
+      <dbReference type="Rhea" id="RHEA-COMP:12430"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:24996"/>
+      <dbReference type="ChEBI" id="CHEBI:29950"/>
+      <dbReference type="ChEBI" id="CHEBI:131710"/>
+      <dbReference type="EC" id="3.5.1.124"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="40">
+      <text>H2O + N(omega)-(1-hydroxy-2-oxoethyl)-L-arginyl-[protein] = glycolate + H(+) + L-arginyl-[protein]</text>
+      <dbReference type="Rhea" id="RHEA:57188"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10532"/>
+      <dbReference type="Rhea" id="RHEA-COMP:14844"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:29805"/>
+      <dbReference type="ChEBI" id="CHEBI:29965"/>
+      <dbReference type="ChEBI" id="CHEBI:141553"/>
+      <dbReference type="EC" id="3.5.1.124"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="40">
+      <text>H2O + N(6)-(1-hydroxy-2-oxoethyl)-L-lysyl-[protein] = glycolate + H(+) + L-lysyl-[protein]</text>
+      <dbReference type="Rhea" id="RHEA:57192"/>
+      <dbReference type="Rhea" id="RHEA-COMP:9752"/>
+      <dbReference type="Rhea" id="RHEA-COMP:14845"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:29805"/>
+      <dbReference type="ChEBI" id="CHEBI:29969"/>
+      <dbReference type="ChEBI" id="CHEBI:141554"/>
+      <dbReference type="EC" id="3.5.1.124"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="40">
+      <text>H2O + S-(1-hydroxy-2-oxoethyl)-L-cysteinyl-[protein] = glycolate + H(+) + L-cysteinyl-[protein]</text>
+      <dbReference type="Rhea" id="RHEA:57196"/>
+      <dbReference type="Rhea" id="RHEA-COMP:10131"/>
+      <dbReference type="Rhea" id="RHEA-COMP:14846"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:29805"/>
+      <dbReference type="ChEBI" id="CHEBI:29950"/>
+      <dbReference type="ChEBI" id="CHEBI:141555"/>
+      <dbReference type="EC" id="3.5.1.124"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="45">
+      <text>H2O + N(2)-(1-hydroxy-2-oxopropyl)-dGTP = dGTP + H(+) + lactate</text>
+      <dbReference type="Rhea" id="RHEA:57244"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:24996"/>
+      <dbReference type="ChEBI" id="CHEBI:61429"/>
+      <dbReference type="ChEBI" id="CHEBI:141569"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="45">
+      <text>H2O + N(2)-(1-hydroxy-2-oxopropyl)-GTP = GTP + H(+) + lactate</text>
+      <dbReference type="Rhea" id="RHEA:57256"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:24996"/>
+      <dbReference type="ChEBI" id="CHEBI:37565"/>
+      <dbReference type="ChEBI" id="CHEBI:141570"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="45">
+      <text>H2O + N(2)-(1-hydroxy-2-oxopropyl)-GDP = GDP + H(+) + lactate</text>
+      <dbReference type="Rhea" id="RHEA:57260"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:24996"/>
+      <dbReference type="ChEBI" id="CHEBI:58189"/>
+      <dbReference type="ChEBI" id="CHEBI:141573"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="45">
+      <text>H2O + N(2)-(1-hydroxy-2-oxopropyl)-GMP = GMP + H(+) + lactate</text>
+      <dbReference type="Rhea" id="RHEA:57268"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:24996"/>
+      <dbReference type="ChEBI" id="CHEBI:58115"/>
+      <dbReference type="ChEBI" id="CHEBI:141575"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="58">
+      <text>H2O + N(2)-(1-hydroxy-2-oxoethyl)-dGTP = dGTP + glycolate + H(+)</text>
+      <dbReference type="Rhea" id="RHEA:57248"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:29805"/>
+      <dbReference type="ChEBI" id="CHEBI:61429"/>
+      <dbReference type="ChEBI" id="CHEBI:141572"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="45">
+      <text>H2O + N(2)-(1-hydroxy-2-oxoethyl)-GTP = glycolate + GTP + H(+)</text>
+      <dbReference type="Rhea" id="RHEA:57252"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:29805"/>
+      <dbReference type="ChEBI" id="CHEBI:37565"/>
+      <dbReference type="ChEBI" id="CHEBI:141571"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="58">
+      <text>H2O + N(2)-(1-hydroxy-2-oxoethyl)-GDP = GDP + glycolate + H(+)</text>
+      <dbReference type="Rhea" id="RHEA:57264"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:29805"/>
+      <dbReference type="ChEBI" id="CHEBI:58189"/>
+      <dbReference type="ChEBI" id="CHEBI:141574"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="58">
+      <text>H2O + N(2)-(1-hydroxy-2-oxoethyl)-GMP = glycolate + GMP + H(+)</text>
+      <dbReference type="Rhea" id="RHEA:57304"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:29805"/>
+      <dbReference type="ChEBI" id="CHEBI:58115"/>
+      <dbReference type="ChEBI" id="CHEBI:141576"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="45">
+      <text>an N(2)-(1-hydroxy-2-oxopropyl)-guanosine in RNA + H2O = a guanosine in RNA + H(+) + lactate</text>
+      <dbReference type="Rhea" id="RHEA:57288"/>
+      <dbReference type="Rhea" id="RHEA-COMP:14855"/>
+      <dbReference type="Rhea" id="RHEA-COMP:14858"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:24996"/>
+      <dbReference type="ChEBI" id="CHEBI:74269"/>
+      <dbReference type="ChEBI" id="CHEBI:141580"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="45">
+      <text>an N(2)-(1-hydroxy-2-oxopropyl)-2'-deoxyguanosine in DNA + H2O = a 2'-deoxyguanosine in DNA + H(+) + lactate</text>
+      <dbReference type="Rhea" id="RHEA:57300"/>
+      <dbReference type="Rhea" id="RHEA-COMP:11367"/>
+      <dbReference type="Rhea" id="RHEA-COMP:14856"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:24996"/>
+      <dbReference type="ChEBI" id="CHEBI:85445"/>
+      <dbReference type="ChEBI" id="CHEBI:141578"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="58">
+      <text>an N(2)-(1-hydroxy-2-oxoethyl)-guanosine in RNA + H2O = a guanosine in RNA + glycolate + H(+)</text>
+      <dbReference type="Rhea" id="RHEA:57292"/>
+      <dbReference type="Rhea" id="RHEA-COMP:14855"/>
+      <dbReference type="Rhea" id="RHEA-COMP:14859"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:29805"/>
+      <dbReference type="ChEBI" id="CHEBI:74269"/>
+      <dbReference type="ChEBI" id="CHEBI:141581"/>
+    </reaction>
+  </comment>
+  <comment type="catalytic activity">
+    <reaction evidence="58">
+      <text>an N(2)-(1-hydroxy-2-oxoethyl)-2'-deoxyguanosine in DNA + H2O = a 2'-deoxyguanosine in DNA + glycolate + H(+)</text>
+      <dbReference type="Rhea" id="RHEA:57296"/>
+      <dbReference type="Rhea" id="RHEA-COMP:11367"/>
+      <dbReference type="Rhea" id="RHEA-COMP:14857"/>
+      <dbReference type="ChEBI" id="CHEBI:15377"/>
+      <dbReference type="ChEBI" id="CHEBI:15378"/>
+      <dbReference type="ChEBI" id="CHEBI:29805"/>
+      <dbReference type="ChEBI" id="CHEBI:85445"/>
+      <dbReference type="ChEBI" id="CHEBI:141579"/>
+    </reaction>
+  </comment>
+  <comment type="cofactor">
+    <text evidence="40 46">Deglycase activity does not require glutathione as a cofactor, however, glycated glutathione constitutes a PARK7 substrate.</text>
+  </comment>
+  <comment type="biophysicochemical properties">
+    <kinetics>
+      <KM evidence="34">173.4 uM for casein</KM>
+      <KM evidence="40">0.44 mM for glycated N-acetylarginine (at pH 7.0 and 22 degrees Celsius)</KM>
+      <KM evidence="40">0.35 mM for glycated N-acetyllysine (at pH 7.0 and 22 degrees Celsius)</KM>
+      <KM evidence="40">0.32 mM for glycated N-acetylcysteine (at pH 7.0 and 22 degrees Celsius)</KM>
+      <text evidence="40 51">kcat is 0.27 sec(-1) for the deglycation of glycated N-acetylarginine. kcat is 0.28 sec(-1) for the deglycation of glycated N-acetyllysine. kcat is 0.42 sec(-1) for the deglycation of glycated N-acetylcysteine. kcat is 0.02 sec(-1) for glyoxalase activity (PubMed:31653696).</text>
+    </kinetics>
+  </comment>
+  <comment type="subunit">
+    <text evidence="2 3 5 6 7 8 25 35 50 51">Homodimer (PubMed:12796482, PubMed:12851414, PubMed:12855764, PubMed:31653696). Binds EFCAB6/DJBP and PIAS2 (PubMed:11477070, PubMed:12612053, PubMed:12851414). Part of a ternary complex containing PARK7, EFCAB6/DJBP and AR (PubMed:12612053). Interacts (via N-terminus) with OTUD7B (PubMed:21097510). Interacts with BBS1, HIPK1, CLCF1 and MTERF (PubMed:16390825, PubMed:21097510). Forms a complex with PINK1 and PRKN (PubMed:19229105). Interacts (via C-terminus) with NCF1; the interaction is enhanced by LPS and modulates NCF1 phosphorylation and membrane translocation (By similarity). Interacts with NENF (PubMed:31536960).</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-640741">
+      <id>P01023</id>
+      <label>A2M</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-11529439">
+      <id>P63010-2</id>
+      <label>AP2B1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-77613">
+      <id>P05067</id>
+      <label>APP</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-608057">
+      <id>P10275</id>
+      <label>AR</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-1805484">
+      <id>Q8NFJ9</id>
+      <label>BBS1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-25850646">
+      <id>Q8N5S9-2</id>
+      <label>CAMKK1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-77321">
+      <id>Q9UER7</id>
+      <label>DAXX</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-10968534">
+      <id>P50570-2</id>
+      <label>DNM2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-494804">
+      <id>Q13158</id>
+      <label>FADD</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>9</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-10691738">
+      <id>P06241-3</id>
+      <label>FYN</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-349832">
+      <id>Q9HD26</id>
+      <label>GOPC</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-466029">
+      <id>P42858</id>
+      <label>HTT</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>6</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-21911304">
+      <id>Q6DN90-2</id>
+      <label>IQSEC1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-1044640">
+      <id>Q9BYQ4</id>
+      <label>KRTAP9-2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-1108377">
+      <id>Q9BYZ2</id>
+      <label>LDHAL6B</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-1783035">
+      <id>O94776</id>
+      <label>MTA2</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-1059321">
+      <id>Q8NFH3</id>
+      <label>NUP43</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-1058491">
+      <id>Q96FW1</id>
+      <label>OTUB1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-527784">
+      <id>Q6GQQ9</id>
+      <label>OTUD7B</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+      <label>PARK7</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-848624">
+      <id>P32322</id>
+      <label>PYCR1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>5</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-296739">
+      <id>P63244</id>
+      <label>RACK1</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>4</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-21535400">
+      <id>Q6ZNA4-2</id>
+      <label>RNF111</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-25829984">
+      <id>Q9ULX5</id>
+      <label>RNF112</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-358545">
+      <id>Q9GZS3</id>
+      <label>SKIC8</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-2510414">
+      <id>Q8IUW3</id>
+      <label>SPATA2L</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-25847109">
+      <id>O14656-2</id>
+      <label>TOR1A</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-1164361">
+      <id>Q99497</id>
+    </interactant>
+    <interactant intactId="EBI-11141397">
+      <id>Q9UBQ0-2</id>
+      <label>VPS29</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>3</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="2">Cell membrane</location>
+      <topology evidence="2">Lipid-anchor</topology>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="7 11 23 32 45">Cytoplasm</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="7 11 23 25 45">Nucleus</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="1">Membrane raft</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="19 30 32 50">Mitochondrion</location>
+    </subcellularLocation>
+    <subcellularLocation>
+      <location evidence="50">Endoplasmic reticulum</location>
+    </subcellularLocation>
+    <text evidence="14 30">Under normal conditions, located predominantly in the cytoplasm and, to a lesser extent, in the nucleus and mitochondrion. Translocates to the mitochondrion and subsequently to the nucleus in response to oxidative stress and exerts an increased cytoprotective effect against oxidative damage (PubMed:18711745). Detected in tau inclusions in brains from neurodegenerative disease patients (PubMed:14705119). Membrane raft localization in astrocytes and neuronal cells requires palmitoylation.</text>
+  </comment>
+  <comment type="tissue specificity">
+    <text evidence="11 13 14 37 52">Highly expressed in pancreas, kidney, skeletal muscle, liver, testis and heart. Detected at slightly lower levels in placenta and brain (at protein level). Detected in astrocytes, Sertoli cells, spermatogonia, spermatids and spermatozoa. Expressed by pancreatic islets at higher levels than surrounding exocrine tissues (PubMed:22611253).</text>
+  </comment>
+  <comment type="developmental stage">
+    <text evidence="37">In pancreatic islets, expression increases during aging.</text>
+  </comment>
+  <comment type="induction">
+    <text evidence="17 23 37 42">By hydrogen peroxide and UV irradiation (PubMed:14749723, PubMed:15976810). In pancreatic islets, expression increases under hyperglycemic conditions (PubMed:22611253). Expression is also induced by sulforaphane, an isothiocyanate obtained from cruciferous vegetables (PubMed:26995087).</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="23">Sumoylated on Lys-130 by PIAS2 or PIAS4; which is enhanced after ultraviolet irradiation and essential for cell-growth promoting activity and transforming activity.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="9 23">Cys-106 is easily oxidized to sulfinic acid.</text>
+  </comment>
+  <comment type="PTM">
+    <text evidence="34">Undergoes cleavage of a C-terminal peptide and subsequent activation of protease activity in response to oxidative stress.</text>
+  </comment>
+  <comment type="disease" evidence="4 7 10 12 16 20 21 24 28 31 32 36 38 39 41 46 49">
+    <disease id="DI-01240">
+      <name>Parkinson disease 7</name>
+      <acronym>PARK7</acronym>
+      <description>A neurodegenerative disorder characterized by resting tremor, postural tremor, bradykinesia, muscular rigidity, anxiety and psychotic episodes. PARK7 has onset before 40 years, slow progression and initial good response to levodopa. Some patients may show traits reminiscent of amyotrophic lateral sclerosis-parkinsonism/dementia complex (Guam disease).</description>
+      <dbReference type="MIM" id="606324"/>
+    </disease>
+    <text>The disease is caused by variants affecting the gene represented in this entry.</text>
+  </comment>
+  <comment type="similarity">
+    <text evidence="55">Belongs to the peptidase C56 family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="36 40 51">Glyoxalase activity has been reported (PubMed:22523093, PubMed:31653696). It may however reflect its deglycase activity (PubMed:25416785).</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="40 43 44 45 51">The protein deglycation activity is controversial. It has been ascribed to a TRIS buffer artifact by a publication (PubMed:27903648) and as a result of the removal of methylglyoxal by glyoxalase activity that leads to a subsequent decomposition of hemithioacetals and hemianimals due to the shift in equilibrium position by another one (PubMed:31653696). However, biochemical experiments showing that PARK7 is a bona fide deglycase have been performed (PubMed:25416785, PubMed:28013050, PubMed:28596309).</text>
+  </comment>
+  <dbReference type="EC" id="3.1.2.-" evidence="40"/>
+  <dbReference type="EC" id="3.5.1.-" evidence="45"/>
+  <dbReference type="EC" id="3.5.1.124" evidence="40"/>
+  <dbReference type="EMBL" id="D61380">
+    <property type="protein sequence ID" value="BAA09603.2"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AF021819">
+    <property type="protein sequence ID" value="AAC12806.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB073864">
+    <property type="protein sequence ID" value="BAB71782.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AK312000">
+    <property type="protein sequence ID" value="BAG34938.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AL034417">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CH471130">
+    <property type="protein sequence ID" value="EAW71591.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC008188">
+    <property type="protein sequence ID" value="AAH08188.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AB045294">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AY648999">
+    <property type="protein sequence ID" value="AAT68961.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS93.1"/>
+  <dbReference type="PIR" id="JC5394">
+    <property type="entry name" value="JC5394"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_001116849.1">
+    <property type="nucleotide sequence ID" value="NM_001123377.1"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="NP_009193.2">
+    <property type="nucleotide sequence ID" value="NM_007262.4"/>
+  </dbReference>
+  <dbReference type="RefSeq" id="XP_005263481.1">
+    <property type="nucleotide sequence ID" value="XM_005263424.3"/>
+  </dbReference>
+  <dbReference type="PDB" id="1J42">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="1P5F">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.10 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="1PDV">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.80 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="1PDW">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.20 A"/>
+    <property type="chains" value="A/B/C/D/E/F/G/H=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="1PE0">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.70 A"/>
+    <property type="chains" value="A/B=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="1Q2U">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.60 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="1SOA">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.20 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="1UCF">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.95 A"/>
+    <property type="chains" value="A/B=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="2OR3">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.20 A"/>
+    <property type="chains" value="A/B=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="2R1T">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.70 A"/>
+    <property type="chains" value="A/B=2-188"/>
+  </dbReference>
+  <dbReference type="PDB" id="2R1U">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.50 A"/>
+    <property type="chains" value="A/B=2-188"/>
+  </dbReference>
+  <dbReference type="PDB" id="2R1V">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.70 A"/>
+    <property type="chains" value="A/B=2-188"/>
+  </dbReference>
+  <dbReference type="PDB" id="2RK3">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.05 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="2RK4">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.15 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="2RK6">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.15 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="3B36">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.50 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="3B38">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.85 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="3B3A">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.50 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="3BWE">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.40 A"/>
+    <property type="chains" value="A/B/C/D/E/F/G=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="3CY6">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.35 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="3CYF">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.60 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="3CZ9">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.15 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="3CZA">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.20 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="3EZG">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.15 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="3F71">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.20 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="3SF8">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.56 A"/>
+    <property type="chains" value="A/B=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4BTE">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.38 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4MNT">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.58 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4MTC">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.47 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4N0M">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.95 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4N12">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.48 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4OGF">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.60 A"/>
+    <property type="chains" value="A=2-188"/>
+  </dbReference>
+  <dbReference type="PDB" id="4OQ4">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.49 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4P2G">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.35 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4P34">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.55 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4P35">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.75 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4P36">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.18 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4RKW">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.50 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4RKY">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.50 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4S0Z">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.45 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="4ZGG">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.23 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="5IP5">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.66 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="5SY6">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.15 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="5SY9">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.10 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="5SYA">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.10 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AF5">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.65 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AF7">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.30 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AF9">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.39 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AFA">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.65 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AFB">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.60 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AFC">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.45 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AFD">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.48 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AFE">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.50 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AFF">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.60 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AFG">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.50 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AFH">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.65 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AFI">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.65 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AFJ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.48 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6AFL">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.60 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6E5Z">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.35 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="6M8Z">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.83 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="7C62">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.03 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="7PA2">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.21 A"/>
+    <property type="chains" value="AAA=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="7PA3">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.42 A"/>
+    <property type="chains" value="AAA=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PPW">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.53 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDB" id="8PQ0">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.48 A"/>
+    <property type="chains" value="A=1-189"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="1J42"/>
+  <dbReference type="PDBsum" id="1P5F"/>
+  <dbReference type="PDBsum" id="1PDV"/>
+  <dbReference type="PDBsum" id="1PDW"/>
+  <dbReference type="PDBsum" id="1PE0"/>
+  <dbReference type="PDBsum" id="1Q2U"/>
+  <dbReference type="PDBsum" id="1SOA"/>
+  <dbReference type="PDBsum" id="1UCF"/>
+  <dbReference type="PDBsum" id="2OR3"/>
+  <dbReference type="PDBsum" id="2R1T"/>
+  <dbReference type="PDBsum" id="2R1U"/>
+  <dbReference type="PDBsum" id="2R1V"/>
+  <dbReference type="PDBsum" id="2RK3"/>
+  <dbReference type="PDBsum" id="2RK4"/>
+  <dbReference type="PDBsum" id="2RK6"/>
+  <dbReference type="PDBsum" id="3B36"/>
+  <dbReference type="PDBsum" id="3B38"/>
+  <dbReference type="PDBsum" id="3B3A"/>
+  <dbReference type="PDBsum" id="3BWE"/>
+  <dbReference type="PDBsum" id="3CY6"/>
+  <dbReference type="PDBsum" id="3CYF"/>
+  <dbReference type="PDBsum" id="3CZ9"/>
+  <dbReference type="PDBsum" id="3CZA"/>
+  <dbReference type="PDBsum" id="3EZG"/>
+  <dbReference type="PDBsum" id="3F71"/>
+  <dbReference type="PDBsum" id="3SF8"/>
+  <dbReference type="PDBsum" id="4BTE"/>
+  <dbReference type="PDBsum" id="4MNT"/>
+  <dbReference type="PDBsum" id="4MTC"/>
+  <dbReference type="PDBsum" id="4N0M"/>
+  <dbReference type="PDBsum" id="4N12"/>
+  <dbReference type="PDBsum" id="4OGF"/>
+  <dbReference type="PDBsum" id="4OQ4"/>
+  <dbReference type="PDBsum" id="4P2G"/>
+  <dbReference type="PDBsum" id="4P34"/>
+  <dbReference type="PDBsum" id="4P35"/>
+  <dbReference type="PDBsum" id="4P36"/>
+  <dbReference type="PDBsum" id="4RKW"/>
+  <dbReference type="PDBsum" id="4RKY"/>
+  <dbReference type="PDBsum" id="4S0Z"/>
+  <dbReference type="PDBsum" id="4ZGG"/>
+  <dbReference type="PDBsum" id="5IP5"/>
+  <dbReference type="PDBsum" id="5SY6"/>
+  <dbReference type="PDBsum" id="5SY9"/>
+  <dbReference type="PDBsum" id="5SYA"/>
+  <dbReference type="PDBsum" id="6AF5"/>
+  <dbReference type="PDBsum" id="6AF7"/>
+  <dbReference type="PDBsum" id="6AF9"/>
+  <dbReference type="PDBsum" id="6AFA"/>
+  <dbReference type="PDBsum" id="6AFB"/>
+  <dbReference type="PDBsum" id="6AFC"/>
+  <dbReference type="PDBsum" id="6AFD"/>
+  <dbReference type="PDBsum" id="6AFE"/>
+  <dbReference type="PDBsum" id="6AFF"/>
+  <dbReference type="PDBsum" id="6AFG"/>
+  <dbReference type="PDBsum" id="6AFH"/>
+  <dbReference type="PDBsum" id="6AFI"/>
+  <dbReference type="PDBsum" id="6AFJ"/>
+  <dbReference type="PDBsum" id="6AFL"/>
+  <dbReference type="PDBsum" id="6E5Z"/>
+  <dbReference type="PDBsum" id="6M8Z"/>
+  <dbReference type="PDBsum" id="7C62"/>
+  <dbReference type="PDBsum" id="7PA2"/>
+  <dbReference type="PDBsum" id="7PA3"/>
+  <dbReference type="PDBsum" id="8PPW"/>
+  <dbReference type="PDBsum" id="8PQ0"/>
+  <dbReference type="AlphaFoldDB" id="Q99497"/>
+  <dbReference type="BMRB" id="Q99497"/>
+  <dbReference type="SMR" id="Q99497"/>
+  <dbReference type="BioGRID" id="116446">
+    <property type="interactions" value="348"/>
+  </dbReference>
+  <dbReference type="CORUM" id="Q99497"/>
+  <dbReference type="DIP" id="DIP-35515N"/>
+  <dbReference type="IntAct" id="Q99497">
+    <property type="interactions" value="157"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q99497"/>
+  <dbReference type="STRING" id="9606.ENSP00000340278"/>
+  <dbReference type="BindingDB" id="Q99497"/>
+  <dbReference type="ChEMBL" id="CHEMBL5169188"/>
+  <dbReference type="DrugBank" id="DB09130">
+    <property type="generic name" value="Copper"/>
+  </dbReference>
+  <dbReference type="MEROPS" id="C56.002"/>
+  <dbReference type="GlyGen" id="Q99497">
+    <property type="glycosylation" value="1 site, 1 O-linked glycan (1 site)"/>
+  </dbReference>
+  <dbReference type="iPTMnet" id="Q99497"/>
+  <dbReference type="MetOSite" id="Q99497"/>
+  <dbReference type="PhosphoSitePlus" id="Q99497"/>
+  <dbReference type="SwissPalm" id="Q99497"/>
+  <dbReference type="BioMuta" id="PARK7"/>
+  <dbReference type="DMDM" id="56404943"/>
+  <dbReference type="OGP" id="Q99497"/>
+  <dbReference type="REPRODUCTION-2DPAGE" id="IPI00298547"/>
+  <dbReference type="jPOST" id="Q99497"/>
+  <dbReference type="MassIVE" id="Q99497"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000418770"/>
+  <dbReference type="PeptideAtlas" id="Q99497"/>
+  <dbReference type="ProteomicsDB" id="78298"/>
+  <dbReference type="Pumba" id="Q99497"/>
+  <dbReference type="TopDownProteomics" id="Q99497"/>
+  <dbReference type="Antibodypedia" id="1372">
+    <property type="antibodies" value="990 antibodies from 52 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="11315"/>
+  <dbReference type="Ensembl" id="ENST00000338639.10">
+    <property type="protein sequence ID" value="ENSP00000340278.5"/>
+    <property type="gene ID" value="ENSG00000116288.13"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000377488.5">
+    <property type="protein sequence ID" value="ENSP00000366708.1"/>
+    <property type="gene ID" value="ENSG00000116288.13"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000377491.5">
+    <property type="protein sequence ID" value="ENSP00000366711.1"/>
+    <property type="gene ID" value="ENSG00000116288.13"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000493373.5">
+    <property type="protein sequence ID" value="ENSP00000465404.1"/>
+    <property type="gene ID" value="ENSG00000116288.13"/>
+  </dbReference>
+  <dbReference type="Ensembl" id="ENST00000493678.5">
+    <property type="protein sequence ID" value="ENSP00000418770.1"/>
+    <property type="gene ID" value="ENSG00000116288.13"/>
+  </dbReference>
+  <dbReference type="GeneID" id="11315"/>
+  <dbReference type="KEGG" id="hsa:11315"/>
+  <dbReference type="MANE-Select" id="ENST00000338639.10">
+    <property type="protein sequence ID" value="ENSP00000340278.5"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_007262.5"/>
+    <property type="RefSeq protein sequence ID" value="NP_009193.2"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:16369"/>
+  <dbReference type="CTD" id="11315"/>
+  <dbReference type="DisGeNET" id="11315"/>
+  <dbReference type="GeneCards" id="PARK7"/>
+  <dbReference type="GeneReviews" id="PARK7"/>
+  <dbReference type="HGNC" id="HGNC:16369">
+    <property type="gene designation" value="PARK7"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000116288">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MalaCards" id="PARK7"/>
+  <dbReference type="MIM" id="168600">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="MIM" id="602533">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="MIM" id="606324">
+    <property type="type" value="phenotype"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q99497"/>
+  <dbReference type="OpenTargets" id="ENSG00000116288"/>
+  <dbReference type="Orphanet" id="90020">
+    <property type="disease" value="Parkinson-dementia complex of Guam"/>
+  </dbReference>
+  <dbReference type="Orphanet" id="2828">
+    <property type="disease" value="Young-onset Parkinson disease"/>
+  </dbReference>
+  <dbReference type="PharmGKB" id="PA32946"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000116288"/>
+  <dbReference type="eggNOG" id="KOG2764">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00390000001231"/>
+  <dbReference type="HOGENOM" id="CLU_000445_44_2_1"/>
+  <dbReference type="InParanoid" id="Q99497"/>
+  <dbReference type="OMA" id="KATCYPG"/>
+  <dbReference type="OrthoDB" id="1117759at2759"/>
+  <dbReference type="PhylomeDB" id="Q99497"/>
+  <dbReference type="TreeFam" id="TF300119"/>
+  <dbReference type="BioCyc" id="MetaCyc:ENSG00000116288-MONOMER"/>
+  <dbReference type="BRENDA" id="3.5.1.124">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="BRENDA" id="4.2.1.130">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="Q99497"/>
+  <dbReference type="Reactome" id="R-HSA-3899300">
+    <property type="pathway name" value="SUMOylation of transcription cofactors"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9613829">
+    <property type="pathway name" value="Chaperone Mediated Autophagy"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9615710">
+    <property type="pathway name" value="Late endosomal microautophagy"/>
+  </dbReference>
+  <dbReference type="Reactome" id="R-HSA-9646399">
+    <property type="pathway name" value="Aggrephagy"/>
+  </dbReference>
+  <dbReference type="SABIO-RK" id="Q99497"/>
+  <dbReference type="SignaLink" id="Q99497"/>
+  <dbReference type="SIGNOR" id="Q99497"/>
+  <dbReference type="BioGRID-ORCS" id="11315">
+    <property type="hits" value="21 hits in 1167 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="PARK7">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q99497"/>
+  <dbReference type="GeneWiki" id="PARK7"/>
+  <dbReference type="GenomeRNAi" id="11315"/>
+  <dbReference type="Pharos" id="Q99497">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q99497"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 1"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q99497">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000116288">
+    <property type="expression patterns" value="Expressed in adult organism and 209 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q99497">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005912">
+    <property type="term" value="C:adherens junction"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030424">
+    <property type="term" value="C:axon"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0044297">
+    <property type="term" value="C:cell body"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000785">
+    <property type="term" value="C:chromatin"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005737">
+    <property type="term" value="C:cytoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005829">
+    <property type="term" value="C:cytosol"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005783">
+    <property type="term" value="C:endoplasmic reticulum"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070062">
+    <property type="term" value="C:extracellular exosome"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045121">
+    <property type="term" value="C:membrane raft"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005758">
+    <property type="term" value="C:mitochondrial intermembrane space"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005759">
+    <property type="term" value="C:mitochondrial matrix"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005739">
+    <property type="term" value="C:mitochondrion"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0048471">
+    <property type="term" value="C:perinuclear region of cytoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005886">
+    <property type="term" value="C:plasma membrane"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-SubCell"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016605">
+    <property type="term" value="C:PML body"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0098793">
+    <property type="term" value="C:presynapse"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="GOC"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045296">
+    <property type="term" value="F:cadherin binding"/>
+    <property type="evidence" value="ECO:0007005"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005507">
+    <property type="term" value="F:copper ion binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903135">
+    <property type="term" value="F:cupric ion binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903136">
+    <property type="term" value="F:cuprous ion binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0019955">
+    <property type="term" value="F:cytokine binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140297">
+    <property type="term" value="F:DNA-binding transcription factor binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0019899">
+    <property type="term" value="F:enzyme binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1990422">
+    <property type="term" value="F:glyoxalase (glycolic acid-forming) activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042802">
+    <property type="term" value="F:identical protein binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="IntAct"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0019900">
+    <property type="term" value="F:kinase binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036478">
+    <property type="term" value="F:L-dopa decarboxylase activator activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045340">
+    <property type="term" value="F:mercury ion binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003729">
+    <property type="term" value="F:mRNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050681">
+    <property type="term" value="F:nuclear androgen receptor binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016684">
+    <property type="term" value="F:oxidoreductase activity, acting on peroxide as acceptor"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0019826">
+    <property type="term" value="F:oxygen sensor activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008233">
+    <property type="term" value="F:peptidase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051920">
+    <property type="term" value="F:peroxiredoxin activity"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036524">
+    <property type="term" value="F:protein deglycase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042803">
+    <property type="term" value="F:protein homodimerization activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0044877">
+    <property type="term" value="F:protein-containing complex binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0097110">
+    <property type="term" value="F:scaffold protein binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005102">
+    <property type="term" value="F:signaling receptor binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0044388">
+    <property type="term" value="F:small protein activating enzyme binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016532">
+    <property type="term" value="F:superoxide dismutase copper chaperone activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003713">
+    <property type="term" value="F:transcription coactivator activity"/>
+    <property type="evidence" value="ECO:0000316"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036470">
+    <property type="term" value="F:tyrosine 3-monooxygenase activator activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0044390">
+    <property type="term" value="F:ubiquitin-like protein conjugating enzyme binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1990381">
+    <property type="term" value="F:ubiquitin-specific protease binding"/>
+    <property type="evidence" value="ECO:0000353"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0032148">
+    <property type="term" value="P:activation of protein kinase B activity"/>
+    <property type="evidence" value="ECO:0000305"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0008344">
+    <property type="term" value="P:adult locomotory behavior"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006914">
+    <property type="term" value="P:autophagy"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0110095">
+    <property type="term" value="P:cellular detoxification of aldehyde"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0140041">
+    <property type="term" value="P:cellular detoxification of methylglyoxal"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036471">
+    <property type="term" value="P:cellular response to glyoxal"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070301">
+    <property type="term" value="P:cellular response to hydrogen peroxide"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0034599">
+    <property type="term" value="P:cellular response to oxidative stress"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0070994">
+    <property type="term" value="P:detection of oxidative stress"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010273">
+    <property type="term" value="P:detoxification of copper ion"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0061691">
+    <property type="term" value="P:detoxification of hydrogen peroxide"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050787">
+    <property type="term" value="P:detoxification of mercury ion"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006281">
+    <property type="term" value="P:DNA repair"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051583">
+    <property type="term" value="P:dopamine uptake involved in synaptic transmission"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042593">
+    <property type="term" value="P:glucose homeostasis"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036531">
+    <property type="term" value="P:glutathione deglycation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046295">
+    <property type="term" value="P:glycolate biosynthetic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903189">
+    <property type="term" value="P:glyoxal metabolic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0106044">
+    <property type="term" value="P:guanine deglycation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0106046">
+    <property type="term" value="P:guanine deglycation, glyoxal removal"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0106045">
+    <property type="term" value="P:guanine deglycation, methylglyoxal removal"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042743">
+    <property type="term" value="P:hydrogen peroxide metabolic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006954">
+    <property type="term" value="P:inflammatory response"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0030073">
+    <property type="term" value="P:insulin secretion"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0019249">
+    <property type="term" value="P:lactate biosynthetic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051899">
+    <property type="term" value="P:membrane depolarization"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0060081">
+    <property type="term" value="P:membrane hyperpolarization"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0061727">
+    <property type="term" value="P:methylglyoxal catabolic process to lactate"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0009438">
+    <property type="term" value="P:methylglyoxal metabolic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0007005">
+    <property type="term" value="P:mitochondrion organization"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:2001268">
+    <property type="term" value="P:negative regulation of cysteine-type endopeptidase activity involved in apoptotic signaling pathway"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903073">
+    <property type="term" value="P:negative regulation of death-inducing signaling complex assembly"/>
+    <property type="evidence" value="ECO:0000305"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1902236">
+    <property type="term" value="P:negative regulation of endoplasmic reticulum stress-induced intrinsic apoptotic signaling pathway"/>
+    <property type="evidence" value="ECO:0000316"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:2001237">
+    <property type="term" value="P:negative regulation of extrinsic apoptotic signaling pathway"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010629">
+    <property type="term" value="P:negative regulation of gene expression"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903384">
+    <property type="term" value="P:negative regulation of hydrogen peroxide-induced neuron intrinsic apoptotic signaling pathway"/>
+    <property type="evidence" value="ECO:0000316"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903751">
+    <property type="term" value="P:negative regulation of intrinsic apoptotic signaling pathway in response to hydrogen peroxide"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043524">
+    <property type="term" value="P:negative regulation of neuron apoptotic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="BHF-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1905259">
+    <property type="term" value="P:negative regulation of nitrosative stress-induced intrinsic apoptotic signaling pathway"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1902176">
+    <property type="term" value="P:negative regulation of oxidative stress-induced intrinsic apoptotic signaling pathway"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903377">
+    <property type="term" value="P:negative regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0032435">
+    <property type="term" value="P:negative regulation of proteasomal ubiquitin-dependent protein catabolic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1901984">
+    <property type="term" value="P:negative regulation of protein acetylation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0032091">
+    <property type="term" value="P:negative regulation of protein binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0046826">
+    <property type="term" value="P:negative regulation of protein export from nucleus"/>
+    <property type="evidence" value="ECO:0000316"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903094">
+    <property type="term" value="P:negative regulation of protein K48-linked deubiquitination"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006469">
+    <property type="term" value="P:negative regulation of protein kinase activity"/>
+    <property type="evidence" value="ECO:0000316"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001933">
+    <property type="term" value="P:negative regulation of protein phosphorylation"/>
+    <property type="evidence" value="ECO:0000316"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0033234">
+    <property type="term" value="P:negative regulation of protein sumoylation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031397">
+    <property type="term" value="P:negative regulation of protein ubiquitination"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903427">
+    <property type="term" value="P:negative regulation of reactive oxygen species biosynthetic process"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903122">
+    <property type="term" value="P:negative regulation of TRAIL-activated apoptotic signaling pathway"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051444">
+    <property type="term" value="P:negative regulation of ubiquitin-protein transferase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:2000157">
+    <property type="term" value="P:negative regulation of ubiquitin-specific protease activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036527">
+    <property type="term" value="P:peptidyl-arginine deglycation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036526">
+    <property type="term" value="P:peptidyl-cysteine deglycation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036528">
+    <property type="term" value="P:peptidyl-lysine deglycation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0002866">
+    <property type="term" value="P:positive regulation of acute inflammatory response to antigenic stimulus"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:2000825">
+    <property type="term" value="P:positive regulation of androgen receptor activity"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903599">
+    <property type="term" value="P:positive regulation of autophagy of mitochondrion"/>
+    <property type="evidence" value="ECO:0000303"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051091">
+    <property type="term" value="P:positive regulation of DNA-binding transcription factor activity"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903181">
+    <property type="term" value="P:positive regulation of dopamine biosynthetic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0010628">
+    <property type="term" value="P:positive regulation of gene expression"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0032757">
+    <property type="term" value="P:positive regulation of interleukin-8 production"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903197">
+    <property type="term" value="P:positive regulation of L-dopa biosynthetic process"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903200">
+    <property type="term" value="P:positive regulation of L-dopa decarboxylase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1902958">
+    <property type="term" value="P:positive regulation of mitochondrial electron transport, NADH to ubiquinone"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0033864">
+    <property type="term" value="P:positive regulation of NAD(P)H oxidase activity"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1902177">
+    <property type="term" value="P:positive regulation of oxidative stress-induced intrinsic apoptotic signaling pathway"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0033138">
+    <property type="term" value="P:positive regulation of peptidyl-serine phosphorylation"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051897">
+    <property type="term" value="P:positive regulation of phosphatidylinositol 3-kinase/protein kinase B signal transduction"/>
+    <property type="evidence" value="ECO:0000305"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1900182">
+    <property type="term" value="P:positive regulation of protein localization to nucleus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0031334">
+    <property type="term" value="P:positive regulation of protein-containing complex assembly"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903168">
+    <property type="term" value="P:positive regulation of pyrroline-5-carboxylate reductase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903428">
+    <property type="term" value="P:positive regulation of reactive oxygen species biosynthetic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:2000379">
+    <property type="term" value="P:positive regulation of reactive oxygen species metabolic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1901671">
+    <property type="term" value="P:positive regulation of superoxide dismutase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045944">
+    <property type="term" value="P:positive regulation of transcription by RNA polymerase II"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:2000679">
+    <property type="term" value="P:positive regulation of transcription regulatory region DNA binding"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903178">
+    <property type="term" value="P:positive regulation of tyrosine 3-monooxygenase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036529">
+    <property type="term" value="P:protein deglycation, glyoxal removal"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036530">
+    <property type="term" value="P:protein deglycation, methylglyoxal removal"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006517">
+    <property type="term" value="P:protein deglycosylation"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050821">
+    <property type="term" value="P:protein stabilization"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006508">
+    <property type="term" value="P:proteolysis"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0007265">
+    <property type="term" value="P:Ras protein signal transduction"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0060765">
+    <property type="term" value="P:regulation of androgen receptor signaling pathway"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0050727">
+    <property type="term" value="P:regulation of inflammatory response"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0051881">
+    <property type="term" value="P:regulation of mitochondrial membrane potential"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0043523">
+    <property type="term" value="P:regulation of neuron apoptotic process"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1903376">
+    <property type="term" value="P:regulation of oxidative stress-induced neuron intrinsic apoptotic signaling pathway"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1902903">
+    <property type="term" value="P:regulation of supramolecular fiber organization"/>
+    <property type="evidence" value="ECO:0000304"/>
+    <property type="project" value="ParkinsonsUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006979">
+    <property type="term" value="P:response to oxidative stress"/>
+    <property type="evidence" value="ECO:0000318"/>
+    <property type="project" value="GO_Central"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0007338">
+    <property type="term" value="P:single fertilization"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="UniProtKB-KW"/>
+  </dbReference>
+  <dbReference type="CDD" id="cd03135">
+    <property type="entry name" value="GATase1_DJ-1"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Gene3D" id="3.40.50.880">
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR029062">
+    <property type="entry name" value="Class_I_gatase-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR006287">
+    <property type="entry name" value="DJ-1"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR002818">
+    <property type="entry name" value="DJ-1/PfpI"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR050325">
+    <property type="entry name" value="Prot/Nucl_acid_deglycase"/>
+  </dbReference>
+  <dbReference type="NCBIfam" id="TIGR01383">
+    <property type="entry name" value="not_thiJ"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR48094:SF12">
+    <property type="entry name" value="PARKINSON DISEASE PROTEIN 7 HOMOLOG"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR48094">
+    <property type="entry name" value="PROTEIN/NUCLEIC ACID DEGLYCASE DJ-1-RELATED"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF01965">
+    <property type="entry name" value="DJ-1_PfpI"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF52317">
+    <property type="entry name" value="Class I glutamine amidotransferase-like"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0007">Acetylation</keyword>
+  <keyword id="KW-0072">Autophagy</keyword>
+  <keyword id="KW-1003">Cell membrane</keyword>
+  <keyword id="KW-0143">Chaperone</keyword>
+  <keyword id="KW-0186">Copper</keyword>
+  <keyword id="KW-0963">Cytoplasm</keyword>
+  <keyword id="KW-0903">Direct protein sequencing</keyword>
+  <keyword id="KW-0225">Disease variant</keyword>
+  <keyword id="KW-0227">DNA damage</keyword>
+  <keyword id="KW-0234">DNA repair</keyword>
+  <keyword id="KW-0256">Endoplasmic reticulum</keyword>
+  <keyword id="KW-0278">Fertilization</keyword>
+  <keyword id="KW-0378">Hydrolase</keyword>
+  <keyword id="KW-0395">Inflammatory response</keyword>
+  <keyword id="KW-1017">Isopeptide bond</keyword>
+  <keyword id="KW-0449">Lipoprotein</keyword>
+  <keyword id="KW-0472">Membrane</keyword>
+  <keyword id="KW-0496">Mitochondrion</keyword>
+  <keyword id="KW-0523">Neurodegeneration</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-0558">Oxidation</keyword>
+  <keyword id="KW-0564">Palmitate</keyword>
+  <keyword id="KW-0907">Parkinson disease</keyword>
+  <keyword id="KW-0908">Parkinsonism</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-0645">Protease</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0694">RNA-binding</keyword>
+  <keyword id="KW-0346">Stress response</keyword>
+  <keyword id="KW-0043">Tumor suppressor</keyword>
+  <keyword id="KW-0832">Ubl conjugation</keyword>
+  <keyword id="KW-0865">Zymogen</keyword>
+  <feature type="initiator methionine" description="Removed" evidence="61">
+    <location>
+      <position position="1"/>
+    </location>
+  </feature>
+  <feature type="chain" id="PRO_0000157849" description="Parkinson disease protein 7">
+    <location>
+      <begin position="2"/>
+      <end status="unknown"/>
+    </location>
+  </feature>
+  <feature type="propeptide" id="PRO_0000405558" description="Removed in mature form">
+    <location>
+      <begin status="unknown"/>
+      <end position="189"/>
+    </location>
+  </feature>
+  <feature type="active site" description="Nucleophile" evidence="56 57">
+    <location>
+      <position position="106"/>
+    </location>
+  </feature>
+  <feature type="active site" evidence="56">
+    <location>
+      <position position="126"/>
+    </location>
+  </feature>
+  <feature type="site" description="Cleavage; by CASP6" evidence="2">
+    <location>
+      <begin position="149"/>
+      <end position="150"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N-acetylalanine" evidence="61">
+    <location>
+      <position position="2"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphotyrosine" evidence="60">
+    <location>
+      <position position="67"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Cysteine sulfinic acid (-SO2H); alternate" evidence="9">
+    <location>
+      <position position="106"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-acetyllysine" evidence="2">
+    <location>
+      <position position="148"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="N6-succinyllysine" evidence="2">
+    <location>
+      <position position="182"/>
+    </location>
+  </feature>
+  <feature type="lipid moiety-binding region" description="S-palmitoyl cysteine" evidence="39">
+    <location>
+      <position position="46"/>
+    </location>
+  </feature>
+  <feature type="lipid moiety-binding region" description="S-palmitoyl cysteine" evidence="39">
+    <location>
+      <position position="53"/>
+    </location>
+  </feature>
+  <feature type="lipid moiety-binding region" description="S-palmitoyl cysteine; alternate" evidence="39">
+    <location>
+      <position position="106"/>
+    </location>
+  </feature>
+  <feature type="cross-link" description="Glycyl lysine isopeptide (Lys-Gly) (interchain with G-Cter in SUMO)" evidence="23">
+    <location>
+      <position position="130"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_084339" description="In PARK7; uncertain significance." evidence="31">
+    <original>L</original>
+    <variation>P</variation>
+    <location>
+      <position position="10"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020492" description="In PARK7; does not affect protein stability and degradation; does not interfere with homodimerization; decreased detoxification activity on methylglyocal-adducted CoA; dbSNP:rs74315351." evidence="10 16 46">
+    <original>M</original>
+    <variation>I</variation>
+    <location>
+      <position position="26"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_072589" description="Found in early-onset Parkinson disease with digenic inheritance; likely pathogenic; the patient also carries PINK1 mutation L-399; no effect on detoxification activity on methylglyocal-adducted CoA; dbSNP:rs137853051." evidence="26 46">
+    <original>A</original>
+    <variation>S</variation>
+    <location>
+      <position position="39"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_083277" description="In PARK7." evidence="41">
+    <location>
+      <position position="45"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020493" description="In PARK7; no apparent effect on protein stability; impaired mitochondrial morphology; no effect on detoxification activity on methylglyocal-adducted CoA; dbSNP:rs74315353." evidence="12 21 33 46">
+    <original>E</original>
+    <variation>D</variation>
+    <location>
+      <position position="64"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020494" description="In dbSNP:rs71653619." evidence="10 15 18 20">
+    <original>R</original>
+    <variation>Q</variation>
+    <location>
+      <position position="98"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020495" description="In PARK7; loss of protection against metal cytotoxicity; decreased detoxification activity on methylglyocal-adducted CoA; dbSNP:rs774005786." evidence="20 38 46">
+    <original>A</original>
+    <variation>T</variation>
+    <location>
+      <position position="104"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020496" description="In PARK7; loss of protection against metal cytotoxicity; decreased detoxification activity on methylglyocal-adducted CoA; dbSNP:rs74315352." evidence="10 38 46">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="149"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020497" description="In dbSNP:rs368420490." evidence="53">
+    <original>G</original>
+    <variation>S</variation>
+    <location>
+      <position position="150"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_034801" description="In PARK7; uncertain significance; no effect on detoxification activity on methylglyocal-adducted CoA; dbSNP:rs74315354." evidence="24 46">
+    <original>E</original>
+    <variation>K</variation>
+    <location>
+      <position position="163"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020498" description="In PARK7; strongly decreases enzymatic activity; reduces protein stability and leads to increased degradation; ubiquitinated by PRKN leading to its recognition by HDAC6 and targeting to aggresome where is degraded; interferes with homodimerization; abolishes interaction with PIAS2; reduced localization in lipid rafts; almost abolished detoxification activity on methylglyocal-adducted CoA; dbSNP:rs28938172." evidence="4 7 12 16 28 32 36 39 46">
+    <original>L</original>
+    <variation>P</variation>
+    <location>
+      <position position="166"/>
+    </location>
+  </feature>
+  <feature type="sequence variant" id="VAR_020499" description="In dbSNP:rs777026628." evidence="20">
+    <original>A</original>
+    <variation>S</variation>
+    <location>
+      <position position="171"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolishes detoxification activity on methylglyocal-adducted CoA." evidence="46">
+    <original>L</original>
+    <variation>P</variation>
+    <location>
+      <position position="10"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Strongly decreases enzymatic activity. Almost abolishes detoxification activity on methylglyocal-adducted CoA." evidence="36 46">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="18"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Strongly decreases enzymatic activity." evidence="36">
+    <original>E</original>
+    <variation>D</variation>
+    <location>
+      <position position="18"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Strongly decreases enzymatic activity." evidence="36">
+    <original>E</original>
+    <variation>N</variation>
+    <location>
+      <position position="18"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Strongly decreases enzymatic activity." evidence="36">
+    <original>E</original>
+    <variation>Q</variation>
+    <location>
+      <position position="18"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduces protein stability. No effect on oxidation." evidence="19 22 30 39">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="46"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduces protein stability. No effect on oxidation. Reduced localization in lipid rafts; when associated with A-106." evidence="19 22 30 39">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="46"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on mitochondrial translocation neither on deglycase activity." evidence="19 22 30 39 40">
+    <original>C</original>
+    <variation>S</variation>
+    <location>
+      <position position="46"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Disrupts dimer formation and strongly reduces ability to eliminate hydrogen peroxide." evidence="17">
+    <original>V</original>
+    <variation>A</variation>
+    <location>
+      <position position="51"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Strongly reduces chaperone activity and ability to eliminate hydrogen peroxide." evidence="17 19 22 30">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="53"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on mitochondrial translocation neither on deglycase activity." evidence="17 19 22 30 40">
+    <original>C</original>
+    <variation>S</variation>
+    <location>
+      <position position="53"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolishes enzymatic activity. Abolishes oxidation, association with mitochondria and protease activity. No effect on chaperone activity. Reduces binding to OTUD7B." evidence="19 22 25 30 34 35 36 39">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="106"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolishes enzymatic activity. Abolishes oxidation, association with mitochondria and protease activity. No effect on chaperone activity. Reduces binding to OTUD7B. Removes the glycations and restores histone 3. Reduced localization in lipid rafts; when associated with A-46." evidence="19 22 25 30 34 35 36 39 48">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="106"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Abolishes oxidation and association with mitochondria. No effect on chaperone activity." evidence="19 22 25 30 34 35 39">
+    <original>C</original>
+    <variation>D</variation>
+    <location>
+      <position position="106"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Loss of protein and nucleic acid deglycase activity. No effect on mitochondrial translocation. Reduced protease activity. No effect on protection against metal cytotoxicity. No effect on methylglyoxal-adducted glutathione or CoA." evidence="19 22 25 30 34 35 39 40 45 46">
+    <original>C</original>
+    <variation>S</variation>
+    <location>
+      <position position="106"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Strongly decreases enzymatic activity." evidence="34 36">
+    <original>H</original>
+    <variation>A</variation>
+    <location>
+      <position position="126"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Partially compensates for loss of stability; when associated with P-166." evidence="7">
+    <original>K</original>
+    <variation>R</variation>
+    <location>
+      <position position="130"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="No effect on detoxification activity on methylglyocal-adducted CoA." evidence="46">
+    <original>A</original>
+    <variation>T</variation>
+    <location>
+      <position position="179"/>
+    </location>
+  </feature>
+  <feature type="sequence conflict" description="In Ref. 3; BAB71782." evidence="55" ref="3">
+    <original>F</original>
+    <variation>C</variation>
+    <location>
+      <position position="119"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="64">
+    <location>
+      <begin position="5"/>
+      <end position="10"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="64">
+    <location>
+      <begin position="16"/>
+      <end position="28"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="64">
+    <location>
+      <begin position="32"/>
+      <end position="37"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="62">
+    <location>
+      <begin position="38"/>
+      <end position="41"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="65">
+    <location>
+      <begin position="47"/>
+      <end position="49"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="63">
+    <location>
+      <begin position="51"/>
+      <end position="53"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="64">
+    <location>
+      <begin position="55"/>
+      <end position="57"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="64">
+    <location>
+      <begin position="58"/>
+      <end position="62"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="64">
+    <location>
+      <begin position="68"/>
+      <end position="72"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="64">
+    <location>
+      <begin position="76"/>
+      <end position="84"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="64">
+    <location>
+      <begin position="86"/>
+      <end position="97"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="64">
+    <location>
+      <begin position="101"/>
+      <end position="105"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="64">
+    <location>
+      <begin position="106"/>
+      <end position="108"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="64">
+    <location>
+      <begin position="109"/>
+      <end position="114"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="64">
+    <location>
+      <begin position="127"/>
+      <end position="129"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="64">
+    <location>
+      <begin position="130"/>
+      <end position="133"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="64">
+    <location>
+      <begin position="134"/>
+      <end position="136"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="64">
+    <location>
+      <begin position="139"/>
+      <end position="141"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="64">
+    <location>
+      <begin position="145"/>
+      <end position="149"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="64">
+    <location>
+      <begin position="152"/>
+      <end position="155"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="64">
+    <location>
+      <begin position="158"/>
+      <end position="160"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="64">
+    <location>
+      <begin position="161"/>
+      <end position="173"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="64">
+    <location>
+      <begin position="175"/>
+      <end position="182"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="64">
+    <location>
+      <begin position="183"/>
+      <end position="185"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="O88767"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000250" key="2">
+    <source>
+      <dbReference type="UniProtKB" id="Q99LX0"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="3">
+    <source>
+      <dbReference type="PubMed" id="11477070"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="12446870"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="12612053"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="12796482"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="12851414"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="12855764"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="12939276"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="12953260"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="14579415"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="14607841"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="14662519"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="14">
+    <source>
+      <dbReference type="PubMed" id="14705119"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="15">
+    <source>
+      <dbReference type="PubMed" id="14705128"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="16">
+    <source>
+      <dbReference type="PubMed" id="14713311"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="17">
+    <source>
+      <dbReference type="PubMed" id="14749723"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="18">
+    <source>
+      <dbReference type="PubMed" id="14872018"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="19">
+    <source>
+      <dbReference type="PubMed" id="15181200"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="20">
+    <source>
+      <dbReference type="PubMed" id="15254937"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="21">
+    <source>
+      <dbReference type="PubMed" id="15365989"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="22">
+    <source>
+      <dbReference type="PubMed" id="15502874"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="23">
+    <source>
+      <dbReference type="PubMed" id="15976810"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="24">
+    <source>
+      <dbReference type="PubMed" id="16240358"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="25">
+    <source>
+      <dbReference type="PubMed" id="16390825"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="26">
+    <source>
+      <dbReference type="PubMed" id="16632486"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="27">
+    <source>
+      <dbReference type="PubMed" id="17015834"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="28">
+    <source>
+      <dbReference type="PubMed" id="17846173"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="29">
+    <source>
+      <dbReference type="PubMed" id="18626009"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="30">
+    <source>
+      <dbReference type="PubMed" id="18711745"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="31">
+    <source>
+      <dbReference type="PubMed" id="18785233"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="32">
+    <source>
+      <dbReference type="PubMed" id="19229105"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="33">
+    <source>
+      <dbReference type="PubMed" id="20186336"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="34">
+    <source>
+      <dbReference type="PubMed" id="20304780"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="35">
+    <source>
+      <dbReference type="PubMed" id="21097510"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="36">
+    <source>
+      <dbReference type="PubMed" id="22523093"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="37">
+    <source>
+      <dbReference type="PubMed" id="22611253"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="38">
+    <source>
+      <dbReference type="PubMed" id="23792957"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="39">
+    <source>
+      <dbReference type="PubMed" id="23847046"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="40">
+    <source>
+      <dbReference type="PubMed" id="25416785"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="41">
+    <source>
+      <dbReference type="PubMed" id="26972524"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="42">
+    <source>
+      <dbReference type="PubMed" id="26995087"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="43">
+    <source>
+      <dbReference type="PubMed" id="27903648"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="44">
+    <source>
+      <dbReference type="PubMed" id="28013050"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="45">
+    <source>
+      <dbReference type="PubMed" id="28596309"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="46">
+    <source>
+      <dbReference type="PubMed" id="28993701"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="47">
+    <source>
+      <dbReference type="PubMed" id="30150385"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="48">
+    <source>
+      <dbReference type="PubMed" id="30894531"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="49">
+    <source>
+      <dbReference type="PubMed" id="30928208"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="50">
+    <source>
+      <dbReference type="PubMed" id="31536960"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="51">
+    <source>
+      <dbReference type="PubMed" id="31653696"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="52">
+    <source>
+      <dbReference type="PubMed" id="9070310"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="53">
+    <source ref="10"/>
+  </evidence>
+  <evidence type="ECO:0000303" key="54">
+    <source>
+      <dbReference type="PubMed" id="28596309"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="55"/>
+  <evidence type="ECO:0000305" key="56">
+    <source>
+      <dbReference type="PubMed" id="20304780"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="57">
+    <source>
+      <dbReference type="PubMed" id="25416785"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="58">
+    <source>
+      <dbReference type="PubMed" id="28596309"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000312" key="59">
+    <source>
+      <dbReference type="HGNC" id="HGNC:16369"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="60">
+    <source>
+      <dbReference type="PubMed" id="15592455"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="61">
+    <source>
+      <dbReference type="PubMed" id="25944712"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="62">
+    <source>
+      <dbReference type="PDB" id="1PDW"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="63">
+    <source>
+      <dbReference type="PDB" id="2OR3"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="64">
+    <source>
+      <dbReference type="PDB" id="2RK3"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="65">
+    <source>
+      <dbReference type="PDB" id="4N0M"/>
+    </source>
+  </evidence>
+  <sequence length="189" mass="19891" checksum="4B21661B3A76BC67" modified="2004-07-05" version="2" precursor="true">MASKRALVILAKGAEEMETVIPVDVMRRAGIKVTVAGLAGKDPVQCSRDVVICPDASLEDAKKEGPYDVVVLPGGNLGAQNLSESAAVKEILKEQENRKGLIAAICAGPTALLAHEIGFGSKVTTHPLAKDKMMNGGHYTYSENRVEKDGLILTSRGPGTSFEFALAIVEALNGKEVAAQVKAPLVLKD</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

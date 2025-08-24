@@ -1,0 +1,1882 @@
+<?xml version="1.0" encoding="UTF-8"  standalone="no" ?>
+<uniprot xmlns="http://uniprot.org/uniprot" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uniprot.org/uniprot http://www.uniprot.org/docs/uniprot.xsd">
+<entry dataset="Swiss-Prot" created="2008-03-18" modified="2024-10-02" version="149" xmlns="http://uniprot.org/uniprot">
+  <accession>Q9HCE5</accession>
+  <accession>A6NIG1</accession>
+  <accession>Q969V2</accession>
+  <name>MET14_HUMAN</name>
+  <protein>
+    <recommendedName>
+      <fullName evidence="16">N6-adenosine-methyltransferase non-catalytic subunit</fullName>
+    </recommendedName>
+    <alternativeName>
+      <fullName evidence="17">Methyltransferase-like protein 14</fullName>
+      <shortName evidence="15">hMETTL14</shortName>
+    </alternativeName>
+  </protein>
+  <gene>
+    <name evidence="17" type="primary">METTL14</name>
+    <name evidence="14" type="synonym">KIAA1627</name>
+  </gene>
+  <organism>
+    <name type="scientific">Homo sapiens</name>
+    <name type="common">Human</name>
+    <dbReference type="NCBI Taxonomy" id="9606"/>
+    <lineage>
+      <taxon>Eukaryota</taxon>
+      <taxon>Metazoa</taxon>
+      <taxon>Chordata</taxon>
+      <taxon>Craniata</taxon>
+      <taxon>Vertebrata</taxon>
+      <taxon>Euteleostomi</taxon>
+      <taxon>Mammalia</taxon>
+      <taxon>Eutheria</taxon>
+      <taxon>Euarchontoglires</taxon>
+      <taxon>Primates</taxon>
+      <taxon>Haplorrhini</taxon>
+      <taxon>Catarrhini</taxon>
+      <taxon>Hominidae</taxon>
+      <taxon>Homo</taxon>
+    </lineage>
+  </organism>
+  <reference key="1">
+    <citation type="journal article" date="2000" name="DNA Res." volume="7" first="273" last="281">
+      <title>Prediction of the coding sequences of unidentified human genes. XVIII. The complete sequences of 100 new cDNA clones from brain which code for large proteins in vitro.</title>
+      <authorList>
+        <person name="Nagase T."/>
+        <person name="Kikuno R."/>
+        <person name="Nakayama M."/>
+        <person name="Hirosawa M."/>
+        <person name="Ohara O."/>
+      </authorList>
+      <dbReference type="PubMed" id="10997877"/>
+      <dbReference type="DOI" id="10.1093/dnares/7.4.271"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Brain</tissue>
+    </source>
+  </reference>
+  <reference key="2">
+    <citation type="journal article" date="2002" name="DNA Res." volume="9" first="99" last="106">
+      <title>Construction of expression-ready cDNA clones for KIAA genes: manual curation of 330 KIAA cDNA clones.</title>
+      <authorList>
+        <person name="Nakajima D."/>
+        <person name="Okazaki N."/>
+        <person name="Yamakawa H."/>
+        <person name="Kikuno R."/>
+        <person name="Ohara O."/>
+        <person name="Nagase T."/>
+      </authorList>
+      <dbReference type="PubMed" id="12168954"/>
+      <dbReference type="DOI" id="10.1093/dnares/9.3.99"/>
+    </citation>
+    <scope>SEQUENCE REVISION</scope>
+  </reference>
+  <reference key="3">
+    <citation type="journal article" date="2004" name="Nat. Genet." volume="36" first="40" last="45">
+      <title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</title>
+      <authorList>
+        <person name="Ota T."/>
+        <person name="Suzuki Y."/>
+        <person name="Nishikawa T."/>
+        <person name="Otsuki T."/>
+        <person name="Sugiyama T."/>
+        <person name="Irie R."/>
+        <person name="Wakamatsu A."/>
+        <person name="Hayashi K."/>
+        <person name="Sato H."/>
+        <person name="Nagai K."/>
+        <person name="Kimura K."/>
+        <person name="Makita H."/>
+        <person name="Sekine M."/>
+        <person name="Obayashi M."/>
+        <person name="Nishi T."/>
+        <person name="Shibahara T."/>
+        <person name="Tanaka T."/>
+        <person name="Ishii S."/>
+        <person name="Yamamoto J."/>
+        <person name="Saito K."/>
+        <person name="Kawai Y."/>
+        <person name="Isono Y."/>
+        <person name="Nakamura Y."/>
+        <person name="Nagahari K."/>
+        <person name="Murakami K."/>
+        <person name="Yasuda T."/>
+        <person name="Iwayanagi T."/>
+        <person name="Wagatsuma M."/>
+        <person name="Shiratori A."/>
+        <person name="Sudo H."/>
+        <person name="Hosoiri T."/>
+        <person name="Kaku Y."/>
+        <person name="Kodaira H."/>
+        <person name="Kondo H."/>
+        <person name="Sugawara M."/>
+        <person name="Takahashi M."/>
+        <person name="Kanda K."/>
+        <person name="Yokoi T."/>
+        <person name="Furuya T."/>
+        <person name="Kikkawa E."/>
+        <person name="Omura Y."/>
+        <person name="Abe K."/>
+        <person name="Kamihara K."/>
+        <person name="Katsuta N."/>
+        <person name="Sato K."/>
+        <person name="Tanikawa M."/>
+        <person name="Yamazaki M."/>
+        <person name="Ninomiya K."/>
+        <person name="Ishibashi T."/>
+        <person name="Yamashita H."/>
+        <person name="Murakawa K."/>
+        <person name="Fujimori K."/>
+        <person name="Tanai H."/>
+        <person name="Kimata M."/>
+        <person name="Watanabe M."/>
+        <person name="Hiraoka S."/>
+        <person name="Chiba Y."/>
+        <person name="Ishida S."/>
+        <person name="Ono Y."/>
+        <person name="Takiguchi S."/>
+        <person name="Watanabe S."/>
+        <person name="Yosida M."/>
+        <person name="Hotuta T."/>
+        <person name="Kusano J."/>
+        <person name="Kanehori K."/>
+        <person name="Takahashi-Fujii A."/>
+        <person name="Hara H."/>
+        <person name="Tanase T.-O."/>
+        <person name="Nomura Y."/>
+        <person name="Togiya S."/>
+        <person name="Komai F."/>
+        <person name="Hara R."/>
+        <person name="Takeuchi K."/>
+        <person name="Arita M."/>
+        <person name="Imose N."/>
+        <person name="Musashino K."/>
+        <person name="Yuuki H."/>
+        <person name="Oshima A."/>
+        <person name="Sasaki N."/>
+        <person name="Aotsuka S."/>
+        <person name="Yoshikawa Y."/>
+        <person name="Matsunawa H."/>
+        <person name="Ichihara T."/>
+        <person name="Shiohata N."/>
+        <person name="Sano S."/>
+        <person name="Moriya S."/>
+        <person name="Momiyama H."/>
+        <person name="Satoh N."/>
+        <person name="Takami S."/>
+        <person name="Terashima Y."/>
+        <person name="Suzuki O."/>
+        <person name="Nakagawa S."/>
+        <person name="Senoh A."/>
+        <person name="Mizoguchi H."/>
+        <person name="Goto Y."/>
+        <person name="Shimizu F."/>
+        <person name="Wakebe H."/>
+        <person name="Hishigaki H."/>
+        <person name="Watanabe T."/>
+        <person name="Sugiyama A."/>
+        <person name="Takemoto M."/>
+        <person name="Kawakami B."/>
+        <person name="Yamazaki M."/>
+        <person name="Watanabe K."/>
+        <person name="Kumagai A."/>
+        <person name="Itakura S."/>
+        <person name="Fukuzumi Y."/>
+        <person name="Fujimori Y."/>
+        <person name="Komiyama M."/>
+        <person name="Tashiro H."/>
+        <person name="Tanigami A."/>
+        <person name="Fujiwara T."/>
+        <person name="Ono T."/>
+        <person name="Yamada K."/>
+        <person name="Fujii Y."/>
+        <person name="Ozaki K."/>
+        <person name="Hirao M."/>
+        <person name="Ohmori Y."/>
+        <person name="Kawabata A."/>
+        <person name="Hikiji T."/>
+        <person name="Kobatake N."/>
+        <person name="Inagaki H."/>
+        <person name="Ikema Y."/>
+        <person name="Okamoto S."/>
+        <person name="Okitani R."/>
+        <person name="Kawakami T."/>
+        <person name="Noguchi S."/>
+        <person name="Itoh T."/>
+        <person name="Shigeta K."/>
+        <person name="Senba T."/>
+        <person name="Matsumura K."/>
+        <person name="Nakajima Y."/>
+        <person name="Mizuno T."/>
+        <person name="Morinaga M."/>
+        <person name="Sasaki M."/>
+        <person name="Togashi T."/>
+        <person name="Oyama M."/>
+        <person name="Hata H."/>
+        <person name="Watanabe M."/>
+        <person name="Komatsu T."/>
+        <person name="Mizushima-Sugano J."/>
+        <person name="Satoh T."/>
+        <person name="Shirai Y."/>
+        <person name="Takahashi Y."/>
+        <person name="Nakagawa K."/>
+        <person name="Okumura K."/>
+        <person name="Nagase T."/>
+        <person name="Nomura N."/>
+        <person name="Kikuchi H."/>
+        <person name="Masuho Y."/>
+        <person name="Yamashita R."/>
+        <person name="Nakai K."/>
+        <person name="Yada T."/>
+        <person name="Nakamura Y."/>
+        <person name="Ohara O."/>
+        <person name="Isogai T."/>
+        <person name="Sugano S."/>
+      </authorList>
+      <dbReference type="PubMed" id="14702039"/>
+      <dbReference type="DOI" id="10.1038/ng1285"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Lung</tissue>
+    </source>
+  </reference>
+  <reference key="4">
+    <citation type="journal article" date="2005" name="Nature" volume="434" first="724" last="731">
+      <title>Generation and annotation of the DNA sequences of human chromosomes 2 and 4.</title>
+      <authorList>
+        <person name="Hillier L.W."/>
+        <person name="Graves T.A."/>
+        <person name="Fulton R.S."/>
+        <person name="Fulton L.A."/>
+        <person name="Pepin K.H."/>
+        <person name="Minx P."/>
+        <person name="Wagner-McPherson C."/>
+        <person name="Layman D."/>
+        <person name="Wylie K."/>
+        <person name="Sekhon M."/>
+        <person name="Becker M.C."/>
+        <person name="Fewell G.A."/>
+        <person name="Delehaunty K.D."/>
+        <person name="Miner T.L."/>
+        <person name="Nash W.E."/>
+        <person name="Kremitzki C."/>
+        <person name="Oddy L."/>
+        <person name="Du H."/>
+        <person name="Sun H."/>
+        <person name="Bradshaw-Cordum H."/>
+        <person name="Ali J."/>
+        <person name="Carter J."/>
+        <person name="Cordes M."/>
+        <person name="Harris A."/>
+        <person name="Isak A."/>
+        <person name="van Brunt A."/>
+        <person name="Nguyen C."/>
+        <person name="Du F."/>
+        <person name="Courtney L."/>
+        <person name="Kalicki J."/>
+        <person name="Ozersky P."/>
+        <person name="Abbott S."/>
+        <person name="Armstrong J."/>
+        <person name="Belter E.A."/>
+        <person name="Caruso L."/>
+        <person name="Cedroni M."/>
+        <person name="Cotton M."/>
+        <person name="Davidson T."/>
+        <person name="Desai A."/>
+        <person name="Elliott G."/>
+        <person name="Erb T."/>
+        <person name="Fronick C."/>
+        <person name="Gaige T."/>
+        <person name="Haakenson W."/>
+        <person name="Haglund K."/>
+        <person name="Holmes A."/>
+        <person name="Harkins R."/>
+        <person name="Kim K."/>
+        <person name="Kruchowski S.S."/>
+        <person name="Strong C.M."/>
+        <person name="Grewal N."/>
+        <person name="Goyea E."/>
+        <person name="Hou S."/>
+        <person name="Levy A."/>
+        <person name="Martinka S."/>
+        <person name="Mead K."/>
+        <person name="McLellan M.D."/>
+        <person name="Meyer R."/>
+        <person name="Randall-Maher J."/>
+        <person name="Tomlinson C."/>
+        <person name="Dauphin-Kohlberg S."/>
+        <person name="Kozlowicz-Reilly A."/>
+        <person name="Shah N."/>
+        <person name="Swearengen-Shahid S."/>
+        <person name="Snider J."/>
+        <person name="Strong J.T."/>
+        <person name="Thompson J."/>
+        <person name="Yoakum M."/>
+        <person name="Leonard S."/>
+        <person name="Pearman C."/>
+        <person name="Trani L."/>
+        <person name="Radionenko M."/>
+        <person name="Waligorski J.E."/>
+        <person name="Wang C."/>
+        <person name="Rock S.M."/>
+        <person name="Tin-Wollam A.-M."/>
+        <person name="Maupin R."/>
+        <person name="Latreille P."/>
+        <person name="Wendl M.C."/>
+        <person name="Yang S.-P."/>
+        <person name="Pohl C."/>
+        <person name="Wallis J.W."/>
+        <person name="Spieth J."/>
+        <person name="Bieri T.A."/>
+        <person name="Berkowicz N."/>
+        <person name="Nelson J.O."/>
+        <person name="Osborne J."/>
+        <person name="Ding L."/>
+        <person name="Meyer R."/>
+        <person name="Sabo A."/>
+        <person name="Shotland Y."/>
+        <person name="Sinha P."/>
+        <person name="Wohldmann P.E."/>
+        <person name="Cook L.L."/>
+        <person name="Hickenbotham M.T."/>
+        <person name="Eldred J."/>
+        <person name="Williams D."/>
+        <person name="Jones T.A."/>
+        <person name="She X."/>
+        <person name="Ciccarelli F.D."/>
+        <person name="Izaurralde E."/>
+        <person name="Taylor J."/>
+        <person name="Schmutz J."/>
+        <person name="Myers R.M."/>
+        <person name="Cox D.R."/>
+        <person name="Huang X."/>
+        <person name="McPherson J.D."/>
+        <person name="Mardis E.R."/>
+        <person name="Clifton S.W."/>
+        <person name="Warren W.C."/>
+        <person name="Chinwalla A.T."/>
+        <person name="Eddy S.R."/>
+        <person name="Marra M.A."/>
+        <person name="Ovcharenko I."/>
+        <person name="Furey T.S."/>
+        <person name="Miller W."/>
+        <person name="Eichler E.E."/>
+        <person name="Bork P."/>
+        <person name="Suyama M."/>
+        <person name="Torrents D."/>
+        <person name="Waterston R.H."/>
+        <person name="Wilson R.K."/>
+      </authorList>
+      <dbReference type="PubMed" id="15815621"/>
+      <dbReference type="DOI" id="10.1038/nature03466"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="5">
+    <citation type="submission" date="2005-07" db="EMBL/GenBank/DDBJ databases">
+      <authorList>
+        <person name="Mural R.J."/>
+        <person name="Istrail S."/>
+        <person name="Sutton G.G."/>
+        <person name="Florea L."/>
+        <person name="Halpern A.L."/>
+        <person name="Mobarry C.M."/>
+        <person name="Lippert R."/>
+        <person name="Walenz B."/>
+        <person name="Shatkay H."/>
+        <person name="Dew I."/>
+        <person name="Miller J.R."/>
+        <person name="Flanigan M.J."/>
+        <person name="Edwards N.J."/>
+        <person name="Bolanos R."/>
+        <person name="Fasulo D."/>
+        <person name="Halldorsson B.V."/>
+        <person name="Hannenhalli S."/>
+        <person name="Turner R."/>
+        <person name="Yooseph S."/>
+        <person name="Lu F."/>
+        <person name="Nusskern D.R."/>
+        <person name="Shue B.C."/>
+        <person name="Zheng X.H."/>
+        <person name="Zhong F."/>
+        <person name="Delcher A.L."/>
+        <person name="Huson D.H."/>
+        <person name="Kravitz S.A."/>
+        <person name="Mouchard L."/>
+        <person name="Reinert K."/>
+        <person name="Remington K.A."/>
+        <person name="Clark A.G."/>
+        <person name="Waterman M.S."/>
+        <person name="Eichler E.E."/>
+        <person name="Adams M.D."/>
+        <person name="Hunkapiller M.W."/>
+        <person name="Myers E.W."/>
+        <person name="Venter J.C."/>
+      </authorList>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]</scope>
+  </reference>
+  <reference key="6">
+    <citation type="journal article" date="2004" name="Genome Res." volume="14" first="2121" last="2127">
+      <title>The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).</title>
+      <authorList>
+        <consortium name="The MGC Project Team"/>
+      </authorList>
+      <dbReference type="PubMed" id="15489334"/>
+      <dbReference type="DOI" id="10.1101/gr.2596504"/>
+    </citation>
+    <scope>NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]</scope>
+    <source>
+      <tissue>Muscle</tissue>
+    </source>
+  </reference>
+  <reference key="7">
+    <citation type="journal article" date="2011" name="BMC Syst. Biol." volume="5" first="17" last="17">
+      <title>Initial characterization of the human central proteome.</title>
+      <authorList>
+        <person name="Burkard T.R."/>
+        <person name="Planyavsky M."/>
+        <person name="Kaupe I."/>
+        <person name="Breitwieser F.P."/>
+        <person name="Buerckstuemmer T."/>
+        <person name="Bennett K.L."/>
+        <person name="Superti-Furga G."/>
+        <person name="Colinge J."/>
+      </authorList>
+      <dbReference type="PubMed" id="21269460"/>
+      <dbReference type="DOI" id="10.1186/1752-0509-5-17"/>
+    </citation>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+  </reference>
+  <reference key="8">
+    <citation type="journal article" date="2014" name="Cell Res." volume="24" first="177" last="189">
+      <title>Mammalian WTAP is a regulatory subunit of the RNA N6-methyladenosine methyltransferase.</title>
+      <authorList>
+        <person name="Ping X.L."/>
+        <person name="Sun B.F."/>
+        <person name="Wang L."/>
+        <person name="Xiao W."/>
+        <person name="Yang X."/>
+        <person name="Wang W.J."/>
+        <person name="Adhikari S."/>
+        <person name="Shi Y."/>
+        <person name="Lv Y."/>
+        <person name="Chen Y.S."/>
+        <person name="Zhao X."/>
+        <person name="Li A."/>
+        <person name="Yang Y."/>
+        <person name="Dahal U."/>
+        <person name="Lou X.M."/>
+        <person name="Liu X."/>
+        <person name="Huang J."/>
+        <person name="Yuan W.P."/>
+        <person name="Zhu X.F."/>
+        <person name="Cheng T."/>
+        <person name="Zhao Y.L."/>
+        <person name="Wang X."/>
+        <person name="Danielsen J.M."/>
+        <person name="Liu F."/>
+        <person name="Yang Y.G."/>
+      </authorList>
+      <dbReference type="PubMed" id="24407421"/>
+      <dbReference type="DOI" id="10.1038/cr.2014.3"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>IDENTIFICATION IN THE WMM COMPLEX</scope>
+  </reference>
+  <reference key="9">
+    <citation type="journal article" date="2014" name="Cell Rep." volume="8" first="284" last="296">
+      <title>Perturbation of m6A writers reveals two distinct classes of mRNA methylation at internal and 5' sites.</title>
+      <authorList>
+        <person name="Schwartz S."/>
+        <person name="Mumbach M.R."/>
+        <person name="Jovanovic M."/>
+        <person name="Wang T."/>
+        <person name="Maciag K."/>
+        <person name="Bushkin G.G."/>
+        <person name="Mertins P."/>
+        <person name="Ter-Ovanesyan D."/>
+        <person name="Habib N."/>
+        <person name="Cacchiarelli D."/>
+        <person name="Sanjana N.E."/>
+        <person name="Freinkman E."/>
+        <person name="Pacold M.E."/>
+        <person name="Satija R."/>
+        <person name="Mikkelsen T.S."/>
+        <person name="Hacohen N."/>
+        <person name="Zhang F."/>
+        <person name="Carr S.A."/>
+        <person name="Lander E.S."/>
+        <person name="Regev A."/>
+      </authorList>
+      <dbReference type="PubMed" id="24981863"/>
+      <dbReference type="DOI" id="10.1016/j.celrep.2014.05.048"/>
+    </citation>
+    <scope>IDENTIFICATION IN THE WMM COMPLEX</scope>
+  </reference>
+  <reference key="10">
+    <citation type="journal article" date="2014" name="J. Proteomics" volume="96" first="253" last="262">
+      <title>An enzyme assisted RP-RPLC approach for in-depth analysis of human liver phosphoproteome.</title>
+      <authorList>
+        <person name="Bian Y."/>
+        <person name="Song C."/>
+        <person name="Cheng K."/>
+        <person name="Dong M."/>
+        <person name="Wang F."/>
+        <person name="Huang J."/>
+        <person name="Sun D."/>
+        <person name="Wang L."/>
+        <person name="Ye M."/>
+        <person name="Zou H."/>
+      </authorList>
+      <dbReference type="PubMed" id="24275569"/>
+      <dbReference type="DOI" id="10.1016/j.jprot.2013.11.014"/>
+    </citation>
+    <scope>PHOSPHORYLATION [LARGE SCALE ANALYSIS] AT SER-399</scope>
+    <scope>IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS]</scope>
+    <source>
+      <tissue>Liver</tissue>
+    </source>
+  </reference>
+  <reference key="11">
+    <citation type="journal article" date="2014" name="Nat. Chem. Biol." volume="10" first="93" last="95">
+      <title>A METTL3-METTL14 complex mediates mammalian nuclear RNA N-adenosine methylation.</title>
+      <authorList>
+        <person name="Liu J."/>
+        <person name="Yue Y."/>
+        <person name="Han D."/>
+        <person name="Wang X."/>
+        <person name="Fu Y."/>
+        <person name="Zhang L."/>
+        <person name="Jia G."/>
+        <person name="Yu M."/>
+        <person name="Lu Z."/>
+        <person name="Deng X."/>
+        <person name="Dai Q."/>
+        <person name="Chen W."/>
+        <person name="He C."/>
+      </authorList>
+      <dbReference type="PubMed" id="24316715"/>
+      <dbReference type="DOI" id="10.1038/nchembio.1432"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>IDENTIFICATION IN THE WMM COMPLEX</scope>
+  </reference>
+  <reference key="12">
+    <citation type="journal article" date="2015" name="Nature" volume="518" first="560" last="564">
+      <title>N(6)-methyladenosine-dependent RNA structural switches regulate RNA-protein interactions.</title>
+      <authorList>
+        <person name="Liu N."/>
+        <person name="Dai Q."/>
+        <person name="Zheng G."/>
+        <person name="He C."/>
+        <person name="Parisien M."/>
+        <person name="Pan T."/>
+      </authorList>
+      <dbReference type="PubMed" id="25719671"/>
+      <dbReference type="DOI" id="10.1038/nature14234"/>
+    </citation>
+    <scope>FUNCTION</scope>
+  </reference>
+  <reference key="13">
+    <citation type="journal article" date="2015" name="Nature" volume="526" first="591" last="594">
+      <title>Dynamic m(6)A mRNA methylation directs translational control of heat shock response.</title>
+      <authorList>
+        <person name="Zhou J."/>
+        <person name="Wan J."/>
+        <person name="Gao X."/>
+        <person name="Zhang X."/>
+        <person name="Jaffrey S.R."/>
+        <person name="Qian S.B."/>
+      </authorList>
+      <dbReference type="PubMed" id="26458103"/>
+      <dbReference type="DOI" id="10.1038/nature15377"/>
+    </citation>
+    <scope>SUBCELLULAR LOCATION</scope>
+  </reference>
+  <reference key="14">
+    <citation type="journal article" date="2018" name="Cell Discov." volume="4" first="10" last="10">
+      <title>VIRMA mediates preferential m6A mRNA methylation in 3'UTR and near stop codon and associates with alternative polyadenylation.</title>
+      <authorList>
+        <person name="Yue Y."/>
+        <person name="Liu J."/>
+        <person name="Cui X."/>
+        <person name="Cao J."/>
+        <person name="Luo G."/>
+        <person name="Zhang Z."/>
+        <person name="Cheng T."/>
+        <person name="Gao M."/>
+        <person name="Shu X."/>
+        <person name="Ma H."/>
+        <person name="Wang F."/>
+        <person name="Wang X."/>
+        <person name="Shen B."/>
+        <person name="Wang Y."/>
+        <person name="Feng X."/>
+        <person name="He C."/>
+        <person name="Liu J."/>
+      </authorList>
+      <dbReference type="PubMed" id="29507755"/>
+      <dbReference type="DOI" id="10.1038/s41421-018-0019-0"/>
+    </citation>
+    <scope>IDENTIFICATION IN THE WMM COMPLEX</scope>
+  </reference>
+  <reference key="15">
+    <citation type="journal article" date="2018" name="RNA" volume="24" first="499" last="512">
+      <title>Interactions, localization, and phosphorylation of the m6A generating METTL3-METTL14-WTAP complex.</title>
+      <authorList>
+        <person name="Schoeller E."/>
+        <person name="Weichmann F."/>
+        <person name="Treiber T."/>
+        <person name="Ringle S."/>
+        <person name="Treiber N."/>
+        <person name="Flatley A."/>
+        <person name="Feederle R."/>
+        <person name="Bruckmann A."/>
+        <person name="Meister G."/>
+      </authorList>
+      <dbReference type="PubMed" id="29348140"/>
+      <dbReference type="DOI" id="10.1261/rna.064063.117"/>
+    </citation>
+    <scope>FUNCTION</scope>
+    <scope>SUBCELLULAR LOCATION</scope>
+    <scope>RNA-BINDING</scope>
+    <scope>IDENTIFICATION IN THE WMM COMPLEX</scope>
+    <scope>PHOSPHORYLATION AT SER-399</scope>
+    <scope>MUTAGENESIS OF 63-LYS--LYS-65 AND SER-399</scope>
+  </reference>
+  <reference key="16">
+    <citation type="journal article" date="2016" name="Elife" volume="5" first="E18434" last="E18434">
+      <title>Structural insights into the molecular mechanism of the m(6)A writer complex.</title>
+      <authorList>
+        <person name="Sledz P."/>
+        <person name="Jinek M."/>
+      </authorList>
+      <dbReference type="PubMed" id="27627798"/>
+      <dbReference type="DOI" id="10.7554/elife.18434"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.85 ANGSTROMS) OF 107-395 IN COMPLEX WITH METTL3</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>MUTAGENESIS OF GLU-192; TYR-198; 254-ARG-ARG-255; CYS-338 AND 362-PRO-THR-363</scope>
+  </reference>
+  <reference key="17">
+    <citation type="journal article" date="2016" name="Mol. Cell" volume="63" first="306" last="317">
+      <title>Structural basis for cooperative function of Mettl3 and Mettl14 methyltransferases.</title>
+      <authorList>
+        <person name="Wang P."/>
+        <person name="Doxtader K.A."/>
+        <person name="Nam Y."/>
+      </authorList>
+      <dbReference type="PubMed" id="27373337"/>
+      <dbReference type="DOI" id="10.1016/j.molcel.2016.05.041"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.65 ANGSTROMS) OF 111-456 IN COMPLEX WITH METTL3</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>RNA-BINDING</scope>
+    <scope>MUTAGENESIS OF GLU-192; ARG-298 AND ASP-312</scope>
+  </reference>
+  <reference key="18">
+    <citation type="journal article" date="2016" name="Nature" volume="534" first="575" last="578">
+      <title>Structural basis of N(6)-adenosine methylation by the METTL3-METTL14 complex.</title>
+      <authorList>
+        <person name="Wang X."/>
+        <person name="Feng J."/>
+        <person name="Xue Y."/>
+        <person name="Guan Z."/>
+        <person name="Zhang D."/>
+        <person name="Liu Z."/>
+        <person name="Gong Z."/>
+        <person name="Wang Q."/>
+        <person name="Huang J."/>
+        <person name="Tang C."/>
+        <person name="Zou T."/>
+        <person name="Yin P."/>
+      </authorList>
+      <dbReference type="PubMed" id="27281194"/>
+      <dbReference type="DOI" id="10.1038/nature18298"/>
+    </citation>
+    <scope>X-RAY CRYSTALLOGRAPHY (1.61 ANGSTROMS) OF 109-408 IN COMPLEX WITH METTL3</scope>
+    <scope>FUNCTION</scope>
+    <scope>SUBUNIT</scope>
+    <scope>RNA-BINDING</scope>
+    <scope>PHOSPHORYLATION AT SER-399</scope>
+    <scope>MUTAGENESIS OF ASP-173; GLU-192; ARG-245; ARG-255 AND 297-LYS-ARG-298</scope>
+  </reference>
+  <comment type="function">
+    <text evidence="1 4 5 7 9 10 11 12">The METTL3-METTL14 heterodimer forms a N6-methyltransferase complex that methylates adenosine residues at the N(6) position of some mRNAs and regulates the circadian clock, differentiation of embryonic stem cells and cortical neurogenesis (PubMed:24316715, PubMed:24407421, PubMed:25719671, PubMed:27281194, PubMed:27373337, PubMed:29348140). In the heterodimer formed with METTL3, METTL14 constitutes the RNA-binding scaffold that recognizes the substrate rather than the catalytic core (PubMed:27281194, PubMed:27373337, PubMed:27627798, PubMed:29348140). N6-methyladenosine (m6A), which takes place at the 5'-[AG]GAC-3' consensus sites of some mRNAs, plays a role in mRNA stability and processing (PubMed:24316715, PubMed:24407421, PubMed:25719671). M6A acts as a key regulator of mRNA stability by promoting mRNA destabilization and degradation (By similarity). In embryonic stem cells (ESCs), m6A methylation of mRNAs encoding key naive pluripotency-promoting transcripts results in transcript destabilization (By similarity). M6A regulates spermatogonial differentiation and meiosis and is essential for male fertility and spermatogenesis (By similarity). M6A also regulates cortical neurogenesis: m6A methylation of transcripts related to transcription factors, neural stem cells, the cell cycle and neuronal differentiation during brain development promotes their destabilization and decay, promoting differentiation of radial glial cells (By similarity).</text>
+  </comment>
+  <comment type="subunit">
+    <text evidence="4 5 6 9 10 11 12 13">Heterodimer; heterodimerizes with METTL3 to form an antiparallel heterodimer that constitutes an active methyltransferase (PubMed:27281194, PubMed:27373337, PubMed:27627798). Component of the WMM complex, a N6-methyltransferase complex composed of a catalytic subcomplex, named MAC, and of an associated subcomplex, named MACOM (PubMed:24316715, PubMed:24407421, PubMed:24981863, PubMed:29348140, PubMed:29507755). The MAC subcomplex is composed of METTL3 and METTL14 (PubMed:24316715, PubMed:24407421, PubMed:24981863, PubMed:29507755). The MACOM subcomplex is composed of WTAP, ZC3H13, CBLL1/HAKAI, VIRMA, and, in some cases of RBM15 (RBM15 or RBM15B) (PubMed:29507755).</text>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-6661081">
+      <id>Q9HCE5</id>
+    </interactant>
+    <interactant intactId="EBI-11105430">
+      <id>Q86U44</id>
+      <label>METTL3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>21</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-6661081">
+      <id>Q9HCE5</id>
+    </interactant>
+    <interactant intactId="EBI-16084936">
+      <id>Q86U44-1</id>
+      <label>METTL3</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>10</experiments>
+  </comment>
+  <comment type="interaction">
+    <interactant intactId="EBI-6661081">
+      <id>Q9HCE5</id>
+    </interactant>
+    <interactant intactId="EBI-16084961">
+      <id>Q15007-1</id>
+      <label>WTAP</label>
+    </interactant>
+    <organismsDiffer>false</organismsDiffer>
+    <experiments>5</experiments>
+  </comment>
+  <comment type="subcellular location">
+    <subcellularLocation>
+      <location evidence="4 5 8 12">Nucleus</location>
+    </subcellularLocation>
+  </comment>
+  <comment type="similarity">
+    <text evidence="2">Belongs to the MT-A70-like family.</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="9 12">The effect of phosphorylation at Ser-399 is unclear. According to a report, phosphorylation at Ser-399 is important for interaction with METTL3: phosphorylated Ser-399 forms a salt bridge with 'Arg-471' of METTL3 (PubMed:27281194). According to another report, phosphorylation at Ser-399 does not affect interaction with METTL3 (PubMed:29348140).</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="4 9 10 11">The ability of METTL14 to have catalytic activity is unclear and a number of experimental evidence suggests that it has no methyltransferase activity by itself (PubMed:27281194, PubMed:27373337, PubMed:27627798). According to some reports, has some methyltransferase activity in vitro (PubMed:24316715). However, other studies showed that METTL14 constitutes the RNA-binding scaffold that recognizes the substrate rather than the catalytic core (PubMed:27281194, PubMed:27373337, PubMed:27627798). 3D-structure studies showed that METTL14 contains a degenerate active site that is unable to accommodate donor and acceptor substrates (PubMed:27627798).</text>
+  </comment>
+  <comment type="caution">
+    <text evidence="11">A disulfide bond between Cys-338 and Cys-388 is observed in a structure (PubMed:27627798). Its existence is however unsure in vivo.</text>
+  </comment>
+  <comment type="sequence caution" evidence="16">
+    <conflict type="erroneous initiation">
+      <sequence resource="EMBL-CDS" id="BAB13453" version="1"/>
+    </conflict>
+  </comment>
+  <dbReference type="EMBL" id="AB046847">
+    <property type="protein sequence ID" value="BAB13453.1"/>
+    <property type="status" value="ALT_INIT"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AK055555">
+    <property type="protein sequence ID" value="BAB70954.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="AC110079">
+    <property type="status" value="NOT_ANNOTATED_CDS"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="CH471229">
+    <property type="protein sequence ID" value="EAW73651.1"/>
+    <property type="molecule type" value="Genomic_DNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC006565">
+    <property type="protein sequence ID" value="AAH06565.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="EMBL" id="BC007449">
+    <property type="protein sequence ID" value="AAH07449.1"/>
+    <property type="molecule type" value="mRNA"/>
+  </dbReference>
+  <dbReference type="CCDS" id="CCDS34053.1"/>
+  <dbReference type="RefSeq" id="NP_066012.1">
+    <property type="nucleotide sequence ID" value="NM_020961.3"/>
+  </dbReference>
+  <dbReference type="PDB" id="5IL0">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.88 A"/>
+    <property type="chains" value="B=109-408"/>
+  </dbReference>
+  <dbReference type="PDB" id="5IL1">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.71 A"/>
+    <property type="chains" value="B=109-408"/>
+  </dbReference>
+  <dbReference type="PDB" id="5IL2">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.61 A"/>
+    <property type="chains" value="B=109-408"/>
+  </dbReference>
+  <dbReference type="PDB" id="5K7M">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.65 A"/>
+    <property type="chains" value="B=111-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="5K7U">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.70 A"/>
+    <property type="chains" value="B=111-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="5K7W">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.65 A"/>
+    <property type="chains" value="B=111-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="5L6D">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.85 A"/>
+    <property type="chains" value="B=107-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="5L6E">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.90 A"/>
+    <property type="chains" value="B=107-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="5TEY">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.80 A"/>
+    <property type="chains" value="B=1-399"/>
+  </dbReference>
+  <dbReference type="PDB" id="6TTP">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="B=1-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="6TTT">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.30 A"/>
+    <property type="chains" value="B=1-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="6TTV">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.14 A"/>
+    <property type="chains" value="B=1-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="6TTW">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.20 A"/>
+    <property type="chains" value="B=1-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="6TTX">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="B=1-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="6TU1">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.31 A"/>
+    <property type="chains" value="B=1-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="6Y4G">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.90 A"/>
+    <property type="chains" value="B=1-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="7ACD">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NHG">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NHH">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.10 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NHI">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.85 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NHJ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.16 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NHV">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.91 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NI7">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NI8">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.20 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NI9">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.20 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NIA">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.30 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7NID">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.30 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O08">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O09">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.80 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O0L">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.90 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O0M">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.39 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O0P">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.70 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O0Q">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.49 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O0R">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.30 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O27">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.40 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O28">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.47 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O29">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.75 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O2E">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O2F">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.10 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O2H">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O2I">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.00 A"/>
+    <property type="chains" value="B=107-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7O2X">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.80 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OED">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OEE">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.70 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OEF">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.03 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OEG">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.79 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OEH">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.01 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OEI">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.48 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OEJ">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.30 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OEK">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.90 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OEL">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.86 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OEM">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.20 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OQL">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.50 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OQO">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="3.35 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7OQP">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.00 A"/>
+    <property type="chains" value="B=106-395"/>
+  </dbReference>
+  <dbReference type="PDB" id="7RX6">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.80 A"/>
+    <property type="chains" value="B=111-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="7RX7">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.65 A"/>
+    <property type="chains" value="B=111-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="7RX8">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="1.85 A"/>
+    <property type="chains" value="B=111-456"/>
+  </dbReference>
+  <dbReference type="PDB" id="8BN8">
+    <property type="method" value="X-ray"/>
+    <property type="resolution" value="2.21 A"/>
+    <property type="chains" value="BBB=107-395"/>
+  </dbReference>
+  <dbReference type="PDBsum" id="5IL0"/>
+  <dbReference type="PDBsum" id="5IL1"/>
+  <dbReference type="PDBsum" id="5IL2"/>
+  <dbReference type="PDBsum" id="5K7M"/>
+  <dbReference type="PDBsum" id="5K7U"/>
+  <dbReference type="PDBsum" id="5K7W"/>
+  <dbReference type="PDBsum" id="5L6D"/>
+  <dbReference type="PDBsum" id="5L6E"/>
+  <dbReference type="PDBsum" id="5TEY"/>
+  <dbReference type="PDBsum" id="6TTP"/>
+  <dbReference type="PDBsum" id="6TTT"/>
+  <dbReference type="PDBsum" id="6TTV"/>
+  <dbReference type="PDBsum" id="6TTW"/>
+  <dbReference type="PDBsum" id="6TTX"/>
+  <dbReference type="PDBsum" id="6TU1"/>
+  <dbReference type="PDBsum" id="6Y4G"/>
+  <dbReference type="PDBsum" id="7ACD"/>
+  <dbReference type="PDBsum" id="7NHG"/>
+  <dbReference type="PDBsum" id="7NHH"/>
+  <dbReference type="PDBsum" id="7NHI"/>
+  <dbReference type="PDBsum" id="7NHJ"/>
+  <dbReference type="PDBsum" id="7NHV"/>
+  <dbReference type="PDBsum" id="7NI7"/>
+  <dbReference type="PDBsum" id="7NI8"/>
+  <dbReference type="PDBsum" id="7NI9"/>
+  <dbReference type="PDBsum" id="7NIA"/>
+  <dbReference type="PDBsum" id="7NID"/>
+  <dbReference type="PDBsum" id="7O08"/>
+  <dbReference type="PDBsum" id="7O09"/>
+  <dbReference type="PDBsum" id="7O0L"/>
+  <dbReference type="PDBsum" id="7O0M"/>
+  <dbReference type="PDBsum" id="7O0P"/>
+  <dbReference type="PDBsum" id="7O0Q"/>
+  <dbReference type="PDBsum" id="7O0R"/>
+  <dbReference type="PDBsum" id="7O27"/>
+  <dbReference type="PDBsum" id="7O28"/>
+  <dbReference type="PDBsum" id="7O29"/>
+  <dbReference type="PDBsum" id="7O2E"/>
+  <dbReference type="PDBsum" id="7O2F"/>
+  <dbReference type="PDBsum" id="7O2H"/>
+  <dbReference type="PDBsum" id="7O2I"/>
+  <dbReference type="PDBsum" id="7O2X"/>
+  <dbReference type="PDBsum" id="7OED"/>
+  <dbReference type="PDBsum" id="7OEE"/>
+  <dbReference type="PDBsum" id="7OEF"/>
+  <dbReference type="PDBsum" id="7OEG"/>
+  <dbReference type="PDBsum" id="7OEH"/>
+  <dbReference type="PDBsum" id="7OEI"/>
+  <dbReference type="PDBsum" id="7OEJ"/>
+  <dbReference type="PDBsum" id="7OEK"/>
+  <dbReference type="PDBsum" id="7OEL"/>
+  <dbReference type="PDBsum" id="7OEM"/>
+  <dbReference type="PDBsum" id="7OQL"/>
+  <dbReference type="PDBsum" id="7OQO"/>
+  <dbReference type="PDBsum" id="7OQP"/>
+  <dbReference type="PDBsum" id="7RX6"/>
+  <dbReference type="PDBsum" id="7RX7"/>
+  <dbReference type="PDBsum" id="7RX8"/>
+  <dbReference type="PDBsum" id="8BN8"/>
+  <dbReference type="AlphaFoldDB" id="Q9HCE5"/>
+  <dbReference type="SMR" id="Q9HCE5"/>
+  <dbReference type="BioGRID" id="121744">
+    <property type="interactions" value="563"/>
+  </dbReference>
+  <dbReference type="ComplexPortal" id="CPX-1605">
+    <property type="entry name" value="WMM N6-adenosine-methyltransferase complex"/>
+  </dbReference>
+  <dbReference type="DIP" id="DIP-60726N"/>
+  <dbReference type="IntAct" id="Q9HCE5">
+    <property type="interactions" value="339"/>
+  </dbReference>
+  <dbReference type="MINT" id="Q9HCE5"/>
+  <dbReference type="STRING" id="9606.ENSP00000373474"/>
+  <dbReference type="BindingDB" id="Q9HCE5"/>
+  <dbReference type="ChEMBL" id="CHEMBL4106140"/>
+  <dbReference type="iPTMnet" id="Q9HCE5"/>
+  <dbReference type="PhosphoSitePlus" id="Q9HCE5"/>
+  <dbReference type="BioMuta" id="METTL14"/>
+  <dbReference type="DMDM" id="172045930"/>
+  <dbReference type="jPOST" id="Q9HCE5"/>
+  <dbReference type="MassIVE" id="Q9HCE5"/>
+  <dbReference type="PaxDb" id="9606-ENSP00000373474"/>
+  <dbReference type="PeptideAtlas" id="Q9HCE5"/>
+  <dbReference type="ProteomicsDB" id="81687"/>
+  <dbReference type="Pumba" id="Q9HCE5"/>
+  <dbReference type="Antibodypedia" id="26610">
+    <property type="antibodies" value="154 antibodies from 23 providers"/>
+  </dbReference>
+  <dbReference type="DNASU" id="57721"/>
+  <dbReference type="Ensembl" id="ENST00000388822.10">
+    <property type="protein sequence ID" value="ENSP00000373474.3"/>
+    <property type="gene ID" value="ENSG00000145388.15"/>
+  </dbReference>
+  <dbReference type="GeneID" id="57721"/>
+  <dbReference type="KEGG" id="hsa:57721"/>
+  <dbReference type="MANE-Select" id="ENST00000388822.10">
+    <property type="protein sequence ID" value="ENSP00000373474.3"/>
+    <property type="RefSeq nucleotide sequence ID" value="NM_020961.4"/>
+    <property type="RefSeq protein sequence ID" value="NP_066012.1"/>
+  </dbReference>
+  <dbReference type="UCSC" id="uc003icf.4">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="AGR" id="HGNC:29330"/>
+  <dbReference type="CTD" id="57721"/>
+  <dbReference type="DisGeNET" id="57721"/>
+  <dbReference type="GeneCards" id="METTL14"/>
+  <dbReference type="HGNC" id="HGNC:29330">
+    <property type="gene designation" value="METTL14"/>
+  </dbReference>
+  <dbReference type="HPA" id="ENSG00000145388">
+    <property type="expression patterns" value="Low tissue specificity"/>
+  </dbReference>
+  <dbReference type="MIM" id="616504">
+    <property type="type" value="gene"/>
+  </dbReference>
+  <dbReference type="neXtProt" id="NX_Q9HCE5"/>
+  <dbReference type="OpenTargets" id="ENSG00000145388"/>
+  <dbReference type="PharmGKB" id="PA164722277"/>
+  <dbReference type="VEuPathDB" id="HostDB:ENSG00000145388"/>
+  <dbReference type="eggNOG" id="KOG2097">
+    <property type="taxonomic scope" value="Eukaryota"/>
+  </dbReference>
+  <dbReference type="GeneTree" id="ENSGT00550000075003"/>
+  <dbReference type="HOGENOM" id="CLU_046318_1_0_1"/>
+  <dbReference type="InParanoid" id="Q9HCE5"/>
+  <dbReference type="OMA" id="FNSELYQ"/>
+  <dbReference type="OrthoDB" id="179166at2759"/>
+  <dbReference type="PhylomeDB" id="Q9HCE5"/>
+  <dbReference type="TreeFam" id="TF323641"/>
+  <dbReference type="BRENDA" id="2.1.1.348">
+    <property type="organism ID" value="2681"/>
+  </dbReference>
+  <dbReference type="PathwayCommons" id="Q9HCE5"/>
+  <dbReference type="Reactome" id="R-HSA-72203">
+    <property type="pathway name" value="Processing of Capped Intron-Containing Pre-mRNA"/>
+  </dbReference>
+  <dbReference type="SignaLink" id="Q9HCE5"/>
+  <dbReference type="BioGRID-ORCS" id="57721">
+    <property type="hits" value="661 hits in 1193 CRISPR screens"/>
+  </dbReference>
+  <dbReference type="ChiTaRS" id="METTL14">
+    <property type="organism name" value="human"/>
+  </dbReference>
+  <dbReference type="EvolutionaryTrace" id="Q9HCE5"/>
+  <dbReference type="GenomeRNAi" id="57721"/>
+  <dbReference type="Pharos" id="Q9HCE5">
+    <property type="development level" value="Tbio"/>
+  </dbReference>
+  <dbReference type="PRO" id="PR:Q9HCE5"/>
+  <dbReference type="Proteomes" id="UP000005640">
+    <property type="component" value="Chromosome 4"/>
+  </dbReference>
+  <dbReference type="RNAct" id="Q9HCE5">
+    <property type="molecule type" value="protein"/>
+  </dbReference>
+  <dbReference type="Bgee" id="ENSG00000145388">
+    <property type="expression patterns" value="Expressed in calcaneal tendon and 196 other cell types or tissues"/>
+  </dbReference>
+  <dbReference type="ExpressionAtlas" id="Q9HCE5">
+    <property type="expression patterns" value="baseline and differential"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005654">
+    <property type="term" value="C:nucleoplasm"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="HPA"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0005634">
+    <property type="term" value="C:nucleus"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0036396">
+    <property type="term" value="C:RNA N6-methyladenosine methyltransferase complex"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0003729">
+    <property type="term" value="F:mRNA binding"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001734">
+    <property type="term" value="F:mRNA m(6)A methyltransferase activity"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0021861">
+    <property type="term" value="P:forebrain radial glial cell differentiation"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0042063">
+    <property type="term" value="P:gliogenesis"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006402">
+    <property type="term" value="P:mRNA catabolic process"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0061157">
+    <property type="term" value="P:mRNA destabilization"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0016556">
+    <property type="term" value="P:mRNA modification"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProt"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0006397">
+    <property type="term" value="P:mRNA processing"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0000398">
+    <property type="term" value="P:mRNA splicing, via spliceosome"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0048255">
+    <property type="term" value="P:mRNA stabilization"/>
+    <property type="evidence" value="ECO:0000314"/>
+    <property type="project" value="ARUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:1901533">
+    <property type="term" value="P:negative regulation of hematopoietic progenitor cell differentiation"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ARUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045727">
+    <property type="term" value="P:positive regulation of translation"/>
+    <property type="evidence" value="ECO:0000315"/>
+    <property type="project" value="ARUK-UCL"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0045664">
+    <property type="term" value="P:regulation of neuron differentiation"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0001510">
+    <property type="term" value="P:RNA methylation"/>
+    <property type="evidence" value="ECO:0007669"/>
+    <property type="project" value="Ensembl"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0007283">
+    <property type="term" value="P:spermatogenesis"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="GO" id="GO:0019827">
+    <property type="term" value="P:stem cell population maintenance"/>
+    <property type="evidence" value="ECO:0000250"/>
+    <property type="project" value="UniProtKB"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR045123">
+    <property type="entry name" value="METTL14-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR007757">
+    <property type="entry name" value="MT-A70-like"/>
+  </dbReference>
+  <dbReference type="InterPro" id="IPR029063">
+    <property type="entry name" value="SAM-dependent_MTases_sf"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR13107">
+    <property type="entry name" value="N6-ADENOSINE-METHYLTRANSFERASE NON-CATALYTIC SUBUNIT"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PANTHER" id="PTHR13107:SF0">
+    <property type="entry name" value="N6-ADENOSINE-METHYLTRANSFERASE NON-CATALYTIC SUBUNIT"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="Pfam" id="PF05063">
+    <property type="entry name" value="MT-A70"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="SUPFAM" id="SSF53335">
+    <property type="entry name" value="S-adenosyl-L-methionine-dependent methyltransferases"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51143">
+    <property type="entry name" value="MT_A70"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <dbReference type="PROSITE" id="PS51592">
+    <property type="entry name" value="SAM_MTA70L_2"/>
+    <property type="match status" value="1"/>
+  </dbReference>
+  <proteinExistence type="evidence at protein level"/>
+  <keyword id="KW-0002">3D-structure</keyword>
+  <keyword id="KW-0221">Differentiation</keyword>
+  <keyword id="KW-0539">Nucleus</keyword>
+  <keyword id="KW-0597">Phosphoprotein</keyword>
+  <keyword id="KW-1267">Proteomics identification</keyword>
+  <keyword id="KW-1185">Reference proteome</keyword>
+  <keyword id="KW-0694">RNA-binding</keyword>
+  <keyword id="KW-0744">Spermatogenesis</keyword>
+  <feature type="chain" id="PRO_0000325790" description="N6-adenosine-methyltransferase non-catalytic subunit">
+    <location>
+      <begin position="1"/>
+      <end position="456"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="3">
+    <location>
+      <begin position="50"/>
+      <end position="75"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Interaction with METTL3" evidence="9 18 19 20">
+    <location>
+      <begin position="135"/>
+      <end position="136"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Interaction with METTL3" evidence="9 18 19 20">
+    <location>
+      <begin position="237"/>
+      <end position="238"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Positively charged region required for RNA-binding" evidence="9">
+    <location>
+      <begin position="245"/>
+      <end position="254"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Interaction with METTL3" evidence="9 18 19 20">
+    <location>
+      <begin position="255"/>
+      <end position="258"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Interaction with METTL3" evidence="9 18 19 20">
+    <location>
+      <begin position="278"/>
+      <end position="287"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Positively charged region required for RNA-binding" evidence="9">
+    <location>
+      <begin position="297"/>
+      <end position="298"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Interaction with METTL3" evidence="9 18 19 20">
+    <location>
+      <begin position="308"/>
+      <end position="312"/>
+    </location>
+  </feature>
+  <feature type="region of interest" description="Disordered" evidence="3">
+    <location>
+      <begin position="393"/>
+      <end position="456"/>
+    </location>
+  </feature>
+  <feature type="compositionally biased region" description="Basic and acidic residues" evidence="3">
+    <location>
+      <begin position="424"/>
+      <end position="444"/>
+    </location>
+  </feature>
+  <feature type="site" description="Interaction with METTL3" evidence="9 18 19 20">
+    <location>
+      <position position="146"/>
+    </location>
+  </feature>
+  <feature type="site" description="Interaction with METTL3" evidence="9 18 19 20">
+    <location>
+      <position position="242"/>
+    </location>
+  </feature>
+  <feature type="site" description="Interaction with METTL3" evidence="9 18 19 20">
+    <location>
+      <position position="245"/>
+    </location>
+  </feature>
+  <feature type="site" description="Interaction with METTL3" evidence="9 18 19 20">
+    <location>
+      <position position="298"/>
+    </location>
+  </feature>
+  <feature type="site" description="Interaction with METTL3" evidence="9 18 19 20">
+    <location>
+      <position position="399"/>
+    </location>
+  </feature>
+  <feature type="modified residue" description="Phosphoserine" evidence="9 12 18 19 20 21">
+    <location>
+      <position position="399"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Does not affect nuclear localization." evidence="12">
+    <original>KRK</original>
+    <variation>GGG</variation>
+    <location>
+      <begin position="63"/>
+      <end position="65"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Little or no effect on S-adenosyl-L-methionine-binding or methyltransferase activity; when associated with A-192." evidence="9">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="173"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Little or no effect on methyltransferase activity. Little or no effect on S-adenosyl-L-methionine-binding or methyltransferase activity; when associated with A-173." evidence="9 10 11">
+    <original>E</original>
+    <variation>A</variation>
+    <location>
+      <position position="192"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Does not affect methyltransferase activity of the heterodimer complex formed with METTL3." evidence="11">
+    <original>Y</original>
+    <variation>A</variation>
+    <location>
+      <position position="198"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduced RNA-binding. Reduced RNA-binding; when associated with E-255." evidence="9">
+    <original>R</original>
+    <variation>E</variation>
+    <location>
+      <position position="245"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Strongly reduced methyltransferase activity of the heterodimer complex formed with METTL3." evidence="11">
+    <original>RR</original>
+    <variation>AA</variation>
+    <location>
+      <begin position="254"/>
+      <end position="255"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduced RNA-binding; when associated with E-245." evidence="9">
+    <original>R</original>
+    <variation>E</variation>
+    <location>
+      <position position="255"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Reduced RNA-binding." evidence="9">
+    <original>KR</original>
+    <variation>EE</variation>
+    <location>
+      <begin position="297"/>
+      <end position="298"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Strongly decreased methyltransferase activity of the heterodimer complex formed with METTL3, probably due to reduced RNA-binding." evidence="10">
+    <original>R</original>
+    <variation>P</variation>
+    <location>
+      <position position="298"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Decreased methyltransferase activity of the heterodimer complex formed with METTL3." evidence="10">
+    <original>D</original>
+    <variation>A</variation>
+    <location>
+      <position position="312"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Does not affect methyltransferase activity of the heterodimer complex formed with METTL3." evidence="11">
+    <original>C</original>
+    <variation>A</variation>
+    <location>
+      <position position="338"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Little or no effect on methyltransferase activity of the heterodimer complex formed with METTL3." evidence="11">
+    <original>PT</original>
+    <variation>AA</variation>
+    <location>
+      <begin position="362"/>
+      <end position="363"/>
+    </location>
+  </feature>
+  <feature type="mutagenesis site" description="Does not affect interaction with METTL3." evidence="12">
+    <original>S</original>
+    <variation>A</variation>
+    <variation>E</variation>
+    <location>
+      <position position="399"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="119"/>
+      <end position="126"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="130"/>
+      <end position="133"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="22">
+    <location>
+      <begin position="140"/>
+      <end position="145"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="147"/>
+      <end position="163"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="168"/>
+      <end position="171"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="22">
+    <location>
+      <begin position="174"/>
+      <end position="176"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="179"/>
+      <end position="181"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="186"/>
+      <end position="191"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="196"/>
+      <end position="200"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="213"/>
+      <end position="217"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="221"/>
+      <end position="223"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="225"/>
+      <end position="234"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="240"/>
+      <end position="251"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="254"/>
+      <end position="264"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="266"/>
+      <end position="268"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="25">
+    <location>
+      <begin position="280"/>
+      <end position="282"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="285"/>
+      <end position="294"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="22">
+    <location>
+      <begin position="298"/>
+      <end position="300"/>
+    </location>
+  </feature>
+  <feature type="turn" evidence="22">
+    <location>
+      <begin position="302"/>
+      <end position="304"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="309"/>
+      <end position="317"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="329"/>
+      <end position="337"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="343"/>
+      <end position="346"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="350"/>
+      <end position="352"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="22">
+    <location>
+      <begin position="358"/>
+      <end position="361"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="371"/>
+      <end position="376"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="24">
+    <location>
+      <begin position="382"/>
+      <end position="384"/>
+    </location>
+  </feature>
+  <feature type="strand" evidence="23">
+    <location>
+      <begin position="387"/>
+      <end position="389"/>
+    </location>
+  </feature>
+  <feature type="helix" evidence="22">
+    <location>
+      <begin position="390"/>
+      <end position="395"/>
+    </location>
+  </feature>
+  <evidence type="ECO:0000250" key="1">
+    <source>
+      <dbReference type="UniProtKB" id="Q3UIK4"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000255" key="2">
+    <source>
+      <dbReference type="PROSITE-ProRule" id="PRU00489"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000256" key="3">
+    <source>
+      <dbReference type="SAM" id="MobiDB-lite"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="4">
+    <source>
+      <dbReference type="PubMed" id="24316715"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="5">
+    <source>
+      <dbReference type="PubMed" id="24407421"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="6">
+    <source>
+      <dbReference type="PubMed" id="24981863"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="7">
+    <source>
+      <dbReference type="PubMed" id="25719671"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="8">
+    <source>
+      <dbReference type="PubMed" id="26458103"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="9">
+    <source>
+      <dbReference type="PubMed" id="27281194"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="10">
+    <source>
+      <dbReference type="PubMed" id="27373337"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="11">
+    <source>
+      <dbReference type="PubMed" id="27627798"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="12">
+    <source>
+      <dbReference type="PubMed" id="29348140"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000269" key="13">
+    <source>
+      <dbReference type="PubMed" id="29507755"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="14">
+    <source>
+      <dbReference type="PubMed" id="10997877"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000303" key="15">
+    <source>
+      <dbReference type="PubMed" id="27373337"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0000305" key="16"/>
+  <evidence type="ECO:0000312" key="17">
+    <source>
+      <dbReference type="HGNC" id="HGNC:29330"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="18">
+    <source>
+      <dbReference type="PDB" id="5IL0"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="19">
+    <source>
+      <dbReference type="PDB" id="5IL1"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="20">
+    <source>
+      <dbReference type="PDB" id="5IL2"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007744" key="21">
+    <source>
+      <dbReference type="PubMed" id="24275569"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="22">
+    <source>
+      <dbReference type="PDB" id="5IL2"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="23">
+    <source>
+      <dbReference type="PDB" id="5TEY"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="24">
+    <source>
+      <dbReference type="PDB" id="6TTP"/>
+    </source>
+  </evidence>
+  <evidence type="ECO:0007829" key="25">
+    <source>
+      <dbReference type="PDB" id="7RX7"/>
+    </source>
+  </evidence>
+  <sequence length="456" mass="52150" checksum="73A45B66BB76E241" modified="2008-03-18" version="2">MDSRLQEIRERQKLRRQLLAQQLGAESADSIGAVLNSKDEQREIAETRETCRASYDTSAPNAKRKYLDEGETDEDKMEEYKDELEMQQDEENLPYEEEIYKDSSTFLKGTQSLNPHNDYCQHFVDTGHRPQNFIRDVGLADRFEEYPKLRELIRLKDELIAKSNTPPMYLQADIEAFDIRELTPKFDVILLEPPLEEYYRETGITANEKCWTWDDIMKLEIDEIAAPRSFIFLWCGSGEGLDLGRVCLRKWGYRRCEDICWIKTNKNNPGKTKTLDPKAVFQRTKEHCLMGIKGTVKRSTDGDFIHANVDIDLIITEEPEIGNIEKPVEIFHIIEHFCLGRRRLHLFGRDSTIRPGWLTVGPTLTNSNYNAETYASYFSAPNSYLTGCTEEIERLRPKSPPPKSKSDRGGGAPRGGGRGGTSAGRGRERNRSNFRGERGGFRGGRGGAHRGGFPPR</sequence>
+</entry>
+<copyright>
+Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms Distributed under the Creative Commons Attribution (CC BY 4.0) License
+</copyright>
+</uniprot>

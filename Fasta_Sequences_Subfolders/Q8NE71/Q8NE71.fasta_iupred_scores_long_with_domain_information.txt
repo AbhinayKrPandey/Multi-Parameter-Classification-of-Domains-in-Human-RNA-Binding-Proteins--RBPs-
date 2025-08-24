@@ -1,0 +1,857 @@
+# IUPred3 - improved prediction of protein disorder with a focus on specific user applications 
+# Gábor Erdős, Mátyás Pajkos, Zsuzsanna Dosztányi
+# Nucleic Acids Research 2021, Submitted
+# 
+# IUPred2A: context-dependent prediction of protein disorder as a function of redox state and protein binding
+# Balint Meszaros, Gabor Erdos, Zsuzsanna Dosztanyi
+# Nucleic Acids Research 2018;46(W1):W329-W337.
+#
+# Prediction type: long
+# Smoothing used: medium
+# Prediction output
+# POS	RES	IUPRED2	
+1	M	0.9908	
+2	P	0.9884	
+3	K	0.9807	
+4	A	0.9710	
+5	P	0.9616	
+6	K	0.9540	
+7	Q	0.9489	
+8	Q	0.9465	
+9	P	0.9465	
+10	P	0.9480	
+11	E	0.9502	
+12	P	0.9522	
+13	E	0.9531	
+14	W	0.9479	
+15	I	0.9442	
+16	G	0.9372	
+17	D	0.9207	
+18	G	0.8919	
+19	E	0.8629	
+20	S	0.8368	
+21	T	0.8177	
+22	S	0.8015	
+23	P	0.7940	
+24	S	0.7968	
+25	D	0.7988	
+26	K	0.7992	
+27	V	0.7960	
+28	V	0.7827	
+29	K	0.7586	
+30	K	0.7229	
+31	G	0.6740	
+32	K	0.6182	
+33	K	0.5694	
+34	D	0.5350	
+35	K	0.5100	
+36	K	0.4905	
+37	I	0.4874	
+38	K	0.4958	
+39	K	0.5146	
+40	T	0.5306	
+41	F	0.5488	
+42	F	0.5696	
+43	E	0.5854	
+44	E	0.5935	
+45	L	0.5911	
+46	A	0.5827	
+47	V	0.5816	
+48	E	0.5824	
+49	D	0.5876	
+50	K	0.5980	
+51	Q	0.6141	
+52	A	0.6420	
+53	G	0.6755	
+54	E	0.7119	
+55	E	0.7503	
+56	E	0.7868	
+57	K	0.8193	
+58	V	0.8425	
+59	L	0.8598	
+60	K	0.8707	
+61	E	0.8781	
+62	K	0.8796	
+63	E	0.8737	
+64	Q	0.8673	
+65	Q	0.8650	
+66	Q	0.8633	
+67	Q	0.8689	
+68	Q	0.8772	
+69	Q	0.8866	
+70	Q	0.9007	
+71	Q	0.9138	
+72	Q	0.9228	
+73	Q	0.9245	
+74	K	0.9193	
+75	K	0.9092	
+76	K	0.8981	
+77	R	0.8883	
+78	D	0.8776	
+79	T	0.8696	
+80	R	0.8612	
+81	K	0.8560	
+82	G	0.8514	
+83	R	0.8499	
+84	R	0.8474	
+85	K	0.8444	
+86	K	0.8436	
+87	D	0.8371	
+88	V	0.8345	
+89	D	0.8245	
+90	D	0.8132	
+91	D	0.7961	
+92	G	0.7761	
+93	E	0.7589	
+94	E	0.7492	
+95	K	0.7457	
+96	E	0.7444	
+97	L	0.7555	
+98	M	0.7648	
+99	E	0.7767	
+100	R	0.7779	
+101	L	0.7797	
+102	K	0.7753	
+103	K	0.7711	
+104	L	0.7695	
+105	S	0.7694	
+106	V	0.7810	
+107	P	0.7949	
+108	T	0.8180	
+109	S	0.8393	
+110	D	0.8607	
+111	E	0.8801	
+112	E	0.8947	
+113	D	0.9043	
+114	E	0.9114	
+115	V	0.9209	
+116	P	0.9238	
+117	A	0.9287	
+118	P	0.9229	
+119	K	0.9183	
+120	P	0.9069	
+121	R	0.8975	
+122	G	0.8821	
+123	G	0.8676	
+124	K	0.8540	
+125	K	0.8405	
+126	T	0.8304	
+127	K	0.8196	
+128	G	0.8101	
+129	G	0.8011	
+130	N	0.7926	
+131	V	0.7853	
+132	F	0.7813	
+133	A	0.7776	
+134	A	0.7768	
+135	L	0.7775	
+136	I	0.7799	
+137	Q	0.7922	
+138	D	0.8065	
+139	Q	0.8256	
+140	S	0.8442	
+141	E	0.8667	
+142	E	0.8885	
+143	E	0.9110	
+144	E	0.9317	
+145	E	0.9477	
+146	E	0.9562	
+147	E	0.9605	
+148	K	0.9623	
+149	H	0.9607	
+150	P	0.9570	
+151	P	0.9501	
+152	K	0.9451	
+153	P	0.9364	
+154	A	0.9301	
+155	K	0.9280	
+156	P	0.9295	
+157	E	0.9309	
+158	K	0.9289	
+159	N	0.9285	
+160	R	0.9252	
+161	I	0.9192	
+162	N	0.9095	
+163	K	0.8965	
+164	A	0.8779	
+165	V	0.8598	
+166	S	0.8433	
+167	E	0.8314	
+168	E	0.8230	
+169	Q	0.8175	
+170	Q	0.8192	
+171	P	0.8208	
+172	A	0.8240	
+173	L	0.8244	
+174	K	0.8290	
+175	G	0.8402	
+176	K	0.8461	
+177	K	0.8478	
+178	G	0.8490	
+179	K	0.8447	
+180	E	0.8344	
+181	E	0.8215	
+182	K	0.8041	
+183	S	0.7877	
+184	K	0.7741	
+185	G	0.7668	
+186	K	0.7652	
+187	A	0.7694	
+188	K	0.7815	
+189	P	0.7962	
+190	Q	0.8149	
+191	N	0.8269	
+192	K	0.8348	
+193	F	0.8465	
+194	A	0.8541	
+195	A	0.8511	
+196	L	0.8383	
+197	D	0.8198	
+198	N	0.7996	
+199	E	0.7816	
+200	E	0.7708	
+201	E	0.7697	
+202	D	0.7791	
+203	K	0.7986	
+204	E	0.8256	
+205	E	0.8550	
+206	E	0.8787	
+207	I	0.8932	
+208	I	0.8983	
+209	K	0.8919	
+210	E	0.8743	
+211	K	0.8521	
+212	E	0.8341	
+213	P	0.8236	
+214	P	0.8148	
+215	K	0.8147	
+216	Q	0.8244	
+217	G	0.8404	
+218	K	0.8604	
+219	E	0.8804	
+220	K	0.8981	
+221	A	0.9089	
+222	K	0.9132	
+223	K	0.9134	
+224	A	0.9087	
+225	E	0.9015	
+226	Q	0.8938	
+227	G	0.8920	
+228	S	0.8949	
+229	E	0.9006	
+230	E	0.9086	
+231	E	0.9149	
+232	G	0.9222	
+233	E	0.9296	
+234	G	0.9326	
+235	E	0.9365	
+236	E	0.9371	
+237	E	0.9348	
+238	E	0.9309	
+239	E	0.9226	
+240	E	0.9121	
+241	G	0.9004	
+242	G	0.8857	
+243	E	0.8750	
+244	S	0.8648	
+245	K	0.8543	
+246	A	0.8408	
+247	D	0.8272	
+248	D	0.8051	
+249	P	0.7818	
+250	Y	0.7602	
+251	A	0.7393	
+252	H	0.7182	
+253	L	0.6980	
+254	S	0.6765	
+255	K	0.6584	
+256	K	0.6438	
+257	E	0.6310	
+258	K	0.6188	
+259	K	0.6058	
+260	K	0.5874	
+261	L	0.5720	
+262	K	0.5605	
+263	K	0.5540	
+264	Q	0.5427	
+265	M	0.5254	
+266	E	0.5104	
+267	Y	0.5059	
+268	E	0.5104	
+269	R	0.5246	
+270	Q	0.5355	
+271	V	0.5434	
+272	A	0.5441	
+273	S	0.5475	
+274	L	0.5441	
+275	K	0.5342	
+276	A	0.5274	
+277	A	0.5154	
+278	N	0.5055	
+279	A	0.5010	
+280	A	0.5153	
+281	E	0.5464	
+282	N	0.5742	
+283	D	0.5907	
+284	F	0.6070	
+285	S	0.6123	
+286	V	0.6295	
+287	S	0.6397	
+288	Q	0.6447	
+289	A	0.6384	
+290	E	0.6185	
+291	M	0.6118	
+292	S	0.6004	
+293	S	0.5960	
+294	R	0.5962	
+295	Q	0.5899	
+296	A	0.5769	
+297	M	0.5531	
+298	L	0.5329	
+299	E	0.5107	
+300	N	0.4886	
+301	A	0.4679	
+302	S	0.4543	
+303	D	0.4395	
+304	I	0.4388	domain ABC transporter 1
+305	K	0.4272	domain ABC transporter 1
+306	L	0.4298	domain ABC transporter 1
+307	E	0.4203	domain ABC transporter 1
+308	K	0.4037	domain ABC transporter 1
+309	F	0.3867	domain ABC transporter 1
+310	S	0.3607	domain ABC transporter 1
+311	I	0.3396	domain ABC transporter 1
+312	S	0.3081	domain ABC transporter 1
+313	A	0.2783	domain ABC transporter 1
+314	H	0.2516	domain ABC transporter 1
+315	G	0.2278	domain ABC transporter 1
+316	K	0.2136	domain ABC transporter 1
+317	E	0.2066	domain ABC transporter 1
+318	L	0.2075	domain ABC transporter 1
+319	F	0.2071	domain ABC transporter 1
+320	V	0.2127	domain ABC transporter 1
+321	N	0.2170	domain ABC transporter 1
+322	A	0.2129	domain ABC transporter 1
+323	D	0.1937	domain ABC transporter 1
+324	L	0.1790	domain ABC transporter 1
+325	Y	0.1623	domain ABC transporter 1
+326	I	0.1567	domain ABC transporter 1
+327	V	0.1617	domain ABC transporter 1
+328	A	0.1868	domain ABC transporter 1
+329	G	0.2245	domain ABC transporter 1
+330	R	0.2530	domain ABC transporter 1
+331	R	0.2847	domain ABC transporter 1
+332	Y	0.3184	domain ABC transporter 1
+333	G	0.3425	domain ABC transporter 1
+334	L	0.3596	domain ABC transporter 1
+335	V	0.3667	domain ABC transporter 1
+336	G	0.3784	domain ABC transporter 1
+337	P	0.3824	domain ABC transporter 1
+338	N	0.3929	domain ABC transporter 1
+339	G	0.4038	domain ABC transporter 1
+340	K	0.4117	domain ABC transporter 1
+341	G	0.4104	domain ABC transporter 1
+342	K	0.4179	domain ABC transporter 1
+343	T	0.4207	domain ABC transporter 1
+344	T	0.4238	domain ABC transporter 1
+345	L	0.4311	domain ABC transporter 1
+346	L	0.4474	domain ABC transporter 1
+347	K	0.4657	domain ABC transporter 1
+348	H	0.4621	domain ABC transporter 1
+349	I	0.4380	domain ABC transporter 1
+350	A	0.3967	domain ABC transporter 1
+351	N	0.3538	domain ABC transporter 1
+352	R	0.3116	domain ABC transporter 1
+353	A	0.2670	domain ABC transporter 1
+354	L	0.2393	domain ABC transporter 1
+355	S	0.2190	domain ABC transporter 1
+356	I	0.2163	domain ABC transporter 1
+357	P	0.2120	domain ABC transporter 1
+358	P	0.2157	domain ABC transporter 1
+359	N	0.2200	domain ABC transporter 1
+360	I	0.2337	domain ABC transporter 1
+361	D	0.2467	domain ABC transporter 1
+362	V	0.2654	domain ABC transporter 1
+363	L	0.2811	domain ABC transporter 1
+364	L	0.2991	domain ABC transporter 1
+365	C	0.3230	domain ABC transporter 1
+366	E	0.3374	domain ABC transporter 1
+367	Q	0.3312	domain ABC transporter 1
+368	E	0.3016	domain ABC transporter 1
+369	V	0.2697	domain ABC transporter 1
+370	V	0.2478	domain ABC transporter 1
+371	A	0.2403	domain ABC transporter 1
+372	D	0.2498	domain ABC transporter 1
+373	E	0.2794	domain ABC transporter 1
+374	T	0.3193	domain ABC transporter 1
+375	P	0.3524	domain ABC transporter 1
+376	A	0.3812	domain ABC transporter 1
+377	V	0.3954	domain ABC transporter 1
+378	Q	0.3935	domain ABC transporter 1
+379	A	0.3866	domain ABC transporter 1
+380	V	0.3705	domain ABC transporter 1
+381	L	0.3500	domain ABC transporter 1
+382	R	0.3308	domain ABC transporter 1
+383	A	0.3264	domain ABC transporter 1
+384	D	0.3246	domain ABC transporter 1
+385	T	0.3249	domain ABC transporter 1
+386	K	0.3190	domain ABC transporter 1
+387	R	0.3112	domain ABC transporter 1
+388	L	0.3132	domain ABC transporter 1
+389	K	0.3208	domain ABC transporter 1
+390	L	0.3408	domain ABC transporter 1
+391	L	0.3687	domain ABC transporter 1
+392	E	0.3994	domain ABC transporter 1
+393	E	0.4206	domain ABC transporter 1
+394	E	0.4348	domain ABC transporter 1
+395	R	0.4426	domain ABC transporter 1
+396	R	0.4477	domain ABC transporter 1
+397	L	0.4662	domain ABC transporter 1
+398	Q	0.4920	domain ABC transporter 1
+399	G	0.5248	domain ABC transporter 1
+400	Q	0.5380	domain ABC transporter 1
+401	L	0.5550	domain ABC transporter 1
+402	E	0.5597	domain ABC transporter 1
+403	Q	0.5618	domain ABC transporter 1
+404	G	0.5442	domain ABC transporter 1
+405	D	0.5142	domain ABC transporter 1
+406	D	0.4804	domain ABC transporter 1
+407	T	0.4471	domain ABC transporter 1
+408	A	0.4264	domain ABC transporter 1
+409	A	0.4188	domain ABC transporter 1
+410	E	0.4241	domain ABC transporter 1
+411	R	0.4283	domain ABC transporter 1
+412	L	0.4261	domain ABC transporter 1
+413	E	0.4177	domain ABC transporter 1
+414	K	0.4019	domain ABC transporter 1
+415	V	0.3725	domain ABC transporter 1
+416	Y	0.3538	domain ABC transporter 1
+417	E	0.3506	domain ABC transporter 1
+418	E	0.3399	domain ABC transporter 1
+419	L	0.3230	domain ABC transporter 1
+420	R	0.3116	domain ABC transporter 1
+421	A	0.3121	domain ABC transporter 1
+422	T	0.3102	domain ABC transporter 1
+423	G	0.3066	domain ABC transporter 1
+424	A	0.2939	domain ABC transporter 1
+425	A	0.2726	domain ABC transporter 1
+426	A	0.2541	domain ABC transporter 1
+427	A	0.2410	domain ABC transporter 1
+428	E	0.2299	domain ABC transporter 1
+429	A	0.2260	domain ABC transporter 1
+430	K	0.2190	domain ABC transporter 1
+431	A	0.2234	domain ABC transporter 1
+432	R	0.2357	domain ABC transporter 1
+433	R	0.2378	domain ABC transporter 1
+434	I	0.2549	domain ABC transporter 1
+435	L	0.2891	domain ABC transporter 1
+436	A	0.3314	domain ABC transporter 1
+437	G	0.3501	domain ABC transporter 1
+438	L	0.3667	domain ABC transporter 1
+439	G	0.3739	domain ABC transporter 1
+440	F	0.3861	domain ABC transporter 1
+441	D	0.3896	domain ABC transporter 1
+442	P	0.3948	domain ABC transporter 1
+443	E	0.3846	domain ABC transporter 1
+444	M	0.3820	domain ABC transporter 1
+445	Q	0.3907	domain ABC transporter 1
+446	N	0.4080	domain ABC transporter 1
+447	R	0.4261	domain ABC transporter 1
+448	P	0.4392	domain ABC transporter 1
+449	T	0.4576	domain ABC transporter 1
+450	Q	0.4654	domain ABC transporter 1
+451	K	0.4567	domain ABC transporter 1
+452	F	0.4361	domain ABC transporter 1
+453	S	0.4017	domain ABC transporter 1
+454	G	0.3668	domain ABC transporter 1
+455	G	0.3168	domain ABC transporter 1
+456	W	0.2659	domain ABC transporter 1
+457	R	0.2191	domain ABC transporter 1
+458	M	0.1893	domain ABC transporter 1
+459	R	0.1575	domain ABC transporter 1
+460	V	0.1410	domain ABC transporter 1
+461	S	0.1172	domain ABC transporter 1
+462	L	0.1044	domain ABC transporter 1
+463	A	0.0947	domain ABC transporter 1
+464	R	0.1027	domain ABC transporter 1
+465	A	0.1040	domain ABC transporter 1
+466	L	0.1121	domain ABC transporter 1
+467	F	0.1323	domain ABC transporter 1
+468	M	0.1603	domain ABC transporter 1
+469	E	0.1947	domain ABC transporter 1
+470	P	0.2215	domain ABC transporter 1
+471	T	0.2440	domain ABC transporter 1
+472	L	0.2712	domain ABC transporter 1
+473	L	0.2909	domain ABC transporter 1
+474	M	0.2987	domain ABC transporter 1
+475	L	0.3001	domain ABC transporter 1
+476	D	0.2980	domain ABC transporter 1
+477	E	0.2870	domain ABC transporter 1
+478	P	0.2596	domain ABC transporter 1
+479	T	0.2357	domain ABC transporter 1
+480	N	0.2173	domain ABC transporter 1
+481	H	0.1980	domain ABC transporter 1
+482	L	0.1903	domain ABC transporter 1
+483	D	0.1826	domain ABC transporter 1
+484	L	0.1865	domain ABC transporter 1
+485	N	0.1922	domain ABC transporter 1
+486	A	0.1995	domain ABC transporter 1
+487	V	0.1985	domain ABC transporter 1
+488	I	0.1812	domain ABC transporter 1
+489	W	0.1544	domain ABC transporter 1
+490	L	0.1256	domain ABC transporter 1
+491	N	0.0934	domain ABC transporter 1
+492	N	0.0637	domain ABC transporter 1
+493	Y	0.0447	domain ABC transporter 1
+494	L	0.0418	domain ABC transporter 1
+495	Q	0.0537	domain ABC transporter 1
+496	G	0.0628	domain ABC transporter 1
+497	W	0.0825	domain ABC transporter 1
+498	R	0.1047	domain ABC transporter 1
+499	K	0.1281	domain ABC transporter 1
+500	T	0.1401	domain ABC transporter 1
+501	L	0.1522	domain ABC transporter 1
+502	L	0.1594	domain ABC transporter 1
+503	I	0.1661	domain ABC transporter 1
+504	V	0.1684	domain ABC transporter 1
+505	S	0.1647	domain ABC transporter 1
+506	H	0.1546	domain ABC transporter 1
+507	D	0.1375	domain ABC transporter 1
+508	Q	0.1293	domain ABC transporter 1
+509	G	0.1232	domain ABC transporter 1
+510	F	0.1281	domain ABC transporter 1
+511	L	0.1457	domain ABC transporter 1
+512	D	0.1718	domain ABC transporter 1
+513	D	0.1968	domain ABC transporter 1
+514	V	0.2042	domain ABC transporter 1
+515	C	0.2077	domain ABC transporter 1
+516	T	0.2115	domain ABC transporter 1
+517	D	0.2047	domain ABC transporter 1
+518	I	0.1869	domain ABC transporter 1
+519	I	0.1680	domain ABC transporter 1
+520	H	0.1499	domain ABC transporter 1
+521	L	0.1396	domain ABC transporter 1
+522	D	0.1374	domain ABC transporter 1
+523	A	0.1502	domain ABC transporter 1
+524	Q	0.1598	domain ABC transporter 1
+525	R	0.1627	domain ABC transporter 1
+526	L	0.1635	domain ABC transporter 1
+527	H	0.1584	domain ABC transporter 1
+528	Y	0.1568	domain ABC transporter 1
+529	Y	0.1625	domain ABC transporter 1
+530	R	0.1898	domain ABC transporter 1
+531	G	0.2195	domain ABC transporter 1
+532	N	0.2254	domain ABC transporter 1
+533	Y	0.2359	domain ABC transporter 1
+534	M	0.2494	domain ABC transporter 1
+535	T	0.2622	domain ABC transporter 1
+536	F	0.2683	domain ABC transporter 1
+537	K	0.2663	domain ABC transporter 1
+538	K	0.2697	domain ABC transporter 1
+539	M	0.2619	domain ABC transporter 1
+540	Y	0.2644	domain ABC transporter 1
+541	Q	0.2827	domain ABC transporter 1
+542	Q	0.3022	domain ABC transporter 1
+543	K	0.3262	domain ABC transporter 1
+544	Q	0.3486	domain ABC transporter 1
+545	K	0.3746	domain ABC transporter 1
+546	E	0.3975	domain ABC transporter 1
+547	L	0.4143	domain ABC transporter 1
+548	L	0.4374	domain ABC transporter 1
+549	K	0.4571	
+550	Q	0.4549	
+551	Y	0.4424	
+552	E	0.4223	
+553	K	0.4210	
+554	Q	0.4148	
+555	E	0.4149	
+556	K	0.4274	
+557	K	0.4396	
+558	L	0.4677	
+559	K	0.5037	
+560	E	0.5425	
+561	L	0.5768	
+562	K	0.6021	
+563	A	0.6250	
+564	G	0.6301	
+565	G	0.6245	
+566	K	0.6115	
+567	S	0.5996	
+568	T	0.6025	
+569	K	0.6096	
+570	Q	0.6207	
+571	A	0.6463	
+572	E	0.6621	
+573	K	0.6775	
+574	Q	0.6827	
+575	T	0.6825	
+576	K	0.6774	
+577	E	0.6676	
+578	A	0.6590	
+579	L	0.6503	
+580	T	0.6546	
+581	R	0.6720	
+582	K	0.6789	
+583	Q	0.6879	
+584	Q	0.7018	
+585	K	0.7102	
+586	C	0.7259	
+587	R	0.7348	
+588	R	0.7429	
+589	K	0.7350	
+590	N	0.7281	
+591	Q	0.7217	
+592	D	0.7193	
+593	E	0.7152	
+594	E	0.7194	
+595	S	0.7204	
+596	Q	0.7252	
+597	E	0.7220	
+598	A	0.7172	
+599	P	0.6985	
+600	E	0.6541	
+601	L	0.5864	
+602	L	0.5290	
+603	K	0.4870	
+604	R	0.4597	
+605	P	0.4313	
+606	K	0.4225	
+607	E	0.4243	
+608	Y	0.4469	
+609	T	0.4792	
+610	V	0.5187	
+611	R	0.5350	
+612	F	0.5505	
+613	T	0.5403	
+614	F	0.5392	
+615	P	0.5226	
+616	D	0.5123	
+617	P	0.4929	
+618	P	0.4730	
+619	P	0.4452	
+620	L	0.4367	
+621	S	0.4459	
+622	P	0.4707	
+623	P	0.4864	
+624	V	0.4944	
+625	L	0.4919	domain ABC transporter 2
+626	G	0.4893	domain ABC transporter 2
+627	L	0.4789	domain ABC transporter 2
+628	H	0.4654	domain ABC transporter 2
+629	G	0.4357	domain ABC transporter 2
+630	V	0.4053	domain ABC transporter 2
+631	T	0.3626	domain ABC transporter 2
+632	F	0.3363	domain ABC transporter 2
+633	G	0.3019	domain ABC transporter 2
+634	Y	0.2882	domain ABC transporter 2
+635	Q	0.2639	domain ABC transporter 2
+636	G	0.2525	domain ABC transporter 2
+637	Q	0.2472	domain ABC transporter 2
+638	K	0.2545	domain ABC transporter 2
+639	P	0.2667	domain ABC transporter 2
+640	L	0.2873	domain ABC transporter 2
+641	F	0.3023	domain ABC transporter 2
+642	K	0.3104	domain ABC transporter 2
+643	N	0.3027	domain ABC transporter 2
+644	L	0.2913	domain ABC transporter 2
+645	D	0.2659	domain ABC transporter 2
+646	F	0.2430	domain ABC transporter 2
+647	G	0.2161	domain ABC transporter 2
+648	I	0.1945	domain ABC transporter 2
+649	D	0.1779	domain ABC transporter 2
+650	M	0.1851	domain ABC transporter 2
+651	D	0.2018	domain ABC transporter 2
+652	S	0.2360	domain ABC transporter 2
+653	R	0.2659	domain ABC transporter 2
+654	I	0.2929	domain ABC transporter 2
+655	C	0.3026	domain ABC transporter 2
+656	I	0.3002	domain ABC transporter 2
+657	V	0.2920	domain ABC transporter 2
+658	G	0.2737	domain ABC transporter 2
+659	P	0.2397	domain ABC transporter 2
+660	N	0.2024	domain ABC transporter 2
+661	G	0.1670	domain ABC transporter 2
+662	V	0.1455	domain ABC transporter 2
+663	G	0.1426	domain ABC transporter 2
+664	K	0.1698	domain ABC transporter 2
+665	S	0.2060	domain ABC transporter 2
+666	T	0.2524	domain ABC transporter 2
+667	L	0.2948	domain ABC transporter 2
+668	L	0.3358	domain ABC transporter 2
+669	L	0.3634	domain ABC transporter 2
+670	L	0.3854	domain ABC transporter 2
+671	L	0.3932	domain ABC transporter 2
+672	T	0.3948	domain ABC transporter 2
+673	G	0.3829	domain ABC transporter 2
+674	K	0.3693	domain ABC transporter 2
+675	L	0.3785	domain ABC transporter 2
+676	T	0.4007	domain ABC transporter 2
+677	P	0.4269	domain ABC transporter 2
+678	T	0.4354	domain ABC transporter 2
+679	H	0.4382	domain ABC transporter 2
+680	G	0.4445	domain ABC transporter 2
+681	E	0.4472	domain ABC transporter 2
+682	M	0.4452	domain ABC transporter 2
+683	R	0.4391	domain ABC transporter 2
+684	K	0.4300	domain ABC transporter 2
+685	N	0.4161	domain ABC transporter 2
+686	H	0.3962	domain ABC transporter 2
+687	R	0.3715	domain ABC transporter 2
+688	L	0.3516	domain ABC transporter 2
+689	K	0.3279	domain ABC transporter 2
+690	I	0.3137	domain ABC transporter 2
+691	G	0.2827	domain ABC transporter 2
+692	F	0.2562	domain ABC transporter 2
+693	F	0.2494	domain ABC transporter 2
+694	N	0.2604	domain ABC transporter 2
+695	Q	0.2800	domain ABC transporter 2
+696	Q	0.2762	domain ABC transporter 2
+697	Y	0.2840	domain ABC transporter 2
+698	A	0.2997	domain ABC transporter 2
+699	E	0.3308	domain ABC transporter 2
+700	Q	0.3468	domain ABC transporter 2
+701	L	0.3645	domain ABC transporter 2
+702	R	0.3803	domain ABC transporter 2
+703	M	0.3962	domain ABC transporter 2
+704	E	0.4031	domain ABC transporter 2
+705	E	0.4036	domain ABC transporter 2
+706	T	0.3949	domain ABC transporter 2
+707	P	0.3876	domain ABC transporter 2
+708	T	0.3923	domain ABC transporter 2
+709	E	0.3863	domain ABC transporter 2
+710	Y	0.3815	domain ABC transporter 2
+711	L	0.3837	domain ABC transporter 2
+712	Q	0.3923	domain ABC transporter 2
+713	R	0.3940	domain ABC transporter 2
+714	G	0.3618	domain ABC transporter 2
+715	F	0.3205	domain ABC transporter 2
+716	N	0.2666	domain ABC transporter 2
+717	L	0.2295	domain ABC transporter 2
+718	P	0.1797	domain ABC transporter 2
+719	Y	0.1399	domain ABC transporter 2
+720	Q	0.1158	domain ABC transporter 2
+721	D	0.1146	domain ABC transporter 2
+722	A	0.1243	domain ABC transporter 2
+723	R	0.1496	domain ABC transporter 2
+724	K	0.1705	domain ABC transporter 2
+725	C	0.1918	domain ABC transporter 2
+726	L	0.2116	domain ABC transporter 2
+727	G	0.2203	domain ABC transporter 2
+728	R	0.2116	domain ABC transporter 2
+729	F	0.1894	domain ABC transporter 2
+730	G	0.1611	domain ABC transporter 2
+731	L	0.1432	domain ABC transporter 2
+732	E	0.1156	domain ABC transporter 2
+733	S	0.1005	domain ABC transporter 2
+734	H	0.0932	domain ABC transporter 2
+735	A	0.1134	domain ABC transporter 2
+736	H	0.1432	domain ABC transporter 2
+737	T	0.1759	domain ABC transporter 2
+738	I	0.2058	domain ABC transporter 2
+739	Q	0.2267	domain ABC transporter 2
+740	I	0.2342	domain ABC transporter 2
+741	C	0.2284	domain ABC transporter 2
+742	K	0.2105	domain ABC transporter 2
+743	L	0.1819	domain ABC transporter 2
+744	S	0.1385	domain ABC transporter 2
+745	G	0.1058	domain ABC transporter 2
+746	G	0.0819	domain ABC transporter 2
+747	Q	0.0705	domain ABC transporter 2
+748	K	0.0798	domain ABC transporter 2
+749	A	0.1089	domain ABC transporter 2
+750	R	0.1344	domain ABC transporter 2
+751	V	0.1599	domain ABC transporter 2
+752	V	0.1695	domain ABC transporter 2
+753	F	0.1770	domain ABC transporter 2
+754	A	0.1713	domain ABC transporter 2
+755	E	0.1607	domain ABC transporter 2
+756	L	0.1359	domain ABC transporter 2
+757	A	0.1141	domain ABC transporter 2
+758	C	0.1104	domain ABC transporter 2
+759	R	0.1126	domain ABC transporter 2
+760	E	0.1427	domain ABC transporter 2
+761	P	0.1774	domain ABC transporter 2
+762	D	0.2039	domain ABC transporter 2
+763	V	0.2395	domain ABC transporter 2
+764	L	0.2719	domain ABC transporter 2
+765	I	0.3019	domain ABC transporter 2
+766	L	0.3231	domain ABC transporter 2
+767	D	0.3381	domain ABC transporter 2
+768	E	0.3414	domain ABC transporter 2
+769	P	0.3231	domain ABC transporter 2
+770	T	0.3052	domain ABC transporter 2
+771	N	0.2955	domain ABC transporter 2
+772	N	0.2910	domain ABC transporter 2
+773	L	0.2993	domain ABC transporter 2
+774	D	0.3062	domain ABC transporter 2
+775	I	0.3280	domain ABC transporter 2
+776	E	0.3520	domain ABC transporter 2
+777	S	0.3693	domain ABC transporter 2
+778	I	0.3786	domain ABC transporter 2
+779	D	0.3621	domain ABC transporter 2
+780	A	0.3236	domain ABC transporter 2
+781	L	0.2713	domain ABC transporter 2
+782	G	0.2157	domain ABC transporter 2
+783	E	0.1712	domain ABC transporter 2
+784	A	0.1401	domain ABC transporter 2
+785	I	0.1317	domain ABC transporter 2
+786	N	0.1371	domain ABC transporter 2
+787	E	0.1415	domain ABC transporter 2
+788	Y	0.1421	domain ABC transporter 2
+789	K	0.1486	domain ABC transporter 2
+790	G	0.1572	domain ABC transporter 2
+791	A	0.1579	domain ABC transporter 2
+792	V	0.1595	domain ABC transporter 2
+793	I	0.1667	domain ABC transporter 2
+794	V	0.1724	domain ABC transporter 2
+795	V	0.1813	domain ABC transporter 2
+796	S	0.1789	domain ABC transporter 2
+797	H	0.1700	domain ABC transporter 2
+798	D	0.1497	domain ABC transporter 2
+799	A	0.1272	domain ABC transporter 2
+800	R	0.1077	domain ABC transporter 2
+801	L	0.0968	domain ABC transporter 2
+802	I	0.1013	domain ABC transporter 2
+803	T	0.1195	domain ABC transporter 2
+804	E	0.1467	domain ABC transporter 2
+805	T	0.1651	domain ABC transporter 2
+806	N	0.1776	domain ABC transporter 2
+807	C	0.1944	domain ABC transporter 2
+808	Q	0.2030	domain ABC transporter 2
+809	L	0.2098	domain ABC transporter 2
+810	W	0.2082	domain ABC transporter 2
+811	V	0.2087	domain ABC transporter 2
+812	V	0.2060	domain ABC transporter 2
+813	E	0.2028	domain ABC transporter 2
+814	E	0.2074	domain ABC transporter 2
+815	Q	0.2061	domain ABC transporter 2
+816	S	0.1965	domain ABC transporter 2
+817	V	0.2022	domain ABC transporter 2
+818	S	0.2157	domain ABC transporter 2
+819	Q	0.2305	domain ABC transporter 2
+820	I	0.2524	domain ABC transporter 2
+821	D	0.2786	domain ABC transporter 2
+822	G	0.3091	domain ABC transporter 2
+823	D	0.3125	domain ABC transporter 2
+824	F	0.3110	domain ABC transporter 2
+825	E	0.2938	domain ABC transporter 2
+826	D	0.2714	domain ABC transporter 2
+827	Y	0.2438	domain ABC transporter 2
+828	K	0.2152	domain ABC transporter 2
+829	R	0.2089	domain ABC transporter 2
+830	E	0.2057	domain ABC transporter 2
+831	V	0.2110	domain ABC transporter 2
+832	L	0.2277	domain ABC transporter 2
+833	E	0.2478	domain ABC transporter 2
+834	A	0.2660	domain ABC transporter 2
+835	L	0.2775	domain ABC transporter 2
+836	G	0.2909	domain ABC transporter 2
+837	E	0.2979	domain ABC transporter 2
+838	V	0.3028	domain ABC transporter 2
+839	M	0.3067	domain ABC transporter 2
+840	V	0.3113	domain ABC transporter 2
+841	S	0.3179	
+842	R	0.3278	
+843	P	0.3416	
+844	R	0.3592	
+845	E	0.3796	
